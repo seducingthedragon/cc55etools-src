@@ -7,10 +7,7 @@
 			"srd": true,
 			"basicRules": true,
 			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
+				"Varies"
 			],
 			"entries": [
 				"Activating some magic items requires a user to do something in particular, such as holding the item and uttering a command word, reading the item if it is a scroll, or drinking it if it is a potion. The description of each item category or individual item details how an item is activated. Certain items use one or more of the following rules related to their activation.",
@@ -88,7 +85,7 @@
 				}
 			],
 			"entries": [
-				"When you take the Attack action, you can make one attack roll with a weapon or an {@variantrule Unarmed Strike|XPHB}.",
+				"When you take the Attack action, you can make one attack roll with a weapon or use one type of {@variantrule Unarmed Attack|XPHB}. Additionally, this attack action may be part of a {@action Two-Weapon Fighting|XPHB|Two-Weapon Attack} or a {@action Magic|XPHB} action, dependent on its details.",
 				{
 					"type": "entries",
 					"entries": [
@@ -299,10 +296,33 @@
 				{
 					"number": 1,
 					"unit": "action"
+				},
+				{
+					"number": 1,
+					"unit": "bonus"
 				}
 			],
 			"entries": [
-				"A {@item Shield|XPHB} can be donned or doffed as an action."
+				"A {@item Shield|XPHB} can be donned or doffed as an {@variantrule Action|XPHB}, however, if you have {@variantrule Armor Training|XPHB|shield training}, you can use a {@variantrule Bonus Action|XPHB} instead."
+			]
+		},
+		{
+			"name": "Drink a Potion",
+			"source": "XPHB",
+			"page": 377,
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				},
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"While most consumables and objects may use the {@action Utilize|XPHB} action, drinking a potion is a special circumstance.",
+				"When drinking a potion yourself, you may use a {@variantrule Bonus Action|XPHB} to do so. If you are administering the potion to another creature/ally for them, it will take an {@variantrule Action|XPHB} on your part. Handing a potion to an ally is considered a free object interaction. Additionally, potions do not cause {@status Concentration|XPHB} to occur when drinking a potion tied to a spell with it. Instead, it lasts for the full duration, however you are unable to end its effects early."
 			]
 		},
 		{
@@ -369,7 +389,14 @@
 				}
 			],
 			"entries": [
-				"A Grappled creature can use its action to make a Strength ({@skill Athletics|XPHB}) or Dexterity ({@skill Acrobatics|XPHB}) check against the grapple's escape DC, ending the {@variantrule Condition|XPHB|condition} on itself on a success. The {@variantrule Condition|XPHB|condition} also ends if the grappler has the {@condition Incapacitated|XPHB} condition or if the distance between the Grappled target and the grappler exceeds the grapple's range."
+				"A Grappled creature can use its action to make a Strength ({@skill Athletics|XPHB}) or Dexterity ({@skill Acrobatics|XPHB}) check against the grapple's escape DC, ending the {@variantrule Condition|XPHB|condition} on itself on a success. The {@variantrule Condition|XPHB|condition} also ends if the grappler has the {@condition Incapacitated|XPHB} condition or if the distance between the Grappled target and the grappler exceeds the grapple's range.",
+				{
+					"type": "entries",
+					"name": "Variation",
+					"entries": [
+						"At the discretion of the DM, escaping a grapple can be done using a contested roll. The grappled creature makes the same checks as normal, however, instead of against the escape DC, it's against the grappler's Strength ({@skill Athletics|XPHB}) check."
+					]
+				}
 			]
 		},
 		{
@@ -567,71 +594,42 @@
 			"page": 369,
 			"srd52": true,
 			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
+				"Varies"
 			],
 			"entries": [
-				"With the Influence action, you urge a monster to do something. Describe or roleplay how you're communicating with the monster. Are you trying to deceive, intimidate, amuse, or gently persuade? The DM then determines whether the monster feels willing, unwilling, or hesitant due to your interaction; this determination establishes whether an ability check is necessary, as explained below.",
+				"With the Influence action, you urge a monster to do something. Describe or roleplay how you're communicating with the monster. Are you trying to deceive, intimidate, amuse, gently persuade, or something else? See the Influence Checks table below for examples of how certain skills may be utilize to influence those around you. While this type of check may typically use a full {@variantrule Action|XPHB}, the DM will have the final determination of its time duration if another feature is not present to suggest otherwise.",
 				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Willing",
-							"entries": [
-								"If your urging aligns with the monster's desires, no ability check is necessary; the monster fulfills your request in a way it prefers."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Unwilling",
-							"entries": [
-								"If your urging is repugnant to the monster or counter to its alignment, no ability check is necessary; it doesn't comply."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Hesitant",
-							"entries": [
-								"If you urge the monster to do something that it is hesitant to do, you must make an ability check, which is affected by the monster's attitude: Indifferent, Friendly, or Hostile, each of which is defined in this glossary. The Influence Checks table suggests which ability check to make based on how you're interacting with the monster. The DM chooses the check, which has a default DC equal to 15 or the monster's Intelligence score, whichever is higher. On a successful check, the monster does as urged. On a failed check, you must wait 24 hours (or a duration set by the DM) before urging it in the same way again."
-							]
-						},
-						{
-							"type": "table",
-							"caption": "Influence Checks",
-							"colLabels": [
-								"Ability Check",
-								"Interaction"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Charisma ({@skill Deception|XPHB})",
-									"Deceiving a monster that understands you"
-								],
-								[
-									"Charisma ({@skill Intimidation|XPHB})",
-									"Intimidating a monster"
-								],
-								[
-									"Charisma ({@skill Performance|XPHB})",
-									"Amusing a monster"
-								],
-								[
-									"Charisma ({@skill Persuasion|XPHB})",
-									"Persuading a monster that understands you"
-								],
-								[
-									"Wisdom ({@skill Animal Handling|XPHB})",
-									"Gently coaxing a Beast or Monstrosity"
-								]
-							]
-						}
+					"type": "table",
+					"caption": "Influence Checks",
+					"colLabels": [
+						"Ability Check",
+						"Interaction"
+					],
+					"colStyles": [
+						"col-4",
+						"col-8"
+					],
+					"rows": [
+						[
+							"Charisma ({@skill Deception|XPHB})",
+							"Deceiving a monster that understands you"
+						],
+						[
+							"Charisma ({@skill Intimidation|XPHB})",
+							"Intimidating a monster"
+						],
+						[
+							"Charisma ({@skill Performance|XPHB})",
+							"Amusing a monster"
+						],
+						[
+							"Charisma ({@skill Persuasion|XPHB})",
+							"Persuading a monster that understands you"
+						],
+						[
+							"Wisdom ({@skill Animal Handling|XPHB})",
+							"Gently coaxing a Beast or Monstrosity"
+						]
 					]
 				}
 			]
@@ -698,7 +696,8 @@
 				}
 			],
 			"entries": [
-				"You can make an Opportunity Attack when a creature that you can see leaves your reach using its action, its {@variantrule Bonus Action|XPHB}, its {@variantrule Reaction|XPHB}, or one of its speeds. To make the Opportunity Attack, take a {@variantrule Reaction|XPHB} to make one melee attack with a weapon or an {@variantrule Unarmed Strike|XPHB} against the provoking creature. The attack occurs right before the creature leaves your reach."
+				"You can make an Opportunity Attack when a creature that you can see leaves your reach using its action, its {@variantrule Bonus Action|XPHB}, its {@variantrule Reaction|XPHB}, or one of its speeds. To make the Opportunity Attack, take a {@variantrule Reaction|XPHB} to make one melee attack with a weapon or an {@variantrule Unarmed Strike|XPHB} against the provoking creature. The attack occurs right before the creature leaves your reach.",
+				"Typically, if a creature is forced out of your reach against their will, it may be due to an {@variantrule Area of Effect|XPHB}, which may also impact you. In such scenarios, you cannot use an opportunity attack, however, if a creature is forced out of your reach by a targeted effect, such as with {@spell Thorn Whip|XPHB} or {@spell Lightning Lure|TCE} by a known ally, you may attempt this reaction at {@variantrule Disadvantage|XPHB}."
 			]
 		},
 		{
@@ -839,13 +838,10 @@
 			"page": 373,
 			"srd52": true,
 			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
+				"Varies"
 			],
 			"entries": [
-				"When you take the Search action, you make a Wisdom check to discern something that isn't obvious. The Search table suggests which skills are applicable when you take this action, depending on what you're trying to detect.",
+				"When you take the Search action, you make a Wisdom check to discern something that isn't obvious. The Search table provides examples on how to use certain skills when searching. While this type of check may typically use a full {@variantrule Action|XPHB}, the DM will have the final determination of its time duration if another feature is not present to suggest otherwise.",
 				{
 					"type": "table",
 					"caption": "Search",
@@ -946,14 +942,10 @@
 			"page": 375,
 			"srd52": true,
 			"time": [
-				{
-					"number": 1,
-					"unit": "action"
-				}
+				"Varies"
 			],
 			"entries": [
-				"When you take the Study action, you make an Intelligence check to study your memory, a book, a clue, or another source of knowledge and call to mind an important piece of information about it.",
-				"The Areas of Knowledge table suggests which skills are applicable to various areas of knowledge.",
+				"When you take the Study action, you make an Intelligence check to study your memory, a book, a clue, or another source of knowledge and call to mind an important piece of information about it. The Areas of Knowledge table provides examples of how certain skills may be utilized. While this type of check may typically use a full {@variantrule Action|XPHB}, the DM will have the final determination of its time duration if another feature is not present to suggest otherwise.",
 				{
 					"type": "table",
 					"caption": "Areas of Knowledge",
@@ -1044,11 +1036,16 @@
 			"time": [
 				{
 					"number": 1,
+					"unit": "action"
+				},
+				{
+					"number": 1,
 					"unit": "bonus"
 				}
 			],
 			"entries": [
-				"When you take the {@action Attack|XPHB} action on your turn and attack with a Light weapon, you can make one extra attack as a {@variantrule Bonus Action|XPHB} later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage unless that modifier is negative. For example, you can attack with a {@item Shortsword|XPHB} in one hand and a {@item Dagger|XPHB} in the other using the {@action Attack|XPHB} action and a {@variantrule Bonus Action|XPHB}, but you don't add your Strength or Dexterity modifier to the damage roll of the {@variantrule Bonus Action|XPHB} unless that modifier is negative."
+				"When you engage in a Two-Weapon Fighting attack, you make one attack using your main-hand with a Light weapon for an {@action Attack|XPHB} action and then make a second attack using your off-hand with another Light weapon as a {@variantrule Bonus Action|XPHB} on your same turn. The second attack still uses your ability modifier for the attack roll but does not use it for the damage role, unless that modifier is negative or you have a feature that allows you to do so.",
+				"If either Light weapon has the thrown property, you can use its ranged ability and still engage in Two-Weapon Fighting. If you make an {@action Opportunity Attack|XPHB} while wielding two light weapons, you maintain those rules, making only one attack."
 			],
 			"seeAlsoAction": [
 				"attack|xphb"

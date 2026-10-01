@@ -15791,21 +15791,21 @@
 			]
 		},
 		{
-			"name": "Unarmed Strike",
+			"name": "Unarmed Attack",
 			"source": "XPHB",
 			"page": 377,
 			"srd52": true,
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"Instead of using a weapon to make a melee attack, you can use a punch, kick, head-butt, or similar forceful blow. In game terms, this is an Unarmed Strike\u2014a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.",
-				"Whenever you use your Unarmed Strike, choose one of the following options for its effect.",
+				"Instead of using a weapon to make a melee attack, you can use a punch, kick, head-butt, or similar forceful blow. In game terms, this is an Unarmed Attack\u2014a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.",
+				"Whenever you use your Unarmed Attack, choose one of the following options for its effect.",
 				{
 					"type": "entries",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Damage",
+							"name": "Strike Attack",
 							"entries": [
 								"You make an attack roll against the target. Your bonus to the roll equals your Strength modifier plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}. On a hit, the target takes Bludgeoning damage equal to 1 plus your Strength modifier."
 							]
