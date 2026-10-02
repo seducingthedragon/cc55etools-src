@@ -19597,29 +19597,7 @@
 			"basicRules2024": true,
 			"type": "GS|XPHB",
 			"rarity": "none",
-			"value": 10,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Wisdom"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
-							]
-						}
-					]
-				}
-			]
+			"value": 10
 		},
 		{
 			"name": "Dictation Quill",
@@ -20455,29 +20433,7 @@
 			"basicRules2024": true,
 			"type": "GS|XPHB",
 			"rarity": "none",
-			"value": 100,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Wisdom"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
-							]
-						}
-					]
-				}
-			]
+			"value": 100
 		},
 		{
 			"name": "Dragongleam",
@@ -45772,29 +45728,7 @@
 			"basicRules2024": true,
 			"type": "GS|XPHB",
 			"rarity": "none",
-			"value": 50,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Wisdom"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
-							]
-						}
-					]
-				}
-			]
+			"value": 50
 		},
 		{
 			"name": "Poison Absorbing Tattoo",
@@ -69276,29 +69210,7 @@
 			"basicRules2024": true,
 			"type": "GS|XPHB",
 			"rarity": "none",
-			"value": 100,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Wisdom"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
-							]
-						}
-					]
-				}
-			]
+			"value": 100
 		},
 		{
 			"name": "Throne Card",
