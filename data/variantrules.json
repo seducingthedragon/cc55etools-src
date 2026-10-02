@@ -5648,6 +5648,25 @@
 			]
 		},
 		{
+			"name": "Feats Ability Score Increase",
+			"source": "XPHB",
+			"page": 367,
+			"ruleType": "V",
+			"entries": [
+				"When utilizing feats from non-standard sources, they may not necessarily come with an Ability Score Increase (or ASI for short). Since all feats from core source materials, excluding {@feat Skilled|XPHB}, provides a +1 ASI, players may gain a +1 with their choosen feat, with DM's discretion.",
+				"The following is a recommended guideline to determine which ability gains the +1 bonus, however, the DM has the final say as to how this process is handled.",
+				{
+					"type": "list",
+					"items": [
+						"If the feat is related to spellcasting, the +1 bonus may go to Intelligence, Wisdom, 0r Charisma.",
+						"If the feat is purely martial based, the +1 bonus may go to Strength, Dexterity, or Constitution.",
+						"If the feat is general, such as the {@feat Skill Expert} feat, the +1 bonus may go to any ability.",
+						"If the feat focuses on a specific skill or ability, or two unique ones that is not purely spellcasting or purely martial based, the +1 bonus may go to the ability that best fits the feat in question."
+					]
+				}
+			]
+		},
+		{
 			"name": "Firearms",
 			"source": "DMG",
 			"page": 267,
