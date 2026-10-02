@@ -42,22 +42,24 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"On your turn, you can take one action. Choose which action to take from those below or from the special actions provided by your features. These actions are defined elsewhere in this glossary:",
+				"On your turn, you can take one action. Choose which action to take from those below or from the special actions provided by your features. These actions are defined elsewhere in this glossary and some may be used as a {@variantrule Bonus Action|XPHB} instead.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
-					"columns": 4,
+					"columns": 5,
 					"items": [
 						"{@action Attack|XPHB}",
-						"{@action Dodge|XPHB}",
 						"{@action Dash|XPHB}",
-						"{@action Help|XPHB}",
 						"{@action Disengage|XPHB}",
+						"{@action Dodge|XPHB}",
+						"{@action Grapple [Unarmed Attack]|XPHB|Grapple}",
+						"{@action Help|XPHB}",
 						"{@action Hide|XPHB}",
 						"{@action Influence|XPHB}",
 						"{@action Magic|XPHB}",
 						"{@action Ready|XPHB}",
 						"{@action Search|XPHB}",
+						"{@action Shove [Unarmed Attack]|XPHB|Shove}",
 						"{@action Study|XPHB}",
 						"{@action Utilize|XPHB}"
 					]
@@ -670,7 +672,7 @@
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
-					"columns": 3,
+					"columns": 4,
 					"items": [
 						"{@condition Blinded|XPHB}",
 						"{@condition Charmed|XPHB}",
@@ -678,6 +680,7 @@
 						"{@condition Exhaustion|XPHB}",
 						"{@condition Frightened|XPHB}",
 						"{@condition Grappled|XPHB}",
+						"{@condition Hidden|XPHB}",
 						"{@condition Incapacitated|XPHB}",
 						"{@condition Invisible|XPHB}",
 						"{@condition Paralyzed|XPHB}",
@@ -1189,7 +1192,7 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"An area of Darkness is {@variantrule Heavily Obscured|XPHB}."
+				"An area of Darkness is {@variantrule Heavily Obscured|XPHB}. It does not require anything in the environment to obscure vision other than the lack of light."
 			]
 		},
 		{
@@ -1271,7 +1274,7 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"An area with Dim Light is {@variantrule Lightly Obscured|XPHB}."
+				"An area with Dim Light is {@variantrule Lightly Obscured|XPHB}. It does not require anything in the environment to obscure vision other than low light."
 			]
 		},
 		{
@@ -5920,7 +5923,7 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"You have the {@condition Blinded|XPHB} condition while trying to see something in a Heavily Obscured space."
+				"You have the {@condition Blinded|XPHB} condition while trying to see something in a Heavily Obscured space. This requires something in the environment that impacts vision, such as large plumes of smoke, when light is not a factor."
 			]
 		},
 		{
@@ -6591,7 +6594,7 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"You have {@variantrule Disadvantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks to see something in a Lightly Obscured space."
+				"You have {@variantrule Disadvantage|XPHB} on Wisdom ({@skill Perception|XPHB}) checks to see something in a Lightly Obscured space. This requires something in the environment that impacts vision, such as rainfall, when light is not a factor."
 			]
 		},
 		{
@@ -6627,7 +6630,7 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"A Long Rest is a period of extended downtime\u2014at least 8 hours\u2014available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.",
+				"A Long Rest is a period of extended downtime available to any creature. During a Long Rest, you sleep for a minimum of 6 hours, with the option to perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.",
 				"During sleep, you have the {@condition Unconscious|XPHB} condition. After you finish a Long Rest, you must wait at least 16 hours before starting another one.",
 				{
 					"type": "entries",
@@ -11887,7 +11890,7 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"A Short Rest is a 1-hour period of downtime, during which a creature does nothing more strenuous than reading, talking, eating, or standing watch. To start a Short Rest, you must have at least 1 {@variantrule Hit Points|XPHB|Hit Point}.",
+				"A Short Rest is a short period of downtime, during which a creature does nothing more strenuous than reading, talking, eating, or standing watch. The duration of a short rest can vary and is at the DM's discretion, typically averaging 1 hour. To start a Short Rest, you must have at least 1 {@variantrule Hit Points|XPHB|Hit Point}.",
 				{
 					"type": "entries",
 					"entries": [

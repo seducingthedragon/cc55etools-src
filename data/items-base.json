@@ -6968,7 +6968,7 @@
 					"type": "entries",
 					"name": "Ammunition",
 					"entries": [
-						"You can use a weapon that has the Ammunition property to make a ranged attack only if you have ammunition to fire from it. The type of ammunition required is specified with the weapon's range. Each attack expends one piece of ammunition. Drawing the ammunition is part of the attack (you need a free hand to load a one-handed weapon). After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost."
+						"You can use a weapon that has the Ammunition property to make a ranged attack only if you have ammunition to fire from it. The type of ammunition required is specified with the weapon's range. Each attack expends one piece of ammunition. Drawing the ammunition is part of the attack (you need a free hand to load a one-handed weapon). After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.."
 					]
 				}
 			]
@@ -7152,7 +7152,7 @@
 					"type": "entries",
 					"name": "Light",
 					"entries": [
-						"When you take the {@action Attack|XPHB} action on your turn and attack with a Light weapon, you can make one extra attack as a {@variantrule Bonus Action|XPHB} later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage unless that modifier is negative. For example, you can attack with a {@item Shortsword|XPHB} in one hand and a {@item Dagger|XPHB} in the other using the {@action Attack|XPHB} action and a {@variantrule Bonus Action|XPHB}, but you don't add your Strength or Dexterity modifier to the damage roll of the {@variantrule Bonus Action|XPHB} unless that modifier is negative."
+						"Light Weapons are small and easy to handle in your off-hand. Additionally, two light weapons can be wielded simultaenously, making it ideal for engaging in {@action Two-Weapon Fighting|XPHB}."
 					]
 				}
 			]
@@ -7186,7 +7186,7 @@
 					"type": "entries",
 					"name": "Loading",
 					"entries": [
-						"You can fire only one piece of ammunition from a Loading weapon when you use an action, a {@variantrule Bonus Action|XPHB}, or a {@variantrule Reaction|XPHB} to fire it, regardless of the number of attacks you can normally make."
+						"You can fire only one piece of ammunition from a Loading weapon when you use an action, a {@variantrule Bonus Action|XPHB}, or a {@variantrule Reaction|XPHB} to fire it, regardless of the number of attacks you can normally make. Loading the ammunition uses your {@action Other Activity|PHB|Free Object Interaction} or a {@variantrule Bonus Action|XPHB}."
 					]
 				}
 			]
@@ -7253,7 +7253,7 @@
 					"type": "entries",
 					"name": "Reload",
 					"entries": [
-						"You can make a limited number of shots with a Reload weapon. You must then reload the weapon as an action or a {@variantrule Bonus Action|XPHB}."
+						"You can make a limited number of shots with a Reload weapon. You must then reload the weapon as an action or a {@variantrule Bonus Action|XPHB} to reload all applicable shots. As a {@action Free Object Interaction}, a single ammunition can be loaded instead."
 					]
 				}
 			]
