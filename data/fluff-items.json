@@ -1022,6 +1022,23 @@
 			]
 		},
 		{
+			"name": "Birdpipes",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Birdpipes are also known as Pan pipes, Satyr pipes, or a Shalm. In some worlds, these are sacred to {@deity Lliira|Faerûnian|scag} and popular with wood elf and wild elf bards. In others, they are simple yet soothing instrument of those hidden in the forests."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Black Dragon Scale Mail",
 			"source": "XDMG",
 			"_copy": {
@@ -3065,6 +3082,23 @@
 			]
 		},
 		{
+			"name": "Double-Bladed Scimitar",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"The double-bladed scimitar is the signature weapon of various Elven communities. A haft of fine wood supports a long, curving blade on either end. Forged with techniques honed over centuries, these blades are strong, sharp, and remarkably light. Each scimitar is a masterpiece, and as a result the double-bladed scimitar is an expensive weapon (100 gp)\u2014few though ever have the opportunity to purchase one. This blade in the hands of a non-elf is generally assumed to have been stolen or looted from a fallen foe, and an Elf might feel entitled to demand its return or challenge the bearer to prove they're worthy to wield it."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Draakhorn",
 			"source": "RoT",
 			"images": [
@@ -4572,6 +4606,23 @@
 			]
 		},
 		{
+			"name": "Glaur",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Short, curved horns like a cornucopia. Played with valves, glaur sound like trumpets, while those without valves, known as gloon, have a more mournful sound."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Gloves of Missile Snaring",
 			"source": "DMG",
 			"images": [
@@ -5020,6 +5071,23 @@
 					"credit": "Polar Engine",
 					"width": 393,
 					"height": 180
+				}
+			]
+		},
+		{
+			"name": "Hand Drum",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A double-headed skin drum fitted with handles along its side."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -6779,6 +6847,23 @@
 					"credit": "Polar Engine",
 					"width": 136,
 					"height": 956
+				}
+			]
+		},
+		{
+			"name": "Longhorn",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"In some worlds, it is considered to be a flute of sophisticated make, found only in areas with skilled artisans, as in great cities or elven enclaves. Typically, it is a trumpet-shape instrument with a long reach and no valves, often seen at a royal court."
+							]
+						}
+					]
 				}
 			]
 		},

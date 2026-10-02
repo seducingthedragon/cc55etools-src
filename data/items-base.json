@@ -486,11 +486,24 @@
 			"name": "Birdpipes",
 			"source": "SCAG",
 			"page": 124,
+			"reprintedAs": [
+				"Birdpipes|XPHB"
+			],
 			"type": "INS",
 			"rarity": "none",
 			"entries": [
 				"Pan pipes or satyr pipes, also known as the shalm, these are sacred to {@deity Lliira|Faerûnian|scag} and popular with wood elf and wild elf bards."
 			]
+		},
+		{
+			"name": "Birdpipes",
+			"source": "XPHB",
+			"page": 221,
+			"type": "INS",
+			"rarity": "none",
+			"weight": 1,
+			"value": 500,
+			"hasFluff": true
 		},
 		{
 			"name": "Blowgun",
@@ -1822,6 +1835,9 @@
 			"name": "Double-Bladed Scimitar",
 			"source": "ERLW",
 			"page": 21,
+			"reprintedAs": [
+				"Double-Bladed Scimitar|XPHB"
+			],
 			"type": "M",
 			"rarity": "none",
 			"weight": 6,
@@ -1830,6 +1846,37 @@
 			"property": [
 				"S",
 				"2H"
+			],
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Double-Bladed Scimitar",
+			"source": "XPHB",
+			"page": 215,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 10000,
+			"weaponCategory": "martial",
+			"property": [
+				"S",
+				"2H"
+			],
+			"mastery": [
+				"Vex|XPHB"
 			],
 			"dmg1": "2d4",
 			"dmgType": "S",
@@ -2308,11 +2355,24 @@
 			"name": "Glaur",
 			"source": "SCAG",
 			"page": 124,
+			"reprintedAs": [
+				"Glaur|XPHB"
+			],
 			"type": "INS",
 			"rarity": "none",
 			"entries": [
 				"Short, curved horns like a cornucopia. Played with valves, glaur sound like trumpets, while those without valves, known as gloon, have a more mournful sound."
 			]
+		},
+		{
+			"name": "Glaur",
+			"source": "XPHB",
+			"page": 221,
+			"type": "INS",
+			"rarity": "none",
+			"weight": 3,
+			"value": 200,
+			"hasFluff": true
 		},
 		{
 			"name": "Greataxe",
@@ -2637,11 +2697,24 @@
 			"name": "Hand Drum",
 			"source": "SCAG",
 			"page": 124,
+			"reprintedAs": [
+				"Hand Drum|XPHB"
+			],
 			"type": "INS",
 			"rarity": "none",
 			"entries": [
 				"A double-headed skin drum fitted with handles along its side."
 			]
+		},
+		{
+			"name": "Hand Drum",
+			"source": "XPHB",
+			"page": 221,
+			"weight": 3,
+			"value": 500,
+			"type": "INS",
+			"rarity": "none",
+			"hasFluff": true
 		},
 		{
 			"name": "Handaxe",
@@ -2823,6 +2896,9 @@
 			"name": "Hoopak",
 			"source": "DSotDQ",
 			"page": 188,
+			"reprintedAs": [
+				"Hoopak|XPHB"
+			],
 			"type": "M",
 			"rarity": "none",
 			"weight": 2,
@@ -2833,6 +2909,41 @@
 				"F",
 				"S",
 				"2H"
+			],
+			"range": "40/160",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other.",
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"When you make a melee attack with this weapon, you ignore its ammunition property. You can use the hoopak as a martial ranged weapon. If you do, it uses the ammunition property, uses sling bullets, and deals {@damage 1d4} bludgeoning damage on a hit."
+					]
+				}
+			],
+			"ammoType": "sling bullet|phb",
+			"hasFluffImages": true
+		},
+		{
+			"name": "Hoopak",
+			"source": "XPHB",
+			"page": 215,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 10,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"F",
+				"S",
+				"2H"
+			],
+			"mastery": [
+				"Push|XPHB"
 			],
 			"range": "40/160",
 			"dmg1": "1d6",
@@ -3671,11 +3782,24 @@
 			"name": "Longhorn",
 			"source": "SCAG",
 			"page": 124,
+			"reprintedAs": [
+				"Longhorn|XPHB"
+			],
 			"type": "INS",
 			"rarity": "none",
 			"entries": [
 				"A Faerûnian flute of sophisticated make, found only in areas with skilled artisans, as in great cities or elven enclaves."
 			]
+		},
+		{
+			"name": "Longhorn",
+			"source": "XPHB",
+			"page": 221,
+			"type": "INS",
+			"rarity": "none",
+			"weight": 2,
+			"value": 4000,
+			"hasFluff": true
 		},
 		{
 			"name": "Longsword",
