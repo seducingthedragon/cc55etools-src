@@ -399,6 +399,35 @@
 			]
 		},
 		{
+			"name": "Hidden",
+			"source": "XPHB",
+			"page": 367,
+			"srd52": true,
+			"basicRules2024": true,
+			"entries": [
+				"On a successful {@action Hide|XPHB} action, you gain the Hidden Condition, granting you total cover behind the object or creature you are hiding behind, concealing your presence. While hidden, you cannot be perceived without the use of movement, noise, or magic. If you move, make audible noise, or take any action, you lose the hidden condition afterwards. You gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Initiative Boost",
+							"entries": [
+								"You have advantage on initiative rolls if you are already hidden."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Surprise",
+							"entries": [
+								"You have advantage on your next attack roll, as long as it is not a {@action Magic|XPHB|spell} with a verbal component. If your {@action Magic|XPHB} action requires a saving throw, the targeted creature(s) will make their saving throw with disadvantage as long as the spell does not have any Verbal components. After this action, you are no longer hidden."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Incapacitated",
 			"source": "PHB",
 			"page": 290,

@@ -566,9 +566,8 @@
 				}
 			],
 			"entries": [
-				"With the Hide action, you try to conceal yourself. To do so, you must succeed on a {@dc 15} Dexterity ({@skill Stealth|XPHB}) check while you're {@variantrule Heavily Obscured|XPHB} or behind {@variantrule Cover|XPHB|Three-Quarters Cover or Total Cover}, and you must be out of any enemy's line of sight; if you can see a creature, you can discern whether it can see you.",
-				"On a successful check, you have the {@condition Invisible|XPHB} condition while hidden. Make note of your check's total, which is the DC for a creature to find you with a Wisdom ({@skill Perception|XPHB}) check.",
-				"You stop being hidden immediately after any of the following occurs: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a Verbal component."
+				"With the Hide action, you try to conceal yourself, dependent on the surrounding environments ability to provide cover. To do so, you must succeed on a Dexterity ({@skill Stealth|XPHB}) check in order to become hidden. The DC for this check is set by the DM, with a {@dc 15} as a recommendation.",
+				"On a successful check, you have the {@condition Hidden|XPHB} condition. This check will become the DC in which creatures need to meet on a Wisdom ({@skill Perception|XPHB}) check to spot/find you. On a failed check, your {@variantrule Action|XPHB} is still used for that turn."
 			]
 		},
 		{

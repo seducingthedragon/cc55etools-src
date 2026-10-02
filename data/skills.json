@@ -245,7 +245,7 @@
 			"srd52": true,
 			"ability": "wis",
 			"entries": [
-				"Diagnose an illness, or determine what killed the recently slain."
+				"Stabilizing a dying creature, or providing home remedies as treatment. To diagnose an illness, or determine what killed the recently slain may be considered an Intelligence ({@skill Medicine|XPHB}) check or Wisdom, based on its related information."
 			]
 		},
 		{
