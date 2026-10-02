@@ -499,7 +499,7 @@
 			"name": "Birdpipes",
 			"source": "XPHB",
 			"page": 221,
-			"type": "INS",
+			"type": "INS|XPHB",
 			"rarity": "none",
 			"weight": 1,
 			"value": 500,
@@ -1866,14 +1866,15 @@
 			"name": "Double-Bladed Scimitar",
 			"source": "XPHB",
 			"page": 215,
-			"type": "M",
+			"edition": "one",
+			"type": "M|XPHB",
 			"rarity": "none",
-			"weight": 6,
+			"weight": 5,
 			"value": 10000,
 			"weaponCategory": "martial",
 			"property": [
-				"S",
-				"2H"
+				"S|XPHB",
+				"2H|XPHB"
 			],
 			"mastery": [
 				"Vex|XPHB"
@@ -2368,7 +2369,8 @@
 			"name": "Glaur",
 			"source": "XPHB",
 			"page": 221,
-			"type": "INS",
+			"edition": "one",
+			"type": "INS|XPHB",
 			"rarity": "none",
 			"weight": 3,
 			"value": 200,
@@ -2712,7 +2714,8 @@
 			"page": 221,
 			"weight": 3,
 			"value": 500,
-			"type": "INS",
+			"edition": "one",
+			"type": "INS|XPHB",
 			"rarity": "none",
 			"hasFluff": true
 		},
@@ -2931,16 +2934,17 @@
 			"name": "Hoopak",
 			"source": "XPHB",
 			"page": 215,
-			"type": "M",
+			"edition": "one",
+			"type": "M|XPHB",
 			"rarity": "none",
 			"weight": 2,
 			"value": 10,
 			"weaponCategory": "martial",
 			"property": [
-				"A",
-				"F",
-				"S",
-				"2H"
+				"A|XPHB",
+				"F|XPHB",
+				"S|XPHB",
+				"2H|XPHB"
 			],
 			"mastery": [
 				"Push|XPHB"
@@ -3795,7 +3799,8 @@
 			"name": "Longhorn",
 			"source": "XPHB",
 			"page": 221,
-			"type": "INS",
+			"edition": "one",
+			"type": "INS|XPHB",
 			"rarity": "none",
 			"weight": 2,
 			"value": 4000,
@@ -5408,28 +5413,7 @@
 			"rarity": "none",
 			"weight": 1,
 			"value": 200,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Charisma"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Play a known tune ({@dc 10}), or improvise a song ({@dc 15})"
-							]
-						}
-					]
-				}
-			]
+			"hasFluff": true
 		},
 		{
 			"name": "Shield",
@@ -5960,11 +5944,25 @@
 			"name": "Songhorn",
 			"source": "SCAG",
 			"page": 124,
+			"reprintedAs": [
+				"Songhorn|XPHB"
+			],
 			"type": "INS",
 			"rarity": "none",
 			"entries": [
 				"A recorder, a simple type of flute, usually carved from wood."
 			]
+		},
+		{
+			"name": "Songhorn",
+			"source": "XPHB",
+			"page": 221,
+			"edition": "one",
+			"type": "INS|XPHB",
+			"rarity": "none",
+			"weight":1,
+			"value": 50,
+			"hasFluff": true
 		},
 		{
 			"name": "Spear",
@@ -6038,7 +6036,26 @@
 			"name": "Spiked Armor",
 			"source": "SCAG",
 			"page": 121,
+			"reprintedAs": [
+				"Spiked Armor|XPHB"
+			],
 			"type": "MA",
+			"rarity": "unknown",
+			"weight": 45,
+			"value": 7500,
+			"ac": 14,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
+			]
+		},
+		{
+			"name": "Spiked Armor",
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"type": "MA|XPHB",
 			"rarity": "unknown",
 			"weight": 45,
 			"value": 7500,
@@ -6201,11 +6218,25 @@
 			"name": "Tantan",
 			"source": "SCAG",
 			"page": 124,
+			"reprintedAs": [
+				"Tantan|XPHB"
+			],
 			"type": "INS",
 			"rarity": "none",
 			"entries": [
 				"A tambourine, a popular instrument with halflings and humans south of the Dalelands."
 			]
+		},
+		{
+			"name": "Tantan",
+			"source": "XPHB",
+			"page": 221,
+			"weight": 0.75,
+			"value": 100,
+			"edition": "one",
+			"type": "INS|XPHB",
+			"rarity": "none",
+			"hasFluff": true
 		},
 		{
 			"name": "Thelarr",
@@ -6214,11 +6245,28 @@
 			],
 			"source": "SCAG",
 			"page": 124,
+			"reprintedAs": [
+				"Thelarr|XPHB"
+			],
 			"type": "INS",
 			"rarity": "none",
 			"entries": [
 				"Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children\u2014to the parents' delight or regret."
 			]
+		},
+		{
+			"name": "Thelarr",
+			"alias": [
+				"Whistlecane"
+			],
+			"source": "XPHB",
+			"page": 221,
+			"weight": 0.25,
+			"value": 10,
+			"edition": "one",
+			"type": "INS|XPHB",
+			"rarity": "none",
+			"hasFluff": true
 		},
 		{
 			"name": "Tinker's Tools",
@@ -6354,11 +6402,25 @@
 			"name": "Tocken",
 			"source": "SCAG",
 			"page": 124,
+			"reprintedAs": [
+				"Tocken|XPHB"
+			],
 			"type": "INS",
 			"rarity": "none",
 			"entries": [
 				"A hanging set of carved oval bells, usually played with a pair of light wooden hammers (or open handed). They are most common in underground cultures, where the resonant tones can carry."
 			]
+		},
+		{
+			"name": "Tocken",
+			"source": "XPHB",
+			"page": 221,
+			"type": "INS|XPHB",
+			"weight": 1,
+			"value": 500,
+			"rarity": "none",
+			"edition": "one",
+			"hasFluff": true
 		},
 		{
 			"name": "Trident",
@@ -6558,11 +6620,25 @@
 			"name": "Wargong",
 			"source": "SCAG",
 			"page": 124,
+			"reprintedAs": [
+				"Wargong|XPHB"
+			],
 			"type": "INS",
 			"rarity": "none",
 			"entries": [
 				"A metal gong, traditionally made from a shield, particularly the shield of an enemy. Both goblins and dwarves make and play wargongs, their sound echoing through tunnels in the Underdark."
 			]
+		},
+		{
+			"name": "Wargong",
+			"source": "XPHB",
+			"page": 221,
+			"edition": "one",
+			"type": "INS|XPHB",
+			"weight": 6,
+			"value": 1500,
+			"rarity": "none",
+			"hasFluff": true
 		},
 		{
 			"name": "Warhammer",
@@ -6974,17 +7050,6 @@
 		},
 		{
 			"name": "Yarting",
-			"source": "FRHoF",
-			"page": 132,
-			"type": "INS|XPHB",
-			"rarity": "none",
-			"weight": 2,
-			"value": 4000,
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Yarting",
 			"source": "SCAG",
 			"page": 124,
 			"reprintedAs": [
@@ -6995,6 +7060,17 @@
 			"entries": [
 				"A southern instrument from Amn and Calimshan that is a Faerûnian analog to the guitar. Numerous variations have spread across the continent."
 			]
+		},
+		{
+			"name": "Yarting",
+			"source": "FRHoF",
+			"page": 132,
+			"type": "INS|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 4000,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Yklwa",
@@ -7020,11 +7096,25 @@
 			"name": "Zulkoon",
 			"source": "SCAG",
 			"page": 124,
+			"reprintedAs": [
+				"Zulkoon|XPHB"
+			],
 			"type": "INS",
 			"rarity": "none",
 			"entries": [
 				"A complex pump organ that originated with the zulkirs of Thay, who use it in the casting of their spells. It is considered to have a dramatic, but sinister, sound."
 			]
+		},
+		{
+			"name": "Zulkoon",
+			"source": "XPHB",
+			"page": 124,
+			"edition": "one",
+			"type": "INS|XPHB",
+			"weight": 50,
+			"value": 10000,
+			"rarity": "none",
+			"hasFluff": true
 		}
 	],
 	"itemProperty": [
@@ -7718,10 +7808,30 @@
 			"basicRules2024": true,
 			"entries": [
 				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"name": "Ability:",
+							"type": "item",
+							"entries": [
+								"Wisdom"
+							]
+						},
+						{
+							"name": "Utilize:",
+							"type": "item",
+							"entries": [
+								"Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
+							]
+						}
+					]
+				},
+				{
 					"type": "entries",
 					"name": "Tool (Gaming Set)",
 					"entries": [
-						"If you have proficiency with a tool, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
+						"If you have proficiency with a specific gaming set, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses that specific gaming set. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
 					]
 				}
 			]
@@ -7780,10 +7890,30 @@
 			"basicRules2024": true,
 			"entries": [
 				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"name": "Ability:",
+							"type": "item",
+							"entries": [
+								"Charisma"
+							]
+						},
+						{
+							"name": "Utilize:",
+							"type": "item",
+							"entries": [
+								"Play a known tune ({@dc 10}), or improvise a song ({@dc 15})"
+							]
+						}
+					]
+				},
+				{
 					"type": "entries",
 					"name": "Tool (Musical Instrument)",
 					"entries": [
-						"If you have proficiency with a tool, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
+						"If you have proficiency with a specific musical instrument, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses that specific instrument. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
 					]
 				}
 			]
@@ -8111,7 +8241,7 @@
 					"type": "entries",
 					"name": "Tool",
 					"entries": [
-						"If you have proficiency with a tool, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
+						"If you have proficiency with a specific tool, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses that tool. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
 					]
 				}
 			]

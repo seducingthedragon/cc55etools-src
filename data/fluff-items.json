@@ -11087,6 +11087,23 @@
 			}
 		},
 		{
+			"name": "Shawm",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A double-reed instrument similar to an oboe or a bassoon, popular with gnomes, who have developed some bellows-powered versions."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Shield",
 			"source": "XPHB",
 			"images": [
@@ -11426,6 +11443,23 @@
 				"name": "Blossom Rod",
 				"source": "AU"
 			}
+		},
+		{
+			"name": "Songhorn",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A recorder, a simple type of flute, usually carved from wood."
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"name": "Soul Coin",
@@ -12681,6 +12715,23 @@
 			]
 		},
 		{
+			"name": "Tantan",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A tambourine, a popular instrument with halflings and humans across various central and southern lands."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Tasha's Creeping Keelboat",
 			"source": "DitLCoT",
 			"images": [
@@ -12821,6 +12872,23 @@
 			]
 		},
 		{
+			"name": "Thelarr",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children\u2014to the parents' delight or regret."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Thieves' Tools",
 			"source": "PHB",
 			"images": [
@@ -12909,6 +12977,23 @@
 					},
 					"width": 897,
 					"height": 1000
+				}
+			]
+		},
+		{
+			"name": "Tocken",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A hanging set of carved oval bells, usually played with a pair of light wooden hammers (or open handed). They are most common in underground cultures, where the resonant tones can carry."
+							]
+						}
+					]
 				}
 			]
 		},
@@ -13753,6 +13838,23 @@
 			]
 		},
 		{
+			"name": "Wargong",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A metal gong, traditionally made from a shield, particularly the shield of an enemy. Both goblins and dwarves make and play wargongs, their sound echoing through tunnels in the Underdark, however wargongs are not just common across the Underdark, but across other communities who have a strong focus on military might."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Warhammer",
 			"source": "XPHB",
 			"images": [
@@ -14169,10 +14271,36 @@
 		{
 			"name": "Yarting",
 			"source": "FRHoF",
-			"_copy": {
-				"name": "Musical Instrument",
-				"source": "FRHoF"
-			}
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A southern instrument from Amn and Calimshan that is a Faerûnian analog to the guitar. Numerous variations have spread across the continent."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Zulkoon",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A complex pump organ that originated with the zulkirs of Thay, who use it in the casting of their spells. It is considered to have a dramatic, but sinister, sound."
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
