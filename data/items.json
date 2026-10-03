@@ -19999,10 +19999,17 @@
 							]
 						},
 						{
+							"name": "Skills:",
+							"type": "item",
+							"entries": [
+								"{@skill Deception|XPHB}, {@skill Persuasion|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Apply makeup ({@dc 10})"
+								"Apply makeup ({@dc 10}), Spot someone else in a disguise ({@dc 15}), or Copy a humanoid's appearance ({@dc 20})"
 							]
 						},
 						{
@@ -20010,6 +20017,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Costume|XPHB}"
+							]
+						},
+						{
+							"name": "Components:",
+							"type": "item",
+							"entries": [
+								"A Disguise Kit may includes cosmetics, hair dye, small props, and a few pieces of clothing."
 							]
 						}
 					]
@@ -26148,10 +26162,24 @@
 							]
 						},
 						{
+							"name": "Skills:",
+							"type": "item",
+							"entries": [
+								"{@skill Deception|XPHB}, {@skill Investigation|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
 								"Mimic 10 or fewer words of someone else's handwriting ({@dc 15}), or duplicate a wax seal ({@dc 20})"
+							]
+						},
+						{
+							"name": "Components:",
+							"type": "item",
+							"entries": [
+								"A Forgery Kit may includes several different types of ink, a variety of parchments and papers, several quills, seals and sealing wax, gold and silver leaf, and small tools to sculpt melted wax to mimic a seal."
 							]
 						}
 					]
@@ -30711,10 +30739,17 @@
 							]
 						},
 						{
+							"name": "Skills:",
+							"type": "item",
+							"entries": [
+								"{@skill Investigation|XPHB}, {@skill Nature|XPHB}, {@skill Survival|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Identify a plant ({@dc 10})"
+								"Identify a plant ({@dc 10}), or Identify a poison ({@dc 15})"
 							]
 						},
 						{
@@ -30722,6 +30757,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Antitoxin|XPHB}, {@item Candle|XPHB}, {@item Healer's Kit|XPHB}, {@item Potion of Healing|XDMG}"
+							]
+						},
+						{
+							"name": "Components:",
+							"type": "item",
+							"entries": [
+								"An Herbalism Kit may includes pouches to store herbs, clippers and leather gloves for collecting plants, a mortar and pestle, and several glass jars."
 							]
 						}
 					]
@@ -41531,10 +41573,24 @@
 							]
 						},
 						{
+							"name": "Skills:",
+							"type": "item",
+							"entries": [
+								"{@skill Perception|XPHB}, {@skill Survival|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Plot a course ({@dc 10}), or determine position by stargazing ({@dc 15})"
+								"Plot a course ({@dc 10}), or Determine position by stargazing ({@dc 15})"
+							]
+						},
+						{
+							"name": "Components:",
+							"type": "item",
+							"entries": [
+								"Navigator's Tools may include a sextant, a compass, calipers, a ruler, parchment, ink, and a quill."
 							]
 						}
 					]
@@ -46012,10 +46068,17 @@
 							]
 						},
 						{
+							"name": "Skills:",
+							"type": "item",
+							"entries": [
+								"{@skill Investigation|XPHB}, {@skill Medicine|XPHB}, {@skill Survival|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Detect a poisoned object ({@dc 10})"
+								"Detect a poisoned object ({@dc 10}), or Determine the effects of a poison ({@dc 15})"
 							]
 						},
 						{
@@ -46023,6 +46086,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Basic Poison|XPHB}"
+							]
+						},
+						{
+							"name": "Components:",
+							"type": "item",
+							"entries": [
+								"A Poisoner's Kit may includes glass vials, a mortar and pestle, chemicals, and a glass stirring rod."
 							]
 						}
 					]
@@ -69319,10 +69389,24 @@
 							]
 						},
 						{
+							"name": "Skills:",
+							"type": "item",
+							"entries": [
+								"{@skill Investigation|XPHB}, {@skill Perception|XPHB}, {@skill Sleight of Hand|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Pick a lock ({@dc 15}), or disarm a trap ({@dc 15})"
+								"Pick a lock ({@dc 15}), or Disarm a trap ({@dc 15})"
+							]
+						},
+						{
+							"name": "Components:",
+							"type": "item",
+							"entries": [
+								"Thieves' Tools may include a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers."
 							]
 						}
 					]
