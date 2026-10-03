@@ -409,29 +409,7 @@
 			"type": "INS|XPHB",
 			"rarity": "none",
 			"weight": 6,
-			"value": 3000,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Charisma"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Play a known tune ({@dc 10}), or improvise a song ({@dc 15})"
-							]
-						}
-					]
-				}
-			]
+			"value": 3000
 		},
 		{
 			"name": "Bandore",
@@ -2028,29 +2006,7 @@
 			"type": "INS|XPHB",
 			"rarity": "none",
 			"weight": 3,
-			"value": 600,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Charisma"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Play a known tune ({@dc 10}), or improvise a song ({@dc 15})"
-							]
-						}
-					]
-				}
-			]
+			"value": 600
 		},
 		{
 			"name": "Dulcimer",
@@ -2080,29 +2036,7 @@
 			"type": "INS|XPHB",
 			"rarity": "none",
 			"weight": 10,
-			"value": 2500,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Charisma"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Play a known tune ({@dc 10}), or improvise a song ({@dc 15})"
-							]
-						}
-					]
-				}
-			]
+			"value": 2500
 		},
 		{
 			"name": "Energy Cell",
@@ -2256,29 +2190,7 @@
 			"type": "INS|XPHB",
 			"rarity": "none",
 			"weight": 1,
-			"value": 200,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Charisma"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Play a known tune ({@dc 10}), or improvise a song ({@dc 15})"
-							]
-						}
-					]
-				}
-			]
+			"value": 200
 		},
 		{
 			"name": "Glaive",
@@ -3110,29 +3022,7 @@
 			"type": "INS|XPHB",
 			"rarity": "none",
 			"weight": 2,
-			"value": 300,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Charisma"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Play a known tune ({@dc 10}), or improvise a song ({@dc 15})"
-							]
-						}
-					]
-				}
-			]
+			"value": 300
 		},
 		{
 			"name": "Hunting Rifle",
@@ -4057,29 +3947,7 @@
 			"type": "INS|XPHB",
 			"rarity": "none",
 			"weight": 2,
-			"value": 3500,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Charisma"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Play a known tune ({@dc 10}), or improvise a song ({@dc 15})"
-							]
-						}
-					]
-				}
-			]
+			"value": 3500
 		},
 		{
 			"name": "Lyre",
@@ -4111,29 +3979,7 @@
 			"type": "INS|XPHB",
 			"rarity": "none",
 			"weight": 2,
-			"value": 3000,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Charisma"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Play a known tune ({@dc 10}), or improvise a song ({@dc 15})"
-							]
-						}
-					]
-				}
-			]
+			"value": 3000
 		},
 		{
 			"name": "Mace",
@@ -4835,29 +4681,7 @@
 			"type": "INS|XPHB",
 			"rarity": "none",
 			"weight": 2,
-			"value": 1200,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Charisma"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Play a known tune ({@dc 10}), or improvise a song ({@dc 15})"
-							]
-						}
-					]
-				}
-			]
+			"value": 1200
 		},
 		{
 			"name": "Pike",
@@ -6726,29 +6550,7 @@
 			"type": "INS|XPHB",
 			"rarity": "none",
 			"weight": 1,
-			"value": 3000,
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"name": "Ability:",
-							"type": "item",
-							"entries": [
-								"Charisma"
-							]
-						},
-						{
-							"name": "Utilize:",
-							"type": "item",
-							"entries": [
-								"Play a known tune ({@dc 10}), or improvise a song ({@dc 15})"
-							]
-						}
-					]
-				}
-			]
+			"value": 3000
 		},
 		{
 			"name": "Wand",
@@ -8064,6 +7866,13 @@
 							]
 						},
 						{
+							"name": "Skills:",
+							"type": "item",
+							"entries": [
+								"{@skill Insight|XPHB}, {@skill Sleight of Hand|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
@@ -8076,7 +7885,8 @@
 					"type": "entries",
 					"name": "Tool (Gaming Set)",
 					"entries": [
-						"If you have proficiency with a specific gaming set, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses that specific gaming set. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
+						"Gaming Sets are each focused on social interactions through play with others. Each Gaming Set lists its primary ability, commonly used skills, and uses, which you are not limited to, at the discretion of the DM.",
+						"Each type of gaming set requires a separate proficiency. If you have proficiency with a specific gaming set, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses that specific gaming set. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
 					]
 				}
 			]
@@ -8146,6 +7956,13 @@
 							]
 						},
 						{
+							"name": "Skills:",
+							"type": "item",
+							"entries": [
+								"{@skill Performance|XPHB}, {@skill Sleight of Hand|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
@@ -8158,7 +7975,8 @@
 					"type": "entries",
 					"name": "Tool (Musical Instrument)",
 					"entries": [
-						"If you have proficiency with a specific musical instrument, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses that specific instrument. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too.",
+						"Musical Instruments are each different types of instruments to play and perform with. Each Musical Instrument lists its primary ability, commonly used skills, and uses, which you are not limited to, at the discretion of the DM.",
+						"Each type of musical instrument requires a separate proficiency. If you have proficiency with a specific musical instrument, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses that specific instrument. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too.",
 						"Bards can use this musical instrument as a {@variantrule Spellcasting Focus|XPHB}."
 					]
 				}
