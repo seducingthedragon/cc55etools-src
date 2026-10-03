@@ -78628,7 +78628,8 @@
 			"scfType": "druid",
 			"rarity": "none",
 			"focus": [
-				"Druid"
+				"Druid",
+				"Ranger"
 			],
 			"items": [
 				"Sprig of mistletoe|XPHB",

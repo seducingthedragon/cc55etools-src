@@ -7913,7 +7913,8 @@
 					"type": "entries",
 					"name": "Tool (Musical Instrument)",
 					"entries": [
-						"If you have proficiency with a specific musical instrument, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses that specific instrument. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
+						"If you have proficiency with a specific musical instrument, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses that specific instrument. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too.",
+						"Bards can use this musical instrument as a {@variantrule Spellcasting Focus|XPHB}."
 					]
 				}
 			]
