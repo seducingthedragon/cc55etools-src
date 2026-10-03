@@ -10037,10 +10037,27 @@
 			"basicRules2024": true,
 			"type": "G|XPHB",
 			"rarity": "none",
-			"weight": 47.5,
+			"weight": 44.5,
 			"value": 1600,
 			"entries": [
-				"A Burglar's Pack contains the following items: {@item Backpack|XPHB}, {@item Ball Bearings|XPHB}, {@item Bell|XPHB}, 10 {@item Candle|XPHB|Candles}, {@item Crowbar|XPHB}, {@item Hooded Lantern|XPHB}, 7 flasks of {@item Oil|XPHB}, 5 days of {@item Rations|XPHB}, {@item Rope|XPHB}, {@item Tinderbox|XPHB}, and {@item Waterskin|XPHB}."
+				"A Burglar's Pack contains the following items:",
+				{
+					"type": "list",
+					"items": [
+						"{@item Backpack|XPHB}",
+						"{@item Ball Bearings|XPHB}",
+						"{@item Bell|XPHB}",
+						"5 {@item Candle|XPHB|Candles}",
+						"{@item Crowbar|XPHB}",
+						"{@item Hooded Lantern|XPHB}",
+						"7 flasks of {@item Oil|XPHB}",
+						"5 days of {@item Rations|XPHB}",
+						"{@item Rope|XPHB}",
+						"{@item String|XPHB}",
+						"{@item Tinderbox|XPHB}",
+						"{@item Waterskin|XPHB}"
+					]
+				}
 			],
 			"packContents": [
 				"backpack|xphb",
@@ -10048,7 +10065,7 @@
 				"bell|xphb",
 				{
 					"item": "candle|xphb",
-					"quantity": 10
+					"quantity": 5
 				},
 				"crowbar|xphb",
 				"hooded lantern|xphb",
@@ -10062,6 +10079,7 @@
 				},
 				"rope|xphb",
 				"tinderbox|xphb",
+				"string|xphb",
 				"waterskin|xphb"
 			]
 		},
@@ -10369,6 +10387,7 @@
 			"type": "G|XPHB",
 			"rarity": "none",
 			"value": 1,
+			"weight": 0.5,
 			"entries": [
 				"For 1 hour, a lit Candle sheds {@variantrule Bright Light|XPHB} in a 5-foot radius and {@variantrule Dim Light|XPHB} for an additional 5 feet."
 			],
@@ -19807,7 +19826,25 @@
 			"weight": 39,
 			"value": 3900,
 			"entries": [
-				"A Diplomat's Pack contains the following items: {@item Chest|XPHB}, {@item Fine Clothes|XPHB}, {@item Ink|XPHB}, 5 {@item Ink Pen|XPHB|Ink Pens}, {@item Lamp|XPHB}, 2 {@item Map or Scroll Case|XPHB|Map or Scroll Cases}, 4 flasks of {@item Oil|XPHB}, 5 sheets of {@item Paper|XPHB}, 5 sheets of {@item Parchment|XPHB}, {@item Perfume|XPHB}, and {@item Tinderbox|XPHB}."
+				"A Diplomat's Pack contains the following items:",
+				{
+					"type": "list",
+					"items": [
+						"{@item Chest|XPHB}",
+						"{@item Fine Clothes|XPHB}",
+						"{@item Ink|XPHB}",
+						"5 {@item Ink Pen|XPHB|Ink Pens}",
+						"{@item Lamp|XPHB}",
+						"2 {@item Map or Scroll Case|XPHB|Map or Scroll Cases}",
+						"4 flasks of {@item Oil|XPHB}",
+						"5 sheets of {@item Paper|XPHB}",
+						"5 sheets of {@item Parchment|XPHB}",
+						"{@item Perfume|XPHB}",
+						"{@item Sealing Wax|XPHB}",
+						"{@item Soap|XPHB}",
+						"{@item Tinderbox|XPHB}"
+					]
+				}
 			],
 			"packContents": [
 				"chest|xphb",
@@ -19835,6 +19872,8 @@
 					"quantity": 5
 				},
 				"perfume|xphb",
+				"sealing wax|xphb",
+				"soap|xphb",
 				"tinderbox|xphb"
 			]
 		},
@@ -20907,15 +20946,31 @@
 			"basicRules2024": true,
 			"type": "G|XPHB",
 			"rarity": "none",
-			"weight": 55,
+			"weight": 58,
 			"value": 1200,
 			"entries": [
-				"A Dungeoneer's Pack contains the following items: {@item Backpack|XPHB}, {@item Caltrops|XPHB}, {@item Crowbar|XPHB}, 2 flasks of {@item Oil|XPHB}, 10 days of {@item Rations|XPHB}, {@item Rope|XPHB}, {@item Tinderbox|XPHB}, 10 {@item Torch|XPHB|Torches}, and {@item Waterskin|XPHB}."
+				"A Dungeoneer's Pack contains the following items:",
+				{
+					"type": "list",
+					"items": [
+						"{@item Backpack|XPHB}",
+						"{@item Caltrops|XPHB}",
+						"{@item Crowbar|XPHB}",
+						"{@item Hammer|XPHB}",
+						"2 flasks of {@item Oil|XPHB}",
+						"10 days of {@item Rations|XPHB}",
+						"{@item Rope|XPHB}",
+						"{@item Tinderbox|XPHB}",
+						"10 {@item Torch|XPHB|Torches}",
+						"{@item Waterskin|XPHB}"
+					]
+				}
 			],
 			"packContents": [
 				"backpack|xphb",
 				"caltrops|xphb",
 				"crowbar|xphb",
+				"hammer|xphb",
 				{
 					"item": "oil|xphb",
 					"quantity": 2
@@ -22942,10 +22997,25 @@
 			"basicRules2024": true,
 			"type": "G|XPHB",
 			"rarity": "none",
-			"weight": 58.5,
+			"weight": 47.5,
 			"value": 4000,
 			"entries": [
-				"An Entertainer's Pack contains the following items: {@item Backpack|XPHB}, {@item Bedroll|XPHB}, {@item Bell|XPHB}, {@item Bullseye Lantern|XPHB}, 3 {@item Costume|XPHB|Costumes}, {@item Mirror|XPHB}, 8 flasks of {@item Oil|XPHB}, 9 days of {@item Rations|XPHB}, {@item Tinderbox|XPHB}, and {@item Waterskin|XPHB}."
+				"An Entertainer's Pack contains the following items:",
+				{
+					"type": "list",
+					"items": [
+						"{@item Backpack|XPHB}",
+						"{@item Bedroll|XPHB}",
+						"{@item Bell|XPHB}",
+						"{@item Bullseye Lantern|XPHB}",
+						"3 {@item Costume|XPHB|Costumes}",
+						"{@item Mirror|XPHB}",
+						"5 flasks of {@item Oil|XPHB}",
+						"5 days of {@item Rations|XPHB}",
+						"{@item Tinderbox|XPHB}",
+						"{@item Waterskin|XPHB}"
+					]
+				}
 			],
 			"packContents": [
 				"backpack|xphb",
@@ -22959,11 +23029,11 @@
 				"mirror|xphb",
 				{
 					"item": "oil|xphb",
-					"quantity": 8
+					"quantity": 5
 				},
 				{
 					"item": "rations|xphb",
-					"quantity": 9
+					"quantity": 5
 				},
 				"tinderbox|xphb",
 				"waterskin|xphb"
@@ -23411,14 +23481,29 @@
 			],
 			"type": "G|XPHB",
 			"rarity": "none",
-			"weight": 55,
+			"weight": 56,
 			"value": 1000,
 			"entries": [
-				"An Explorer's Pack contains the following items: {@item Backpack|XPHB}, {@item Bedroll|XPHB}, 2 flasks of {@item Oil|XPHB}, 10 days of {@item Rations|XPHB}, {@item Rope|XPHB}, {@item Tinderbox|XPHB}, 10 {@item Torch|XPHB|Torches}, and {@item Waterskin|XPHB}."
+				"An Explorer's Pack contains the following items:",
+				{
+					"type": "list",
+					"items": [
+						"{@item Backpack|XPHB}",
+						"{@item Bedroll|XPHB}",
+						"{@item Mess Kit|XPHB}",
+						"2 flasks of {@item Oil|XPHB}",
+						"10 days of {@item Rations|XPHB}",
+						"{@item Rope|XPHB}",
+						"{@item Tinderbox|XPHB}",
+						"10 {@item Torch|XPHB|Torches}",
+						"{@item Waterskin|XPHB}"
+					]
+				}
 			],
 			"packContents": [
 				"backpack|xphb",
 				"bedroll|xphb",
+				"mess kit|xphb",
 				{
 					"item": "oil|xphb",
 					"quantity": 2
@@ -28635,6 +28720,9 @@
 			"page": 150,
 			"srd": true,
 			"basicRules": true,
+			"reprintedAs": [
+				"Hammer|XPHB"
+			],
 			"referenceSources": [
 				"SjA"
 			],
@@ -28642,6 +28730,20 @@
 			"rarity": "none",
 			"weight": 3,
 			"value": 100
+		},
+		{
+			"name": "Hammer",
+			"source": "XPHB",
+			"page": 225,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "G|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 100,
+			"entries": [
+				"A simple hammer used for various purposes from building to breaking something apart."
+			]
 		},
 		{
 			"name": "Hammer of Runic Focus",
@@ -39806,6 +39908,9 @@
 			"page": 152,
 			"srd": true,
 			"basicRules": true,
+			"reprintedAs": [
+				"Mess Kit|XPHB"
+			],
 			"referenceSources": [
 				"CoS",
 				"SjA",
@@ -39813,6 +39918,20 @@
 				"TTP"
 			],
 			"type": "G",
+			"rarity": "none",
+			"weight": 1,
+			"value": 20,
+			"entries": [
+				"This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."
+			]
+		},
+		{
+			"name": "Mess Kit",
+			"source": "XPHB",
+			"page": 227,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "G|XPHB",
 			"rarity": "none",
 			"weight": 1,
 			"value": 20,
@@ -49169,7 +49288,19 @@
 			"weight": 29,
 			"value": 3300,
 			"entries": [
-				"A Priest's Pack contains the following items: {@item Backpack|XPHB}, {@item Blanket|XPHB}, {@item Holy Water|XPHB}, {@item Lamp|XPHB}, 7 days of {@item Rations|XPHB}, {@item Robe|XPHB}, and {@item Tinderbox|XPHB}."
+				"A Priest's Pack contains the following items:.",
+				{
+					"type": "list",
+					"items": [
+						"{@item Backpack|XPHB}",
+						"{@item Blanket|XPHB}",
+						"{@item Holy Water|XPHB}",
+						"{@item Lamp|XPHB}",
+						"7 days of {@item Rations|XPHB}",
+						"{@item Robe|XPHB}",
+						"{@item Tinderbox|XPHB}"
+					]
+				}
 			],
 			"packContents": [
 				"backpack|xphb",
@@ -56689,7 +56820,20 @@
 			"weight": 22,
 			"value": 4000,
 			"entries": [
-				"A Scholar's Pack contains the following items: {@item Backpack|XPHB}, {@item Book|XPHB}, {@item Ink|XPHB}, {@item Ink Pen|XPHB}, {@item Lamp|XPHB}, 10 flasks of {@item Oil|XPHB}, 10 sheets of {@item Parchment|XPHB}, and {@item Tinderbox|XPHB}."
+				"A Scholar's Pack contains the following items:",
+				{
+					"type": "list",
+					"items": [
+						"{@item Backpack|XPHB}",
+						"{@item Book|XPHB}",
+						"{@item Ink|XPHB}",
+						"{@item Ink Pen|XPHB}",
+						"{@item Lamp|XPHB}",
+						"10 flasks of {@item Oil|XPHB}",
+						"10 sheets of {@item Parchment|XPHB}",
+						"{@item Tinderbox|XPHB}"
+					]
+				}
 			],
 			"packContents": [
 				"backpack|xphb",
@@ -57449,12 +57593,28 @@
 			"page": 150,
 			"srd": true,
 			"basicRules": true,
+			"reprintedAs": [
+				"Sealing Wax|XPHB"
+			],
 			"referenceSources": [
 				"KftGV"
 			],
 			"type": "G",
 			"rarity": "none",
 			"value": 50
+		},
+		{
+			"name": "Sealing Wax",
+			"source": "XPHB",
+			"page": 228,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "G|XPHB",
+			"rarity": "none",
+			"value": 50,
+			"entries": [
+				"Sealing Wax is used to seal correspondences to be sent out. They are often sealed, revealing an embossed symbol identifying the sender."
+			]
 		},
 		{
 			"name": "Secondhand Steal Trinket",
@@ -60180,6 +60340,9 @@
 			"page": 150,
 			"srd": true,
 			"basicRules": true,
+			"reprintedAs": [
+				"Soap|XPHB"
+			],
 			"referenceSources": [
 				"WDH",
 				"WDMM"
@@ -60187,6 +60350,19 @@
 			"type": "G",
 			"rarity": "none",
 			"value": 2
+		},
+		{
+			"name": "Soap",
+			"source": "XPHB",
+			"page": 228,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "G|XPHB",
+			"rarity": "none",
+			"value": 2,
+			"entries": [
+				"Soap is used to maintain hygiene during travels."
+			]
 		},
 		{
 			"name": "Somniferous Blossom Rod",
