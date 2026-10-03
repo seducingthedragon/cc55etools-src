@@ -65,6 +65,12 @@
 							"type": "statblock",
 							"tag": "condition",
 							"source": "XPHB",
+							"name": "Hidden"
+						},
+						{
+							"type": "statblock",
+							"tag": "condition",
+							"source": "XPHB",
 							"name": "Incapacitated"
 						},
 						{
@@ -220,7 +226,7 @@
 							"rows": [
 								[
 									"{@action Attack|XPHB}",
-									"Attack with a weapon or an {@variantrule Unarmed Strike|XPHB}."
+									"Attack with a weapon or an {@variantrule Unarmed Attack|XPHB}."
 								],
 								[
 									"{@action Dash|XPHB}",

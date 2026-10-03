@@ -2740,8 +2740,8 @@
 			"name": "Hand Drum",
 			"source": "XPHB",
 			"page": 221,
-			"weight": 3,
-			"value": 500,
+			"weight": 1,
+			"value": 200,
 			"edition": "one",
 			"type": "INS|XPHB",
 			"rarity": "none",
@@ -2991,7 +2991,7 @@
 					]
 				}
 			],
-			"ammoType": "sling bullet|phb",
+			"ammoType": "sling bullet|xphb",
 			"hasFluffImages": true
 		},
 		{
@@ -7524,6 +7524,16 @@
 			"abbreviation": "S",
 			"source": "PHB",
 			"page": 147,
+			"reprintedAs": [
+				"S|XPHB"
+			],
+			"template": "{{prop_name_lower}}"
+		},
+		{
+			"name": "special",
+			"abbreviation": "S",
+			"source": "XPHB",
+			"page": 214,
 			"template": "{{prop_name_lower}}"
 		},
 		{

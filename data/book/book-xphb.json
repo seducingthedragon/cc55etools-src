@@ -1047,7 +1047,7 @@
 											"rows": [
 												[
 													"Strength",
-													"Melee attack with a weapon or an {@variantrule Unarmed Strike|XPHB}"
+													"Melee attack with a weapon or an {@variantrule Unarmed Attack|XPHB}"
 												],
 												[
 													"Dexterity",
@@ -1338,7 +1338,7 @@
 												[
 													"{@skill Medicine|XPHB}",
 													"Wisdom",
-													"Diagnose an illness, or determine what killed the recently slain."
+													"Stabilizing a dying creature, provide home remedies, or diagnosing an illness."
 												],
 												[
 													"{@skill Nature|XPHB}",
@@ -1464,7 +1464,7 @@
 							"rows": [
 								[
 									"{@action Attack|XPHB}",
-									"Attack with a weapon or an {@variantrule Unarmed Strike|XPHB}."
+									"Attack with a weapon or an {@variantrule Unarmed Attack|XPHB}."
 								],
 								[
 									"{@action Dash|XPHB}",
@@ -8668,6 +8668,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Double-Bladed Scimitar|XPHB}",
+										"{@dice 2d4} Slashing",
+										"{@itemProperty S|XPHB|Special}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Vex}",
+										"5 lb.",
+										"100 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Flail|XPHB}",
 										"{@dice 1d8} Bludgeoning",
 										"\u2014",
@@ -8722,6 +8734,18 @@
 										"{@itemMastery Cleave}",
 										"6 lb.",
 										"20 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Hoopak|XPHB}",
+										"{@dice 1d6} Piercing",
+										"{@itemProperty S|XPHB|Special}, {@itemProperty A|XPHB|Ammunition} (Range 40/160; {@item Sling Bullet|XPHB}), {@itemProperty F|XPHB|Finesse}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Push}",
+										"2 lb.",
+										"1 SP"
 									]
 								},
 								{
@@ -9048,7 +9072,7 @@
 									"page": 213,
 									"id": "646",
 									"entries": [
-										"When you take the {@action Attack|XPHB} action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage unless that modifier is negative. For example, you can attack with a {@item Shortsword|XPHB} in one hand and a {@item Dagger|XPHB} in the other using the {@action Attack|XPHB} action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action unless that modifier is negative."
+										"Light Weapons are small and easy to handle in your off-hand. Additionally, two light weapons can be wielded simultaenously, making it ideal for engaging in {@action Two-Weapon Fighting|XPHB}."
 									]
 								},
 								{
@@ -9057,7 +9081,7 @@
 									"page": 214,
 									"id": "647",
 									"entries": [
-										"You can fire only one piece of ammunition from a Loading weapon when you use an action, a Bonus Action, or a Reaction to fire it, regardless of the number of attacks you can normally make."
+										"You can fire only one piece of ammunition from a Loading weapon when you use an action, a {@variantrule Bonus Action|XPHB}, or a {@variantrule Reaction|XPHB} to fire it, regardless of the number of attacks you can normally make. Loading the ammunition uses your {@action Other Activity|PHB|Free Object Interaction} or a {@variantrule Bonus Action|XPHB}."
 									]
 								},
 								{
@@ -9345,6 +9369,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Spiked Armor|XPHB}",
+										"14 + Dex modifier (max 2)",
+										"\u2014",
+										"{@variantrule Disadvantage|XPHB}",
+										"45 lb.",
+										"75 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Breastplate|XPHB}",
 										"14 + Dex modifier (max 2)",
 										"\u2014",
@@ -9539,6 +9575,11 @@
 								},
 								{
 									"type": "item",
+									"name": "Skills",
+									"entry": "This entry lists the specific skills recommended with the tool."
+								},
+								{
+									"type": "item",
 									"name": "Utilize",
 									"entry": "This entry lists things you can do with the tool when you take the {@action Utilize|XPHB} action. You can do one of those things each time you take the action. This entry also provides the DC for the action."
 								},
@@ -9546,6 +9587,11 @@
 									"type": "item",
 									"name": "Craft",
 									"entry": "This entry lists what, if anything, you can craft with the tool. For crafting rules, see \"{@area Crafting Equipment|71e|x}\" later in the chapter."
+								},
+								{
+									"type": "item",
+									"name": "Components",
+									"entry": "This entry provides a list of various objects that could be found with a specific tool. It is common with tool sets and kits, where more than one object is utilized."
 								},
 								{
 									"type": "item",
@@ -9598,18 +9644,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Arcana|XPHB}, {@skill Investigation|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "8 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize",
-													"entry": "Identify a substance ({@dc 15}), or start a fire ({@dc 15})"
+													"entry": "Identify a poison or substance ({@dc 15}), Start a fire ({@dc 15}), or Neutralize acid ({@dc 20})"
 												},
 												{
 													"type": "item",
 													"name": "Craft",
 													"entry": "{@item Acid|XPHB}, {@item Alchemist's Fire|XPHB}, {@item Component Pouch|XPHB}, {@item Oil|XPHB}, {@item Paper|XPHB}, {@item Perfume|XPHB}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Alchemist's supplies may include two glass beakers, a metal frame to hold a beaker in place over an open flame, a glass stirring rod, a small mortar and pestle, and a pouch of common alchemical ingredients, including salt, powdered iron, and purified water."
 												}
 											]
 										}
@@ -9632,6 +9688,11 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Medicine|XPHB}, {@skill Persuasion|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "9 lb."
 												},
@@ -9643,7 +9704,12 @@
 												{
 													"type": "item",
 													"name": "Craft",
-													"entry": "{@item Antitoxin|XPHB}"
+													"entry": "{@item Antitoxin|XPHB}. As part of a long rest, you can purify up to 6 gallons of water, or 1 gallon as part of a short rest."
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Brewer's supplies may include a large glass jug, a quantity of hops, a siphon, and several feet of tubing."
 												}
 											]
 										}
@@ -9666,18 +9732,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Arcana|XPHB}, {@skill History|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "5 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize",
-													"entry": "Write text with impressive flourishes that guard against forgery ({@dc 15})"
+													"entry": "Write text with impressive flourishes that guard against forgery ({@dc 15}). {@b Decipher Maps}. This {@variantrule Proficiency|XPHB|tool proficiency} grants you {@variantrule Expertise|XPHB} in examining maps to determine whether a map includes any hidden messages, or similar facts."
 												},
 												{
 													"type": "item",
 													"name": "Craft",
 													"entry": "{@item Ink|XPHB}, {@item Spell Scroll|XDMG}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Calligrapher's supplies may include ink, a dozen sheets of parchment, and three quills."
 												}
 											]
 										}
@@ -9700,18 +9776,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill History|XPHB}, {@skill Investigation|XPHB}, {@skill Perception|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "6 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize",
-													"entry": "Seal or pry open a door or container ({@dc 20})"
+													"entry": "Build Temporary Shelter ({@dc 10}), Find weak points in walls or floors ({@dc 15}), or Seal or pry open a door or container ({@dc 20})"
 												},
 												{
 													"type": "item",
 													"name": "Craft",
 													"entry": "{@item Club|XPHB}, {@item Greatclub|XPHB}, {@item Quarterstaff|XPHB}, {@item Barrel|XPHB}, {@item Chest|XPHB}, {@item Ladder|XPHB}, {@item Pole|XPHB}, {@item Portable Ram|XPHB}, {@item Torch|XPHB}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Carpenter's tools may include a saw, a hammer, nails, a hatchet, a square, a ruler, an adze, a plane, and a chisel."
 												}
 											]
 										}
@@ -9734,18 +9820,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill History|XPHB}, {@skill Nature|XPHB}, {@skill Survival|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "6 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize",
-													"entry": "Draft a map of a small area ({@dc 15})"
+													"entry": "Determine a map's age and origin ({@dc 10}), Draft a map of a small area ({@dc 15}), Discern that a map is fake ({@dc 15}), or Fill in a missing part of a map ({@dc 20})"
 												},
 												{
 													"type": "item",
 													"name": "Craft",
 													"entry": "{@item Map|XPHB}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Cartographer's tools may consist of a quill, ink, parchment, a pair of compasses, calipers, and a ruler."
 												}
 											]
 										}
@@ -9768,18 +9864,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Investigation|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "5 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize",
-													"entry": "Modify footwear to give {@variantrule Advantage|XPHB} on the wearer's next Dexterity ({@skill Acrobatics|XPHB}) check ({@dc 10})"
+													"entry": "Modify footwear to give {@variantrule Advantage|XPHB} on the wearer's next Dexterity ({@skill Acrobatics|XPHB}) check ({@dc 10}). As part of a long rest, you can repair your companions' shoes. For the next 24 hours, up to six creatures of your choice who wear shoes you worked on can travel up to 10 hours a day without making {@variantrule Saving Throw|XPHB|Saving Throws} to avoid {@condition Exhaustion|XPHB}."
 												},
 												{
 													"type": "item",
 													"name": "Craft",
-													"entry": "{@item Climber's Kit|XPHB}"
+													"entry": "{@item Climber's Kit|XPHB}. {@b Craft Hidden Compartment.} With 8 hours of work, you can add a hidden compartment to a pair of shoes. Make an Intelligence check using your tool proficiency to determine the Intelligence ({@skill Investigation|XPHB}) check DC needed to find the compartment."
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Cobbler's tools may consist of a hammer, an awl, a knife, a shoe stand, a cutter, spare leather, and thread."
 												}
 											]
 										}
@@ -9802,6 +9908,11 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill History|XPHB}, {@skill Medicine|XPHB}, {@skill Survival|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "8 lb."
 												},
@@ -9813,7 +9924,12 @@
 												{
 													"type": "item",
 													"name": "Craft",
-													"entry": "{@item Rations|XPHB}"
+													"entry": "{@item Rations|XPHB}, as part of a short rest, you and up to 5 creatures of your choice regain 1 extra {@variantrule Hit Points|XPHB|Hit Point} per {@variantrule Hit Point Dice|XPHB|Hit Die} spent, access to resources dependent."
+												},
+												{
+													"type": "item",
+													"name": "Components",
+													"entry": "Cook's utensils may include a metal pot, knives, forks, a stirring spoon, and a ladle."
 												}
 											]
 										}
@@ -9836,6 +9952,11 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Investigation|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "5 lb."
 												},
@@ -9848,6 +9969,11 @@
 													"type": "item",
 													"name": "Craft",
 													"entry": "{@item Glass Bottle|XPHB}, {@item Magnifying Glass|XPHB}, {@item Spyglass|XPHB}, {@item Vial|XPHB}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "The possible tools include a blowpipe, a small marver, blocks, and tweezers. You need a source of heat to work glass."
 												}
 											]
 										}
@@ -9870,18 +9996,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Arcana|XPHB}, {@skill Investigation|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "2 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize",
-													"entry": "Discern a gem's value ({@dc 15})"
+													"entry": "Discern a gem's value or history ({@dc 15}), or Modify a gem's appearance ({@dc 15})"
 												},
 												{
 													"type": "item",
 													"name": "Craft",
 													"entry": "{@item Arcane Focus|XPHB}, {@item Holy Symbol|XPHB}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Jeweler's tools may consist of a small saw and hammer, files, pliers, and tweezers."
 												}
 											]
 										}
@@ -9904,6 +10040,11 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Arcana|XPHB}, {@skill Investigation|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "5 lb."
 												},
@@ -9916,6 +10057,11 @@
 													"type": "item",
 													"name": "Craft",
 													"entry": "{@item Sling|XPHB}, {@item Whip|XPHB}, {@item Hide Armor|XPHB}, {@item Leather Armor|XPHB}, {@item Studded Leather Armor|XPHB}, {@item Backpack|XPHB}, {@item Crossbow Bolt Case|XPHB}, {@item Map or Scroll Case|XPHB}, {@item Parchment|XPHB}, {@item Pouch|XPHB}, {@item Quiver|XPHB}, {@item Waterskin|XPHB}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Leatherworker's tools may include a knife, a small mallet, an edger, a hole punch, thread, and leather scraps."
 												}
 											]
 										}
@@ -9938,18 +10084,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill History|XPHB}, {@skill Investigation|XPHB}, {@skill Perception|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "8 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize",
-													"entry": "Chisel a symbol or hole in stone ({@dc 10})"
+													"entry": "Chisel a symbol or hole in stone ({@dc 10}), or Find a weak point in a stone wall ({@dc 15}). {@b Demolition.} Additionally, you deal double damage to stone structures with your weapon attacks."
 												},
 												{
 													"type": "item",
 													"name": "Craft",
 													"entry": "{@item Block and Tackle|XPHB}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Mason's tools may consist of a trowel, a hammer, a chisel, brushes, and a square."
 												}
 											]
 										}
@@ -9972,18 +10128,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill History|XPHB}, {@skill Investigation|XPHB}, {@skill Perception|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "5 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize",
-													"entry": "Paint a recognizable image of something you've seen ({@dc 10})"
+													"entry": "Paint a recognizable image of something you've seen ({@dc 10}), or Paint something with a hidden message ({@dc 20})"
 												},
 												{
 													"type": "item",
 													"name": "Craft",
 													"entry": "{@item Druidic Focus|XPHB}, {@item Holy Symbol|XPHB}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Painter's supplies may include an easel, canvas, paints, brushes, charcoal sticks, and a palette."
 												}
 											]
 										}
@@ -10006,18 +10172,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "@skill History|XPHB}, {@skill Investigation|XPHB}, {@skill Perception|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "3 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize",
-													"entry": "Discern what a ceramic object held in the past 24 hours ({@dc 15})"
+													"entry": "Discern what a ceramic object held in the past 24 hours ({@dc 15}), or Find a weak point in a ceramic object ({@dc 20})"
 												},
 												{
 													"type": "item",
 													"name": "Craft",
 													"entry": "{@item Jug|XPHB}, {@item Lamp|XPHB}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Potter's tools may include potter's needles, ribs, scrapers, a knife, and calipers."
 												}
 											]
 										}
@@ -10040,18 +10216,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Investigation|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "8 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize",
-													"entry": "Pry open a door or container ({@dc 20})"
+													"entry": "Sharpen a dull blade ({@dc 10}), or Pry open a door or container ({@dc 20}). {@b Repair.} You can restore 10 hit points to a damaged metal object for each hour of work with the appropriate additional resources."
 												},
 												{
 													"type": "item",
 													"name": "Craft",
 													"entry": "Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, {@item Ball Bearings|XPHB}, {@item Bucket|XPHB}, {@item Caltrops|XPHB}, {@item Chain|XPHB}, {@item Crowbar|XPHB}, {@item Firearm Bullets (10)|XPHB|Firearm Bullets}, {@item Grappling Hook|XPHB}, {@item Iron Pot|XPHB}, {@item Iron Spikes|XPHB}, {@item Sling Bullet|XPHB|Sling Bullets}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Smith's tools may include hammers, tongs, charcoal, rags, and a whetstone."
 												}
 											]
 										}
@@ -10074,18 +10260,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill History|XPHB}, {@skill Investigation|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "10 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize",
-													"entry": "Assemble a Tiny item composed of scrap, which falls apart in 1 minute ({@dc 20})"
+													"entry": "Assemble a Tiny item composed of scrap, which falls apart in 1 minute ({@dc 20}). {@b Repair.} You can restore 10 hit points to a damaged object for each hour of work with the appropriate additional resources."
 												},
 												{
 													"type": "item",
 													"name": "Craft",
 													"entry": "{@item Musket|XPHB}, {@item Pistol|XPHB}, {@item Bell|XPHB}, {@item Bullseye Lantern|XPHB}, {@item Flask|XPHB}, {@item Hooded Lantern|XPHB}, {@item Hunting Trap|XPHB|Hunter's Trap}, {@item Lock|XPHB}, {@item Manacles|XPHB}, {@item Mirror|XPHB}, {@item Shovel|XPHB}, {@item Signal Whistle|XPHB}, {@item Tinderbox|XPHB}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Tinker's tools may include a variety of hand tools, thread, needles, a whetstone, scraps of cloth and leather, and a small pot of glue."
 												}
 											]
 										}
@@ -10108,18 +10304,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Investigation|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "5 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize",
-													"entry": "Mend a tear in clothing ({@dc 10}), or sew a Tiny design ({@dc 10})"
+													"entry": "Mend a tear in clothing ({@dc 10}), Sew a Tiny design ({@dc 10}), or Tailor an outfit ({@dc 15})"
 												},
 												{
 													"type": "item",
 													"name": "Craft",
 													"entry": "{@item Padded Armor|XPHB}, {@item Basket|XPHB}, {@item Bedroll|XPHB}, {@item Blanket|XPHB}, {@item Fine Clothes|XPHB}, {@item Net|XPHB}, {@item Robe|XPHB}, {@item Rope|XPHB}, {@item Sack|XPHB}, {@item String|XPHB}, {@item Tent|XPHB}, {@item Traveler's Clothes|XPHB}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Weaver's tools may include thread, needles, and scraps of cloth. You know how to work a loom, but such equipment is too large to transport."
 												}
 											]
 										}
@@ -10142,6 +10348,11 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Nature|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "5 lb."
 												},
@@ -10154,6 +10365,11 @@
 													"type": "item",
 													"name": "Craft",
 													"entry": "{@item Club|XPHB}, {@item Greatclub|XPHB}, {@item Quarterstaff|XPHB}, Ranged weapons (except Pistol, Musket, and Sling), {@item Arcane Focus|XPHB}, {@item Arrows (20)|XPHB|Arrows}, {@item Bolts (20)|XPHB|Bolts}, {@item Druidic Focus|XPHB}, {@item Ink Pen|XPHB}, {@item Needles (50)|XPHB|Needles}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Woodcarver's tools may consist of a knife, a gouge, and a small saw."
 												}
 											]
 										}
@@ -10185,18 +10401,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Deception|XPHB}, {@skill Persuasion|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "3 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize:",
-													"entry": "Apply makeup ({@dc 10})"
+													"entry": "Apply makeup ({@dc 10}), Spot someone else in a disguise ({@dc 15}), or Copy a humanoid's appearance ({@dc 20})"
 												},
 												{
 													"type": "item",
 													"name": "Craft:",
 													"entry": "{@item Costume|XPHB}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "A Disguise Kit may includes cosmetics, hair dye, small props, and a few pieces of clothing."
 												}
 											]
 										}
@@ -10219,6 +10445,11 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Deception|XPHB}, {@skill Investigation|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "5 lb."
 												},
@@ -10226,6 +10457,11 @@
 													"type": "item",
 													"name": "Utilize:",
 													"entry": "Mimic 10 or fewer words of someone else's handwriting ({@dc 15}), or duplicate a wax seal ({@dc 20})"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "A Forgery Kit may includes several different types of ink, a variety of parchments and papers, several quills, seals and sealing wax, gold and silver leaf, and small tools to sculpt melted wax to mimic a seal."
 												}
 											]
 										}
@@ -10248,6 +10484,11 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Insight|XPHB}, {@skill Sleight of Hand|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "\u2014"
 												},
@@ -10259,7 +10500,7 @@
 												{
 													"type": "item",
 													"name": "Variants:",
-													"entry": "{@item Dice Set|XPHB|Dice} (1 SP), {@item Dragonchess Set|XPHB|dragonchess} (1 GP), {@item playing cards|XPHB} (5 SP), {@item Three-Dragon Ante Set|XPHB|three-dragon ante} (1 GP)"
+													"entry": "{@item Dice Set|XPHB|Dice} (1 SP), {@item Dragonchess Set|XPHB} (1 GP), {@item Playing Cards|XPHB} (5 SP), {@item Three-Dragon Ante Set|XPHB} (1 GP)"
 												}
 											]
 										}
@@ -10282,18 +10523,28 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Investigation|XPHB}, {@skill Nature|XPHB}, {@skill Survival|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "3 lb."
 												},
 												{
 													"type": "item",
 													"name": "Utilize:",
-													"entry": "Identify a plant ({@dc 10})"
+													"entry": "Identify a plant ({@dc 10}), or Identify a poison ({@dc 15})"
 												},
 												{
 													"type": "item",
 													"name": "Craft:",
 													"entry": "{@item Antitoxin|XPHB}, {@item Candle|XPHB}, {@item Healer's Kit|XPHB}, {@item Potion of Healing|XDMG}"
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "An Herbalism Kit may includes pouches to store herbs, clippers and leather gloves for collecting plants, a mortar and pestle, and several glass jars."
 												}
 											]
 										}
@@ -10316,6 +10567,11 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Performance|XPHB}, {@skill Sleight of Hand|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "Varies"
 												},
@@ -10327,7 +10583,7 @@
 												{
 													"type": "item",
 													"name": "Variants:",
-													"entry": "{@item Bagpipes|XPHB} (30 GP, 6 lb.), {@item drum|XPHB} (6 GP, 3 lb.), {@item dulcimer|XPHB} (25 GP, 10 lb.), {@item flute|XPHB} (2 GP, 1 lb.), horn (3 GP, 2 lb.), {@item lute|XPHB} (35 GP, 2 lb.), {@item lyre|XPHB} (30 GP, 2 lb.), {@item pan flute|XPHB} (12 GP, 2 lb.), {@item shawm|XPHB} (2 GP, 1 lb.), {@item viol|XPHB} (30 GP, 1 lb.)"
+													"entry": "{@item Bagpipes|XPHB} (30 GP, 6 lb.), {@item Birdpipes|XPHB} ( 5 GP, 1 lb.), {@item Drum|XPHB} (6 GP, 3 lb.), {@item Dulcimer|XPHB} (25 GP, 10 lb.), {@item Flute|XPHB} (2 GP, 1 lb.), {@item Glaur|XPHB} ( 2 GP, 3 lb.), {@item Hand Drum|XPHB} ( 2 GP, 1 lb.), {@item Horn|XPHB} (3 GP, 2 lb.), {@item Longhorn|XPHB} ( 40 GP, 2 lb.), {@item Lute|XPHB} (35 GP, 2 lb.), {@item Lyre|XPHB} (30 GP, 2 lb.), {@item Pan Flute|XPHB} (12 GP, 2 lb.), {@item Shawm|XPHB} (2 GP, 1 lb.), {@item Songhorn|XPHB} ( 5 SP, 1 lb.), {@item Tantan|XPHB} ( 1 GP, 0.75 lb.), {@item Thelarr|XPHB} ( 1 SP, 0.25 lb.), {@item Tocken|XPHB} ( 5 GP, 1 lb.), {@item Viol|XPHB} (30 GP, 1 lb.), {@item Wargong|XPHB} ( 15 GP, 6 lb.), {@item Zulkoon|XPHB} ( 100 GP, 50 lb.)"
 												}
 											]
 										}
@@ -10350,6 +10606,11 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Perception|XPHB}, {@skill Survival|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "2 lb."
 												},
@@ -10359,6 +10620,11 @@
 													"entries": [
 														"Plot a course ({@dc 10}), or determine position by stargazing ({@dc 15})"
 													]
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Navigator's Tools may include a sextant, a compass, calipers, a ruler, parchment, ink, and a quill."
 												}
 											]
 										}
@@ -10381,6 +10647,11 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Investigation|XPHB}, {@skill Medicine|XPHB}, {@skill Survival|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "2 lb."
 												},
@@ -10388,7 +10659,7 @@
 													"name": "Utilize:",
 													"type": "item",
 													"entries": [
-														"Detect a poisoned object ({@dc 10})"
+														"Detect a poisoned object ({@dc 10}), or Determine the effects of a poison ({@dc 15})"
 													]
 												},
 												{
@@ -10397,6 +10668,11 @@
 													"entries": [
 														"{@item Basic Poison|XPHB}"
 													]
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "A Poisoner's Kit may includes glass vials, a mortar and pestle, chemicals, and a glass stirring rod."
 												}
 											]
 										}
@@ -10419,6 +10695,11 @@
 												},
 												{
 													"type": "item",
+													"name": "Skills:",
+													"entry": "{@skill Investigation|XPHB}, {@skill Perception|XPHB}, {@skill Sleight of Hand|XPHB}"
+												},
+												{
+													"type": "item",
 													"name": "Weight:",
 													"entry": "1 lb."
 												},
@@ -10428,6 +10709,11 @@
 													"entries": [
 														"Pick a lock ({@dc 15}), or disarm a trap ({@dc 15})"
 													]
+												},
+												{
+													"type": "item",
+													"name": "Components:",
+													"entry": "Thieves' Tools may include a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers."
 												}
 											]
 										}
@@ -10652,6 +10938,11 @@
 									"2 GP"
 								],
 								[
+									"{@item Hammer|XPHB}",
+									"3 lb.",
+									"1 GP"
+								],
+								[
 									"{@item Healer's Kit|XPHB}",
 									"3 lb.",
 									"5 GP"
@@ -10725,6 +11016,11 @@
 									"{@item Map|XPHB}",
 									"\u2014",
 									"1 GP"
+								],
+								[
+									"{@item Mess Kit|XPHB}",
+									"1 lb.",
+									"2 SP"
 								],
 								[
 									"{@item Mirror|XPHB}",
@@ -10822,6 +11118,11 @@
 									"40 GP"
 								],
 								[
+									"{@item Sealing Wax|XPHB}",
+									"\u2014",
+									"5 SP"
+								],
+								[
 									"{@item Shovel|XPHB}",
 									"5 lb.",
 									"2 GP"
@@ -10830,6 +11131,11 @@
 									"{@item Signal Whistle|XPHB}",
 									"\u2014",
 									"5 CP"
+								],
+								[
+									"{@item Soap|XPHB}",
+									"\u2014",
+									"2 CP"
 								],
 								[
 									"Spell Scroll (Cantrip)",

@@ -6623,7 +6623,7 @@
 									"page": 72,
 									"id": "177",
 									"entries": [
-										"You can make a limited number of shots with a Reload weapon. You must then reload the weapon as an action or a Bonus Action."
+										"You can make a limited number of shots with a Reload weapon. You must then reload the weapon as an action or a {@variantrule Bonus Action|XPHB} to reload all applicable shots. As a {@action Free Object Interaction}, a single ammunition can be loaded instead."
 									]
 								},
 								{
