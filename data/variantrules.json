@@ -12858,7 +12858,7 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"A Spellcasting Focus is an object that certain creatures can use in place of a spell's Material components if those materials aren't consumed by the spell and don't have a cost specified. Some classes allow its members to use certain types of Spellcasting Focuses."
+				"A Spellcasting Focus is an object that certain creatures can use in place of a spell's Material components if those materials aren't consumed by the spell and don't have a cost specified. Some classes allow its members to use certain types of Spellcasting Focuses, such as {@item Arcane Focus|XPHB|Arcane}, {@item Druidic Focus|XPHB|Druidic}, or {@item Holy Symbol|XPHB|Holy}, however there are many Spellcasting Focuses that are class specific."
 			]
 		},
 		{
