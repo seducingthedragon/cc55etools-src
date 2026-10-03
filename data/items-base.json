@@ -129,10 +129,17 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill Arcana|XPHB}, {@skill Investigation|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Identify a substance ({@dc 15}), or start a fire ({@dc 15})"
+								"Identify a poison or substance ({@dc 15}), Start a fire ({@dc 15}), or Neutralize acid ({@dc 20})"
 							]
 						},
 						{
@@ -140,6 +147,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Acid|XPHB}, {@item Alchemist's Fire|XPHB}, {@item Component Pouch|XPHB}, {@item Oil|XPHB}, {@item Paper|XPHB}, {@item Perfume|XPHB}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Alchemist's supplies may include two glass beakers, a metal frame to hold a beaker in place over an open flame, a glass stirring rod, a small mortar and pestle, and a pouch of common alchemical ingredients, including salt, powdered iron, and purified water."
 							]
 						}
 					]
@@ -787,17 +801,32 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill Medicine|XPHB}, {@skill Persuasion|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Detect poisoned drink ({@dc 15}), or identify alcohol ({@dc 10})"
+								"Detect poisoned drink ({@dc 15}), or Identify alcohol ({@dc 10})"
 							]
 						},
 						{
 							"name": "Craft:",
 							"type": "item",
 							"entries": [
-								"{@item Antitoxin|XPHB}"
+								"{@item Antitoxin|XPHB}",
+								"As part of a long rest, you can purify up to 6 gallons of water, or 1 gallon as part of a short rest."
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Brewer's supplies may include a large glass jug, a quantity of hops, a siphon, and several feet of tubing."
 							]
 						}
 					]
@@ -917,10 +946,18 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill Arcana|XPHB}, {@skill History|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Write text with impressive flourishes that guard against forgery ({@dc 15})"
+								"Write text with impressive flourishes that guard against forgery ({@dc 15}).",
+								"{@b Decipher Maps}. This {@variantrule Proficiency|XPHB|tool proficiency} grants you {@variantrule Expertise|XPHB} in examining maps to determine whether a map includes any hidden messages, or similar facts."
 							]
 						},
 						{
@@ -928,6 +965,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Ink|XPHB}, {@item Spell Scroll|XDMG}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Calligrapher's supplies may include ink, a dozen sheets of parchment, and three quills."
 							]
 						}
 					]
@@ -1062,10 +1106,17 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill History|XPHB}, {@skill Investigation|XPHB}, {@skill Perception|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Seal or pry open a door or container ({@dc 20})"
+								"Build Temporary Shelter ({@dc 10}), Find weak points in walls or floors ({@dc 15}), or Seal or pry open a door or container ({@dc 20})"
 							]
 						},
 						{
@@ -1073,6 +1124,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Club|XPHB}, {@item Greatclub|XPHB}, {@item Quarterstaff|XPHB}, {@item Barrel|XPHB}, {@item Chest|XPHB}, {@item Ladder|XPHB}, {@item Pole|XPHB}, {@item Portable Ram|XPHB}, {@item Torch|XPHB}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Carpenter's tools may include a saw, a hammer, nails, a hatchet, a square, a ruler, an adze, a plane, and a chisel."
 							]
 						}
 					]
@@ -1196,10 +1254,17 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill History|XPHB}, {@skill Nature|XPHB}, {@skill Survival|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Draft a map of a small area ({@dc 15})"
+								"Determine a map's age and origin ({@dc 10}), Draft a map of a small area ({@dc 15}), Discern that a map is fake ({@dc 15}), or Fill in a missing part of a map ({@dc 20})"
 							]
 						},
 						{
@@ -1207,6 +1272,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Map|XPHB}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Cartographer's tools may consist of a quill, ink, parchment, a pair of compasses, calipers, and a ruler."
 							]
 						}
 					]
@@ -1473,17 +1545,33 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Investigation|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Modify footwear to give {@variantrule Advantage|XPHB} on the wearer's next Dexterity ({@skill Acrobatics|XPHB}) check ({@dc 10})"
+								"Modify footwear to give {@variantrule Advantage|XPHB} on the wearer's next Dexterity ({@skill Acrobatics|XPHB}) check ({@dc 10})",
+								"As part of a long rest, you can repair your companions' shoes. For the next 24 hours, up to six creatures of your choice who wear shoes you worked on can travel up to 10 hours a day without making {@variantrule Saving Throw|XPHB|Saving Throws} to avoid {@condition Exhaustion|XPHB}."
 							]
 						},
 						{
 							"name": "Craft:",
 							"type": "item",
 							"entries": [
-								"{@item Climber's Kit|XPHB}"
+								"{@item Climber's Kit|XPHB}",
+								"{@b Craft Hidden Compartment.} With 8 hours of work, you can add a hidden compartment to a pair of shoes. Make an Intelligence check using your tool proficiency to determine the Intelligence ({@skill Investigation|XPHB}) check DC needed to find the compartment."
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Cobbler's tools may consist of a hammer, an awl, a knife, a shoe stand, a cutter, spare leather, and thread."
 							]
 						}
 					]
@@ -1604,17 +1692,31 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill History|XPHB}, {@skill Medicine|XPHB}, {@skill Survival|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Improve food's flavor ({@dc 10}), or detect spoiled or poisoned food ({@dc 15})"
+								"Improve food's flavor ({@dc 10}), or Detect spoiled or poisoned food ({@dc 15})"
 							]
 						},
 						{
 							"name": "Craft:",
 							"type": "item",
 							"entries": [
-								"{@item Rations|XPHB}"
+								"{@item Rations|XPHB} as part of a short rest, you and up to 5 creatures of your choice regain 1 extra {@variantrule Hit Points|XPHB|Hit Point} per {@variantrule Hit Point Dice|XPHB|Hit Die} spent, access to resources dependent."
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Cook's utensils may include a metal pot, knives, forks, a stirring spoon, and a ladle."
 							]
 						}
 					]
@@ -2335,6 +2437,13 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Investigation|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
@@ -2346,6 +2455,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Glass Bottle|XPHB}, {@item Magnifying Glass|XPHB}, {@item Spyglass|XPHB}, {@item Vial|XPHB}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"The possible tools include a blowpipe, a small marver, blocks, and tweezers. You need a source of heat to work glass."
 							]
 						}
 					]
@@ -3230,10 +3346,17 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill Arcana|XPHB}, {@skill Investigation|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Discern a gem's value ({@dc 15})"
+								"Discern a gem's value or history ({@dc 15}), or Modify a gem's appearance ({@dc 15})"
 							]
 						},
 						{
@@ -3241,6 +3364,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Arcane Focus|XPHB}, {@item Holy Symbol|XPHB}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Jeweler's tools may consist of a small saw and hammer, files, pliers, and tweezers."
 							]
 						}
 					]
@@ -3564,6 +3694,13 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill Arcana|XPHB}, {@skill Investigation|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
@@ -3575,6 +3712,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Sling|XPHB}, {@item Whip|XPHB}, {@item Hide Armor|XPHB}, {@item Leather Armor|XPHB}, {@item Studded Leather Armor|XPHB}, {@item Backpack|XPHB}, {@item Crossbow Bolt Case|XPHB}, {@item Map or Scroll Case|XPHB}, {@item Parchment|XPHB}, {@item Pouch|XPHB}, {@item Quiver|XPHB}, {@item Waterskin|XPHB}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Leatherworker's tools may include a knife, a small mallet, an edger, a hole punch, thread, and leather scraps."
 							]
 						}
 					]
@@ -4153,10 +4297,18 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill History|XPHB}, {@skill Investigation|XPHB}, {@skill Perception|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Chisel a symbol or hole in stone ({@dc 10})"
+								"Chisel a symbol or hole in stone ({@dc 10}), or Find a weak point in a stone wall ({@dc 15}).",
+								"{@b Demolition.} Additionally, you deal double damage to stone structures with your weapon attacks."
 							]
 						},
 						{
@@ -4164,6 +4316,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Block and Tackle|XPHB}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Mason's tools may consist of a trowel, a hammer, a chisel, brushes, and a square."
 							]
 						}
 					]
@@ -4620,10 +4779,17 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill History|XPHB}, {@skill Investigation|XPHB}, {@skill Perception|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Paint a recognizable image of something you've seen ({@dc 10})"
+								"Paint a recognizable image of something you've seen ({@dc 10}), or Paint something with a hidden message ({@dc 20})"
 							]
 						},
 						{
@@ -4631,6 +4797,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Druidic Focus|XPHB}, {@item Holy Symbol|XPHB}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Painter's supplies may include an easel, canvas, paints, brushes, charcoal sticks, and a palette."
 							]
 						}
 					]
@@ -4945,10 +5118,17 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"@skill History|XPHB}, {@skill Investigation|XPHB}, {@skill Perception|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Discern what a ceramic object held in the past 24 hours ({@dc 15})"
+								"Discern what a ceramic object held in the past 24 hours ({@dc 15}), or Find a weak point in a ceramic object ({@dc 20})"
 							]
 						},
 						{
@@ -4956,6 +5136,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Jug|XPHB}, {@item Lamp|XPHB}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Potter's tools may include potter's needles, ribs, scrapers, a knife, and calipers."
 							]
 						}
 					]
@@ -5923,10 +6110,18 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Investigation|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Pry open a door or container ({@dc 20})"
+								"Sharpen a dull blade ({@dc 10}), or Pry open a door or container ({@dc 20}).",
+								"{@b Repair.} You can restore 10 hit points to a damaged metal object for each hour of work with the appropriate additional resources."
 							]
 						},
 						{
@@ -5934,6 +6129,13 @@
 							"type": "item",
 							"entries": [
 								"Any Melee weapon (except {@item Club|XPHB}, {@item Greatclub|XPHB}, {@item Quarterstaff|XPHB}, and {@item Whip|XPHB}), Medium armor (except {@item Hide Armor|XPHB|Hide}), Heavy armor, {@item Ball Bearings|XPHB}, {@item Bucket|XPHB}, {@item Caltrops|XPHB}, {@item Chain|XPHB}, {@item Crowbar|XPHB}, {@item Firearm Bullets (10)|XPHB|Firearm Bullets}, {@item Grappling Hook|XPHB}, {@item Iron Pot|XPHB}, {@item Iron Spikes|XPHB}, {@item Sling Bullets (20)|XPHB|Sling Bullets}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Smith's tools may include hammers, tongs, charcoal, rags, and a whetstone."
 							]
 						}
 					]
@@ -6381,10 +6583,18 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill History|XPHB}, {@skill Investigation|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Assemble a Tiny item composed of scrap, which falls apart in 1 minute ({@dc 20})"
+								"Assemble a Tiny item composed of scrap, which falls apart in 1 minute ({@dc 20}).",
+								"{@b Repair.} You can restore 10 hit points to a damaged object for each hour of work with the appropriate additional resources."
 							]
 						},
 						{
@@ -6392,6 +6602,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Musket|XPHB}, {@item Pistol|XPHB}, {@item Bell|XPHB}, {@item Bullseye Lantern|XPHB}, {@item Flask|XPHB}, {@item Hooded Lantern|XPHB}, {@item Hunting Trap|XPHB}, {@item Lock|XPHB}, {@item Manacles|XPHB}, {@item Mirror|XPHB}, {@item Shovel|XPHB}, {@item Signal Whistle|XPHB}, {@item Tinderbox|XPHB}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Tinker's tools may include a variety of hand tools, thread, needles, a whetstone, scraps of cloth and leather, and a small pot of glue."
 							]
 						}
 					]
@@ -6805,10 +7022,17 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Investigation|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
-								"Mend a tear in clothing ({@dc 10}), or sew a Tiny design ({@dc 10})"
+								"Mend a tear in clothing ({@dc 10}), Sew a Tiny design ({@dc 10}), or Tailor an outfit ({@dc 15})"
 							]
 						},
 						{
@@ -6816,6 +7040,13 @@
 							"type": "item",
 							"entries": [
 								"{@item Padded Armor|XPHB}, {@item Basket|XPHB}, {@item Bedroll|XPHB}, {@item Blanket|XPHB}, {@item Fine Clothes|XPHB}, {@item Net|XPHB}, {@item Robe|XPHB}, {@item Rope|XPHB}, {@item Sack|XPHB}, {@item String|XPHB}, {@item Tent|XPHB}, {@item Traveler's Clothes|XPHB}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Weaver's tools may include thread, needles, and scraps of cloth. You know how to work a loom, but such equipment is too large to transport."
 							]
 						}
 					]
@@ -6980,6 +7211,13 @@
 							]
 						},
 						{
+							"name": "Skills",
+							"type": "item",
+							"entries": [
+								"{@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Nature|XPHB}"
+							]
+						},
+						{
 							"name": "Utilize:",
 							"type": "item",
 							"entries": [
@@ -6990,7 +7228,14 @@
 							"name": "Craft:",
 							"type": "item",
 							"entries": [
-								"{@item Club|XPHB}, {@item Greatclub|XPHB}, {@item Quarterstaff|XPHB}, Ranged weapons (except {@item Pistol|XPHB}, {@item Musket|XPHB}, and {@item Sling|XPHB}), {@item Arcane Focus|XPHB}, {@item Arrows (20)|XPHB|Arrows}, {@item Bolts (20)|XPHB|Bolts}, {@item Druidic Focus|XPHB}, {@item Ink Pen|XPHB}, {@item Needles (50)|XPHB|Needles}"
+								"{@item Club|XPHB}, {@item Greatclub|XPHB}, {@item Quarterstaff|XPHB}, Ranged weapons (except {@item Pistol|XPHB}, {@item Musket|XPHB}, and {@item Sling|XPHB}), {@item Arcane Focus|XPHB}, {@item Arrows (20)|XPHB|Arrows} {@i (5 on a short rest, 20 on a long rest)}, {@item Bolts (20)|XPHB|Bolts}, {@item Druidic Focus|XPHB}, {@item Ink Pen|XPHB}, {@item Needles (50)|XPHB|Needles}"
+							]
+						},
+						{
+							"name": "Components",
+							"type": "item",
+							"entries": [
+								"Woodcarver's tools may consist of a knife, a gouge, and a small saw."
 							]
 						}
 					]
@@ -7729,8 +7974,8 @@
 					"type": "entries",
 					"name": "Artisan's Tool",
 					"entries": [
-						"Artisan's Tools are each focused on crafting items and pursuing a trade. Each type of Artisan's Tools tools requires a separate proficiency.",
-						"If you have proficiency with a tool, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
+						"Artisan's Tools are each focused on crafting items and pursuing a trade. Each Artisan's Tool lists its primary ability, commonly used skills, uses, crafts, and its components, which you are not limited to, at the discretion of the DM.",
+						"Each type of Artisan's Tools tools requires a separate proficiency. If you have proficiency with a tool, add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have {@variantrule Advantage|XPHB} on the check too."
 					]
 				}
 			]
