@@ -7454,7 +7454,7 @@
 															"{@area General|526|x}"
 														],
 														[
-															"{@feat Blind Fighting|XPHB}",
+															"{@feat Blindsighted Fighting|XPHB}",
 															"{@area Fighting Style|5fa|x}"
 														],
 														[
@@ -7506,6 +7506,10 @@
 															"{@area Epic Boon|605|x}"
 														],
 														[
+															"{@feat Brawling|XPHB}",
+															"{@area Fighting Style|5fa|x}"
+														],
+														[
 															"{@feat Charger|XPHB}",
 															"{@area General|526|x}"
 														],
@@ -7532,6 +7536,10 @@
 														[
 															"{@feat Defensive Duelist|XPHB}",
 															"{@area General|526|x}"
+														],
+														[
+															"{@feat Dual Wield Fighting|XPHB}",
+															"{@area Fighting Style|5fa|x}"
 														],
 														[
 															"{@feat Dual Wielder|XPHB}",
@@ -7576,6 +7584,10 @@
 														[
 															"{@feat Heavy Armor Master|XPHB}",
 															"{@area General|526|x}"
+														],
+														[
+															"{@feat Hurler|XPHB}",
+															"{@area Fighting Style|5fa|x}"
 														],
 														[
 															"{@feat Inspiring Leader|XPHB}",
@@ -7710,20 +7722,8 @@
 															"{@area General|526|x}"
 														],
 														[
-															"{@feat Thrown Weapon Fighting|XPHB}",
-															"{@area Fighting Style|5fa|x}"
-														],
-														[
 															"{@feat Tough|XPHB}",
 															"{@area Origin|4fe|x}"
-														],
-														[
-															"{@feat Two-Weapon Fighting|XPHB}",
-															"{@area Fighting Style|5fa|x}"
-														],
-														[
-															"{@feat Unarmed Fighting|XPHB}",
-															"{@area Fighting Style|5fa|x}"
 														],
 														[
 															"{@feat War Caster|XPHB}",
@@ -8162,15 +8162,15 @@
 							"columns": 3,
 							"items": [
 								"{@feat Archery|XPHB}",
-								"{@feat Blind Fighting|XPHB}",
+								"{@feat Blindsighted Fighting|XPHB}",
+								"{@feat Brawling|XPHB}",
 								"{@feat Defense|XPHB}",
+								"{@feat Dual Wield Fighting|XPHB}",
 								"{@feat Dueling|XPHB}",
 								"{@feat Great Weapon Fighting|XPHB}",
+								"{@feat Hurler|XPHB}",
 								"{@feat Interception|XPHB}",
-								"{@feat Protection|XPHB}",
-								"{@feat Thrown Weapon Fighting|XPHB}",
-								"{@feat Two-Weapon Fighting|XPHB}",
-								"{@feat Unarmed Fighting|XPHB}"
+								"{@feat Protection|XPHB}"
 							]
 						},
 						{
@@ -8181,13 +8181,31 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Blind Fighting",
+							"name": "Blindsighted Fighting",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Brawling",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Dual Wield Fighting",
 							"tag": "feat",
 							"source": "XPHB"
 						},
 						{
 							"type": "statblock",
 							"name": "Defense",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Dual Wield Fighting",
 							"tag": "feat",
 							"source": "XPHB"
 						},
@@ -8205,6 +8223,12 @@
 						},
 						{
 							"type": "statblock",
+							"name": "Hurler",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
 							"name": "Interception",
 							"tag": "feat",
 							"source": "XPHB"
@@ -8212,24 +8236,6 @@
 						{
 							"type": "statblock",
 							"name": "Protection",
-							"tag": "feat",
-							"source": "XPHB"
-						},
-						{
-							"type": "statblock",
-							"name": "Thrown Weapon Fighting",
-							"tag": "feat",
-							"source": "XPHB"
-						},
-						{
-							"type": "statblock",
-							"name": "Two-Weapon Fighting",
-							"tag": "feat",
-							"source": "XPHB"
-						},
-						{
-							"type": "statblock",
-							"name": "Unarmed Fighting",
 							"tag": "feat",
 							"source": "XPHB"
 						}
