@@ -1044,7 +1044,7 @@
 				}
 			],
 			"entries": [
-				"You gain a +2 bonus to attack rolls you make with Ranged weapons."
+				"You gain a +2 bonus to attack rolls you make with Ranged weapons. You also ignore {@variantrule Cover|XPHB|Half Cover}."
 			]
 		},
 		{
@@ -1257,7 +1257,7 @@
 			]
 		},
 		{
-			"name": "Blind Fighting",
+			"name": "Blindsighted Fighting",
 			"source": "XPHB",
 			"page": 209,
 			"category": "FS",
@@ -1274,7 +1274,7 @@
 				}
 			],
 			"entries": [
-				"You have {@sense Blindsight|XPHB} with a range of 10 feet."
+				"You have {@sense Blindsight|XPHB} with a range of five times your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
 			]
 		},
 		{
@@ -3262,6 +3262,23 @@
 			]
 		},
 		{
+			"name": "Brawling",
+			"source": "XPHB",
+			"page": 210,
+			"category": "FS",
+			"prerequisite": [
+				{
+					"feature": [
+						"Fighting Style"
+					]
+				}
+			],
+			"entries": [
+				"When you make an {@action Attack|XPHB|Unarmed Strike Attack}, you deal Bludgeoning damage equal to {@damage 1d6} plus your Strength modifier instead of its normal damage. If you aren't holding any weapons or a {@item Shield|XPHB} when you make the {@action Attack|XPHB} roll, the {@dice d6} becomes a {@dice d8}.",
+				"At the start of each of your turns, you can deal {@damage 1d4} Bludgeoning damage to one creature {@condition Grappled|XPHB} by you."
+			]
+		},
+		{
 			"name": "Cartomancer",
 			"source": "BMT",
 			"page": 49,
@@ -4575,6 +4592,25 @@
 			]
 		},
 		{
+			"name": "Dual Wield Fighting",
+			"source": "XPHB",
+			"page": 210,
+			"srd52": true,
+			"basicRules2024": true,
+			"category": "FS",
+			"prerequisite": [
+				{
+					"feature": [
+						"Fighting Style"
+					]
+				}
+			],
+			"entries": [
+				"When you engage in {@action Two-Weapon Fighting|XPHB}, you add your ability modifier to the damage of the off-hand extra attack. Additionally, this extra attack can be done as part of your {@action Attack|XPHB|Attack Action} instead of your {@variantrule Bonus Action|XPHB} as long as you are not utilizing its {@itemProperty T|XPHB|Thrown} weapon property."
+			],
+			"hasFluffImages": true
+		},
+		{
 			"name": "Dual Wielder",
 			"source": "PHB",
 			"page": 165,
@@ -4657,7 +4693,7 @@
 				}
 			],
 			"entries": [
-				"When you're holding a Melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+				"When you're holding a Melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon. You can use a {@item Shield|XPHB} and still gain this benefit."
 			]
 		},
 		{
@@ -5998,7 +6034,7 @@
 					"type": "entries",
 					"name": "Punch and Grab",
 					"entries": [
-						"When you hit a creature with an {@variantrule Unarmed Strike|XPHB} as part of the {@action Attack|XPHB} action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn."
+						"When you hit a creature with an {@variantrule Unarmed Attack|XPHB} as part of the {@action Attack|XPHB} action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn."
 					]
 				},
 				{
@@ -6539,7 +6575,7 @@
 					"type": "entries",
 					"name": "Improved Sentinel",
 					"entries": [
-						"When you use the Vigilant Guardian benefit of your {@feat Mark of Sentinel|EFA} feat, you can also make one attack with a weapon or an {@variantrule Unarmed Strike|XPHB} as part of that same {@variantrule Reaction|XPHB}."
+						"When you use the Vigilant Guardian benefit of your {@feat Mark of Sentinel|EFA} feat, you can also make one attack with a weapon or an {@variantrule Unarmed Attack|XPHB} as part of that same {@variantrule Reaction|XPHB}."
 					]
 				}
 			]
@@ -7016,6 +7052,22 @@
 			]
 		},
 		{
+			"name": "Hurler",
+			"source": "XPHB",
+			"page": 210,
+			"category": "FS",
+			"prerequisite": [
+				{
+					"feature": [
+						"Fighting Style"
+					]
+				}
+			],
+			"entries": [
+				"When you hit with a ranged attack roll using a weapon that has the {@itemProperty T|XPHB|Thrown} property, you gain a +2 bonus to the damage roll."
+			]
+		},
+		{
 			"name": "Illusion Adept",
 			"source": "AU",
 			"page": 30,
@@ -7406,7 +7458,7 @@
 				}
 			],
 			"entries": [
-				"When a creature you can see hits another creature within 5 feet of you with an attack roll, you can take a {@variantrule Reaction|XPHB} to reduce the damage dealt to the target by {@dice 1d10} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You must be holding a {@item Shield|XPHB} or a Simple or Martial weapon to use this {@variantrule Reaction|XPHB}."
+				"When a creature you can see hits another creature within 5 feet of you with an attack roll, you can take a {@variantrule Reaction|XPHB} to reduce the damage dealt to the target by {@dice 1d10} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You must be holding a {@item Shield|XPHB} or a Melee weapon to use this {@variantrule Reaction|XPHB}."
 			]
 		},
 		{
@@ -8011,7 +8063,7 @@
 					"type": "entries",
 					"name": "Endearing Pain",
 					"entries": [
-						"Immediately after you damage a creature with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}, you can take a {@variantrule Bonus Action|XPHB} to give the target the {@condition Charmed|XPHB} condition until the start of your next turn or until you or your allies damage it. Once you use this benefit, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+						"Immediately after you damage a creature with a Melee weapon or an {@variantrule Unarmed Attack|XPHB}, you can take a {@variantrule Bonus Action|XPHB} to give the target the {@condition Charmed|XPHB} condition until the start of your next turn or until you or your allies damage it. Once you use this benefit, you can't use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
 					]
 				}
 			]
@@ -14705,14 +14757,14 @@
 					"type": "entries",
 					"name": "Enhanced Unarmed Strike",
 					"entries": [
-						"When you hit with your {@variantrule Unarmed Strike|XPHB} and deal damage, you can deal Bludgeoning damage equal to {@damage 1d4} plus your Strength modifier instead of the normal damage of an {@variantrule Unarmed Strike|XPHB}."
+						"When you hit with your {@variantrule Unarmed Attack|XPHB} and deal damage, you can deal Bludgeoning damage equal to {@damage 1d4} plus your Strength modifier instead of the normal damage of an {@variantrule Unarmed Attack|XPHB}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Damage Rerolls",
 					"entries": [
-						"Whenever you roll a damage die for your {@variantrule Unarmed Strike|XPHB}, you can reroll the die if it rolls a 1, and you must use the new roll."
+						"Whenever you roll a damage die for your {@variantrule Unarmed Attack|XPHB}, you can reroll the die if it rolls a 1, and you must use the new roll."
 					]
 				},
 				{
@@ -14726,7 +14778,7 @@
 					"type": "entries",
 					"name": "Push",
 					"entries": [
-						"When you hit a creature with an {@variantrule Unarmed Strike|XPHB} as part of the {@action Attack|XPHB} action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn."
+						"When you hit a creature with an {@variantrule Unarmed Attack|XPHB} as part of the {@action Attack|XPHB} action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn."
 					]
 				}
 			]
@@ -14916,22 +14968,6 @@
 						"You always have the {@spell Detect Thoughts|XPHB} spell prepared. You can cast it without a spell slot or spell components, and you must finish a {@variantrule Long Rest|XPHB} before you can cast it in this way again. You can also cast it using spell slots you have of the appropriate level. Your spellcasting ability for the spell is the ability increased by this feat."
 					]
 				}
-			]
-		},
-		{
-			"name": "Thrown Weapon Fighting",
-			"source": "XPHB",
-			"page": 210,
-			"category": "FS",
-			"prerequisite": [
-				{
-					"feature": [
-						"Fighting Style"
-					]
-				}
-			],
-			"entries": [
-				"When you hit with a ranged attack roll using a weapon that has the {@itemProperty T|XPHB|Thrown} property, you gain a +2 bonus to the damage roll."
 			]
 		},
 		{
@@ -15179,25 +15215,6 @@
 			]
 		},
 		{
-			"name": "Two-Weapon Fighting",
-			"source": "XPHB",
-			"page": 210,
-			"srd52": true,
-			"basicRules2024": true,
-			"category": "FS",
-			"prerequisite": [
-				{
-					"feature": [
-						"Fighting Style"
-					]
-				}
-			],
-			"entries": [
-				"When you make an extra attack as a result of using a weapon that has the {@itemProperty L|XPHB|Light} property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage."
-			],
-			"hasFluffImages": true
-		},
-		{
 			"name": "Tyro of the Gauntlet",
 			"source": "FRHoF",
 			"page": 38,
@@ -15218,23 +15235,6 @@
 						"When you take the {@action Ready|XPHB} action, the next attack roll made against you has {@variantrule Disadvantage|XPHB} before the start of your next turn."
 					]
 				}
-			]
-		},
-		{
-			"name": "Unarmed Fighting",
-			"source": "XPHB",
-			"page": 210,
-			"category": "FS",
-			"prerequisite": [
-				{
-					"feature": [
-						"Fighting Style"
-					]
-				}
-			],
-			"entries": [
-				"When you hit with your {@variantrule Unarmed Strike|XPHB} and deal damage, you can deal Bludgeoning damage equal to {@damage 1d6} plus your Strength modifier instead of the normal damage of an {@variantrule Unarmed Strike|XPHB}. If you aren't holding any weapons or a {@item Shield|XPHB} when you make the attack roll, the {@dice d6} becomes a {@dice d8}.",
-				"At the start of each of your turns, you can deal {@damage 1d4} Bludgeoning damage to one creature {@condition Grappled|XPHB} by you."
 			]
 		},
 		{

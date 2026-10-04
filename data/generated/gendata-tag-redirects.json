@@ -2417,7 +2417,7 @@
             "page": "feats.html"
         },
         "blind%20fighting_tce": {
-            "hash": "blind%20fighting_xphb",
+            "hash": "blindsighted%20fighting_xphb",
             "page": "feats.html"
         },
         "book%20of%20ancient%20secrets_phb": "pact%20of%20the%20tome_xphb",
@@ -2519,18 +2519,18 @@
         "tactical%20assessment_tce": "tactical%20assessment_xphb",
         "thirsting%20blade_phb": "thirsting%20blade_xphb",
         "thrown%20weapon%20fighting_tce": {
-            "hash": "thrown%20weapon%20fighting_xphb",
+            "hash": "hurler_xphb",
             "page": "feats.html"
         },
         "transmuted%20spell_tce": "transmuted%20spell_xphb",
         "trip%20attack_phb": "trip%20attack_xphb",
         "twinned%20spell_phb": "twinned%20spell_xphb",
         "two-weapon%20fighting_phb": {
-            "hash": "two-weapon%20fighting_xphb",
+            "hash": "dual%20wield%20fighting_xphb",
             "page": "feats.html"
         },
         "unarmed%20fighting_tce": {
-            "hash": "unarmed%20fighting_xphb",
+            "hash": "brawling_xphb",
             "page": "feats.html"
         },
         "visions%20of%20distant%20realms_phb": "visions%20of%20distant%20realms_xphb",
