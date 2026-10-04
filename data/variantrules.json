@@ -322,7 +322,7 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"An attack roll is a {@variantrule D20 Test|XPHB} that represents making an attack with a weapon, an {@variantrule Unarmed Strike|XPHB}, or a spell."
+				"An attack roll is a {@variantrule D20 Test|XPHB} that represents making an attack with a weapon, an {@variantrule Unarmed Attack|XPHB}, or a spell."
 			]
 		},
 		{
@@ -5787,7 +5787,7 @@
 			"basicRules2024": true,
 			"ruleType": "C",
 			"entries": [
-				"A creature can grapple another creature. Characters typically grapple by using an {@variantrule Unarmed Strike|XPHB}. Many {@variantrule Monster|XPHB|monsters} have special attacks that allow them to quickly grapple prey. However a grapple is initiated, it follows these rules.",
+				"A creature can grapple another creature. Characters typically grapple by using an {@variantrule Unarmed Attack|XPHB}. Many {@variantrule Monster|XPHB|monsters} have special attacks that allow them to quickly grapple prey. However a grapple is initiated, it follows these rules.",
 				{
 					"type": "entries",
 					"entries": [

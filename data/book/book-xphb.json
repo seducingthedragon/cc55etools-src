@@ -3024,7 +3024,7 @@
 							"page": 26,
 							"id": "089",
 							"entries": [
-								"A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an {@variantrule Unarmed Strike|XPHB}. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.",
+								"A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an {@variantrule Unarmed Attack|XPHB}. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.",
 								{
 									"type": "entries",
 									"name": "Reach",
@@ -3056,7 +3056,7 @@
 											"page": 26,
 											"id": "08d",
 											"entries": [
-												"You can make an Opportunity Attack when a creature that you can see leaves your reach. To make the attack, take a Reaction to make one melee attack with a weapon or an {@variantrule Unarmed Strike|XPHB} against that creature. The attack occurs right before it leaves your reach."
+												"You can make an Opportunity Attack when a creature that you can see leaves your reach. To make the attack, take a Reaction to make one melee attack with a weapon or an {@variantrule Unarmed Attack|XPHB} against that creature. The attack occurs right before it leaves your reach."
 											]
 										}
 									]
@@ -3456,6 +3456,7 @@
 								"{@condition Exhaustion|XPHB}",
 								"{@condition Frightened|XPHB}",
 								"{@condition Grappled|XPHB}",
+								"{@condition Hidden|XPHB}",
 								"{@condition Incapacitated|XPHB}",
 								"{@condition Invisible|XPHB}",
 								"{@condition Paralyzed|XPHB}",
@@ -3502,6 +3503,12 @@
 						{
 							"type": "statblock",
 							"name": "Grappled",
+							"tag": "condition",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Hidden",
 							"tag": "condition",
 							"source": "XPHB"
 						},
@@ -18575,7 +18582,7 @@
 							"type": "statblock",
 							"tag": "variantrule",
 							"source": "XPHB",
-							"name": "Unarmed Strike"
+							"name": "Unarmed Attack"
 						},
 						{
 							"type": "statblock",

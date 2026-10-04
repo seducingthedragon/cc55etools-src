@@ -800,7 +800,7 @@
 				}
 			],
 			"entries": [
-				"You can make an Opportunity Attack when a creature that you can see leaves your reach using its action, its {@variantrule Bonus Action|XPHB}, its {@variantrule Reaction|XPHB}, or one of its speeds. To make the Opportunity Attack, take a {@variantrule Reaction|XPHB} to make one melee attack with a weapon or an {@variantrule Unarmed Strike|XPHB} against the provoking creature. The attack occurs right before the creature leaves your reach.",
+				"You can make an Opportunity Attack when a creature that you can see leaves your reach using its action, its {@variantrule Bonus Action|XPHB}, its {@variantrule Reaction|XPHB}, or one of its speeds. To make the Opportunity Attack, take a {@variantrule Reaction|XPHB} to make one melee attack with a weapon or an {@variantrule Unarmed Attack|XPHB} against the provoking creature. The attack occurs right before the creature leaves your reach.",
 				"Typically, if a creature is forced out of your reach against their will, it may be due to an {@variantrule Area of Effect|XPHB}, which may also impact you. In such scenarios, you cannot use an opportunity attack, however, if a creature is forced out of your reach by a targeted effect, such as with {@spell Thorn Whip|XPHB} or {@spell Lightning Lure|TCE} by a known ally, you may attempt this reaction at {@variantrule Disadvantage|XPHB}."
 			]
 		},
