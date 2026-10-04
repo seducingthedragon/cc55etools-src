@@ -130,7 +130,7 @@
 							"rows": [
 								[
 									"{@action Attack|XPHB}",
-									"Attack with a weapon or an {@variantrule Unarmed Strike|XPHB}."
+									"Attack with a weapon or an {@variantrule Unarmed Attack|XPHB}."
 								],
 								[
 									"{@action Dash|XPHB}",
