@@ -2416,7 +2416,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"You can make an {@variantrule Unarmed Strike|XPHB} as a {@variantrule Bonus Action|XPHB}."
+				"You can make an {@variantrule Unarmed Attack|XPHB} as a {@variantrule Bonus Action|XPHB}."
 			]
 		},
 		{
@@ -2430,7 +2430,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your {@variantrule Unarmed Strike|XPHB}, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC."
+				"You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your {@variantrule Unarmed Attack|XPHB}, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC."
 			]
 		},
 		{
@@ -2443,7 +2443,7 @@
 			"classSource": "XPHB",
 			"level": 1,
 			"entries": [
-				"Your practice of martial arts gives you mastery of combat styles that use your {@variantrule Unarmed Strike|XPHB} and Monk weapons, which are the following:",
+				"Your practice of martial arts gives you mastery of combat styles that use your {@variantrule Unarmed Attack|XPHB} and Monk weapons, which are the following:",
 				{
 					"type": "list",
 					"items": [
@@ -2482,7 +2482,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"You can roll {@damage 1d6} in place of the normal damage of your {@variantrule Unarmed Strike|XPHB} or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table."
+				"You can roll {@damage 1d6} in place of the normal damage of your {@variantrule Unarmed Attack|XPHB} or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table."
 			]
 		},
 		{
@@ -2691,7 +2691,7 @@
 				"name": "Focus Point"
 			},
 			"entries": [
-				"Once per turn when you hit a creature with a Monk weapon or an {@variantrule Unarmed Strike|XPHB}, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the {@condition Stunned|XPHB} condition until the start of your next turn. On a successful save, the target's {@variantrule Speed|XPHB} is halved until the start of your next turn, and the next attack roll made against the target before then has {@variantrule Advantage|XPHB}."
+				"Once per turn when you hit a creature with a Monk weapon or an {@variantrule Unarmed Attack|XPHB}, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the {@condition Stunned|XPHB} condition until the start of your next turn. On a successful save, the target's {@variantrule Speed|XPHB} is halved until the start of your next turn, and the next attack roll made against the target before then has {@variantrule Advantage|XPHB}."
 			]
 		},
 		{
@@ -2704,7 +2704,7 @@
 			"classSource": "XPHB",
 			"level": 6,
 			"entries": [
-				"Whenever you deal damage with your {@variantrule Unarmed Strike|XPHB}, it can deal your choice of Force damage or its normal damage type."
+				"Whenever you deal damage with your {@variantrule Unarmed Attack|XPHB}, it can deal your choice of Force damage or its normal damage type."
 			]
 		},
 		{
@@ -4419,7 +4419,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"When you take the {@action Attack|XPHB} action on your turn, you can replace one {@variantrule Unarmed Strike|XPHB} with a casting of one of your Sorcerer cantrips that has a casting time of an action."
+				"When you take the {@action Attack|XPHB} action on your turn, you can replace one {@variantrule Unarmed Attack|XPHB} with a casting of one of your Sorcerer cantrips that has a casting time of an action."
 			]
 		},
 		{
@@ -4508,7 +4508,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"When you use Flurry of Blows, you can replace two of the {@variantrule Unarmed Strike|XPHB|Unarmed Strikes} with a casting of one of your level 1 or 2 Sorcerer spells that has a casting time of an action, and you cast it as part of the same {@variantrule Bonus Action|XPHB} you use to activate Flurry of Blows."
+				"When you use Flurry of Blows, you can replace two of the {@variantrule Unarmed Attack|XPHB|Unarmed Strikes} with a casting of one of your level 1 or 2 Sorcerer spells that has a casting time of an action, and you cast it as part of the same {@variantrule Bonus Action|XPHB} you use to activate Flurry of Blows."
 			]
 		},
 		{
@@ -4532,14 +4532,14 @@
 							"type": "entries",
 							"name": "Reach",
 							"entries": [
-								"When you make an {@variantrule Unarmed Strike|XPHB}, your reach is 10 feet greater than normal, as elemental energy extends from you."
+								"When you make an {@variantrule Unarmed Attack|XPHB}, your reach is 10 feet greater than normal, as elemental energy extends from you."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Elemental Strikes",
 							"entries": [
-								"Whenever you hit with your {@variantrule Unarmed Strike|XPHB}, you can cause it to deal your choice of Acid, Cold, Fire, Lightning, or Thunder damage rather than its normal damage type. When you deal one of these types with it, you can also force the target to make a Strength saving throw. On a failed save, you can move the target up to 10 feet toward or away from you, as elemental energy swirls around it."
+								"Whenever you hit with your {@variantrule Unarmed Attack|XPHB}, you can cause it to deal your choice of Acid, Cold, Fire, Lightning, or Thunder damage rather than its normal damage type. When you deal one of these types with it, you can also force the target to make a Strength saving throw. On a failed save, you can move the target up to 10 feet toward or away from you, as elemental energy swirls around it."
 							]
 						}
 					]
@@ -4644,7 +4644,7 @@
 					"type": "entries",
 					"name": "Empowered Strikes",
 					"entries": [
-						"Once on each of your turns, you can deal extra damage to a target equal to one roll of your Martial Arts die when you hit it with an {@variantrule Unarmed Strike|XPHB}. The extra damage is the same type dealt by that strike."
+						"Once on each of your turns, you can deal extra damage to a target equal to one roll of your Martial Arts die when you hit it with an {@variantrule Unarmed Attack|XPHB}. The extra damage is the same type dealt by that strike."
 					]
 				}
 			]
@@ -4689,7 +4689,7 @@
 				"name": "Focus Point"
 			},
 			"entries": [
-				"Once per turn when you hit a creature with an {@variantrule Unarmed Strike|XPHB} and deal damage, you can expend 1 Focus Point to deal extra Necrotic damage equal to one roll of your Martial Arts die plus your Wisdom modifier."
+				"Once per turn when you hit a creature with an {@variantrule Unarmed Attack|XPHB} and deal damage, you can expend 1 Focus Point to deal extra Necrotic damage equal to one roll of your Martial Arts die plus your Wisdom modifier."
 			]
 		},
 		{
@@ -4768,7 +4768,7 @@
 			"header": 2,
 			"entries": [
 				"When you use Flurry of Blows, you can replace each of the Unarmed Strikes with a use of Hand of Healing without expending Focus Points for the healing.",
-				"In addition, when you make an {@variantrule Unarmed Strike|XPHB} with Flurry of Blows and deal damage, you can use Hand of Harm with that strike without expending a Focus Point for Hand of Harm. You can still use Hand of Harm only once per turn.",
+				"In addition, when you make an {@variantrule Unarmed Attack|XPHB} with Flurry of Blows and deal damage, you can use Hand of Harm with that strike without expending a Focus Point for Hand of Harm. You can still use Hand of Harm only once per turn.",
 				"You can use these benefits a total number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 			]
 		},
@@ -4897,7 +4897,7 @@
 				"amount": 4
 			},
 			"entries": [
-				"You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an {@variantrule Unarmed Strike|XPHB}, you can expend 4 Focus Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you take an action to end them. Alternatively, when you take the {@action Attack|XPHB} action on your turn, you can forgo one of the attacks to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must make a Constitution saving throw, taking {@damage 10d12} Force damage on a failed save or half as much damage on a successful one.",
+				"You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an {@variantrule Unarmed Attack|XPHB}, you can expend 4 Focus Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you take an action to end them. Alternatively, when you take the {@action Attack|XPHB} action on your turn, you can forgo one of the attacks to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must make a Constitution saving throw, taking {@damage 10d12} Force damage on a failed save or half as much damage on a successful one.",
 				"You can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly (no action required)."
 			]
 		},
@@ -5017,7 +5017,7 @@
 				"name": "Focus Point"
 			},
 			"entries": [
-				"You can draw on your Shadowfell connection to empower your teleportation. When you use your Shadow Step, you can expend 1 Focus Point to remove the requirement that you must start and end in {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB} for that use of the feature. As part of this {@variantrule Bonus Action|XPHB}, you can make an {@variantrule Unarmed Strike|XPHB} immediately after you teleport."
+				"You can draw on your Shadowfell connection to empower your teleportation. When you use your Shadow Step, you can expend 1 Focus Point to remove the requirement that you must start and end in {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB} for that use of the feature. As part of this {@variantrule Bonus Action|XPHB}, you can make an {@variantrule Unarmed Attack|XPHB} immediately after you teleport."
 			]
 		},
 		{

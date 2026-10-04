@@ -2352,7 +2352,7 @@
 			"classSource": "XPHB",
 			"level": 11,
 			"entries": [
-				"Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an {@variantrule Unarmed Strike|XPHB}, the target takes an extra {@damage 1d8} Radiant damage."
+				"Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an {@variantrule Unarmed Attack|XPHB}, the target takes an extra {@damage 1d8} Radiant damage."
 			]
 		},
 		{

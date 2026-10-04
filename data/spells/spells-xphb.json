@@ -243,7 +243,7 @@
 					"type": "entries",
 					"name": "Natural Weapons",
 					"entries": [
-						"You grow claws (Slashing), fangs (Piercing), horns (Piercing), or hooves (Bludgeoning). When you use your {@variantrule Unarmed Strike|XPHB} to deal damage with that new growth, it deals {@damage 1d6} damage of the type in parentheses instead of dealing the normal damage for your {@variantrule Unarmed Strike|XPHB}, and you use your spellcasting ability modifier for the attack and damage rolls rather than using Strength."
+						"You grow claws (Slashing), fangs (Piercing), horns (Piercing), or hooves (Bludgeoning). When you use your {@variantrule Unarmed Attack|XPHB} to deal damage with that new growth, it deals {@damage 1d6} damage of the type in parentheses instead of dealing the normal damage for your {@variantrule Unarmed Attack|XPHB}, and you use your spellcasting ability modifier for the attack and damage rolls rather than using Strength."
 					]
 				}
 			],
@@ -1410,7 +1410,7 @@
 				{
 					"number": 1,
 					"unit": "bonus",
-					"condition": "which you take immediately after hitting a creature with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}"
+					"condition": "which you take immediately after hitting a creature with a Melee weapon or an {@variantrule Unarmed Attack|XPHB}"
 				}
 			],
 			"range": {
@@ -2080,7 +2080,7 @@
 				{
 					"number": 1,
 					"unit": "bonus",
-					"condition": "which you take immediately after hitting a creature with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}"
+					"condition": "which you take immediately after hitting a creature with a Melee weapon or an {@variantrule Unarmed Attack|XPHB}"
 				}
 			],
 			"range": {
@@ -4944,7 +4944,7 @@
 				}
 			],
 			"entries": [
-				"You radiate a magical aura in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. While in the aura, you and your allies each deal an extra {@damage 1d4} Radiant damage when hitting with a weapon or an {@variantrule Unarmed Strike|XPHB}."
+				"You radiate a magical aura in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. While in the aura, you and your allies each deal an extra {@damage 1d4} Radiant damage when hitting with a weapon or an {@variantrule Unarmed Attack|XPHB}."
 			],
 			"damageInflict": [
 				"radiant"
@@ -6020,7 +6020,7 @@
 				{
 					"number": 1,
 					"unit": "bonus",
-					"condition": "which you take immediately after hitting a target with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}"
+					"condition": "which you take immediately after hitting a target with a Melee weapon or an {@variantrule Unarmed Attack|XPHB}"
 				}
 			],
 			"range": {
@@ -16717,7 +16717,7 @@
 				{
 					"number": 1,
 					"unit": "bonus",
-					"condition": "which you take immediately after hitting a target with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}"
+					"condition": "which you take immediately after hitting a target with a Melee weapon or an {@variantrule Unarmed Attack|XPHB}"
 				}
 			],
 			"range": {
@@ -17223,7 +17223,7 @@
 				{
 					"number": 1,
 					"unit": "bonus",
-					"condition": "which you take immediately after hitting a creature with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}"
+					"condition": "which you take immediately after hitting a creature with a Melee weapon or an {@variantrule Unarmed Attack|XPHB}"
 				}
 			],
 			"range": {
@@ -18172,7 +18172,7 @@
 				{
 					"number": 1,
 					"unit": "bonus",
-					"condition": "which you take immediately after hitting a creature with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}"
+					"condition": "which you take immediately after hitting a creature with a Melee weapon or an {@variantrule Unarmed Attack|XPHB}"
 				}
 			],
 			"range": {
@@ -20139,7 +20139,7 @@
 				{
 					"number": 1,
 					"unit": "bonus",
-					"condition": "which you take immediately after hitting a target with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}"
+					"condition": "which you take immediately after hitting a target with a Melee weapon or an {@variantrule Unarmed Attack|XPHB}"
 				}
 			],
 			"range": {
@@ -21929,7 +21929,7 @@
 				{
 					"number": 1,
 					"unit": "bonus",
-					"condition": "which you take immediately after hitting a creature with a Melee weapon or an {@variantrule Unarmed Strike|XPHB}"
+					"condition": "which you take immediately after hitting a creature with a Melee weapon or an {@variantrule Unarmed Attack|XPHB}"
 				}
 			],
 			"range": {

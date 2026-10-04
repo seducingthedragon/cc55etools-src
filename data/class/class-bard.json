@@ -3907,7 +3907,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"When you expend a use of your Bardic Inspiration as part of an action, a {@variantrule Bonus Action|XPHB}, or a {@variantrule Reaction|XPHB}, you can make one {@variantrule Unarmed Strike|XPHB} as part of that action, {@variantrule Bonus Action|XPHB}, or {@variantrule Reaction|XPHB}."
+				"When you expend a use of your Bardic Inspiration as part of an action, a {@variantrule Bonus Action|XPHB}, or a {@variantrule Reaction|XPHB}, you can make one {@variantrule Unarmed Attack|XPHB} as part of that action, {@variantrule Bonus Action|XPHB}, or {@variantrule Reaction|XPHB}."
 			]
 		},
 		{
@@ -3921,7 +3921,7 @@
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"You can use Dexterity instead of Strength for the attack rolls of your Unarmed Strikes. When you deal damage with an {@variantrule Unarmed Strike|XPHB}, you can deal Bludgeoning damage equal to a roll of your Bardic Inspiration die plus your Dexterity modifier, instead of the strike's normal damage. This roll doesn't expend the die."
+				"You can use Dexterity instead of Strength for the attack rolls of your {@action Attack|XPHB|Unarmed Strike Attacks}. When you deal damage with an {@variantrule Unarmed Attack|XPHB}, you can deal Bludgeoning damage equal to a roll of your Bardic Inspiration die plus your Dexterity modifier, instead of the strike's normal damage. This roll doesn't expend the die."
 			]
 		},
 		{

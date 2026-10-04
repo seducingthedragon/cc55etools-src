@@ -1889,7 +1889,7 @@
 						"{@item Potion of Healing|XDMG}",
 						"{@action Study|XPHB}",
 						"{@variantrule Teleportation|XPHB}",
-						"{@variantrule Unarmed Strike|XPHB}",
+						"{@variantrule Unarmed Attack|XPHB}",
 						"{@action Utilize|XPHB}"
 					]
 				},

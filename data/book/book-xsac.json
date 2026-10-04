@@ -384,7 +384,7 @@
 											"type": "entries",
 											"name": "Can an Opportunity Attack be used to make a grapple or a shove?",
 											"entries": [
-												"Yes. When you make an {@action Opportunity Attack|XPHB}, one of your options is making an {@variantrule Unarmed Strike|XPHB}. You can still choose to use the Grapple and Shove options of this {@variantrule Unarmed Strike|XPHB}."
+												"Yes. When you make an {@action Opportunity Attack|XPHB}, one of your options is making an {@variantrule Unarmed Attack|XPHB}. You can still choose to use the Grapple and Shove options of this {@variantrule Unarmed Attack|XPHB}."
 											],
 											"id": "031"
 										},
@@ -400,7 +400,7 @@
 											"type": "entries",
 											"name": "Does a grapple or shove trigger a Battle Master Fighter's Riposte?",
 											"entries": [
-												"No. Many game effects specify triggering when you are hit or missed by an attack roll; the Grapple and Shove options of an {@variantrule Unarmed Strike|XPHB} don't use attack rolls.",
+												"No. Many game effects specify triggering when you are hit or missed by an attack roll; the Grapple and Shove options of an {@variantrule Unarmed Attack|XPHB} don't use attack rolls.",
 												"However, many monsters have special attacks that can grapple or shove a creature as part of its effect on a hit. If such a creature misses a {@class Fighter|XPHB|Battle Master Fighter|Battle Master|XPHB} with an attack roll, the Battle Master Fighter could then use {@optfeature Riposte|XPHB}."
 											],
 											"id": "033"
@@ -517,7 +517,7 @@
 											"type": "entries",
 											"name": "Can a Rogue/Monk use Sneak Attack with Unarmed Strikes?",
 											"entries": [
-												"The {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} feature works with a weapon that has the {@itemProperty F|XPHB|Finesse} or Ranged property. An {@variantrule Unarmed Strike|XPHB} isn't a weapon, so it doesn't qualify. In contrast, a {@class Rogue|XPHB}/{@class Monk|XPHB} can use {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} with a Monk weapon, such as a {@item Shortsword|XPHB} or a {@item Dagger|XPHB}, that has one of Sneak Attack's required properties."
+												"The {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} feature works with a weapon that has the {@itemProperty F|XPHB|Finesse} or Ranged property. An {@variantrule Unarmed Attack|XPHB} isn't a weapon, so it doesn't qualify. In contrast, a {@class Rogue|XPHB}/{@class Monk|XPHB} can use {@classFeature Sneak Attack|Rogue|XPHB|1|XPHB} with a Monk weapon, such as a {@item Shortsword|XPHB} or a {@item Dagger|XPHB}, that has one of Sneak Attack's required properties."
 											],
 											"id": "042"
 										},
@@ -553,7 +553,7 @@
 											"type": "entries",
 											"name": "When you use Extra Attack, do you have to use the same weapon for all the attacks?",
 											"entries": [
-												"Extra Attack imposes no limitation on what you use for the attacks. You can use regular weapons, improvised weapons, {@variantrule Unarmed Strike|XPHB}, or a combination of these options for the attacks. However, you must still follow the rules for equipping and unequipping weapons as part of the {@action Attack|XPHB} action."
+												"Extra Attack imposes no limitation on what you use for the attacks. You can use regular weapons, improvised weapons, {@variantrule Unarmed Attack|XPHB}, or a combination of these options for the attacks. However, you must still follow the rules for equipping and unequipping weapons as part of the {@action Attack|XPHB} action."
 											],
 											"id": "047"
 										}
@@ -1775,7 +1775,7 @@
 											"type": "entries",
 											"name": "If you grapple or shove an enemy, does that end a Sanctuary spell cast on you?",
 											"entries": [
-												"No. The {@spell Sanctuary|XPHB} spell ends only if the warded creature makes an attack roll, casts a spell, or deals damage. The Grapple and Shove options of an {@variantrule Unarmed Strike|XPHB} do none of these things."
+												"No. The {@spell Sanctuary|XPHB} spell ends only if the warded creature makes an attack roll, casts a spell, or deals damage. The Grapple and Shove options of an {@variantrule Unarmed Attack|XPHB} do none of these things."
 											],
 											"id": "0e3"
 										},
@@ -1859,7 +1859,7 @@
 											"type": "entries",
 											"name": "What actions can monsters use to make Opportunity Attack? Are Multiattack and breath weapon actions allowed?",
 											"entries": [
-												"When making an {@action Opportunity Attack|XPHB}, a monster can make any single melee attack listed in its stat block. A monster also has the option to make an {@variantrule Unarmed Strike|XPHB} as an {@action Opportunity Attack|XPHB}, following the normal rules of an {@variantrule Unarmed Strike|XPHB}.",
+												"When making an {@action Opportunity Attack|XPHB}, a monster can make any single melee attack listed in its stat block. A monster also has the option to make an {@variantrule Unarmed Attack|XPHB} as an {@action Opportunity Attack|XPHB}, following the normal rules of an {@variantrule Unarmed Attack|XPHB}.",
 												"An action, such as a breath weapon effect, that doesn't include a melee attack roll isn't eligible to be chosen for an {@action Opportunity Attack|XPHB}. Additionally, a monster can't use its Multiattack when making an {@action Opportunity Attack|XPHB}, because the use of Multiattack specifically predicates on taking the {@action Attack|XPHB} action, and an {@action Opportunity Attack|XPHB} takes a {@variantrule Reaction|XPHB}."
 											],
 											"id": "0ee"

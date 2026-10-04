@@ -3210,7 +3210,7 @@
 					"rows": [
 						[
 							"Battle Expert",
-							"When you take damage from an attack made with an {@variantrule Unarmed Strike|XPHB} or a weapon, you can take a {@variantrule Reaction|XPHB} to reduce this damage by {@dice 1d4}."
+							"When you take damage from an attack made with an {@variantrule Unarmed Attack|XPHB} or a weapon, you can take a {@variantrule Reaction|XPHB} to reduce this damage by {@dice 1d4}."
 						],
 						[
 							"Skills Expert",
@@ -3222,7 +3222,7 @@
 						],
 						[
 							"Unarmed Combat Expert",
-							"When you hit with your {@variantrule Unarmed Strike|XPHB} and deal damage, the attack deals an extra {@damage 1d4} Bludgeoning damage."
+							"When you hit with your {@variantrule Unarmed Attack|XPHB} and deal damage, the attack deals an extra {@damage 1d4} Bludgeoning damage."
 						],
 						[
 							"Weapon Expert",

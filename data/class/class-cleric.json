@@ -8704,7 +8704,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"As a {@variantrule Bonus Action|XPHB}, you can make one attack with a weapon or an {@variantrule Unarmed Strike|XPHB}. You can use this {@variantrule Bonus Action|XPHB} a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+				"As a {@variantrule Bonus Action|XPHB}, you can make one attack with a weapon or an {@variantrule Unarmed Attack|XPHB}. You can use this {@variantrule Bonus Action|XPHB} a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
 			]
 		},
 		{

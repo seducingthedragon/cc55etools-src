@@ -48409,7 +48409,7 @@
 			"rarity": "uncommon",
 			"weight": 0.5,
 			"entries": [
-				"After you drink this potion, each {@variantrule Unarmed Strike|XPHB} you make deals an extra {@damage 1d6} Force damage on a hit. This effect lasts 10 minutes.",
+				"After you drink this potion, each {@variantrule Unarmed Attack|XPHB} you make deals an extra {@damage 1d6} Force damage on a hit. This effect lasts 10 minutes.",
 				"This potion is a thick green fluid that tastes like spinach."
 			],
 			"lootTables": [
