@@ -293,85 +293,85 @@
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Aberrations|bestiary|type=aberration}",
-											"entry": "are utterly alien beings, such as aboleths, beholders, flumphs, and mind flayers."
+											"entry": "are alien beings who, historically, were predominately found in the Astral Plane, prior to their settlements in the Underdark, where most are found today. Due to their current habitat, they often speak Deep Speech, Undercommon, or with Telepathy, as well as have either standard or Superior Darkvision. While most Aberrations can’t cast spells, the ones that can are able to do so innately, with or without Psionics. They are quite perceptive and, as a whole, are above average in all areas."
 										},
 										{
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Beasts|bestiary|type=beast}",
-											"entry": "are non-Humanoid natural creatures, like horses and wolves, as well as most giant animals."
+											"entry": "are non-Humanoid creatures that are part of the world’s natural ecology, even within a fantastical world, as they can be found in every single environment/habitat present on the Prime Material. While they primarily focus on creatures found on our real-world Earth, they can also include creatures that may be extinct in one world but thriving in another, such as Dinosaurs. Furthermore, beasts are not just mammals. They are invertebrates, avians, insects, sea creatures, and many more."
 										},
 										{
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Celestials|bestiary|type=celestial}",
-											"entry": "are magical creatures, such as angels and pegasi, with ties to the Upper Planes."
+											"entry": "are magical creatures with strong ties to the Upper Planes. Some are tied to other realms as Guardians, some are guardians of knowledge and magic, some are employed by the Gods to intercede on their behalf, and some are the offspring of the gods but lack the title of a deity. Celestials are well-versed in all areas and highly perceptive and is the only category, where more than half of its creatures can innately cast spells. Additionally, they are viewed as the opposite of Fiends, although the line separating Good and Evil are still blurred."
 										},
 										{
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Constructs|bestiary|type=construct}",
-											"entry": "are magically created creatures such as homunculi, modrons, and shield guardians."
+											"entry": "are living objects, either created, programmed, or awakened through magic. Some present as objects while others have a humanoid form as part of their creation, such as Golems. While their habitats vary, you may find them in Urban areas or from the Plane of Mechanus, the home the various modrons."
 										},
 										{
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Dragons|bestiary|type=dragon}",
-											"entry": "are scaly beings of ancient origin, such as red dragons and wyverns."
+											"entry": "are scaly beings of ancient origin, such as red dragons and wyverns. are reptilian-like creatures of ancient origin, who hold a vast and tremendous power. While there are some dragons that can’t fly, speak, or use their breath as a weapon, most can, especially the classic Chromatic, Metallic, and Gem Dragons. Dragons are well experienced, have exceptional sight, and are very perceptive."
 										},
 										{
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Elementals|bestiary|type=elemental}",
-											"entry": "are beings from the Elemental Planes, such as efreet and water elementals."
+											"entry": "are beings from the Elemental Planes, such as efreet and water elementals.are beings that are native to or have strong ties to one of the Elemental Planes or the Elemental Chaos as a whole. Outside of the various Elemental Planes, they can be found throughout the Prime Material in habitats that closely relate to their element. Elementals can be viewed as strong, nimble, or with a strong will to persevere."
 										},
 										{
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Fey|bestiary|type=fey}",
-											"entry": "are creatures tied to the Feywild or the forces of nature, such as dryads, goblins, and pixies."
+											"entry": "are creatures tied to the Feywild or the forces of nature, such as dryads, goblins, and pixies.are creatures with innate ties to the forces of nature. They are often found in the forests on the Prime Material Plane but has stronger ties to the Feywild, and some additional ties to various Upper Planes. They often have incredible vision and are highly perceptive, above average in all areas, and with a playful or mischievous disposition."
 										},
 										{
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Fiends|bestiary|type=fiend}",
-											"entry": "are creatures tied to terrifying Lower Planes, such as balors and hell hounds."
+											"entry": "are creatures tied to terrifying Lower Planes, such as balors and hell hounds.are creatures with ties to the Lower Planes that may or may not be part of one of its various subgroups, such as Devils, Demons, or Yugoloths. They have superior sight in dark places, above average in all areas, and fairly perceptive. They are viewed as the opposite of Celestials, forever caught in the battle of “Good vs Evil”. Unlike Celestials, the use of subgroups often create significant impacts in relationships between the different Fiends. Devils are viewed as being Lawful, Demons are viewed as Chaotic, and Yugoloths are viewed as Neutral. While these alignments are not a requirement of each group, it does tie back to their specific lower plane and its proximity to Mechanus or Limbo."
 										},
 										{
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Giants|bestiary|type=giant}",
-											"entry": "are towering beings with humanlike shapes, like cyclopes, fire giants, and trolls."
+											"entry": "are predominately huge creatures that look like common Humanoids. They are extremely strong and are a challenge when engaged in combat. There are six commonly known giants, along with others towering beings. They have their own language that echos across landscapes, can be either Large or Gargantuan but are smaller than Large if its a limb or their new born."
 										},
 										{
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Humanoids|bestiary|type=humanoid}",
-											"entry": "are people defined by their roles and professions, such as mages, pirates, and warriors. They include members of varied species."
+											"entry": "are the primary people within a Prime Material Realm, with a wide range of features and abilities. Consistently, they are bipedal, found in any environment in the main realm, speak common, vary in skills and abilities as well as sizes, often averaging between Small and Medium. They are also highly intelligent within overall cognitive abilities, although not necessarily viewed as intellectuals as a whole. This results in a wide range of adaptations to various environments, the creation of tools, and forming complex social structures. Additionally, they often study themselves and other phenomena of natural or mystical ideologies. Humanoids are more than just their roles and professions and much more complex than the idea of duality between civilized and savage, as well as good and evil, regardless of their ancestral form."
 										},
 										{
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Monstrosities|bestiary|type=monstrosity}",
-											"entry": "are unnatural creatures with strange origins, such as mimics and owlbears."
+											"entry": "are unnatural creatures with strange origins, such as mimics and owlbears. is a category that has historically been used to house all creatures that didn’t fall under the other categories, and are considered to be unnatural with strange origins. However, most monstrosities are able to reproduce and experience life without external aid, making them \"natural\" in the broad sense of the word. As a whole, often have enhanced vision, can be found in any habitat within the Prime Material, extremely perceptive, strong and dexterous, as well as a strong willingness and drive to survive. Monstrosities can often fall under multiple categories due to their presentation as they becoming integrated with the natural ecology over generations."
 										},
 										{
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Oozes|bestiary|type=ooze}",
-											"entry": "are gelatinous creatures, including black puddings and blobs of annihilation."
+											"entry": "are gelatinous creatures, lacking any fixed shape, that are often found in the Underdark. They can see without eyes, and have an extensive list of conditions that don’t apply to them, allowing them to be incredibly strong and strong-willed."
 										},
 										{
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Plants|bestiary|type=plant}",
-											"entry": "are sentient vegetation and fungal monsters, such as myconids, shambling mounds, and treants."
+											"entry": "are sentient vegetation and fungal creatures, and everything in-between. In order to be considered a \"Plant Creature\", they need to have an ability to attack, or it is just a part of the environmental vegetation or food. They are commonly found in the Forest and most are able to sense their surroundings without the use of eyes."
 										},
 										{
 											"type": "item",
 											"nameDot": false,
 											"name": "{@filter Undead|bestiary|type=undead}",
-											"entry": "are spirits and the reanimated dead, such as ghosts, vampires, and zombies."
+											"entry": "are spirits and the reanimated dead, such as ghosts, vampires, and zombies.are creatures that have died some form of death but are still present in the state of undeath, a creature who is not truly alive but has not completely died and moved on. This can occur through necromantic magic, a curse or transformation, or other related actions. They have decent vision in the dark and are often found in the Underdark or Urban areas within the Prime Material. Beyond the Prime Material Realm, they are often located in the Shadowfell. Due to their state of undeath, it is nearly impossible to exhaust or poison them. They have a wide range of decay presentation and can be formless, both corporeal or incorporeal."
 										}
 									]
 								}
