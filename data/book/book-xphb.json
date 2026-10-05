@@ -7546,7 +7546,7 @@
 															"{@area General|526|x}"
 														],
 														[
-															"{@feat Dueling|XPHB}",
+															"{@feat Duelist|XPHB}",
 															"{@area Fighting Style|5fa|x}"
 														],
 														[
@@ -8170,7 +8170,7 @@
 								"{@feat Brawling|XPHB}",
 								"{@feat Defense|XPHB}",
 								"{@feat Dual Wield Fighting|XPHB}",
-								"{@feat Dueling|XPHB}",
+								"{@feat Duelist|XPHB}",
 								"{@feat Great Weapon Fighting|XPHB}",
 								"{@feat Hurler|XPHB}",
 								"{@feat Interception|XPHB}",
@@ -8216,7 +8216,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Dueling",
+							"name": "Duelist",
 							"tag": "feat",
 							"source": "XPHB"
 						},
