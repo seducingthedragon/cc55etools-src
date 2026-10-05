@@ -3264,7 +3264,7 @@
 		{
 			"name": "Brawling",
 			"source": "XPHB",
-			"page": 210,
+			"page": 209,
 			"category": "FS",
 			"prerequisite": [
 				{
@@ -4594,7 +4594,7 @@
 		{
 			"name": "Dual Wield Fighting",
 			"source": "XPHB",
-			"page": 210,
+			"page": 209,
 			"srd52": true,
 			"basicRules2024": true,
 			"category": "FS",
@@ -7055,7 +7055,7 @@
 		{
 			"name": "Hurler",
 			"source": "XPHB",
-			"page": 210,
+			"page": 209,
 			"category": "FS",
 			"prerequisite": [
 				{
@@ -7449,7 +7449,7 @@
 		{
 			"name": "Interception",
 			"source": "XPHB",
-			"page": 209,
+			"page": 210,
 			"category": "FS",
 			"prerequisite": [
 				{
@@ -10353,7 +10353,7 @@
 		{
 			"name": "Melee Marker",
 			"source": "XPHB",
-			"page": 209,
+			"page": 210,
 			"srd52": true,
 			"basicRules2024": true,
 			"category": "FS",
@@ -11489,7 +11489,7 @@
 		{
 			"name": "Protection",
 			"source": "XPHB",
-			"page": 209,
+			"page": 210,
 			"category": "FS",
 			"prerequisite": [
 				{
