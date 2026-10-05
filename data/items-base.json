@@ -2804,6 +2804,17 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Harp",
+			"source": "XPHB",
+			"page": 221,
+			"edition": "one",
+			"type": "INS|XPHB",
+			"rarity": "none",
+			"weight": 80,
+			"value": 50000,
+			"hasFluff": true
+		},
+		{
 			"name": "Heavy Crossbow",
 			"source": "PHB",
 			"page": 149,
@@ -4028,6 +4039,17 @@
 			"mace": true,
 			"weapon": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Mandolin",
+			"source": "XPHB",
+			"page": 221,
+			"edition": "one",
+			"type": "INS|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"hasFluff": true
 		},
 		{
 			"name": "Mason's Tools",

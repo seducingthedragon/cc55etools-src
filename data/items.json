@@ -33309,6 +33309,8 @@
 			"name": "Instrument of the Bards, Anstruth Harp",
 			"source": "XDMG",
 			"page": 272,
+			"baseItem": "harp|xphb",
+			"type": "INS|XPHB",
 			"rarity": "very rare",
 			"reqAttune": "by a bard",
 			"reqAttuneTags": [
@@ -33390,6 +33392,8 @@
 			"name": "Instrument of the Bards, Canaith Mandolin",
 			"source": "XDMG",
 			"page": 272,
+			"baseItem": "mandolin|xphb",
+			"type": "INS|XPHB",
 			"rarity": "rare",
 			"reqAttune": "by a bard",
 			"reqAttuneTags": [
@@ -33643,6 +33647,7 @@
 			"name": "Instrument of the Bards, Fochlucan Bandore",
 			"source": "XDMG",
 			"page": 272,
+			"baseItem": "bandore|frhof",
 			"type": "INS|XPHB",
 			"rarity": "uncommon",
 			"reqAttune": "by a bard",
@@ -33723,6 +33728,7 @@
 			"name": "Instrument of the Bards, Mac-Fuirmidh Cittern",
 			"source": "XDMG",
 			"page": 272,
+			"baseItem": "cittern|frhof",
 			"type": "INS|XPHB",
 			"rarity": "uncommon",
 			"reqAttune": "by a bard",
@@ -33808,6 +33814,8 @@
 			"referenceSources": [
 				"DrDe-ACfaS"
 			],
+			"baseItem": "harp|xphb",
+			"type": "INS|XPHB",
 			"rarity": "legendary",
 			"reqAttune": "by a bard",
 			"reqAttuneTags": [
@@ -80545,6 +80553,7 @@
 				"Longhorn|XPHB",
 				"Lute|XPHB",
 				"Lyre|XPHB",
+				"Mandolin|XPHB",
 				"Pan Flute|XPHB",
 				"Shawm|XPHB",
 				"Tantan|XPHB",

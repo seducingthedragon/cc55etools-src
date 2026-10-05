@@ -5124,6 +5124,23 @@
 			]
 		},
 		{
+			"name": "Harp",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A harp is a large lyre with many more strings and often a foot pedal to press in order create that melodic tone. It is often not common to see a harp on the road as they are often performed for nobility and those who can afford the safe transport of such grand instrument."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Harper Pin",
 			"source": "FRAiF",
 			"images": [
@@ -7122,6 +7139,23 @@
 				"name": "Mace of the Black Crown",
 				"source": "EGW"
 			}
+		},
+		{
+			"name": "Mandolin",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A mandolin is a small lute with 4-courses or 8-strings."
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"name": "Mantle of Spell Resistance",

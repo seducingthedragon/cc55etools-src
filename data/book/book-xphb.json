@@ -10616,7 +10616,7 @@
 												{
 													"type": "item",
 													"name": "Variants:",
-													"entry": "{@item Bagpipes|XPHB} (30 GP, 6 lb.), {@item Birdpipes|XPHB} ( 5 GP, 1 lb.), {@item Drum|XPHB} (6 GP, 3 lb.), {@item Dulcimer|XPHB} (25 GP, 10 lb.), {@item Flute|XPHB} (2 GP, 1 lb.), {@item Glaur|XPHB} ( 2 GP, 3 lb.), {@item Hand Drum|XPHB} ( 2 GP, 1 lb.), {@item Horn|XPHB} (3 GP, 2 lb.), {@item Longhorn|XPHB} ( 40 GP, 2 lb.), {@item Lute|XPHB} (35 GP, 2 lb.), {@item Lyre|XPHB} (30 GP, 2 lb.), {@item Pan Flute|XPHB} (12 GP, 2 lb.), {@item Shawm|XPHB} (2 GP, 1 lb.), {@item Songhorn|XPHB} ( 5 SP, 1 lb.), {@item Tantan|XPHB} ( 1 GP, 0.75 lb.), {@item Thelarr|XPHB} ( 1 SP, 0.25 lb.), {@item Tocken|XPHB} ( 5 GP, 1 lb.), {@item Viol|XPHB} (30 GP, 1 lb.), {@item Wargong|XPHB} ( 15 GP, 6 lb.), {@item Zulkoon|XPHB} ( 100 GP, 50 lb.)"
+													"entry": "{@item Bagpipes|XPHB} (30 GP, 6 lb.), {@item Birdpipes|XPHB} ( 5 GP, 1 lb.), {@item Drum|XPHB} (6 GP, 3 lb.), {@item Dulcimer|XPHB} (25 GP, 10 lb.), {@item Flute|XPHB} (2 GP, 1 lb.), {@item Glaur|XPHB} ( 2 GP, 3 lb.), {@item Hand Drum|XPHB} ( 2 GP, 1 lb.), {@item Harp|XPHB} (500 GP, 80 lb.), {@item Horn|XPHB} (3 GP, 2 lb.), {@item Longhorn|XPHB} ( 40 GP, 2 lb.), {@item Lute|XPHB} (35 GP, 2 lb.), {@item Lyre|XPHB} (30 GP, 2 lb.), {@item Mandolin} (25 GP, 2 lb), {@item Pan Flute|XPHB} (12 GP, 2 lb.), {@item Shawm|XPHB} (2 GP, 1 lb.), {@item Songhorn|XPHB} ( 5 SP, 1 lb.), {@item Tantan|XPHB} ( 1 GP, 0.75 lb.), {@item Thelarr|XPHB} ( 1 SP, 0.25 lb.), {@item Tocken|XPHB} ( 5 GP, 1 lb.), {@item Viol|XPHB} (30 GP, 1 lb.), {@item Wargong|XPHB} ( 15 GP, 6 lb.), {@item Zulkoon|XPHB} ( 100 GP, 50 lb.)"
 												}
 											]
 										}
