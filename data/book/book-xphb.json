@@ -7867,6 +7867,7 @@
 								"{@feat Inspiring Leader|XPHB}",
 								"{@feat Keen Mind|XPHB}",
 								"{@feat Lightly Armored|XPHB}",
+								"{@feat Linguist|XPHB}",
 								"{@feat Mage Slayer|XPHB}",
 								"{@feat Martial Weapon Training|XPHB}",
 								"{@feat Medium Armor Master|XPHB}",
@@ -8004,6 +8005,12 @@
 						{
 							"type": "statblock",
 							"name": "Lightly Armored",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Linguist",
 							"tag": "feat",
 							"source": "XPHB"
 						},

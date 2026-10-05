@@ -8037,6 +8037,9 @@
 			"name": "Linguist",
 			"source": "PHB",
 			"page": 167,
+			"reprintedAs": [
+				"Linguist|XPHB"
+			],
 			"ability": [
 				{
 					"int": 1
@@ -8053,6 +8056,44 @@
 					"type": "list",
 					"items": [
 						"You learn three languages of your choice.",
+						"You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Linguist",
+			"source": "XPHB",
+			"page": 205,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 3
+				}
+			],
+			"entries": [
+				"You gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Language Proficiencies",
+					"entries": [
+						"You learn three languages of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Custom Ciphers",
+					"entries": [
 						"You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it."
 					]
 				}
@@ -13404,7 +13445,7 @@
 					"type": "entries",
 					"name": "Hamstring",
 					"entries": [
-						"Once per turn when you hit a creature with an attack that deals Slashing damage, you can reduce the {@variantrule Speed|XPHB} of that creature by 10 feet until the start of your next turn."
+						"Once per turn when you hit a creature with an attack that deals Slashing damage, you can reduce the {@variantrule Speed|XPHB} of that creature by 10 feet until the start of your next turn. This speed reduction operates separately from the {@itemMastery Slow|XPHB} weapon property."
 					]
 				},
 				{
