@@ -7626,6 +7626,10 @@
 															"{@area General|526|x}"
 														],
 														[
+															"{@feat Melee Marker|XPHB}",
+															"{@area Fighting Style|5fa|x}"
+														],
+														[
 															"{@feat Moderately Armored|XPHB}",
 															"{@area General|526|x}"
 														],
@@ -8170,6 +8174,7 @@
 								"{@feat Great Weapon Fighting|XPHB}",
 								"{@feat Hurler|XPHB}",
 								"{@feat Interception|XPHB}",
+								"{@feat Melee Marker|XPHB}",
 								"{@feat Protection|XPHB}"
 							]
 						},
@@ -8230,6 +8235,12 @@
 						{
 							"type": "statblock",
 							"name": "Interception",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Melee Marker",
 							"tag": "feat",
 							"source": "XPHB"
 						},
@@ -8573,7 +8584,7 @@
 									"row": [
 										"{@item Quarterstaff|XPHB}",
 										"{@dice 1d6} Bludgeoning",
-										"{@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
+										"{@itemProperty P|XPHB|Polearm}, {@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
 										"{@itemMastery Topple}",
 										"4 lb.",
 										"2 SP"
@@ -8597,7 +8608,7 @@
 									"row": [
 										"{@item Spear|XPHB}",
 										"{@dice 1d6} Piercing",
-										"{@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
+										"{@itemProperty P|XPHB|Polearm}, {@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
 										"{@itemMastery Sap}",
 										"3 lb.",
 										"1 GP"
@@ -8707,7 +8718,7 @@
 									"row": [
 										"{@item Glaive|XPHB}",
 										"{@dice 1d10} Slashing",
-										"{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemProperty H|XPHB|Heavy}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Graze}",
 										"6 lb.",
 										"20 GP"
@@ -8743,7 +8754,7 @@
 									"row": [
 										"{@item Halberd|XPHB}",
 										"{@dice 1d10} Slashing",
-										"{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemProperty H|XPHB|Heavy}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Cleave}",
 										"6 lb.",
 										"20 GP"
@@ -8767,7 +8778,7 @@
 									"row": [
 										"{@item Lance|XPHB}",
 										"{@dice 1d10} Piercing",
-										"{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed} (unless mounted)",
+										"{@itemProperty H|XPHB|Heavy}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed} (unless mounted)",
 										"{@itemMastery Topple}",
 										"6 lb.",
 										"10 GP"
@@ -8815,7 +8826,7 @@
 									"row": [
 										"{@item Pike|XPHB}",
 										"{@dice 1d10} Piercing",
-										"{@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemProperty H|XPHB|Heavy}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Push}",
 										"18 lb.",
 										"5 GP"
@@ -8863,7 +8874,7 @@
 									"row": [
 										"{@item Trident|XPHB}",
 										"{@dice 1d8} Piercing",
-										"{@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+										"{@itemProperty P|XPHB|Polearm}, {@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
 										"{@itemMastery Topple}",
 										"4 lb.",
 										"5 GP"
@@ -9095,6 +9106,15 @@
 									"id": "647",
 									"entries": [
 										"You can fire only one piece of ammunition from a Loading weapon when you use an action, a {@variantrule Bonus Action|XPHB}, or a {@variantrule Reaction|XPHB} to fire it, regardless of the number of attacks you can normally make. Loading the ammunition uses your {@action Other Activity|PHB|Free Object Interaction} or a {@variantrule Bonus Action|XPHB}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Polearm",
+									"page": 214,
+									"entries": [
+										"A Polearm weapon is typically a long thin weapon. When you wield a Polearm, you can attempt to {@b Trip} your target as an {@variantrule Action|XPHB}.",
+										"{@b Trip.} Make a single {@action Attack|XPHB} against a Large or smaller creature. On a hit, you deal the weapon's damage and your target must succeed on a Strength {@variantrule Saving Throw|XPHB} against the {@dc 8} plus the attack modifier  and your Proficiency Bonus, or fall {@condition Prone|XPHB}."
 									]
 								},
 								{

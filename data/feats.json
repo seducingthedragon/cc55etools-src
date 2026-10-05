@@ -10350,6 +10350,24 @@
 			]
 		},
 		{
+			"name": "Melee Marker",
+			"source": "XPHB",
+			"page": 209,
+			"srd52": true,
+			"basicRules2024": true,
+			"category": "FS",
+			"prerequisite": [
+				{
+					"feature": [
+						"Fighting Style"
+					]
+				}
+			],
+			"entries": [
+				"When you hit a target within 5 feet of you with a ranged weapon attack, you ignore {@variantrule Disadvantage|XPHB} on the {@action Attack|XPHB} roll and you gain a +2 bonus to the damage roll."
+			]
+		},
+		{
 			"name": "Metamagic Adept",
 			"source": "TCE",
 			"page": 80,
@@ -11303,14 +11321,14 @@
 					"type": "entries",
 					"name": "Pole Strike",
 					"entries": [
-						"Immediately after you take the {@action Attack|XPHB} action and attack with a {@item Quarterstaff|XPHB}, a {@item Spear|XPHB}, or a {@filter weapon that has the Heavy and Reach properties|items|type=melee weapon;ranged weapon|property=heavy;reach=sand}, you can use a {@variantrule Bonus Action|XPHB} to make a melee attack with the opposite end of the weapon. The weapon deals Bludgeoning damage, and the weapon's damage die for this attack is a {@dice d4}."
+						"Immediately after you take the {@action Attack|XPHB} action and attack with a {@itemProperty P|XPHB|Polearm} Weapon, you can use a {@variantrule Bonus Action|XPHB} to make a melee attack with the opposite end of the weapon. The weapon deals Bludgeoning damage, and the weapon's damage die for this attack is a {@dice d4}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Reactive Strike",
 					"entries": [
-						"While you're holding a {@item Quarterstaff|XPHB}, a {@item Spear|XPHB}, or a {@filter weapon that has the Heavy and Reach properties|items|type=melee weapon;ranged weapon|property=heavy;reach=sand}, you can take a {@variantrule Reaction|XPHB} to make one melee attack against a creature that enters the reach you have with that weapon."
+						"While you're holding a {@itemProperty P|XPHB|Polearm} Weapon, you can take a {@variantrule Reaction|XPHB} to make one melee attack against a creature that enters the reach you have with that weapon."
 					]
 				}
 			]

@@ -2235,6 +2235,7 @@
 			"weaponCategory": "martial",
 			"property": [
 				"H|XPHB",
+				"P|XPHB",
 				"R|XPHB",
 				"2H|XPHB"
 			],
@@ -2607,6 +2608,7 @@
 			"weaponCategory": "martial",
 			"property": [
 				"H|XPHB",
+				"P|XPHB",
 				"R|XPHB",
 				"2H|XPHB"
 			],
@@ -3314,6 +3316,7 @@
 			"weaponCategory": "martial",
 			"property": [
 				"H|XPHB",
+				"P|XPHB",
 				"R|XPHB",
 				{
 					"uid": "2H|XPHB",
@@ -4725,6 +4728,7 @@
 			"weaponCategory": "martial",
 			"property": [
 				"H|XPHB",
+				"P|XPHB",
 				"R|XPHB",
 				"2H|XPHB"
 			],
@@ -5015,6 +5019,7 @@
 			"value": 20,
 			"weaponCategory": "simple",
 			"property": [
+				"P|XPHB",
 				"V|XPHB"
 			],
 			"mastery": [
@@ -6044,6 +6049,7 @@
 			"value": 100,
 			"weaponCategory": "simple",
 			"property": [
+				"P|XPHB",
 				"T|XPHB",
 				"V|XPHB"
 			],
@@ -6183,7 +6189,8 @@
 			"value": 500,
 			"weaponCategory": "simple",
 			"property": [
-				"V"
+				"P|XPHB",
+				"V|XPHB"
 			],
 			"mastery": [
 				"Topple|XPHB"
@@ -6505,6 +6512,7 @@
 			"value": 500,
 			"weaponCategory": "martial",
 			"property": [
+				"P|XPHB",
 				"T|XPHB",
 				"V|XPHB"
 			],
@@ -7086,7 +7094,8 @@
 			"value": 500,
 			"weaponCategory": "simple",
 			"property": [
-				"V"
+				"P|XPHB",
+				"V|XPHB"
 			],
 			"mastery": [
 				"Topple|XPHB"
@@ -7448,6 +7457,23 @@
 					"name": "Loading",
 					"entries": [
 						"You can fire only one piece of ammunition from a Loading weapon when you use an action, a {@variantrule Bonus Action|XPHB}, or a {@variantrule Reaction|XPHB} to fire it, regardless of the number of attacks you can normally make. Loading the ammunition uses your {@action Other Activity|PHB|Free Object Interaction} or a {@variantrule Bonus Action|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "P",
+			"source": "XPHB",
+			"page": 214,
+			"basicRules2024": true,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Polearm",
+					"entries": [
+						"A Polearm weapon is typically a long thin weapon. When you wield a Polearm, you can attempt to {@b Trip} your target as an {@variantrule Action|XPHB}.",
+						"{@b Trip.} Make a single {@action Attack|XPHB} against a Large or smaller creature. On a hit, you deal the weapon's damage and your target must succeed on a Strength {@variantrule Saving Throw|XPHB} against the {@dc 8} plus the attack modifier  and your Proficiency Bonus, or fall {@condition Prone|XPHB}."
 					]
 				}
 			]

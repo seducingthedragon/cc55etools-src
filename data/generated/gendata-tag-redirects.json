@@ -3103,7 +3103,8 @@
             "page": "trapshazards.html"
         },
         "renown_dmg": "renown_xdmg",
-        "simultaneous%20effects_xge": "simultaneous%20effects_xphb"
+        "simultaneous%20effects_xge": "simultaneous%20effects_xphb",
+        "unarmed%20strike_xphb": "unarmed%20attack_xphb"
     },
     "vehicles.html": {
         "apparatus%20of%20kwalish_dmg": "apparatus%20of%20kwalish_xdmg"

@@ -15849,7 +15849,7 @@
 			"ruleType": "C",
 			"entries": [
 				"Instead of using a weapon to make a melee attack, you can use a punch, kick, head-butt, or similar forceful blow. In game terms, this is an Unarmed Attack\u2014a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.",
-				"Whenever you use your Unarmed Attack, choose one of the following options for its effect.",
+				"Whenever you use your Unarmed Attack (sometimes referred to as an {@i Unarmed Strike}), choose one of the following options for its effect.",
 				{
 					"type": "entries",
 					"entries": [
