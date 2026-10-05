@@ -8647,6 +8647,13 @@
 			]
 		},
 		{
+			"name": "Instrument of the Bards",
+			"source": "XDMG",
+			"entriesTemplate": [
+				"An {@i Instrument of the Bards} is superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard from one of the seven predominent bardic colleges. A creature that attempts to play the instrument without being attuned to it must succeed on a {@dc 15} Wisdom saving throw or take {@damage 2d4} Psychic damage."
+			]
+		},
+		{
 			"name": "Ioun Stone",
 			"source": "XDMG",
 			"entriesTemplate": [
