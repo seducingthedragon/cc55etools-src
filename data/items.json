@@ -47634,7 +47634,7 @@
 			"weight": 0.5,
 			"value": 5000,
 			"entries": [
-				"This potion is a magic item. As a {@variantrule Bonus Action|XPHB}, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains {@dice 2d4 + 2} {@variantrule Hit Points|XPHB}. The potion's red liquid glimmers when agitated."
+				"You regain {@dice 2d4 + 2} {@variantrule Hit Points|XPHB} when you drink this potion. The potion's red liquid glimmers when agitated."
 			],
 			"lootTables": [
 				"Implements - Common|XDMG",
@@ -78300,6 +78300,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
+				"Multiple variations of this item exists, as listed below:",
 				{
 					"type": "table",
 					"colLabels": [
@@ -79779,6 +79780,7 @@
 			"basicRules2024": true,
 			"rarity": "varies",
 			"wondrous": true,
+			"weight": 2,
 			"entries": [
 				"You can take a {@action Magic|XPHB} action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the {@creature Berserker|XMM} stat block and returns to Ysgard after 1 hour or when it drops to 0 {@variantrule Hit Points|XPHB}. The spirits look like living, breathing warriors, and they have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions. Once you use the horn, it can't be used again until 7 days have passed.",
 				"Four types of Horn of Valhalla are known to exist, each made of a different metal. The horn's type determines how many spirits it summons, as well as the requirement for its use. The DM chooses the horn's type or determines it randomly by rolling on the following table. If you blow the horn without meeting its requirement, the summoned spirits attack you.",
@@ -80683,14 +80685,58 @@
 			"type": "P|XPHB",
 			"rarity": "varies",
 			"weight": 0.5,
+			"entries": [
+				"Multiple variations of this item exists, as listed below:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Belt",
+						"Str.",
+						"Rarity"
+					],
+					"colStyles": [
+						"col-8",
+						"col-2 text-center",
+						"col-2"
+					],
+					"rows": [
+						[
+							"{@item Potion of Hill Giant Strength|XDMG}",
+							"21",
+							"Uncommon"
+						],
+						[
+							"{@item Potion of Frost Giant Strength|XDMG} or {@item Potion of Stone Giant Strength|XDMG}",
+							"23",
+							"Rare"
+						],
+						[
+							"{@item Potion of Fire Giant Strength|XDMG}",
+							"25",
+							"Rare"
+						],
+						[
+							"{@item Potion of Cloud Giant Strength|XDMG}",
+							"27",
+							"Very Rare"
+						],
+						[
+							"{@item Potion of Storm Giant Strength|XDMG}",
+							"29",
+							"Legendary"
+						]
+					]
+				}
+			],
 			"items": [
-				"Potion of Hill Giant Strength|XDMG",
-				"Potion of Frost Giant Strength|XDMG",
-				"Potion of Stone Giant Strength|XDMG",
-				"Potion of Fire Giant Strength|XDMG",
 				"Potion of Cloud Giant Strength|XDMG",
+				"Potion of Fire Giant Strength|XDMG",
+				"Potion of Frost Giant Strength|XDMG",
+				"Potion of Hill Giant Strength|XDMG",
+				"Potion of Stone Giant Strength|XDMG",
 				"Potion of Storm Giant Strength|XDMG"
 			],
+			"itemsHidden": true,
 			"miscTags": [
 				"CNS"
 			]
