@@ -1025,8 +1025,19 @@
 				}
 			],
 			"entries": [
-				"You learn two Wizard cantrips of your choice. {@spell Mage Hand|XPHB} and {@spell Ray of Frost|XPHB} are recommended. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat).",
-				"Whenever you gain a level, you can replace one of these cantrips with another Wizard cantrip."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Arcane Cantrips",
+							"entries": [
+								"You learn two Wizard cantrips of your choice. {@spell Mage Hand|XPHB} and {@spell Ray of Frost|XPHB} are recommended. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this feat). Whenever you gain a level, you can replace one of these cantrips with another Wizard cantrip."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -1044,7 +1055,19 @@
 				}
 			],
 			"entries": [
-				"You gain a +2 bonus to attack rolls you make with Ranged weapons. You also ignore {@variantrule Cover|XPHB|Half Cover}."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Improved Aim",
+							"entries": [
+								"You gain a +2 bonus to attack rolls you make with Ranged weapons. You also ignore {@variantrule Cover|XPHB|Half Cover}."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -1253,7 +1276,19 @@
 				}
 			],
 			"entries": [
-				"You learn two {@filter Cleric cantrips|spells|level=0|class=Cleric} of your choice. {@spell Guidance|XPHB} and {@spell Sacred Flame|XPHB} are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Divine Cantrips",
+							"entries": [
+								"You learn two {@filter Cleric cantrips|spells|level=0|class=Cleric} of your choice. {@spell Guidance|XPHB} and {@spell Sacred Flame|XPHB} are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -1274,7 +1309,19 @@
 				}
 			],
 			"entries": [
-				"You have {@sense Blindsight|XPHB} with a range of five times your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Blindsight",
+							"entries": [
+								"You have {@sense Blindsight|XPHB} with a range of five times your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -3274,8 +3321,26 @@
 				}
 			],
 			"entries": [
-				"When you make an {@action Attack|XPHB|Unarmed Strike Attack}, you deal Bludgeoning damage equal to {@damage 1d6} plus your Strength modifier instead of its normal damage. If you aren't holding any weapons or a {@item Shield|XPHB} when you make the {@action Attack|XPHB} roll, the {@dice d6} becomes a {@dice d8}.",
-				"At the start of each of your turns, you can deal {@damage 1d4} Bludgeoning damage to one creature {@condition Grappled|XPHB} by you."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Heavy Hitter",
+							"entries": [
+								"When you make an {@action Attack|XPHB|Unarmed Strike Attack}, you deal Bludgeoning damage equal to {@damage 1d6} plus your Strength modifier instead of its normal damage. If you aren't holding any weapons or a {@item Shield|XPHB} when you make the {@action Attack|XPHB} roll, the {@dice d6} becomes a {@dice d8}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Grapple Damage",
+							"entries": [
+								"At the start of each of your turns, you can deal {@damage 1d4} Bludgeoning damage to one creature {@condition Grappled|XPHB} by you."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -4077,7 +4142,19 @@
 				}
 			],
 			"entries": [
-				"While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to {@variantrule Armor Class|XPHB}."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Increased AC",
+							"entries": [
+								"While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to {@variantrule Armor Class|XPHB}."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -4588,7 +4665,19 @@
 				}
 			],
 			"entries": [
-				"You learn two {@filter Druid cantrips|spells|level=0|class=druid} of your choice. {@spell Guidance|XPHB} and {@spell Starry Wisp|XPHB} are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Primeval Cantrips",
+							"entries": [
+								"You learn two {@filter Druid cantrips|spells|level=0|class=druid} of your choice. {@spell Guidance|XPHB} and {@spell Starry Wisp|XPHB} are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -4606,7 +4695,26 @@
 				}
 			],
 			"entries": [
-				"When you engage in {@action Two-Weapon Fighting|XPHB}, you add your ability modifier to the damage of the off-hand extra attack. Additionally, this extra attack can be done as part of your {@action Attack|XPHB|Attack Action} instead of your {@variantrule Bonus Action|XPHB} as long as you are not utilizing its {@itemProperty T|XPHB|Thrown} weapon property."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Extra Attack Extra Damage",
+							"entries": [
+								"When you engage in {@action Two-Weapon Fighting|XPHB}, you add your ability modifier to the damage of the off-hand extra attack."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Quick Hits",
+							"entries": [
+								"The {@action Two-Weapon Fighting|XPHB} Extra Attack can be done as part of your {@action Attack|XPHB|Attack Action} instead of your {@variantrule Bonus Action|XPHB}, as long as you are not utilizing a weapon's {@itemProperty T|XPHB|Thrown} property. Additionally, you gain this benefit once per turn, regardless of how many attacks you can take on a single {@variantrule Action|XPHB}."
+							]
+						}
+					]
+				}
 			],
 			"hasFluffImages": true
 		},
@@ -4693,8 +4801,26 @@
 				}
 			],
 			"entries": [
-				"When you're holding a Melee weapon in one hand and no other weapons or {@item Shield|XPHB}, you gain a +2 bonus to your damage rolls.",
-				"Additionally, if the melee weapon is a {@itemProperty F|XPHB|Finesse} weapon and you are not wearing Medium or Heavy Armor, you also gain a +1 bonus to your {@variantrule Armor Class|XPHB}."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Deep Cuts",
+							"entries": [
+								"When you're holding a Melee weapon in one hand and no other weapons or {@item Shield|XPHB}, you gain a +2 bonus to your damage rolls."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "AC Bonus",
+							"entries": [
+								"In addition to the above criteria, if the melee weapon a {@itemProperty F|XPHB|Finesse} weapon and you are not wearing Medium or Heavy Armor, you also gain a +1 bonus to your {@variantrule Armor Class|XPHB}."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -6069,7 +6195,19 @@
 				}
 			],
 			"entries": [
-				"When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the {@itemProperty 2h|XPHB|Two-Handed} or {@itemProperty V|XPHB|Versatile} property to gain this benefit."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Damage Dealer",
+							"entries": [
+								"When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the {@itemProperty 2h|XPHB|Two-Handed} or {@itemProperty V|XPHB|Versatile} property to gain this benefit."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -7065,7 +7203,19 @@
 				}
 			],
 			"entries": [
-				"When you hit with a ranged attack roll using a weapon that has the {@itemProperty T|XPHB|Thrown} property, you gain a +2 bonus to the damage roll."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Extra Damage",
+							"entries": [
+								"When you hit with a ranged attack roll using a weapon that has the {@itemProperty T|XPHB|Thrown} property, you gain a +2 bonus to the damage roll."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -7459,7 +7609,19 @@
 				}
 			],
 			"entries": [
-				"When a creature you can see hits another creature within 5 feet of you with an attack roll, you can take a {@variantrule Reaction|XPHB} to reduce the damage dealt to the target by {@dice 1d10} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You must be holding a {@item Shield|XPHB} or a Melee weapon to use this {@variantrule Reaction|XPHB}."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Reactive Damage Defuser",
+							"entries": [
+								"When a creature you can see hits another creature within 5 feet of you with an attack roll, you can take a {@variantrule Reaction|XPHB} to reduce the damage dealt to the target by {@dice 1d10} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You must be holding a {@item Shield|XPHB} or a Melee weapon to use this {@variantrule Reaction|XPHB}."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -10365,7 +10527,20 @@
 				}
 			],
 			"entries": [
-				"When you hit a target within 5 feet of you with a ranged weapon attack, you ignore {@variantrule Disadvantage|XPHB} on the {@action Attack|XPHB} roll and you gain a +2 bonus to the damage roll."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Close-Range Blaster",
+							"entries": [
+								"When you hit a target within 5 feet of you with a ranged weapon attack, you ignore {@variantrule Disadvantage|XPHB} on the {@action Attack|XPHB} roll and you gain a +2 bonus to the damage roll."
+							]
+						}
+					]
+				}
+				
 			]
 		},
 		{
@@ -11499,7 +11674,19 @@
 				}
 			],
 			"entries": [
-				"When a creature you can see attacks a target other than you that is within 5 feet of you, you can take a {@variantrule Reaction|XPHB} to interpose your {@item Shield|XPHB} if you're holding one. You impose {@variantrule Disadvantage|XPHB} on the triggering attack roll and all other attack rolls against the target until the start of your next turn if you remain within 5 feet of the target."
+				"With this Fighting Style, you gain the following benefits.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ally's Shield",
+							"entries": [
+								"When a creature you can see attacks a target other than you that is within 5 feet of you, you can take a {@variantrule Reaction|XPHB} to impose {@variantrule Disadvantage|XPHB} on the triggering attack roll. You must be wielding a {@item Shield|XPHB} in order to use this benefit. The {@variantrule Disadvantage|XPHB} lasts on all other attack rolls against the target until the start of your next turn as long as you remain within 5 feet of the target."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
