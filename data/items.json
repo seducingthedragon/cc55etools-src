@@ -31632,8 +31632,9 @@
 			"type": "INS|XPHB",
 			"rarity": "rare",
 			"wondrous": true,
+			"hasRefs": true,
 			"entries": [
-				"You can take a {@action Magic|XPHB} action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the {@creature Berserker|XMM} stat block and returns to Ysgard after 1 hour or when it drops to 0 {@variantrule Hit Points|XPHB}. The spirits look like living, breathing warriors, and they have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions. Once you use the horn, it can't be used again until 7 days have passed.",
+				"{#itemEntry Horn of Valhalla|XDMG}",
 				"A brass horn summons 3 {@creature Berserker|XMM|Berserkers}. To meet the requirements of the brass horn, you must have {@variantrule Proficiency|XPHB} with all Simple weapons.",
 				"If you blow the horn without meeting its requirement, the summoned {@creature Berserker|XMM|Berserkers} attack you. If you meet the requirement, they are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and follow your commands."
 			],
@@ -31676,8 +31677,9 @@
 			"type": "INS|XPHB",
 			"rarity": "very rare",
 			"wondrous": true,
+			"hasRefs": true,
 			"entries": [
-				"You can take a {@action Magic|XPHB} action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the {@creature Berserker|XMM} stat block and returns to Ysgard after 1 hour or when it drops to 0 {@variantrule Hit Points|XPHB}. The spirits look like living, breathing warriors, and they have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions. Once you use the horn, it can't be used again until 7 days have passed.",
+				"{#itemEntry Horn of Valhalla|XDMG}",
 				"A bronze horn summons 4 {@creature Berserker|XMM|Berserkers}. To meet the requirements of the bronze horn, you must have training with all Medium armor.",
 				"If you blow the horn without meeting its requirement, the summoned {@creature Berserker|XMM|Berserkers} attack you. If you meet the requirement, they are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and follow your commands."
 			],
@@ -31723,8 +31725,9 @@
 			"type": "INS|XPHB",
 			"rarity": "legendary",
 			"wondrous": true,
+			"hasRefs": true,
 			"entries": [
-				"You can take a {@action Magic|XPHB} action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the {@creature Berserker|XMM} stat block and returns to Ysgard after 1 hour or when it drops to 0 {@variantrule Hit Points|XPHB}. The spirits look like living, breathing warriors, and they have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions. Once you use the horn, it can't be used again until 7 days have passed.",
+				"{#itemEntry Horn of Valhalla|XDMG}",
 				"An iron horn summons 5 {@creature Berserker|XMM|Berserkers}. To meet the requirements of the iron horn, you must have {@variantrule Proficiency|XPHB} with all Martial weapons.",
 				"If you blow the horn without meeting its requirement, the summoned {@creature Berserker|XMM|Berserkers} attack you. If you meet the requirement, they are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and follow your commands."
 			],
@@ -31772,8 +31775,9 @@
 			"type": "INS|XPHB",
 			"rarity": "rare",
 			"wondrous": true,
+			"hasRefs": true,
 			"entries": [
-				"You can take a {@action Magic|XPHB} action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the {@creature Berserker|XMM} stat block and returns to Ysgard after 1 hour or when it drops to 0 {@variantrule Hit Points|XPHB}. The spirits look like living, breathing warriors, and they have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions. Once you use the horn, it can't be used again until 7 days have passed.",
+				"{#itemEntry Horn of Valhalla|XDMG}",
 				"A silver horn summons 2 {@creature Berserker|XMM|Berserkers}. They are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and follow your commands."
 			],
 			"lootTables": [
@@ -79780,9 +79784,9 @@
 			"basicRules2024": true,
 			"rarity": "varies",
 			"wondrous": true,
-			"weight": 2,
+			"hasRefs": true,
 			"entries": [
-				"You can take a {@action Magic|XPHB} action to blow this horn. In response, warrior spirits from the plane of Ysgard appear in unoccupied spaces within 60 feet of you. Each spirit uses the {@creature Berserker|XMM} stat block and returns to Ysgard after 1 hour or when it drops to 0 {@variantrule Hit Points|XPHB}. The spirits look like living, breathing warriors, and they have {@variantrule Immunity|XPHB} to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions. Once you use the horn, it can't be used again until 7 days have passed.",
+				"{#itemEntry Horn of Valhalla|XDMG}",
 				"Four types of Horn of Valhalla are known to exist, each made of a different metal. The horn's type determines how many spirits it summons, as well as the requirement for its use. The DM chooses the horn's type or determines it randomly by rolling on the following table. If you blow the horn without meeting its requirement, the summoned spirits attack you.",
 				"If you meet the requirement, they are {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies and follow your commands.",
 				{
