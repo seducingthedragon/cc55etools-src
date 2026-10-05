@@ -80014,7 +80014,7 @@
 			],
 			"wondrous": true,
 			"entries": [
-				"An Instrument of the Bards is superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a {@dc 15} Wisdom saving throw or take {@damage 2d4} Psychic damage.",
+				"An Instrument of the Bards is superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard from the seven primary bardic college. A creature that attempts to play the instrument without being attuned to it must succeed on a {@dc 15} Wisdom saving throw or take {@damage 2d4} Psychic damage.",
 				"You can play the instrument to cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
 				"All Instrument of the Bards can be used to cast the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}"
 			],
