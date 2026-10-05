@@ -4693,7 +4693,8 @@
 				}
 			],
 			"entries": [
-				"When you're holding a Melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon. You can use a {@item Shield|XPHB} and still gain this benefit."
+				"When you're holding a Melee weapon in one hand and no other weapons or {@item Shield|XPHB}, you gain a +2 bonus to your damage rolls.",
+				"Additionally, if the melee weapon is a {@itemProperty F|XPHB|Finesse} weapon and you are not wearing Medium or Heavy Armor, you also gain a +1 bonus to your {@variantrule Armor Class|XPHB}."
 			]
 		},
 		{
@@ -10587,7 +10588,7 @@
 					"type": "entries",
 					"name": "Mounted Strike",
 					"entries": [
-						"While {@book mounted|XPHB|1|Mounted Combat}, you have {@variantrule Advantage|XPHB} on attack rolls against any unmounted creature within 5 feet of your mount that is at least one size smaller than the mount."
+						"While {@book mounted|XPHB|1|Mounted Combat}, you have {@variantrule Advantage|XPHB} on attack rolls against any unmounted creature within 5 feet of your mount that is at least one size smaller than the mount. Additionally, you can command a controlled mount to take any {@variantrule Action|XPHB} from its stat block using your {@variantrule Bonus Action|XPHB}."
 					]
 				},
 				{

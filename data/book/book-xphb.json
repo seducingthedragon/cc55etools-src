@@ -3097,7 +3097,7 @@
 									"id": "090",
 									"entries": [
 										"You can control a mount only if it has been trained to accept a rider. Domesticated horses, mules, and similar creatures have such training.",
-										"The {@variantrule Initiative|XPHB} of a controlled mount changes to match yours when you mount it. It moves on your turn as you direct it, and it has only three action options during that turn: {@action Dash|XPHB}, {@action Disengage|XPHB}, and {@action Dodge|XPHB}. A controlled mount can move and act even on the turn that you mount it.",
+										"The {@variantrule Initiative|XPHB} of a controlled mount changes to match yours when you mount it. It moves on your turn as you direct it on a {@action Free Object Interaction|XPHB|Free Interaction}, and it has only three action options during that turn: {@action Dash|XPHB}, {@action Disengage|XPHB}, and {@action Dodge|XPHB}. A controlled mount can move and act even on the turn that you mount it. While mounted, you gain a +1 bonus to your {@variantrule Armor Class|XPHB} against attacks from unmounted combatants.",
 										"In contrast, an independent mount\u2014one that lets you ride but ignores your control\u2014retains its place in the Initiative order and moves and acts as it likes."
 									]
 								},
