@@ -7562,7 +7562,7 @@
 					"type": "entries",
 					"name": "Reload",
 					"entries": [
-						"You can make a limited number of shots with a Reload weapon. You must then reload the weapon as an action or a {@variantrule Bonus Action|XPHB} to reload all applicable shots. As a {@action Free Object Interaction}, a single ammunition can be loaded instead."
+						"You can make a limited number of shots with a Reload weapon. You must then reload the weapon as an action or a {@variantrule Bonus Action|XPHB} to reload all applicable shots. If you have the {@feat Crossbow Expert|XPHB} Feat or another related feature that allows you to ignore the {@itemProperty L|XPHB|Loading} property, you can use a {@action Free Object Interaction|XPHB} to load a single piece of ammunition into a Reload weapon once per turn."
 					]
 				}
 			]

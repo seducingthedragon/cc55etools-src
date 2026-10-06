@@ -4060,21 +4060,29 @@
 					"type": "entries",
 					"name": "Ignore Loading",
 					"entries": [
-						"You ignore the {@itemProperty LD|XPHB|Loading} property of the {@item Hand Crossbow|XPHB}, {@item Heavy Crossbow|XPHB}, and {@item Light Crossbow|XPHB} (all called crossbows elsewhere in this feat). If you're holding one of them, you can load a piece of ammunition into it even if you lack a free hand."
+						"You ignore the {@itemProperty LD|XPHB|Loading} property of the {@item Hand Crossbow|XPHB}, {@item Heavy Crossbow|XPHB}, {@item Light Crossbow|XPHB}, and all other crossbows (all called crossbows elsewhere in this feat). If you're holding one of them, you can load a piece of ammunition into it even if you lack a free hand. In order for other crossbows to gain this benefit, the item must be a ranged weapon with the word {@b Crossbow} in its name and have the {@itemProperty LD|XPHB|Loading} property."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Weapon Fighting",
+					"entries": [
+						"You can engage in {@action Two-Weapon Fighting|XPHB} while wielding a crossbow with the {@itemProperty L|XPHB|Light} property in your off-hand. When you make the extra attack with that crossbow, you can add your ability modifier to the damage of the extra attack if you aren't already adding that modifier to the damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Firing in Melee",
 					"entries": [
-						"Being within 5 feet of an enemy doesn't impose {@variantrule Disadvantage|XPHB} on your attack rolls with crossbows."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Dual Wielding",
-					"entries": [
-						"When you make the extra attack of the {@itemProperty L|XPHB|Light} property, you can add your ability modifier to the damage of the extra attack if that attack is with a crossbow that has the {@itemProperty L|XPHB|Light} property and you aren't already adding that modifier to the damage."
+						"Being within 5 feet of an enemy doesn't impose {@variantrule Disadvantage|XPHB} on your attack rolls with crossbows.",
+						{
+							"type": "list",
+							"style": "list-hang",
+							"name": "The Melee Marksman Fighting Style",
+							"items": [
+								"If you have the {@feat Melee Marksman|XPHB} Fighting Style, you can make this attack with {@variantrule Advantage|XPHB} once per turn."
+							]
+						}
 					]
 				}
 			]
@@ -7134,7 +7142,7 @@
 							"style": "list-hang",
 							"name": "The Melee Marksman Fighting Style",
 							"items": [
-								"If you have the {@feat Melee Marksman|XPHB} Fighting Style, you make this attack with {@variantrule Advantage|XPHB} once per turn."
+								"If you have the {@feat Melee Marksman|XPHB} Fighting Style, you can make this attack with {@variantrule Advantage|XPHB} once per turn."
 							]
 						}
 					]
