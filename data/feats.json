@@ -4263,7 +4263,15 @@
 					"type": "entries",
 					"name": "Parry",
 					"entries": [
-						"If you're holding a Finesse weapon and another creature hits you with a melee attack, you can take a {@variantrule Reaction|XPHB} to add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to your {@variantrule Armor Class|XPHB}, potentially causing the attack to miss you. You gain this bonus to your AC against melee attacks until the start of your next turn."
+						"If you're holding a {@itemProperty F|XPHB|Finesse} weapon and another creature hits you with a melee attack, you can take a {@variantrule Reaction|XPHB} to add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to your {@variantrule Armor Class|XPHB}, potentially causing the attack to miss you. You gain this bonus to your AC against melee attacks until the start of your next turn.",
+						{
+							"type": "list",
+							"style": "list-hang",
+							"name": "The Duelist Fighting Style",
+							"items": [
+								"If you have the {@feat Duelist|XPHB} Fighting Style and this {@variantrule Reaction|XPHB} causes the attack to miss, you can make a single attack with the {@itemProperty F|XPHB|Finesse} weapon, targeting your attacker, as part of the same {@variantrule Reaction|XPHB}."
+							]
+						}
 					]
 				}
 			]
