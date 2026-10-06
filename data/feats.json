@@ -4869,11 +4869,12 @@
 				}
 			],
 			"entries": [
-				"You have the blood of dwarf heroes flowing through your veins. You gain the following benefits:",
+				"You have the blood of dwarf heroes flowing through your veins. You gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"Whenever you take the {@action Dodge} action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1)."
+					"type": "entries",
+					"name": "Healing Dodge",
+					"entries": [
+						"Whenever you take the {@action Dodge} action in combat, you can spend one {@variantrule Hit Point Dice|XPHB|Hit Die} to heal yourself. Roll the die, add your Constitution modifier, and regain a number of {@variantrule Hit Points|XPHB} equal to the total (minimum of 1)."
 					]
 				}
 			]
@@ -5100,11 +5101,12 @@
 				}
 			],
 			"entries": [
-				"The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. You gain the following benefits:",
+				"The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. You gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once."
+					"type": "entries",
+					"name": "Enhanced Advantage",
+					"entries": [
+						"Whenever you have {@variantrule Advantage|XPHB} on an {@action Attack} roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once or roll 3 D20's instead of 2. The outcome is the same for either approach."
 					]
 				}
 			]
@@ -5478,9 +5480,10 @@
 			"entries": [
 				"Your people are clever, with a knack for illusion magic. You have learned a magical trick for fading away when you suffer harm. You gain the following benefits:",
 				{
-					"type": "list",
-					"items": [
-						"Immediately after you take damage, you can use a reaction to magically become {@condition invisible} until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can't do so again until you finish a short or long rest."
+					"type": "entries",
+					"name": "Reactive Cloak (1 per Short or Long Rest)",
+					"entries": [
+						"Immediately after you take damage, you can use a {@variantrule Reaction|XPHB} to magically become {@condition Invisible} until the end of your next turn or until you {@action Attack}, deal damage, or force someone to make a {@variantrule Saving Throw|XPHB}. Once you use this ability, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
 					]
 				}
 			]
@@ -5779,12 +5782,19 @@
 				}
 			],
 			"entries": [
-				"You learn to call on hellfire to serve your commands. You gain the following benefits:",
+				"You learn to call on hellfire to serve your commands. You gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.",
-						"Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don't harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes {@damage 1d4} fire damage."
+					"type": "entries",
+					"name": "Reroll Fire Damage",
+					"entries": [
+						"When you roll Fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fire Aura",
+					"entries": [
+						"Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don't harm you or your possessions, and they shed {@variantrule Bright Light|XPHB} out to 30 feet and {@variantrule Dim Light|XPHB} for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes {@damage 1d4} Fire damage."
 					]
 				}
 			]
