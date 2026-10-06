@@ -4949,9 +4949,10 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speedy Recovery",
+					"name": "Speedy Healthy Recovery",
 					"entries": [
-						"As a {@variantrule Bonus Action|XPHB}, you can expend one of your {@variantrule Hit Point Dice|XPHB}, roll the die, and regain a number of {@variantrule Hit Points|XPHB} equal to the roll."
+						"As a {@variantrule Bonus Action|XPHB}, you can expend one of your {@variantrule Hit Point Dice|XPHB}, roll the die, and regain a number of {@variantrule Hit Points|XPHB} equal to the roll.",
+						"Additionally, anytime you expend a {@variantrule Hit Point Dice|XPHB} to regain {@variantrule Hit Points|XPHB}, you can treat any roll of a 1 or a 2 on the {@variantrule Hit Point Dice|XPHB|die} as a 3."
 					]
 				}
 			]
