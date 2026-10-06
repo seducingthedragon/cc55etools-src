@@ -692,8 +692,19 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"category": "O",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
 			"entries": [
-				"You gain the following benefits.",
+				"Always on the lookout, you gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Initiative Proficiency",
@@ -703,9 +714,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Initiative Swap",
+					"name": "Avoiding Surprise and Unseen Advantage.",
 					"entries": [
-						"Immediately after you roll {@variantrule Initiative|XPHB}, you can swap your {@variantrule Initiative|XPHB} with the {@variantrule Initiative|XPHB} of one willing ally in the same combat. You can't make this swap if you or the ally has the {@condition Incapacitated|XPHB} condition."
+						"You can't be {@status surprised} while you are conscious. Additionally, other creatures do not gain {@variantrule Advantage|XPHB} on {@action Attack|XPHB|Attack Rolls} against you as a result of being unseen by you."
 					]
 				}
 			]
@@ -4047,19 +4058,19 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"Through the practice in the art of crushing your enemies, you gain the following benefits.",
 				{
 					"type": "entries",
-					"name": "Push",
+					"name": "Strike and Shove",
 					"entries": [
-						"Once per turn, when you hit a creature with an attack that deals Bludgeoning damage, you can move it 5 feet to an unoccupied space if the target is no more than one size larger than you."
+						"Once per turn, when you hit a creature with an {@action Attack|XPHB|Attack roll} that deals Bludgeoning damage, you can move it 5 feet to an unoccupied space if the target is no more than one size larger than you."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Enhanced Critical",
 					"entries": [
-						"When you score a {@variantrule Critical Hit|XPHB} that deals Bludgeoning damage to a creature, attack rolls against that creature have {@variantrule Advantage|XPHB} until the start of your next turn."
+						"When you score a {@variantrule Critical Hit|XPHB} that deals Bludgeoning damage to a creature, all {@action Attack|XPHB|Attack Rolls} against that creature have {@variantrule Advantage|XPHB} until the start of your next turn."
 					]
 				}
 			]
@@ -5001,7 +5012,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"Through the knowledge and experience with a specific element, you gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Energy Mastery",
@@ -5722,7 +5733,7 @@
 					"type": "entries",
 					"name": "Fey Magic",
 					"entries": [
-						"Choose one {@filter level 1 spell from the Divination or Enchantment|spells|level=1|school=E;D} school of magic. You always have that spell and the {@spell Misty Step|XPHB} spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+						"You learn the {@spell Misty Step|XPHB} spell and one {@filter level 1 spell from the Divination or Enchantment|spells|level=1|school=E;D} school of magic. Both spells are always prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
 					]
 				}
 			],
@@ -7161,7 +7172,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You've become adept with combat while wearing Heavy Armor. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Damage Reduction",
@@ -8611,16 +8622,21 @@
 			"category": "O",
 			"repeatable": true,
 			"repeatableHidden": true,
-			"additionalSpells": [
+			"ability": [
 				{
-					"name": "Cleric Spells",
-					"ability": {
-						"choose": [
+					"choose": {
+						"from": [
 							"int",
 							"wis",
 							"cha"
 						]
-					},
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"name": "Cleric Spells",
+					"ability": "inherit",
 					"innate": {
 						"_": {
 							"daily": {
@@ -8643,13 +8659,7 @@
 				},
 				{
 					"name": "Druid Spells",
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
+					"ability": "inherit",
 					"innate": {
 						"_": {
 							"daily": {
@@ -8672,13 +8682,7 @@
 				},
 				{
 					"name": "Wizard Spells",
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
+					"ability": "inherit",
 					"innate": {
 						"_": {
 							"daily": {
@@ -8706,7 +8710,7 @@
 					"type": "entries",
 					"name": "Two Cantrips",
 					"entries": [
-						"You learn two cantrips of your choice from the {@filter Cleric|spells|level=0;1|class=Cleric}, {@filter Druid|spells|level=0;1|class=Druid}, or {@filter Wizard|spells|level=0;1|class=Wizard} spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat)."
+						"You learn two cantrips of your choice from the {@filter Cleric|spells|level=0;1|class=Cleric}, {@filter Druid|spells|level=0;1|class=Druid}, or {@filter Wizard|spells|level=0;1|class=Wizard} spell list. The spells' spellcasting ability is the ability increased by this feat."
 					]
 				},
 				{
@@ -10527,6 +10531,13 @@
 					"name": "Dexterous Wearer",
 					"entries": [
 						"While you're wearing Medium armor, you can add 3, rather than 2 to your AC if you have a Dexterity score of 16 or higher."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Protected and Stealthy",
+					"entries": [
+						"You ignore {@variantrule Disadvantage|XPHB} on Stealth Checks while wearing Medium armor that would normally impose it."
 					]
 				}
 			]
@@ -12839,12 +12850,12 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You are a powerful combatant. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Guardian",
 					"entries": [
-						"Immediately after a creature within 5 feet of you takes the {@action Disengage|XPHB} action or hits a target other than you with an attack, you can make an {@action Opportunity Attack|XPHB} against that creature."
+						"Immediately after a creature within 5 feet of you takes the {@action Disengage|XPHB} action or hits a target other than you with an attack, you can use your {variantrule Reaction|XPHB} to make an {@action Opportunity Attack|XPHB} against that creature."
 					]
 				},
 				{
@@ -12977,7 +12988,7 @@
 					"type": "entries",
 					"name": "Shadow Magic",
 					"entries": [
-						"Choose one {@filter level 1 spell from the Illusion or Necromancy|spells|level=1|school=I;N} school of magic. You always have that spell and the {@spell Invisibility|XPHB} spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+						"You learn the {@spell Invisibility|XPHB} spell and one {@filter level 1 spell from the Illusion or Necromancy|spells|level=1|school=I;N} school of magic. Both spells are always prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a {@variantrule Long Rest|XPHB}. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
 					]
 				}
 			]
@@ -13137,12 +13148,12 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"Your experience with a shield not only protects you, but you've learned to turn it into a weapon. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Shield Bash",
 					"entries": [
-						"If you attack a creature within 5 feet of you as part of the {@action Attack|XPHB} action and hit with a Melee weapon, you can immediately bash the target with your {@item Shield|XPHB} if it's equipped, forcing the target to make a Strength saving throw ({@dc 8} plus your Strength modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, you either push the target 5 feet from you or cause it to have the {@condition Prone|XPHB} condition (your choice). You can use this benefit only once on each of your turns."
+						"If you attack a creature within 5 feet of you as part of the {@action Attack|XPHB} action and hit with a Melee weapon, you can immediately bash the target, as part of that same {@action Attack|XPHB}, with your {@item Shield|XPHB} if it's equipped, forcing the target to make a Strength saving throw ({@dc 8} plus your Strength modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, you either push the target 5 feet from you or cause it to have the {@condition Prone|XPHB} condition (your choice). You can use this benefit only once on each of your turns."
 					]
 				},
 				{
@@ -15316,8 +15327,29 @@
 			"source": "XPHB",
 			"page": 202,
 			"category": "O",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
 			"entries": [
-				"Your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by an amount equal to twice your character level when you gain this feat. Whenever you gain a character level thereafter, your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by an additional 2 {@variantrule Hit Points|XPHB}."
+				"You are difficult to knock down. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Health Increases",
+					"entries": [
+						"Your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by an amount equal to twice your character level when you gain this feat. Whenever you gain a character level thereafter, your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by an additional 2 {@variantrule Hit Points|XPHB}."
+					]
+				}
 			]
 		},
 		{
