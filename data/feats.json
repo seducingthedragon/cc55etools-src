@@ -6872,13 +6872,34 @@
 				}
 			],
 			"entries": [
-				"You have a quick hand and keen eye when employing firearms, granting you the following benefits:",
+				"You have a quick hand and keen eye when employing firearms, granting you the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"You gain proficiency with firearms (see \"{@variantrule Firearms|DMG}\" in the Dungeon Master's Guide).",
-						"You ignore the {@itemProperty LD|PHB|loading} property of firearms.",
-						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls."
+					"type": "entries",
+					"name": "Firearms Proficiency",
+					"entries": [
+						"You gain proficiency with firearms (see \"{@variantrule Firearms|DMG}\" in the Dungeon Master's Guide)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ignoring Loading Property",
+					"entries": [
+						"You ignore the {@itemProperty LD|PHB|loading} property of firearms."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ranged Melee Attacks",
+					"entries": [
+						"Being within 5 feet of a hostile creature doesn't impose {@variantrule Disadvantage|XPHB} on your ranged attack rolls.",
+						{
+							"type": "list",
+							"style": "list-hang",
+							"name": "The Melee Marksman Fighting Style",
+							"items": [
+								"If you have the {@feat Melee Marksman|XPHB} Fighting Style, you make this attack with {@variantrule Advantage|XPHB} once per turn."
+							]
+						}
 					]
 				}
 			]
