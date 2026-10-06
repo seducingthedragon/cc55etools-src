@@ -3419,7 +3419,7 @@
 					"ability": "inherit",
 					"known": {
 						"_": [
-							"prestidigitation#c"
+							"prestidigitation|xphb#c"
 						]
 					}
 				}
@@ -5047,6 +5047,68 @@
 				"Whenever you gain a level, you can replace the invocation with another one from the warlock class."
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Eldritch Adept",
+			"source": "XPHB",
+			"page": 203,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"spellcasting2020": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "inherit",
+					"known": {
+						"_": [
+							"eldritch blast|xphb#c"
+						]
+					}
+				}
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Eldritch Invocations",
+					"featureType": [
+						"EI"
+					],
+					"progression": {
+						"*": 1
+					}
+				}
+			],
+			"entries": [
+				"Studying occult lore, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Eldritch Blast",
+					"entries": [
+						"You learn the {@spell Eldritch Blast|XPHB} cantrip. The spell's spellcasting ability is the ability increased by this feat."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eldritch Invocation",
+					"entries": [
+						"You learn one {@filter Eldritch Invocation|optionalfeatures|feature type=ei} option of your choice from the warlock class. If the {@filter invocation|optionalfeatures|feature type=ei} has a prerequisite of any kind, including a minimum level with no other prerequisite listed, you can only choose that {@filter invocation|optionalfeatures|feature type=ei} if you're a warlock. Whenever you gain a level, you can replace the {@filter invocation|optionalfeatures|feature type=ei} with another warlock {@filter invocation|optionalfeatures|feature type=ei}."
+					]
+				}
+			]
 		},
 		{
 			"name": "Elemental Adept",

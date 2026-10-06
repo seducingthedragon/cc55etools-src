@@ -7558,6 +7558,10 @@
 															"{@area General|526|x}"
 														],
 														[
+															"{@feat Eldritch Adept|XPHB}",
+															"{@area General|526|x}"
+														],
+														[
 															"{@feat Elemental Adept|XPHB}*",
 															"{@area General|526|x}"
 														],
@@ -7871,6 +7875,7 @@
 								"{@feat Defensive Duelist|XPHB}",
 								"{@feat Dual Wielder|XPHB}",
 								"{@feat Durable|XPHB}",
+								"{@feat Eldritch Adept|XPHB}"
 								"{@feat Elemental Adept|XPHB}",
 								"{@feat Fey-Touched|XPHB}",
 								"{@feat Grappler|XPHB}",
@@ -7971,6 +7976,12 @@
 						{
 							"type": "statblock",
 							"name": "Durable",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Eldritch Adept",
 							"tag": "feat",
 							"source": "XPHB"
 						},
