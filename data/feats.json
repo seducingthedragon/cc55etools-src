@@ -5026,6 +5026,9 @@
 			"name": "Eldritch Adept",
 			"source": "TCE",
 			"page": 79,
+			"reprintedAs": [
+				"Eldritch Adept|XPHB"
+			],
 			"prerequisite": [
 				{
 					"spellcasting2020": true
