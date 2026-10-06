@@ -7606,6 +7606,10 @@
 															"{@area General|526|x}"
 														],
 														[
+															"{@feat Linguist|XPHB}",
+															"{@area General|526|x}"
+														],
+														[
 															"{@feat Lucky|XPHB}",
 															"{@area Origin|4fe|x}"
 														],
@@ -7663,6 +7667,10 @@
 														],
 														[
 															"{@feat Resilient|XPHB}",
+															"{@area General|526|x}"
+														],
+														[
+															"{@feat Revenant Blade|XPHB}",
 															"{@area General|526|x}"
 														],
 														[
@@ -7878,6 +7886,7 @@
 								"{@feat Poisoner|XPHB}",
 								"{@feat Polearm Master|XPHB}",
 								"{@feat Resilient|XPHB}",
+								"{@feat Revenant Blade|XPHB}",
 								"{@feat Ritual Caster|XPHB}",
 								"{@feat Sentinel|XPHB}",
 								"{@feat Shadow-Touched|XPHB}",
@@ -8071,6 +8080,12 @@
 						{
 							"type": "statblock",
 							"name": "Resilient",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Revenant Blade",
 							"tag": "feat",
 							"source": "XPHB"
 						},

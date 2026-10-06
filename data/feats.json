@@ -12049,6 +12049,9 @@
 			"name": "Revenant Blade",
 			"source": "ERLW",
 			"page": 22,
+			"reprintedAs": [
+				"Revenant Blade|XPHB"
+			],
 			"prerequisite": [
 				{
 					"race": [
@@ -12076,6 +12079,50 @@
 					"items": [
 						"While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.",
 						"A double-bladed scimitar has the {@itemProperty F|PHB|finesse} property when you wield it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Revenant Blade",
+			"source": "XPHB",
+			"page": 201,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"weaponGroup": "martial"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Armor Class Bonus",
+					"entries": [
+						"While you are holding a {@item Double-Bladed Scimitar|XPHB} with two hands, you gain a +1 bonus to Armor Class."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two-Handed Finesse",
+					"entries": [
+						"A {@item Double-Bladed Scimitar|XPHB} has the {@itemProperty F|XPHB|Finesse} property when you wield it."
 					]
 				}
 			]
