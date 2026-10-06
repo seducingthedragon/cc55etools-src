@@ -3344,6 +3344,9 @@
 			"name": "Cartomancer",
 			"source": "BMT",
 			"page": 49,
+			"reprintedAs": [
+				"Cartomancer|XPHB"
+			],
 			"prerequisite": [
 				{
 					"level": 4,
@@ -3379,6 +3382,63 @@
 								"When you finish a long rest, you can choose one spell from your class's spell list and imbue that spell into a card. The chosen spell must have a casting time of 1 action, and it must be a level for which you have spell slots. The card remains imbued with this spell for 8 hours. While the card is imbued with the spell, you can use a bonus action to flourish the card and cast the spell within. The card then immediately loses its magic."
 							]
 						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cartomancer",
+			"source": "XPHB",
+			"page": 202,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"spellcasting2020": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"playing cards": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "inherit",
+					"known": {
+						"_": [
+							"prestidigitation#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have learned to channel your magic through a deck of cards. You gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Card Tricks",
+					"entries": [
+						"You gain {@variantrule Proficiency|XPHB} with the {@item Playing Cards|XPHB} gaming set if you don't already have it. The {@item Playing Cards|XPHB}, or any other deck of cards, can be used as your {@variantrule Spellcasting Focus|XPHB}.",
+						"Additionally, you learn the {@spell Prestidigitation} cantrip and can use it to create illusions that duplicate the effects of stage magic. When you use {@spell Prestidigitation} in this way, you can conceal the verbal and somatic components of the spell as ordinary conversation and card handling."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hidden Ace",
+					"entries": [
+						"When you finish a {@variantrule Long Rest|XPHB}, you can choose one spell from your class's spell list and imbue that spell into a card. The chosen spell must have a casting time of 1 action, and it must be a level for which you have spell slots. The card remains imbued with this spell for 8 hours. While the card is imbued with the spell, you can use a {@variantrule Bonus Action} to flourish the card and cast the spell within. The card then immediately loses its magic."
 					]
 				}
 			]

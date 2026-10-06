@@ -7510,6 +7510,10 @@
 															"{@area Fighting Style|5fa|x}"
 														],
 														[
+															"{@feat Cartomancer|XPHB}",
+															"{@area General|526|x}"
+														],
+														[
 															"{@feat Charger|XPHB}",
 															"{@area General|526|x}"
 														],
@@ -7859,6 +7863,7 @@
 								"{@feat Ability Score Improvement|XPHB}",
 								"{@feat Actor|XPHB}",
 								"{@feat Athlete|XPHB}",
+								"{@feat Cartomancer|XPHB}"
 								"{@feat Charger|XPHB}",
 								"{@feat Chef|XPHB}",
 								"{@feat Crossbow Expert|XPHB}",
@@ -7918,6 +7923,12 @@
 						{
 							"type": "statblock",
 							"name": "Athlete",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Cartomancer",
 							"tag": "feat",
 							"source": "XPHB"
 						},
