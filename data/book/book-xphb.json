@@ -7570,6 +7570,10 @@
 															"{@area General|526|x}"
 														],
 														[
+															"{@feat Fighting Initiate|XPHB}",
+															"{@area General|526|x}"
+														],
+														[
 															"{@feat Grappler|XPHB}",
 															"{@area General|526|x}"
 														],
@@ -7878,6 +7882,7 @@
 								"{@feat Eldritch Adept|XPHB}"
 								"{@feat Elemental Adept|XPHB}",
 								"{@feat Fey-Touched|XPHB}",
+								"{@feat Fighting Initiate|XPHB}"
 								"{@feat Grappler|XPHB}",
 								"{@feat Great Weapon Master|XPHB}",
 								"{@feat Heavily Armored|XPHB}",
@@ -7994,6 +7999,12 @@
 						{
 							"type": "statblock",
 							"name": "Fey-Touched",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Fighting Initiate",
 							"tag": "feat",
 							"source": "XPHB"
 						},
