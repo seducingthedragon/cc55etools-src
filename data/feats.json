@@ -1075,6 +1075,11 @@
 			"name": "Artificer Initiate",
 			"source": "TCE",
 			"page": 79,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
 			"toolProficiencies": [
 				{
 					"anyArtisansTool": 1
@@ -1104,13 +1109,19 @@
 				}
 			],
 			"entries": [
-				"You've learned some of an artificer's inventiveness:",
+				"You've learned some of an artificer's inventiveness and gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"You learn one cantrip of your choice from the {@filter artificer spell list|spells|level=0;1|class=artificer}, and you learn one 1st-level spell of your choice from {@filter that list|spells|level=0;1|class=artificer}. Intelligence is your spellcasting ability for these spells.",
-						"You can cast this feat's 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.",
-						"You gain proficiency with one type of {@filter artisan's tools|items|type=artisan's tools} of your choice, and you can use that type of tool as a spellcasting focus for any spell you cast that uses Intelligence as its spellcasting ability."
+					"type": "entries",
+					"name": "Artificer Spells",
+					"entries": [
+						"You learn one cantrip of your choice from the {@filter Artificer spell list|spells|level=0;1|class=artificer}, and you learn one 1st-level spell of your choice from {@filter that list|spells|level=0;1|class=artificer}. Intelligence is your spellcasting ability for these spells. You can cast this feat's 1st-level spell without a spell slot, and you must finish a {@variantrule Long Rest|XPHB} before you can cast it in this way again. You can also cast the spell using any spell slots you have."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tool Proficiency",
+					"entries": [
+						"You gain {@variantrule Proficiency|XPHB} with one type of {@filter Artisan's Tools|items|type=artisan's tools} of your choice, and you can use that type of tool as a {@variantrule Spellcasting Focus|XPHB} for any spell you cast that uses Intelligence as its spellcasting ability."
 					]
 				}
 			]
@@ -4484,10 +4495,11 @@
 				}
 			],
 			"entries": [
-				"When angered, you radiate menace. You gain the following benefits:",
+				"When angered, you radiate menace. You gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
+					"type": "entries",
+					"name": "Frightened Foes",
+					"entries": [
 						"Instead of exhaling destructive energy, you can expend a use of your Breath Weapon trait to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw ({@dc 8} + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can't hear or see you. On a failed save, a target becomes {@condition frightened} of you for 1 minute. If the {@condition frightened} target takes any damage, it can repeat the saving throw, ending the effect on itself on a success."
 					]
 				}
@@ -4519,12 +4531,19 @@
 				}
 			],
 			"entries": [
-				"You manifest scales and claws reminiscent of your draconic ancestors. You gain the following benefits:",
+				"You manifest scales and claws reminiscent of your draconic ancestors. You gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"Your scales harden. While you aren't wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a shield and still gain this benefit.",
-						"You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@damage 1d4} + your Strength modifier, instead of the normal bludgeoning damage for an unarmed strike."
+					"type": "entries",
+					"name": "Natural Armor",
+					"entries": [
+						"Your scales harden. While you aren't wearing armor, you can calculate your {@variantrule Armor Class|XPHB|AC} as 13 + your Dexterity modifier. You can use a {@item Shield|XPHB} and still gain this benefit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Weapons",
+					"entries": [
+						"You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make {@action Attack|XPHB|Unarmed Strike Attacks}. If you hit with them, you deal Slashing damage instead of Bludgeoning damage. The damage dealt equals {@damage 1d4} plus your Strength modifier, unless you have a feature that uses a higher die size for an {@variantrule Unarmed Attack|XPHB}."
 					]
 				}
 			]
@@ -5963,26 +5982,36 @@
 			"name": "Gift of the Chromatic Dragon",
 			"source": "FTD",
 			"page": 17,
-			"entries": [
-				"You've manifested some of the power of chromatic dragons, granting you the following benefits:",
+			"prerequisite": [
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Chromatic Infusion",
-							"entries": [
-								"As a bonus action, you can touch a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} and infuse it with one of the following damage types: acid, cold, fire, lightning, or poison. For the next minute, the weapon deals an extra {@damage 1d4} damage of the chosen type when it hits. After you use this bonus action, you can't do so again until you finish a long rest."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Reactive Resistance",
-							"entries": [
-								"When you take acid, cold, fire, lightning, or poison damage, you can use your reaction to give yourself resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-							]
-						}
+					"level": 4
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You've manifested some of the power of chromatic dragons, granting you the following benefits.",
+				{
+					"type": "entries",
+					"name": "Chromatic Infusion",
+					"entries": [
+						"As a {@variantrule Bonus Action|XPHB}, you can touch a {@filter simple or martial weapon|items|source=phb|category=basic|type=martial weapon;simple weapon} and infuse it with one of the following damage types: acid, cold, fire, lightning, or poison. For the next minute, the weapon deals an extra {@damage 1d4} damage of the chosen type when it hits. After you use this {@variantrule Bonus Action|XPHB}, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reactive Resistance",
+					"entries": [
+						"When you take acid, cold, fire, lightning, or poison damage, you can use your {@variantrule Reaction|XPHB} to give yourself {@variantrule Resistance|XPHB} to that instance of damage. You can use this {@variantrule Reaction|XPHB} a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 					]
 				}
 			]
@@ -5991,6 +6020,11 @@
 			"name": "Gift of the Gem Dragon",
 			"source": "FTD",
 			"page": 17,
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
 			"ability": [
 				{
 					"choose": {
@@ -6003,19 +6037,30 @@
 					}
 				}
 			],
-			"entries": [
-				"You've manifested some of the power of gem dragons, granting you the following benefits:",
+			"additionalSpells": [
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Telekinetic Reprisal",
-							"entries": [
-								"When you take damage from a creature that is within 10 feet of you, you can use your reaction to emanate telekinetic energy. The creature that dealt damage to you must make a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat). On a failed save, the creature takes {@damage 2d8} force damage and is pushed up to 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-							]
-						}
+					"ability": "inherit",
+					"known": {
+						"_": [
+							"mage hand|xphb#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You've manifested some of the power of gem dragons, granting you the following benefits.",
+				{
+					"type": "entries",
+					"name": "Crystaline Mage Hand",
+					"entries": [
+						"You learn the {@spell Mage Hand|XPHB} cantrip, if you don't already know it. The spells' spellcasting ability is the ability increased by this feat."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Telekinetic Reprisal",
+					"entries": [
+						"When you take damage from a creature that is within 10 feet of you, you can use your {@variantrule Reaction|XPHB} to emanate telekinetic energy. The creature that dealt damage to you must make a Strength saving throw ({@dc 8} + your {@variantrule Proficiency|XPHB|Proficiency Bonus} + the ability modifier of the score increased by this feat). On a failed save, the creature takes {@damage 2d8} force damage and is pushed up to 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. You can use this {@variantrule Reaction|XPHB} a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
 					]
 				}
 			]
@@ -6024,15 +6069,25 @@
 			"name": "Gift of the Metallic Dragon",
 			"source": "FTD",
 			"page": 17,
-			"additionalSpells": [
+			"prerequisite": [
 				{
-					"ability": {
-						"choose": [
+					"level": 4
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
 							"int",
 							"wis",
 							"cha"
 						]
-					},
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "inherit",
 					"innate": {
 						"_": {
 							"daily": {
@@ -6045,25 +6100,19 @@
 				}
 			],
 			"entries": [
-				"You've manifested some of the power of metallic dragons, granting you the following benefits:",
+				"You've manifested some of the power of metallic dragons, granting you the following benefits.",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Draconic Healing",
-							"entries": [
-								"You learn the {@spell cure wounds} spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a long rest. You can also cast this spell using spell slots you have. The spell's spellcasting ability is Intelligence, Wisdom, or Charisma when you cast it with this feat (choose when you gain the feat)."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Protective Wings",
-							"entries": [
-								"You can manifest protective wings that can shield you or others. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. You grant a bonus to the target's AC equal to your proficiency bonus against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-							]
-						}
+					"type": "entries",
+					"name": "Draconic Healing",
+					"entries": [
+						"You learn the {@spell cure wounds} spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a {@variantrule Long Rest}. You can also cast this spell using spell slots you have. The spells' spellcasting ability is the ability increased by this feat."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Protective Wings",
+					"entries": [
+						"You can manifest protective wings that can shield you or others. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your {@variantrule Reaction|XPHB} to manifest spectral wings from your back for a moment. You grant a bonus to the target's AC equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} against that attack roll, potentially causing it to miss. You can use this @variantrule Reaction|XPHB} a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest}."
 					]
 				}
 			]
@@ -12387,8 +12436,20 @@
 					]
 				}
 			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
 			"additionalSpells": [
 				{
+					"ability": "inherit",
 					"innate": {
 						"_": {
 							"daily": {
@@ -12414,90 +12475,84 @@
 				}
 			],
 			"entries": [
-				"You've studied the magic of Giant runes, granting you the following benefits:",
+				"You've studied the magic of Giant runes, granting you the following benefits.",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
+					"type": "entries",
+					"name": "Comprehend Languages",
+					"entries": [
+						"You learn the {@spell comprehend languages} spell. You can cast this spell without expending a spell slot, and you must finish a {@variantrule Long Rest} before you can cast it in this way again. You can also cast this spell using any spell slots you have."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rune Magic",
+					"entries": [
+						"You know a number of runes equal to half your proficiency bonus (rounded down), chosen from the Rune Spells table and its associated 1st-level spell. Whenever you finish a {@variantrule Long Rest}, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. The rune's spell lasts on the object until you finish a {@variantrule Long Rest}. ",
+						"You can also invoke a rune inscribed on an object you are wearing or carrying and cast its associated spell without expending a spell slot or using material components. Once you cast the spell in this way, you can't do so again until you finish a {@variantrule Long Rest}. The spells' spellcasting ability is the ability increased by this feat. You can also cast the rune's associated spell using any spell slots you have while are wearing or carrying any rune-marked object.",
+						"Each time you gain a level, you can replace one of the runes you know with another one from the Rune Spells table.",
 						{
-							"type": "item",
-							"name": "Comprehend Languages",
-							"entries": [
-								"You learn the {@spell comprehend languages} spell. You can cast this spell without expending a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using any spell slots you have."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Rune Magic",
-							"entries": [
-								"You know a number of runes equal to half your proficiency bonus (rounded down), chosen from the Rune Spells table. Whenever you finish a long rest, you can inscribe each rune you know onto one nonmagical weapon, armor, piece of clothing, or other object you touch. You temporarily learn the 1st-level spells that correspond to the runes you inscribed, as specified on the Rune Spells table, and you know those spells until you finish a long rest, when the runes fade. While you are wearing or carrying any rune-marked object, you can cast the spells associated with those runes using any spell slots you have.",
-								"You can also invoke a rune inscribed on an object you are wearing or carrying and cast its associated spell without expending a spell slot or using material components. Once you cast the spell in this way, you can't do so again until you finish a long rest. Your spellcasting ability for this feat is Intelligence, Wisdom, or Charisma (choose when you select this feat).",
-								"Each time you gain a level, you can replace one of the runes you know with another one from the Rune Spells table.",
-								{
-									"type": "table",
-									"colStyles": [
-										"col-2",
-										"col-10"
-									],
-									"colLabels": [
-										"Rune",
-										"Spell"
-									],
-									"rows": [
-										[
-											"Cloud",
-											"{@spell Fog cloud}"
-										],
-										[
-											"Death",
-											"{@spell Inflict wounds}"
-										],
-										[
-											"Dragon",
-											"{@spell Chromatic orb}"
-										],
-										[
-											"Enemy",
-											"{@spell Disguise self}"
-										],
-										[
-											"Fire",
-											"{@spell Burning hands}"
-										],
-										[
-											"Friend",
-											"{@spell Speak with animals}"
-										],
-										[
-											"Frost",
-											"{@spell Armor of Agathys}"
-										],
-										[
-											"Hill",
-											"{@spell Goodberry}"
-										],
-										[
-											"Journey",
-											"{@spell Longstrider}"
-										],
-										[
-											"King",
-											"{@spell Command}"
-										],
-										[
-											"Mountain",
-											"{@spell Entangle}"
-										],
-										[
-											"Stone",
-											"{@spell Sanctuary}"
-										],
-										[
-											"Storm",
-											"{@spell Thunderwave}"
-										]
-									]
-								}
+							"type": "table",
+							"colStyles": [
+								"col-2",
+								"col-10"
+							],
+							"colLabels": [
+								"Rune",
+								"Spell"
+							],
+							"rows": [
+								[
+									"Cloud",
+									"{@spell Fog cloud}"
+								],
+								[
+									"Death",
+									"{@spell Inflict wounds}"
+								],
+								[
+									"Dragon",
+									"{@spell Chromatic orb}"
+								],
+								[
+									"Enemy",
+									"{@spell Disguise self}"
+								],
+								[
+									"Fire",
+									"{@spell Burning hands}"
+								],
+								[
+									"Friend",
+									"{@spell Speak with animals}"
+								],
+								[
+									"Frost",
+									"{@spell Armor of Agathys}"
+								],
+								[
+									"Hill",
+									"{@spell Goodberry}"
+								],
+								[
+									"Journey",
+									"{@spell Longstrider}"
+								],
+								[
+									"King",
+									"{@spell Command}"
+								],
+								[
+									"Mountain",
+									"{@spell Entangle}"
+								],
+								[
+									"Stone",
+									"{@spell Sanctuary}"
+								],
+								[
+									"Storm",
+									"{@spell Thunderwave}"
+								]
 							]
 						}
 					]
