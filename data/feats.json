@@ -6466,16 +6466,24 @@
 				"You gain the following benefits.",
 				{
 					"type": "entries",
-					"name": "Heavy Weapon Mastery",
+					"name": "Hew",
 					"entries": [
-						"When you hit a creature with a weapon that has the {@itemProperty H|XPHB|Heavy} property as part of the {@action Attack|XPHB} action on your turn, you can cause the weapon to deal extra damage to the target. The extra damage equals your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+						"Immediately after you score a {@variantrule Critical Hit|XPHB} with a Melee weapon or reduce a creature to 0 {@variantrule Hit Points|XPHB} with one, you can make one attack with the same weapon as a {@variantrule Bonus Action|XPHB}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Hew",
+					"name": "Proficient Damage Dealer",
 					"entries": [
-						"Immediately after you score a {@variantrule Critical Hit|XPHB} with a Melee weapon or reduce a creature to 0 {@variantrule Hit Points|XPHB} with one, you can make one attack with the same weapon as a {@variantrule Bonus Action|XPHB}."
+						"You can add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to your damage rolls when you hit a target using a {@itemProperty H|XPHB|Heavy} weapon.",
+						{
+							"type": "list",
+							"style": "list-hang",
+							"name": "The Great Weapon Fighting Style",
+							"items": [
+								"If you have the {@feat Great Weapon Fighting|XPHB} Style, this benefit extends to {@itemProperty 2H|XPHB|Two-Handed} weapons and to {@itemProperty V|XPHB|Versatile} weapons."
+							]
+						}
 					]
 				}
 			]
