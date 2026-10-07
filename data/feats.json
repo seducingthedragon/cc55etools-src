@@ -278,7 +278,14 @@
 				}
 			],
 			"entries": [
-				"Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can't increase an ability score above 20.",
+				"Your overall abilities have improved. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "ASI",
+					"entries": [
+						"Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can't increase an ability score above 20."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Repeatable",
@@ -3927,6 +3934,21 @@
 			"source": "XPHB",
 			"page": 200,
 			"category": "O",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
 			"toolProficiencies": [
 				{
 					"choose": {
@@ -3948,16 +3970,16 @@
 				"You gain the following benefits.",
 				{
 					"type": "entries",
-					"name": "Tool Proficiency",
+					"name": "Discount",
 					"entries": [
-						"You gain proficiency with three different {@item Artisan's Tools|XPHB} of your choice from the Fast Crafting table."
+						"Whenever you buy a nonmagical item, you receive a 20 percent discount on it."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Discount",
+					"name": "Tool Proficiency",
 					"entries": [
-						"Whenever you buy a nonmagical item, you receive a 20 percent discount on it."
+						"You gain proficiency with three different {@item Artisan's Tools|XPHB} of your choice from the Fast Crafting table."
 					]
 				},
 				{
@@ -5083,8 +5105,7 @@
 			"category": "G",
 			"prerequisite": [
 				{
-					"level": 4,
-					"spellcasting2020": true
+					"level": 4
 				}
 			],
 			"ability": [
@@ -6427,7 +6448,7 @@
 					"type": "entries",
 					"name": "Damage Dealer",
 					"entries": [
-						"When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the {@itemProperty 2h|XPHB|Two-Handed} or {@itemProperty V|XPHB|Versatile} property to gain this benefit."
+						"When you roll damage for an attack you made with a Melee weapon, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the {@itemProperty 2h|XPHB|Two-Handed} or {@itemProperty V|XPHB|Versatile} property to gain this benefit."
 					]
 				}
 			]
@@ -11103,18 +11124,29 @@
 			"source": "XPHB",
 			"page": 201,
 			"category": "O",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
 			"toolProficiencies": [
 				{
 					"anyMusicalInstrument": 3
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You find a love for music and playing for others. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Instrument Training",
 					"entries": [
-						"You gain proficiency with three Musical Instruments of your choice."
+						"You gain proficiency with three {@filter Musical Instruments|items|type=instrument|category=|miscellaneous=mundane;!reprinted} of your choice."
 					]
 				},
 				{
@@ -12393,7 +12425,7 @@
 					"type": "entries",
 					"name": "Armor Class Bonus",
 					"entries": [
-						"While you are holding a {@item Double-Bladed Scimitar|XPHB} with two hands, you gain a +1 bonus to Armor Class."
+						"While you are wielding a {@item Double-Bladed Scimitar|XPHB}, you gain a +1 bonus to Armor Class."
 					]
 				},
 				{
@@ -12847,7 +12879,7 @@
 					"type": "entries",
 					"name": "Brutal Crit",
 					"entries": [
-						"Whenever you score a {@variantrule Critical Hit|XPHB} with a {@action Attack|XPHB|Melee Attack}, you roll the weapon's damage die three times instead of twice."
+						"Whenever you score a {@variantrule Critical Hit|XPHB} with a {@action Attack|XPHB|Melee Attack}, you roll the weapon's damage die three times instead of two."
 					]
 				}
 			]
