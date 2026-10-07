@@ -16033,9 +16033,9 @@
 				"You gain the following benefits.",
 				{
 					"type": "entries",
-					"name": "Concentration",
+					"name": "Concentration Adept",
 					"entries": [
-						"You have {@variantrule Advantage|XPHB} on Constitution saving throws that you make to maintain {@status Concentration|XPHB}."
+						"You have {@variantrule Advantage|XPHB} on Constitution saving throws that you make to maintain {@status Concentration|XPHB}. If you don't succeed, you can use your {@variantrule Reaction|XPHB} to add your Spellcasting Modifier to the highest roll in an attempt to maintain {@status Concentration|XPHB}."
 					]
 				},
 				{
