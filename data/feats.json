@@ -7959,7 +7959,8 @@
 							"investigation",
 							"nature",
 							"religion"
-						]
+						],
+						"count": 2
 					}
 				}
 			],
@@ -7967,9 +7968,9 @@
 				"You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits.",
 				{
 					"type": "entries",
-					"name": "Lore Knowledge",
+					"name": "Study Skills",
 					"entries": [
-						"Choose one of the following skills: {@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Investigation|XPHB}, {@skill Nature|XPHB}, or {@skill Religion|XPHB}. If you lack proficiency in the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain {@variantrule Expertise|XPHB} in it."
+						"Choose two of the following skills: {@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Investigation|XPHB}, {@skill Nature|XPHB}, or {@skill Religion|XPHB}. If you lack proficiency in the chosen skill, you gain {@variantrule Proficiency|XPHB} in it, and if you already have proficiency in it, you gain {@variantrule Expertise|XPHB} in it."
 					]
 				},
 				{
@@ -11396,8 +11397,10 @@
 						"from": [
 							"insight",
 							"investigation",
+							"medicine",
 							"perception"
-						]
+						],
+						"count": 2
 					}
 				}
 			],
@@ -11405,9 +11408,9 @@
 				"Quick to notice details of your environment, you gain the following benefits.",
 				{
 					"type": "entries",
-					"name": "Keen Observer",
+					"name": "Search Skills",
 					"entries": [
-						"Choose one of the following skills: {@skill Insight|XPHB}, {@skill Investigation|XPHB}, or {@skill Perception|XPHB}. If you lack proficiency with the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain {@variantrule Expertise|XPHB} in it."
+						"Choose two of the following skills: {@skill Insight|XPHB}, {@skill Investigation|XPHB}, {@skill Medicine|XPHB}, or {@skill Perception|XPHB}. If you lack proficiency with the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain {@variantrule Expertise|XPHB} in it."
 					]
 				},
 				{
@@ -13808,16 +13811,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Fog of War",
+					"name": "Hidden",
 					"entries": [
-						"You exploit the distractions of battle, gaining {@variantrule Advantage|XPHB} on any Dexterity ({@skill Stealth|XPHB}) check you make as part of the {@action Hide|XPHB} action during combat."
+						"You can take the {@action Hide|XPHB} action as a {@variantrule Bonus Action|XPHB}. While you are in {@variantrule Dim Light|XPHB}, {@variantrule Darkness|XPHB}, or any {@variantrule Lightly Obscured|XPHB|Lightly} or {@variantrule Heavily Obscured|XPHB} environment, you have {@variantrule Advantage|XPHB} on the check made to {@action Hide|XPHB}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Sniper",
 					"entries": [
-						"If you make an attack roll while hidden and the roll misses, making the attack roll doesn't reveal your location."
+						"If you make an attack roll while {@condition Hidden|XPHB} and the roll misses, you maintain the {@condition Hidden|XPHB} condition as your location is not revealed."
 					]
 				}
 			]
