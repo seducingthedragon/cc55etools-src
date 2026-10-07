@@ -7841,7 +7841,7 @@
 					"type": "entries",
 					"name": "Bolstering Performance",
 					"entries": [
-						"When you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, you can give an inspiring performance: a speech, song, or dance. When you do so, choose up to six allies (which can include yourself) within 30 feet of yourself who witness the performance. The chosen creatures each gain {@variantrule Temporary Hit Points|XPHB} equal to your character level plus the modifier of the ability you increased with this feat."
+						"When you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, you can give an inspiring performance: a speech, song, or dance. When you do so, choose up to six allies (which can include yourself) within 30 feet of yourself who witness the performance. The chosen creatures each gain {@variantrule Temporary Hit Points|XPHB} equal to your character level plus the modifier of the ability you increased with this feat. These {@variantrule Temporary Hit Points|XPHB} last until their next {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} if it had not been used."
 					]
 				}
 			]
