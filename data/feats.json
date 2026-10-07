@@ -4077,10 +4077,14 @@
 						"Being within 5 feet of an enemy doesn't impose {@variantrule Disadvantage|XPHB} on your attack rolls with crossbows.",
 						{
 							"type": "list",
-							"style": "list-hang",
-							"name": "The Melee Marksman Fighting Style",
+							"style": "list-hang-notitle",
 							"items": [
-								"If you have the {@feat Melee Marksman|XPHB} Fighting Style, you can make this attack with {@variantrule Advantage|XPHB} once per turn."
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "With the {@feat Melee Marksman|XPHB} Fighting Style,",
+									"entry": "you have {@variantrule Advantage|XPHB} on the attack roll when targeting an enemy within 5 feet of you with a crossbow once per turn."
+								}	
 							]
 						}
 					]
@@ -4266,10 +4270,14 @@
 						"If you're holding a {@itemProperty F|XPHB|Finesse} weapon and another creature hits you with a melee attack, you can take a {@variantrule Reaction|XPHB} to add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to your {@variantrule Armor Class|XPHB}, potentially causing the attack to miss you. You gain this bonus to your AC against melee attacks until the start of your next turn.",
 						{
 							"type": "list",
-							"style": "list-hang",
-							"name": "The Duelist Fighting Style",
+							"style": "list-hang-notitle",
 							"items": [
-								"If you have the {@feat Duelist|XPHB} Fighting Style and this {@variantrule Reaction|XPHB} causes the attack to miss, you can make a single attack with the {@itemProperty F|XPHB|Finesse} weapon, targeting your attacker, as part of the same {@variantrule Reaction|XPHB}."
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "With the {@feat Duelist|XPHB} Fighting Style,",
+									"entry": "if your {@variantrule Reaction|XPHB|Parry Reaction} causes the attack to miss, you can make a single attack with the {@itemProperty F|XPHB|Finesse} weapon, targeting your attacker, as part of the same {@variantrule Reaction|XPHB}."
+								}	
 							]
 						}
 					]
@@ -6478,10 +6486,14 @@
 						"You can add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to your damage rolls when you hit a target using a {@itemProperty H|XPHB|Heavy} weapon.",
 						{
 							"type": "list",
-							"style": "list-hang",
-							"name": "The Great Weapon Fighting Style",
+							"style": "list-hang-notitle",
 							"items": [
-								"If you have the {@feat Great Weapon Fighting|XPHB} Style, this benefit extends to {@itemProperty 2H|XPHB|Two-Handed} weapons and to {@itemProperty V|XPHB|Versatile} weapons."
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "With the {@feat Great Weapon Fighting|XPHB|Great Weapon} Fighting Style,",
+									"entry": "this benefit extends to {@itemProperty 2H|XPHB|Two-Handed} weapons and to {@itemProperty V|XPHB|Versatile} weapons."
+								}	
 							]
 						}
 					]
@@ -7156,10 +7168,14 @@
 						"Being within 5 feet of a hostile creature doesn't impose {@variantrule Disadvantage|XPHB} on your ranged attack rolls.",
 						{
 							"type": "list",
-							"style": "list-hang",
-							"name": "The Melee Marksman Fighting Style",
+							"style": "list-hang-notitle",
 							"items": [
-								"If you have the {@feat Melee Marksman|XPHB} Fighting Style, you can make this attack with {@variantrule Advantage|XPHB} once per turn."
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "With the {@feat Melee Marksman|XPHB} Fighting Style,",
+									"entry": "you have {@variantrule Advantage|XPHB} on the attack roll when targeting an enemy within 5 feet of you with a firearm once per turn."
+								}	
 							]
 						}
 					]
@@ -10714,7 +10730,12 @@
 			"category": "G",
 			"prerequisite": [
 				{
-					"level": 4
+					"level": 4,
+					"proficiency": [
+						{
+							"weaponGroup": "simple"
+						}
+					]
 				}
 			],
 			"ability": [
@@ -10733,7 +10754,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You have taken the time to train with weapons suited for those with martial capabilities. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Weapon Proficiency",
@@ -12631,12 +12652,13 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You have learned a number of spells that you can cast as rituals. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Ritual Spells",
 					"entries": [
-						"Choose a number of level 1 spells equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} that have the {@filter Ritual tag|spells|level=1|components & miscellaneous=ritual}. You always have those spells prepared, and you can cast them with any spell slots you have. The spells' spellcasting ability is the ability increased by this feat. Whenever your {@variantrule Proficiency|XPHB|Proficiency Bonus} increases thereafter, you can add an additional level 1 spell with the {@variantrule Ritual|XPHB} tag to the spells always prepared with this feature."
+						"Choose a number of level 1 spells equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} that have the {@filter Ritual tag|spells|level=1|components & miscellaneous=ritual}. You always have those spells prepared, and you can cast them with any spell slots you have. The spells' spellcasting ability is the ability increased by this feat. Whenever your {@variantrule Proficiency|XPHB|Proficiency Bonus} increases thereafter, you can add an additional level 1 spell with the {@variantrule Ritual|XPHB} tag to the spells always prepared with this feature.",
+						"{@b If you have a {@u Spellcasting} or {@u Pact Magic} feature}, you can cast any of your prepared spells that have the {@filter Ritual tag|spells|components & miscellaneous=ritual;!reprinted} as a {@variantrule Ritual|XPHB}."
 					]
 				},
 				{
@@ -12807,8 +12829,27 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"category": "O",
+			"ability": [
+				{
+					"str": 1
+				}
+			],
 			"entries": [
-				"You've trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target."
+				"You've trained to deal particularly damaging strikes. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Damage Options",
+					"entries": [
+						"Once per turn when you hit a target with a {@action Attack|XPHB|Melee Attack}, you can roll the attack's damage dice twice and use either roll against the target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Brutal Crit",
+					"entries": [
+						"Whenever you score a {@variantrule Critical Hit|XPHB} with a {@action Attack|XPHB|Melee Attack}, you roll the weapon's damage die three times instead of twice."
+					]
+				}
 			]
 		},
 		{
@@ -13369,12 +13410,12 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You have mastered ranged weapons and can make shots that others find impossible. You gain the following benefits.",
 				{
 					"type": "entries",
-					"name": "Bypass Cover",
+					"name": "Long Shots",
 					"entries": [
-						"Your ranged attacks with weapons ignore {@variantrule Cover|XPHB|Half Cover} and {@variantrule Cover|XPHB|Three-Quarters Cover}."
+						"Attacking at long range doesn't impose {@variantrule Disadvantage|XPHB} on your attack rolls with Ranged weapons."
 					]
 				},
 				{
@@ -13386,9 +13427,21 @@
 				},
 				{
 					"type": "entries",
-					"name": "Long Shots",
+					"name": "Bypass Cover",
 					"entries": [
-						"Attacking at long range doesn't impose {@variantrule Disadvantage|XPHB} on your attack rolls with Ranged weapons."
+						"Your attacks with Ranged weapons ignore {@variantrule Cover|XPHB|Half Cover} and {@variantrule Cover|XPHB|Three-Quarters Cover}.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "With the {@feat Archery|XPHB} Fighting Style,",
+									"entry": "when you hit a target who has {@variantrule Cover|XPHB|Half} or {@variantrule Cover|XPHB|Three-Quarters Cover}, you gain a bonus to the damage roll equal to half your {@variantrule Proficiency|XPHB|Proficiency Bonus} (round up)."
+								}	
+							]
+						}
 					]
 				}
 			]
@@ -13446,6 +13499,42 @@
 					"name": "Interpose Shield",
 					"entries": [
 						"If you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can take a {@variantrule Reaction|XPHB} to take no damage if you succeed on the saving throw and are holding a {@item Shield|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Simple Weapon Training",
+			"source": "XPHB",
+			"page": 207,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						]
+					}
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"simple": true
+				}
+			],
+			"entries": [
+				"You have taken the time to expand your skillset with a wider range of common weapons. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Weapon Proficiency",
+					"entries": [
+						"You gain proficiency with all {@filter Simple weapons|items|type=simple weapon}."
 					]
 				}
 			]
@@ -14080,19 +14169,19 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You have learned techniques to enhance your attacks with ranged spells. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Bypass Cover",
 					"entries": [
-						"Your attack rolls for spells ignore {@variantrule Cover|XPHB|Half Cover} and {@variantrule Cover|XPHB|Three-Quarters Cover}."
+						"Your attack rolls for ranged spells ignore {@variantrule Cover|XPHB|Half Cover} and {@variantrule Cover|XPHB|Three-Quarters Cover}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Casting in Melee",
 					"entries": [
-						"Being within 5 feet of an enemy doesn't impose {@variantrule Disadvantage|XPHB} on your attack rolls with spells."
+						"Being within 5 feet of an enemy doesn't impose {@variantrule Disadvantage|XPHB} on your ranged spell attacks."
 					]
 				},
 				{
@@ -15317,27 +15406,24 @@
 			"source": "XPHB",
 			"page": 202,
 			"category": "O",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con"
+						],
+						"amount": 1
+					}
+				}
+			],
 			"weaponProficiencies": [
 				{
 					"improvised": true
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
-				{
-					"type": "entries",
-					"name": "Enhanced Unarmed Strike",
-					"entries": [
-						"When you hit with your {@variantrule Unarmed Attack|XPHB} and deal damage, you can deal Bludgeoning damage equal to {@damage 1d4} plus your Strength modifier instead of the normal damage of an {@variantrule Unarmed Attack|XPHB}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Damage Rerolls",
-					"entries": [
-						"Whenever you roll a damage die for your {@variantrule Unarmed Attack|XPHB}, you can reroll the die if it rolls a 1, and you must use the new roll."
-					]
-				},
+				"You are accustomed to the rough-and-tumble fighting, using whatever weapons happen to be at hand. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Improvised Weaponry",
@@ -15347,9 +15433,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Push",
+					"name": "Enhanced Strike: Attacks and Damage",
 					"entries": [
-						"When you hit a creature with an {@variantrule Unarmed Attack|XPHB} as part of the {@action Attack|XPHB} action on your turn, you can deal damage to the target and also push it 5 feet away from you. You can use this benefit only once per turn."
+						"When you hit with your {@action Attack|XPHB|Unarmed Strike Attack}, you can deal Bludgeoning damage equal to {@damage 1d4} plus your Strength modifier instead of its normal damage. Additionally, whenever you roll a damage die for your {@action Attack|XPHB|Unarmed Strike Attack}, you can reroll the die if it rolls a 1, and you must use the new roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Punch and Push",
+					"entries": [
+						"When you hit a creature with an {@variantrule Unarmed Attack|XPHB} as part of the {@action Attack|XPHB} action on your turn, you can use the {@variantrule Unarmed Attack|XPHB|Strike Attack} and {@variantrule Unarmed Attack|XPHB|Shove} effects on the same {@action Attack|XPHB}. You can use this benefit only once per turn."
 					]
 				}
 			]
@@ -16238,7 +16331,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You have practiced extensively with certain weapons, learning how to wield it in a way that others can’t. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Mastery Property",

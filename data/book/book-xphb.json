@@ -7710,6 +7710,10 @@
 															"{@area General|526|x}"
 														],
 														[
+															"{@feat Simple Weapon Training|XPHB}",
+															"{@area General|526|x}"
+														],
+														[
 															"{@feat Skilled|XPHB}*",
 															"{@area Origin|4fe|x}"
 														],
@@ -7907,6 +7911,7 @@
 								"{@feat Shadow-Touched|XPHB}",
 								"{@feat Sharpshooter|XPHB}",
 								"{@feat Shield Master|XPHB}",
+								"{@feat Simple Weapon Training|XPHB}",
 								"{@feat Skill Expert|XPHB}",
 								"{@feat Skulker|XPHB}",
 								"{@feat Slasher|XPHB}",
@@ -8149,6 +8154,12 @@
 						{
 							"type": "statblock",
 							"name": "Shield Master",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Simple Weapon Training",
 							"tag": "feat",
 							"source": "XPHB"
 						},
