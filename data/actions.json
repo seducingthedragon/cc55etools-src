@@ -93,7 +93,7 @@
 							"type": "entries",
 							"name": "Unarmed Strike Attack",
 							"entries": [
-								"When you make an {@variantrule Unarmed Attack|XPHB|Unarmed Strike Attack}, you target one creature within reach, adding your Strength Modifier plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} to the attack roll. On a hit, the target takes Bludgeoning damage equal to {@damage 1d4} plus your Strength modifier."
+								"When you make an {@variantrule Unarmed Attack|XPHB|Unarmed Strike Attack}, you target one creature within reach, adding your Strength Modifier plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} to the attack roll. On a hit, the target takes Bludgeoning damage equal to 1 plus your Strength modifier."
 							]
 						},
 						{

@@ -15857,7 +15857,7 @@
 							"type": "entries",
 							"name": "Strike Attack",
 							"entries": [
-								"You make an {@action Attack|XPHB|Unarmed Strike Attack} against the target. Your bonus to the roll equals your Strength modifier plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}. On a hit, the target takes Bludgeoning damage equal to {@damage 1d4} plus your Strength modifier."
+								"You make an {@action Attack|XPHB|Unarmed Strike Attack} against the target. Your bonus to the roll equals your Strength modifier plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}. On a hit, the target takes Bludgeoning damage equal to 1 plus your Strength modifier."
 							]
 						},
 						{
