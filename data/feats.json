@@ -3489,7 +3489,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You are adept at using brute speed to aid you in fights. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Improved Dash",
@@ -4055,7 +4055,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"Using crossbows have become second nature to you, as if the weapon itself is just another limb. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Ignore Loading",
@@ -4258,7 +4258,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You shine in a duel and have learned how to protect yourself in a one-on-one. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Parry",
@@ -4837,7 +4837,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You are a master at fighting while wielding two-weapons. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Enhanced Dual Wielding",
@@ -4939,7 +4939,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You are hardy and resilient. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Defy Death",
@@ -6375,7 +6375,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You are adept at keeping your target held. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Punch and Grab",
@@ -6463,7 +6463,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You've learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Hew",
@@ -7276,7 +7276,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Battle Medic",
@@ -7836,7 +7836,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"Your ability to get your allies to rally around a common goal is awe inspiring. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Bolstering Performance",
@@ -7927,7 +7927,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Lore Knowledge",
@@ -8552,7 +8552,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You have inexplicable luck that seems to kick in at just the right moment. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Luck Points",
@@ -8616,7 +8616,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You have practiced techniques useful in melee combat against spellcasters. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Concentration Breaker",
@@ -11053,7 +11053,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You are a dangerous foe to face while {@book mounted|XPHB|1|Mounted Combat}. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Mounted Strike",
@@ -11349,7 +11349,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"Quick to notice details of your environment, you gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Keen Observer",
@@ -11720,16 +11720,24 @@
 				"You gain the following benefits.",
 				{
 					"type": "entries",
-					"name": "Potent Poison",
+					"name": "Tool Proficiency",
 					"entries": [
-						"When you make a damage roll that deals Poison damage, it ignores {@variantrule Resistance|XPHB} to Poison damage."
+						"You gain proficiency with the {@item Poisoner's Kit|XPHB}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Brew Poison",
+					"name": "Potent Poison",
 					"entries": [
-						"You gain proficiency with the {@item Poisoner's Kit|XPHB}. With 1 hour of work using such a kit and expending 50 GP worth of materials, you can create a number of poison doses equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. As a {@variantrule Bonus Action|XPHB}, you can apply a poison dose to a weapon or piece of ammunition. Once applied, the poison retains its potency for 1 minute or until you deal damage with the poisoned item, whichever is shorter. When a creature takes damage from the poisoned item, that creature must succeed on a Constitution saving throw ({@dc 8} plus the modifier of the ability increased by this feat and your {@variantrule Proficiency|XPHB|Proficiency Bonus}) or take {@damage 2d8} Poison damage and have the {@condition Poisoned|XPHB} condition until the end of your next turn."
+						"When you deal Poison damage, it ignores Poison damage {@variantrule Resistance|XPHB}"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Brew Poison and Application",
+					"entries": [
+						"With 1 hour of work using such a kit and expending 50 GP worth of materials, you can create a number of poison doses equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
+						"As a {@variantrule Bonus Action|XPHB}, you can apply a poison dose to a weapon or piece of ammunition. Once applied, the poison retains its potency for 1 minute or until you deal damage with the poisoned item, whichever is shorter. When a creature takes damage from the poisoned item, that creature must succeed on a Constitution saving throw ({@dc 8} plus the modifier of the ability increased by this feat and your {@variantrule Proficiency|XPHB|Proficiency Bonus}) or take {@damage 2d8} Poison damage and have the {@condition Poisoned|XPHB} condition until the end of your next turn."
 					]
 				}
 			],
@@ -11787,7 +11795,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You can keep your enemies at bay with reach weapons. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Pole Strike",
@@ -13669,7 +13677,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You are expert at slinking through shadows. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Blindsight",
@@ -13876,7 +13884,7 @@
 				"Speed"
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You are exceptionally speedy and agile. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Speed Increase",
@@ -16030,7 +16038,7 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"You have practiced casting spells in the midst of combat. You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Concentration Adept",
