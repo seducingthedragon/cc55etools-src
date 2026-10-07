@@ -8536,6 +8536,21 @@
 			"source": "XPHB",
 			"page": 201,
 			"category": "O",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
 			"entries": [
 				"You gain the following benefits.",
 				{
