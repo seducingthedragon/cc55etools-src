@@ -729,6 +729,61 @@
 			]
 		},
 		{
+			"name": "Arcane Alliance",
+			"source": "XPHB",
+			"page": 202,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"spellcasting2020": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "inherit",
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
+									"identify|xphb"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				"Your ties to the arcane magic of the world is stronger than most. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Increased Attunement",
+					"entries": [
+						"You can attune to a max of four items at once, instead of three."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Identify",
+					"entries": [
+						"You know the {@spell Identify|XPHB} spell and can cast it once per {@variantrule Long Rest|XPHB} without expending a spell slot or material components. The spell's spellcasting ability is the ability increased by this feat."
+					]
+				}
+			]
+		},
+		{
 			"name": "Arcane Artist",
 			"source": "AU",
 			"page": 26,

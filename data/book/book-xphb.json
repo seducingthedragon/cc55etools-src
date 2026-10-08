@@ -7446,6 +7446,10 @@
 															"{@area Origin|4fe|x}"
 														],
 														[
+															"{@feat Arcane Alliance|XPHB}*",
+															"{@area General|526|x}"
+														],
+														[
 															"{@feat Archery|XPHB}",
 															"{@area Fighting Style|5fa|x}"
 														],
@@ -7882,6 +7886,7 @@
 							"items": [
 								"{@feat Ability Score Improvement|XPHB}",
 								"{@feat Actor|XPHB}",
+								"{@feat Arcane Alliance|XPHB}",
 								"{@feat Athlete|XPHB}",
 								"{@feat Cartomancer|XPHB}",
 								"{@feat Charger|XPHB}",
@@ -7942,6 +7947,12 @@
 						{
 							"type": "statblock",
 							"name": "Actor",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Arcane Alliance",
 							"tag": "feat",
 							"source": "XPHB"
 						},
