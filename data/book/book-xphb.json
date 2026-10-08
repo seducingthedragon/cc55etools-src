@@ -7542,16 +7542,16 @@
 															"{@area General|526|x}"
 														],
 														[
-															"{@feat Dual Wield Fighting|XPHB}",
+															"{@feat Dual Wielding|XPHB}",
 															"{@area Fighting Style|5fa|x}"
-														],
-														[
-															"{@feat Dual Wielder|XPHB}",
-															"{@area General|526|x}"
 														],
 														[
 															"{@feat Duelist|XPHB}",
 															"{@area Fighting Style|5fa|x}"
+														],
+														[
+															"{@feat Dungeon Delver|XPHB}",
+															"{@area General|526|x}"
 														],
 														[
 															"{@feat Durable|XPHB}",
@@ -7644,6 +7644,10 @@
 														[
 															"{@feat Melee Marker|XPHB}",
 															"{@area Fighting Style|5fa|x}"
+														],
+														[
+															"{@feat Metamagic Adept|XPHB}",
+															"{@area General|526|x}"
 														],
 														[
 															"{@feat Moderately Armored|XPHB}",
@@ -7752,6 +7756,10 @@
 														[
 															"{@feat Tough|XPHB}",
 															"{@area Origin|4fe|x}"
+														],
+														[
+															"{@feat Two-Weapon Trained|XPHB}",
+															"{@area General|526|x}"
 														],
 														[
 															"{@feat War Caster|XPHB}",
@@ -7881,7 +7889,7 @@
 								"{@feat Crossbow Expert|XPHB}",
 								"{@feat Crusher|XPHB}",
 								"{@feat Defensive Duelist|XPHB}",
-								"{@feat Dual Wielder|XPHB}",
+								"{@feat Dungeon Delver|XPHB}",
 								"{@feat Durable|XPHB}",
 								"{@feat Eldritch Adept|XPHB}",
 								"{@feat Elemental Adept|XPHB}",
@@ -7898,6 +7906,7 @@
 								"{@feat Mage Slayer|XPHB}",
 								"{@feat Martial Weapon Training|XPHB}",
 								"{@feat Medium Armor Master|XPHB}",
+								"{@feat Metamagic Adept|XPHB}",
 								"{@feat Moderately Armored|XPHB}",
 								"{@feat Mounted Combatant|XPHB}",
 								"{@feat Observant|XPHB}",
@@ -7919,6 +7928,7 @@
 								"{@feat Spell Sniper|XPHB}",
 								"{@feat Telekinetic|XPHB}",
 								"{@feat Telepathic|XPHB}",
+								"{@feat Two-Weapon Trained|XPHB}",
 								"{@feat War Caster|XPHB}",
 								"{@feat Weapon Master|XPHB}"
 							]
@@ -7979,7 +7989,7 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Dual Wielder",
+							"name": "Dungeon Delver",
 							"tag": "feat",
 							"source": "XPHB"
 						},
@@ -8076,6 +8086,12 @@
 						{
 							"type": "statblock",
 							"name": "Medium Armor Master",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Metamagic Adept",
 							"tag": "feat",
 							"source": "XPHB"
 						},
@@ -8207,6 +8223,12 @@
 						},
 						{
 							"type": "statblock",
+							"name": "Two-Weapon Trained",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
 							"name": "War Caster",
 							"tag": "feat",
 							"source": "XPHB"
@@ -8235,7 +8257,7 @@
 								"{@feat Blindsighted Fighting|XPHB}",
 								"{@feat Brawling|XPHB}",
 								"{@feat Defense|XPHB}",
-								"{@feat Dual Wield Fighting|XPHB}",
+								"{@feat Dual Wielding|XPHB}",
 								"{@feat Duelist|XPHB}",
 								"{@feat Great Weapon Fighting|XPHB}",
 								"{@feat Hurler|XPHB}",
@@ -8264,19 +8286,13 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Dual Wield Fighting",
-							"tag": "feat",
-							"source": "XPHB"
-						},
-						{
-							"type": "statblock",
 							"name": "Defense",
 							"tag": "feat",
 							"source": "XPHB"
 						},
 						{
 							"type": "statblock",
-							"name": "Dual Wield Fighting",
+							"name": "Dual Wielding",
 							"tag": "feat",
 							"source": "XPHB"
 						},

@@ -3508,7 +3508,7 @@
 					"type": "entries",
 					"name": "Charge Attack",
 					"entries": [
-						"If you move at least 10 feet in a straight line toward a target immediately before hitting it with a melee attack roll as part of the {@action Attack|XPHB} action, choose one of the following effects: gain a {@dice 1d8} bonus to the attack's damage roll, or push the target up to 10 feet away if it is no more than one size larger than you. You can use this benefit only once on each of your turns."
+						"When you take the {@action Dash|XPHB} action, you can make one {@action Attack|XPHB|Melee attack roll} as part of the {@action Dash|XPHB} as long as you move at least 10 feet in a straight line towards a target. On a hit, you choose one of the following effects: gain a {@dice 1d8} bonus to the attack's damage roll, or push the target up to 10 feet away if it is no more than one size larger than you. You can use this benefit only once on each of your turns."
 					]
 				}
 			]
@@ -4782,7 +4782,7 @@
 			]
 		},
 		{
-			"name": "Dual Wield Fighting",
+			"name": "Dual Wielding",
 			"source": "XPHB",
 			"page": 209,
 			"srd52": true,
@@ -4806,9 +4806,10 @@
 				},
 				{
 					"type": "entries",
-					"name": "Quick Hits",
+					"name": "Quick Hits and Draw",
 					"entries": [
-						"The {@action Two-Weapon Fighting|XPHB} Extra Attack can be done as part of your {@action Attack|XPHB|Attack Action} instead of your {@variantrule Bonus Action|XPHB}, as long as you are not utilizing a weapon's {@itemProperty T|XPHB|Thrown} property. Additionally, you gain this benefit once per turn, regardless of how many attacks you can take on a single {@variantrule Action|XPHB}."
+						"The {@action Two-Weapon Fighting|XPHB} Extra Attack can be done as part of your {@action Attack|XPHB|Attack Action} instead of your {@variantrule Bonus Action|XPHB}, as long as you are not utilizing a weapon's {@itemProperty T|XPHB|Thrown} property. You gain this benefit once per turn, regardless of how many attacks you can take on a single {@variantrule Action|XPHB}.",
+						"Additionally, you can draw or stow two {@itemProperty L|XPHB|Light} weapons on your turn."
 					]
 				}
 			],
@@ -4819,7 +4820,7 @@
 			"source": "PHB",
 			"page": 165,
 			"reprintedAs": [
-				"Dual Wielder|XPHB"
+				"Two-Weapon Trained|XPHB"
 			],
 			"entries": [
 				"You master fighting with two weapons, gaining the following benefits:",
@@ -4829,57 +4830,6 @@
 						"You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.",
 						"You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.",
 						"You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one."
-					]
-				}
-			]
-		},
-		{
-			"name": "Dual Wielder",
-			"source": "XPHB",
-			"page": 203,
-			"category": "G",
-			"prerequisite": [
-				{
-					"level": 4,
-					"ability": [
-						{
-							"str": 13
-						}
-					]
-				},
-				{
-					"level": 4,
-					"ability": [
-						{
-							"dex": 13
-						}
-					]
-				}
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex"
-						]
-					}
-				}
-			],
-			"entries": [
-				"You are a master at fighting while wielding two-weapons. You gain the following benefits.",
-				{
-					"type": "entries",
-					"name": "Enhanced Dual Wielding",
-					"entries": [
-						"When you take the {@action Attack|XPHB} action on your turn and attack with a weapon that has the {@itemProperty L|XPHB|Light} property, you can make one extra attack as a {@variantrule Bonus Action|XPHB} later on the same turn with a different weapon, which must be a Melee weapon that lacks the {@itemProperty 2H|XPHB|Two-Handed} property. You don't add your ability modifier to the extra attack's damage unless that modifier is negative."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Quick Draw",
-					"entries": [
-						"You can draw or stow two weapons that lack the {@itemProperty 2H|XPHB|Two-Handed} property when you would normally be able to draw or stow only one."
 					]
 				}
 			]
@@ -4918,6 +4868,9 @@
 			"name": "Dungeon Delver",
 			"source": "PHB",
 			"page": 166,
+			"reprintedAs": [
+				"Dungeon Delver|XPHB"
+			],
 			"entries": [
 				"Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:",
 				{
@@ -4927,6 +4880,57 @@
 						"You have advantage on saving throws made to avoid or resist traps.",
 						"You have resistance to the damage dealt by traps.",
 						"Traveling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom ({@skill Perception}) score."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dungeon Delver",
+			"source": "XPHB",
+			"page": 203,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"thieves' tools": true
+				}
+			],
+			"entries": [
+				"You are alert to the hidden traps and secret doors found in many dungeons. You gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Searching",
+					"entries": [
+						"You have {@variantrule Advantage|XPHB} on skill checks when you take the {@action Search|XPHB} action to detect the presence of traps and secret doors."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Protection from Traps",
+					"entries": [
+						"You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} made to avoid or resist traps. You also have {@variantrule Resistance|XPHB} to damage dealt by traps."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tool Proficiency",
+					"entries": [
+						"You gain proficiency with {@item Thieves' Tools|XPHB} if you don't already have it."
 					]
 				}
 			]
@@ -6407,13 +6411,6 @@
 				"You are adept at keeping your target held. You gain the following benefits.",
 				{
 					"type": "entries",
-					"name": "Punch and Grab",
-					"entries": [
-						"When you hit a creature with an {@variantrule Unarmed Attack|XPHB} as part of the {@action Attack|XPHB} action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn."
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Attack Advantage",
 					"entries": [
 						"You have {@variantrule Advantage|XPHB} on attack rolls against a creature {@condition Grappled|XPHB} by you."
@@ -6424,6 +6421,25 @@
 					"name": "Fast Wrestler",
 					"entries": [
 						"You don't have to spend extra movement to move a creature {@condition Grappled|XPHB} by you if the creature is your size or smaller."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Punch and Grab",
+					"entries": [
+						"When you hit a creature with an {@variantrule Unarmed Attack|XPHB} as part of the {@action Attack|XPHB} action on your turn, you can use both the {@variantrule Unarmed Attack|XPHB|Strike Attack and Grapple} options. You can use this benefit only once per turn.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "With the {@feat Brawling|XPHB|} Fighting Style,",
+									"entry": "you can use your {@variantrule Bonus Action|XPHB} to make one attack roll against your {@condition Grappled|XPHB} target when you use the above {@i Punch and Grab} benefit on a turn."
+								}	
+							]
+						}
 					]
 				}
 			]
@@ -10885,6 +10901,9 @@
 			"name": "Metamagic Adept",
 			"source": "TCE",
 			"page": 80,
+			"reprintedAs": [
+				"Metamagic Adept|XPHB"
+			],
 			"prerequisite": [
 				{
 					"spellcasting2020": true
@@ -10908,6 +10927,69 @@
 					"items": [
 						"You learn two {@filter Metamagic|optionalfeatures|Feature Type=MM} options of your choice from the sorcerer class. You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise. Whenever you reach a level that grants the Ability Score Improvement feature, you can replace one of these Metamagic options with another one from the sorcerer class.",
 						"You gain 2 sorcery points to spend on Metamagic (these points are added to any sorcery points you have from another source but can be used only on Metamagic). You regain all spent sorcery points when you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Metamagic Adept",
+			"source": "XPHB",
+			"page": 205,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"spellcasting2020": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "inherit",
+					"known": {
+						"_": [
+							"sorcerous burst|xphb#c"
+						]
+					}
+				}
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Metamagic",
+					"featureType": [
+						"MM|XPHB"
+					],
+					"progression": {
+						"*": 1
+					}
+				}
+			],
+			"entries": [
+				"You've learned how to exert your will on your spells to alter how they function. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "A Burst of Sorcery",
+					"entries": [
+						"You learn the {@spell Sorcerous Burst|XPHB} cantrip from the Sorcerer class. The spell's spellcasting ability is the ability increased by this feat."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Metamagic",
+					"entries": [
+						"You learn one {@filter Metamagic|optionalfeatures|feature type=mm} option of your choice from the Sorcerer class. You can use it on a spell once per {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. If you choose to use it again before either rest, you must expend a spell slot to do so or spend the necessary Sorcery Points, if you any available.",
+						"Whenever you gain a level, you can replace the selected Metamagic option with another one from the Sorcerer class."
 					]
 				}
 			]
@@ -15930,6 +16012,69 @@
 					"name": "Inevitable Betrayal",
 					"entries": [
 						"You have {@variantrule Advantage|XPHB} on attack rolls against creatures with the {@condition Charmed|XPHB} condition."
+					]
+				}
+			]
+		},
+		{
+			"name": "Two-Weapon Trained",
+			"source": "XPHB",
+			"page": 209,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"str": 13
+						}
+					]
+				},
+				{
+					"level": 4,
+					"ability": [
+						{
+							"dex": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You are a master at fighting while wielding two-weapons. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Quick Draw",
+					"entries": [
+						"You can draw or stow two weapons that lack the {@itemProperty 2H|XPHB|Two-Handed} property when you would normally be able to draw or stow only one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Enhanced Two-Weapon Fighting",
+					"entries": [
+						"When you engage in {@action Two-Weapon Fighting|XPHB}, you can do so while wielding one melee weapon that lacks the {@itemProperty 2H|XPHB|Two-Handed} and {@itemProperty H|XPHB|Heavy} property, and one {@itemProperty L|XPHB|Light Weapon}. You choose which weapon is in your main-hand for the {@action Attack|XPHB} and which weapon is in your off-hand for the {@variantrule Bonus Action|XPHB} attack. You don't add your ability modifier to the extra attack's damage unless that modifier is negative.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "With the {@feat Dual Wielding|XPHB|} Fighting Style,",
+									"entry": "you can add your modifier to the damage of the extra attack per the guidelines of your fighting style. Additionally, you gain a +1 bonus to your AC when you wield two weapons."
+								}	
+							]
+						}
 					]
 				}
 			]

@@ -895,7 +895,8 @@
         "crossbow%20expert_phb": "crossbow%20expert_xphb",
         "crusher_tce": "crusher_xphb",
         "defensive%20duelist_phb": "defensive%20duelist_xphb",
-        "dual%20wielder_phb": "dual%20wielder_xphb",
+        "dual%20wielder_phb": "two-weapon%20trained_xphb",
+        "dungeon%20delver_phb": "dungeon%20delver_xphb",
         "durable_phb": "durable_xphb",
         "eldritch%20adept_tce": "eldritch%20adept_xphb",
         "elemental%20adept_phb": "elemental%20adept_xphb",
@@ -914,6 +915,7 @@
         "mage%20slayer_phb": "mage%20slayer_xphb",
         "magic%20initiate_phb": "magic%20initiate_xphb",
         "medium%20armor%20master_phb": "medium%20armor%20master_xphb",
+        "metamagic%20adept_tce": "metamagic%20adept_xphb",
         "mobile_phb": "speedy_xphb",
         "moderately%20armored_phb": "moderately%20armored_xphb",
         "mounted%20combatant_phb": "mounted%20combatant_xphb",
@@ -2532,7 +2534,7 @@
         "trip%20attack_phb": "trip%20attack_xphb",
         "twinned%20spell_phb": "twinned%20spell_xphb",
         "two-weapon%20fighting_phb": {
-            "hash": "dual%20wield%20fighting_xphb",
+            "hash": "dual%20wielding_xphb",
             "page": "feats.html"
         },
         "unarmed%20fighting_tce": {
