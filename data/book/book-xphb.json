@@ -7758,11 +7758,15 @@
 															"{@area General|526|x}"
 														],
 														[
+															"{@feat Thrown Arms|XPHB}",
+															"{@area General|526|x}"
+														],
+														[
 															"{@feat Tough|XPHB}",
 															"{@area Origin|4fe|x}"
 														],
 														[
-															"{@feat Two-Weapon Trained|XPHB}",
+															"{@feat Two-Weapon Champ|XPHB}",
 															"{@area General|526|x}"
 														],
 														[
@@ -7933,7 +7937,8 @@
 								"{@feat Spell Sniper|XPHB}",
 								"{@feat Telekinetic|XPHB}",
 								"{@feat Telepathic|XPHB}",
-								"{@feat Two-Weapon Trained|XPHB}",
+								"{@feat Thrown Arms|XPHB}"
+								"{@feat Two-Weapon Champ|XPHB}",
 								"{@feat War Caster|XPHB}",
 								"{@feat Weapon Master|XPHB}"
 							]
@@ -8234,7 +8239,13 @@
 						},
 						{
 							"type": "statblock",
-							"name": "Two-Weapon Trained",
+							"name": "Thrown Arms",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Two-Weapon Champ",
 							"tag": "feat",
 							"source": "XPHB"
 						},

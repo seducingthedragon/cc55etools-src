@@ -15807,6 +15807,77 @@
 			]
 		},
 		{
+			"name": "Thrown Arms",
+			"source": "XPHB",
+			"page": 209,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"str": 13
+						}
+					]
+				},
+				{
+					"level": 4,
+					"ability": [
+						{
+							"dex": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Throwing weapons have become second nature to you. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "More Thrown Weapons",
+					"entries": [
+						"Any non-Heavy one-handed melee weapon that does not already have the {@itemProperty T|XPHB|Thrown} weapon property, and is not a {@item Whip|XPHB}, now has the {@itemProperty T|XPHB|Thrown} weapon property. They have a normal range of 20 feet and a long range of 60 feet for you. Attempting to throw a melee weapon that is {@itemProperty H|XPHB|Heavy} or {@itemProperty 2H|XPHB|Two-Handed}, is subjected to DM's discretion and rules."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Multidraw",
+					"entries": [
+						"You can draw or stow any number of weapons that you throw on your turn, as long as they are also {@itemProperty L|XPHB|Light} weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Boomerang",
+					"entries": [
+						"When you miss on a ranged attack with a {@itemProperty L|XPHB|Light} {@itemProperty T|XPHB|Thrown} melee weapon, the weapon will {@i \"boomerang\"} back to you by the end of your turn, as long as you have a free hand to catch it and nothing else preventing you from doing so.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "With the {@feat Hurler|XPHB|} Fighting Style,",
+									"entry": "when you {@variantrule Critical Hit|XPHB|Crit} on a ranged attack roll with any {@itemProperty L|XPHB|Light} {@itemProperty T|XPHB|Thrown} melee weapon, the weapon will also return to you by the end of your turn."
+								}	
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Tireless Reveler",
 			"source": "ABH",
 			"page": 8,
@@ -16072,7 +16143,7 @@
 			]
 		},
 		{
-			"name": "Two-Weapon Trained",
+			"name": "Two-Weapon Champ",
 			"source": "XPHB",
 			"page": 209,
 			"category": "G",
