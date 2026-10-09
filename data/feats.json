@@ -12695,7 +12695,7 @@
 					"level": 4,
 					"proficiency": [
 						{
-							"weaponGroup": "martial"
+							"weapon": "Double-Bladed Scimitar"
 						}
 					]
 				}
@@ -14256,6 +14256,68 @@
 								"As a bonus action, you surround yourself with an aura of magical wind and lightning that extends 10 feet from you in every direction but not through {@quickref Cover||3||total cover}. The aura lasts until the start of your next turn or until you are incapacitated. While the aura is active, you have resistance to lightning and thunder damage. In addition, attack rolls against you have disadvantage, and whenever another creature starts its turn within the aura, you can force the creature to make a Strength saving throw (DC equals 8 + your proficiency bonus + the modifier of the ability increased by this feat). On a failed save, the creature's speed is halved until the start of its next turn. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Specialized Training",
+			"source": "XPHB",
+			"page": 208,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"str": 13
+						}
+					]
+				},
+				{
+					"level": 4,
+					"ability": [
+						{
+							"dex": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"choose": {
+						"fromFilter": "type=specialized weapon;mundane weapon|miscellaneous=mundane",
+						"count": 4
+					}
+				}
+			],
+			"entries": [
+				"You have studied and trained with various Weapon Masters of unique and unseen weaponry. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Specialized Weapon Proficiency",
+					"entries": [
+						"You gain proficiency in a number of Specialized Weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Preferred Mastery",
+					"entries": [
+						"You always know that weapon’s mastery property. It does not count against your known mastery properties if you have the weapon mastery class feature."
 					]
 				}
 			]
