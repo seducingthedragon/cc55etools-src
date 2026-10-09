@@ -1948,12 +1948,13 @@
 			"page": 215,
 			"edition": "one",
 			"type": "M|XPHB",
+			"typeAlt": "CElf|XPHB",
 			"rarity": "none",
 			"weight": 5,
 			"value": 10000,
 			"weaponCategory": "specialized",
+			"detail1": "Elven",
 			"property": [
-				"S|XPHB",
 				"2H|XPHB"
 			],
 			"mastery": [
@@ -1961,14 +1962,16 @@
 			],
 			"dmg1": "2d4",
 			"dmgType": "S",
+			"dmg2": "1d4 Slashing",
 			"sword": true,
 			"weapon": true,
 			"entries": [
+				"A Double-Bladed Scimitar is a unique weapon that has two scimitar-like blades attached to a single central hilt, allowing for unique combat maneuvers.",
 				{
 					"type": "entries",
-					"name": "Special",
+					"name": "Bonus Atk",
 					"entries": [
-						"If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
+						"When you make a {@variantrule Weapon Attack|XPHB} with this weapon as an {@variantrule Action|XPHB} on your turn, you can immediately use your {@variantrule Bonus Action} to make another attack with this weapon to target another creature. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
 					]
 				}
 			],
@@ -2977,14 +2980,14 @@
 			"page": 215,
 			"edition": "one",
 			"type": "M|XPHB",
+			"typeAlt": "R|XPHB",
 			"rarity": "none",
 			"weight": 2,
 			"value": 10,
-			"weaponCategory": "martial",
+			"weaponCategory": "simple",
 			"property": [
 				"A|XPHB",
 				"F|XPHB",
-				"S|XPHB",
 				"2H|XPHB"
 			],
 			"mastery": [
@@ -2993,18 +2996,37 @@
 			"range": "40/160",
 			"dmg1": "1d6",
 			"dmgType": "P",
+			"dmg2": "1d4 Bludgeoning",
 			"weapon": true,
+			"ammoType": "sling bullets|xphb",
 			"entries": [
 				"A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other.",
 				{
 					"type": "entries",
-					"name": "Special",
+					"name": "Dual Types",
 					"entries": [
-						"When you make a melee attack with this weapon, you ignore its ammunition property. You can use the hoopak as a martial ranged weapon. If you do, it uses the ammunition property, uses sling bullets, and deals {@damage 1d4} bludgeoning damage on a hit."
+						"This weapon is used for both Melee and Ranged {@variantrule Weapon Attack|XPHB|Weapon Attacks}. Regardless of how you use this weapon, it is always a {@itemProperty 2H|XPHB|Two-Handed} weapon.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "For Melee Attacks",
+									"entry": "it uses its {@itemProperty F|XPHB|Finesse} property, dealing {@damage 1d6} Piercing damage on a hit."
+								},
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "For Ranged Attacks",
+									"entry": "it uses its {@itemProperty A|XPHB|Ammunition} property, dealing its Alternate damage of {@damage 1d4} Bludgeoning damage."
+								}
+							]
+						}
 					]
 				}
 			],
-			"ammoType": "sling bullet|xphb",
 			"hasFluffImages": true
 		},
 		{
@@ -7572,16 +7594,6 @@
 			"abbreviation": "S",
 			"source": "PHB",
 			"page": 147,
-			"reprintedAs": [
-				"S|XPHB"
-			],
-			"template": "{{prop_name_lower}}"
-		},
-		{
-			"name": "special",
-			"abbreviation": "S",
-			"source": "XPHB",
-			"page": 214,
 			"template": "{{prop_name_lower}}"
 		},
 		{
@@ -7886,6 +7898,21 @@
 			"source": "XPHB",
 			"page": 222,
 			"basicRules2024": true
+		},
+		{
+			"name": "Cultural (Elven)",
+			"abbreviation": "CElf",
+			"source": "XPHB",
+			"page": 214,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Specialized Cultural Weapon",
+					"entries": [
+						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. This weapon is significant to the Elven community."
+					]
+				}
+			]
 		},
 		{
 			"name": "Gaming Set",

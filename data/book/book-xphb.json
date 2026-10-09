@@ -8683,6 +8683,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Hoopak|XPHB}",
+										"{@dice 1d6} Piercing",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Push}",
+										"2 lb.",
+										"1 SP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Javelin|XPHB}",
 										"{@dice 1d6} Piercing",
 										"{@itemProperty T|XPHB|Thrown} (Range 30/120)",
@@ -8768,6 +8780,18 @@
 										"{@itemMastery Vex}",
 										"1/4 lb.",
 										"5 CP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Hoopak|XPHB}",
+										"{@dice 1d4} Bludgeoning",
+										"{@itemProperty A|XPHB|Ammunition} (Range 40/160; {@item Sling Bullet|XPHB}), {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Push}",
+										"2 lb.",
+										"1 SP"
 									]
 								},
 								{
@@ -8883,18 +8907,6 @@
 										"{@itemMastery Cleave}",
 										"6 lb.",
 										"20 GP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
-										"{@item Hoopak|XPHB}",
-										"{@dice 1d6} Piercing",
-										"{@itemProperty S|XPHB|Special}, {@itemProperty A|XPHB|Ammunition} (Range 40/160; {@item Sling Bullet|XPHB}), {@itemProperty F|XPHB|Finesse}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Push}",
-										"2 lb.",
-										"1 SP"
 									]
 								},
 								{
@@ -9131,9 +9143,9 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Double-Bladed Scimitar|XPHB}",
+										"{@item Double-Bladed Scimitar|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d4} Slashing",
-										"{@itemProperty S|XPHB|Special}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Vex}",
 										"5 lb.",
 										"100 GP"
