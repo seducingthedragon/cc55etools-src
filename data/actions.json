@@ -569,7 +569,7 @@
 							"type": "entries",
 							"name": "Assist an Ability Check",
 							"entries": [
-								"Choose one of your skill or tool proficiencies and one ally who is near enough for you to assist verbally or physically when they make an ability check. That ally has {@variantrule Advantage|XPHB} on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. The DM has final say on whether your assistance is possible."
+								"You can assist one ally who is near enough for you to assist verbally or physically when they make an ability check. That ally has {@variantrule Advantage|XPHB} on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. The DM has final say on whether your assistance is possible."
 							]
 						},
 						{

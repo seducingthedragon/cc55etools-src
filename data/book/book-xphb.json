@@ -7590,6 +7590,10 @@
 															"{@area General|526|x}"
 														],
 														[
+															"{@feat Hardy Physique|XPHB}",
+															"{@area General|526|x}"
+														],
+														[
 															"{@feat Healer|XPHB}",
 															"{@area Origin|4fe|x}"
 														],
@@ -7599,6 +7603,10 @@
 														],
 														[
 															"{@feat Heavy Armor Master|XPHB}",
+															"{@area General|526|x}"
+														],
+														[
+															"{@feat Helpful Insights|XPHB}",
 															"{@area General|526|x}"
 														],
 														[
@@ -7612,6 +7620,10 @@
 														[
 															"{@feat Interception|XPHB}",
 															"{@area Fighting Style|5fa|x}"
+														],
+														[
+															"{@feat Intimidating Leader|XPHB}",
+															"{@area General|526|x}"
 														],
 														[
 															"{@feat Keen Mind|XPHB}",
@@ -7906,9 +7918,12 @@
 								"{@feat Fighting Initiate|XPHB}",
 								"{@feat Grappler|XPHB}",
 								"{@feat Great Weapon Master|XPHB}",
+								"{@feat Hardy Physique|XPHB}",
 								"{@feat Heavily Armored|XPHB}",
 								"{@feat Heavy Armor Master|XPHB}",
+								"{@feat Helpful Insights|XPHB}",
 								"{@feat Inspiring Leader|XPHB}",
+								"{@feat Intimidating Leader|XPHB}",
 								"{@feat Keen Mind|XPHB}",
 								"{@feat Lightly Armored|XPHB}",
 								"{@feat Linguist|XPHB}",
@@ -8053,6 +8068,12 @@
 						},
 						{
 							"type": "statblock",
+							"name": "Hardy Physique",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
 							"name": "Heavily Armored",
 							"tag": "feat",
 							"source": "XPHB"
@@ -8065,7 +8086,19 @@
 						},
 						{
 							"type": "statblock",
+							"name": "Helpful Insights",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
 							"name": "Inspiring Leader",
+							"tag": "feat",
+							"source": "XPHB"
+						},
+						{
+							"type": "statblock",
+							"name": "Intimidating Leader",
 							"tag": "feat",
 							"source": "XPHB"
 						},
@@ -18270,6 +18303,12 @@
 						},
 						{
 							"type": "statblock",
+							"tag": "condition",
+							"source": "XPHB",
+							"name": "Hidden"
+						},
+						{
+							"type": "statblock",
 							"tag": "variantrule",
 							"source": "XPHB",
 							"name": "High Jump"
@@ -18695,6 +18734,12 @@
 							"tag": "variantrule",
 							"source": "XPHB",
 							"name": "Temporary Hit Points"
+						},
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "XPHB",
+							"name": "Trained"
 						},
 						{
 							"type": "statblock",

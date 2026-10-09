@@ -15171,6 +15171,15 @@
 			]
 		},
 		{
+			"name": "Trained",
+			"source": "XPHB",
+			"page": 376,
+			"ruleType": "C",
+			"entries": [
+				"If you are trained in a skill or tool, you can add half of your {@variantrule Proficiency|XPHB|Proficiency Bonus} to the {@variantrule D20 Test|XPHB|D20 roll} you make using that skill or tool."
+			]
+		},
+		{
 			"name": "Travel at Sea",
 			"source": "GoS",
 			"page": 199,

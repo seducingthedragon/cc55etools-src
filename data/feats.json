@@ -7275,6 +7275,67 @@
 			]
 		},
 		{
+			"name": "Hardy Physique",
+			"source": "XPHB",
+			"page": 204,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"str": 13
+						}
+					]
+				},
+				{
+					"level": 4,
+					"ability": [
+						{
+							"dex": 13
+						}
+					]
+				},
+				{
+					"level": 4,
+					"ability": [
+						{
+							"con": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You have harden your physical body to the point of able to stand firmly in place. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Hold Firm",
+					"entries": [
+						"You have advantage on {@variantrule Saving Throw|XPHB|Saving Throws} and any {@variantrule Ability Check|XPHB|Ability Checks} you make to avoid being moved against your will, grappled, or knocked prone."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Proficiently Protected",
+					"entries": [
+						"You can add your {@variantrule Proficiency|XPHB|Proficiency Bonus} to your {@variantrule Armor Class|XPHB}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Harper Agent",
 			"source": "FRHoF",
 			"page": 37,
@@ -7542,6 +7603,50 @@
 					"name": "Damage Reduction",
 					"entries": [
 						"When you're hit by an attack while you're wearing Heavy armor, any Bludgeoning, Piercing, and Slashing damage dealt to you by that attack is reduced by an amount equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Helpful Insights",
+			"source": "XPHB",
+			"page": 204,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"wis": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Your knowledge is great and your willingness to help is even greater. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Quick Help",
+					"entries": [
+						"Once per {@variantrule Initiative|XPHB} roll, you can use your {@variantrule Bonus Action|XPHB} to take the {@action Help|XPHB} action for a nearby ally."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Consistent Help",
+					"entries": [
+						"When you provide the {@action Help|XPHB} action to an ally on a {@variantrule Ability Check|XPHB|Skill or Tool} check that you are {@variantrule Proficiency|XPHB|Proficient} in, your ally can treat a roll of a 7 or lower on a {@dice 1d20|D20} as an 8. This excludes Nat 1s."
 					]
 				}
 			]
@@ -7973,6 +8078,46 @@
 					"name": "Reactive Damage Defuser",
 					"entries": [
 						"When a creature you can see hits another creature within 5 feet of you with an attack roll, you can take a {@variantrule Reaction|XPHB} to reduce the damage dealt to the target by {@dice 1d10} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You must be holding a {@item Shield|XPHB} or a Melee weapon to use this {@variantrule Reaction|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Intimidating Leader",
+			"source": "XPHB",
+			"page": 204,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"skill": [
+								"intimidation"
+							]
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You have learned how to honed fear and intimidation in order to rally and support your allies. You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Fearsome Rally",
+					"entries": [
+						"When an ally, who can see or hear you and is within 60 feet from you, fails a {@variantrule Saving Throw|XPHB} to resist being {@condition Charmed|XPHB} or {@condition Frightened|XPHB}, you can use your {@variantrule Reaction|XPHB} to make a Charisma ({@skill Intimidation|XPHB}) check against the same DC. On a success, your ally is no longer {@condition Charmed|XPHB} or {@condition Frightened|XPHB}.",
+						"You can use this {@variantrule Reaction|XPHB} a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} per {@variantrule Long Rest|XPHB}."
 					]
 				}
 			]
