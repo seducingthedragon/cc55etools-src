@@ -721,9 +721,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Avoiding Surprise and Unseen Advantage.",
+					"name": "Avoiding Surprise",
 					"entries": [
-						"You can't be {@status surprised} while you are conscious. Additionally, other creatures do not gain {@variantrule Advantage|XPHB} on {@action Attack|XPHB|Attack Rolls} against you as a result of being unseen by you."
+						"You can't be {@status surprised} while you are conscious."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unseen Advantage",
+					"entries": [
+						"Other creatures do not gain {@variantrule Advantage|XPHB} on {@action Attack|XPHB|Attack Rolls} against you as a result of being unseen by you."
 					]
 				}
 			]
@@ -771,7 +778,7 @@
 					"type": "entries",
 					"name": "Increased Attunement",
 					"entries": [
-						"You can attune to a max of four items at once, instead of three."
+						"You can {@variantrule Attunement|XPHB|Attune} to a max of four items at once, instead of three."
 					]
 				},
 				{
