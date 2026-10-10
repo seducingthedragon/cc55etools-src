@@ -9156,8 +9156,8 @@
 									"style": "row-indent-first",
 									"row": [
 										"{@item Double-Bladed Scimitar|XPHB} {@i Cultural (Elven)}",
-										"{@dice 2d4} Slashing",
-										"{@itemProperty 2H|XPHB|Two-Handed}",
+										"{@dice 2d6} Slashing",
+										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double}",
 										"{@itemMastery Vex}",
 										"5 lb.",
 										"100 GP"
@@ -9312,6 +9312,15 @@
 								},
 								{
 									"type": "entries",
+									"name": "Double",
+									"page": 213,
+									"id": "a95",
+									"entries": [
+										"When you take the {@action Attack|XPHB} action with a Double weapon, you can use a {@variantrule Bonus Action|XPHB} to attack again with the other side of the weapon. The bonus attack deals the listed alternate damage and you don't add your ability modifier, unless that modifier is negative."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Finesse",
 									"page": 213,
 									"id": "643",
@@ -9343,7 +9352,7 @@
 									"page": 213,
 									"id": "646",
 									"entries": [
-										"Light Weapons are small and easy to handle in your off-hand. Additionally, two light weapons can be wielded simultaenously, making it ideal for engaging in {@action Two-Weapon Fighting|XPHB}."
+										"Light Weapons are small and easy to handle in your off-hand, making it ideal for wielding with another weapon and engaging in {@action Two-Weapon Fighting|XPHB}."
 									]
 								},
 								{

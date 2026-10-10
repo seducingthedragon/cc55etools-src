@@ -1989,14 +1989,15 @@
 			"value": 10000,
 			"weaponCategory": "specialized",
 			"property": [
-				"2H|XPHB"
+				"2H|XPHB",
+				"D|XPHB"
 			],
 			"mastery": [
 				"Vex|XPHB"
 			],
-			"dmg1": "2d4",
+			"dmg1": "2d6",
 			"dmgType": "S",
-			"dmg2": "1d4 Slashing",
+			"dmg2": "1d6 Slashing",
 			"sword": true,
 			"weapon": true,
 			"entries": [
@@ -2005,7 +2006,7 @@
 					"type": "entries",
 					"name": "Maneuver: Burst",
 					"entries": [
-						"With this weapon, you can use your {@variantrule Action|XPHB} to make a Burst Maneuver. You can make this maneuver when you have two to eight targets within 5 feet of you. All targets surrounding you must make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your {@action Attack|XPHB} modifier}. On a failed saving throw, a target takes Slashing damage equal to {@damage 4d4} plus your {@action Attack|XPHB} modifier. You can use this maneuver a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} per {@variantrule Long Rest|XPHB}."
+						"With this weapon, you can use your {@variantrule Action|XPHB} to make a Burst Maneuver. You can make this maneuver when you have two to eight targets within 5 feet of you. All targets surrounding you must make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your {@action Attack|XPHB} modifier}. On a failed saving throw, a target takes Slashing damage equal to {@damage 4d6} plus your {@action Attack|XPHB} modifier. You can use this maneuver a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} per {@variantrule Long Rest|XPHB}."
 					]
 				}
 			],
@@ -7581,6 +7582,21 @@
 			]
 		},
 		{
+			"abbreviation": "D",
+			"source": "D",
+			"page": 214,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double",
+					"entries": [
+						"When you take the {@action Attack|XPHB} action with a Double weapon, you can use a {@variantrule Bonus Action|XPHB} to attack again with the other side of the weapon. The bonus attack deals the listed alternate damage and you don't add your ability modifier, unless that modifier is negative."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "Evo",
 			"source": "AU",
 			"page": 0,
@@ -7608,7 +7624,7 @@
 					"type": "entries",
 					"name": "Finesse",
 					"entries": [
-						"When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
+						"When making an attack with a Finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
 					]
 				}
 			]
@@ -7692,7 +7708,7 @@
 					"type": "entries",
 					"name": "Light",
 					"entries": [
-						"Light Weapons are small and easy to handle in your off-hand. Additionally, two light weapons can be wielded simultaenously, making it ideal for engaging in {@action Two-Weapon Fighting|XPHB}."
+						"Light Weapons are small and easy to handle in your off-hand, making it ideal for wielding with another weapon and engaging in {@action Two-Weapon Fighting|XPHB}."
 					]
 				}
 			]
