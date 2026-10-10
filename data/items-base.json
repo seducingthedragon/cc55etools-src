@@ -7685,7 +7685,7 @@
 			]
 		},
 		{
-			"abbreviation": "RL",
+			"abbreviation": "RLX",
 			"source": "XPHB",
 			"page": 214,
 			"template": "{{prop_name}} ({{item.reload}} ammo)",
