@@ -7685,6 +7685,21 @@
 			]
 		},
 		{
+			"abbreviation": "RL",
+			"source": "XPHB",
+			"page": 214,
+			"template": "{{prop_name}} ({{item.reload}} ammo)",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"A Reload weapon allows you to make a limited number of {@action Attack|XPHB|Attacks} before new ammunition must be loaded. Once you make a number of attacks equal to the number listed above, you must use your {@variantrule Action|XPHB} to reload."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "RLD",
 			"source": "DMG",
 			"page": 267,
@@ -7712,7 +7727,7 @@
 					"type": "entries",
 					"name": "Reload",
 					"entries": [
-						"You can make a limited number of shots with a Reload weapon before you have to load the weapon with ammunition. Once you make a number of attacks equal to the number of shots listed above, you must reload your weapon. It takes either your {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB} to do so. Some weapons may list which one to use in order to reload it. If the weapon does not specify between the two, then it is your choice."
+						"You can make a limited number of shots with a Reload weapon. You must then reload the weapon as an action or a Bonus Action."
 					]
 				}
 			]
