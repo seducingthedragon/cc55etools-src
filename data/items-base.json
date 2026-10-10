@@ -2119,6 +2119,7 @@
 			"page": "215",
 			"edition": "one",
 			"type": "M|XPHB",
+			"typeAlt": "CDwf|XPHB",
 			"rarity": "none",
 			"weight": 3,
 			"value": 4000,
@@ -8151,6 +8152,21 @@
 			"source": "XPHB",
 			"page": 222,
 			"basicRules2024": true
+		},
+		{
+			"name": "Cultural (Dwarven)",
+			"abbreviation": "CDwf",
+			"source": "XPHB",
+			"page": 214,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Specialized Cultural Weapon",
+					"entries": [
+						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. This weapon is significant to the Dwarven community."
+					]
+				}
+			]
 		},
 		{
 			"name": "Cultural (Elven)",

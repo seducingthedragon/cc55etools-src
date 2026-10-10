@@ -9167,7 +9167,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Estoc Sword|XPHB}",
+										"{@item Estoc Sword|XPHB} {@i Cultural (Dwarven)}",
 										"{@dice 1d6} Piercing",
 										"{@itemProperty V|XPHB|Versatile} ({@dice 1d8}), Special",
 										"{@itemMastery Vex}",
@@ -9179,7 +9179,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Fang Blade|XPHB}  {@i Cultural (Orcish)}",
+										"{@item Fang Blade|XPHB} {@i Cultural (Orcish)}",
 										"{@dice 1d4} Slashing",
 										"{@itemProperty L|XPHB|Light}",
 										"{@itemMastery Vex}",
