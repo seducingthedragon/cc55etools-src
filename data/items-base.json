@@ -1557,6 +1557,41 @@
 			]
 		},
 		{
+			"name": "Composite Bow",
+			"source": "XPHB",
+			"page": 215,
+			"ediiton": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 4,
+			"value": 10000,
+			"weaponCategory": "specialized",
+			"property": [
+				"A|XPHB",
+				"H|XPHB",
+				"2H|XPHB"
+			],
+			"mastery": [
+				"Slow|XPHB"
+			],
+			"range": "200/600",
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|xphb",
+			"entries": [
+				"The Composite Bow has a unique construction that gives it an incredibly heavy draw.",
+				{
+					"type": "entries",
+					"name": "Strongbow",
+					"entries": [
+						"This ranged weapon uses Strength as its Attack and Damage ability, instead of the usual Dexterity."
+					]
+				}
+			]
+		},
+		{
 			"name": "Cook's Utensils",
 			"source": "PHB",
 			"page": 154,
@@ -1953,7 +1988,6 @@
 			"weight": 5,
 			"value": 10000,
 			"weaponCategory": "specialized",
-			"detail1": "Elven",
 			"property": [
 				"2H|XPHB"
 			],
@@ -2074,6 +2108,67 @@
 			"cellEnergy": true,
 			"miscTags": [
 				"CNS"
+			]
+		},
+		{
+			"name": "Estoc Sword",
+			"alias": [
+				"The Tuck Sword"
+			],
+			"source": "XPHB",
+			"page": "215",
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 4000,
+			"weaponCategory": "specialized",
+			"property": [
+				"V|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"The Estoc Sword, also known as the Tuck Sword, is a hand-and-a-half sword designed to pierce heavy armor. It is approximately 4 feet long, is only sharpened at the tip, and is a favored weapon for Knights and Mercenaries fighting againsted heavily armored foes.",
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"This sword deals an additional {@dice 1d6} damage to creatures wearing Heavy armor, or to creatures with natural armor whose {@variantrule Armor Class|XPHB|AC} is 16 or higher."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fang Blade",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"type": "COrc|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "specialized",
+			"property": [
+				"L|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"dagger": true,
+			"weapon": true,
+			"entries": [
+				"The Fang Blade is a serrated curved dagger, often looking like an oversized lion's fang."
 			]
 		},
 		{
@@ -6245,6 +6340,33 @@
 			"staff": true
 		},
 		{
+			"name": "Stiletto",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"F|XPHB",
+				"L|XPHB",
+				"T|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true,
+			"entries": [
+				"A Stiletto is a specialized {@item Dagger|XPHB} with a longer and thinner blade, remininsent of a {@item Rapier|XPHB}. This allows the Stiletto puncture through chain and plated armor easier than standard {@item Dagger|XPHB}."
+			]
+		},
+		{
 			"name": "Studded Leather Armor",
 			"source": "PHB",
 			"page": 144,
@@ -7590,7 +7712,7 @@
 					"type": "entries",
 					"name": "Reload",
 					"entries": [
-						"You can make a limited number of shots with a Reload weapon. You must then reload the weapon as an action or a {@variantrule Bonus Action|XPHB} to reload all applicable shots. If you have the {@feat Crossbow Expert|XPHB} Feat or another related feature that allows you to ignore the {@itemProperty L|XPHB|Loading} property, you can use a {@action Free Object Interaction|XPHB} to load a single piece of ammunition into a Reload weapon once per turn."
+						"You can make a limited number of shots with a Reload weapon before you have to load the weapon with ammunition. Once you make a number of attacks equal to the number of shots listed above, you must reload your weapon. It takes either your {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB} to do so. Some weapons may list which one to use in order to reload it. If the weapon does not specify between the two, then it is your choice."
 					]
 				}
 			]
@@ -7600,6 +7722,13 @@
 			"abbreviation": "S",
 			"source": "PHB",
 			"page": 147,
+			"template": "{{prop_name_lower}}"
+		},
+		{
+			"name": "special",
+			"abbreviation": "S",
+			"source": "XPHB",
+			"page": 214,
 			"template": "{{prop_name_lower}}"
 		},
 		{
@@ -7916,6 +8045,21 @@
 					"name": "Specialized Cultural Weapon",
 					"entries": [
 						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. This weapon is significant to the Elven community."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cultural (Orcish)",
+			"abbreviation": "COrc",
+			"source": "XPHB",
+			"page": 214,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Specialized Cultural Weapon",
+					"entries": [
+						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. This weapon is significant to the Orc and Goblinoid communities."
 					]
 				}
 			]

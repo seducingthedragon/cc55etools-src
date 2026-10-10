@@ -9009,6 +9009,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Stiletto|XPHB}",
+										"{@dice 1d4} Piercing",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light} {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+										"{@itemMastery Vex}",
+										"1 lb.",
+										"5 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Trident|XPHB}",
 										"{@dice 1d8} Piercing",
 										"{@itemProperty P|XPHB|Polearm}, {@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
@@ -9148,6 +9160,49 @@
 										"{@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Vex}",
 										"5 lb.",
+										"100 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Estoc Sword|XPHB}",
+										"{@dice 1d6} Piercing",
+										"{@itemProperty V|XPHB|Versatile} ({@dice 1d8}), Special",
+										"{@itemMastery Vex}",
+										"3 lb.",
+										"40 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Fang Blade|XPHB}  {@i Cultural (Orcish)}",
+										"{@dice 1d4} Slashing",
+										"{@itemProperty L|XPHB|Light}",
+										"{@itemMastery Vex}",
+										"2 lb.",
+										"10 GP"
+									]
+								},
+								[
+									{
+										"type": "cell",
+										"width": 6,
+										"entry": "{@i Specialized Ranged Weapons}"
+									}
+								],
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Composite Bow|XPHB}",
+										"{@dice 1d10} Piercing",
+										"{@itemProperty A|XPHB|Ammunition} (Range 200/600; Arrow), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Slow}",
+										"4 lb.",
 										"100 GP"
 									]
 								}
