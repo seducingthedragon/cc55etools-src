@@ -9205,6 +9205,42 @@
 										"4 lb.",
 										"100 GP"
 									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Hand Repeating Crossbow|XPHB}",
+										"{@dice 1d6} Piercing",
+										"{@itemProperty A|XPHB|Ammunition} (Range 20/80; Bolt), {@itemProperty L|XPHB|Light}, {@itemProperty RLX|XPHB|Reload}",
+										"{@itemMastery Vex}",
+										"3.5 lb.",
+										"150 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Heavy Repeating Crossbow|XPHB}",
+										"{@dice 1d10} Piercing",
+										"{@itemProperty A|XPHB|Ammunition} (Range 80/320; Bolt), {@itemProperty H|XPHB|Heavy}, {@itemProperty RLX|XPHB|Reload}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Push}",
+										"20 lb.",
+										"200 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Light Repeating Crossbow|XPHB}",
+										"{@dice 1d8} Piercing",
+										"{@itemProperty A|XPHB|Ammunition} (Range 65/260; Bolt), {@itemProperty RLX|XPHB|Reload}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Slow}",
+										"6 lb.",
+										"75 GP"
+									]
 								}
 							]
 						},

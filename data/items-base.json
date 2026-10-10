@@ -2824,6 +2824,38 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Hand Repeating Crossbow",
+			"source": "XPHB",
+			"page": 215,
+			"srd52": true,
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 3.5,
+			"value": 15000,
+			"weaponCategory": "specialized",
+			"property": [
+				"A|XPHB",
+				"L|XPHB",
+				"RLX|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"range": "20/80",
+			"reload": 5,
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "bolt|xphb",
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Repeating Crossbow|XPHB}"
+			],
+			"hasFluffImages": true
+		},
+		{
 			"name": "Hand Drum",
 			"source": "SCAG",
 			"page": 124,
@@ -2976,6 +3008,39 @@
 			"crossbow": true,
 			"weapon": true,
 			"ammoType": "bolt|xphb",
+			"hasFluffImages": true
+		},
+		{
+			"name": "Heavy Repeating Crossbow",
+			"source": "XPHB",
+			"page": 215,
+			"srd52": true,
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 20,
+			"value": 20000,
+			"weaponCategory": "specialized",
+			"property": [
+				"2H|XPHB",
+				"A|XPHB",
+				"H|XPHB",
+				"RLX|XPHB"
+			],
+			"mastery": [
+				"Push|XPHB"
+			],
+			"range": "80/320",
+			"reload": 5,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "bolt|xphb",
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Repeating Crossbow|XPHB}"
+			],
 			"hasFluffImages": true
 		},
 		{
@@ -3868,6 +3933,9 @@
 			"name": "Light Repeating Crossbow",
 			"source": "OotA",
 			"page": 224,
+			"reprintedAs": [
+				"Light Repeating Crossbow|XPHB"
+			],
 			"type": "R",
 			"rarity": "unknown",
 			"weight": 5,
@@ -3885,6 +3953,41 @@
 				"This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action."
 			],
 			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Light Repeating Crossbow",
+			"source": "XPHB",
+			"alias": [
+				"Repeating Crossbow"
+			],
+			"page": 215,
+			"srd52": true,
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 6,
+			"value": 7500,
+			"weaponCategory": "specialized",
+			"property": [
+				"2H|XPHB",
+				"A|XPHB",
+				"RLX|XPHB"
+			],
+			"mastery": [
+				"Slow|XPHB"
+			],
+			"range": "65/260",
+			"reload": 5,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "bolt|xphb",
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Repeating Crossbow|XPHB}"
+			],
+			"hasFluffImages": true
 		},
 		{
 			"name": "Longbow",
@@ -7688,7 +7791,7 @@
 			"abbreviation": "RLX",
 			"source": "XPHB",
 			"page": 214,
-			"template": "{{prop_name}} ({{item.reload}} ammo)",
+			"template": "{{prop_name}} ({{item.reload}})",
 			"entries": [
 				{
 					"type": "entries",
@@ -8889,6 +8992,13 @@
 			"source": "XDMG",
 			"entriesTemplate": [
 				"When you drink this potion, you have {@variantrule Resistance|XPHB} to {{getFullImmRes item.resist}} damage for 1 hour."
+			]
+		},
+		{
+			"name": "Repeating Crossbow",
+			"source": "XPHB",
+			"entriesTemplate": [
+				"Repeating Crossbows are altered crossbows that allows for a cartridge of bolts to be attached. There are also additional parts that aid in the retracting of the bow string in order to instantly load a new bolt for another attack. Due to these changes, all Repeating Crossbows are Specialized weapons."
 			]
 		},
 		{
