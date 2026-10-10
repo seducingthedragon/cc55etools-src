@@ -1969,9 +1969,9 @@
 				"A Double-Bladed Scimitar is a unique weapon that has two scimitar-like blades attached to a single central hilt, allowing for unique combat maneuvers.",
 				{
 					"type": "entries",
-					"name": "Bonus Atk",
+					"name": "Maneuver: Burst",
 					"entries": [
-						"When you make a {@variantrule Weapon Attack|XPHB} with this weapon as an {@variantrule Action|XPHB} on your turn, you can immediately use your {@variantrule Bonus Action} to make another attack with this weapon to target another creature. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
+						"With this weapon, you can use your {@variantrule Action|XPHB} to make a Burst Maneuver. You can make this maneuver when you have two to eight targets within 5 feet of you. All targets surrounding you must make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your {@action Attack|XPHB} modifier}. On a failed saving throw, a target takes Slashing damage equal to {@damage 4d4} plus your {@action Attack|XPHB} modifier. You can use this maneuver a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} per {@variantrule Long Rest|XPHB}."
 					]
 				}
 			],
@@ -7516,8 +7516,14 @@
 					"type": "entries",
 					"name": "Polearm",
 					"entries": [
-						"A Polearm weapon is typically a long thin weapon. When you wield a Polearm, you can attempt to {@b Trip} your target as an {@variantrule Action|XPHB}.",
-						"{@b Trip.} Make a single {@action Attack|XPHB} against a Large or smaller creature. On a hit, you deal the weapon's damage and your target must succeed on a Strength {@variantrule Saving Throw|XPHB} against the {@dc 8} plus the attack modifier  and your Proficiency Bonus, or fall {@condition Prone|XPHB}."
+						"A Polearm weapon is typically a long thin weapon that may or may not have a blade at the end of one side. The purpose of this property is to label which weapons are benefitted by the {@feat Polearm Master|XPHB} feat."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Maneuver: Trip",
+					"entries": [
+						"Make a single {@action Attack|XPHB} against a Large or smaller creature. On a hit, you deal the weapon's damage and your target must succeed on a Strength {@variantrule Saving Throw|XPHB} ({@dc 8} plus the attack modifier and your Proficiency Bonus), or fall {@condition Prone|XPHB}."
 					]
 				}
 			]

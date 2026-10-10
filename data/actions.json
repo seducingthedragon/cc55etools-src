@@ -1131,8 +1131,8 @@
 				}
 			],
 			"entries": [
-				"When you engage in a Two-Weapon Fighting attack, you make one attack using your main-hand with a Light weapon for an {@action Attack|XPHB} action and then make a second attack using your off-hand with another Light weapon as a {@variantrule Bonus Action|XPHB} on your same turn. The second attack still uses your ability modifier for the attack roll but does not use it for the damage role, unless that modifier is negative or you have a feature that allows you to do so.",
-				"If either Light weapon has the thrown property, you can use its ranged ability and still engage in Two-Weapon Fighting. If you make an {@action Opportunity Attack|XPHB} while wielding two light weapons, you maintain those rules, making only one attack."
+				"When you engage in a Two-Weapon Fighting attack, you make one attack using your main-hand with a {@itemProperty L|XPHB|Light} weapon for an {@action Attack|XPHB} action and then make a second attack using your off-hand with another Light weapon as a {@variantrule Bonus Action|XPHB} on your same turn. Additionally, your main-hand can wield a one-handed weapon that does not have the {@itemProperty L|XPHB|Light} weapon property, but it must have the {@itemProperty F|XPHB|Finesse} weapon property. The second attack still uses your ability modifier for the attack roll but does not use it for the damage role, unless that modifier is negative or you have a feature that allows you to do so.",
+				"If either {@itemProperty L|XPHB|Light} weapon has the {@itemProperty T|XPHB|Thrown} property, you can use its ranged ability and still engage in Two-Weapon Fighting. If you make an {@action Opportunity Attack|XPHB} while wielding two light weapons, you maintain those rules and make only one attack."
 			],
 			"seeAlsoAction": [
 				"attack|xphb"

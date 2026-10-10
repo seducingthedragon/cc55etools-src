@@ -9322,6 +9322,15 @@
 						},
 						{
 							"type": "entries",
+							"name": "Weapon Maneuvers",
+							"page": 214,
+							"id": "a92",
+							"entries": [
+								"Each weapon has at least one maneuver listed, which any character who is proficient in the weapon can utilize. These maneuvers are unique to each weapon and vary between combat use and other purposes."
+							]
+						},
+						{
+							"type": "entries",
 							"name": "Mastery Properties",
 							"page": 214,
 							"id": "64d",
