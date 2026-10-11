@@ -9203,6 +9203,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Granite Fists|XPHB} {@i Cultural (Dwarven)}",
+										"{@dice 2d6} Bludgeoning",
+										"{@itemProperty D|XPHB|Versatile} ({@dice 1d6}), {@itemProperty H|XPHB|Heavy}, {@itemProperty UW|XPHB|Unarmed Weapon}, Special",
+										"{@itemMastery Push}",
+										"10 lb.",
+										"50 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Joining Blades|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
 										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} (@dice 1d6), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
@@ -9352,7 +9364,15 @@
 									"page": 213,
 									"id": "a95",
 									"entries": [
-										"When you take the {@action Attack|XPHB} action with a Double weapon, you can use a {@variantrule Bonus Action|XPHB} to attack again with the other side of the weapon. The bonus attack deals the damage value in parentheses that appears with the property and you don't add your ability modifier, unless that modifier is negative."
+										"A Double weapon often falls under one of the following criterias:",
+										{
+											"type": "list",
+											"items": [
+												"A {@itemProperty V|XPHB|Versatile}, {@itemProperty 2H|XPHB|Two-Handed}, or a Specialized weapon that can be attacked from either end of it",
+												"An {@itemProperty UW|XPHB|Unarmed Weapon} made and wielded as a pair."
+											]
+										},
+										"When you take the {@action Attack|XPHB} action with a Double weapon, you can use a {@variantrule Bonus Action|XPHB} to attack again with the other half of the weapon. The bonus attack deals the damage value in parentheses that appears with the property and you don't add your ability modifier, unless that modifier is negative."
 									]
 								},
 								{

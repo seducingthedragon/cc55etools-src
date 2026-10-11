@@ -2523,6 +2523,47 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Granite Fists",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CDwf|XPHB",
+			"rarity": "none",
+			"weight": 10,
+			"value": 5000,
+			"weaponCategory": "specialized",
+			"property": [
+				"D|XPHB",
+				"H|XPHB",
+				"UW|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Push|XPHB"
+			],
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"dmg2": "1d6",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Unarmed Attacks",
+					"entries": [
+						"This weapon allows the wielder to utilize the {@action Grapple [Unarmed Attack]|XPHB|Grapple} and {@action Shove [Unarmed Attack]|XPHB|Shove} options of an {@variantrule Unarmed Attack|XPHB} while wielding one or a pair of these weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Heavy Dual Wield",
+					"entries": [
+						"When you wield a pair of these fists, you gain access to its {@itemProperty D|XPHB|Double} property. If you have the {@feat Dual Wielding|XPHB} Fighting Style, the {@feat Two-Weapon Champ|XPHB} feat, or another feature that grants you benefits relating to {@action Two-Weapon Fighting|XPHB}, you can only gain access to those benefits with this weapon if your Strength score is, at least, 15."
+					]
+				}
+			]
+		},
+		{
 			"name": "Greataxe",
 			"source": "PHB",
 			"page": 149,
@@ -7710,7 +7751,7 @@
 		},
 		{
 			"abbreviation": "D",
-			"source": "D",
+			"source": "XPHB",
 			"page": 214,
 			"template": "{{prop_name}} ({{item.dmg2}})",
 			"entries": [
@@ -7718,7 +7759,15 @@
 					"type": "entries",
 					"name": "Double",
 					"entries": [
-						"When you take the {@action Attack|XPHB} action with a Double weapon, you can use a {@variantrule Bonus Action|XPHB} to attack again with the other side of the weapon. The bonus attack deals the damage value in parentheses that appears with the property and you don't add your ability modifier, unless that modifier is negative."
+						"A Double weapon often falls under one of the following criterias:",
+						{
+							"type": "list",
+							"items": [
+								"A {@itemProperty V|XPHB|Versatile}, {@itemProperty 2H|XPHB|Two-Handed}, or a Specialized weapon that can be attacked from either end of it",
+								"An {@itemProperty UW|XPHB|Unarmed Weapon} made and wielded as a pair."
+							]
+						},
+						"When you take the {@action Attack|XPHB} action with a Double weapon, you can use a {@variantrule Bonus Action|XPHB} to attack again with the other half of the weapon. The bonus attack deals the damage value in parentheses that appears with the property and you don't add your ability modifier, unless that modifier is negative."
 					]
 				}
 			]

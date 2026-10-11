@@ -4753,6 +4753,23 @@
 			]
 		},
 		{
+			"name": "Granite Fists",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"These Granite Fists are a brutal pair of gauntlet-like designed weapons. Weighing 10 lbs per individual fist, these are made to break bones. These stone weapons are shapes to look like giant fists with an iron bar inside for the wielder to grip. They are frequently sold in pairs, however, it is not uncommon to see someone weilding only one. There are many variations of these fists within the Dwarven community, which includes spiked knuckles, iron rings, and more."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Greataxe",
 			"source": "XPHB",
 			"images": [
