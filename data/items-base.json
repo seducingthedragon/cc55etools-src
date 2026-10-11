@@ -8028,6 +8028,21 @@
 			]
 		},
 		{
+			"abbreviation": "UW",
+			"source": "XPHB",
+			"page": 214,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Unarmed Weapon",
+					"entries": [
+						"An Unarmed Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers. Attacks with this weapon are both {@variantrule Weapon Attack|XPHB|Weapon Attacks} and {@variantrule Unarmed Attack|XPHB|Unarmed Attacks}. Wielding an Unarmed Weapon does not mean you have a free-hand. These weapons rely on you to hold a part of it in order to keep it secure."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "V",
 			"source": "PHB",
 			"page": 147,
