@@ -9881,6 +9881,15 @@
 								},
 								{
 									"type": "entries",
+									"name": "Armor Parts",
+									"page": 219,
+									"id": "a96",
+									"entries": [
+										"While Armor Parts do not require their own separate training in order to use them, they do require Light, Medium, or Heavy {@variantrule Armor training|XPHB}. Armor Parts often are typically helms or helmets, paulrons, gauntlets or gloves, and greaves. They are used to replace damaged parts of your armor, enhance or customize your armor, or add a part that does not come with your armor. Additionally, on their own, they do not typically add any bonuses to your {@variantrule Armor Class|XPHB}, however, some may have other unique benefits of their own."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Shield",
 									"page": 219,
 									"id": "659",

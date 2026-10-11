@@ -8215,6 +8215,13 @@
 			}
 		},
 		{
+			"name": "Armor Parts",
+			"abbreviation": "AP",
+			"source": "XPHB",
+			"page": 219,
+			"basicRules2024": true
+		},
+		{
 			"name": "Artisan's Tools",
 			"abbreviation": "AT",
 			"source": "PHB",
