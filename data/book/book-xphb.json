@@ -9810,6 +9810,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Buckler|XPHB}",
+										"+1",
+										"\u2014",
+										"\u2014",
+										"3 lb.",
+										"15 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Shield|XPHB}",
 										"+2",
 										"\u2014",
