@@ -5608,6 +5608,30 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Scythe",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 6,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"2H|XPHB",
+				"H|XPHB",
+				"P|XPHB",
+				"R|XPHB"
+			],
+			"mastery": [
+				"Cleave|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"polearm": true,
+			"weapon": true
+		},
+		{
 			"name": "Semiautomatic Pistol",
 			"source": "XDMG",
 			"page": 73,

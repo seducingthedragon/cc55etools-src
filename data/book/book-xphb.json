@@ -8743,6 +8743,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Scythe|XPHB}",
+										"{@dice 1d8} Slashing",
+										"{{@itemProperty 2H|XPHB|Two-Handed}, {{@itemProperty H|XPHB|Heavy}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}",
+										"{@itemMastery Cleave}",
+										"6 lb.",
+										"5 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Sickle|XPHB}",
 										"{@dice 1d4} Slashing",
 										"{@itemProperty L|XPHB|Light}",
