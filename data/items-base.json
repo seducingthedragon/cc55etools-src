@@ -6343,6 +6343,36 @@
 			]
 		},
 		{
+			"name": "Spiked Chain",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CElf|XPHB",
+			"rarity": "none",
+			"weight": 10,
+			"value": 5000,
+			"weaponCategory": "specialized",
+			"property": [
+				"2H|XPHB",
+				"D|XPHB",
+				"F|XPHB",
+				"H|XPHB",
+				"R|XPHB"
+			],
+			"mastery": [
+				"Sap|XPHB"
+			],
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"dmg2": "1d4 Slashing",
+			"weapon": true,
+			"entries": [
+				"A Spiked Chain looks like two {@item Flail|XPHB|Flails} with various spikes on its chain and a smaller ball of spikes with a thick non-spikey chain connecting the ends of the Flail handles together.",
+				"While this weapon is considered a Specialized Cultural Weapon for the Elven Community, this is predominetly only found within the Drow, Shadar-Kai, and Wild Elven communities."
+			]
+		},
+		{
 			"name": "Splint Armor",
 			"source": "PHB",
 			"page": 145,
@@ -7585,13 +7615,13 @@
 			"abbreviation": "D",
 			"source": "D",
 			"page": 214,
-			"template": "{{prop_name}}",
+			"template": "{{prop_name}} ({{item.dmg2}})",
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Double",
 					"entries": [
-						"When you take the {@action Attack|XPHB} action with a Double weapon, you can use a {@variantrule Bonus Action|XPHB} to attack again with the other side of the weapon. The bonus attack deals the listed alternate damage and you don't add your ability modifier, unless that modifier is negative."
+						"When you take the {@action Attack|XPHB} action with a Double weapon, you can use a {@variantrule Bonus Action|XPHB} to attack again with the other side of the weapon. The bonus attack deals the damage value in parentheses that appears with the property and you don't add your ability modifier, unless that modifier is negative."
 					]
 				}
 			]

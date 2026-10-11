@@ -9157,7 +9157,7 @@
 									"row": [
 										"{@item Double-Bladed Scimitar|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
-										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double}",
+										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} (@dice 1d4)",
 										"{@itemMastery Vex}",
 										"5 lb.",
 										"100 GP"
@@ -9185,6 +9185,18 @@
 										"{@itemMastery Vex}",
 										"2 lb.",
 										"10 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Spiked Chain|XPHB} {@i Cultural (Elven)}",
+										"{@dice 2d4} Piercing",
+										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} (@dice 1d4), {@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}",
+										"{@itemMastery Sap}",
+										"10 lb.",
+										"50 GP"
 									]
 								},
 								[
@@ -9316,7 +9328,7 @@
 									"page": 213,
 									"id": "a95",
 									"entries": [
-										"When you take the {@action Attack|XPHB} action with a Double weapon, you can use a {@variantrule Bonus Action|XPHB} to attack again with the other side of the weapon. The bonus attack deals the listed alternate damage and you don't add your ability modifier, unless that modifier is negative."
+										"When you take the {@action Attack|XPHB} action with a Double weapon, you can use a {@variantrule Bonus Action|XPHB} to attack again with the other side of the weapon. The bonus attack deals the damage value in parentheses that appears with the property and you don't add your ability modifier, unless that modifier is negative."
 									]
 								},
 								{
