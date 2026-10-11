@@ -1997,7 +1997,7 @@
 			],
 			"dmg1": "2d6",
 			"dmgType": "S",
-			"dmg2": "1d6 Slashing",
+			"dmg2": "1d6",
 			"sword": true,
 			"weapon": true,
 			"entries": [
@@ -3463,6 +3463,62 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Joining Blades",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CElf|XPHB",
+			"rarity": "none",
+			"weight": 6,
+			"value": 20000,
+			"weaponCategory": "specialized",
+			"property": [
+				"2H|XPHB",
+				"D|XPHB",
+				"F|XPHB",
+				"L|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"dmg2": "1d6",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"The Joining Blades came to be as an upgrade to the {@item Double-Bladed Scimitar}.",
+				{
+					"type": "entries",
+					"name": "Special: The Two Forms",
+					"entries": [
+						"This weapon had two forms: the {@b Joined} form and the {@b Unjoined} form. It takes a {@action Free Object Interaction|XPHB|Free Action} to unjoin the weapon's parts, however, it takes a {@variantrule Bonus Action|XPHB} to join the weapon's parts.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "The {@b Joined} form",
+									"entry": "presents as if it were a {@item Double-Bladed Scimitar|XPHB}. While joined, it has the {@itemProperty 2H|XPHB|Two-Handed} and {{@itemProperty D|XPHB|Double} property."
+								},
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "The {@b Unjoined} form",
+									"entry": "presents as two {@item Scimitar|XPHB|Scimitars} with the same {@itemProperty L|XPHB|Light} and {{@itemProperty F|XPHB|Finesse} property, and dealing {@damage 1d6} Slashing damage."
+								}
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Lance",

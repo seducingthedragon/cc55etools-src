@@ -6565,6 +6565,23 @@
 			}
 		},
 		{
+			"name": "Joining Blades",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Some say that the Double-Bladed Scimitar walked so the Joining Blades could run, and to the Elven Warriors of recent times would agree. The Double-Bladed Scimitar was once the staple weapon of a mighty Elven Warrior, however there was something missing. Combining the uses of dual wielding and the skill of maneuvering with a Double-Bladed Scimitar, the Joining Blades were born, setting a new standard for mighty Elven Warriors."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Kagonesti Forest Shroud",
 			"source": "DSotDQ",
 			"images": [

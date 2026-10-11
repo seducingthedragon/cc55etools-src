@@ -9169,7 +9169,7 @@
 									"row": [
 										"{@item Double-Bladed Scimitar|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
-										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} (@dice 1d4)",
+										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} (@dice 1d6)",
 										"{@itemMastery Vex}",
 										"5 lb.",
 										"100 GP"
@@ -9197,6 +9197,18 @@
 										"{@itemMastery Vex}",
 										"2 lb.",
 										"10 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Joining Blades|XPHB} {@i Cultural (Elven)}",
+										"{@dice 2d6} Slashing",
+										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} (@dice 1d6), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
+										"{@itemMastery Vex}",
+										"6 lb.",
+										"200 GP"
 									]
 								},
 								{
