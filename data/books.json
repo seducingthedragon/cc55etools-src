@@ -11125,6 +11125,18 @@
 					]
 				},
 				{
+					"name": "Additional Item Information",
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "D"
+					},
+					"headers": [
+						"Armor",
+						"Weapons",
+						"Musical Instruments"
+					]
+				},
+				{
 					"name": "Credits"
 				}
 			]

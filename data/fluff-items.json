@@ -1618,6 +1618,23 @@
 			]
 		},
 		{
+			"name": "Buckler",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"A Buckler is a type of shield that is worn and not held. Its smaller size and light weight allows leather straps to be secured to a wearer's forearm while allowing the use of both hands to wield or hold something other than in. This smaller size does reduce the bonus granted by using a shield, however it is a popular shield for those who engage in {@action Two-Weapon Fighting|XPHB} or ranged weapon attacks."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Budding Blossom Rod",
 			"source": "AU",
 			"_copy": {
@@ -14356,19 +14373,10 @@
 		{
 			"name": "Yarting",
 			"source": "FRHoF",
-			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"A southern instrument from Amn and Calimshan that is a Faerûnian analog to the guitar. Numerous variations have spread across the continent."
-							]
-						}
-					]
-				}
-			]
+			"_copy": {
+				"name": "Musical Instrument",
+				"source": "FRHoF"
+			}
 		},
 		{
 			"name": "Zulkoon",

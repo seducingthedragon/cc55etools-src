@@ -846,10 +846,7 @@
 			"weight": 3,
 			"value": 1500,
 			"ac": 1,
-			"entries": [
-				"A Buckler is a type of shield that is worn and not held. Its smaller size and light weight allows leather straps to be secured to a wearer's forearm while allowing the use of both hands to wield or hold something other than in. This smaller size does reduce the bonus granted by using a shield, however it is a popular shield for those who engage in {@action Two-Weapon Fighting|XPHB} or ranged weapon attacks."
-			],
-			"hasFluffImages": true
+			"hasFluff": true
 		},
 		{
 			"name": "Calligrapher's Supplies",

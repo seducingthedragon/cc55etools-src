@@ -9402,7 +9402,7 @@
 									"type": "entries",
 									"name": "Concealable",
 									"page": 213,
-									"id": "a98",
+									"id": "630",
 									"entries": [
 										"You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Sleight of Hand|XPHB}) checks made to conceal/hide this weapon."
 									]
@@ -9411,7 +9411,7 @@
 									"type": "entries",
 									"name": "Double",
 									"page": 213,
-									"id": "a95",
+									"id": "631",
 									"entries": [
 										"A Double weapon often falls under one of the following criterias:",
 										{
@@ -9473,7 +9473,7 @@
 									"type": "entries",
 									"name": "Polearm",
 									"page": 214,
-									"id": "a93",
+									"id": "632",
 									"entries": [
 										"A Polearm weapon is typically a long thin weapon that may or may not have a blade at the end of one side. The purpose of this property is to label which weapons are benefitted by the {@feat Polearm Master|XPHB} feat."
 									]
@@ -9500,7 +9500,7 @@
 									"type": "entries",
 									"name": "Reload",
 									"page": 214,
-									"id": "a94",
+									"id": "633",
 									"entries": [
 										"A Reload weapon allows you to make a limited number of {@action Attack|XPHB|Attacks} before new ammunition must be loaded. Once you make a number of attacks equal to the number listed above, you must use your {@variantrule Action|XPHB} to reload."
 									]
@@ -9527,7 +9527,7 @@
 									"type": "entries",
 									"name": "Unarmed Weapon",
 									"page": 214,
-									"id": "a97",
+									"id": "634",
 									"entries": [
 										"An Unarmed Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}. Wielding an Unarmed Weapon does not mean you have a free-hand as it relies on you to hold a part of it in order to keep it secure."
 									]
@@ -9547,7 +9547,7 @@
 							"type": "entries",
 							"name": "Weapon Maneuvers",
 							"page": 214,
-							"id": "a92",
+							"id": "635",
 							"entries": [
 								"Each weapon has at least one maneuver listed, which any character who is proficient in the weapon can utilize. These maneuvers are unique to each weapon and vary between combat use and other purposes."
 							]
@@ -9961,7 +9961,7 @@
 									"type": "entries",
 									"name": "Armor Parts",
 									"page": 219,
-									"id": "a96",
+									"id": "636",
 									"entries": [
 										"While Armor Parts do not require their own separate training in order to use them, they do require Light, Medium, or Heavy {@variantrule Armor training|XPHB}. Armor Parts often are typically helms or helmets, paulrons, gauntlets or gloves, and greaves. They are used to replace damaged parts of your armor, enhance or customize your armor, or add a part that does not come with your armor. Additionally, on their own, they do not typically add any bonuses to your {@variantrule Armor Class|XPHB}, however, some may have other unique benefits of their own."
 									]
@@ -12094,6 +12094,14 @@
 								},
 								{
 									"type": "entries",
+									"name": "Hammer (1 GP)",
+									"page": 225,
+									"entries": [
+										"A simple hammer used for various purposes from building to breaking something apart."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Healer's Kit (5 GP)",
 									"page": 225,
 									"id": "6ce",
@@ -12271,6 +12279,14 @@
 									"id": "6dc",
 									"entries": [
 										"If you consult an accurate Map, you gain a +5 bonus to Wisdom ({@skill Survival|XPHB}) checks you make to find your way in the place represented on it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Mess Kit (2 SP)",
+									"page": "227",
+									"entries": [
+										"This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."
 									]
 								},
 								{
@@ -12466,6 +12482,14 @@
 								},
 								{
 									"type": "entries",
+									"name": "Sealing Wax (5 SP)",
+									"page": 228,
+									"entries": [
+										"Sealing Wax is used to seal correspondences to be sent out. They are often sealed, revealing an embossed symbol identifying the sender."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Scholar's Pack (40 GP)",
 									"page": 228,
 									"id": "6f2",
@@ -12489,6 +12513,14 @@
 									"id": "6f4",
 									"entries": [
 										"When blown as a {@action Utilize|XPHB} action, a Signal Whistle produces a sound that can be heard up to 600 feet away."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Soap",
+									"page": 228,
+									"entries": [
+										"Soap is used to maintain hygiene during travels."
 									]
 								},
 								{
@@ -19066,6 +19098,123 @@
 							"tag": "variantrule",
 							"source": "XPHB",
 							"name": "Weapon Attack"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Additional Item Information",
+			"page": 378,
+			"id": "a92",
+			"entries": [
+				{
+					"type": "section",
+					"name": "Armor",
+					"page": 378,
+					"id": "a93",
+					"entries": [
+						"The following information are specific armor entries from {@book Chapter 6|XPHB|6|Armor} that have additional information.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Buckler",
+									"entry": "A Buckler is a type of shield that is worn and not held. Its smaller size and light weight allows leather straps to be secured to a wearer's forearm while allowing the use of both hands to wield or hold something other than in. This smaller size does reduce the bonus granted by using a shield, however it is a popular shield for those who engage in {@action Two-Weapon Fighting|XPHB} or ranged weapon attacks."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Weapons",
+					"page": 379,
+					"id": "a94",
+					"entries": [
+						"The following information are specific weapon entries from {@book Chapter 6|XPHB|6|Weapons} that have additional information."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Musical Instruments",
+					"page": 380,
+					"id": "a95",
+					"entries": [
+						"The following information are musical instrument entries from {@book Chapter 6|XPHB|6|Tools} that have additional information.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Birdpipes",
+									"entry": "Birdpipes are also known as Pan pipes, Satyr pipes, or a Shalm. In some worlds, these are sacred to {@deity Lliira|Faerûnian|scag} and popular with wood elf and wild elf bards. In others, they are simple yet soothing instrument of those hidden in the forests."
+								},
+								{
+									"type": "item",
+									"name": "Glaur",
+									"entry": "Short, curved horns like a cornucopia. Played with valves, glaur sound like trumpets, while those without valves, known as gloon, have a more mournful sound."
+								},
+								{
+									"type": "item",
+									"name": "Hand Drum",
+									"entry": "A double-headed skin drum fitted with handles along its side."
+								},
+								{
+									"type": "item",
+									"name": "Harp",
+									"entry": "A harp is a large lyre with many more strings and often a foot pedal to press in order create that melodic tone. It is often not common to see a harp on the road as they are often performed for nobility and those who can afford the safe transport of such grand instrument."
+								},
+								{
+									"type": "item",
+									"name": "Longhorn",
+									"entry": "In some worlds, it is considered to be a flute of sophisticated make, found only in areas with skilled artisans, as in great cities or elven enclaves. Typically, it is a trumpet-shape instrument with a long reach and no valves, often seen at a royal court."
+								},
+								{
+									"type": "item",
+									"name": "Mandolin",
+									"entry": "A mandolin is a small lute with 4-courses or 8-strings."
+								},
+								{
+									"type": "item",
+									"name": "Shawm",
+									"entry": "A double-reed instrument similar to an oboe or a bassoon, popular with gnomes, who have developed some bellows-powered versions."
+								},
+								{
+									"type": "item",
+									"name": "Songhorn",
+									"entry": "A recorder, a simple type of flute, usually carved from wood."
+								},
+								{
+									"type": "item",
+									"name": "Tantan",
+									"entry": "A tambourine, a popular instrument with halflings and humans across various central and southern lands."
+								},
+								{
+									"type": "item",
+									"name": "Thelarr",
+									"entry": "Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children\u2014to the parents' delight or regret."
+								},
+								{
+									"type": "item",
+									"name": "Tocken",
+									"entry": "A hanging set of carved oval bells, usually played with a pair of light wooden hammers (or open handed). They are most common in underground cultures, where the resonant tones can carry."
+								},
+								{
+									"type": "item",
+									"name": "Wargong",
+									"entry": "A metal gong, traditionally made from a shield, particularly the shield of an enemy. Both goblins and dwarves make and play wargongs, their sound echoing through tunnels in the Underdark, however wargongs are not just common across the Underdark, but across other communities who have a strong focus on military might."
+								},
+								{
+									"type": "item",
+									"name": "Zulkoon",
+									"entry": "A complex pump organ that originated with the zulkirs of Thay, who use it in the casting of their spells. It is considered to have a dramatic, but sinister, sound."
+								}
+							]
 						}
 					]
 				}
