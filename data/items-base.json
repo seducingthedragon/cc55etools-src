@@ -3727,6 +3727,31 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Katana",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CMnk|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 3000,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"V|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"sword": true,
+			"weapon": true,
+			"hasFluff": true
+		},
+		{
 			"name": "Lance",
 			"source": "PHB",
 			"page": 149,

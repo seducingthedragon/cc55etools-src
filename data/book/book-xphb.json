@@ -9292,6 +9292,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Katana|XPHB} {@i Cultural (Monk)}",
+										"{@dice 1d8} Slashing",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty V|XPHB|Versatile} (@dice 1d10)",
+										"{@itemMastery Vex}",
+										"3 lb.",
+										"30 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Punch Dagger|XPHB}",
 										"{@dice 1d4} Piercing",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty UW|XPHB|Unarmed Weapon}, Special",
@@ -19251,6 +19263,11 @@
 									"type": "item",
 									"name": "Hurled Colpik",
 									"entry": "At first glance, this Dwarven weapon resembles nothing more than a tiny pickaxe with a very long handle. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor."
+								},
+								{
+									"type": "item",
+									"name": "Katana",
+									"entry": "The Katana is like a {@item Longsword|XPHB} except the blade is thinner, often of higher quality, sharpened on one side, and is slightly curved."
 								}
 							]
 						}

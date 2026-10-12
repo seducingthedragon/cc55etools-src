@@ -6580,6 +6580,13 @@
 			]
 		},
 		{
+			"name": "Katana",
+			"source": "XPHB",
+			"entries": [
+				"The Katana is like a {@item Longsword|XPHB} except the blade is thinner, often of higher quality, sharpened on one side, and is slightly curved."
+			]
+		},
+		{
 			"name": "Keoghtom's Ointment",
 			"source": "DMG",
 			"images": [
