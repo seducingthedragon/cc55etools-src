@@ -12152,6 +12152,7 @@
 									"type": "entries",
 									"name": "Hammer (1 GP)",
 									"page": 225,
+									"id": "6a2",
 									"entries": [
 										"A simple hammer used for various purposes from building to breaking something apart."
 									]
@@ -12341,6 +12342,7 @@
 									"type": "entries",
 									"name": "Mess Kit (2 SP)",
 									"page": "227",
+									"id": "6a4",
 									"entries": [
 										"This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."
 									]
@@ -12540,6 +12542,7 @@
 									"type": "entries",
 									"name": "Sealing Wax (5 SP)",
 									"page": 228,
+									"id": "6a5",
 									"entries": [
 										"Sealing Wax is used to seal correspondences to be sent out. They are often sealed, revealing an embossed symbol identifying the sender."
 									]
@@ -12575,6 +12578,7 @@
 									"type": "entries",
 									"name": "Soap",
 									"page": 228,
+									"id": "6a7",
 									"entries": [
 										"Soap is used to maintain hygiene during travels."
 									]
