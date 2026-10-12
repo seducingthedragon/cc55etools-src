@@ -9316,6 +9316,30 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Sai|XPHB} {@i Cultural (Monk)} (Bladed)",
+										"{@dice 1d4} Piercing",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
+										"{@itemMastery Vex}",
+										"2 lb.",
+										"10 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Sai|XPHB} {@i Cultural (Monk)} (Blunted)",
+										"{@dice 1d4} Bludgeoning",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
+										"{@itemMastery Sap}",
+										"2 lb.",
+										"5 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Spiked Chain|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d4} Piercing",
 										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} (@dice 1d4), {@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}",
@@ -19268,6 +19292,11 @@
 									"type": "item",
 									"name": "Katana",
 									"entry": "The Katana is like a {@item Longsword|XPHB} except the blade is thinner, often of higher quality, sharpened on one side, and is slightly curved."
+								},
+								{
+									"type": "item",
+									"name": "Sai (Bladed or Blunted)",
+									"entry": "A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong {@i (the monouchi)} as the longest and most significant part of the weapon. This central prong determines the difference between a Bladed and a Blunted Sai. A Bladed Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Blunted Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers."
 								}
 							]
 						}

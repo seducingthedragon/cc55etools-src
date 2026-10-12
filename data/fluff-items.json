@@ -10678,6 +10678,20 @@
 			]
 		},
 		{
+			"name": "Sai (Bladed)",
+			"source": "XPHB",
+			"entries": [
+				"A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong {@i (the monouchi)} as the longest and most significant part of the weapon. This central prong determines the difference between a Bladed and a Blunted Sai. A Bladed Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Blunted Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers."
+			]
+		},
+		{
+			"name": "Sai (Blunted)",
+			"source": "XPHB",
+			"entries": [
+				"A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong {@i (the monouchi)} as the longest and most significant part of the weapon. This central prong determines the difference between a Bladed and a Blunted Sai. A Bladed Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Blunted Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers."
+			]
+		},
+		{
 			"name": "Saint Markovia's Thighbone",
 			"source": "CoS",
 			"images": [

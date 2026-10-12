@@ -5829,6 +5829,52 @@
 			"value": 1000
 		},
 		{
+			"name": "Sai (Bladed)",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"type": "CMnk|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"L|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Sai (Blunted)",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"type": "CMnk|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"L|XPHB"
+			],
+			"mastery": [
+				"Sap|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"hasFluff": true
+		},
+		{
 			"name": "Scale Mail",
 			"source": "PHB",
 			"page": 144,
