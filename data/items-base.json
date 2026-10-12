@@ -625,6 +625,29 @@
 			]
 		},
 		{
+			"name": "Brass Knuckles",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 50,
+			"weaponCategory": "simple",
+			"property": [
+				"C|XPHB",
+				"F|XPHB",
+				"L|XPHB",
+				"UW|XPHB"
+			],
+			"mastery": [
+				"Sap|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true
+		},
+		{
 			"name": "Breastplate",
 			"source": "PHB",
 			"page": 145,
@@ -2547,13 +2570,6 @@
 			"dmg2": "1d6",
 			"weapon": true,
 			"entries": [
-				{
-					"type": "entries",
-					"name": "Special: Unarmed Attacks",
-					"entries": [
-						"This weapon allows the wielder to utilize the {@action Grapple [Unarmed Attack]|XPHB|Grapple} and {@action Shove [Unarmed Attack]|XPHB|Shove} options of an {@variantrule Unarmed Attack|XPHB} while wielding one or a pair of these weapons."
-					]
-				},
 				{
 					"type": "entries",
 					"name": "Heavy Dual Wield",
@@ -7750,6 +7766,21 @@
 			]
 		},
 		{
+			"abbreviation": "C",
+			"source": "XPHB",
+			"page": 214,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Concealable",
+					"entries": [
+						"You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Sleight of Hand|XPHB}) checks made to conceal/hide this weapon."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "D",
 			"source": "XPHB",
 			"page": 214,
@@ -8086,7 +8117,7 @@
 					"type": "entries",
 					"name": "Unarmed Weapon",
 					"entries": [
-						"An Unarmed Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers. Attacks with this weapon are both {@variantrule Weapon Attack|XPHB|Weapon Attacks} and {@variantrule Unarmed Attack|XPHB|Unarmed Attacks}. Wielding an Unarmed Weapon does not mean you have a free-hand. These weapons rely on you to hold a part of it in order to keep it secure."
+						"An Unarmed Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers. Attacks with this weapon are both {@variantrule Weapon Attack|XPHB|Weapon Attacks} and {@variantrule Unarmed Attack|XPHB|Unarmed Attacks}. This allows you the ability to use the {@action Grapple [Unarmed Attack]|XPHB|Grapple} and {@action Shove [Unarmed Attack]|XPHB|Shove} options of an {@variantrule Unarmed Attack|XPHB} while wielding this weapon. Wielding an Unarmed Weapon does not mean you have a free-hand as it relies on you to hold a part of it in order to keep it secure."
 					]
 				}
 			]
@@ -8377,7 +8408,7 @@
 					"type": "entries",
 					"name": "Specialized Cultural Weapon",
 					"entries": [
-						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. This weapon is significant to the Dwarven community."
+						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. These weapons are significant to the Dwarven community."
 					]
 				}
 			]
@@ -8392,7 +8423,7 @@
 					"type": "entries",
 					"name": "Specialized Cultural Weapon",
 					"entries": [
-						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. This weapon is significant to the Elven community."
+						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. These weapons are significant to the Elven community."
 					]
 				}
 			]
@@ -8407,7 +8438,7 @@
 					"type": "entries",
 					"name": "Specialized Cultural Weapon",
 					"entries": [
-						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. This weapon is significant to the Orc and Goblinoid communities."
+						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. These weapons are significant to the Orc and some Goblinoid communities, such as the Bugbears and Hobgoblins."
 					]
 				}
 			]

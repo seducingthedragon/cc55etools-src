@@ -8578,7 +8578,23 @@
 								{
 									"type": "item",
 									"name": "Category",
-									"entry": "Every weapon falls into a category: Simple or Martial. Weapon proficiencies are usually tied to one of these categories. For example, you might have proficiency with Simple weapons. If a weapon falls into the Specialized category, then in order to gain proficiency with that weapon, you must train to do so as this category does not grant proficiency with all of its weapons. Some Specialized Weapons are tied to specific cultures, communities, or groups."
+									"entry": "Every weapon falls into a category: Simple or Martial. Weapon proficiencies are usually tied to one of these categories. For example, you might have proficiency with Simple weapons."
+								},
+								{
+									"type": "item",
+									"name": "Category: Specialized Weapons",
+									"entries":[
+										"If a weapon falls into the Specialized category, then it is not necessarily a Simple or Martial weapon across the greater world. This category of weaponry does not grant proficiency to all of its weapons, however you may gain proficiency in any one of its weapons while exploring the world and training with one.",
+										"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare.",
+										{
+											"type": "list",
+											"items": [
+												"{@b Cultural (Dwarven).} These weapons are significant to the Dwarven community.",
+												"{@b Cultural (Elven).} These weapons are significant to the Elven community.",
+												"{@b Cultural (Orcish).} These weapons are significant to the Orc and some Goblinoid communities, such as the Bugbears and Hobgoblins."
+											]
+										}
+									]
 								},
 								{
 									"type": "item",
@@ -8631,6 +8647,18 @@
 										"entry": "{@i Simple Melee Weapons}"
 									}
 								],
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Brass Knuckles|XPHB}",
+										"{@dice 1d4} Bludgeoning",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty UW|XPHB|Unarmed Weapon}",
+										"{@itemMastery Sap}",
+										"1 lb.",
+										"5 SP"
+									]
+								},
 								{
 									"type": "row",
 									"style": "row-indent-first",
@@ -9360,6 +9388,15 @@
 								},
 								{
 									"type": "entries",
+									"name": "Concealable",
+									"page": 213,
+									"id": "a98",
+									"entries": [
+										"You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Sleight of Hand|XPHB}) checks made to conceal/hide this weapon."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Double",
 									"page": 213,
 									"id": "a95",
@@ -9480,7 +9517,7 @@
 									"page": 214,
 									"id": "a97",
 									"entries": [
-										"An Unarmed Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers. Attacks with this weapon are both {@variantrule Weapon Attack|XPHB|Weapon Attacks} and {@variantrule Unarmed Attack|XPHB|Unarmed Attacks}. Wielding an Unarmed Weapon does not mean you have a free-hand. These weapons rely on you to hold a part of it in order to keep it secure."
+										"An Unarmed Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers. Attacks with this weapon are both {@variantrule Weapon Attack|XPHB|Weapon Attacks} and {@variantrule Unarmed Attack|XPHB|Unarmed Attacks}. This allows you the ability to use the {@action Grapple [Unarmed Attack]|XPHB|Grapple} and {@action Shove [Unarmed Attack]|XPHB|Shove} options of an {@variantrule Unarmed Attack|XPHB} while wielding this weapon. Wielding an Unarmed Weapon does not mean you have a free-hand as it relies on you to hold a part of it in order to keep it secure."
 									]
 								},
 								{
