@@ -1140,6 +1140,13 @@
 			}
 		},
 		{
+			"name": "Bokken",
+			"source": "XPHB",
+			"entries": [
+				"This wooden practice sword can be used as a fearsome weapon in its own right."
+			]
+		},
+		{
 			"name": "Book of Exalted Deeds",
 			"source": "DMG",
 			"images": [

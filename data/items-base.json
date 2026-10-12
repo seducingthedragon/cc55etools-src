@@ -600,6 +600,29 @@
 			]
 		},
 		{
+			"name": "Bokken",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CMnk|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 10,
+			"weaponCategory": "specialized",
+			"property": [
+				"V|XPHB"
+			],
+			"mastery": [
+				"Sap|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"weapon": true,
+			"hasFluff": true
+		},
+		{
 			"name": "Bolt",
 			"source": "XPHB",
 			"page": 222,
@@ -8214,11 +8237,11 @@
 			"template": "{{prop_name_lower}}"
 		},
 		{
-			"name": "special",
+			"name": "Special",
 			"abbreviation": "S",
 			"source": "XPHB",
 			"page": 214,
-			"template": "{{prop_name_lower}}"
+			"template": "{{prop_name}}"
 		},
 		{
 			"abbreviation": "T",
@@ -8299,6 +8322,22 @@
 					"name": "Versatile",
 					"entries": [
 						"A Versatile weapon can be used with one or two hands. A damage value in parentheses appears with the property. The weapon deals that damage when used with two hands to make a melee attack."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "VH",
+			"source": "XPHB",
+			"page": 213,
+			"basicRules2024": true,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Very Heavy",
+					"entries": [
+						"You have {@variantrule Disadvantage|XPHB} on attack rolls with a Very Heavy weapon if your attack ability score isn't at least a 15."
 					]
 				}
 			]

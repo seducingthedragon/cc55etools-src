@@ -8633,12 +8633,12 @@
 								"Cost"
 							],
 							"colStyles": [
-								"col-2",
-								"col-2",
-								"col-4-1",
-								"col-1-3 text-center",
-								"col-1-3 text-center",
-								"col-1-3 text-right"
+								"col-3",
+								"col-2 text-center",
+								"col-4",
+								"col-1 text-center",
+								"col-1 text-center",
+								"col-1 text-center"
 							],
 							"rows": [
 								[
@@ -8774,7 +8774,7 @@
 									"row": [
 										"{@item Scythe|XPHB}",
 										"{@dice 1d8} Slashing",
-										"{{@itemProperty 2H|XPHB|Two-Handed}, {{@itemProperty H|XPHB|Heavy}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}",
+										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty H|XPHB|Heavy}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}",
 										"{@itemMastery Cleave}",
 										"6 lb.",
 										"5 GP"
@@ -9196,6 +9196,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Bokken|XPHB} {@i Cultural (Monk)}",
+										"{@dice 1d6} Bludgeoning",
+										"{@itemProperty V|XPHB|Versatile} (@dice 1d8)",
+										"{@itemMastery Sap}",
+										"2 lb.",
+										"1 SP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Double-Bladed Scimitar|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
 										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} (@dice 1d6)",
@@ -9576,6 +9588,15 @@
 									"id": "64c",
 									"entries": [
 										"A Versatile weapon can be used with one or two hands. A damage value in parentheses appears with the property. The weapon deals that damage when used with two hands to make a melee attack."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Very Heavy",
+									"page": 214,
+									"id": "637",
+									"entries": [
+										"You have {@variantrule Disadvantage|XPHB} on attack rolls with a Very Heavy weapon if your attack ability score isn't at least a 15."
 									]
 								}
 							]
@@ -19205,6 +19226,11 @@
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
+								{
+									"type": "item",
+									"name": "Bokken",
+									"entry": "This wooden practice sword can be used as a fearsome weapon in its own right."
+								},
 								{
 									"type": "item",
 									"name": "Chained Throwing Axe",
