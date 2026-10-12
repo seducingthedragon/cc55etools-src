@@ -9244,6 +9244,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Hook-Bearded Axe|XPHB} {@i Cultural (Orcish)}",
+										"{@dice 1d6} Slashing",
+										"{@itemProperty L|XPHB|Light}, {@itemProperty R|XPHB|Reach}, Special",
+										"{@itemMastery Slow}",
+										"4 lb.",
+										"12 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Hurled Colpik|XPHB} {@i Cultural (Dwarven)}",
 										"{@dice 1d4} Piercing",
 										"{@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
@@ -19177,6 +19189,14 @@
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
+								{
+									"type": "item",
+									"name": "Hook-Bearded Axe",
+									"entries": [
+										"This Hook-Bearded Axe, also known as the Agrogash {@i (\"wrath-pulling blade\")}, is known for its serrated hook at the bottom of the axe-head. It is often viewed as the lightest and smallest weapon used by Orcs, even though it typically has the size of a standard {@item Battleaxe|XPHB}.",
+										"{@b {@i Special: Revised Light.}} In order to use this weapon's {@itemProperty L|XPHB|Light} property, you need a Strength score of, at least, a 13."
+									]
+								},
 								{
 									"type": "item",
 									"name": "Hurled Colpik",

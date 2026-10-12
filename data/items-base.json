@@ -3168,6 +3168,43 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Hook-Bearded Axe",
+			"alias": [
+				"Agrogash"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"type": "COrc",
+			"rarity": "none",
+			"weight": 4,
+			"value": 1200,
+			"weaponCategory": "specialized",
+			"property": [
+				"L|XPHB",
+				"R|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Slow|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Revised Light",
+					"entries": [
+						"In order to use this weapon's {@itemProperty L|XPHB|Light} property, you need a Strength score of, at least, a 13."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Hooked Shortspear",
 			"source": "OotA",
 			"page": 224,

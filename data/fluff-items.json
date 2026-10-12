@@ -5600,6 +5600,23 @@
 			]
 		},
 		{
+			"name": "Hook-Bearded Axe",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"This Hook-Bearded Axe, also known as the Agrogash {@i (\"wrath-pulling blade\")}, is known for its serrated hook at the bottom of the axe-head. It is often viewed as the lightest and smallest weapon used by Orcs, even though it typically has the size of a standard {@item Battleaxe|XPHB}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Hoopak",
 			"source": "DSotDQ",
 			"images": [
