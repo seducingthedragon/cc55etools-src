@@ -8591,6 +8591,7 @@
 											"items": [
 												"{@b Cultural (Dwarven).} These weapons are significant to the Dwarven community.",
 												"{@b Cultural (Elven).} These weapons are significant to the Elven community.",
+												"{@b Cultural (Monks).} These weapons are significant to the Monk class.",
 												"{@b Cultural (Orcish).} These weapons are significant to the Orc and some Goblinoid communities, such as the Bugbears and Hobgoblins."
 											]
 										}

@@ -8476,6 +8476,21 @@
 			]
 		},
 		{
+			"name": "Cultural (Monks)",
+			"abbreviation": "CMnk",
+			"source": "XPHB",
+			"page": 214,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Specialized Cultural Weapon",
+					"entries": [
+						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. These weapons are significant to the Monk class."
+					]
+				}
+			]
+		},
+		{
 			"name": "Cultural (Orcish)",
 			"abbreviation": "COrc",
 			"source": "XPHB",
