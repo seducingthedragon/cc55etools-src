@@ -8786,7 +8786,7 @@
 									"row": [
 										"{@item Sickle|XPHB}",
 										"{@dice 1d4} Slashing",
-										"{@itemProperty L|XPHB|Light}",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
 										"{@itemMastery Nick}",
 										"2 lb.",
 										"1 GP"
