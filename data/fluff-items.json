@@ -9138,6 +9138,23 @@
 			}
 		},
 		{
+			"name": "Punch Dagger",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"With a blade as wide as a sword, yet as long as a dagger, this weapon is affixed to a base with a handle that when held, lays the blade in a way that appears as if it were jetting out of ones knuckles."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Puzzle Card",
 			"source": "BMT",
 			"images": [

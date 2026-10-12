@@ -9255,6 +9255,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Punch Dagger|XPHB}",
+										"{@dice 1d4} Piercing",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty UW|XPHB|Unarmed Weapon}, Special",
+										"{@itemMastery Sap}",
+										"1 lb.",
+										"5 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Spiked Chain|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d4} Piercing",
 										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} (@dice 1d4), {@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}",
@@ -9517,7 +9529,7 @@
 									"page": 214,
 									"id": "a97",
 									"entries": [
-										"An Unarmed Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers. Attacks with this weapon are both {@variantrule Weapon Attack|XPHB|Weapon Attacks} and {@variantrule Unarmed Attack|XPHB|Unarmed Attacks}. This allows you the ability to use the {@action Grapple [Unarmed Attack]|XPHB|Grapple} and {@action Shove [Unarmed Attack]|XPHB|Shove} options of an {@variantrule Unarmed Attack|XPHB} while wielding this weapon. Wielding an Unarmed Weapon does not mean you have a free-hand as it relies on you to hold a part of it in order to keep it secure."
+										"An Unarmed Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}. Wielding an Unarmed Weapon does not mean you have a free-hand as it relies on you to hold a part of it in order to keep it secure."
 									]
 								},
 								{

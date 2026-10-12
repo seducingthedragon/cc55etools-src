@@ -5352,6 +5352,43 @@
 			]
 		},
 		{
+			"name": "Punch Dagger",
+			"alias": [
+				"Katar"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 500,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"L|XPHB",
+				"UW|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Sap|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Unarmed Attacks",
+					"entries": [
+						"Due to how this weapon is made, you cannot use this weapon to make a {@action Shove [Unarmed Attack]|XPHB|Shove} attack with the hand that is wielding this weapon, unless you have a feat or feature, such as the {@feat Tavern Braweler|XPHB} feat, that allows you to use an {@action Attack|XPHB|Unarmed Strike Attack} and {@action Shove [Unarmed Attack]|XPHB|Shove} attack as part of the same {@action Attack|XPHB|Attack action}."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Quarterstaff",
 			"source": "PHB",
 			"page": 149,
@@ -8117,7 +8154,7 @@
 					"type": "entries",
 					"name": "Unarmed Weapon",
 					"entries": [
-						"An Unarmed Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers. Attacks with this weapon are both {@variantrule Weapon Attack|XPHB|Weapon Attacks} and {@variantrule Unarmed Attack|XPHB|Unarmed Attacks}. This allows you the ability to use the {@action Grapple [Unarmed Attack]|XPHB|Grapple} and {@action Shove [Unarmed Attack]|XPHB|Shove} options of an {@variantrule Unarmed Attack|XPHB} while wielding this weapon. Wielding an Unarmed Weapon does not mean you have a free-hand as it relies on you to hold a part of it in order to keep it secure."
+						"An Unarmed Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}. Wielding an Unarmed Weapon does not mean you have a free-hand as it relies on you to hold a part of it in order to keep it secure."
 					]
 				}
 			]
