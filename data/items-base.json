@@ -1404,6 +1404,44 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Chained Throwing Axe",
+			"alias": [
+				"Bologorash"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "R|XPHB",
+			"typeAlt": "COrc",
+			"rarity": "none",
+			"weight": 4,
+			"value": 2500,
+			"weaponCategory": "specialized",
+			"property": [
+				"2H|XPHB",
+				"T|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Sap|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Throwing and More.",
+					"entries": [
+						"When you throw this weapon, your main-hand does the attack while your off-hand typically maintains hold of the chain. After throwing this weapon, you can use your {@action Free Object Interaction|XPHB} or {@variantrule Bonus Action|XPHB} on your turn to retract the axe (your choice). Additionally, while holding both the chain and its attached axe in your hands, you cannot be disarmed of this weapon."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Cittern",
 			"source": "FRHoF",
 			"page": 132,

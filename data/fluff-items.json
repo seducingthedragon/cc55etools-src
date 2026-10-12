@@ -1025,17 +1025,7 @@
 			"name": "Birdpipes",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"Birdpipes are also known as Pan pipes, Satyr pipes, or a Shalm. In some worlds, these are sacred to {@deity Lliira|Faerûnian|scag} and popular with wood elf and wild elf bards. In others, they are simple yet soothing instrument of those hidden in the forests."
-							]
-						}
-					]
-				}
+				"Birdpipes are also known as Pan pipes, Satyr pipes, or a Shalm. In some worlds, these are sacred to {@deity Lliira|Faerûnian|scag} and popular with wood elf and wild elf bards. In others, they are simple yet soothing instrument of those hidden in the forests."
 			]
 		},
 		{
@@ -1621,17 +1611,7 @@
 			"name": "Buckler",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"A Buckler is a type of shield that is worn and not held. Its smaller size and light weight allows leather straps to be secured to a wearer's forearm while allowing the use of both hands to wield or hold something other than in. This smaller size does reduce the bonus granted by using a shield, however it is a popular shield for those who engage in {@action Two-Weapon Fighting|XPHB} or ranged weapon attacks."
-							]
-						}
-					]
-				}
+				"A Buckler is a type of shield that is worn and not held. Its smaller size and light weight allows leather straps to be secured to a wearer's forearm while allowing the use of both hands to wield or hold something other than in. This smaller size does reduce the bonus granted by using a shield, however it is a popular shield for those who engage in {@action Two-Weapon Fighting|XPHB} or ranged weapon attacks."
 			]
 		},
 		{
@@ -1870,6 +1850,13 @@
 					"width": 329,
 					"height": 371
 				}
+			]
+		},
+		{
+			"name": "Chained Throwing Axe",
+			"source": "XPHB",
+			"entries": [
+				"This Chained Throwing Axe, also known as the Bologorash {@i (\"flesh-rending flying blade\")}, is a wicked, serrated throwing axe attached to a length of chain. It is usually 30 feet long, however, it can be extended to a maximum chain length of 60 feet."
 			]
 		},
 		{
@@ -3102,17 +3089,7 @@
 			"name": "Double-Bladed Scimitar",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"The double-bladed scimitar is the signature weapon of various Elven communities. A haft of fine wood supports a long, curving blade on either end. Forged with techniques honed over centuries, these blades are strong, sharp, and remarkably light. Each scimitar is a masterpiece, and as a result the double-bladed scimitar is an expensive weapon (100 gp)\u2014few though ever have the opportunity to purchase one. This blade in the hands of a non-elf is generally assumed to have been stolen or looted from a fallen foe, and an Elf might feel entitled to demand its return or challenge the bearer to prove they're worthy to wield it."
-							]
-						}
-					]
-				}
+				"The double-bladed scimitar is the signature weapon of various Elven communities. A haft of fine wood supports a long, curving blade on either end. Forged with techniques honed over centuries, these blades are strong, sharp, and remarkably light. Each scimitar is a masterpiece, and as a result the double-bladed scimitar is an expensive weapon (100 gp)\u2014few though ever have the opportunity to purchase one. This blade in the hands of a non-elf is generally assumed to have been stolen or looted from a fallen foe, and an Elf might feel entitled to demand its return or challenge the bearer to prove they're worthy to wield it."
 			]
 		},
 		{
@@ -4626,17 +4603,7 @@
 			"name": "Glaur",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"Short, curved horns like a cornucopia. Played with valves, glaur sound like trumpets, while those without valves, known as gloon, have a more mournful sound."
-							]
-						}
-					]
-				}
+				"Short, curved horns like a cornucopia. Played with valves, glaur sound like trumpets, while those without valves, known as gloon, have a more mournful sound."
 			]
 		},
 		{
@@ -4773,17 +4740,7 @@
 			"name": "Granite Fists",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"These Granite Fists are a brutal pair of gauntlet-like designed weapons. Weighing 10 lbs per individual fist, these are made to break bones. These stone weapons are shapes to look like giant fists with an iron bar inside for the wielder to grip. They are frequently sold in pairs, however, it is not uncommon to see someone weilding only one. There are many variations of these fists within the Dwarven community, which includes spiked knuckles, iron rings, and more."
-							]
-						}
-					]
-				}
+				"These Granite Fists are a brutal pair of gauntlet-like designed weapons. Weighing 10 lbs per individual fist, these are made to break bones. These stone weapons are shapes to look like giant fists with an iron bar inside for the wielder to grip. They are frequently sold in pairs, however, it is not uncommon to see someone weilding only one. There are many variations of these fists within the Dwarven community, which includes spiked knuckles, iron rings, and more."
 			]
 		},
 		{
@@ -5112,17 +5069,7 @@
 			"name": "Hand Drum",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"A double-headed skin drum fitted with handles along its side."
-							]
-						}
-					]
-				}
+				"A double-headed skin drum fitted with handles along its side."
 			]
 		},
 		{
@@ -5161,17 +5108,7 @@
 			"name": "Harp",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"A harp is a large lyre with many more strings and often a foot pedal to press in order create that melodic tone. It is often not common to see a harp on the road as they are often performed for nobility and those who can afford the safe transport of such grand instrument."
-							]
-						}
-					]
-				}
+				"A harp is a large lyre with many more strings and often a foot pedal to press in order create that melodic tone. It is often not common to see a harp on the road as they are often performed for nobility and those who can afford the safe transport of such grand instrument."
 			]
 		},
 		{
@@ -5603,17 +5540,7 @@
 			"name": "Hook-Bearded Axe",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"This Hook-Bearded Axe, also known as the Agrogash {@i (\"wrath-pulling blade\")}, is known for its serrated hook at the bottom of the axe-head. It is often viewed as the lightest and smallest weapon used by Orcs, even though it typically has the size of a standard {@item Battleaxe|XPHB}."
-							]
-						}
-					]
-				}
+				"This Hook-Bearded Axe, also known as the Agrogash {@i (\"wrath-pulling blade\")}, is known for its serrated hook at the bottom of the axe-head. It is often viewed as the lightest and smallest weapon used by Orcs, even though it typically has the size of a standard {@item Battleaxe|XPHB}."
 			]
 		},
 		{
@@ -5743,17 +5670,7 @@
 			"name": "Hurled Colpik",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"At first glance, this Dwarven weapon resembles nothing more than a tiny pickaxe with a very long handle. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor."
-							]
-						}
-					]
-				}
+				"At first glance, this Dwarven weapon resembles nothing more than a tiny pickaxe with a very long handle. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor."
 			]
 		},
 		{
@@ -6636,17 +6553,7 @@
 			"name": "Joining Blades",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"Some say that the Double-Bladed Scimitar walked so the Joining Blades could run, and to the Elven Warriors of recent times would agree. The Double-Bladed Scimitar was once the staple weapon of a mighty Elven Warrior, however there was something missing. Combining the uses of dual wielding and the skill of maneuvering with a Double-Bladed Scimitar, the Joining Blades were born, setting a new standard for mighty Elven Warriors."
-							]
-						}
-					]
-				}
+				"Some say that the Double-Bladed Scimitar walked so the Joining Blades could run, and to the Elven Warriors of recent times would agree. The Double-Bladed Scimitar was once the staple weapon of a mighty Elven Warrior, however there was something missing. Combining the uses of dual wielding and the skill of maneuvering with a Double-Bladed Scimitar, the Joining Blades were born, setting a new standard for mighty Elven Warriors."
 			]
 		},
 		{
@@ -6956,17 +6863,7 @@
 			"name": "Longhorn",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"In some worlds, it is considered to be a flute of sophisticated make, found only in areas with skilled artisans, as in great cities or elven enclaves. Typically, it is a trumpet-shape instrument with a long reach and no valves, often seen at a royal court."
-							]
-						}
-					]
-				}
+				"In some worlds, it is considered to be a flute of sophisticated make, found only in areas with skilled artisans, as in great cities or elven enclaves. Typically, it is a trumpet-shape instrument with a long reach and no valves, often seen at a royal court."
 			]
 		},
 		{
@@ -7229,17 +7126,7 @@
 			"name": "Mandolin",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"A mandolin is a small lute with 4-courses or 8-strings."
-							]
-						}
-					]
-				}
+				"A mandolin is a small lute with 4-courses or 8-strings."
 			]
 		},
 		{
@@ -9192,17 +9079,7 @@
 			"name": "Punch Dagger",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"With a blade as wide as a sword, yet as long as a dagger, this weapon is affixed to a base with a handle that when held, lays the blade in a way that appears as if it were jetting out of ones knuckles."
-							]
-						}
-					]
-				}
+				"With a blade as wide as a sword, yet as long as a dagger, this weapon is affixed to a base with a handle that when held, lays the blade in a way that appears as if it were jetting out of ones knuckles."
 			]
 		},
 		{
@@ -11226,17 +11103,7 @@
 			"name": "Shawm",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"A double-reed instrument similar to an oboe or a bassoon, popular with gnomes, who have developed some bellows-powered versions."
-							]
-						}
-					]
-				}
+				"A double-reed instrument similar to an oboe or a bassoon, popular with gnomes, who have developed some bellows-powered versions."
 			]
 		},
 		{
@@ -11584,17 +11451,7 @@
 			"name": "Songhorn",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"A recorder, a simple type of flute, usually carved from wood."
-							]
-						}
-					]
-				}
+				"A recorder, a simple type of flute, usually carved from wood."
 			]
 		},
 		{
@@ -12854,17 +12711,7 @@
 			"name": "Tantan",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"A tambourine, a popular instrument with halflings and humans across various central and southern lands."
-							]
-						}
-					]
-				}
+				"A tambourine-like instrument, a popular instrument with halflings and humans across various central and southern lands."
 			]
 		},
 		{
@@ -13011,17 +12858,7 @@
 			"name": "Thelarr",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children\u2014to the parents' delight or regret."
-							]
-						}
-					]
-				}
+				"Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children\u2014to the parents' delight or regret."
 			]
 		},
 		{
@@ -13120,17 +12957,7 @@
 			"name": "Tocken",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"A hanging set of carved oval bells, usually played with a pair of light wooden hammers (or open handed). They are most common in underground cultures, where the resonant tones can carry."
-							]
-						}
-					]
-				}
+				"A hanging set of carved oval bells, usually played with a pair of light wooden hammers (or open handed). They are most common in underground cultures, where the resonant tones can carry."
 			]
 		},
 		{
@@ -13977,17 +13804,7 @@
 			"name": "Wargong",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"A metal gong, traditionally made from a shield, particularly the shield of an enemy. Both goblins and dwarves make and play wargongs, their sound echoing through tunnels in the Underdark, however wargongs are not just common across the Underdark, but across other communities who have a strong focus on military might."
-							]
-						}
-					]
-				}
+				"A metal gong, traditionally made from a shield, particularly the shield of an enemy. Both goblins and dwarves make and play wargongs, their sound echoing through tunnels in the Underdark, however wargongs are not just common across the Underdark, but across other communities who have a strong focus on military might."
 			]
 		},
 		{
@@ -14416,17 +14233,7 @@
 			"name": "Zulkoon",
 			"source": "XPHB",
 			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"entries": [
-								"A complex pump organ that originated with the zulkirs of Thay, who use it in the casting of their spells. It is considered to have a dramatic, but sinister, sound."
-							]
-						}
-					]
-				}
+				"A complex pump organ that originated with the zulkirs of Thay, who use it in the casting of their spells. It is considered to have a dramatic, but sinister, sound."
 			]
 		}
 	]

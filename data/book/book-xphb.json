@@ -9311,6 +9311,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Chained Throwing Axe|XPHB} {@i Cultural (Orcish)}",
+										"{@dice 1d6} Slashing",
+										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
+										"{@itemMastery Sap}",
+										"4 lb.",
+										"25 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Composite Bow|XPHB}",
 										"{@dice 1d10} Piercing",
 										"{@itemProperty A|XPHB|Ammunition} (Range 200/600; Arrow), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
@@ -19191,6 +19203,14 @@
 							"items": [
 								{
 									"type": "item",
+									"name": "Chained Throwing Axe",
+									"entries": [
+										"This Chained Throwing Axe, also known as the Bologorash {@i (\"flesh-rending flying blade\")}, is a wicked, serrated throwing axe attached to a length of chain. It is usually 30 feet long, however, it can be extended to a maximum chain length of 60 feet.",
+										"{@b {@i Special: Throwing and More.}} When you throw this weapon, your main-hand does the attack while your off-hand typically maintains hold of the chain. After throwing this weapon, you can use your {@action Free Object Interaction|XPHB} or {@variantrule Bonus Action|XPHB} on your turn to retract the axe (your choice). Additionally, while holding both the chain and its attached axe in your hands, you cannot be disarmed of this weapon."
+									]
+								},
+								{
+									"type": "item",
 									"name": "Hook-Bearded Axe",
 									"entries": [
 										"This Hook-Bearded Axe, also known as the Agrogash {@i (\"wrath-pulling blade\")}, is known for its serrated hook at the bottom of the axe-head. It is often viewed as the lightest and smallest weapon used by Orcs, even though it typically has the size of a standard {@item Battleaxe|XPHB}.",
@@ -19260,7 +19280,7 @@
 								{
 									"type": "item",
 									"name": "Tantan",
-									"entry": "A tambourine, a popular instrument with halflings and humans across various central and southern lands."
+									"entry": "A tambourine-like instrument, a popular instrument with halflings and humans across various central and southern lands."
 								},
 								{
 									"type": "item",
