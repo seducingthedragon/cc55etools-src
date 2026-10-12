@@ -9244,6 +9244,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Hurled Colpik|XPHB} {@i Cultural (Dwarven)}",
+										"{@dice 1d4} Piercing",
+										"{@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+										"{@itemMastery Sap}",
+										"2 lb.",
+										"3 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Joining Blades|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
 										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} (@dice 1d6), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
@@ -19160,7 +19172,18 @@
 					"page": 379,
 					"id": "a94",
 					"entries": [
-						"The following information are specific weapon entries from {@book Chapter 6|XPHB|6|Weapons} that have additional information."
+						"The following information are specific weapon entries from {@book Chapter 6|XPHB|6|Weapons} that have additional information.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Hurled Colpik",
+									"entry": "At first glance, this Dwarven weapon resembles nothing more than a tiny pickaxe with a very long handle. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor."
+								}
+							]
+						}
 					]
 				},
 				{

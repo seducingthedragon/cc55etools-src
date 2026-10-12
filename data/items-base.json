@@ -3359,6 +3359,30 @@
 			"ammoType": "firearm bullet|xphb"
 		},
 		{
+			"name": "Hurled Colpik",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CDwf|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 300,
+			"weaponCategory": "specialized",
+			"property": [
+				"L|XPHB",
+				"T|XPHB"
+			],
+			"mastery": [
+				"Sap|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true,
+			"hasFluff": true
+		},
+		{
 			"name": "Javelin",
 			"source": "PHB",
 			"page": 149,

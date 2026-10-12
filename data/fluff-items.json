@@ -5723,6 +5723,23 @@
 			}
 		},
 		{
+			"name": "Hurled Colpik",
+			"source": "XPHB",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"At first glance, this Dwarven weapon resembles nothing more than a tiny pickaxe with a very long handle. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Icewind Dale Trinket",
 			"source": "IDRotF",
 			"images": [
