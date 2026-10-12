@@ -217,6 +217,19 @@
 			"ammoType": "energy cell|xdmg"
 		},
 		{
+			"name": "Armored Glove",
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"entries": [
+				"An Armored Glove, or gauntlet, can be worn with any type of armor. It does not grant any AC bonus, however it does have thick and harden materials over the knuckles that make for a substantial hit. As long as the wearer has, at least, {@variantrule Armor Training|XPHB|Light Armor Training}, they gain a +2 damage bonus to their {@action Attack|XPHB|Unarmed Strike Attack}. While wearing these gloves, the wearer is considered to have free-hands available to still wield a weapon, shield, or other object, however may experience challenges with small, {@itemProperty F|XPHB|Finesse-like} items."
+			]
+		},
+		{
 			"name": "Arrow",
 			"source": "PHB",
 			"page": 150,

@@ -9881,6 +9881,25 @@
 									{
 										"type": "cell",
 										"width": 6,
+										"entry": "{@i Armor Parts (See {@book Appendix D|XPHB|11})}"
+									}
+								],
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Armored Glove|XPHB}",
+										"\u2014",
+										"\u2014",
+										"\u2014",
+										"1 lb.",
+										"2 GP"
+									]
+								},
+								[
+									{
+										"type": "cell",
+										"width": 6,
 										"entry": "{@i Shield ({@action Utilize|XPHB} Action to Don or Doff)}"
 									}
 								],
@@ -9963,7 +9982,7 @@
 									"page": 219,
 									"id": "636",
 									"entries": [
-										"While Armor Parts do not require their own separate training in order to use them, they do require Light, Medium, or Heavy {@variantrule Armor training|XPHB}. Armor Parts often are typically helms or helmets, paulrons, gauntlets or gloves, and greaves. They are used to replace damaged parts of your armor, enhance or customize your armor, or add a part that does not come with your armor. Additionally, on their own, they do not typically add any bonuses to your {@variantrule Armor Class|XPHB}, however, some may have other unique benefits of their own."
+										"While Armor Parts do not require their own separate training in order to use them, they do require Light, Medium, or Heavy {@variantrule Armor training|XPHB}. Armor Parts often are typically helms or helmets, paulrons, bracers, gauntlets or gloves, and greaves. They are used to replace damaged parts of your armor, enhance or customize your armor, or add a part that does not come with your armor. Additionally, on their own, they do not typically add any bonuses to your {@variantrule Armor Class|XPHB}, however, some may have other unique benefits of their own."
 									]
 								},
 								{
@@ -19120,6 +19139,11 @@
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
+								{
+									"type": "item",
+									"name": "Armored Glove",
+									"entry": "An Armored Glove, or gauntlet, can be worn with any type of armor. It does not grant any AC bonus, however it does have thick and harden materials over the knuckles that make for a substantial hit. As long as the wearer has, at least, {@variantrule Armor Training|XPHB|Light Armor Training}, they gain a +2 damage bonus to their {@action Attack|XPHB|Unarmed Strike Attack}. While wearing these gloves, the wearer is considered to have free-hands available to still wield a weapon, shield, or other object, however may experience challenges with small, {@itemProperty F|XPHB|Finesse-like} items."
+								},
 								{
 									"type": "item",
 									"name": "Buckler",
