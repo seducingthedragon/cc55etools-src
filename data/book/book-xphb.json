@@ -9208,6 +9208,30 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Chakram|XPHB} {@i Cultural (Monk)}",
+										"{@dice 1d6} Slashing",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 80/320), Special",
+										"{@itemMastery Slow}",
+										"1 lb.",
+										"7 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Chakri|XPHB} {@i Cultural (Monk)}",
+										"{@dice 1d4} Slashing",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 40/160), Special",
+										"{@itemMastery Vex}",
+										"0.5 lb.",
+										"5 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Double-Bladed Scimitar|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
 										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d6})",
@@ -19290,6 +19314,16 @@
 								},
 								{
 									"type": "item",
+									"name": "Chakram {@i Cultural: Monk}",
+									"entry": "A Chakram is a bladed disk with a central opening for improved aerodynamics. In its most simplistic form, it is extremely concealable, while providing a longer range for thrown weapons. When thrown, it \"vanishes\" in the air, similarly to a Shuriken, making it nearly impossible to track before it reaches its target."
+								},
+								{
+									"type": "item",
+									"name": "Chakri {@i Cultural: Monk}",
+									"entry": "Chakri is a smaller and lighter version of the Ckakram. Due to its smaller size, its range is reduce but you can draw more Chakri on one draw and potentially wear it on your wrists while remaining unarmed."
+								},
+								{
+									"type": "item",
 									"name": "Chained Throwing Axe {@i Cultural: Orcish}",
 									"entries": [
 										"This Chained Throwing Axe, also known as the Bologorash {@i (\"flesh-rending flying blade\")}, is a wicked, serrated throwing axe attached to a length of chain. It is usually 30 feet long, however, it can be extended to a maximum chain length of 60 feet.",
@@ -19313,7 +19347,7 @@
 									"type": "item",
 									"name": "Joining Blades {@i Cultural: Elven}",
 									"entries": [
-										"Some say that the Double-Bladed Scimitar walked so the Joining Blades could run, and to the Elven Warriors of recent times would agree. The Double-Bladed Scimitar was once the staple weapon of a mighty Elven Warrior, however there was something missing. Combining the uses of dual wielding and the skill of maneuvering with a Double-Bladed Scimitar, the Joining Blades were born, setting a new standard for mighty Elven Warriors."
+										"Some say that the Double-Bladed Scimitar walked so the Joining Blades could run, and to the Elven Warriors of recent times would agree. The Double-Bladed Scimitar was once the staple weapon of a mighty Elven Warrior, however there was something missing. Combining the uses of dual wielding and the skill of maneuvering with a Double-Bladed Scimitar, the Joining Blades were born, setting a new standard for mighty Elven Warriors.",
 										"{@b {@i Special.}} The Two Forms, {@u Joined} and {@u Unjoined}, are described below. Regardless of what form this weapon takes, it uses the same weapon mastery property.",
 										"{@b The {@u Joined} form}} presents as if it were a {@item Double-Bladed Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}.",
 										"{@b The {@u Unjoined} form} presents as two standard {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}."

@@ -1476,6 +1476,76 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Chakram",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"type": "CMnk|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 700,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"L|XPHB",
+				"T|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Slow|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"range": "80/320",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Multi-Draw",
+					"entries": [
+						"Due to its flat form, when you draw a Chakram as part of your {@action Attack|XPHB} action, you can draw two Chakrams on one draw."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Chakri",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"type": "CMnk|XPHB",
+			"rarity": "none",
+			"weight": 0.5,
+			"value": 500,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"L|XPHB",
+				"T|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"range": "40/160",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Multi-Draw",
+					"entries": [
+						"Due to its flat form, when you draw a Chakri as part of your {@action Attack|XPHB} action, you can draw three Chakris on one draw."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Club",
 			"source": "PHB",
 			"page": 149,

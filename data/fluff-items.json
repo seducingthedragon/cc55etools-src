@@ -1867,6 +1867,20 @@
 			]
 		},
 		{
+			"name": "Chakram",
+			"source": "XPHB",
+			"entries": [
+				"A Chakram is a bladed disk with a central opening for improved aerodynamics. In its most simplistic form, it is extremely concealable, while providing a longer range for thrown weapons. When thrown, it \"vanishes\" in the air, similarly to a Shuriken, making it nearly impossible to track before it reaches its target."
+			]
+		},
+		{
+			"name": "Chakri",
+			"source": "XPHB",
+			"entries": [
+				"Chakri is a smaller and lighter version of the Ckakram. Due to its smaller size, its range is reduce but you can draw more Chakri on one draw and potentially wear it on your wrists while remaining unarmed."
+			]
+		},
+		{
 			"name": "Charlatan's Die",
 			"source": "XDMG",
 			"images": [
