@@ -3682,6 +3682,7 @@
 			"value": 20000,
 			"weaponCategory": "specialized",
 			"property": [
+				"2F|XPHB",
 				"2H|XPHB",
 				"D|XPHB",
 				"F|XPHB",
@@ -3697,12 +3698,11 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
-				"The Joining Blades came to be as an upgrade to the {@item Double-Bladed Scimitar}.",
 				{
 					"type": "entries",
-					"name": "Special: The Two Forms",
+					"name": "Special",
 					"entries": [
-						"This weapon had two forms: the {@b Joined} form and the {@b Unjoined} form. It takes a {@action Free Object Interaction|XPHB|Free Action} to unjoin the weapon's parts, however, it takes a {@variantrule Bonus Action|XPHB} to join the weapon's parts.",
+						"The Two Forms, {@u Joined} and {@u Unjoined}, are described below. Regardless of what form this weapon takes, it uses the same weapon mastery property.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -3710,14 +3710,14 @@
 								{
 									"type": "item",
 									"nameDot": false,
-									"name": "The {@b Joined} form",
-									"entry": "presents as if it were a {@item Double-Bladed Scimitar|XPHB}. While joined, it has the {@itemProperty 2H|XPHB|Two-Handed} and {{@itemProperty D|XPHB|Double} property."
+									"name": "The {@u Joined} form",
+									"entry": "presents as if it were a {@item Double-Bladed Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}."
 								},
 								{
 									"type": "item",
 									"nameDot": false,
-									"name": "The {@b Unjoined} form",
-									"entry": "presents as two {@item Scimitar|XPHB|Scimitars} with the same {@itemProperty L|XPHB|Light} and {{@itemProperty F|XPHB|Finesse} property, and dealing {@damage 1d6} Slashing damage."
+									"name": "The {@u Unjoined} form",
+									"entry": "presents as two standard {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}."
 								}
 							]
 						}
@@ -7909,6 +7909,21 @@
 	],
 	"itemProperty": [
 		{
+			"abbreviation": "2F",
+			"source": "XPHB",
+			"page": 214,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Two Forms",
+					"entries": [
+						"This weapon can change its form. A weapon with two forms does not have all of its listed weapon properties all the time. See the weapon's specific informational details for a break down of this weapon's specific forms and which weapon properties are associated with which form. Typically, a weapon with two forms can be separated from one weapon into two. When that is the case, separating a weapon takes a {@action Free Object Interaction|XPHB} and putting them back together takes a {@variantrule Bonus Action|XPHB}. If a two-formed weapon does not follow this rule, it will be specified."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "2H",
 			"source": "PHB",
 			"page": 147,
@@ -8394,9 +8409,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Unarmed Weapon",
+					"name": "\"Unarmed\" Weapon",
 					"entries": [
-						"An Unarmed Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}. Wielding an Unarmed Weapon does not mean you have a free-hand as it relies on you to hold a part of it in order to keep it secure."
+						"An \"Unarmed\" Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers, yet still requires you to grip part of the weapon itself. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}."
 					]
 				}
 			]

@@ -9282,7 +9282,7 @@
 									"row": [
 										"{@item Joining Blades|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
-										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d6}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
+										"{@itemProperty 2F|XPHB|Two Forms}, {@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d6}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
 										"{@itemMastery Vex}",
 										"6 lb.",
 										"200 GP"
@@ -9613,6 +9613,15 @@
 								},
 								{
 									"type": "entries",
+									"name": "Two Forms",
+									"page": 214,
+									"id": "638",
+									"entries": [
+										"This weapon can change its form. A weapon with two forms does not have all of its listed weapon properties all the time. See the weapon's specific informational details for a break down of this weapon's specific forms and which weapon properties are associated with which form. Typically, a weapon with two forms can be separated from one weapon into two. When that is the case, separating a weapon takes a {@action Free Object Interaction|XPHB} and putting them back together takes a {@variantrule Bonus Action|XPHB}. If a two-formed weapon does not follow this rule, it will be specified."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Two-Handed",
 									"page": 214,
 									"id": "64b",
@@ -9622,11 +9631,11 @@
 								},
 								{
 									"type": "entries",
-									"name": "Unarmed Weapon",
+									"name": "\"Unarmed\" Weapon",
 									"page": 214,
 									"id": "634",
 									"entries": [
-										"An Unarmed Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}. Wielding an Unarmed Weapon does not mean you have a free-hand as it relies on you to hold a part of it in order to keep it secure."
+										"An \"Unarmed\" Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers, yet still requires you to grip part of the weapon itself. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}."
 									]
 								},
 								{
@@ -19299,6 +19308,16 @@
 									"type": "item",
 									"name": "Hurled Colpik {@i Cultural: Dwarven}",
 									"entry": "At first glance, this Dwarven weapon resembles nothing more than a tiny pickaxe with a very long handle. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor."
+								},
+								{
+									"type": "item",
+									"name": "Joining Blades {@i Cultural: Elven}",
+									"entries": [
+										"Some say that the Double-Bladed Scimitar walked so the Joining Blades could run, and to the Elven Warriors of recent times would agree. The Double-Bladed Scimitar was once the staple weapon of a mighty Elven Warrior, however there was something missing. Combining the uses of dual wielding and the skill of maneuvering with a Double-Bladed Scimitar, the Joining Blades were born, setting a new standard for mighty Elven Warriors."
+										"{@b {@i Special.}} The Two Forms, {@u Joined} and {@u Unjoined}, are described below. Regardless of what form this weapon takes, it uses the same weapon mastery property.",
+										"{@b The {@u Joined} form}} presents as if it were a {@item Double-Bladed Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}.",
+										"{@b The {@u Unjoined} form} presents as two standard {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}."
+									]
 								},
 								{
 									"type": "item",
