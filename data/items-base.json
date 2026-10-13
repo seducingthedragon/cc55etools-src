@@ -1522,6 +1522,7 @@
 			"value": 500,
 			"weaponCategory": "specialized",
 			"property": [
+				"C|XPHB",
 				"F|XPHB",
 				"L|XPHB",
 				"T|XPHB",
@@ -3819,6 +3820,43 @@
 			"dmg2": "1d10",
 			"sword": true,
 			"weapon": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Kunai",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CMnk|XPHB",
+			"rarity": "none",
+			"weight": 0.5,
+			"value": 50,
+			"weaponCategory": "specialized",
+			"property": [
+				"C|XPHB",
+				"F|XPHB",
+				"L|XPHB",
+				"T|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"range": "20/60",
+			"dagger": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Multi-Draw",
+					"entries": [
+						"Due to the shape of this weapon, you can draw and hold two of these weapons with one hand instead of one."
+					]
+				}
+			],
 			"hasFluff": true
 		},
 		{

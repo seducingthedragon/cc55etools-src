@@ -6679,6 +6679,13 @@
 			]
 		},
 		{
+			"name": "Kunai",
+			"source": "XPHB",
+			"entries": [
+				"A Kunai is a dagger-like weapon that originated as a multipurpose gardening tool before evolving to its primarily weapon-like form. As a weapon, it has a leaf-shaped wrought blade, lacks a cross-guard, with a grip often wrapped in rope, and an O-Ring styled pommel whose diameter is wider than the grip. While it is commonly perceived as a ranged weapon, like a dart, those proficient with this weapon understands its melee purpose."
+			]
+		},
+		{
 			"name": "Lamp",
 			"source": "XPHB",
 			"images": [

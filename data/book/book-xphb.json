@@ -9222,7 +9222,7 @@
 									"row": [
 										"{@item Chakri|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Slashing",
-										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 40/160), Special",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 40/160), Special",
 										"{@itemMastery Vex}",
 										"0.5 lb.",
 										"5 GP"
@@ -9322,6 +9322,18 @@
 										"{@itemMastery Vex}",
 										"3 lb.",
 										"30 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Kunai|XPHB} {@i Cultural (Monk)}",
+										"{@dice 1d4} Piercing",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
+										"{@itemMastery Vex}",
+										"0.5 lb.",
+										"5 SP"
 									]
 								},
 								{
@@ -19357,6 +19369,14 @@
 									"type": "item",
 									"name": "Katana {@i Cultural: Monk}",
 									"entry": "The Katana is like a {@item Longsword|XPHB} except the blade is thinner, often of higher quality, sharpened on one side, and is slightly curved."
+								},
+								{
+									"type": "item",
+									"name": "Kunai {@i Cultural: Monk}",
+									"entries": [
+										"A Kunai is a dagger-like weapon that originated as a multipurpose gardening tool before evolving to its primarily weapon-like form. As a weapon, it has a leaf-shaped wrought blade, lacks a cross-guard, with a grip often wrapped in rope, and an O-Ring styled pommel whose diameter is wider than the grip. While it is commonly perceived as a ranged weapon, like a dart, those proficient with this weapon understands its melee purpose.",
+										"{@b {@i Special: Multi-Draw.}} Due to the shape of this weapon, you can draw and hold two of these weapons with one hand instead of one."
+									]
 								},
 								{
 									"type": "item",
