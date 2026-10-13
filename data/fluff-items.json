@@ -11316,6 +11316,21 @@
 			]
 		},
 		{
+			"name": "Shuriken",
+			"source": "XPHB",
+			"entries": [
+				"A Shuriken is a flat throwing blade with 2 to 8 sharp points, each one with an equal distance from the weapon's center, where the wielder holds it with a pinch grip. Due to its expendable nature, it is often sold is packs but can be purchased individually. Lodging a group of shurikens in the ground can also act as {@item Caltrops|XPHB}."
+			]
+		},
+		{
+			"name": "Shuriken (20)",
+			"source": "XPHB",
+			"_copy": {
+				"name": "Shuriken",
+				"source": "XPHB"
+			}
+		},
+		{
 			"name": "Sickle",
 			"source": "XPHB",
 			"images": [

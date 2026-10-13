@@ -9388,6 +9388,30 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Shuriken|XPHB} {@i Cultural (Monk)}",
+										"{@dice 1d4} Piercing",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
+										"{@itemMastery Vex}",
+										"0.25 lb.",
+										"5 SP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Shuriken|XPHB} (20) {@i Cultural (Monk)}",
+										"{@dice 1d4} Piercing",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
+										"{@itemMastery Vex}",
+										"5 lb.",
+										"10 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Spiked Chain|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d4} Piercing",
 										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d4}), {@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}",
@@ -19327,12 +19351,18 @@
 								{
 									"type": "item",
 									"name": "Chakram {@i Cultural: Monk}",
-									"entry": "A Chakram is a bladed disk with a central opening for improved aerodynamics. In its most simplistic form, it is extremely concealable, while providing a longer range for thrown weapons. When thrown, it \"vanishes\" in the air, similarly to a Shuriken, making it nearly impossible to track before it reaches its target."
+									"entries": [
+										"A Chakram is a bladed disk with a central opening for improved aerodynamics. In its most simplistic form, it is extremely concealable, while providing a longer range for thrown weapons. When thrown, it \"vanishes\" in the air, similarly to a Shuriken, making it nearly impossible to track before it reaches its target.",
+										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Chakram as part of your {@action Attack|XPHB} action, you can draw two Chakrams on one draw, while attacking with one weapon per {@action Attack|XPHB}."
+									]
 								},
 								{
 									"type": "item",
 									"name": "Chakri {@i Cultural: Monk}",
-									"entry": "Chakri is a smaller and lighter version of the Ckakram. Due to its smaller size, its range is reduce but you can draw more Chakri on one draw and potentially wear it on your wrists while remaining unarmed."
+									"entries": [
+										"Chakri is a smaller and lighter version of the Ckakram. Due to its smaller size, its range is reduce but you can draw more Chakri on one draw and potentially wear it on your wrists while remaining unarmed.",
+										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Chakri as part of your {@action Attack|XPHB} action, you can draw three Chakris on one draw, while attacking with one weapon per {@action Attack|XPHB}."
+									]
 								},
 								{
 									"type": "item",
@@ -19375,7 +19405,7 @@
 									"name": "Kunai {@i Cultural: Monk}",
 									"entries": [
 										"A Kunai is a dagger-like weapon that originated as a multipurpose gardening tool before evolving to its primarily weapon-like form. As a weapon, it has a leaf-shaped wrought blade, lacks a cross-guard, with a grip often wrapped in rope, and an O-Ring styled pommel whose diameter is wider than the grip. While it is commonly perceived as a ranged weapon, like a dart, those proficient with this weapon understands its melee purpose.",
-										"{@b {@i Special: Multi-Draw.}} Due to the shape of this weapon, you can draw and hold two of these weapons with one hand instead of one."
+										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Kunai as part of your {@action Attack|XPHB} action, you can draw two Kunais on one draw, while attacking with one weapon per {@action Attack|XPHB}."
 									]
 								},
 								{
@@ -19390,6 +19420,14 @@
 									"type": "item",
 									"name": "Sai (Bladed or Blunted) {@i Cultural: Monk}",
 									"entry": "A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong {@i (the monouchi)} as the longest and most significant part of the weapon. This central prong determines the difference between a Bladed and a Blunted Sai. A Bladed Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Blunted Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers."
+								},
+								{
+									"type": "item",
+									"name": "Shuriken (Single or 20) {@i Cultural: Monk}",
+									"entries": [
+										"A Shuriken is a flat throwing blade with 2 to 8 sharp points, each one with an equal distance from the weapon's center, where the wielder holds it with a pinch grip. Due to its expendable nature, it is often sold is packs but can be purchased individually. Lodging a group of shurikens in the ground can also act as {@item Caltrops|XPHB}.",
+										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Shuriken as part of your {@action Attack|XPHB} action, you can draw up to three Shurikens on one draw, while attacking with one weapon per {@action Attack|XPHB}."
+									]
 								}
 							]
 						}

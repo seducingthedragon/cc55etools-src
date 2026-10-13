@@ -1504,7 +1504,7 @@
 					"type": "entries",
 					"name": "Special: Multi-Draw",
 					"entries": [
-						"Due to its flat form, when you draw a Chakram as part of your {@action Attack|XPHB} action, you can draw two Chakrams on one draw."
+						"Due to its flat form, when you draw a Chakram as part of your {@action Attack|XPHB} action, you can draw two Chakrams on one draw, while attacking with one weapon per {@action Attack|XPHB}."
 					]
 				}
 			],
@@ -1540,7 +1540,7 @@
 					"type": "entries",
 					"name": "Special: Multi-Draw",
 					"entries": [
-						"Due to its flat form, when you draw a Chakri as part of your {@action Attack|XPHB} action, you can draw three Chakris on one draw."
+						"Due to its flat form, when you draw a Chakri as part of your {@action Attack|XPHB} action, you can draw three Chakris on one draw, while attacking with one weapon per {@action Attack|XPHB}."
 					]
 				}
 			],
@@ -3853,7 +3853,7 @@
 					"type": "entries",
 					"name": "Special: Multi-Draw",
 					"entries": [
-						"Due to the shape of this weapon, you can draw and hold two of these weapons with one hand instead of one."
+						"Due to its flat form, when you draw a Kunai as part of your {@action Attack|XPHB} action, you can draw two Kunais on one draw, however, while attacking with one weapon per {@action Attack|XPHB}."
 					]
 				}
 			],
@@ -6440,6 +6440,84 @@
 			"firearm": true,
 			"weapon": true,
 			"ammoType": "firearm bullet|xphb"
+		},
+		{
+			"name": "Shuriken",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "R|XPHB",
+			"typeAlt": "CMnk|XPHB",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 50,
+			"weaponCategory": "specialized",
+			"property": [
+				"C|XPHB",
+				"F|XPHB",
+				"L|XPHB",
+				"T|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"range": "20/60",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Multi-Draw",
+					"entries": [
+						"Due to its flat form, when you draw a Shuriken as part of your {@action Attack|XPHB} action, you can draw up to three Shurikens on one draw, while attacking with one weapon per {@action Attack|XPHB}."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Shuriken (20)",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "R|XPHB",
+			"typeAlt": "CMnk|XPHB",
+			"rarity": "none",
+			"weight": 5,
+			"value": 1000,
+			"weaponCategory": "specialized",
+			"property": [
+				"C|XPHB",
+				"F|XPHB",
+				"L|XPHB",
+				"T|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"range": "20/60",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Multi-Draw",
+					"entries": [
+						"Due to its flat form, when you draw a Shuriken as part of your {@action Attack|XPHB} action, you can draw up to three Shurikens on one draw, while attacking with one weapon per {@action Attack|XPHB}."
+					]
+				}
+			],
+			"packContents": [
+				{
+					"item": "shuriken|xphb",
+					"quantity": 20
+				}
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Sickle",
