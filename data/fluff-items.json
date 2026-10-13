@@ -8217,6 +8217,13 @@
 			]
 		},
 		{
+			"name": "Nunchaku",
+			"source": "XPHB",
+			"entries": [
+				"Nunchakus, or commonly referred to as \"Nunchucks\" by non-Martial Arts practitioners, are unique {@itemProperty D|XPHB|Double} weapons as the handle of the weapon is also the portion of the weapon that you attack with."
+			]
+		},
+		{
 			"name": "Oathbow",
 			"source": "DMG",
 			"images": [

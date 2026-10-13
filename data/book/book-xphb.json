@@ -9198,7 +9198,7 @@
 									"row": [
 										"{@item Bokken|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d6} Bludgeoning",
-										"{@itemProperty V|XPHB|Versatile} (@dice 1d8)",
+										"{@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
 										"{@itemMastery Sap}",
 										"2 lb.",
 										"1 SP"
@@ -9210,7 +9210,7 @@
 									"row": [
 										"{@item Double-Bladed Scimitar|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
-										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} (@dice 1d6)",
+										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d6})",
 										"{@itemMastery Vex}",
 										"5 lb.",
 										"100 GP"
@@ -9282,7 +9282,7 @@
 									"row": [
 										"{@item Joining Blades|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
-										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} (@dice 1d6), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
+										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d6}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
 										"{@itemMastery Vex}",
 										"6 lb.",
 										"200 GP"
@@ -9294,10 +9294,22 @@
 									"row": [
 										"{@item Katana|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d8} Slashing",
-										"{@itemProperty F|XPHB|Finesse}, {@itemProperty V|XPHB|Versatile} (@dice 1d10)",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
 										"{@itemMastery Vex}",
 										"3 lb.",
 										"30 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Nunchaku|XPHB} {@i Cultural (Monk)}",
+										"{@dice 1d4} Bludgeoning",
+										"{@itemProperty D|XPHB|Double} ({@dice 1d4}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
+										"{@itemMastery Sap}",
+										"2 lb.",
+										"5 SP"
 									]
 								},
 								{
@@ -9342,7 +9354,7 @@
 									"row": [
 										"{@item Spiked Chain|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d4} Piercing",
-										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} (@dice 1d4), {@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}",
+										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d4}), {@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}",
 										"{@itemMastery Sap}",
 										"10 lb.",
 										"50 GP"
@@ -19264,12 +19276,12 @@
 							"items": [
 								{
 									"type": "item",
-									"name": "Bokken",
+									"name": "Bokken {@i Cultural: Monk}",
 									"entry": "This wooden practice sword can be used as a fearsome weapon in its own right."
 								},
 								{
 									"type": "item",
-									"name": "Chained Throwing Axe",
+									"name": "Chained Throwing Axe {@i Cultural: Orcish}",
 									"entries": [
 										"This Chained Throwing Axe, also known as the Bologorash {@i (\"flesh-rending flying blade\")}, is a wicked, serrated throwing axe attached to a length of chain. It is usually 30 feet long, however, it can be extended to a maximum chain length of 60 feet.",
 										"{@b {@i Special: Throwing and More.}} When you throw this weapon, your main-hand does the attack while your off-hand typically maintains hold of the chain. After throwing this weapon, you can use your {@action Free Object Interaction|XPHB} or {@variantrule Bonus Action|XPHB} on your turn to retract the axe (your choice). Additionally, while holding both the chain and its attached axe in your hands, you cannot be disarmed of this weapon."
@@ -19277,7 +19289,7 @@
 								},
 								{
 									"type": "item",
-									"name": "Hook-Bearded Axe",
+									"name": "Hook-Bearded Axe {@i Cultural: Orcish}",
 									"entries": [
 										"This Hook-Bearded Axe, also known as the Agrogash {@i (\"wrath-pulling blade\")}, is known for its serrated hook at the bottom of the axe-head. It is often viewed as the lightest and smallest weapon used by Orcs, even though it typically has the size of a standard {@item Battleaxe|XPHB}.",
 										"{@b {@i Special: Revised Light.}} In order to use this weapon's {@itemProperty L|XPHB|Light} property, you need a Strength score of, at least, a 13."
@@ -19285,17 +19297,25 @@
 								},
 								{
 									"type": "item",
-									"name": "Hurled Colpik",
+									"name": "Hurled Colpik {@i Cultural: Dwarven}",
 									"entry": "At first glance, this Dwarven weapon resembles nothing more than a tiny pickaxe with a very long handle. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor."
 								},
 								{
 									"type": "item",
-									"name": "Katana",
+									"name": "Katana {@i Cultural: Monk}",
 									"entry": "The Katana is like a {@item Longsword|XPHB} except the blade is thinner, often of higher quality, sharpened on one side, and is slightly curved."
 								},
 								{
 									"type": "item",
-									"name": "Sai (Bladed or Blunted)",
+									"name": "Nunchaku {@i Cultural: Monk}",
+									"entries": [
+										"Nunchakus, or commonly referred to as \"Nunchucks\" by non-Martial Arts practitioners, are unique {@itemProperty D|XPHB|Double} weapons as the handle of the weapon is also the portion of the weapon that you attack with.",
+										"{@b {@i Special: Indirectly Two-Handed.}} While this weapon is a One-Handed weapon to attack with, in order to utilize its {@itemProperty D|XPHB|Double} property, you would need to maneuver the weapon with and between both hands. Due to this, if your Dexterity score is at least a 13, you can take the {@action Free Object Interaction|XPHB} as part of each attack you make on your turn with this weapon as long as you do not use that free action for a different object interaction."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Sai (Bladed or Blunted) {@i Cultural: Monk}",
 									"entry": "A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong {@i (the monouchi)} as the longest and most significant part of the weapon. This central prong determines the difference between a Bladed and a Blunted Sai. A Bladed Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Blunted Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers."
 								}
 							]
