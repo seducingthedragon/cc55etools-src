@@ -6,6 +6,43 @@
 	},
 	"baseitem": [
 		{
+			"name": "Agrogash",
+			"alias": [
+				"Hook-Bearded Axe"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"type": "COrc|XPHB",
+			"rarity": "none",
+			"weight": 4,
+			"value": 1200,
+			"weaponCategory": "specialized",
+			"property": [
+				"L|XPHB",
+				"R|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Slow|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Revised Light",
+					"entries": [
+						"In order to use this weapon's {@itemProperty L|XPHB|Light} property, you need a Strength score of, at least, a 13."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Alchemist's Supplies",
 			"source": "PHB",
 			"page": 154,
@@ -623,6 +660,44 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Bologorash",
+			"alias": [
+				"Chained Throwing Axe"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "R|XPHB",
+			"typeAlt": "COrc",
+			"rarity": "none",
+			"weight": 4,
+			"value": 2500,
+			"weaponCategory": "specialized",
+			"property": [
+				"2H|XPHB",
+				"T|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Sap|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Throwing and More.",
+					"entries": [
+						"When you throw this weapon, your main-hand does the attack while your off-hand typically maintains hold of the chain. After throwing this weapon, you can use your {@action Free Object Interaction|XPHB} or {@variantrule Bonus Action|XPHB} on your turn to retract the axe (your choice). Additionally, while holding both the chain and its attached axe in your hands, you cannot be disarmed of this weapon."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Bolt",
 			"source": "XPHB",
 			"page": 222,
@@ -681,7 +756,8 @@
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
-			"weapon": true
+			"weapon": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Breastplate",
@@ -1337,6 +1413,43 @@
 			]
 		},
 		{
+			"name": "Cauv Agland",
+			"alias": [
+				"Estoc Sword"
+			],
+			"source": "XPHB",
+			"page": "215",
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CDwf|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 4000,
+			"weaponCategory": "specialized",
+			"property": [
+				"V|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: High AC Extra Damage",
+					"entries": [
+						"This sword deals an additional {@dice 1d6} damage to creatures wearing Heavy armor, or to creatures with natural armor whose {@variantrule Armor Class|XPHB|AC} is 16 or higher."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Chain Mail",
 			"source": "PHB",
 			"page": 145,
@@ -1425,44 +1538,6 @@
 			"ac": 13,
 			"armor": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Chained Throwing Axe",
-			"alias": [
-				"Bologorash"
-			],
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "R|XPHB",
-			"typeAlt": "COrc",
-			"rarity": "none",
-			"weight": 4,
-			"value": 2500,
-			"weaponCategory": "specialized",
-			"property": [
-				"2H|XPHB",
-				"T|XPHB",
-				"S|XPHB"
-			],
-			"mastery": [
-				"Sap|XPHB"
-			],
-			"range": "20/60",
-			"dmg1": "1d6",
-			"dmgType": "S",
-			"axe": true,
-			"weapon": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Special: Throwing and More.",
-					"entries": [
-						"When you throw this weapon, your main-hand does the attack while your off-hand typically maintains hold of the chain. After throwing this weapon, you can use your {@action Free Object Interaction|XPHB} or {@variantrule Bonus Action|XPHB} on your turn to retract the axe (your choice). Additionally, while holding both the chain and its attached axe in your hands, you cannot be disarmed of this weapon."
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Cittern",
@@ -1763,7 +1838,6 @@
 			"weapon": true,
 			"ammoType": "arrow|xphb",
 			"entries": [
-				"The Composite Bow has a unique construction that gives it an incredibly heavy draw.",
 				{
 					"type": "entries",
 					"name": "Strongbow",
@@ -1771,7 +1845,8 @@
 						"This ranged weapon uses Strength as its Attack and Damage ability, instead of the usual Dexterity."
 					]
 				}
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Cook's Utensils",
@@ -2129,11 +2204,40 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Dikama",
+			"alias": [
+				"Fang Blade"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CBsf|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"L|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"dagger": true,
+			"weapon": true,
+			"entries": [
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Double-Bladed Scimitar",
 			"source": "ERLW",
 			"page": 21,
 			"reprintedAs": [
-				"Double-Bladed Scimitar|XPHB"
+				"Dual Scimitar|XPHB"
 			],
 			"type": "M",
 			"rarity": "none",
@@ -2154,41 +2258,6 @@
 					"name": "Special",
 					"entries": [
 						"If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
-					]
-				}
-			],
-			"hasFluff": true
-		},
-		{
-			"name": "Double-Bladed Scimitar",
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "M|XPHB",
-			"typeAlt": "CElf|XPHB",
-			"rarity": "none",
-			"weight": 5,
-			"value": 10000,
-			"weaponCategory": "specialized",
-			"property": [
-				"2H|XPHB",
-				"D|XPHB"
-			],
-			"mastery": [
-				"Vex|XPHB"
-			],
-			"dmg1": "2d6",
-			"dmgType": "S",
-			"dmg2": "1d6",
-			"sword": true,
-			"weapon": true,
-			"entries": [
-				"A Double-Bladed Scimitar is a unique weapon that has two scimitar-like blades attached to a single central hilt, allowing for unique combat maneuvers.",
-				{
-					"type": "entries",
-					"name": "Maneuver: Burst",
-					"entries": [
-						"With this weapon, you can use your {@variantrule Action|XPHB} to make a Burst Maneuver. You can make this maneuver when you have two to eight targets within 5 feet of you. All targets surrounding you must make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your {@action Attack|XPHB} modifier}. On a failed saving throw, a target takes Slashing damage equal to {@damage 4d6} plus your {@action Attack|XPHB} modifier. You can use this maneuver a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} per {@variantrule Long Rest|XPHB}."
 					]
 				}
 			],
@@ -2227,6 +2296,31 @@
 			"rarity": "none",
 			"weight": 3,
 			"value": 600
+		},
+		{
+			"name": "Dual Scimitar",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CElf|XPHB",
+			"rarity": "none",
+			"weight": 5,
+			"value": 10000,
+			"weaponCategory": "specialized",
+			"property": [
+				"2H|XPHB",
+				"D|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"dmg2": "1d6",
+			"sword": true,
+			"weapon": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Dulcimer",
@@ -2291,68 +2385,6 @@
 			"cellEnergy": true,
 			"miscTags": [
 				"CNS"
-			]
-		},
-		{
-			"name": "Estoc Sword",
-			"alias": [
-				"The Tuck Sword"
-			],
-			"source": "XPHB",
-			"page": "215",
-			"edition": "one",
-			"type": "M|XPHB",
-			"typeAlt": "CDwf|XPHB",
-			"rarity": "none",
-			"weight": 3,
-			"value": 4000,
-			"weaponCategory": "specialized",
-			"property": [
-				"V|XPHB",
-				"S|XPHB"
-			],
-			"mastery": [
-				"Vex|XPHB"
-			],
-			"dmg1": "1d6",
-			"dmgType": "P",
-			"dmg2": "1d8",
-			"sword": true,
-			"weapon": true,
-			"entries": [
-				"The Estoc Sword, also known as the Tuck Sword, is a hand-and-a-half sword designed to pierce heavy armor. It is approximately 4 feet long, is only sharpened at the tip, and is a favored weapon for Knights and Mercenaries fighting againsted heavily armored foes.",
-				{
-					"type": "entries",
-					"name": "Special",
-					"entries": [
-						"This sword deals an additional {@dice 1d6} damage to creatures wearing Heavy armor, or to creatures with natural armor whose {@variantrule Armor Class|XPHB|AC} is 16 or higher."
-					]
-				}
-			]
-		},
-		{
-			"name": "Fang Blade",
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "M|XPHB",
-			"type": "COrc|XPHB",
-			"rarity": "none",
-			"weight": 2,
-			"value": 1000,
-			"weaponCategory": "specialized",
-			"property": [
-				"L|XPHB"
-			],
-			"mastery": [
-				"Vex|XPHB"
-			],
-			"dmg1": "1d4",
-			"dmgType": "S",
-			"dagger": true,
-			"weapon": true,
-			"entries": [
-				"The Fang Blade is a serrated curved dagger, often looking like an oversized lion's fang."
 			]
 		},
 		{
@@ -2719,7 +2751,8 @@
 						"When you wield a pair of these fists, you gain access to its {@itemProperty D|XPHB|Double} property. If you have the {@feat Dual Wielding|XPHB} Fighting Style, the {@feat Two-Weapon Champ|XPHB} feat, or another feature that grants you benefits relating to {@action Two-Weapon Fighting|XPHB}, you can only gain access to those benefits with this weapon if your Strength score is, at least, 15."
 					]
 				}
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Greataxe",
@@ -3070,8 +3103,7 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Repeating Crossbow|XPHB}"
-			],
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Hand Drum",
@@ -3258,8 +3290,7 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Repeating Crossbow|XPHB}"
-			],
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Hide Armor",
@@ -3298,43 +3329,6 @@
 			"ac": 12,
 			"armor": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Hook-Bearded Axe",
-			"alias": [
-				"Agrogash"
-			],
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "M|XPHB",
-			"type": "COrc",
-			"rarity": "none",
-			"weight": 4,
-			"value": 1200,
-			"weaponCategory": "specialized",
-			"property": [
-				"L|XPHB",
-				"R|XPHB",
-				"S|XPHB"
-			],
-			"mastery": [
-				"Slow|XPHB"
-			],
-			"dmg1": "1d6",
-			"dmgType": "S",
-			"axe": true,
-			"weapon": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Special: Revised Light",
-					"entries": [
-						"In order to use this weapon's {@itemProperty L|XPHB|Light} property, you need a Strength score of, at least, a 13."
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Hooked Shortspear",
@@ -3740,62 +3734,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Joining Blades",
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "M|XPHB",
-			"typeAlt": "CElf|XPHB",
-			"rarity": "none",
-			"weight": 6,
-			"value": 20000,
-			"weaponCategory": "specialized",
-			"property": [
-				"2F|XPHB",
-				"2H|XPHB",
-				"D|XPHB",
-				"F|XPHB",
-				"L|XPHB",
-				"S|XPHB"
-			],
-			"mastery": [
-				"Vex|XPHB"
-			],
-			"dmg1": "2d6",
-			"dmgType": "S",
-			"dmg2": "1d6",
-			"sword": true,
-			"weapon": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Special",
-					"entries": [
-						"The Two Forms, {@u Joined} and {@u Unjoined}, are described below. Regardless of what form this weapon takes, it uses the same weapon mastery property.",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"nameDot": false,
-									"name": "The {@u Joined} form",
-									"entry": "presents as if it were a {@item Double-Bladed Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}."
-								},
-								{
-									"type": "item",
-									"nameDot": false,
-									"name": "The {@u Unjoined} form",
-									"entry": "presents as two standard {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}."
-								}
-							]
-						}
-					]
-				}
-			],
-			"hasFluff": true
 		},
 		{
 			"name": "Katana",
@@ -4383,8 +4321,7 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Repeating Crossbow|XPHB}"
-			],
-			"hasFluffImages": true
+			]
 		},
 		{
 			"name": "Longbow",
@@ -4955,6 +4892,62 @@
 			"mace": true,
 			"weapon": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Multi-Saber",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CElf|XPHB",
+			"rarity": "none",
+			"weight": 6,
+			"value": 20000,
+			"weaponCategory": "specialized",
+			"property": [
+				"2F|XPHB",
+				"2H|XPHB",
+				"D|XPHB",
+				"F|XPHB",
+				"L|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"dmg2": "1d6",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"The Two Forms, {@u Joined} and {@u Split}, are described below. Regardless of what form this weapon takes, it uses the same weapon mastery property.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "The {@u Joined} form",
+									"entry": "presents similarly to a {@item Double-Bladed Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}."
+								},
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "The {@u Split} form",
+									"entry": "presents as two standard {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}."
+								}
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Musket",
@@ -6145,7 +6138,8 @@
 			"dmg1": "1d8",
 			"dmgType": "S",
 			"polearm": true,
-			"weapon": true
+			"weapon": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Semiautomatic Pistol",
@@ -6986,10 +6980,7 @@
 			"dmgType": "S",
 			"dmg2": "1d4 Slashing",
 			"weapon": true,
-			"entries": [
-				"A Spiked Chain looks like two {@item Flail|XPHB|Flails} with various spikes on its chain and a smaller ball of spikes with a thick non-spikey chain connecting the ends of the Flail handles together.",
-				"While this weapon is considered a Specialized Cultural Weapon for the Elven Community, this is predominetly only found within the Drow, Shadar-Kai, and Wild Elven communities."
-			]
+			"hasFluff": true
 		},
 		{
 			"name": "Splint Armor",
@@ -7116,9 +7107,7 @@
 			"dmgType": "P",
 			"dagger": true,
 			"weapon": true,
-			"entries": [
-				"A Stiletto is a specialized {@item Dagger|XPHB} with a longer and thinner blade, remininsent of a {@item Rapier|XPHB}. This allows the Stiletto puncture through chain and plated armor easier than standard {@item Dagger|XPHB}."
-			]
+			"hasFluff": true
 		},
 		{
 			"name": "Studded Leather Armor",
@@ -8893,6 +8882,21 @@
 			"source": "XPHB",
 			"page": 222,
 			"basicRules2024": true
+		},
+		{
+			"name": "Cultural (Beastfolk)",
+			"abbreviation": "CBsf",
+			"source": "XPHB",
+			"page": 214,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Specialized Cultural Weapon",
+					"entries": [
+						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. These weapons are significant to any number of Beastfolk communities."
+					]
+				}
+			]
 		},
 		{
 			"name": "Cultural (Dwarven)",

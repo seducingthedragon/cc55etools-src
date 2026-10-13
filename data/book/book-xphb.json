@@ -8589,6 +8589,7 @@
 										{
 											"type": "list",
 											"items": [
+												"{@b Cultural (Beastfolk).} These weapons are significant to any number of Beastfolk communities.",
 												"{@b Cultural (Dwarven).} These weapons are significant to the Dwarven community.",
 												"{@b Cultural (Elven).} These weapons are significant to the Elven community.",
 												"{@b Cultural (Monks).} These weapons are significant to the Monk class.",
@@ -9196,12 +9197,36 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Agrogash|XPHB} {@i Cultural (Orcish)}",
+										"{@dice 1d6} Slashing",
+										"{@itemProperty L|XPHB|Light}, {@itemProperty R|XPHB|Reach}, Special",
+										"{@itemMastery Slow}",
+										"4 lb.",
+										"12 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Bokken|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d6} Bludgeoning",
 										"{@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
 										"{@itemMastery Sap}",
 										"2 lb.",
 										"1 SP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Cauv Agland|XPHB} {@i Cultural (Dwarven)}",
+										"{@dice 1d6} Piercing",
+										"{@itemProperty V|XPHB|Versatile} ({@dice 1d8}), Special",
+										"{@itemMastery Vex}",
+										"3 lb.",
+										"40 GP"
 									]
 								},
 								{
@@ -9232,36 +9257,24 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Dikama|XPHB} {@i Cultural (Beastfolk)}",
+										"{@dice 1d4} Slashing",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
+										"{@itemMastery Vex}",
+										"2 lb.",
+										"10 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Double-Bladed Scimitar|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
 										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d6})",
 										"{@itemMastery Vex}",
 										"5 lb.",
 										"100 GP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
-										"{@item Estoc Sword|XPHB} {@i Cultural (Dwarven)}",
-										"{@dice 1d6} Piercing",
-										"{@itemProperty V|XPHB|Versatile} ({@dice 1d8}), Special",
-										"{@itemMastery Vex}",
-										"3 lb.",
-										"40 GP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
-										"{@item Fang Blade|XPHB} {@i Cultural (Orcish)}",
-										"{@dice 1d4} Slashing",
-										"{@itemProperty L|XPHB|Light}",
-										"{@itemMastery Vex}",
-										"2 lb.",
-										"10 GP"
 									]
 								},
 								{
@@ -9280,36 +9293,12 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Hook-Bearded Axe|XPHB} {@i Cultural (Orcish)}",
-										"{@dice 1d6} Slashing",
-										"{@itemProperty L|XPHB|Light}, {@itemProperty R|XPHB|Reach}, Special",
-										"{@itemMastery Slow}",
-										"4 lb.",
-										"12 GP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
 										"{@item Hurled Colpik|XPHB} {@i Cultural (Dwarven)}",
 										"{@dice 1d4} Piercing",
 										"{@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
 										"{@itemMastery Sap}",
 										"2 lb.",
 										"3 GP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
-										"{@item Joining Blades|XPHB} {@i Cultural (Elven)}",
-										"{@dice 2d6} Slashing",
-										"{@itemProperty 2F|XPHB|Two Forms}, {@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d6}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
-										"{@itemMastery Vex}",
-										"6 lb.",
-										"200 GP"
 									]
 								},
 								{
@@ -9334,6 +9323,18 @@
 										"{@itemMastery Vex}",
 										"0.5 lb.",
 										"5 SP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Multi-Saber|XPHB} {@i Cultural (Elven)}",
+										"{@dice 2d6} Slashing",
+										"{@itemProperty 2F|XPHB|Two Forms}, {@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d6}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
+										"{@itemMastery Vex}",
+										"6 lb.",
+										"200 GP"
 									]
 								},
 								{
@@ -9407,7 +9408,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Chained Throwing Axe|XPHB} {@i Cultural (Orcish)}",
+										"{@item Bologorash|XPHB} {@i Cultural (Orcish)}",
 										"{@dice 1d6} Slashing",
 										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
 										"{@itemMastery Sap}",
@@ -19345,12 +19346,41 @@
 							"items": [
 								{
 									"type": "item",
-									"name": "Bokken {@i Cultural: Monk}",
+									"name": "Agrogash {@i Cultural: Orcish}",
+									"entries": [
+										"The Agrogash, which translates to {@i (\"wrath-pulling blade\")}, is commonly known as the Hook-Bearded Axe. It is known for its serrated hook at the bottom of the axe-head, which allows the weapon to have a further reach than what it appears it should be. It is often viewed as the lightest and smallest weapon used by Orcs as they may wield it along side a shortsword, even though it typically has the size of a standard {@item Battleaxe|XPHB}.",
+										"{@b {@i Special: Revised Light.}} In order to use this weapon's {@itemProperty L|XPHB|Light} property, you need a Strength score of, at least, a 13."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Bokken {@i Cultural: Monks}",
 									"entry": "This wooden practice sword can be used as a fearsome weapon in its own right."
 								},
 								{
 									"type": "item",
-									"name": "Chakram {@i Cultural: Monk}",
+									"name": "Bologorash {@i Cultural: Orcish}",
+									"entries": [
+										"The Bologorash, {@i meaning \"flesh-rending flying blade\"}, or more commonly known as the Chained Throwing Axe, is a wicked, serrated throwing axe attached to a length of chain. It is usually 30 feet long, however, it can be extended to a maximum chain length of 60 feet.",
+										"{@b {@i Special: Throwing and More.}} When you throw this weapon, your main-hand does the attack while your off-hand typically maintains hold of the chain. After throwing this weapon, you can use your {@action Free Object Interaction|XPHB} or {@variantrule Bonus Action|XPHB} on your turn to retract the axe (your choice). Additionally, while holding both the chain and its attached axe in your hands, you cannot be disarmed of this weapon."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Brass Knuckles",
+									"entry": "Brass Knuckles is a series of 4 simple banded rings connected with a bar-like piece that fits in your palm. The rings go over your four fingers and sit right above your base knuckles. This makes the weapon easier to conceal and hide while making your punches deal extra damage."
+								},
+								{
+									"type": "item",
+									"name": "Cauv Agland {@i Cultural: Dwarven}",
+									"entries": [
+										"The Cauv Agland, translated from Dwarvish meaning {@i \"Spot Sword\"}, is a Dwarven Estoc Sword known for its heavy armor and scales piercing properties. Its hilt is a hand-and-a-half, with a 4 foot long blade. Sometimes it is referred to as a \"Tuck Sword\".",
+										"{@b {@i Special: High AC Extra Damage.}} This sword deals an additional {@dice 1d6} damage to creatures wearing Heavy armor, or to creatures with natural armor whose {@variantrule Armor Class|XPHB|AC} is 16 or higher."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Chakram {@i Cultural: Monks}",
 									"entries": [
 										"A Chakram is a bladed disk with a central opening for improved aerodynamics. In its most simplistic form, it is extremely concealable, while providing a longer range for thrown weapons. When thrown, it \"vanishes\" in the air, similarly to a Shuriken, making it nearly impossible to track before it reaches its target.",
 										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Chakram as part of your {@action Attack|XPHB} action, you can draw two Chakrams on one draw, while attacking with one weapon per {@action Attack|XPHB}."
@@ -19358,7 +19388,7 @@
 								},
 								{
 									"type": "item",
-									"name": "Chakri {@i Cultural: Monk}",
+									"name": "Chakri {@i Cultural: Monks}",
 									"entries": [
 										"Chakri is a smaller and lighter version of the Ckakram. Due to its smaller size, its range is reduce but you can draw more Chakri on one draw and potentially wear it on your wrists while remaining unarmed.",
 										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Chakri as part of your {@action Attack|XPHB} action, you can draw three Chakris on one draw, while attacking with one weapon per {@action Attack|XPHB}."
@@ -19366,19 +19396,23 @@
 								},
 								{
 									"type": "item",
-									"name": "Chained Throwing Axe {@i Cultural: Orcish}",
-									"entries": [
-										"This Chained Throwing Axe, also known as the Bologorash {@i (\"flesh-rending flying blade\")}, is a wicked, serrated throwing axe attached to a length of chain. It is usually 30 feet long, however, it can be extended to a maximum chain length of 60 feet.",
-										"{@b {@i Special: Throwing and More.}} When you throw this weapon, your main-hand does the attack while your off-hand typically maintains hold of the chain. After throwing this weapon, you can use your {@action Free Object Interaction|XPHB} or {@variantrule Bonus Action|XPHB} on your turn to retract the axe (your choice). Additionally, while holding both the chain and its attached axe in your hands, you cannot be disarmed of this weapon."
-									]
+									"name": "Composite Bow",
+									"entry": "The Composite Bow has a unique construction that gives it an incredibly heavy draw while often with an overall size between the Longbow and the Shortbow."
 								},
 								{
 									"type": "item",
-									"name": "Hook-Bearded Axe {@i Cultural: Orcish}",
-									"entries": [
-										"This Hook-Bearded Axe, also known as the Agrogash {@i (\"wrath-pulling blade\")}, is known for its serrated hook at the bottom of the axe-head. It is often viewed as the lightest and smallest weapon used by Orcs, even though it typically has the size of a standard {@item Battleaxe|XPHB}.",
-										"{@b {@i Special: Revised Light.}} In order to use this weapon's {@itemProperty L|XPHB|Light} property, you need a Strength score of, at least, a 13."
-									]
+									"name": "Dikama",
+									"entry": "The Dikama, or Fang Blade, is a serrated curved dagger, often looking like an oversized lion's fang."
+								},
+								{
+									"type": "item",
+									"name": "Dual Scimitar {@i Cultural: Elven}",
+									"entry": "The Dual Scimitar was, historically, the signature weapon of various Elven communities. A two-handed haft of fine wood and metal supports two curved scimitar blades, with the secondary blade slightly smaller. Although this weapon's station within the Elven communities has diminished as the design has expanded to other communities, it is still honored as a valuable piece of Elven history."
+								},
+								{
+									"type": "item",
+									"name": "Granite Fists {@i Cultural: Dwarven}",
+									"entry": "These Granite Fists are a brutal pair of gauntlet-like designed weapons. Weighing 10 lbs per individual fist, these are made to break bones. These stone weapons are shapes to look like giant fists with an iron bar inside for the wielder to grip. They are frequently sold in pairs, however, it is not uncommon to see someone weilding only one. There are many variations of these fists within the Dwarven community, which includes spiked knuckles, iron rings, and more."
 								},
 								{
 									"type": "item",
@@ -19387,22 +19421,12 @@
 								},
 								{
 									"type": "item",
-									"name": "Joining Blades {@i Cultural: Elven}",
-									"entries": [
-										"Some say that the Double-Bladed Scimitar walked so the Joining Blades could run, and to the Elven Warriors of recent times would agree. The Double-Bladed Scimitar was once the staple weapon of a mighty Elven Warrior, however there was something missing. Combining the uses of dual wielding and the skill of maneuvering with a Double-Bladed Scimitar, the Joining Blades were born, setting a new standard for mighty Elven Warriors.",
-										"{@b {@i Special.}} The Two Forms, {@u Joined} and {@u Unjoined}, are described below. Regardless of what form this weapon takes, it uses the same weapon mastery property.",
-										"{@b The {@u Joined} form}} presents as if it were a {@item Double-Bladed Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}.",
-										"{@b The {@u Unjoined} form} presents as two standard {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}."
-									]
-								},
-								{
-									"type": "item",
-									"name": "Katana {@i Cultural: Monk}",
+									"name": "Katana {@i Cultural: Monks}",
 									"entry": "The Katana is like a {@item Longsword|XPHB} except the blade is thinner, often of higher quality, sharpened on one side, and is slightly curved."
 								},
 								{
 									"type": "item",
-									"name": "Kunai {@i Cultural: Monk}",
+									"name": "Kunai {@i Cultural: Monks}",
 									"entries": [
 										"A Kunai is a dagger-like weapon that originated as a multipurpose gardening tool before evolving to its primarily weapon-like form. As a weapon, it has a leaf-shaped wrought blade, lacks a cross-guard, with a grip often wrapped in rope, and an O-Ring styled pommel whose diameter is wider than the grip. While it is commonly perceived as a ranged weapon, like a dart, those proficient with this weapon understands its melee purpose.",
 										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Kunai as part of your {@action Attack|XPHB} action, you can draw two Kunais on one draw, while attacking with one weapon per {@action Attack|XPHB}."
@@ -19410,7 +19434,17 @@
 								},
 								{
 									"type": "item",
-									"name": "Nunchaku {@i Cultural: Monk}",
+									"name": "Multi-Saber {@i Cultural: Elven}",
+									"entries": [
+										"Some say that the Double-Bladed Scimitar walked so that the Multi-Saber could run, and the Elven Warriors of recent times would agree. What makes the Multi-Saber different and a preference for the famed Elven Warriors of the land is that its split form makes it easier to travel with as it takes the size of two Scimitars instead of a long polearm of blades. There is no difference in either blade and its joined haft is longer. All of these factors lead to the Multi-Saber to become a highly desired weapon to learn to wield over the Double-Bladed Scimitar.",
+										"{@b {@i Special.}} The Two Forms, {@u Joined} and {@u Split}, are described below. Regardless of what form this weapon takes, it uses the same weapon mastery property.",
+										"{@b The {@u Joined} form}} presents similarly to a {@item Double-Bladed Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}.",
+										"{@b The {@u Split} form} presents as two standard {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Nunchaku {@i Cultural: Monks}",
 									"entries": [
 										"Nunchakus, or commonly referred to as \"Nunchucks\" by non-Martial Arts practitioners, are unique {@itemProperty D|XPHB|Double} weapons as the handle of the weapon is also the portion of the weapon that you attack with.",
 										"{@b {@i Special: Indirectly Two-Handed.}} While this weapon is a One-Handed weapon to attack with, in order to utilize its {@itemProperty D|XPHB|Double} property, you would need to maneuver the weapon with and between both hands. Due to this, if your Dexterity score is at least a 13, you can take the {@action Free Object Interaction|XPHB} as part of each attack you make on your turn with this weapon as long as you do not use that free action for a different object interaction."
@@ -19418,16 +19452,36 @@
 								},
 								{
 									"type": "item",
-									"name": "Sai (Bladed or Blunted) {@i Cultural: Monk}",
+									"name": "Repeating Crossbows (Hand, Heavy, and Light)",
+									"entry": "Repeating Crossbows are altered crossbows that allows for a cartridge of bolts to be attached. There are also additional parts that aid in the retracting of the bow string in order to instantly load a new bolt for another attack. Due to these changes, all Repeating Crossbows are Specialized weapons."
+								},
+								{
+									"type": "item",
+									"name": "Sai (Bladed or Blunted) {@i Cultural: Monks}",
 									"entry": "A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong {@i (the monouchi)} as the longest and most significant part of the weapon. This central prong determines the difference between a Bladed and a Blunted Sai. A Bladed Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Blunted Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers."
 								},
 								{
 									"type": "item",
-									"name": "Shuriken (Single or 20) {@i Cultural: Monk}",
+									"name": "Scythe",
+									"entry": "A Scythe is a harvesting tool that has a polearm like shaft and a large curved blade that appeears to be between a Sickle and a Scimitar. It has become a symbol for a Grim Reaper, a harvester of souls, while also being used to protect the laborers across the lands from those who wish to oppress them."
+								},
+								{
+									"type": "item",
+									"name": "Shuriken (Single or 20) {@i Cultural: Monks}",
 									"entries": [
 										"A Shuriken is a flat throwing blade with 2 to 8 sharp points, each one with an equal distance from the weapon's center, where the wielder holds it with a pinch grip. Due to its expendable nature, it is often sold is packs but can be purchased individually. Lodging a group of shurikens in the ground can also act as {@item Caltrops|XPHB}.",
 										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Shuriken as part of your {@action Attack|XPHB} action, you can draw up to three Shurikens on one draw, while attacking with one weapon per {@action Attack|XPHB}."
 									]
+								},
+								{
+									"type": "item",
+									"name": "Spiked Chain",
+									"entry": "A Spiked Chain looks like two {@item Flail|XPHB|Flails} with various spikes along its chain, a smaller ball of spikes at each end, and with a thick non-spikey chain connecting the ends of the handles together. While this weapon is considered a Specialized Cultural Weapon for the Elven Community, this is predominetly only found within a small portion of the Elven Community, specically within the Drow, Shadar-Kai, and Wild Elven communities."
+								},
+								{
+									"type": "item",
+									"name": "Stiletto",
+									"entry": "A Stiletto is a specialized {@item Dagger|XPHB} with a longer and thinner blade, remininsent of a {@item Rapier|XPHB}. This allows the Stiletto puncture through chain and plated armor easier than standard {@item Dagger|XPHB}."
 								}
 							]
 						}

@@ -12695,7 +12695,15 @@
 					"level": 4,
 					"proficiency": [
 						{
-							"weapon": "Double-Bladed Scimitar"
+							"weapon": "Dual Scimitar"
+						}
+					]
+				},
+				{
+					"level": 4,
+					"proficiency": [
+						{
+							"weapon": "Multi-Saber"
 						}
 					]
 				}
@@ -12712,19 +12720,19 @@
 				}
 			],
 			"entries": [
-				"You gain the following benefits.",
+				"Your skills with either a {@item Dual Scimitar|XPHB} or a {@item Multi-Saber|XPHB} has grown with you and your confidence in wielding either of these unique Elven weapons. You gain the following benefits when you wield either of these weapons you are proficient in.",
 				{
 					"type": "entries",
 					"name": "Armor Class Bonus",
 					"entries": [
-						"While you are wielding a {@item Double-Bladed Scimitar|XPHB}, you gain a +1 bonus to Armor Class."
+						"You gain a +1 bonus to Armor Class."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Two-Handed Finesse",
 					"entries": [
-						"A {@item Double-Bladed Scimitar|XPHB} has the {@itemProperty F|XPHB|Finesse} property when you wield it."
+						"The weapon always has the {@itemProperty F|XPHB|Finesse} property when you wield it, regardless of its form."
 					]
 				}
 			]
