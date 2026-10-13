@@ -9388,30 +9388,6 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Shuriken|XPHB} {@i Cultural (Monk)}",
-										"{@dice 1d4} Piercing",
-										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
-										"{@itemMastery Vex}",
-										"0.25 lb.",
-										"5 SP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
-										"{@item Shuriken|XPHB} (20) {@i Cultural (Monk)}",
-										"{@dice 1d4} Piercing",
-										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
-										"{@itemMastery Vex}",
-										"5 lb.",
-										"10 GP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
 										"{@item Spiked Chain|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d4} Piercing",
 										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d4}), {@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}",
@@ -9485,6 +9461,30 @@
 										"{@itemMastery Slow}",
 										"6 lb.",
 										"75 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Shuriken|XPHB} {@i Cultural (Monk)}",
+										"{@dice 1d4} Piercing",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
+										"{@itemMastery Vex}",
+										"0.25 lb.",
+										"5 SP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Shuriken|XPHB} (20) {@i Cultural (Monk)}",
+										"{@dice 1d4} Piercing",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
+										"{@itemMastery Vex}",
+										"5 lb.",
+										"10 GP"
 									]
 								}
 							]
