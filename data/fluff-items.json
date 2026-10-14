@@ -68,7 +68,7 @@
 			"name": "Agrogash",
 			"source": "XPHB",
 			"entries": [
-				"The Agrogash, which translates to {@i (\"wrath-pulling blade\")}, is commonly known as the Hook-Bearded Axe. It is known for its serrated hook at the bottom of the axe-head, which allows the weapon to have a further reach than what it appears it should be. It is often viewed as the lightest and smallest weapon used by Orcs as they may wield it along side a shortsword, even though it typically has the size of a standard {@item Battleaxe|XPHB}."
+				"The Agrogash, which translates to {@i \"wrath-pulling blade\"}, is commonly known as the Hook-Bearded Axe. It is known for its serrated hook at the bottom of the axe-head, which allows the weapon to have a further reach than what it appears it should be. It is often viewed as the lightest and smallest weapon used by Orcs as they may wield it along side a shortsword, even though it typically has the size of a standard {@item Battleaxe|XPHB}."
 			]
 		},
 		{
@@ -4797,6 +4797,13 @@
 					"width": 315,
 					"height": 230
 				}
+			]
+		},
+		{
+			"name": "Gorgash",
+			"source": "XPHB",
+			"entries": [
+				"The Gorgash, which translates to {@i \"blood-shower blade\"}, is commonly known as the Double-Headed Battleaxe, and is a symbol of the Orcish philosphy of strength and power. This weapon has a 6-foot long haft with a large axe head on each end. While it can be extremely difficult to wield, those proficient with it exude extreme power and finesse. It is often rare to see this weapon on the battlefield as it is most commonly used in duels between Orc leaders."
 			]
 		},
 		{

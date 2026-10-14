@@ -749,7 +749,7 @@
 				"C|XPHB",
 				"F|XPHB",
 				"L|XPHB",
-				"UW|XPHB"
+				"UA|XPHB"
 			],
 			"mastery": [
 				"Sap|XPHB"
@@ -2745,6 +2745,35 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Gorgash",
+			"alias": [
+				"Double-Headed Battleaxe"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "COrc|XPHB",
+			"rarity": "none",
+			"weight": 15,
+			"value": 5000,
+			"weaponCategory": "specialized",
+			"property": [
+				"DM|XPHB",
+				"2H|XPHB",
+				"VH|XPHB"
+			],
+			"mastery": [
+				"Cleave|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d6",
+			"axe": true,
+			"weapon": true,
+			"hasFluff": true
+		},
+		{
 			"name": "Granite Fists",
 			"source": "XPHB",
 			"page": 215,
@@ -2758,7 +2787,7 @@
 			"property": [
 				"DM|XPHB",
 				"H|XPHB",
-				"UW|XPHB",
+				"UA|XPHB",
 				"S|XPHB"
 			],
 			"mastery": [
@@ -5738,7 +5767,7 @@
 			"property": [
 				"F|XPHB",
 				"L|XPHB",
-				"UW|XPHB",
+				"UA|XPHB",
 				"S|XPHB"
 			],
 			"mastery": [
@@ -8370,7 +8399,7 @@
 									"type": "item",
 									"nameDot": false,
 									"name": "A Double: Melee",
-									"entry": "weapon is a melee weapon that has two points of attack on opposite sides of a haft, hilt, or pole, {@b {@i or}} is an {@itemProperty UW|XPHB|Unarmed Weapon} made and wielded as a pair. Immediately after you make an attack, you can use your {@variantrule Bonus Action|XPHB} to make an attack roll using its opposite side, or other half. This attack's damage value is in parentheses that appears with this property."
+									"entry": "weapon is a melee weapon that has two points of attack on opposite sides of a haft, hilt, or pole, {@b {@i or}} is an {@itemProperty UA|XPHB|\"Unarmed\"} weapon made and wielded as a pair. Immediately after you make an attack, you can use your {@variantrule Bonus Action|XPHB} to make an attack roll using its opposite side, or other half. This attack's damage value is in parentheses that appears with this property."
 								}
 							]
 						}
@@ -8720,16 +8749,16 @@
 			]
 		},
 		{
-			"abbreviation": "UW",
+			"abbreviation": "UA",
 			"source": "XPHB",
 			"page": 214,
 			"template": "{{prop_name}}",
 			"entries": [
 				{
 					"type": "entries",
-					"name": "\"Unarmed\" Weapon",
+					"name": "\"Unarmed\"",
 					"entries": [
-						"An \"Unarmed\" Weapon is typically a weapon that is worn, yet still requires you to grip part of the weapon itself. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}."
+						"An \"Unarmed\" weapon is typically a weapon that is worn, yet still requires you to grip part of the weapon itself. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}."
 					]
 				}
 			]

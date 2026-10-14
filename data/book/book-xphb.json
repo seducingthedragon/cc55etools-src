@@ -8655,7 +8655,7 @@
 									"row": [
 										"{@item Brass Knuckles|XPHB}",
 										"{@dice 1d4} Bludgeoning",
-										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty UW|XPHB|Unarmed Weapon}",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty UA|XPHB|\"Unarmed\"}",
 										"{@itemMastery Sap}",
 										"1 lb.",
 										"5 SP"
@@ -9329,9 +9329,21 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Gorgash|XPHB} {@i Cultural (Orcish}",
+										"{@dice 1d8} Slashing",
+										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6}), {@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty VH|XPHB|Very Heavy}",
+										"{@itemMastery Cleave}",
+										"15 lb.",
+										"50 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Granite Fists|XPHB} {@i Cultural (Dwarven)}",
 										"{@dice 2d6} Bludgeoning",
-										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6}), {@itemProperty H|XPHB|Heavy}, {@itemProperty UW|XPHB|Unarmed Weapon}, Special",
+										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6}), {@itemProperty H|XPHB|Heavy}, {@itemProperty UA|XPHB|\"Unarmed\"}, Special",
 										"{@itemMastery Push}",
 										"10 lb.",
 										"50 GP"
@@ -9403,7 +9415,7 @@
 									"row": [
 										"{@item Punch Dagger|XPHB}",
 										"{@dice 1d4} Piercing",
-										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty UW|XPHB|Unarmed Weapon}, Special",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty UA|XPHB|\"Unarmed\"}, Special",
 										"{@itemMastery Sap}",
 										"1 lb.",
 										"5 GP"
@@ -9627,7 +9639,7 @@
 												{
 													"type": "item",
 													"name": "Double: Melee",
-													"entry": "A {@u Double: Melee} weapon is a melee weapon that has two points of attack on opposite sides of a haft, hilt, or pole, {@b {@i or}} is an {@itemProperty UW|XPHB|Unarmed Weapon} made and wielded as a pair. Immediately after you make an attack, you can use your {@variantrule Bonus Action|XPHB} to make an attack roll using its opposite side, or other half. This attack's damage value is in parentheses that appears with this property."
+													"entry": "A {@u Double: Melee} weapon is a melee weapon that has two points of attack on opposite sides of a haft, hilt, or pole, {@b {@i or}} is an {@itemProperty UA|XPHB|\"Unarmed\"} weapon made and wielded as a pair. Immediately after you make an attack, you can use your {@variantrule Bonus Action|XPHB} to make an attack roll using its opposite side, or other half. This attack's damage value is in parentheses that appears with this property."
 												},
 												{
 													"type": "item",
@@ -9763,11 +9775,11 @@
 								},
 								{
 									"type": "entries",
-									"name": "\"Unarmed\" Weapon",
+									"name": "\"Unarmed\"",
 									"page": 214,
 									"id": "634",
 									"entries": [
-										"An \"Unarmed\" Weapon is typically a weapon that is worn, yet still requires you to grip part of the weapon itself. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}."
+										"An \"Unarmed\" weapon is typically a weapon that is worn, yet still requires you to grip part of the weapon itself. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}."
 									]
 								},
 								{
@@ -19417,7 +19429,7 @@
 							"items": [
 								{
 									"type": "item",
-									"name": "Agrogash {@i Cultural: Orcish}",
+									"name": "Agrogash {@i Cultural (Orcish)}",
 									"entries": [
 										"The Agrogash, which translates to {@i (\"wrath-pulling blade\")}, is commonly known as the Hook-Bearded Axe. It is known for its serrated hook at the bottom of the axe-head, which allows the weapon to have a further reach than what it appears it should be. It is often viewed as the lightest and smallest weapon used by Orcs as they may wield it along side a shortsword, even though it typically has the size of a standard {@item Battleaxe|XPHB}.",
 										"{@b {@i Special: Revised Light.}} In order to use this weapon's {@itemProperty L|XPHB|Light} property, you need a Strength score of, at least, a 13."
@@ -19425,12 +19437,12 @@
 								},
 								{
 									"type": "item",
-									"name": "Bokken {@i Cultural: Monks}",
+									"name": "Bokken {@i Cultural (Monks)}",
 									"entry": "This wooden practice sword can be used as a fearsome weapon in its own right."
 								},
 								{
 									"type": "item",
-									"name": "Bologorash {@i Cultural: Orcish}",
+									"name": "Bologorash {@i Cultural (Orcish)}",
 									"entries": [
 										"The Bologorash, {@i meaning \"flesh-rending flying blade\"}, or more commonly known as the Chained Throwing Axe, is a wicked, serrated throwing axe attached to a length of chain. It is usually 30 feet long, however, it can be extended to a maximum chain length of 60 feet.",
 										"{@b {@i Special: Throwing and More.}} When you throw this weapon, your main-hand does the attack while your off-hand typically maintains hold of the chain. After throwing this weapon, you can use your {@action Free Object Interaction|XPHB} or {@variantrule Bonus Action|XPHB} on your turn to retract the axe (your choice). Additionally, while holding both the chain and its attached axe in your hands, you cannot be disarmed of this weapon."
@@ -19443,7 +19455,7 @@
 								},
 								{
 									"type": "item",
-									"name": "Cauv Agland {@i Cultural: Dwarven}",
+									"name": "Cauv Agland {@i Cultural (Dwarven)}",
 									"entries": [
 										"The Cauv Agland, translated from Dwarvish meaning {@i \"Spot Sword\"}, is a Dwarven Estoc Sword known for its heavy armor and scales piercing properties. Its hilt is a hand-and-a-half, with a 4 foot long blade. Sometimes it is referred to as a \"Tuck Sword\".",
 										"{@b {@i Special: High AC Extra Damage.}} This sword deals an additional {@dice 1d6} damage to creatures wearing Heavy armor, or to creatures with natural armor whose {@variantrule Armor Class|XPHB|AC} is 16 or higher."
@@ -19451,7 +19463,7 @@
 								},
 								{
 									"type": "item",
-									"name": "Chakram {@i Cultural: Monks}",
+									"name": "Chakram {@i Cultural (Monks)}",
 									"entries": [
 										"A Chakram is a bladed disk with a central opening for improved aerodynamics. In its most simplistic form, it is extremely concealable, while providing a longer range for thrown weapons. When thrown, it \"vanishes\" in the air, similarly to a Shuriken, making it nearly impossible to track before it reaches its target.",
 										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Chakram as part of your {@action Attack|XPHB} action, you can draw two Chakrams on one draw, while attacking with one weapon per {@action Attack|XPHB}."
@@ -19459,7 +19471,7 @@
 								},
 								{
 									"type": "item",
-									"name": "Chakri {@i Cultural: Monks}",
+									"name": "Chakri {@i Cultural (Monks)}",
 									"entries": [
 										"Chakri is a smaller and lighter version of the Ckakram. Due to its smaller size, its range is reduce but you can draw more Chakri on one draw and potentially wear it on your wrists while remaining unarmed.",
 										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Chakri as part of your {@action Attack|XPHB} action, you can draw three Chakris on one draw, while attacking with one weapon per {@action Attack|XPHB}."
@@ -19472,7 +19484,7 @@
 								},
 								{
 									"type": "item",
-									"name": "Dikama",
+									"name": "Dikama {@i Cultural (Beastfolk)}",
 									"entry": "The Dikama, or Fang Blade, is a serrated curved dagger, often looking like an oversized lion's fang."
 								},
 								{
@@ -19487,27 +19499,32 @@
 								},
 								{
 									"type": "item",
-									"name": "Dual Scimitar {@i Cultural: Elven}",
+									"name": "Dual Scimitar {@i Cultural (Elven)}",
 									"entry": "The Dual Scimitar was, historically, the signature weapon of various Elven communities. A two-handed haft of fine wood and metal supports two curved scimitar blades, with the secondary blade slightly smaller. Although this weapon's station within the Elven communities has diminished as the design has expanded to other communities, it is still honored as a valuable piece of Elven history."
 								},
 								{
 									"type": "item",
-									"name": "Granite Fists {@i Cultural: Dwarven}",
+									"name": "Gorgash {@i Cultural (Orcish)}",
+									"entry": "The Gorgash, which translates to {@i \"blood-shower blade\"}, is commonly known as the Double-Headed Battleaxe, and is a symbol of the Orcish philosphy of strength and power. This weapon has a 6-foot long haft with a large axe head on each end. While it can be extremely difficult to wield, those proficient with it exude extreme power and finesse. It is often rare to see this weapon on the battlefield as it is most commonly used in duels between Orc leaders."
+								},
+								{
+									"type": "item",
+									"name": "Granite Fists {@i Cultural (Dwarven)}",
 									"entry": "These Granite Fists are a brutal pair of gauntlet-like designed weapons. Weighing 10 lbs per individual fist, these are made to break bones. These stone weapons are shapes to look like giant fists with an iron bar inside for the wielder to grip. They are frequently sold in pairs, however, it is not uncommon to see someone weilding only one. There are many variations of these fists within the Dwarven community, which includes spiked knuckles, iron rings, and more."
 								},
 								{
 									"type": "item",
-									"name": "Hurled Colpik {@i Cultural: Dwarven}",
+									"name": "Hurled Colpik {@i Cultural (Dwarven)}",
 									"entry": "At first glance, this Dwarven weapon resembles nothing more than a tiny pickaxe with a very long handle. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor."
 								},
 								{
 									"type": "item",
-									"name": "Katana {@i Cultural: Monks}",
+									"name": "Katana {@i Cultural (Monks)}",
 									"entry": "The Katana is like a {@item Longsword|XPHB} except the blade is thinner, often of higher quality, sharpened on one side, and is slightly curved."
 								},
 								{
 									"type": "item",
-									"name": "Kunai {@i Cultural: Monks}",
+									"name": "Kunai {@i Cultural (Monks)}",
 									"entries": [
 										"A Kunai is a dagger-like weapon that originated as a multipurpose gardening tool before evolving to its primarily weapon-like form. As a weapon, it has a leaf-shaped wrought blade, lacks a cross-guard, with a grip often wrapped in rope, and an O-Ring styled pommel whose diameter is wider than the grip. While it is commonly perceived as a ranged weapon, like a dart, those proficient with this weapon understands its melee purpose.",
 										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Kunai as part of your {@action Attack|XPHB} action, you can draw two Kunais on one draw, while attacking with one weapon per {@action Attack|XPHB}."
@@ -19515,7 +19532,7 @@
 								},
 								{
 									"type": "item",
-									"name": "Multi-Saber {@i Cultural: Elven}",
+									"name": "Multi-Saber {@i Cultural (Elven)}",
 									"entries": [
 										"Some say that the Double-Bladed Scimitar walked so that the Multi-Saber could run, and the Elven Warriors of recent times would agree. What makes the Multi-Saber different and a preference for the famed Elven Warriors of the land is that its split form makes it easier to travel with as it takes the size of two Scimitars instead of a long polearm of blades. There is no difference in either blade and its joined haft is longer. All of these factors lead to the Multi-Saber to become a highly desired weapon to learn to wield over the Double-Bladed Scimitar.",
 										"{@b {@i Special.}} The Two Forms, {@u Joined} and {@u Split}, are described below. Regardless of what form this weapon takes, it uses the same weapon mastery property.",
@@ -19525,7 +19542,7 @@
 								},
 								{
 									"type": "item",
-									"name": "Nunchaku {@i Cultural: Monks}",
+									"name": "Nunchaku {@i Cultural (Monks)}",
 									"entries": [
 										"Nunchakus, or commonly referred to as \"Nunchucks\" by non-Martial Arts practitioners, are unique {@itemProperty DM|XPHB|Double: Melee} weapons as the handle of the weapon is also the portion of the weapon that you attack with.",
 										"{@b {@i Special: Indirectly Two-Handed.}} While this weapon is a One-Handed weapon to attack with, in order to utilize its {@itemProperty DM|XPHB|Double: Melee} property, you would need to maneuver the weapon with and between both hands. Due to this, if your Dexterity score is at least a 13, you can take the {@action Free Object Interaction|XPHB} as part of each attack you make on your turn with this weapon as long as you do not use that free action for a different object interaction."
@@ -19538,7 +19555,7 @@
 								},
 								{
 									"type": "item",
-									"name": "Sai (Bladed or Blunted) {@i Cultural: Monks}",
+									"name": "Sai (Bladed or Blunted) {@i Cultural (Monks)}",
 									"entry": "A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong {@i (the monouchi)} as the longest and most significant part of the weapon. This central prong determines the difference between a Bladed and a Blunted Sai. A Bladed Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Blunted Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers."
 								},
 								{
@@ -19548,7 +19565,7 @@
 								},
 								{
 									"type": "item",
-									"name": "Shuriken (Single or 20) {@i Cultural: Monks}",
+									"name": "Shuriken (Single or 20) {@i Cultural (Monks)}",
 									"entries": [
 										"A Shuriken is a flat throwing blade with 2 to 8 sharp points, each one with an equal distance from the weapon's center, where the wielder holds it with a pinch grip. Due to its expendable nature, it is often sold is packs but can be purchased individually. Lodging a group of shurikens in the ground can also act as {@item Caltrops|XPHB}.",
 										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Shuriken as part of your {@action Attack|XPHB} action, you can draw up to three Shurikens on one draw, while attacking with one weapon per {@action Attack|XPHB}."
@@ -19556,7 +19573,7 @@
 								},
 								{
 									"type": "item",
-									"name": "Spiked Chain",
+									"name": "Spiked Chain {@i Cultural (Elven)}",
 									"entry": "A Spiked Chain looks like two {@item Flail|XPHB|Flails} with various spikes along its chain, a smaller ball of spikes at each end, and with a thick non-spikey chain connecting the ends of the handles together. While this weapon is considered a Specialized Cultural Weapon for the Elven Community, this is predominetly only found within a small portion of the Elven Community, specically within the Drow, Shadar-Kai, and Wild Elven communities."
 								},
 								{
