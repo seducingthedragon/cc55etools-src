@@ -2256,7 +2256,7 @@
 			"name": "Composite Bow",
 			"source": "XPHB",
 			"entries": [
-				"The Composite Bow has a unique construction that gives it an incredibly heavy draw while often with an overall size between the Longbow and the Shortbow."
+				"The Composite Bow has a unique construction that gives it an incredibly heavy draw while often with an overall size between the Longbow and the Shortbow. This bow has the farthest normal range of any other bow, however due to that Strength-based draw, its long range is only twice its normal range instead of the usual three to four times that length."
 			]
 		},
 		{
@@ -3139,6 +3139,13 @@
 						}
 					]
 				}
+			]
+		},
+		{
+			"name": "Double Recursive Bow",
+			"source": "XPHB",
+			"entries": [
+				"A Double Recursive Bow is a bow that is inbetween the size of a Shortbow and a Longbow. It has double-limbs, which allows wielder to aim farther and hit harder without sacrificing weight or needing extra strength. The double-limbs also helps the bow last longer as the weight of the draw is dispersed evenly between the two sets instead of just one. Due to this, it is common to see these bows on mounted archers in combat or sniping from afar."
 			]
 		},
 		{

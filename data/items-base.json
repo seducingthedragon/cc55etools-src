@@ -14,7 +14,7 @@
 			"page": 215,
 			"edition": "one",
 			"type": "M|XPHB",
-			"type": "COrc|XPHB",
+			"typeAlt": "COrc|XPHB",
 			"rarity": "none",
 			"weight": 4,
 			"value": 1200,
@@ -1556,7 +1556,7 @@
 			"page": 215,
 			"edition": "one",
 			"type": "M|XPHB",
-			"type": "CMnk|XPHB",
+			"typeAlt": "CMnk|XPHB",
 			"rarity": "none",
 			"weight": 1,
 			"value": 700,
@@ -1591,7 +1591,7 @@
 			"page": 215,
 			"edition": "one",
 			"type": "M|XPHB",
-			"type": "CMnk|XPHB",
+			"typeAlt": "CMnk|XPHB",
 			"rarity": "none",
 			"weight": 0.5,
 			"value": 500,
@@ -1831,7 +1831,7 @@
 			"mastery": [
 				"Slow|XPHB"
 			],
-			"range": "200/600",
+			"range": "250/500",
 			"dmg1": "1d10",
 			"dmgType": "P",
 			"bow": true,
@@ -2261,6 +2261,31 @@
 					]
 				}
 			],
+			"hasFluff": true
+		},
+		{
+			"name": "Double Recursive Bow",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 2.25,
+			"value": 6000,
+			"weaponCategory": "martial",
+			"property": [
+				"2H|XPHB",
+				"A|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"range": "200/800",
+			"ammoType": "arrow|xphb",
+			"bow": true,
+			"weapon": true,
 			"hasFluff": true
 		},
 		{
@@ -5973,7 +5998,7 @@
 			"page": 215,
 			"edition": "one",
 			"type": "M|XPHB",
-			"type": "CMnk|XPHB",
+			"typeAlt": "CMnk|XPHB",
 			"rarity": "none",
 			"weight": 2,
 			"value": 1000,
@@ -5996,7 +6021,7 @@
 			"page": 215,
 			"edition": "one",
 			"type": "M|XPHB",
-			"type": "CMnk|XPHB",
+			"typeAlt": "CMnk|XPHB",
 			"rarity": "none",
 			"weight": 2,
 			"value": 500,

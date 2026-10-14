@@ -9130,6 +9130,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Double Recursive Bow|XPHB}",
+										"{@dice 1d8} Piercing",
+										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty A|XPHB|Ammunition} (Range 200/800; Arrow)",
+										"{@itemMastery Vex}",
+										"2.25 lb.",
+										"60 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Hand Crossbow|XPHB}",
 										"{@dice 1d6} Piercing",
 										"{@itemProperty A|XPHB|Ammunition} (Range 30/120; Bolt), {@itemProperty L|XPHB|Light}, {@itemProperty LD|XPHB|Loading}",
@@ -19397,12 +19409,17 @@
 								{
 									"type": "item",
 									"name": "Composite Bow",
-									"entry": "The Composite Bow has a unique construction that gives it an incredibly heavy draw while often with an overall size between the Longbow and the Shortbow."
+									"entry": "The Composite Bow has a unique construction that gives it an incredibly heavy draw while often with an overall size between the Longbow and the Shortbow. This bow has the farthest normal range of any other bow, however due to that Strength-based draw, its long range is only twice its normal range instead of the usual three to four times that length."
 								},
 								{
 									"type": "item",
 									"name": "Dikama",
 									"entry": "The Dikama, or Fang Blade, is a serrated curved dagger, often looking like an oversized lion's fang."
+								},
+								{
+									"type": "item",
+									"name": "Double Recursive Bow",
+									"entry": "A Double Recursive Bow is a bow that is inbetween the size of a Shortbow and a Longbow. It has double-limbs, which allows wielder to aim farther and hit harder without sacrificing weight or needing extra strength. The double-limbs also helps the bow last longer as the weight of the draw is dispersed evenly between the two sets instead of just one. Due to this, it is common to see these bows on mounted archers in combat or sniping from afar."
 								},
 								{
 									"type": "item",
