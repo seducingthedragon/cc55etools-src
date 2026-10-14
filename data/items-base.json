@@ -2773,7 +2773,7 @@
 					"type": "entries",
 					"name": "Heavy Dual Wield",
 					"entries": [
-						"When you wield a pair of these fists, you gain access to its {@itemProperty D|XPHB|Double} property. If you have the {@feat Dual Wielding|XPHB} Fighting Style, the {@feat Two-Weapon Champ|XPHB} feat, or another feature that grants you benefits relating to {@action Two-Weapon Fighting|XPHB}, you can only gain access to those benefits with this weapon if your Strength score is, at least, 15."
+						"When you wield a pair of these fists, you gain access to its {@itemProperty DM|XPHB|Double: Melee} property. If you have the {@feat Dual Wielding|XPHB} Fighting Style, the {@feat Two-Weapon Champ|XPHB} feat, or another feature that grants you benefits relating to {@action Two-Weapon Fighting|XPHB}, you can only gain access to those benefits with this weapon if your Strength score is, at least, 15."
 					]
 				}
 			],
@@ -5191,7 +5191,7 @@
 					"type": "entries",
 					"name": "Special: Indirectly Two-Handed",
 					"entries": [
-						"While this weapon is a One-Handed weapon to attack with, in order to utilize its {@itemProperty D|XPHB|Double} property, you would need to maneuver the weapon with and between both hands. Due to this, if your Dexterity score is at least a 13, you can take the {@action Free Object Interaction|XPHB} as part of each attack you make on your turn with this weapon as long as you do not use that free action for a different object interaction."
+						"While this weapon is a One-Handed weapon to attack with, in order to utilize its {@itemProperty DM|XPHB|Double: Melee} property, you would need to maneuver the weapon with and between both hands. Due to this, if your Dexterity score is at least a 13, you can take the {@action Free Object Interaction|XPHB} as part of each attack you make on your turn with this weapon as long as you do not use that free action for a different object interaction."
 					]
 				}
 			],

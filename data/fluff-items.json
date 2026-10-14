@@ -8330,7 +8330,7 @@
 			"name": "Nunchaku",
 			"source": "XPHB",
 			"entries": [
-				"Nunchakus, or commonly referred to as \"Nunchucks\" by non-Martial Arts practitioners, are unique {@itemProperty D|XPHB|Double} weapons as the handle of the weapon is also the portion of the weapon that you attack with."
+				"Nunchakus, or commonly referred to as \"Nunchucks\" by non-Martial Arts practitioners, are unique {@itemProperty DM|XPHB|Double: Melee} weapons as the handle of the weapon is also the portion of the weapon that you attack with."
 			]
 		},
 		{

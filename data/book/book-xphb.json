@@ -8775,7 +8775,7 @@
 									"row": [
 										"{@item Scythe|XPHB}",
 										"{@dice 1d8} Slashing",
-										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty H|XPHB|Heavy}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}",
+										"{@itemProperty H|XPHB|Heavy}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Cleave}",
 										"6 lb.",
 										"5 GP"
@@ -9132,7 +9132,7 @@
 									"row": [
 										"{@item Double Recursive Bow|XPHB}",
 										"{@dice 1d8} Piercing",
-										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty A|XPHB|Ammunition} (Range 100/400; Arrow)",
+										"{@itemProperty A|XPHB|Ammunition} (Range 100/400; Arrow), {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Vex}",
 										"2.25 lb.",
 										"60 GP"
@@ -9156,7 +9156,7 @@
 									"row": [
 										"{@item Hand Double Crossbow|XPHB}",
 										"{@dice 1d6} Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 35/100; Bolt), {@itemProperty DR|XPHB|Double: Ranged}, {@itemProperty L|XPHB|Light}, {@itemProperty LD|XPHB|Loading}",
+										"{@itemProperty A|XPHB|Ammunition} (Range 25/100; Bolt), {@itemProperty DR|XPHB|Double: Ranged}, {@itemProperty L|XPHB|Light}, {@itemProperty LD|XPHB|Loading}",
 										"{@itemMastery Vex}",
 										"3.25 lb.",
 										"125 GP"
@@ -9317,9 +9317,9 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Double-Bladed Scimitar|XPHB} {@i Cultural (Elven)}",
+										"{@item Dual Scimitar|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
-										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d6})",
+										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6}), {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Vex}",
 										"5 lb.",
 										"100 GP"
@@ -9331,7 +9331,7 @@
 									"row": [
 										"{@item Granite Fists|XPHB} {@i Cultural (Dwarven)}",
 										"{@dice 2d6} Bludgeoning",
-										"{@itemProperty D|XPHB|Versatile} ({@dice 1d6}), {@itemProperty H|XPHB|Heavy}, {@itemProperty UW|XPHB|Unarmed Weapon}, Special",
+										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6}), {@itemProperty H|XPHB|Heavy}, {@itemProperty UW|XPHB|Unarmed Weapon}, Special",
 										"{@itemMastery Push}",
 										"10 lb.",
 										"50 GP"
@@ -9379,7 +9379,7 @@
 									"row": [
 										"{@item Multi-Saber|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
-										"{@itemProperty 2F|XPHB|Two Forms}, {@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d6}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
+										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty 2F|XPHB|Two Forms}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
 										"{@itemMastery Vex}",
 										"6 lb.",
 										"200 GP"
@@ -9391,7 +9391,7 @@
 									"row": [
 										"{@item Nunchaku|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Bludgeoning",
-										"{@itemProperty D|XPHB|Double} ({@dice 1d4}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
+										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d4}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
 										"{@itemMastery Sap}",
 										"2 lb.",
 										"5 SP"
@@ -9439,7 +9439,7 @@
 									"row": [
 										"{@item Spiked Chain|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d4} Piercing",
-										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty D|XPHB|Double} ({@dice 1d4}), {@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}",
+										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d4}), {@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Sap}",
 										"10 lb.",
 										"50 GP"
@@ -9458,7 +9458,7 @@
 									"row": [
 										"{@item Bologorash|XPHB} {@i Cultural (Orcish)}",
 										"{@dice 1d6} Slashing",
-										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
+										"{@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty 2H|XPHB|Two-Handed}, Special",
 										"{@itemMastery Sap}",
 										"4 lb.",
 										"25 GP"
@@ -9506,7 +9506,7 @@
 									"row": [
 										"{@item Light Repeating Crossbow|XPHB}",
 										"{@dice 1d8} Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 65/260; Bolt), {@itemProperty MF|XPHB|Misfire},{@itemProperty RLX|XPHB|Reload}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemProperty A|XPHB|Ammunition} (Range 65/260; Bolt), {@itemProperty MF|XPHB|Misfire}, {@itemProperty RLX|XPHB|Reload}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Slow}",
 										"6 lb.",
 										"75 GP"
@@ -19527,8 +19527,8 @@
 									"type": "item",
 									"name": "Nunchaku {@i Cultural: Monks}",
 									"entries": [
-										"Nunchakus, or commonly referred to as \"Nunchucks\" by non-Martial Arts practitioners, are unique {@itemProperty D|XPHB|Double} weapons as the handle of the weapon is also the portion of the weapon that you attack with.",
-										"{@b {@i Special: Indirectly Two-Handed.}} While this weapon is a One-Handed weapon to attack with, in order to utilize its {@itemProperty D|XPHB|Double} property, you would need to maneuver the weapon with and between both hands. Due to this, if your Dexterity score is at least a 13, you can take the {@action Free Object Interaction|XPHB} as part of each attack you make on your turn with this weapon as long as you do not use that free action for a different object interaction."
+										"Nunchakus, or commonly referred to as \"Nunchucks\" by non-Martial Arts practitioners, are unique {@itemProperty DM|XPHB|Double: Melee} weapons as the handle of the weapon is also the portion of the weapon that you attack with.",
+										"{@b {@i Special: Indirectly Two-Handed.}} While this weapon is a One-Handed weapon to attack with, in order to utilize its {@itemProperty DM|XPHB|Double: Melee} property, you would need to maneuver the weapon with and between both hands. Due to this, if your Dexterity score is at least a 13, you can take the {@action Free Object Interaction|XPHB} as part of each attack you make on your turn with this weapon as long as you do not use that free action for a different object interaction."
 									]
 								},
 								{
