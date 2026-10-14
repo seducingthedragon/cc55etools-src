@@ -7540,6 +7540,35 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Urgrosh",
+			"alias": [
+				"Spear-Axe"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CDwf|XPHB",
+			"rarity": "none",
+			"weight": 12,
+			"value": 5000,
+			"weaponCategory": "specialized",
+			"property": [
+				"DM|XPHB",
+				"H|XPHB",
+				"2H|XPHB"
+			],
+			"mastery": [
+				"Graze|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d6 Piercing",
+			"axe": true,
+			"weapon": true,
+			"hasFluff": true
+		},
+		{
 			"name": "Viol",
 			"source": "PHB",
 			"page": 154,
@@ -7668,7 +7697,7 @@
 			"typeAlt": "CDwf|XPHB",
 			"rarity": "none",
 			"weight": 7,
-			"value": 2000,
+			"value": 3000,
 			"weaponCategory": "specialized",
 			"property": [
 				"F|XPHB",

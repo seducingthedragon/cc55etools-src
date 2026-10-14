@@ -9461,12 +9461,24 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Urgrosh|XPHB} {@i Cultural (Dwarven)}",
+										"{@dice 1d8} Slashing",
+										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6} Piercing), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Graze}",
+										"12 lb.",
+										"50 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Waraxe|XPHB} {@i Cultural (Dwarven)}",
 										"{@dice 1d10} Slashing",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty V|XPHB|Versatile} ({@dice 1d12})",
 										"{@itemMastery Cleave}",
 										"7 lb.",
-										"20 GP"
+										"30 GP"
 									]
 								},
 								[
@@ -19595,7 +19607,12 @@
 								},
 								{
 									"type": "item",
-									"name": "Waraxe {@i Cultural (Dwarven}",
+									"name": "Urgrosh {@i Cultural (Dwarven)}",
+									"entry": "The Urgrosh, also known as the Spear-Axe, is a specialized weapon for the Dwarven community. An Urgrosh appeared to be a Waraxe, with a slightly smaller axe head and longer haft, and at the end of the haft there is a iron point, much like a shortspear."
+								},
+								{
+									"type": "item",
+									"name": "Waraxe {@i Cultural (Dwarven)}",
 									"entry": "The Waraxe, also known as the Dwarven Waraxe, was a single-bladed, versatile axe, that is larger and heavier than a battleaxe, but only slightly less so than the double-bladed greataxe. While this weapon does not have reach abilities, its large blade makes it difficult to miss a target when properly wielded and always does deadly damage."
 								}
 							]

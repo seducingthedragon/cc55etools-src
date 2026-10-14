@@ -13470,6 +13470,13 @@
 			]
 		},
 		{
+			"name": "Urgrosh",
+			"source": "XPHB",
+			"entries": [
+				"The Urgrosh, also known as the Spear-Axe, is a specialized weapon for the Dwarven community. An Urgrosh appeared to be a Waraxe, with a slightly smaller axe head and longer haft, and at the end of the haft there is a iron point, much like a shortspear."
+			]
+		},
+		{
 			"name": "Vicious Weapon",
 			"source": "DMG",
 			"images": [
