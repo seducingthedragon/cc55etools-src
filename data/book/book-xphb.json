@@ -9457,6 +9457,18 @@
 										"50 GP"
 									]
 								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Waraxe|XPHB} {@i Cultural (Dwarven)}",
+										"{@dice 1d10} Slashing",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty V|XPHB|Versatile} ({@dice 1d12})",
+										"{@itemMastery Cleave}",
+										"7 lb.",
+										"20 GP"
+									]
+								},
 								[
 									{
 										"type": "cell",
@@ -9607,6 +9619,15 @@
 							"id": "641",
 							"entries": [
 								"Here are definitions of the properties in the Properties column of the Weapons table.",
+								{
+									"type": "entries",
+									"name": "\"Unarmed\"",
+									"page": 214,
+									"id": "634",
+									"entries": [
+										"An \"Unarmed\" weapon is typically a weapon that is worn, yet still requires you to grip part of the weapon itself. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}."
+									]
+								},
 								{
 									"type": "entries",
 									"name": "Ammunition",
@@ -9771,15 +9792,6 @@
 									"id": "64b",
 									"entries": [
 										"A Two-Handed weapon requires two hands when you attack with it."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "\"Unarmed\"",
-									"page": 214,
-									"id": "634",
-									"entries": [
-										"An \"Unarmed\" weapon is typically a weapon that is worn, yet still requires you to grip part of the weapon itself. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}."
 									]
 								},
 								{
@@ -19580,6 +19592,11 @@
 									"type": "item",
 									"name": "Stiletto",
 									"entry": "A Stiletto is a specialized {@item Dagger|XPHB} with a longer and thinner blade, remininsent of a {@item Rapier|XPHB}. This allows the Stiletto puncture through chain and plated armor easier than standard {@item Dagger|XPHB}."
+								},
+								{
+									"type": "item",
+									"name": "Waraxe {@i Cultural (Dwarven}",
+									"entry": "The Waraxe, also known as the Dwarven Waraxe, was a single-bladed, versatile axe, that is larger and heavier than a battleaxe, but only slightly less so than the double-bladed greataxe. While this weapon does not have reach abilities, its large blade makes it difficult to miss a target when properly wielded and always does deadly damage."
 								}
 							]
 						}

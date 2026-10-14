@@ -7657,6 +7657,35 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Waraxe",
+			"alias": [
+				"Dwarven Waraxe"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CDwf|XPHB",
+			"rarity": "none",
+			"weight": 7,
+			"value": 2000,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"H|XPHB",
+				"V|XPHB"
+			],
+			"mastery": [
+				"Cleave|XPHB"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"dmg2": "1d12",
+			"axe": true,
+			"weapon": true,
+			"hasFluff": true
+		},
+		{
 			"name": "Wargong",
 			"source": "SCAG",
 			"page": 124,
