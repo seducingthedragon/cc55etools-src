@@ -2282,7 +2282,7 @@
 			],
 			"dmg1": "1d8",
 			"dmgType": "P",
-			"range": "200/800",
+			"range": "100/400",
 			"ammoType": "arrow|xphb",
 			"bow": true,
 			"weapon": true,
@@ -2335,7 +2335,7 @@
 			"weaponCategory": "specialized",
 			"property": [
 				"2H|XPHB",
-				"D|XPHB"
+				"DM|XPHB"
 			],
 			"mastery": [
 				"Vex|XPHB"
@@ -2756,7 +2756,7 @@
 			"value": 5000,
 			"weaponCategory": "specialized",
 			"property": [
-				"D|XPHB",
+				"DM|XPHB",
 				"H|XPHB",
 				"UW|XPHB",
 				"S|XPHB"
@@ -3413,16 +3413,17 @@
 			"source": "XPHB",
 			"page": 215,
 			"edition": "one",
-			"type": "M|XPHB",
-			"typeAlt": "R|XPHB",
+			"type": "R|XPHB",
+			"typeAlt": "M|XPHB",
 			"rarity": "none",
 			"weight": 2,
 			"value": 10,
 			"weaponCategory": "simple",
 			"property": [
+				"DB|XPHB",
+				"2H|XPHB",
 				"A|XPHB",
-				"F|XPHB",
-				"2H|XPHB"
+				"F|XPHB"
 			],
 			"mastery": [
 				"Push|XPHB"
@@ -3433,35 +3434,7 @@
 			"dmg2": "1d4 Bludgeoning",
 			"weapon": true,
 			"ammoType": "sling bullets|xphb",
-			"entries": [
-				"A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other.",
-				{
-					"type": "entries",
-					"name": "Dual Types",
-					"entries": [
-						"This weapon is used for both Melee and Ranged {@variantrule Weapon Attack|XPHB|Weapon Attacks}. Regardless of how you use this weapon, it is always a {@itemProperty 2H|XPHB|Two-Handed} weapon.",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"nameDot": false,
-									"name": "For Melee Attacks",
-									"entry": "it uses its {@itemProperty F|XPHB|Finesse} property, dealing {@damage 1d6} Piercing damage on a hit."
-								},
-								{
-									"type": "item",
-									"nameDot": false,
-									"name": "For Ranged Attacks",
-									"entry": "it uses its {@itemProperty A|XPHB|Ammunition} property, dealing its Alternate damage of {@damage 1d4} Bludgeoning damage."
-								}
-							]
-						}
-					]
-				}
-			],
-			"hasFluffImages": true
+			"hasFluff": true
 		},
 		{
 			"name": "Horn",
@@ -4932,7 +4905,7 @@
 			"property": [
 				"2F|XPHB",
 				"2H|XPHB",
-				"D|XPHB",
+				"DM|XPHB",
 				"F|XPHB",
 				"L|XPHB",
 				"S|XPHB"
@@ -5124,7 +5097,7 @@
 			"value": 50,
 			"weaponCategory": "specialized",
 			"property": [
-				"D|XPHB",
+				"DM|XPHB",
 				"F|XPHB",
 				"L|XPHB",
 				"S|XPHB"
@@ -6993,7 +6966,7 @@
 			"weaponCategory": "specialized",
 			"property": [
 				"2H|XPHB",
-				"D|XPHB",
+				"DM|XPHB",
 				"F|XPHB",
 				"H|XPHB",
 				"R|XPHB"
@@ -8118,7 +8091,7 @@
 					"type": "entries",
 					"name": "Two Forms",
 					"entries": [
-						"This weapon can change its form. A weapon with two forms does not have all of its listed weapon properties all the time. See the weapon's specific informational details for a break down of this weapon's specific forms and which weapon properties are associated with which form. Typically, a weapon with two forms can be separated from one weapon into two. When that is the case, separating a weapon takes a {@action Free Object Interaction|XPHB} and putting them back together takes a {@variantrule Bonus Action|XPHB}. If a two-formed weapon does not follow this rule, it will be specified."
+						"This weapon can change its form. A weapon with two forms does not have all of its listed weapon properties all the time. See the weapon's specific details for confirmation on which weapon properties are related to which form. Typically, a weapon with two forms can be separated from one weapon into two. Splitting a weapon takes a {@action Free Object Interaction|XPHB} while rejoining them takes a {@variantrule Bonus Action|XPHB}. If a two-formed weapon does not follow this general rule, it will be specified."
 					]
 				}
 			]
@@ -8187,7 +8160,7 @@
 					"type": "entries",
 					"name": "Ammunition",
 					"entries": [
-						"You can use a weapon that has the Ammunition property to make a ranged attack only if you have ammunition to fire from it. The type of ammunition required is specified with the weapon's range. Each attack expends one piece of ammunition. Drawing the ammunition is part of the attack (you need a free hand to load a one-handed weapon). After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon.."
+						"This ranged weapon property requires you to have the necessary ammunition available in order to make an attack. The type of ammunition required is specified with the weapon's range. Each attack expends one piece of ammunition. Drawing the ammunition is part of the attack (you need a free hand to load a one-handed weapon). After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost. If you use a weapon that has the ammunition property to make a melee attack, it is treated as an improvised weapon."
 					]
 				}
 			]
@@ -8269,30 +8242,88 @@
 					"type": "entries",
 					"name": "Concealable",
 					"entries": [
-						"You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Sleight of Hand|XPHB}) checks made to conceal/hide this weapon."
+						"This weapon can be easily hidden from sight. You have {@variantrule Advantage|XPHB} on Dexterity ({@skill Sleight of Hand|XPHB}) checks made to conceal/hide this weapon."
 					]
 				}
 			]
 		},
 		{
-			"abbreviation": "D",
+			"abbreviation": "DB",
 			"source": "XPHB",
 			"page": 214,
 			"template": "{{prop_name}} ({{item.dmg2}})",
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Double",
+					"name": "Double: Both",
 					"entries": [
-						"A Double weapon often falls under one of the following criterias:",
+						"A Double weapon has two points of attack on a singular weapon. How a weapon does so and what benefit this property grants is based on what kind of weapon it is.",
 						{
 							"type": "list",
+							"style": "list-hang-notitle",
 							"items": [
-								"A {@itemProperty V|XPHB|Versatile}, {@itemProperty 2H|XPHB|Two-Handed}, or a Specialized weapon that can be attacked from either end of it",
-								"An {@itemProperty UW|XPHB|Unarmed Weapon} made and wielded as a pair."
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "A Double: Both",
+									"entry": "weapon is a weapon that can make a melee attack from one end and a ranged attack from the other. If this weapon has the {@itemProperty A|XPHB|Ammunition} property, making a melee {@variantrule Weapon Attack} does not count as an improvised weapon, as long as there is no ammunition loaded."
+								}
 							]
-						},
-						"When you take the {@action Attack|XPHB} action with a Double weapon, you can use a {@variantrule Bonus Action|XPHB} to attack again with the other half of the weapon. The bonus attack deals the damage value in parentheses that appears with the property and you don't add your ability modifier, unless that modifier is negative."
+						}
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DM",
+			"source": "XPHB",
+			"page": 214,
+			"template": "{{prop_name}} ({{item.dmg2}})",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double (Melee)",
+					"entries": [
+						"A Double weapon has two points of attack on a singular weapon. How a weapon does so and what benefit this property grants is based on what kind of weapon it is.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "A Double (Melee)",
+									"entry": "weapon is a melee weapon that has two points of attack on opposite sides of a haft, hilt, or pole, {@b {@i or}} is an {@itemProperty UW|XPHB|Unarmed Weapon} made and wielded as a pair. Immediately after you make an attack, you can use your {@variantrule Bonus Action|XPHB} to make an attack roll using its opposite side, or other half. This attack's damage value is in parentheses that appears with this property."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DR",
+			"source": "XPHB",
+			"page": 214,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double (Range)",
+					"entries": [
+						"A Double weapon has two points of attack on a singular weapon. How a weapon does so and what benefit this property grants is based on what kind of weapon it is.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "A Double (Ranged)",
+									"entry": "weapon is a range weapon that has the {@itemProperty LD|XPHB|Loading} property and two places to load individual ammunition. This weapon follows standard {@itemProperty LD|XPHB|Loading} rules, however if you choose to load both ammunitions simultaneously, you must spend your {@variantrule Action|XPHB} to do so or your entire movement speed, so long as you have not yet moved on that turn. When both ammunitions are loaded, you can temporarily ignore the {@itemProperty LD|XPHB|Loading} property for another attack."
+								}
+							]
+						}
 					]
 				}
 			]
@@ -8341,7 +8372,7 @@
 					"type": "entries",
 					"name": "Finesse",
 					"entries": [
-						"When making an attack with a Finesse weapon, use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
+						"A Finesse weapon is a melee weapon that lets you choose between using your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
 					]
 				}
 			]
@@ -8375,7 +8406,7 @@
 					"type": "entries",
 					"name": "Heavy",
 					"entries": [
-						"You have {@variantrule Disadvantage|XPHB} on attack rolls with a Heavy weapon if it's a Melee weapon and your Strength score isn't at least 13 or if it's a Ranged weapon and your Dexterity score isn't at least 13."
+						"A Heavy weapon is a weapon that requires a minimum ability score. You have {@variantrule Disadvantage|XPHB} on attack rolls with a Heavy weapon if it's a Melee weapon and your Strength score isn't at least 13 or if it's a Ranged weapon and your Dexterity score isn't at least 13."
 					]
 				}
 			]
@@ -8409,7 +8440,7 @@
 					"type": "entries",
 					"name": "Light",
 					"entries": [
-						"Light Weapons are small and easy to handle in your off-hand, making it ideal for wielding with another weapon and engaging in {@action Two-Weapon Fighting|XPHB}."
+						"Light Weapons are small and easy to handle in either your main-hand or your off-hand, making it ideal for wielding with another weapon and engaging in {@action Two-Weapon Fighting|XPHB}."
 					]
 				}
 			]
@@ -8443,7 +8474,7 @@
 					"type": "entries",
 					"name": "Loading",
 					"entries": [
-						"You can fire only one piece of ammunition from a Loading weapon when you use an action, a {@variantrule Bonus Action|XPHB}, or a {@variantrule Reaction|XPHB} to fire it, regardless of the number of attacks you can normally make. Loading the ammunition uses your {@action Other Activity|PHB|Free Object Interaction} or a {@variantrule Bonus Action|XPHB}."
+						"A Loading weapon is a Ranged weapon that requires you to load ammunition before you make an attack roll. You can fire only one piece of ammunition from a Loading weapon when you use an {@variantrule Action|XPHB}, a {@variantrule Bonus Action|XPHB}, or a {@variantrule Reaction|XPHB} to fire it, regardless of the number of attacks you can normally make. Loading ammunition uses your {@variantrule Bonus Action|XPHB}."
 					]
 				}
 			]
@@ -8459,14 +8490,7 @@
 					"type": "entries",
 					"name": "Polearm",
 					"entries": [
-						"A Polearm weapon is typically a long thin weapon that may or may not have a blade at the end of one side. The purpose of this property is to label which weapons are benefitted by the {@feat Polearm Master|XPHB} feat."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Maneuver: Trip",
-					"entries": [
-						"Make a single {@action Attack|XPHB} against a Large or smaller creature. On a hit, you deal the weapon's damage and your target must succeed on a Strength {@variantrule Saving Throw|XPHB} ({@dc 8} plus the attack modifier and your Proficiency Bonus), or fall {@condition Prone|XPHB}."
+						"A Polearm weapon is typically a weapon with a long shaft that may or may not have a blade at the end of one side. The purpose of this property is to label which weapons are benefitted by the {@feat Polearm Master|XPHB} feat."
 					]
 				}
 			]
@@ -8500,7 +8524,7 @@
 					"type": "entries",
 					"name": "Reach",
 					"entries": [
-						"A Reach weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for {@action Opportunity Attack|XPHB|Opportunity Attacks} with it."
+						"A Reach weapon is a melee weapon that adds 5 feet to your reach when you attack with it. This reach is also used for your {@action Opportunity Attack|XPHB|Opportunity Attacks} with it."
 					]
 				}
 			]
@@ -8515,7 +8539,7 @@
 					"type": "entries",
 					"name": "Reload",
 					"entries": [
-						"A Reload weapon allows you to make a limited number of {@action Attack|XPHB|Attacks} before new ammunition must be loaded. Once you make a number of attacks equal to the number listed above, you must use your {@variantrule Action|XPHB} to reload."
+						"A Reload weapon allows you to make a limited number of {@action Attack|XPHB|Attacks} before new ammunition must be loaded. This is often done with mechanized parts that automatically loads another piece of ammunition for you from a secondary storage unit attached to the weapon. Once you make a number of attacks equal to the number listed above, you must spend an entire turn reloading this weapon's ammunition compartment and reattaching it to the weapon. In other words, a Reload weapon is an extremely advanced {@itemProperty DR|XPHB|Double:Ranged} weapon."
 					]
 				}
 			]
@@ -8596,7 +8620,7 @@
 					"type": "entries",
 					"name": "Thrown",
 					"entries": [
-						"If a weapon has the Thrown property, you can throw the weapon to make a ranged attack, and you can draw that weapon as part of the attack. If the weapon is a Melee weapon, use the same ability modifier for the attack and damage rolls that you use for a melee attack with that weapon."
+						"A Thrown weapon is a melee or ranged weapon that you throw in order to make a ranged attack. You can draw that weapon as part of the attack, however you must retrieve it before you can attack with it again. If you throw a melee weapon, you use your melee Ability modifier for your attack and damage rolls."
 					]
 				}
 			]
@@ -8611,7 +8635,7 @@
 					"type": "entries",
 					"name": "\"Unarmed\" Weapon",
 					"entries": [
-						"An \"Unarmed\" Weapon is typically a weapon that is worn, such as on the hands, wrists, or fingers, yet still requires you to grip part of the weapon itself. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}."
+						"An \"Unarmed\" Weapon is typically a weapon that is worn, yet still requires you to grip part of the weapon itself. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}."
 					]
 				}
 			]
@@ -8645,7 +8669,7 @@
 					"type": "entries",
 					"name": "Versatile",
 					"entries": [
-						"A Versatile weapon can be used with one or two hands. A damage value in parentheses appears with the property. The weapon deals that damage when used with two hands to make a melee attack."
+						"A Versatile weapon is a melee weapon that can be used with one or two hands. A damage value in parentheses appears with the property is the damage used when making a melee attack with two hands."
 					]
 				}
 			]

@@ -5616,6 +5616,13 @@
 			]
 		},
 		{
+			"name": "Hoopak",
+			"source": "XPHB",
+			"entries": [
+				"A Hoopak looks like a slingshot with a long shaft that ends with a sharp, sometimes metal-coated, piercing tip."
+			]
+		},
+		{
 			"name": "Horn of Beckoning Death",
 			"source": "HAT-LMI",
 			"images": [
