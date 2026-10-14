@@ -4144,7 +4144,7 @@
 					"type": "entries",
 					"name": "Ignore Loading",
 					"entries": [
-						"You ignore the {@itemProperty LD|XPHB|Loading} property of the {@item Hand Crossbow|XPHB}, {@item Heavy Crossbow|XPHB}, {@item Light Crossbow|XPHB}, and all other crossbows (all called crossbows elsewhere in this feat). This includes crossbows with the {@itemProperty DR|XPHB|Double:Ranged} property. If you're holding one of them, you can load one piece of ammunition into it even if you lack a free hand."
+						"You ignore the {@itemProperty LD|XPHB|Loading} property of the {@item Hand Crossbow|XPHB}, {@item Heavy Crossbow|XPHB}, {@item Light Crossbow|XPHB}, and all other crossbows (all called crossbows elsewhere in this feat). This includes crossbows with the {@itemProperty DR|XPHB|Double: Ranged} property. If you're holding one of them, you can load one piece of ammunition into it even if you lack a free hand."
 					]
 				},
 				{

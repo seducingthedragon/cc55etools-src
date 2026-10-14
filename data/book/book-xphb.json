@@ -8634,9 +8634,9 @@
 								"Cost"
 							],
 							"colStyles": [
-								"col-3",
+								"col-2-7",
 								"col-2 text-center",
-								"col-4",
+								"col-4-3",
 								"col-1 text-center",
 								"col-1 text-center",
 								"col-1 text-center"
@@ -9154,11 +9154,47 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Hand Double Crossbow|XPHB}",
+										"{@dice 1d6} Piercing",
+										"{@itemProperty A|XPHB|Ammunition} (Range 35/100; Bolt), {@itemProperty DR|XPHB|Double: Ranged}, {@itemProperty L|XPHB|Light}, {@itemProperty LD|XPHB|Loading}",
+										"{@itemMastery Vex}",
+										"3.25 lb.",
+										"125 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Heavy Crossbow|XPHB}",
 										"{@dice 1d10} Piercing",
 										"{@itemProperty A|XPHB|Ammunition} (Range 100/400; Bolt), {@itemProperty H|XPHB|Heavy}, {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Push}",
 										"18 lb.",
+										"50 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Heavy Double Crossbow|XPHB}",
+										"{@dice 1d10} Piercing",
+										"{@itemProperty A|XPHB|Ammunition} (Range 90/360; Bolt), {@itemProperty DR|XPHB|Double: Ranged},{@itemProperty H|XPHB|Heavy}, {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Push}",
+										"19 lb.",
+										"100 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Light Double Crossbow|XPHB}",
+										"{@dice 1d8} Piercing",
+										"{@itemProperty A|XPHB|Ammunition} (Range 75/300; Bolt), {@itemProperty DR|XPHB|Double: Ranged}, {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Slow}",
+										"5.5 lb.",
 										"50 GP"
 									]
 								},
@@ -9377,7 +9413,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Sai|XPHB} {@i Cultural (Monk)} (Bladed)",
+										"{@item Sai (Bladed)|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Piercing",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
 										"{@itemMastery Vex}",
@@ -9389,7 +9425,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Sai|XPHB} {@i Cultural (Monk)} (Blunted)",
+										"{@item Sai (Blunted)|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Bludgeoning",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
 										"{@itemMastery Sap}",
@@ -9446,7 +9482,7 @@
 									"row": [
 										"{@item Hand Repeating Crossbow|XPHB}",
 										"{@dice 1d6} Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 20/80; Bolt), {@itemProperty L|XPHB|Light}, {@itemProperty RLX|XPHB|Reload}",
+										"{@itemProperty A|XPHB|Ammunition} (Range 20/80; Bolt), {@itemProperty L|XPHB|Light}, {@itemProperty MF|XPHB|Misfire}, {@itemProperty RLX|XPHB|Reload}",
 										"{@itemMastery Vex}",
 										"3.5 lb.",
 										"150 GP"
@@ -9458,7 +9494,7 @@
 									"row": [
 										"{@item Heavy Repeating Crossbow|XPHB}",
 										"{@dice 1d10} Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 80/320; Bolt), {@itemProperty H|XPHB|Heavy}, {@itemProperty RLX|XPHB|Reload}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemProperty A|XPHB|Ammunition} (Range 80/320; Bolt), {@itemProperty H|XPHB|Heavy}, {@itemProperty MF|XPHB|Misfire}, {@itemProperty RLX|XPHB|Reload}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Push}",
 										"20 lb.",
 										"200 GP"
@@ -9470,7 +9506,7 @@
 									"row": [
 										"{@item Light Repeating Crossbow|XPHB}",
 										"{@dice 1d8} Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 65/260; Bolt), {@itemProperty RLX|XPHB|Reload}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemProperty A|XPHB|Ammunition} (Range 65/260; Bolt), {@itemProperty MF|XPHB|Misfire},{@itemProperty RLX|XPHB|Reload}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Slow}",
 										"6 lb.",
 										"75 GP"
@@ -9492,7 +9528,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Shuriken|XPHB} (20) {@i Cultural (Monk)}",
+										"{@item Shuriken (20)|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Piercing",
 										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
 										"{@itemMastery Vex}",
@@ -9596,12 +9632,12 @@
 												{
 													"type": "item",
 													"name": "Double: Ranged",
-													"entry": "A {@u Double: Ranged} weapon is a range weapon that has the {@itemProperty LD|XPHB|Loading} property and two places to load individual ammunition. This weapon follows standard {@itemProperty LD|XPHB|Loading} rules, however if you choose to load both ammunitions simultaneously, you must spend your {@variantrule Action|XPHB} to do so or your entire movement speed, so long as you have not yet moved on that turn. When both ammunitions are loaded, you can temporarily ignore the {@itemProperty LD|XPHB|Loading} property for another attack."
+													"entry": "A {@u Double: Ranged} weapon is a range weapon that has the {@itemProperty LD|XPHB|Loading} property, while having two places to load ammunition individually, which may grant you the option of temporarily gaining the {@itemProperty RLX|XPHB|Reload} property. This weapon follows standard {@itemProperty LD|XPHB|Loading} rules, allowing you to load one section and not the other without impacting your ability to attack. If you choose to reload this weapon to capacity, you must spend your entire {@variantrule Action|XPHB} to do so or your entire movement speed, so long as you have not yet moved on that turn. When both ammunitions are loaded, you can ignore the {@itemProperty LD|XPHB|Loading} property for one attack."
 												},
 												{
 													"type": "item",
 													"name": "Double: Both",
-													"entry": "A {@u Double: Both} weapon is a weapon that can make a melee attack from one end and a ranged attack from the other. If this weapon has the {@itemProperty A|XPHB|Ammunition} property, making a melee {@variantrule Weapon Attack} does not count as an improvised weapon, as long as there is no ammunition loaded."
+													"entry": "A {@u Double: Both} weapon is a weapon that can make a melee attack from one end and a ranged attack, using {@itemProperty A|XPHB|Ammunition}, from the other. The damage provided next to this weapon property is for its Ranged side. This weapon ignores the improvised weapon condition, that is part of the {@itemProperty A|XPHB|Ammunition} property, when making its melee attacks. This weapon also uses the same Mastery property regardless of how you attack with it."
 												}
 											]
 										}
@@ -9654,6 +9690,16 @@
 								},
 								{
 									"type": "entries",
+									"name": "Misfire",
+									"page": 214,
+									"id": "639",
+									"entries": [
+										"Ranged {@itemProperty RLX|XPHB|Reload} weapons have a chance for Misfiring. When you make your {@action Attack|XPHB} roll and your {@variantrule Attack Roll|XPHB|Die Roll} is equal to half of the number listed next to the weapon's {@itemProperty RLX|XPHB|Reload} property.",
+										"When you misfire, you must spend a full {@variantrule Action|XPHB} to repair it, which may include your {@variantrule Action|XPHB} on your following turn, before you can attack with it again. This can be done with {@item Tinker's Tools|XPHB} or another toolset, at the Discretion of your DM."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Polearm",
 									"page": 214,
 									"id": "632",
@@ -9685,7 +9731,7 @@
 									"page": 214,
 									"id": "633",
 									"entries": [
-										"A Reload weapon allows you to make a limited number of {@action Attack|XPHB|Attacks} before new ammunition must be loaded. This is often done with mechanized parts that automatically loads another piece of ammunition for you from a secondary storage unit attached to the weapon. Once you make a number of attacks equal to the number listed above, you must spend an entire turn reloading this weapon's ammunition compartment and reattaching it to the weapon. In other words, a Reload weapon is an extremely advanced {@itemProperty DR|XPHB|Double:Ranged} weapon."
+										"A Reload weapon allows you to make a limited number of {@action Attack|XPHB|Attacks} before ammunition must be reloaded. This is often done with mechanized parts that automatically loads another piece of ammunition for you from a secondary storage unit attached to the weapon. Once you make a number of attacks equal to the number listed with this weapon property, you must spend an entire turn in order to refill all ammunition. Reloading a single piece of ammunition takes a {@variantrule Bonus Action|XPHB}."
 									]
 								},
 								{
@@ -19428,6 +19474,11 @@
 									"type": "item",
 									"name": "Dikama",
 									"entry": "The Dikama, or Fang Blade, is a serrated curved dagger, often looking like an oversized lion's fang."
+								},
+								{
+									"type": "item",
+									"name": "Double Crossbow (Hand, Heavy, and Light)",
+									"entry": "Double Crossbows give the appearance of two crossbows built on top of each other, which is essentially correct. You load one bolt above another and the trigger has another trigger placed ahead of it, allowing you to fire each section individually. This expansion is done so in a way that does not require a separate proficiency with the weapon, with the Light Double Crossbow being the exception, allowing for some of the benefits of a repeating weapon but without its drawback of a signficantly longer reload time."
 								},
 								{
 									"type": "item",

@@ -3100,10 +3100,36 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Hand Double Crossbow",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 3.25,
+			"value": 12500,
+			"weaponCategory": "martial",
+			"property": [
+				"A|XPHB",
+				"DR|XPHB",
+				"L|XPHB",
+				"LD|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"range": "25/100",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "bolt|xphb",
+			"hasFluff": true
+		},
+		{
 			"name": "Hand Repeating Crossbow",
 			"source": "XPHB",
 			"page": 215,
-			"srd52": true,
 			"edition": "one",
 			"type": "R|XPHB",
 			"rarity": "none",
@@ -3112,6 +3138,7 @@
 			"weaponCategory": "specialized",
 			"property": [
 				"A|XPHB",
+				"MF|XPHB",
 				"L|XPHB",
 				"RLX|XPHB"
 			],
@@ -3119,16 +3146,13 @@
 				"Vex|XPHB"
 			],
 			"range": "20/80",
-			"reload": 5,
+			"reload": 4,
 			"dmg1": "1d6",
 			"dmgType": "P",
 			"crossbow": true,
 			"weapon": true,
 			"ammoType": "bolt|xphb",
-			"hasRefs": true,
-			"entries": [
-				"{#itemEntry Repeating Crossbow|XPHB}"
-			]
+			"hasFluff": true
 		},
 		{
 			"name": "Hand Drum",
@@ -3286,6 +3310,34 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Heavy Double Crossbow",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 19,
+			"value": 10000,
+			"weaponCategory": "martial",
+			"property": [
+				"A|XPHB",
+				"DR|XPHB",
+				"H|XPHB",
+				"LD|XPHB",
+				"2H|XPHB"
+			],
+			"mastery": [
+				"Push|XPHB"
+			],
+			"range": "90/360",
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "bolt|xphb",
+			"hasFluff": true
+		},
+		{
 			"name": "Heavy Repeating Crossbow",
 			"source": "XPHB",
 			"page": 215,
@@ -3297,25 +3349,23 @@
 			"value": 20000,
 			"weaponCategory": "specialized",
 			"property": [
-				"2H|XPHB",
 				"A|XPHB",
 				"H|XPHB",
-				"RLX|XPHB"
+				"MF|XPHB",
+				"RLX|XPHB",
+				"2H|XPHB"
 			],
 			"mastery": [
 				"Push|XPHB"
 			],
 			"range": "80/320",
-			"reload": 5,
+			"reload": 6,
 			"dmg1": "1d10",
 			"dmgType": "P",
 			"crossbow": true,
 			"weapon": true,
 			"ammoType": "bolt|xphb",
-			"hasRefs": true,
-			"entries": [
-				"{#itemEntry Repeating Crossbow|XPHB}"
-			]
+			"hasFluff": true
 		},
 		{
 			"name": "Hide Armor",
@@ -3413,8 +3463,8 @@
 			"source": "XPHB",
 			"page": 215,
 			"edition": "one",
-			"type": "R|XPHB",
-			"typeAlt": "M|XPHB",
+			"type": "M|XPHB",
+			"typeAlt": "R|XPHB",
 			"rarity": "none",
 			"weight": 2,
 			"value": 10,
@@ -4212,6 +4262,36 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Light Double Crossbow",
+			"alias": [
+				"Double Crossbow"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 5.5,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"A|XPHB",
+				"DR|XPHB",
+				"LD|XPHB",
+				"2H|XPHB"
+			],
+			"mastery": [
+				"Slow|XPHB"
+			],
+			"range": "75/300",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "bolt|xphb",
+			"hasFluff": true
+		},
+		{
 			"name": "Light Hammer",
 			"source": "PHB",
 			"page": 149,
@@ -4310,16 +4390,13 @@
 				"Slow|XPHB"
 			],
 			"range": "65/260",
-			"reload": 5,
+			"reload": 6,
 			"dmg1": "1d8",
 			"dmgType": "P",
 			"crossbow": true,
 			"weapon": true,
 			"ammoType": "bolt|xphb",
-			"hasRefs": true,
-			"entries": [
-				"{#itemEntry Repeating Crossbow|XPHB}"
-			]
+			"hasFluff": true
 		},
 		{
 			"name": "Longbow",
@@ -8266,7 +8343,7 @@
 									"type": "item",
 									"nameDot": false,
 									"name": "A Double: Both",
-									"entry": "weapon is a weapon that can make a melee attack from one end and a ranged attack from the other. If this weapon has the {@itemProperty A|XPHB|Ammunition} property, making a melee {@variantrule Weapon Attack} does not count as an improvised weapon, as long as there is no ammunition loaded."
+									"entry": "weapon is a weapon that can make a melee attack from one end and a ranged attack, using {@itemProperty A|XPHB|Ammunition}, from the other. The damage provided next to this weapon property is for its Ranged side. This weapon ignores the improvised weapon condition, that is part of the {@itemProperty A|XPHB|Ammunition} property, when making its melee attacks. This weapon also uses the same Mastery property regardless of how you attack with it."
 								}
 							]
 						}
@@ -8282,7 +8359,7 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Double (Melee)",
+					"name": "Double: Melee",
 					"entries": [
 						"A Double weapon has two points of attack on a singular weapon. How a weapon does so and what benefit this property grants is based on what kind of weapon it is.",
 						{
@@ -8292,7 +8369,7 @@
 								{
 									"type": "item",
 									"nameDot": false,
-									"name": "A Double (Melee)",
+									"name": "A Double: Melee",
 									"entry": "weapon is a melee weapon that has two points of attack on opposite sides of a haft, hilt, or pole, {@b {@i or}} is an {@itemProperty UW|XPHB|Unarmed Weapon} made and wielded as a pair. Immediately after you make an attack, you can use your {@variantrule Bonus Action|XPHB} to make an attack roll using its opposite side, or other half. This attack's damage value is in parentheses that appears with this property."
 								}
 							]
@@ -8309,7 +8386,7 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Double (Range)",
+					"name": "Double: Ranged",
 					"entries": [
 						"A Double weapon has two points of attack on a singular weapon. How a weapon does so and what benefit this property grants is based on what kind of weapon it is.",
 						{
@@ -8319,8 +8396,8 @@
 								{
 									"type": "item",
 									"nameDot": false,
-									"name": "A Double (Ranged)",
-									"entry": "weapon is a range weapon that has the {@itemProperty LD|XPHB|Loading} property and two places to load individual ammunition. This weapon follows standard {@itemProperty LD|XPHB|Loading} rules, however if you choose to load both ammunitions simultaneously, you must spend your {@variantrule Action|XPHB} to do so or your entire movement speed, so long as you have not yet moved on that turn. When both ammunitions are loaded, you can temporarily ignore the {@itemProperty LD|XPHB|Loading} property for another attack."
+									"name": "A Double: Ranged",
+									"entry": "weapon is a range weapon that has the {@itemProperty LD|XPHB|Loading} property, while having two places to load ammunition individually, which may grant you the option of temporarily gaining the {@itemProperty RLX|XPHB|Reload} property. This weapon follows standard {@itemProperty LD|XPHB|Loading} rules, allowing you to load one section and not the other without impacting your ability to attack. If you choose to reload this weapon to capacity, you must spend your entire {@variantrule Action|XPHB} to do so or your entire movement speed, so long as you have not yet moved on that turn. When both ammunitions are loaded, you can ignore the {@itemProperty LD|XPHB|Loading} property for one attack."
 								}
 							]
 						}
@@ -8480,6 +8557,23 @@
 			]
 		},
 		{
+			"abbreviation": "MF",
+			"source": "XPHB",
+			"page": 214,
+			"basicRules2024": true,
+			"template": "{{prop_name}}",
+			"entries":[
+				{
+					"type": "entries",
+					"name": "Misfire",
+					"entries": [
+						"Ranged {@itemProperty RLX|XPHB|Reload} weapons have a chance for Misfiring. When you make your {@action Attack|XPHB} roll and your {@variantrule Attack Roll|XPHB|Die Roll} is equal to half of the number listed next to the weapon's {@itemProperty RLX|XPHB|Reload} property.",
+						"When you misfire, you must spend a full {@variantrule Action|XPHB} to repair it, which may include your {@variantrule Action|XPHB} on your following turn, before you can attack with it again. This can be done with {@item Tinker's Tools|XPHB} or another toolset, at the Discretion of your DM."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "P",
 			"source": "XPHB",
 			"page": 214,
@@ -8539,7 +8633,7 @@
 					"type": "entries",
 					"name": "Reload",
 					"entries": [
-						"A Reload weapon allows you to make a limited number of {@action Attack|XPHB|Attacks} before new ammunition must be loaded. This is often done with mechanized parts that automatically loads another piece of ammunition for you from a secondary storage unit attached to the weapon. Once you make a number of attacks equal to the number listed above, you must spend an entire turn reloading this weapon's ammunition compartment and reattaching it to the weapon. In other words, a Reload weapon is an extremely advanced {@itemProperty DR|XPHB|Double:Ranged} weapon."
+						"A Reload weapon allows you to make a limited number of {@action Attack|XPHB|Attacks} before ammunition must be reloaded. This is often done with mechanized parts that automatically loads another piece of ammunition for you from a secondary storage unit attached to the weapon. Once you make a number of attacks equal to the number listed with this weapon property, you must spend an entire turn in order to refill all ammunition. Reloading a single piece of ammunition takes a {@variantrule Bonus Action|XPHB}."
 					]
 				}
 			]
@@ -9817,13 +9911,6 @@
 			"source": "XDMG",
 			"entriesTemplate": [
 				"When you drink this potion, you have {@variantrule Resistance|XPHB} to {{getFullImmRes item.resist}} damage for 1 hour."
-			]
-		},
-		{
-			"name": "Repeating Crossbow",
-			"source": "XPHB",
-			"entriesTemplate": [
-				"Repeating Crossbows are altered crossbows that allows for a cartridge of bolts to be attached. There are also additional parts that aid in the retracting of the bow string in order to instantly load a new bolt for another attack. Due to these changes, all Repeating Crossbows are Specialized weapons."
 			]
 		},
 		{
