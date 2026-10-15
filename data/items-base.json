@@ -667,15 +667,15 @@
 			"source": "XPHB",
 			"page": 215,
 			"edition": "one",
-			"type": "R|XPHB",
+			"type": "M|XPHB",
 			"typeAlt": "COrc",
 			"rarity": "none",
 			"weight": 4,
 			"value": 2500,
 			"weaponCategory": "specialized",
 			"property": [
+				"TP|XPHB",
 				"2H|XPHB",
-				"T|XPHB",
 				"S|XPHB"
 			],
 			"mastery": [
@@ -689,9 +689,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Special: Throwing and More.",
+					"name": "Special: Cannot Disarm.",
 					"entries": [
-						"When you throw this weapon, your main-hand does the attack while your off-hand typically maintains hold of the chain. After throwing this weapon, you can use your {@action Free Object Interaction|XPHB} or {@variantrule Bonus Action|XPHB} on your turn to retract the axe (your choice). Additionally, while holding both the chain and its attached axe in your hands, you cannot be disarmed of this weapon."
+						"While holding the axe in one hand and its chain in the other, you cannot be disarmed of this weapon."
 					]
 				}
 			],
@@ -8817,7 +8817,7 @@
 					"name": "Thrown (Partial)",
 					"entries": [
 						"A Thrown (Partial) weapon is a weapon that is attached to a chain, rope, or other similar material that remains in your hand. All Thrown (Partial) weapons are considered {@itemProperty V|XPHB|Versatile}, in the idea that you can wield it one-handed or with two, however you do not gain the damage change benefit. If this is a Melee weapon, and you want to make a Melee {@variantrule Weapon Attack|XPHB}, you must wield it as a {@itemProperty 2H|XPHB|Two-Handed}, unless it has the {@itemProperty L|XPHB|Light} property.",
-						"When you attack with a Thrown (Partial) weapon and it hits a creature, the weapon is lodged within or entangled around the target. If this weapon deals damage only, you can use a {@variantrule Bonus Action|XPHB} to dislodge {@i (\"yank\")} and retrieve this weapon. If this weapon deals a {@condition Grappled|XPHB}, {@condition Restrained|XPHB}, or altered version of either condition as its main effect, the only way you can attack again with this weapon is for your target to be released from it."
+						"When you attack with a Thrown (Partial) weapon and it hits a creature, the weapon is lodged within or entangled around the target. If this weapon deals damage only, you can use a {@variantrule Bonus Action|XPHB} or a {@action Free Object Interaction|XPHB} to dislodge {@i (\"yank\")} and retrieve this weapon (your choice). If this weapon deals a {@condition Grappled|XPHB}, {@condition Restrained|XPHB}, or altered version of either condition as its main effect, the only way you can attack again with this weapon is for your target to be released from it."
 					]
 				}
 			]
