@@ -9694,7 +9694,7 @@
 									"page": 213,
 									"id": "643",
 									"entries": [
-										"A Finesse weapon is a melee weapon that lets you choose between using your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
+										"A Finesse weapon is a weapon that lets you choose between using your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
 									]
 								},
 								{
@@ -9790,6 +9790,16 @@
 								},
 								{
 									"type": "entries",
+									"name": "Thrown (Partial)",
+									"page": 214,
+									"id": "635",
+									"entries": [
+										"A Thrown (Partial) weapon is a weapon that is attached to a chain, rope, or other similar material that remains in your hand. All Thrown (Partial) weapons are considered {@itemProperty V|XPHB|Versatile}, in the idea that you can wield it one-handed or with two, however you do not gain the damage change benefit. If this is a Melee weapon, and you want to make a Melee {@variantrule Weapon Attack|XPHB}, you must wield it as a {@itemProperty 2H|XPHB|Two-Handed}, unless it has the {@itemProperty L|XPHB|Light} property.",
+										"When you attack with a Thrown (Partial) weapon and it hits a creature, the weapon is lodged within or entangled around the target. If this weapon deals damage only, you can use a {@variantrule Bonus Action|XPHB} to dislodge {@i (\"yank\")} and retrieve this weapon. If this weapon deals a {@condition Grappled|XPHB}, {@condition Restrained|XPHB}, or altered version of either condition as its main effect, the only way you can attack again with this weapon is for your target to be released from it."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Two Forms",
 									"page": 214,
 									"id": "638",
@@ -9824,15 +9834,6 @@
 										"You have {@variantrule Disadvantage|XPHB} on attack rolls with a Very Heavy weapon if your attack ability score isn't at least a 15."
 									]
 								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Weapon Maneuvers",
-							"page": 214,
-							"id": "635",
-							"entries": [
-								"Each weapon has at least one maneuver listed, which any character who is proficient in the weapon can utilize. These maneuvers are unique to each weapon and vary between combat use and other purposes."
 							]
 						},
 						{

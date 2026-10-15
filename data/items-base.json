@@ -8807,6 +8807,22 @@
 			]
 		},
 		{
+			"abbreviation": "TP",
+			"source": "XPHB",
+			"page": 214,
+			"template": "{{prop_name}} ({{item.range}}\u00A0ft.)",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Thrown (Partial)",
+					"entries": [
+						"A Thrown (Partial) weapon is a weapon that is attached to a chain, rope, or other similar material that remains in your hand. All Thrown (Partial) weapons are considered {@itemProperty V|XPHB|Versatile}, in the idea that you can wield it one-handed or with two, however you do not gain the damage change benefit. If this is a Melee weapon, and you want to make a Melee {@variantrule Weapon Attack|XPHB}, you must wield it as a {@itemProperty 2H|XPHB|Two-Handed}, unless it has the {@itemProperty L|XPHB|Light} property.",
+						"When you attack with a Thrown (Partial) weapon and it hits a creature, the weapon is lodged within or entangled around the target. If this weapon deals damage only, you can use a {@variantrule Bonus Action|XPHB} to dislodge {@i (\"yank\")} and retrieve this weapon. If this weapon deals a {@condition Grappled|XPHB}, {@condition Restrained|XPHB}, or altered version of either condition as its main effect, the only way you can attack again with this weapon is for your target to be released from it."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "UA",
 			"source": "XPHB",
 			"page": 214,
