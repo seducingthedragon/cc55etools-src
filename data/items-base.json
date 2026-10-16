@@ -701,6 +701,49 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Bolas",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 5,
+			"weaponCategory": "specialized",
+			"property": [
+				"GP|XPHB",
+				"F|XPHB",
+				"L|XPHB",
+				"TP|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Slow|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"range": "20/60",
+			"net": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Escaping",
+					"entries": [
+						"In order to escape a Bolas, the target has the following options:",
+						{
+							"type": "list",
+							"items": [
+								"The target or a creature within 5 feet of it must take an action to make a {@dc 12} Strength ({@skill Athletics|XPHB}) check, escaping on a success",
+								"Attacking the Bolas: AC 10; 5 HP; {@variantrule Immunity|XPHB} to Bludgeoning, Poison, and Psychic damage"
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Bologorash",
 			"alias": [
 				"Chained Throwing Axe"
@@ -775,6 +818,40 @@
 					"quantity": 20
 				}
 			]
+		},
+		{
+			"name": "Boomerang",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 500,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"L|XPHB",
+				"T|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Sap|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"range": "100/400",
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Returning",
+					"entries": [
+						"When this weapon is thrown within its normal range and it misses the attack, it will return to you by the end of your turn. If it hits your target, it can still return, however it may take longer to do so. Attacks within its long-range will not have the weapon naturally return."
+					]
+				}
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Brass Knuckles",
@@ -8946,7 +9023,7 @@
 					"name": "Thrown (Partial)",
 					"entries": [
 						"A Thrown (Partial) weapon is a {@itemProperty T|XPHB|Thrown} weapon that is attached to a chain, rope, or other similar material that remains in your hand. All Thrown (Partial) weapons are considered {@itemProperty V|XPHB|Versatile}, in the idea that you can wield it one-handed or with two, however you do not gain the damage change benefit. If this is a Melee weapon, and you want to make a Melee {@variantrule Weapon Attack|XPHB}, you must wield it as a {@itemProperty 2H|XPHB|Two-Handed}, unless it has the {@itemProperty L|XPHB|Light} property.",
-						"When you attack with a Thrown (Partial) weapon and it hits a creature, the weapon is lodged within or entangled around the target. If this weapon deals damage only, you can use a {@variantrule Bonus Action|XPHB} or a {@action Free Object Interaction|XPHB|Free Action} to dislodge {@i (\"yank\")} and retrieve this weapon (your choice)."
+						"When you attack with a Thrown (Partial) weapon and it hits a creature, the weapon is lodged within or entangled around the target. If this weapon deals damage only, you can use a {@variantrule Bonus Action|XPHB} or a {@action Free Object Interaction|XPHB|Free Action} to dislodge {@i (\"yank\")} and retrieve this weapon (your choice). If the weapon is a {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} weapon, it does not gain this benefit."
 					]
 				}
 			]

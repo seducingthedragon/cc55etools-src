@@ -1161,6 +1161,13 @@
 			]
 		},
 		{
+			"name": "Bolas",
+			"source": "XPHB",
+			"entries": [
+				"Bolas consist of three round weights at the end of three cords or ropes, tied together at their tails. This thrown weapon is designed to entangle the limbs of foes it hits. This weapon can be reskinned as a {@b Lasso}, maintaining the same proficiency and weapon properties, however it would lose its Bludgeoning damage."
+			]
+		},
+		{
 			"name": "Bologorash",
 			"source": "XPHB",
 			"entries": [
@@ -1235,6 +1242,13 @@
 				"name": "Book of Vile Darkness",
 				"source": "DMG"
 			}
+		},
+		{
+			"name": "Boomerang",
+			"source": "XPHB",
+			"entries": [
+				"A Boomerang, while categorized as a specialized weapon, is considered a simple weapon throughout various communities located in plains-like environments that emphasize the use of nature within its builds than those of brick-and-mortar towns."
+			]
 		},
 		{
 			"name": "Boots of Elvenkind",

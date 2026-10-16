@@ -8646,7 +8646,7 @@
 									{
 										"type": "cell",
 										"width": 6,
-										"entry": "{@i Simple Melee Weapons}"
+										"entry": "{@b {@i Simple Melee Weapons}}"
 									}
 								],
 								{
@@ -8809,7 +8809,7 @@
 									{
 										"type": "cell",
 										"width": 6,
-										"entry": "{@i Simple Ranged Weapons}"
+										"entry": "{@b {@i Simple Ranged Weapons}}"
 									}
 								],
 								{
@@ -8888,7 +8888,7 @@
 									{
 										"type": "cell",
 										"width": 6,
-										"entry": "{@i Martial Melee Weapons}"
+										"entry": "{@b {@i Martial Melee Weapons}}"
 									}
 								],
 								{
@@ -9123,7 +9123,7 @@
 									{
 										"type": "cell",
 										"width": 6,
-										"entry": "{@i Martial Ranged Weapons}"
+										"entry": "{@b {@i Martial Ranged Weapons}}"
 									}
 								],
 								{
@@ -9262,7 +9262,7 @@
 									{
 										"type": "cell",
 										"width": 6,
-										"entry": "{@i Specialized Melee Weapons}"
+										"entry": "{@b {@i Specialized Melee Weapons}}"
 									}
 								],
 								{
@@ -9427,7 +9427,7 @@
 									"row": [
 										"{@item Multi-Saber|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
-										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty 2F|XPHB|Two Forms}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
+										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty 2F|BolasXPHB|Two Forms}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
 										"{@itemMastery Vex}",
 										"6 lb.",
 										"200 GP"
@@ -9521,9 +9521,33 @@
 									{
 										"type": "cell",
 										"width": 6,
-										"entry": "{@i Specialized Ranged Weapons}"
+										"entry": "{@b {@i Specialized Melee Weapons}}"
 									}
 								],
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Bolas|XPHB}",
+										"{@dice 1d4} Bludgeoning",
+										"{@itemProperty GP|XPHB|Grappling}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty TP|XPHB|Thrown (Partial)} (Range 20/60), Special",
+										"{@itemMastery Topple}",
+										"2 lb.",
+										"5 CP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Boomerang|XPHB}",
+										"{@dice 1d6} Bludgeoning",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 100/400), Special",
+										"{@itemMastery Sap}",
+										"2 lb.",
+										"5 GP"
+									]
+								},
 								{
 									"type": "row",
 									"style": "row-indent-first",
@@ -9840,7 +9864,7 @@
 									"id": "635",
 									"entries": [
 										"A Thrown (Partial) weapon is a {@itemProperty T|XPHB|Thrown} weapon that is attached to a chain, rope, or other similar material that remains in your hand. All Thrown (Partial) weapons are considered {@itemProperty V|XPHB|Versatile}, in the idea that you can wield it one-handed or with two, however you do not gain the damage change benefit. If this is a Melee weapon, and you want to make a Melee {@variantrule Weapon Attack|XPHB}, you must wield it as a {@itemProperty 2H|XPHB|Two-Handed}, unless it has the {@itemProperty L|XPHB|Light} property.",
-										"When you attack with a Thrown (Partial) weapon and it hits a creature, the weapon is lodged within or entangled around the target. If this weapon deals damage only, you can use a {@variantrule Bonus Action|XPHB} or a {@action Free Object Interaction|XPHB|Free Action} to dislodge {@i (\"yank\")} and retrieve this weapon (your choice)."
+										"When you attack with a Thrown (Partial) weapon and it hits a creature, the weapon is lodged within or entangled around the target. If this weapon deals damage only, you can use a {@variantrule Bonus Action|XPHB} or a {@action Free Object Interaction|XPHB|Free Action} to dislodge {@i (\"yank\")} and retrieve this weapon (your choice). If the weapon is a {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} weapon, it does not gain this benefit."
 									]
 								},
 								{
@@ -19526,10 +19550,33 @@
 								},
 								{
 									"type": "item",
+									"name": "Bolas",
+									"entries": [
+										"Bolas consist of three round weights at the end of three cords or ropes, tied together at their tails. This thrown weapon is designed to entangle the limbs of foes it hits. This weapon can be reskinned as a {@b Lasso}, maintaining the same proficiency and weapon properties, however it would lose its Bludgeoning damage.",
+										"{@b {@i Special: Escaping.}} In order to escape a Bolas, the target has the following options:",
+										{
+											"type": "list",
+											"items": [
+												"The target or a creature within 5 feet of it must take an action to make a {@dc 12} Strength ({@skill Athletics|XPHB}) check, escaping on a success",
+												"Attacking the Bolas cord: AC 10; 5 HP; {@variantrule Immunity|XPHB} to Bludgeoning, Poison, and Psychic damage"
+											]
+										}
+									]
+								},
+								{
+									"type": "item",
 									"name": "Bologorash {@i Cultural (Orcish)}",
 									"entries": [
 										"The Bologorash, {@i meaning \"flesh-rending flying blade\"}, or more commonly known as the Chained Throwing Axe, is a wicked, serrated throwing axe attached to a length of chain. It is usually 30 feet long, however, it can be extended to a maximum chain length of 60 feet.",
 										"{@b {@i Special: Cannot Disarm.}} While holding the axe in one hand and its chain in the other, you cannot be disarmed of this weapon."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Boomerang",
+									"entries": [
+										"A Boomerang, while categorized as a specialized weapon, is considered a simple weapon throughout various communities located in plains-like environments that emphasize the use of nature within its builds than those of brick-and-mortar towns.",
+										"{@b {@i Special: Returning.}} When this weapon is thrown within its normal range and it misses the attack, it will return to you by the end of your turn. If it hits your target, it can still return, however it may take longer to do so. Attacks within its long-range will not have the weapon naturally return."
 									]
 								},
 								{
