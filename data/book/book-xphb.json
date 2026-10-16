@@ -9246,6 +9246,18 @@
 										"250 GP"
 									]
 								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Spiked Net|XPHB}",
+										"{@dice 1d6} Piercing",
+										"{@itemProperty RST|XPHB|Restraining}, {@itemProperty O|XPHB|Ongoing} ({@dice 1d4}), {@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty T|XPHB|Thrown} (Range 5/15), Special",
+										"{@itemMastery Vex}",
+										"6 lb.",
+										"10 GP"
+									]
+								},
 								[
 									{
 										"type": "cell",
@@ -9717,7 +9729,7 @@
 									"page": 213,
 									"id": "63a",
 									"entries": [
-										"A Grappling weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Grappled|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. If this weapon has a damage listed, then the damage is dealt only if your attack roll hits but the target succeeds on its Dexterity {@variantrule Saving Throw|XPHB}. If the weapon has no damage listed, then you skip the attack roll. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice).",
+										"A Grappling weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Grappled|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. If this weapon has a damage listed, then the damage is dealt only if your attack roll hits but the target succeeds on its Dexterity {@variantrule Saving Throw|XPHB}. If the weapon has no damage listed, then you skip the attack roll. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice). Huge and larger creatures, and formless creatures, automatically succeed on the save, unless specified.",
 										"At the DM's discretion, you and/or the DM may determine how the {@condition Grappled|XPHB} condition varies or changes based on where this weapon grapples the target. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
 									]
 								},
@@ -9809,7 +9821,7 @@
 									"page": 214,
 									"id": "648",
 									"entries": [
-										"A Restraining weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Restrained|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice). If this weapon deals damage, it will only deal damage on a failed save, unless it also has the {@itemProperty O|XPHB|Ongoing} property. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
+										"A Restraining weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Restrained|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice). If this weapon deals damage, it will only deal damage on a failed save, unless it also has the {@itemProperty O|XPHB|Ongoing} property Huge and larger creatures, and formless creatures, automatically succeed on the save, unless specified. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
 									]
 								},
 								{
@@ -19647,6 +19659,20 @@
 									"type": "item",
 									"name": "Spiked Chain {@i Cultural (Elven)}",
 									"entry": "A Spiked Chain looks like two {@item Flail|XPHB|Flails} with various spikes along its chain, a smaller ball of spikes at each end, and with a thick non-spikey chain connecting the ends of the handles together. While this weapon is considered a Specialized Cultural Weapon for the Elven Community, this is predominetly only found within a small portion of the Elven Community, specically within the Drow, Shadar-Kai, and Wild Elven communities."
+								},
+								{
+									"type": "item",
+									"name": "Spiked Net",
+									"entries": [
+										"{@b {@i Special: Escaping.}} In order to escape a Spiked Net, the target has the following options:",
+										{
+											"type": "list",
+											"items": [
+												"The target or a creature within 5 feet of it must take an action to make a {@dc 15} Strength ({@skill Athletics|XPHB}) check, escaping on a success",
+												"Attacking the Net: AC 10; 12 HP; {@variantrule Immunity|XPHB} to Poison, and Psychic damage"
+											]
+										}
+									]
 								},
 								{
 									"type": "item",

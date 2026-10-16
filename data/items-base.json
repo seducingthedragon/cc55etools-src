@@ -7125,6 +7125,49 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Spiked Net",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 6,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"RST|XPHB",
+				"O|XPHB",
+				"2H|XPHB",
+				"T|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d4",
+			"range": "5/20",
+			"net": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Escaping",
+					"entries": [
+						"In order to escape a Spiked Net, the target has the following options:",
+						{
+							"type": "list",
+							"items": [
+								"The target or a creature within 5 feet of it must take an action to make a {@dc 15} Strength ({@skill Athletics|XPHB}) check, escaping on a success",
+								"Attacking the Net: AC 10; 12 HP; {@variantrule Immunity|XPHB} to Poison, and Psychic damage"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Splint Armor",
 			"source": "PHB",
 			"page": 145,
@@ -8591,7 +8634,7 @@
 					"type": "entries",
 					"name": "Grappling",
 					"entries": [
-						"A Grappling weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Grappled|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. If this weapon has a damage listed, then the damage is dealt only if your attack roll hits but the target succeeds on its Dexterity {@variantrule Saving Throw|XPHB}. If the weapon has no damage listed, then you skip the attack roll. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice).",
+						"A Grappling weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Grappled|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. If this weapon has a damage listed, then the damage is dealt only if your attack roll hits but the target succeeds on its Dexterity {@variantrule Saving Throw|XPHB}. If the weapon has no damage listed, then you skip the attack roll. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice). Huge and larger creatures, and formless creatures, automatically succeed on the save, unless specified.",
 						"At the DM's discretion, you and/or the DM may determine how the {@condition Grappled|XPHB} condition varies or changes based on where this weapon grapples the target. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
 					]
 				}
@@ -8720,11 +8763,11 @@
 			"abbreviation": "O",
 			"source": "XPHB",
 			"page": 214,
-			"template": "{{prop_name}}",
+			"template": "{{prop_name}} ({{item.dmg2}})",
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Ongoing ({{item.dmg2}})",
+					"name": "Ongoing",
 					"entries": [
 						"An Ongoing weapon is a {@itemProperty GP|XPHB|Grappling} weapon or a {@itemProperty RST|XPHB|Restraining} weapon that deals damage at the start of the target's turn, so long as they are still contained by the weapon. The damage value will be listed in parentheses next to this property."
 					]
@@ -8839,7 +8882,7 @@
 					"type": "entries",
 					"name": "Restraining",
 					"entries": [
-						"A Restraining weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Restrained|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice). If this weapon deals damage, it will only deal damage on a failed save, unless it also has the {@itemProperty O|XPHB|Ongoing} property. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
+						"A Restraining weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Restrained|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice). If this weapon deals damage, it will only deal damage on a failed save, unless it also has the {@itemProperty O|XPHB|Ongoing} property. Huge and larger creatures, and formless creatures, automatically succeed on the save, unless specified. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
 					]
 				}
 			]
