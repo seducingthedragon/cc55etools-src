@@ -966,6 +966,7 @@
 			"classFeatures": [
 				"Martial Arts|Monk|XPHB|1",
 				"Unarmored Defense|Monk|XPHB|1",
+				"Weapon Mastery|Monk|XPHB|1",
 				"Monk's Focus|Monk|XPHB|2",
 				"Unarmored Movement|Monk|XPHB|2",
 				"Uncanny Metabolism|Monk|XPHB|2",
@@ -2496,6 +2497,20 @@
 			"level": 1,
 			"entries": [
 				"While you aren't wearing armor or wielding a {@item Shield|XPHB}, your base {@variantrule Armor Class|XPHB} equals 10 plus your Dexterity and Wisdom modifiers."
+			]
+		},
+		{
+			"name": "Weapon Mastery",
+			"source": "XPHB",
+			"page": 101,
+			"srd52": true,
+			"basicRules2024": true,
+			"className": "Monk",
+			"classSource": "XPHB",
+			"level": 1,
+			"entries": [
+				"Your training with weapons allows you to use the {@variantrule weapon mastery properties|XPHB|mastery properties} of two kinds of {@filter simple|items|type=simple weapon} or {@filter light martial|items|type=martial weapon|property=light} of your choice with which you have proficiency, such as {@item Dagger|XPHB|Daggers} and {@item Quarterstaff|XPHB|Quarterstaffs}.",
+				"Whenever you finish a {@variantrule Long Rest|XPHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|XPHB|mastery properties} of {@item Handaxe|XPHB|Handaxes} and {@item Spear|XPHB|Spears}."
 			]
 		},
 		{
