@@ -473,6 +473,47 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Basic Net",
+			"source": "XPHB",
+			"page": 213,
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 4,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"RST|XPHB",
+				"T|XPHB",
+				"2H|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Topple|XPHB"
+			],
+			"range": "10/40",
+			"dmg1": "2",
+			"dmgType": "B",
+			"net": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Escaping",
+					"entries": [
+						"In order to escape a Basic Net, the target has the following options:",
+						{
+							"type": "list",
+							"items": [
+								"The target or a creature within 5 feet of it must take an action to make a {@dc 12} Strength ({@skill Athletics|XPHB}) check, escaping on a success",
+								"Attacking the Net: AC 10; 5 HP; {@variantrule Immunity|XPHB} to Bludgeoning, Poison, and Psychic damage"
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Battleaxe",
 			"source": "PHB",
 			"page": 149,
@@ -5160,10 +5201,7 @@
 				"TTP"
 			],
 			"reprintedAs": [
-				{
-					"uid": "Net|XPHB",
-					"tag": "item"
-				}
+				"Basic Net|XPHB"
 			],
 			"edition": "classic",
 			"type": "R",
@@ -8307,8 +8345,8 @@
 					"type": "entries",
 					"name": "Ammunition",
 					"entries": [
-						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
-						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
+						"You can use a weapon that has the Ammunition property to make a ranged attack if you have ammunition to fire from it, expending one piece of ammunition with each attack. Drawing the ammunition is part of the attack (you need a free hand to load a one-handed weapon). After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost.",
+						"If you use a weapon that has the ammunition property to make a melee attack that is not a Melee Weapon, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
 					]
 				}
 			]
@@ -8324,7 +8362,9 @@
 					"type": "entries",
 					"name": "Ammunition",
 					"entries": [
-						"This ranged weapon property requires you to have the necessary ammunition available in order to make an attack. The type of ammunition required is specified with the weapon's range. Each attack expends one piece of ammunition. Drawing the ammunition is part of the attack (you need a free hand to load a one-handed weapon). After a fight, you can spend 1 minute to recover half the ammunition (round down) you used in the fight; the rest is lost. If you use a weapon that has the ammunition property to make a melee attack, it is treated as an improvised weapon."
+						"A weapon with the Ammunition property requires the specified ammunition list, to be available in order to make a Ranged {@variantrule Weapon Attack|XPHB}. Additionally, this weapon can fire that ammunition within its listed normal range, and even to its long-distance range. Making an attack within this weapon's long-distance range is made with {@variantrule Disadvantage|XPHB}. This weapon cannot target a creature beyond its long-distance range.",
+						"You expend one piece of ammunition with each attack, drawing the ammunition from its containiner with each attack. A one-handed weapon with this property still requires a free-hand to load it. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
+						"Melee attacks makes this weapon an improvised weapon. A sling must be loaded to deal any damage when used in this way."
 					]
 				}
 			]
@@ -8542,6 +8582,22 @@
 			]
 		},
 		{
+			"abbreviation": "GP",
+			"source": "XPHB",
+			"page": 213,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Grappling",
+					"entries": [
+						"A Grappling weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Grappled|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. If this weapon has a damage listed, then the damage is dealt only if your attack roll hits but the target succeeds on its Dexterity {@variantrule Saving Throw|XPHB}. If the weapon has no damage listed, then you skip the attack roll. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice).",
+						"At the DM's discretion, you and/or the DM may determine how the {@condition Grappled|XPHB} condition varies or changes based on where this weapon grapples the target. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "H",
 			"source": "PHB",
 			"page": 147,
@@ -8661,6 +8717,21 @@
 			]
 		},
 		{
+			"abbreviation": "O",
+			"source": "XPHB",
+			"page": 214,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Ongoing ({{item.dmg2}})",
+					"entries": [
+						"An Ongoing weapon is a {@itemProperty GP|XPHB|Grappling} weapon or a {@itemProperty RST|XPHB|Restraining} weapon that deals damage at the start of the target's turn, so long as they are still contained by the weapon. The damage value will be listed in parentheses next to this property."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "P",
 			"source": "XPHB",
 			"page": 214,
@@ -8759,6 +8830,21 @@
 			]
 		},
 		{
+			"abbreviation": "RST",
+			"source": "XPHB",
+			"page": 214,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Restraining",
+					"entries": [
+						"A Restraining weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Restrained|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice). If this weapon deals damage, it will only deal damage on a failed save, unless it also has the {@itemProperty O|XPHB|Ongoing} property. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
+					]
+				}
+			]
+		},
+		{
 			"name": "special",
 			"abbreviation": "S",
 			"source": "PHB",
@@ -8801,7 +8887,7 @@
 					"type": "entries",
 					"name": "Thrown",
 					"entries": [
-						"A Thrown weapon is a melee or ranged weapon that you throw in order to make a ranged attack. You can draw that weapon as part of the attack, however you must retrieve it before you can attack with it again. If you throw a melee weapon, you use your melee Ability modifier for your attack and damage rolls."
+						"A Thrown weapon is a melee or ranged weapon that you throw in order to make a ranged attack. The range of this weapon, listed next to this property, describes its normal range, followed by its long-distance range. Making an attack within this weapon's long-distance range is made with disadvantage. This weapon cannot target a creature beyond its long-distance range. You can draw that weapon as part of the attack, however you must retrieve it before you can attack with it again. If you throw a melee weapon, you use your melee Ability modifier for your attack and damage rolls."
 					]
 				}
 			]
@@ -8816,8 +8902,8 @@
 					"type": "entries",
 					"name": "Thrown (Partial)",
 					"entries": [
-						"A Thrown (Partial) weapon is a weapon that is attached to a chain, rope, or other similar material that remains in your hand. All Thrown (Partial) weapons are considered {@itemProperty V|XPHB|Versatile}, in the idea that you can wield it one-handed or with two, however you do not gain the damage change benefit. If this is a Melee weapon, and you want to make a Melee {@variantrule Weapon Attack|XPHB}, you must wield it as a {@itemProperty 2H|XPHB|Two-Handed}, unless it has the {@itemProperty L|XPHB|Light} property.",
-						"When you attack with a Thrown (Partial) weapon and it hits a creature, the weapon is lodged within or entangled around the target. If this weapon deals damage only, you can use a {@variantrule Bonus Action|XPHB} or a {@action Free Object Interaction|XPHB} to dislodge {@i (\"yank\")} and retrieve this weapon (your choice). If this weapon deals a {@condition Grappled|XPHB}, {@condition Restrained|XPHB}, or altered version of either condition as its main effect, the only way you can attack again with this weapon is for your target to be released from it."
+						"A Thrown (Partial) weapon is a {@itemProperty T|XPHB|Thrown} weapon that is attached to a chain, rope, or other similar material that remains in your hand. All Thrown (Partial) weapons are considered {@itemProperty V|XPHB|Versatile}, in the idea that you can wield it one-handed or with two, however you do not gain the damage change benefit. If this is a Melee weapon, and you want to make a Melee {@variantrule Weapon Attack|XPHB}, you must wield it as a {@itemProperty 2H|XPHB|Two-Handed}, unless it has the {@itemProperty L|XPHB|Light} property.",
+						"When you attack with a Thrown (Partial) weapon and it hits a creature, the weapon is lodged within or entangled around the target. If this weapon deals damage only, you can use a {@variantrule Bonus Action|XPHB} or a {@action Free Object Interaction|XPHB|Free Action} to dislodge {@i (\"yank\")} and retrieve this weapon (your choice)."
 					]
 				}
 			]
@@ -9472,16 +9558,7 @@
 			"abbreviation": "R",
 			"source": "XPHB",
 			"page": 214,
-			"basicRules2024": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Range",
-					"entries": [
-						"A Range weapon has a range in parentheses after the Ammunition or Thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second is the weapon's long range. When attacking a target beyond normal range, you have {@variantrule Disadvantage|XPHB} on the attack roll. You can't attack a target beyond the long range."
-					]
-				}
-			]
+			"basicRules2024": true
 		},
 		{
 			"name": "Rod",
@@ -10107,7 +10184,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw ({@dc 8} plus the ability modifier used to make the attack roll and your {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, the creature has the {@condition Prone|XPHB} condition."
+				"If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw ({@dc 8} plus your Proficiency Bonus and your Strength or Dexterity modifier, the one used with this weapon). On a failed save, the creature has the {@condition Prone|XPHB} condition."
 			]
 		},
 		{

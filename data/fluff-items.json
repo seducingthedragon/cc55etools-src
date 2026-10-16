@@ -830,6 +830,13 @@
 			}
 		},
 		{
+			"name": "Basic Net",
+			"source": "XPHB",
+			"entries": [
+				"A Basic Net is like your standard Adventuring Gear {@item Net|XPHB}, however it often has various weights scattered throughout to make a creature's escape more difficult, and dealing a small amount of damage."
+			]
+		},
+		{
 			"name": "Battle Standard of Infernal Power",
 			"source": "BGDIA",
 			"images": [
@@ -8258,6 +8265,9 @@
 		{
 			"name": "Net",
 			"source": "XPHB",
+			"entries": [
+				"A net is a piece of adventuring gear, often used for fishing or traps. If you have proficiency with a {@item Basic Net|XPHB} but you only have this net within your inventory, you can use it as if you are using a {@item Basic Net|XPHB}."
+			],
 			"images": [
 				{
 					"type": "image",

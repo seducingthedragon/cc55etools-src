@@ -1013,7 +1013,7 @@
         "maul_phb": "maul_xphb",
         "morningstar_phb": "morningstar_xphb",
         "musket_dmg": "musket_xphb",
-        "net_phb": "net_xphb",
+        "net_phb": "basic%20net_xphb",
         "orb_phb": "orb_xphb",
         "padded%20armor_phb": "padded%20armor_xphb",
         "painter's%20supplies_phb": "painter's%20supplies_xphb",
