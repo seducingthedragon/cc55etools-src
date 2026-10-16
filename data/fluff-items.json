@@ -5596,6 +5596,13 @@
 			]
 		},
 		{
+			"name": "Hokur Ball",
+			"source": "XPHB",
+			"entries": [
+				"The Hokur Ball is a small ball of dense iron, or stone, that was initially used in Orcish games of athleticism, very much like Shotput. Sometimes during fights and battles, when weapons have been destroyed, Orc communities are known for their use of improvised weapons, which led to some Orcish Athletes turned Warriors using their Hokur Ball as a weapon, with devastating effects on their victims. The Hokur Ball can be made out of various materials, however, it is always in the shape of a smooth sphere. Those who are proficient with a Hokur Ball can also find various stones of its similar weight can throw them proficiently as well."
+			]
+		},
+		{
 			"name": "Holly's Handy Haversack",
 			"source": "WttHC",
 			"images": [
@@ -8477,13 +8484,6 @@
 					"width": 1000,
 					"height": 654
 				}
-			]
-		},
-		{
-			"name": "Hokur Ball",
-			"source": "XPHB",
-			"entries": [
-				"The Hokur Ball is a small ball of dense iron, or stone, that was initially used in Orcish games of athleticism, very much like Shotput. Sometimes during fights and battles, when weapons have been destroyed, Orc communities are known for their use of improvised weapons, which led to some Orcish Athletes turned Warriors using their Hokur Ball as a weapon, with devastating effects on their victims. The Hokur Ball can be made out of various materials, however, it is always in the shape of a smooth sphere. Those who are proficient with a Hokur Ball can also find various stones of its similar weight can throw them proficiently as well."
 			]
 		},
 		{
@@ -11533,6 +11533,13 @@
 					"width": 474,
 					"height": 346
 				}
+			]
+		},
+		{
+			"name": "Skiprock",
+			"source": "XPHB",
+			"entries": [
+				"A Skiprock was traditionally a smooth river pebble used for games within Halfling communities. It eventually grew to become competitive games involving families carving their engravings on one side in order to distinguish it from others. As the games grew, masoners began crafting formal Skiprocks in order to create some form of standard for the tool. It eventually became to be used as a weapon in order to \"skip\" between targets, hitting multiple with one throw. Skiprocks are now used as game materials, thrown weapons, and replacement ammunition for slings and slingshots."
 			]
 		},
 		{

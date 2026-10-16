@@ -9807,25 +9807,6 @@
 								},
 								{
 									"type": "entries",
-									"name": "Misfire",
-									"page": 214,
-									"id": "639",
-									"entries": [
-										"Ranged {@itemProperty RLX|XPHB|Reload} weapons have a chance for Misfiring. When you make your {@action Attack|XPHB} roll and your {@variantrule Attack Roll|XPHB|Die Roll} is equal to half of the number listed next to the weapon's {@itemProperty RLX|XPHB|Reload} property.",
-										"When you misfire, you must spend a full {@variantrule Action|XPHB} to repair it, which may include your {@variantrule Action|XPHB} on your following turn, before you can attack with it again. This can be done with {@item Tinker's Tools|XPHB} or another toolset, at the Discretion of your DM."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Ongoing",
-									"page": 214,
-									"id": "63b",
-									"entries": [
-										"An Ongoing weapon is a {@itemProperty GP|XPHB|Grappling} weapon or a {@itemProperty RST|XPHB|Restraining} weapon that deals damage at the start of the target's turn, so long as they are still contained by the weapon. The damage value will be listed in parentheses next to this property."
-									]
-								},
-								{
-									"type": "entries",
 									"name": "Polearm",
 									"page": 214,
 									"id": "632",
@@ -9913,6 +9894,34 @@
 									"id": "637",
 									"entries": [
 										"You have {@variantrule Disadvantage|XPHB} on attack rolls with a Very Heavy weapon if your attack ability score isn't at least a 15."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Secondary Properties",
+							"page": 214,
+							"id": "660",
+							"entries": [
+								"Seconary Properties are weapon properties that are only applicable when another weapon property is present and they are listed with all weapon properties.",
+								{
+									"type": "entries",
+									"name": "Misfire",
+									"page": 214,
+									"id": "639",
+									"entries": [
+										"Ranged {@itemProperty RLX|XPHB|Reload} weapons have a chance for Misfiring. When you make your {@action Attack|XPHB} roll and your {@variantrule Attack Roll|XPHB|Die Roll} is equal to half of the number listed next to the weapon's {@itemProperty RLX|XPHB|Reload} property.",
+										"When you misfire, you must spend a full {@variantrule Action|XPHB} to repair it, which may include your {@variantrule Action|XPHB} on your following turn, before you can attack with it again. This can be done with {@item Tinker's Tools|XPHB} or another toolset, at the Discretion of your DM."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ongoing",
+									"page": 214,
+									"id": "63b",
+									"entries": [
+										"An Ongoing weapon is a {@itemProperty GP|XPHB|Grappling} weapon or a {@itemProperty RST|XPHB|Restraining} weapon that deals damage at the start of the target's turn, so long as they are still contained by the weapon. The damage value will be listed in parentheses next to this property."
 									]
 								}
 							]
