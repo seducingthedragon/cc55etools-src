@@ -9588,6 +9588,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Hokur Ball|XPHB}",
+										"{@dice 2d6} Bludgeoning",
+										"{@itemProperty T|XPHB|Thrown} (Range 20/50), {@itemProperty VH|XPHB|Very Heavy}",
+										"{@itemMastery Sap}",
+										"15 lb.",
+										"5 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Light Repeating Crossbow|XPHB}",
 										"{@dice 1d8} Piercing",
 										"{@itemProperty A|XPHB|Ammunition} (Range 65/260; Bolt), {@itemProperty MF|XPHB|Misfire}, {@itemProperty RLX|XPHB|Reload}, {@itemProperty 2H|XPHB|Two-Handed}",
@@ -19642,6 +19654,11 @@
 									"type": "item",
 									"name": "Granite Fists {@i Cultural (Dwarven)}",
 									"entry": "These Granite Fists are a brutal pair of gauntlet-like designed weapons. Weighing 10 lbs per individual fist, these are made to break bones. These stone weapons are shapes to look like giant fists with an iron bar inside for the wielder to grip. They are frequently sold in pairs, however, it is not uncommon to see someone weilding only one. There are many variations of these fists within the Dwarven community, which includes spiked knuckles, iron rings, and more."
+								},
+								{
+									"type": "item",
+									"name": "Hokur Ball",
+									"entry": "The Hokur Ball is a small ball of dense iron, or stone, that was initially used in Orcish games of athleticism, very much like Shotput. Sometimes during fights and battles, when weapons have been destroyed, Orc communities are known for their use of improvised weapons, which led to some Orcish Athletes turned Warriors using their Hokur Ball as a weapon, with devastating effects on their victims. The Hokur Ball can be made out of various materials, however, it is always in the shape of a smooth sphere. Those who are proficient with a Hokur Ball can also find various stones of its similar weight can throw them proficiently as well."
 								},
 								{
 									"type": "item",

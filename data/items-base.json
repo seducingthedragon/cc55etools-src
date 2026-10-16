@@ -3553,6 +3553,30 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Hokur Ball",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "R|XPHB",
+			"typeAlt": "COrc|XPHB",
+			"rarity": "none",
+			"weight": 15,
+			"value": 500,
+			"weaponCategory": "specialized",
+			"property": [
+				"T|XPHB",
+				"VH|XPHB"
+			],
+			"mastery": [
+				"Sap|XPHB"
+			],
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"range": "20/50",
+			"weapon": true,
+			"hasFluff": true
+		},
+		{
 			"name": "Hooked Shortspear",
 			"source": "OotA",
 			"page": 224,
