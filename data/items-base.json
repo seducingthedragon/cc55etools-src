@@ -1076,6 +1076,9 @@
 			"weight": 3,
 			"value": 1500,
 			"ac": 1,
+			"entries": [
+				"A Buckler does not benefit from the {@feat Shield Master|XPHB} feat."
+			],
 			"hasFluff": true
 		},
 		{
@@ -5607,6 +5610,32 @@
 			"value": 1200
 		},
 		{
+			"name": "Pavise",
+			"alias": [
+				"Archer Shield"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"type": "S|XPHB",
+			"rarity": "none",
+			"weight": 7,
+			"value": 2000,
+			"ac": 2,
+			"property": [
+				"S|XPHB"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: AC or Cover",
+					"entries": [
+						"It takes an {@variantrule Action|XPHB} to place a Pavise securely in the ground, and a {@variantrule Bonus Action|XPHB} to remove. When a Pavise is placed in this way, you no longer gain the AC bonus in exchange for {@variantrule Cover|XPHB|Half to Three-Quarters Cover} from ranged attacks. You can gain {@variantrule Cover|XPHB|Total Cover} from ranged attacks, however you must be {@condition Prone}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Pike",
 			"source": "PHB",
 			"page": 149,
@@ -6528,6 +6557,9 @@
 			"weight": 6,
 			"value": 1000,
 			"ac": 2,
+			"entries": [
+				"{@i A one-handed protective device, this flat or curved plane covers a portion of the body and is actively wielded for blocking attacks. A standard Shield is not large enough to grant {@variantrule Cover|XPHB|Half Cover}, however, there are other types of shields that can.}"
+			],
 			"hasFluffImages": true
 		},
 		{

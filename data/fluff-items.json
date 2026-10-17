@@ -8622,6 +8622,13 @@
 			]
 		},
 		{
+			"name": "Pavise",
+			"source": "XPHB",
+			"entries": [
+				"{@i Also called an \"Archer Shield,\" a pavise is a convex shield with a prominent central ridge. The shape, and a spike or other balancing post that folds out from the bottom, allow the pavise to stand on its own and give cover to someone behind it. It is primarily used in combat when Archers, who are also prepared for melee combat, are placed within the front lines.}"
+			]
+		},
+		{
 			"name": "Peregrine Mask",
 			"source": "GGR",
 			"images": [

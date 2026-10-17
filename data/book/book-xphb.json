@@ -10314,6 +10314,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Pavise|XPHB}",
+										"+2",
+										"\u2014",
+										"\u2014",
+										"7 lb.",
+										"20 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Shield|XPHB}",
 										"+2",
 										"\u2014",
@@ -19533,7 +19545,7 @@
 			"entries": [
 				{
 					"type": "section",
-					"name": "Armor",
+					"name": "Armor and Shields",
 					"page": 378,
 					"id": "a93",
 					"entries": [
@@ -19544,18 +19556,34 @@
 							"items": [
 								{
 									"type": "item",
-									"name": "Armored Glove",
+									"name": "Armored Glove {@i (Armor Part)}",
 									"entry": "An Armored Glove, or gauntlet, can be worn with any type of armor. It does not grant any AC bonus, however it does have thick and harden materials over the knuckles that make for a substantial hit. As long as the wearer has, at least, {@variantrule Armor Training|XPHB|Light Armor Training}, they gain a +2 damage bonus to their {@action Attack|XPHB|Unarmed Strike Attack}. While wearing these gloves, the wearer is considered to have free-hands available to still wield a weapon, shield, or other object, however may experience challenges with small, {@itemProperty F|XPHB|Finesse-like} items."
 								},
 								{
 									"type": "item",
-									"name": "Buckler",
-									"entry": "A Buckler is a type of shield that is worn and not held. Its smaller size and light weight allows leather straps to be secured to a wearer's forearm while allowing the use of both hands to wield or hold something other than in. This smaller size does reduce the bonus granted by using a shield, however it is a popular shield for those who engage in {@action Two-Weapon Fighting|XPHB} or ranged weapon attacks."
+									"name": "Buckler {@i (Shield)}",
+									"entries": [
+										"A Buckler is a type of shield that is worn and not held. Its smaller size and light weight allows leather straps to be secured to a wearer's forearm while allowing the use of both hands to wield or hold something other than in. This smaller size does reduce the bonus granted by using a shield, however it is a popular shield for those who engage in {@action Two-Weapon Fighting|XPHB} or ranged weapon attacks.",
+										"A Buckler does not benefit from the {@feat Shield Master|XPHB} feat."
+									] 
 								},
 								{
 									"type": "item",
-									"name": "Primal Bracers",
-									"entry": "Primal Bracers are Archery Bracers that can be used as a {@variantrule Spellcasting Focus|XPHB} for Rangers."
+									"name": "Pavise {@i (Shield)}",
+									"entries": [
+										"{@i Also called an \"Archer Shield,\" a pavise is a convex shield with a prominent central ridge. The shape, and a spike or other balancing post that folds out from the bottom, allow the pavise to stand on its own and give cover to someone behind it. It is primarily used in combat when Archers, who are also prepared for melee combat, are placed within the front lines.}",
+										"{@b {@i Special: AC or Cover.}} It takes an {@variantrule Action|XPHB} to place a Pavise securely in the ground, and a {@variantrule Bonus Action|XPHB} to remove. When a Pavise is placed in this way, you no longer gain the AC bonus in exchange for {@variantrule Cover|XPHB|Half to Three-Quarters Cover} from ranged attacks. You can gain {@variantrule Cover|XPHB|Total Cover} from ranged attacks, however you must be {@condition Prone}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Primal Bracers {@i (Armor Part)}",
+									"entry": "{@i Primal Bracers are Archery Bracers that can be used as a {@variantrule Spellcasting Focus|XPHB} for {@class Ranger|XPHB|Rangers}.}"
+								},
+								{
+									"type": "item",
+									"name": "Shield {@i (Shield)}",
+									"entry": "{@i A one-handed protective device, this flat or curved plane covers a portion of the body and is actively wielded for blocking attacks. A standard Shield is not large enough to grant {@variantrule Cover|XPHB|Half Cover}, however, there are other types of shields that can.}"
 								}
 							]
 						}
@@ -19674,7 +19702,7 @@
 								},
 								{
 									"type": "item",
-									"name": "Primal Bracers",
+									"name": "Primal Bracers (Rangers Only)",
 									"entry": "{@i Primal Bracers are Archery Bracers that can be used as a {@variantrule Spellcasting Focus|XPHB} for {@class Ranger|XPHB|Rangers}.}"
 								},
 								{
