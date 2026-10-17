@@ -10669,6 +10669,10 @@
 							"depth": 1
 						},
 						"Armor",
+						{
+							"header": "Armor Parts",
+							"depth": 1
+						},
 						"Tools",
 						"Adventuring Gear",
 						"Mounts and Vehicles",

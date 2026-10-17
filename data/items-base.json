@@ -254,19 +254,6 @@
 			"ammoType": "energy cell|xdmg"
 		},
 		{
-			"name": "Armored Glove",
-			"source": "XPHB",
-			"page": 219,
-			"edition": "one",
-			"type": "AP|XPHB",
-			"rarity": "none",
-			"weight": 1,
-			"value": 200,
-			"entries": [
-				"An Armored Glove, or gauntlet, can be worn with any type of armor. It does not grant any AC bonus, however it does have thick and harden materials over the knuckles that make for a substantial hit. As long as the wearer has, at least, {@variantrule Armor Training|XPHB|Light Armor Training}, they gain a +2 damage bonus to their {@action Attack|XPHB|Unarmed Strike Attack}. While wearing these gloves, the wearer is considered to have free-hands available to still wield a weapon, shield, or other object, however may experience challenges with small, {@itemProperty F|XPHB|Finesse-like} items."
-			]
-		},
-		{
 			"name": "Arrow",
 			"source": "PHB",
 			"page": 150,
@@ -5633,7 +5620,8 @@
 						"It takes an {@variantrule Action|XPHB} to place a Pavise securely in the ground, and a {@variantrule Bonus Action|XPHB} to remove. When a Pavise is placed in this way, you no longer gain the AC bonus in exchange for {@variantrule Cover|XPHB|Half to Three-Quarters Cover} from ranged attacks. You can gain {@variantrule Cover|XPHB|Total Cover} from ranged attacks, however you must be {@condition Prone}."
 					]
 				}
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Pike",
@@ -5929,7 +5917,7 @@
 		{
 			"name": "Primal Bracers",
 			"source": "XPHB",
-			"page": 224,
+			"page": 219,
 			"srd52": true,
 			"edition": "one",
 			"type": "AP|XPHB",
@@ -5941,7 +5929,7 @@
 			"weight": 1,
 			"value": 500,
 			"entries": [
-				"{@i Primal Bracers are Archery Bracers that can be used as a {@variantrule Spellcasting Focus|XPHB} for {@class Ranger|XPHB|Rangers}.}"
+				"Primal Bracers are Archery Bracers that can be used as a {@variantrule Spellcasting Focus|XPHB} for {@class Ranger|XPHB|Rangers}. There are various runes stitched into them, in order to allow them to be used as a {@variantrule Spellcasting Focus|XPHB} and more are added after a Ranger joins their conclave."
 			]
 		},
 		{
@@ -6543,6 +6531,9 @@
 		},
 		{
 			"name": "Shield",
+			"alias": [
+				"Tedate"
+			],
 			"source": "XPHB",
 			"page": 219,
 			"srd52": true,

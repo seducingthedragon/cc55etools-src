@@ -3272,6 +3272,26 @@
 			]
 		},
 		{
+			"name": "Armored Gloves",
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"entries": [
+				"A pair of Armored Gloves, or Armored Gauntlets, are gloves that have thickened and hardened knuckles. While you can wear these while wielding weapons and a shield, you may experience challenges with {@itemProperty F|XPHB|Finesse} weapons. They must be worn as a pair and with any set of armor in order to gain the following benefit.",
+				{
+					"type": "entries",
+					"name": "Strike Attack Bonus",
+					"entries": [
+						"When you make an {@action Attack|XPHB|Unarmed Strike Attack} while wearing these gloves, you gain a +2 damage bonus on a hit."
+					]
+				}
+			]
+		},
+		{
 			"name": "Arrow-Catching Shield",
 			"source": "DMG",
 			"page": 152,
