@@ -70266,11 +70266,28 @@
 			"group": [
 				"Druidic Focus"
 			],
+			"reprintedAs": [
+				"Totem|XPHB"
+			],
 			"source": "PHB",
 			"page": 151,
 			"srd": true,
 			"basicRules": true,
 			"type": "SCF",
+			"scfType": "druid",
+			"rarity": "none",
+			"value": 100
+		},
+		{
+			"name": "Totem",
+			"group": [
+				"Druidic Focus"
+			],
+			"source": "XPHB",
+			"page": 225,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "SCF|XPHB",
 			"scfType": "druid",
 			"rarity": "none",
 			"value": 100
@@ -78901,6 +78918,7 @@
 			],
 			"items": [
 				"Sprig of mistletoe|XPHB",
+				"Totem|XPHB",
 				"Wooden staff|XPHB",
 				"Yew wand|XPHB"
 			]

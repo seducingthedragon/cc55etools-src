@@ -2909,7 +2909,7 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Crush|XPHB"
+				"Crush|XPHB",
 				"Sap|XPHB"
 			],
 			"dmg1": "2d6",
@@ -5889,6 +5889,24 @@
 						}
 					]
 				}
+			]
+		},
+		{
+			"name": "Primal Bracers",
+			"source": "XPHB",
+			"page": 224,
+			"srd52": true,
+			"edition": "one",
+			"type": "AP|XPHB",
+			"typeAlt": "SCF|XPHB",
+			"focus": [
+				"Ranger"
+			],
+			"rarity": "none",
+			"weight": 1,
+			"value": 500,
+			"entries": [
+				"Primal Bracers are Archery Bracers that can be used as a {@variantrule Spellcasting Focus|XPHB} for Rangers."
 			]
 		},
 		{
@@ -10274,7 +10292,10 @@
 		},
 		{
 			"name": "Crush",
+			"source": "XPHB",
 			"page": 214,
+			"srd52": true,
+			"basicRules2024": true,
 			"entries": [
 				"{@i Maneuver.} You can choose to make a single \"Crushing Blow\" attack for your {@action Attack|XPHB} action, targeting a creature wearing non-magical armor. On a hit, the target takes the weapon damage and you cause a long-term \u20141 penalty to their AC. The target's AC cannot be reduced lower than 10 plus their Dexterity modifier. This penalty cannot be removed until they repair their armor. This maneuver only works on magical armor if the weapon is also magical."
 			]

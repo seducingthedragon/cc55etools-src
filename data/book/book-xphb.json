@@ -10264,7 +10264,7 @@
 									{
 										"type": "cell",
 										"width": 6,
-										"entry": "{@i Armor Parts (See {@book Appendix D|XPHB|11})}"
+										"entry": "{@i Armor Parts (See {@book Appendix D|XPHB|11} for Details)}"
 									}
 								],
 								{
@@ -10277,6 +10277,18 @@
 										"\u2014",
 										"1 lb.",
 										"2 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Primal Bracers|XPHB} {@i ({@variantrule Spellcasting Focus|XPHB} for Rangers)}",
+										"\u2014",
+										"\u2014",
+										"\u2014",
+										"1 lb.",
+										"5 GP"
 									]
 								},
 								[
@@ -12432,6 +12444,11 @@
 											"rows": [
 												[
 													"{@item Sprig of mistletoe|XPHB}",
+													"\u2014",
+													"1 GP"
+												],
+												[
+													"{@item Totem|XPHB}",
 													"\u2014",
 													"1 GP"
 												],
@@ -19534,6 +19551,11 @@
 									"type": "item",
 									"name": "Buckler",
 									"entry": "A Buckler is a type of shield that is worn and not held. Its smaller size and light weight allows leather straps to be secured to a wearer's forearm while allowing the use of both hands to wield or hold something other than in. This smaller size does reduce the bonus granted by using a shield, however it is a popular shield for those who engage in {@action Two-Weapon Fighting|XPHB} or ranged weapon attacks."
+								},
+								{
+									"type": "item",
+									"name": "Primal Bracers",
+									"entry": "Primal Bracers are Archery Bracers that can be used as a {@variantrule Spellcasting Focus|XPHB} for Rangers."
 								}
 							]
 						}
