@@ -2909,7 +2909,8 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Push|XPHB"
+				"Crush|XPHB"
+				"Sap|XPHB"
 			],
 			"dmg1": "2d6",
 			"dmgType": "B",
@@ -10268,7 +10269,14 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn."
+				"{@i Maneuver.} If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn."
+			]
+		},
+		{
+			"name": "Crush",
+			"page": 214,
+			"entries": [
+				"{@i Maneuver.} You can choose to make a single \"Crushing Blow\" attack for your {@action Attack|XPHB} action, targeting a creature wearing non-magical armor. On a hit, the target takes the weapon damage and you cause a long-term \u20141 penalty to their AC. The target's AC cannot be reduced lower than 10 plus their Dexterity modifier. This penalty cannot be removed until they repair their armor. This maneuver only works on magical armor if the weapon is also magical."
 			]
 		},
 		{
@@ -10278,7 +10286,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier."
+				"{@i Buff.} If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier."
 			]
 		},
 		{
@@ -10288,7 +10296,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"When you make the extra attack of the Light property, you can make it as part of the {@action Attack|XPHB} action instead of as a {@variantrule Bonus Action|XPHB}. You can make this extra attack only once per turn."
+				"{@i Maneuver.} This property only works on {@itemProperty Light} weapons and regarding its off-hand extra attack benefit. You can make this extra attack as part of the {@action Attack|XPHB} action instead of as a {@variantrule Bonus Action|XPHB}. You can make this extra attack only once per turn."
 			]
 		},
 		{
@@ -10298,7 +10306,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller."
+				"{@i Maneuver.} If you hit a creature with this weapon, you can immediately push the creature up to 10 feet straight away from yourself if it is Large or smaller."
 			]
 		},
 		{
@@ -10308,7 +10316,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"If you hit a creature with this weapon, that creature has {@variantrule Disadvantage|XPHB} on its next attack roll before the start of your next turn."
+				"{@i Buff.} If you hit a creature with this weapon, that creature has {@variantrule Disadvantage|XPHB} on its next attack roll before the start of your next turn."
 			]
 		},
 		{
@@ -10318,7 +10326,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"If you hit a creature with this weapon and deal damage to it, you can reduce its {@variantrule Speed|XPHB} by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the {@variantrule Speed|XPHB} reduction doesn't exceed 10 feet."
+				"{@i Other.} If you hit a creature with this weapon and deal damage to it, you can reduce its {@variantrule Speed|XPHB} by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the {@variantrule Speed|XPHB} reduction doesn't exceed 10 feet."
 			]
 		},
 		{
@@ -10328,7 +10336,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw ({@dc 8} plus your Proficiency Bonus and your Strength or Dexterity modifier, the one used with this weapon). On a failed save, the creature has the {@condition Prone|XPHB} condition."
+				"{@i Maneuver.} If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw ({@dc 8} plus your Proficiency Bonus and your Strength or Dexterity modifier, the one used with this weapon). On a failed save, the creature has the {@condition Prone|XPHB} condition."
 			]
 		},
 		{
@@ -10338,7 +10346,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"If you hit a creature with this weapon and deal damage to the creature, you have {@variantrule Advantage|XPHB} on your next attack roll against that creature before the end of your next turn."
+				"{@i Buff.} If you hit a creature with this weapon and deal damage to the creature, you have {@variantrule Advantage|XPHB} on your next attack roll against that creature before the end of your next turn."
 			]
 		}
 	]
