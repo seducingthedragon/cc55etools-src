@@ -11067,7 +11067,7 @@
 					"type": "entries",
 					"name": "Dexterous Wearer",
 					"entries": [
-						"While you're wearing Medium armor, you can add 3, rather than 2 to your AC if you have a Dexterity score of 16 or higher."
+						"While you're wearing Medium armor, if you have a Dexterity score of 16 or higher, you gain a +1 to the max Dexterity modifier added to your {@variantrule Armor Class|XPHB}."
 					]
 				},
 				{

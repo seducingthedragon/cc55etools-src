@@ -906,6 +906,9 @@
 			"value": 40000,
 			"ac": 14,
 			"armor": true,
+			"entries": [
+				"{@i A solid plate covering the chest and another on the back, linked with leather straps at the sides. This leaves the less-vital portions of the body unarmored but allows the wearer to retain a full range of motion and move about with little encumbrance.}"
+			],
 			"hasFluffImages": true
 		},
 		{
@@ -1604,6 +1607,9 @@
 			"strength": "13",
 			"armor": true,
 			"stealth": true,
+			"entries": [
+				"{@i A hauberk and short pants made of interlocking, riveted links. A suit of this type includes some sort of forearm protection and a mail coif. It also includes a padded layer of cloth underneath.}"
+			],
 			"hasFluffImages": true
 		},
 		{
@@ -1645,6 +1651,9 @@
 			"value": 5000,
 			"ac": 13,
 			"armor": true,
+			"entries": [
+				"{@i A suit of light chainmail that covers the torso, waist, and upper arms. This armor is often worn between layers of cloth or leather.}"
+			],
 			"hasFluffImages": true
 		},
 		{
@@ -3163,6 +3172,9 @@
 		},
 		{
 			"name": "Half Plate Armor",
+			"alias": [
+				"Field Plate"
+			],
 			"source": "XPHB",
 			"page": 219,
 			"srd52": true,
@@ -3175,6 +3187,9 @@
 			"ac": 15,
 			"armor": true,
 			"stealth": true,
+			"entries": [
+				"{@i Sometimes called \"field plate,\" this is a lighter version of full plate armor. Most of the wearer's body is covered in connected metal plates. It tends to provide less protection at the joints and the extremities of the limbs than full plate armor.}"
+			],
 			"hasFluffImages": true
 		},
 		{
@@ -3544,6 +3559,9 @@
 			"value": 1000,
 			"ac": 12,
 			"armor": true,
+			"entries": [
+				"{@i These treated animal hides are fashioned into a protective suit of armor. Hide armor is often used in a variety of societies that are considered nomadic.}"
+			],
 			"hasFluffImages": true
 		},
 		{
@@ -4225,6 +4243,9 @@
 			"value": 1000,
 			"ac": 11,
 			"armor": true,
+			"entries": [
+				"{@i The breastplate and shoulders of this armor are made of leather that has been stiffened by boiling it in oil. The rest of the armor is made of softer and more flexible materials.}"
+			],
 			"hasFluffImages": true
 		},
 		{
@@ -5434,6 +5455,9 @@
 			"ac": 11,
 			"armor": true,
 			"stealth": true,
+			"entries": [
+				"{@i Padded armor is a gambeson made of quilted layers of cloth and batting.}"
+			],
 			"hasFluffImages": true
 		},
 		{
@@ -5765,6 +5789,9 @@
 		},
 		{
 			"name": "Plate Armor",
+			"alias": [
+				"Full Plate"
+			],
 			"source": "XPHB",
 			"page": 219,
 			"srd52": true,
@@ -5778,6 +5805,9 @@
 			"strength": "15",
 			"armor": true,
 			"stealth": true,
+			"entries": [
+				"{@i Sometimes called \"full plate,\" this armor's shaped, interlocking metal plates cover the wearer completely. Even the extremities are covered in interlocking plates, down to the individual joints over the backs of each finger. Plate armor is typically worn over an arming doublet, buckled to various parts of the garment to better distribute the carried weight across the wearer's body.}"
+			],
 			"hasFluffImages": true
 		},
 		{
@@ -6216,6 +6246,9 @@
 			"ac": 14,
 			"armor": true,
 			"stealth": true,
+			"entries": [
+				"{@i Heavy rings sewn onto a leather covering, this armor is not as protective (or expensive) as a suit of chain mail, with its more complex, interlocking rings.}"
+			],
 			"hasFluffImages": true
 		},
 		{
@@ -6345,6 +6378,9 @@
 			"ac": 14,
 			"armor": true,
 			"stealth": true,
+			"entries": [
+				"{@i This armor consists of a leather hauberk and leggings covered by overlapping metal scales and other reinforcements.}"
+			],
 			"hasFluffImages": true
 		},
 		{
@@ -6428,6 +6464,26 @@
 			"polearm": true,
 			"weapon": true,
 			"hasFluff": true
+		},
+		{
+			"name": "Segmented Plate Armor",
+			"source": "XPHB",
+			"page": 219,
+			"srd52": true,
+			"basicRules2024": true,
+			"edition": "one",
+			"type": "MA|XPHB",
+			"rarity": "none",
+			"weight": 50,
+			"value": 50000,
+			"ac": 15,
+			"strength": 13,
+			"dexterityMax": 3,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"{@i Between the Half Plate Armor and the Plate Armor, this armor consists of a fitted metal chest piece worn with supple leather along with any combination of helmet, pauldrons, gauntlets and/or greaves, leaving the joints relatively unprotected.}"
+			]
 		},
 		{
 			"name": "Semiautomatic Pistol",
@@ -7246,7 +7302,7 @@
 			"armor": true,
 			"stealth": true,
 			"entries": [
-				"Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
+				"{@i Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal.}"
 			]
 		},
 		{
@@ -7494,6 +7550,9 @@
 			"value": 4500,
 			"ac": 12,
 			"armor": true,
+			"entries": [
+				"{@i Made from tough but flexible leather, studded leather is reinforced with close-set rivets or studs.}"
+			],
 			"hasFluffImages": true
 		},
 		{
