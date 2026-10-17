@@ -5946,6 +5946,9 @@
 		},
 		{
 			"name": "Primal Bracers",
+			"group": [
+				"Bracers"
+			],
 			"source": "XPHB",
 			"page": 219,
 			"srd52": true,
@@ -9395,7 +9398,32 @@
 			"abbreviation": "AP",
 			"source": "XPHB",
 			"page": 219,
-			"basicRules2024": true
+			"basicRules2024": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Armor Parts",
+					"entries": [
+						"Armor Parts are individual portions, or parts, of an armor that are sold separately for the purpose of repair, replacement, and/or custom enhancements."
+					]
+				}
+			]
+		},
+		{
+			"name": "Armor Parts (Specialized)",
+			"abbreviation": "APS",
+			"source": "XPHB",
+			"page": 219,
+			"basicRules2024": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Armor Parts (Specialized)",
+					"entries": [
+						"Specialized Armor Parts are mundane Armor Parts that are equivalent to an Uncommon to Rare rarity."
+					]
+				}
+			]
 		},
 		{
 			"name": "Artisan's Tools",

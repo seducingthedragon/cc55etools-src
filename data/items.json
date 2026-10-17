@@ -3273,6 +3273,9 @@
 		},
 		{
 			"name": "Armored Gloves",
+			"group": [
+				"Gloves and Gauntlets"
+			],
 			"source": "XPHB",
 			"page": 219,
 			"edition": "one",
@@ -3281,7 +3284,7 @@
 			"weight": 1,
 			"value": 200,
 			"entries": [
-				"A pair of Armored Gloves, or Armored Gauntlets, are gloves that have thickened and hardened knuckles. While you can wear these while wielding weapons and a shield, you may experience challenges with {@itemProperty F|XPHB|Finesse} weapons. They must be worn as a pair and with any set of armor in order to gain the following benefit.",
+				"A pair of Armored Gloves has thickened and hardened knuckles. While you can wear these while wielding weapons and a shield, you may experience challenges with {@itemProperty F|XPHB|Finesse} weapons. They must be worn as a pair and with any set of armor in order to gain the following benefit.",
 				{
 					"type": "entries",
 					"name": "Strike Attack Bonus",
@@ -37100,6 +37103,22 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Leather Bracers",
+			"group": [
+				"Bracers"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 50,
+			"entries": [
+				"These simple Leather Bracers can be extremely helpful when worn. They must be worn as a pair and is often worn with Light Armor or any other fabric-based armor. If you have {@variantrule Armor Training|XPHB}, you can use a Parry reaction when you are targeted with an attack that deals Bludgeoning damage. If the attack hits, this reaction will reduce the damage dealt by 2."
+			]
+		},
+		{
 			"name": "Leather Golem Armor",
 			"source": "LLK",
 			"page": 55,
@@ -37593,6 +37612,21 @@
 			"wondrous": true,
 			"entries": [
 				"This lock appears to be an ordinary lock (of the type described in chapter 5 of the Player's Handbook) and comes with a single key. The tumblers in this lock magically adjust to thwart burglars. Dexterity checks made to pick the lock have disadvantage."
+			]
+		},
+		{
+			"name": "Locking Gauntlet",
+			"group": [
+				"Gloves and Gauntlets"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"type": "APS|XPHB",
+			"rarity": "none",
+			"weight": 5,
+			"value": 5000,
+			"entries": [
+				"A Locking Gauntlet is a metal gauntlet that, while sold as a pair, comes with one Locking Gauntlet and one plain metal gauntlet. A Locking Gauntlet, lets you use an {@variantrule Action|XPHB} to \"lock\" a weapon's hilt to it, making it difficult for you to be disarmed. It also takes an {@variantrule Action|XPHB} to release the weapon from this gauntlet's grasp. While a weapon is locked, any DC made to be disarmed increases by 3."
 			]
 		},
 		{
@@ -39974,6 +40008,22 @@
 			"value": 500,
 			"entries": [
 				"A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth."
+			]
+		},
+		{
+			"name": "Metal Bracers",
+			"group": [
+				"Bracers"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1000,
+			"entries": [
+				"Metal Bracers are similar to Leather Bracers, in their base form, however, they are often heavier and more costly to make and obtain. They must be worn as a pair and is often worn with Medium to Heavy metal-base armor. If you have {@variantrule Armor Training|XPHB} with either of these types of armor and are not wielding a {@item Shield|XPHB}, you can use a Parry reaction when you are targeted with an attack that deals Slashing damage. If the attack hits, this reaction will reduce the damage dealt by 2."
 			]
 		},
 		{
@@ -62348,6 +62398,22 @@
 			]
 		},
 		{
+			"name": "Spiked Gauntlets",
+			"group": [
+				"Gloves and Gauntlets"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"weight": 5,
+			"value": 2000,
+			"entries": [
+				"Spiked Gauntlets are metal gauntlets with various sharp and pointed edges. They are always worn as a pair and are worn with any Medium or Heavy metal armor. While wearing this gauntlets, any {@variantrule Unarmed Attack|XPHB} option you utilize that engages your hands, deals 2 Slashing damage on a hit or failed saving throw."
+			]
+		},
+		{
 			"name": "Spiked Shield",
 			"source": "WttHC",
 			"baseItem": "shield|xphb",
@@ -78508,6 +78574,23 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Bracers",
+			"source": "XPHB",
+			"page": 219,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"entries": [
+				"{@item Bracers|XPHB} are armor parts that are worn, in pairs, on a wearer's forearms, between their wrist and elbow. Some Bracers may extend to the wearers palm, but not always. If you have a pair of Bracers equipped, you can still equip {@item Gloves and Gauntlets|XPHB|Gloves}, however you cannot equip {@item Gloves and Gauntlets|XPHB|Gauntlets}."
+			],
+			"items": [
+				"Leather Bracers|XPHB",
+				"Leather Bracers|XPHB",
+				"Primal Bracers|XPHB"
+			]
+		},
+		{
 			"name": "Breastplate of the Tyrant",
 			"source": "AU",
 			"page": 132,
@@ -79620,6 +79703,24 @@
 				"Dragonchess Set|XPHB",
 				"Playing Cards|XPHB",
 				"Three-Dragon Ante Set|XPHB"
+			]
+		},
+		{
+			"name": "Gloves and Gauntlets",
+			"source": "XPHB",
+			"page": 219,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"entries": [
+				"{@item Gloves and Gauntlets|XPHB} are similar armor parts as they both cover the wearer's hands, fingers usually included. The differences between them are that gloves stop at the wearer's wrists, while gauntlets end halfway up the wearer's forearms. Additionally, gloves are more common with Light Armor and other fabric-based armor sets, while gauntlets are commonly seen with Medium to Heavy metal armor, however, that is also dependent on the material of the gloves and gauntlets themselves.",
+				"If you have a pair of {@item Gloves and Gauntlets|XPHB|Gloves} equipped, you can still equip a pair of {@item Bracers|XPHB}, however you cannot do so if you are wearing a pair of {@item Gloves and Gauntlets|XPHB|Gauntlets}."
+			],
+			"items": [
+				"Armored Gloves|XPHB",
+				"Locking Gauntlet|XPHB",
+				"Spiked Gauntlets|XPHB"
 			]
 		},
 		{

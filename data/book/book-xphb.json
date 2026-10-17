@@ -10377,32 +10377,82 @@
 						},
 						{
 							"type": "entries",
-							"name": "Armor Parts",
+							"name": "Armor Parts: Standard and Specialized",
 							"page": 219,
 							"id": "636",
 							"entries": [
-								"Armor Parts are typically individual portions of an armor, that are sold separately, for the purpose of repair, replacement, and/or custom enhancements. On their own, they do not add any bonuses to your {@variantrule Armor Class|XPHB}, however, some may have other unique benefits. While Armor Parts do not require their own separate training in order to use them, they do require, at least, {@variantrule Armor training|XPHB|Light Armor Training}.",
+								"Armor Parts are individual portions, or parts, of an armor that are sold separately for the purpose of repair, replacement, and/or custom enhancements. On their own, they do not add any bonuses to your {@variantrule Armor Class|XPHB}, however, some may have other unique benefits. While Armor Parts do not require their own separate training in order to use them, they do require, at least, {@variantrule Armor training|XPHB|Light Armor Training}. Most armor parts are considered Standard, meaning that they are fairly common. Specialized Armor Parts {@i (*)} are mundane Armor Parts that are equivalent to an Uncommon to Rare rarity.",
 								"These items are the various Armor Parts available.",
 								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"columns": 3,
-									"items": [
-										"{@item Armored Gloves|XPHB}",
-										"{@item Primal Bracers|XPHB}"
+									"type": "entries",
+									"name": "Bracers",
+									"entries": [
+										"{@item Bracers|XPHB} are armor parts that are worn, in pairs, on a wearer's forearms, between their wrist and elbow. Some Bracers may extend to the wearers palm, but not always. If you have a pair of Bracers equipped, you can still equip {@item Gloves and Gauntlets|XPHB|Gloves}, however you cannot equip {@item Gloves and Gauntlets|XPHB|Gauntlets}.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"columns": 3,
+											"items": [
+												"{@item Leather Bracers|XPHB}",
+												"{@item Metal Bracers|XPHB}",
+												"{@item Primal Bracers|XPHB}"
+											]
+										},
+										{
+											"type": "statblock",
+											"name": "Leather Bracers",
+											"tag": "item",
+											"source": "XPHB"
+										},
+										{
+											"type": "statblock",
+											"name": "Metal Bracers",
+											"tag": "item",
+											"source": "XPHB"
+										},
+										{
+											"type": "statblock",
+											"name": "Primal Bracers",
+											"tag": "item",
+											"source": "XPHB"
+										}
 									]
 								},
 								{
-									"type": "statblock",
-									"name": "Armored Gloves",
-									"tag": "item",
-									"source": "XPHB"
-								},
-								{
-									"type": "statblock",
-									"name": "Primal Bracers",
-									"tag": "item",
-									"source": "XPHB"
+									"type": "entries",
+									"name": "Gloves and Gauntlets",
+									"entries": [
+										"{@item Gloves and Gauntlets|XPHB} are similar armor parts as they both cover the wearer's hands, fingers usually included. The differences between them are that gloves stop at the wearer's wrists, while gauntlets end halfway up the wearer's forearms. Additionally, gloves are more common with Light Armor and other fabric-based armor sets, while gauntlets are commonly seen with Medium to Heavy metal armor, however, that is also dependent on the material of the gloves and gauntlets themselves.",
+										"If you have a pair of {@item Gloves and Gauntlets|XPHB|Gloves} equipped, you can still equip a pair of {@item Bracers|XPHB}, however you cannot do so if you are wearing a pair of {@item Gloves and Gauntlets|XPHB|Gauntlets}.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"columns": 3,
+											"items": [
+												"{@item Armored Gloves|XPHB}",
+												"{@item Locking Gauntlet|XPHB} {@i (*)}",
+												"{@item Spiked Gauntlets|XPHB}"
+											]
+										},
+										{
+											"type": "statblock",
+											"name": "Armored Gloves",
+											"tag": "item",
+											"source": "XPHB"
+										},
+										{
+											"type": "statblock",
+											"name": "Locking Gauntlet",
+											"tag": "item",
+											"source": "XPHB"
+										},
+										{
+											"type": "statblock",
+											"name": "Spiked Gauntlets",
+											"tag": "item",
+											"source": "XPHB"
+										}
+									]
 								}
 							]
 						},
