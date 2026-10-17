@@ -2071,6 +2071,7 @@
 			"weight": 1,
 			"value": 500,
 			"entries": [
+				"{@i This hanging icon typically bears a small representation of a deity, pantheon, or philosophy. Most are inlaid with silver.}",
 				"For an Amulet to be an effective Holy Symbol, it must be worn or held."
 			]
 		},
@@ -22452,6 +22453,7 @@
 			"rarity": "none",
 			"value": 500,
 			"entries": [
+				"{@i This incorporates the symbol of a deity or pantheon as inlay or engraving on a shield.}",
 				"For an Emblem to be an effective Holy Symbol, it must be borne on fabric (such as a tabard or banner) or a {@item Shield|XPHB}."
 			]
 		},
@@ -51292,6 +51294,7 @@
 			"weight": 2,
 			"value": 500,
 			"entries": [
+				"{@i A reliquary is a tiny box holding an item of religious significance. A common example would be the finger bone of a prophet, or a fragment of a larger holy relic.}",
 				"For a Reliquary to be an effective Holy Symbol, it must be held."
 			]
 		},
@@ -62611,7 +62614,10 @@
 			"type": "SCF|XPHB",
 			"scfType": "druid",
 			"rarity": "none",
-			"value": 100
+			"value": 100,
+			"entries": [
+				"{@i This sprig of mistletoe is worn on a string or thong around the neck. It is the most recognizable symbol of druidic power.}"
+			]
 		},
 		{
 			"name": "Spyglass",
@@ -70290,7 +70296,10 @@
 			"type": "SCF|XPHB",
 			"scfType": "druid",
 			"rarity": "none",
-			"value": 100
+			"value": 10,
+			"entries": [
+				"{@i This focus takes the form of a variety of things. The primary condition of what makes a Totem, is its ties to nature and value to its caster. It can be a bird skull, a twig with a hanging crystle and feathers, a small carving of a beast on a piece of wood, and so much more. In the end, a totem is an item, found or crafted, that represents the individual's ties to nature.}"
+			]
 		},
 		{
 			"name": "Tourmaline",
@@ -77666,7 +77675,10 @@
 			"scfType": "druid",
 			"rarity": "none",
 			"weight": 1,
-			"value": 1000
+			"value": 1000,
+			"entries": [
+				"{@i Yew wood comes from a small collection of coniferous trees or shrubs. The wood is commonly associated with fey creatures and with magical manipulations of life, death, and rebirth. A yew wand often takes the form of a natural stick of yew, groomed and then trimmed, but uncarved.}"
+			]
 		},
 		{
 			"name": "Ythryn Mythallar",

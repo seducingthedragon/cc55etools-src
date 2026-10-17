@@ -19563,9 +19563,169 @@
 				},
 				{
 					"type": "section",
-					"name": "Weapons",
+					"name": "Musical Instruments",
 					"page": 379,
 					"id": "a94",
+					"entries": [
+						"The following information are musical instrument entries from {@book Chapter 6|XPHB|6|Tools} that have additional information.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Birdpipes",
+									"entry": "Birdpipes are also known as Pan pipes, Satyr pipes, or a Shalm. In some worlds, these are sacred to {@deity Lliira|Faerûnian|scag} and popular with wood elf and wild elf bards. In others, they are simple yet soothing instrument of those hidden in the forests."
+								},
+								{
+									"type": "item",
+									"name": "Glaur",
+									"entry": "Short, curved horns like a cornucopia. Played with valves, glaur sound like trumpets, while those without valves, known as gloon, have a more mournful sound."
+								},
+								{
+									"type": "item",
+									"name": "Hand Drum",
+									"entry": "A double-headed skin drum fitted with handles along its side."
+								},
+								{
+									"type": "item",
+									"name": "Harp",
+									"entry": "A harp is a large lyre with many more strings and often a foot pedal to press in order create that melodic tone. It is often not common to see a harp on the road as they are often performed for nobility and those who can afford the safe transport of such grand instrument."
+								},
+								{
+									"type": "item",
+									"name": "Longhorn",
+									"entry": "In some worlds, it is considered to be a flute of sophisticated make, found only in areas with skilled artisans, as in great cities or elven enclaves. Typically, it is a trumpet-shape instrument with a long reach and no valves, often seen at a royal court."
+								},
+								{
+									"type": "item",
+									"name": "Mandolin",
+									"entry": "A mandolin is a small lute with 4-courses or 8-strings."
+								},
+								{
+									"type": "item",
+									"name": "Shawm",
+									"entry": "A double-reed instrument similar to an oboe or a bassoon, popular with gnomes, who have developed some bellows-powered versions."
+								},
+								{
+									"type": "item",
+									"name": "Songhorn",
+									"entry": "A recorder, a simple type of flute, usually carved from wood."
+								},
+								{
+									"type": "item",
+									"name": "Tantan",
+									"entry": "A tambourine-like instrument, a popular instrument with halflings and humans across various central and southern lands."
+								},
+								{
+									"type": "item",
+									"name": "Thelarr",
+									"entry": "Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children\u2014to the parents' delight or regret."
+								},
+								{
+									"type": "item",
+									"name": "Tocken",
+									"entry": "A hanging set of carved oval bells, usually played with a pair of light wooden hammers (or open handed). They are most common in underground cultures, where the resonant tones can carry."
+								},
+								{
+									"type": "item",
+									"name": "Wargong",
+									"entry": "A metal gong, traditionally made from a shield, particularly the shield of an enemy. Both goblins and dwarves make and play wargongs, their sound echoing through tunnels in the Underdark, however wargongs are not just common across the Underdark, but across other communities who have a strong focus on military might."
+								},
+								{
+									"type": "item",
+									"name": "Zulkoon",
+									"entry": "A complex pump organ that originated with the zulkirs of Thay, who use it in the casting of their spells. It is considered to have a dramatic, but sinister, sound."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Spellcasting Focus",
+					"page": 380,
+					"id": "a95",
+					"entries": [
+						"The following information are specific Spellcasting Focus entries from {@book Chapter 6|XPHB|6|Adventuring Gear} that have additional information.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Amulet (Holy Symbol)",
+									"entry": "{@i This hanging icon typically bears a small representation of a deity, pantheon, or philosophy. Most are inlaid with silver.}"
+								},
+								{
+									"type": "item",
+									"name": "Crystal (Arcane)",
+									"entry": "{@i The crystals of this arcane focus come in many shapes and colors. The most popular crystal arcane focuses retain much of their natural shape and coloration.}"
+								},
+								{
+									"type": "item",
+									"name": "Emblem (Holy Symbol)",
+									"entry": "{@i This incorporates the symbol of a deity or pantheon as inlay or engraving on a shield.}"
+								},
+								{
+									"type": "item",
+									"name": "Orb (Arcane)",
+									"entry": "{@i An orb is a smooth, polished sphere made of glass, crystal, quartz or another mineral substance. It is 3 to 5 inches in diameter, small enough to rest in a Medium humanoid's palm, however some can be quite large.}"
+								},
+								{
+									"type": "item",
+									"name": "Primal Bracers",
+									"entry": "{@i Primal Bracers are Archery Bracers that can be used as a {@variantrule Spellcasting Focus|XPHB} for {@class Ranger|XPHB|Rangers}.}"
+								},
+								{
+									"type": "item",
+									"name": "Reliquary (Holy Symbol)",
+									"entry": "{@i A reliquary is a tiny box holding an item of religious significance. A common example would be the finger bone of a prophet, or a fragment of a larger holy relic.}"
+								},
+								{
+									"type": "item",
+									"name": "Rod (Arcane)",
+									"entry": "{@i This arcane focus is a short cylinder with runes and sigils or attaching a focusing crystal to the top.}"
+								},
+								{
+									"type": "item",
+									"name": "Sprig of Mistletoe (Druidic)",
+									"entry": "{@i This sprig of mistletoe is worn on a string or thong around the neck. It is the most recognizable symbol of druidic power.}"
+								},
+								{
+									"type": "item",
+									"name": "Staff (Arcane)",
+									"entry": "{@i This arcane focus is created by etching a normal {@item Quarterstaff|XPHB} with runes and sigils or attaching a focusing crystal to the top. While it is not considered a weapon, it can be used as one as long as you have proficiency with {@item Quarterstaff|XPHB|Quarterstaffs}}."
+								},
+								{
+									"type": "item",
+									"name": "Totem (Druidic)",
+									"entry": "{@i This focus takes the form of a variety of things. The primary condition of what makes a Totem, is its ties to nature and value to its caster. It can be a bird skull, a twig with a hanging crystle and feathers, a small carving of a beast on a piece of wood, and so much more. In the end, a totem is an item, found or crafted, that represents the individual's ties to nature.}"
+								},
+								{
+									"type": "item",
+									"name": "Wand (Arcane)",
+									"entry": "{@i Wands are simple, lightweight arcane focuses, making them quite popular. A wand is typically shorter than the forearm of the user and is convenient to store in a sleeve.}"
+								},
+								{
+									"type": "item",
+									"name": "Wooden Staff (Druidic)",
+									"entry": "{@i This arcane focus is created by etching a quarterstaff-like staff with runes and sigils, that may have an encased focusing crystal to the top, but does not necessarily need it. It is primarily wood and is oftem not a \"smooth\" staff form, but maintains the curves and notches of a tree branch.}"
+								},
+								{
+									"type": "item",
+									"name": "Yew Wand (Druidic)",
+									"entry": "{@i Yew wood comes from a small collection of coniferous trees or shrubs. The wood is commonly associated with fey creatures and with magical manipulations of life, death, and rebirth. A yew wand often takes the form of a natural stick of yew, groomed and then trimmed, but uncarved.}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Weapons",
+					"page": 381,
+					"id": "a96",
 					"entries": [
 						"The following information are specific weapon entries from {@book Chapter 6|XPHB|6|Weapons} that have additional information.",
 						{
@@ -19792,86 +19952,6 @@
 									"type": "item",
 									"name": "Waraxe {@i Cultural (Dwarven)}",
 									"entry": "The Waraxe, also known as the Dwarven Waraxe, was a single-bladed, versatile axe, that is larger and heavier than a battleaxe, but only slightly less so than the double-bladed greataxe. While this weapon does not have reach abilities, its large blade makes it difficult to miss a target when properly wielded and always does deadly damage."
-								}
-							]
-						}
-					]
-				},
-				{
-					"type": "section",
-					"name": "Musical Instruments",
-					"page": 380,
-					"id": "a95",
-					"entries": [
-						"The following information are musical instrument entries from {@book Chapter 6|XPHB|6|Tools} that have additional information.",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Birdpipes",
-									"entry": "Birdpipes are also known as Pan pipes, Satyr pipes, or a Shalm. In some worlds, these are sacred to {@deity Lliira|Faerûnian|scag} and popular with wood elf and wild elf bards. In others, they are simple yet soothing instrument of those hidden in the forests."
-								},
-								{
-									"type": "item",
-									"name": "Glaur",
-									"entry": "Short, curved horns like a cornucopia. Played with valves, glaur sound like trumpets, while those without valves, known as gloon, have a more mournful sound."
-								},
-								{
-									"type": "item",
-									"name": "Hand Drum",
-									"entry": "A double-headed skin drum fitted with handles along its side."
-								},
-								{
-									"type": "item",
-									"name": "Harp",
-									"entry": "A harp is a large lyre with many more strings and often a foot pedal to press in order create that melodic tone. It is often not common to see a harp on the road as they are often performed for nobility and those who can afford the safe transport of such grand instrument."
-								},
-								{
-									"type": "item",
-									"name": "Longhorn",
-									"entry": "In some worlds, it is considered to be a flute of sophisticated make, found only in areas with skilled artisans, as in great cities or elven enclaves. Typically, it is a trumpet-shape instrument with a long reach and no valves, often seen at a royal court."
-								},
-								{
-									"type": "item",
-									"name": "Mandolin",
-									"entry": "A mandolin is a small lute with 4-courses or 8-strings."
-								},
-								{
-									"type": "item",
-									"name": "Shawm",
-									"entry": "A double-reed instrument similar to an oboe or a bassoon, popular with gnomes, who have developed some bellows-powered versions."
-								},
-								{
-									"type": "item",
-									"name": "Songhorn",
-									"entry": "A recorder, a simple type of flute, usually carved from wood."
-								},
-								{
-									"type": "item",
-									"name": "Tantan",
-									"entry": "A tambourine-like instrument, a popular instrument with halflings and humans across various central and southern lands."
-								},
-								{
-									"type": "item",
-									"name": "Thelarr",
-									"entry": "Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children\u2014to the parents' delight or regret."
-								},
-								{
-									"type": "item",
-									"name": "Tocken",
-									"entry": "A hanging set of carved oval bells, usually played with a pair of light wooden hammers (or open handed). They are most common in underground cultures, where the resonant tones can carry."
-								},
-								{
-									"type": "item",
-									"name": "Wargong",
-									"entry": "A metal gong, traditionally made from a shield, particularly the shield of an enemy. Both goblins and dwarves make and play wargongs, their sound echoing through tunnels in the Underdark, however wargongs are not just common across the Underdark, but across other communities who have a strong focus on military might."
-								},
-								{
-									"type": "item",
-									"name": "Zulkoon",
-									"entry": "A complex pump organ that originated with the zulkirs of Thay, who use it in the casting of their spells. It is considered to have a dramatic, but sinister, sound."
 								}
 							]
 						}

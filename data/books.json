@@ -11132,8 +11132,9 @@
 					},
 					"headers": [
 						"Armor",
-						"Weapons",
-						"Musical Instruments"
+						"Musical Instruments",
+						"Spellcasting Focus",
+						"Weapons"
 					]
 				},
 				{

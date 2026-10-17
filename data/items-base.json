@@ -2195,7 +2195,10 @@
 			"scfType": "arcane",
 			"rarity": "none",
 			"weight": 1,
-			"value": 1000
+			"value": 1000,
+			"entries": [
+				"{@i The crystals of this arcane focus come in many shapes and colors. The most popular crystal arcane focuses retain much of their natural shape and coloration.}"
+			]
 		},
 		{
 			"name": "Dagger",
@@ -5401,7 +5404,10 @@
 			"scfType": "arcane",
 			"rarity": "none",
 			"weight": 3,
-			"value": 2000
+			"value": 2000,
+			"entries": [
+				"{@i An orb is a smooth, polished sphere made of glass, crystal, quartz or another mineral substance. It is 3 to 5 inches in diameter, small enough to rest in a Medium humanoid's palm, however some can be quite large.}"
+			]
 		},
 		{
 			"name": "Padded Armor",
@@ -5906,7 +5912,7 @@
 			"weight": 1,
 			"value": 500,
 			"entries": [
-				"Primal Bracers are Archery Bracers that can be used as a {@variantrule Spellcasting Focus|XPHB} for Rangers."
+				"{@i Primal Bracers are Archery Bracers that can be used as a {@variantrule Spellcasting Focus|XPHB} for {@class Ranger|XPHB|Rangers}.}"
 			]
 		},
 		{
@@ -6227,7 +6233,10 @@
 			"scfType": "arcane",
 			"rarity": "none",
 			"weight": 2,
-			"value": 1000
+			"value": 1000,
+			"entries": [
+				"{@i This arcane focus is a short cylinder with runes and sigils or attaching a focusing crystal to the top.}"
+			]
 		},
 		{
 			"name": "Sai (Bladed)",
@@ -7387,7 +7396,10 @@
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"dmg2": "1d8",
-			"staff": true
+			"staff": true,
+			"entries": [
+				"{@i This arcane focus is created by etching a normal {@item Quarterstaff|XPHB} with runes and sigils or attaching a focusing crystal to the top. While it is not considered a weapon, it can be used as one as long as you have proficiency with {@item Quarterstaff|XPHB|Quarterstaffs}}."
+			]
 		},
 		{
 			"name": "Stiletto",
@@ -7838,7 +7850,10 @@
 			"scfType": "arcane",
 			"rarity": "none",
 			"weight": 1,
-			"value": 1000
+			"value": 1000,
+			"entries": [
+				"{@i Wands are simple, lightweight arcane focuses, making them quite popular. A wand is typically shorter than the forearm of the user and is convenient to store in a sleeve.}"
+			]
 		},
 		{
 			"name": "War Pick",
@@ -8360,6 +8375,7 @@
 			"srd52": true,
 			"edition": "one",
 			"type": "SCF|XPHB",
+			"typeAlt": "M|XPHB",
 			"scfType": "druid",
 			"rarity": "none",
 			"weight": 4,
@@ -8374,7 +8390,10 @@
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
-			"dmg2": "1d8"
+			"dmg2": "1d8",
+			"entries": [
+				"{@i This arcane focus is created by etching a quarterstaff-like staff with runes and sigils, that may have an encased focusing crystal to the top, but does not necessarily need it. It is primarily wood and is oftem not a \"smooth\" staff form, but maintains the curves and notches of a tree branch.}"
+			]
 		},
 		{
 			"name": "Yarting",
