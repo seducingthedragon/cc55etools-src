@@ -13011,7 +13011,20 @@
 									"id": "6f0",
 									"entries": [
 										"As a {@action Utilize|XPHB} action, you can tie a knot with Rope if you succeed on a {@dc 10} Dexterity ({@skill Sleight of Hand|XPHB}) check. The Rope can be burst with a successful {@dc 20} Strength ({@skill Athletics|XPHB}) check.",
-										"You can bind an unwilling creature with the Rope only if the creature has the {@condition Grappled|XPHB}, {@condition Incapacitated|XPHB}, or {@condition Restrained|XPHB} condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful {@dc 15} Dexterity ({@skill Acrobatics|XPHB}) check as an action."
+										{
+											"type": "entries",
+											"name": "Lasso",
+											"entries": [
+												"If you have proficiency with Improvised Weapons or with {@item Bolas}, you can knot a rope to form a lasso, gaining your proficiency bonus on any {@action Attack|XPHB} roll you make with it in this form. When this is done, the rope becomes a {@itemProperty 2H|XPHB|Two-Handed} {@itemProperty GP|XPHB|Grappling} {@itemProperty T|XPHB|Thrown} weapon, with a normal range of 10 feet and a long-distance range of 40 feet."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Binding Creatures",
+											"entries": [
+												"You can bind an unwilling creature with the Rope only if the creature has the {@condition Grappled|XPHB}, {@condition Incapacitated|XPHB}, or {@condition Restrained|XPHB} condition. If the creature's legs are bound, the creature has the {@condition Restrained|XPHB} condition until it escapes. Escaping the Rope requires the creature to make a successful {@dc 15} Dexterity ({@skill Acrobatics|XPHB}) check as an action."
+											]
+										}
 									]
 								},
 								{
