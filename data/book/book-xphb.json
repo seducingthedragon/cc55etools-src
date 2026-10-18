@@ -10453,6 +10453,41 @@
 											"source": "XPHB"
 										}
 									]
+								},
+								{
+									"type": "entries",
+									"name": "Helms",
+									"entries": [
+										"{@item Helms|XPHB}, such as vizors, helmets, and others, are various types of head gear for armor, meant for head protection. Some may provide benefits to avoid being {@condition Incapacitated|XPHB} or {@condition Stunned|XPHB}, however some may involve some {@skill Perception|XPHB} drawbacks.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"columns": 3,
+											"items": [
+												"{@item Great Helm|XPHB}",
+												"{@item Morion Helmet|XPHB}",
+												"{@item Primeval Helm|XPHB}"
+											]
+										},
+										{
+											"type": "statblock",
+											"name": "Great Helm",
+											"tag": "item",
+											"source": "XPHB"
+										},
+										{
+											"type": "statblock",
+											"name": "Morion Helmet",
+											"tag": "item",
+											"source": "XPHB"
+										},
+										{
+											"type": "statblock",
+											"name": "Primeval Helm",
+											"tag": "item",
+											"source": "XPHB"
+										}
+									]
 								}
 							]
 						},

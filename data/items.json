@@ -28026,6 +28026,21 @@
 			]
 		},
 		{
+			"name": "Great Helm",
+			"group": [
+				"Helms"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"weight": 5,
+			"value": 5000,
+			"entries": [
+				"A Great Helm is a full-head covering metal helmet that often has a visor, however it may not always be moveable. This helmet is worn with Heavy metal armor, requiring training in such in order to wear it properly. Even as a mundane helmet, it grants a +2 bonus to {@variantrule Saving Throw|XPHB|Saving Throws} from {@variantrule Area of Effect|XPHB} spells, however, you make {@skill Perception|XPHB} checks with {@variantrule Disadvantage|XPHB}."
+			]
+		},
+		{
 			"name": "Greater Silver Sword",
 			"source": "MTF",
 			"page": 89,
@@ -41105,6 +41120,25 @@
 			]
 		},
 		{
+			"name": "Morion Helmet",
+			"alias": [
+				"Kettle Helmet"
+			],
+			"group": [
+				"Helms"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"rarity": "none",
+			"type": "AP|XPHB",
+			"value": 100,
+			"weight": 2,
+			"entries": [
+				"A Morion Helmet, also known as a Kettle Helmet, is a metal helm hat that covers only the top, back, and forehead of the head, without any face coverings. Some have leather chinstraps and some have coverings for ears. This helmet can be worn with any armor type, however it is most commonly worn with Medium metal armor. This helmet can be used as an improvised weapon, dealing 2 Bludgeoning damage on a hit."
+			]
+		},
+		{
 			"name": "Moss Agate",
 			"source": "DMG",
 			"page": 134,
@@ -49472,6 +49506,23 @@
 			"rarity": "unknown (magic)",
 			"entries": [
 				"This beaded jade necklace bears an ancient symbol of the River Heralds. When worn, the primal amulet allows its wearer to cast {@spell speak with animals}, {@spell locate object}, and {@spell pass without trace}. Once the amulet has been used to cast a spell, it can't be used to cast that spell again until the next dawn."
+			]
+		},
+		{
+			"name": "Primeval Helm",
+			"group": [
+				"Helms"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 50,
+			"entries": [
+				"A Primeval Helm is a helmet commonly used by Druids, however it is often worn by nomadic warriors and those often with Natural Armor, are unarmored, or in Light armor. While this helm does not need to be paired with an armor set, being armored in some way is necessary in order to be able to maneuver and cast spells without it impeding such actions.",
+				"It is often crafted out of wood, bone, leather, or other hides. Sometimes it may even be the skull of a larger creature. This helm is considered \"cheap\" compared to other helms, however it is often considered the cost of materials used to craft it. Buying one already made is often more expensive. While wearing this helm, you gain a +1 bonus to {@skill Intimidation|XPHB} checks."
 			]
 		},
 		{
@@ -78582,7 +78633,7 @@
 			"type": "AP|XPHB",
 			"rarity": "none",
 			"entries": [
-				"{@item Bracers|XPHB} are armor parts that are worn, in pairs, on a wearer's forearms, between their wrist and elbow. Some Bracers may extend to the wearers palm, but not always. If you have a pair of Bracers equipped, you can still equip {@item Gloves and Gauntlets|XPHB|Gloves}, however you cannot equip {@item Gloves and Gauntlets|XPHB|Gauntlets}."
+				"Bracers are armor parts that are worn, in pairs, on a wearer's forearms, between their wrist and elbow. Some Bracers may extend to the wearers palm, but not always. If you have a pair of Bracers equipped, you can still equip {@item Gloves and Gauntlets|XPHB|Gloves}, however you cannot equip {@item Gloves and Gauntlets|XPHB|Gauntlets}."
 			],
 			"items": [
 				"Leather Bracers|XPHB",
@@ -79714,8 +79765,8 @@
 			"type": "AP|XPHB",
 			"rarity": "none",
 			"entries": [
-				"{@item Gloves and Gauntlets|XPHB} are similar armor parts as they both cover the wearer's hands, fingers usually included. The differences between them are that gloves stop at the wearer's wrists, while gauntlets end halfway up the wearer's forearms. Additionally, gloves are more common with Light Armor and other fabric-based armor sets, while gauntlets are commonly seen with Medium to Heavy metal armor, however, that is also dependent on the material of the gloves and gauntlets themselves.",
-				"If you have a pair of {@item Gloves and Gauntlets|XPHB|Gloves} equipped, you can still equip a pair of {@item Bracers|XPHB}, however you cannot do so if you are wearing a pair of {@item Gloves and Gauntlets|XPHB|Gauntlets}."
+				"Gloves and Gauntlets are similar armor parts as they both cover the wearer's hands, fingers usually included. The differences between them are that gloves stop at the wearer's wrists, while gauntlets end halfway up the wearer's forearms. Additionally, gloves are more common with Light Armor and other fabric-based armor sets, while gauntlets are commonly seen with Medium to Heavy metal armor, however, that is also dependent on the material of the gloves and gauntlets themselves.",
+				"If you have a pair of Gloves and Gauntlets equipped, you can still equip a pair of {@item Bracers|XPHB}, however you cannot do so if you are wearing a pair of Gloves and Gauntlets."
 			],
 			"items": [
 				"Armored Gloves|XPHB",
@@ -79833,6 +79884,23 @@
 				"Rakdos Guild Signet|GGR",
 				"Selesnya Guild Signet|GGR",
 				"Simic Guild Signet|GGR"
+			]
+		},
+		{
+			"name": "Helms",
+			"source": "XPHB",
+			"page": 219,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"entries": [
+				"Helms, such as vizors, helmets, and others, are various types of head gear for armor, meant for head protection. Some may provide benefits to avoid being {@condition Incapacitated|XPHB} or {@condition Stunned|XPHB}, however some may involve some {@skill Perception|XPHB} drawbacks."
+			],
+			"items": [
+				"Great Helm|XPHB",
+				"Morion Helmet|XPHB",
+				"Primeval Helm|XPHB"
 			]
 		},
 		{
