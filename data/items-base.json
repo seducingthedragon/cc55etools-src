@@ -3659,6 +3659,34 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Hooked Hammer",
+			"alias": [
+				"Gnome Hooked Hammer"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CSmf|XPHB",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "specialized",
+			"property": [
+				"DM|XPHB",
+				"2H|XPHB"
+			],
+			"mastery": [
+				"Topple|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d4 Piercing",
+			"hammer": true,
+			"weapon": true,
+			"hasFluff": true
+		},
+		{
 			"name": "Hooked Shortspear",
 			"source": "OotA",
 			"page": 224,
@@ -9618,6 +9646,21 @@
 					"name": "Specialized Cultural Weapon",
 					"entries": [
 						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. These weapons are significant to the Orc and some Goblinoid communities, such as the Bugbears and Hobgoblins."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cultural (Smallfolk)",
+			"abbreviation": "CSmf",
+			"source": "XPHB",
+			"page": 214,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Specialized Cultural Weapon",
+					"entries": [
+						"A Cultural Weapon is a Specialized Weapon that is less uncommon within a specified group of people. While individuals outside of the specified culture can be seen utilizing this weapon, it is extremely rare. These weapons are significant to the various Smallfolk communities, such as Gnomes and Halflings."
 					]
 				}
 			]

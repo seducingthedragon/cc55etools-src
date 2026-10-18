@@ -5672,6 +5672,13 @@
 			]
 		},
 		{
+			"name": "Hooked Hammer",
+			"source": "XPHB",
+			"entries": [
+				"A Hooked Hammer, also known as the Gnome Hooked Hammer, is a Double weapon that was created by the Gnome community. They have relatively short shafts, with a hammer on one end and a sharp-pointed hook (curved only slightly more than a pickaxe) on the other."
+			]
+		},
+		{
 			"name": "Hoopak",
 			"source": "DSotDQ",
 			"images": [
