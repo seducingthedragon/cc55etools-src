@@ -2652,6 +2652,42 @@
 			"value": 200
 		},
 		{
+			"name": "Garrote",
+			"alias": [
+				"Garrotte"
+			],
+			"source": "XPHB",
+			"page": 214,
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weaponCategory": "specialized",
+			"weight": 0.5,
+			"value": 500,
+			"property": [
+				"2H|XPHB",
+				"F|XPHB",
+				"GP|XPHB",
+				"ST|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Slow|XPHB"
+			],
+			"weapon": true,
+			"entries": [
+				"{@i A Garrote is a strangulation device, typically a strong length of rope cord or a steel wire with a handle on each end. It is designed to constrain a target's intake of air and the flow of blood to its brain. It is often used among Rogues and assassins for stealth-related attacks, attacking from behind in order to improve success.}",
+				"If a target were to break this weapon, its AC is based on the {@object Generic Object|DMG|material} used to strangle. Your DM has the information.",
+				{
+					"type": "entries",
+					"name": "Special: Initial Attack Risk",
+					"entries": [
+						"Attacking with this weapon requires some level of planning. If a target can see you and the weapon, the target can use its {@variantrule Reaction|XPHB} to protect its neck, negating the {@itemProperty ST|XPHB|Strangulation} property, even if it fails to avoid a grapple, until the start of its turn."
+					]
+				}
+			]
+		},
+		{
 			"name": "Glaive",
 			"source": "PHB",
 			"page": 149,
@@ -8927,7 +8963,7 @@
 					"type": "entries",
 					"name": "Light",
 					"entries": [
-						"Light Weapons are small and easy to handle in either your main-hand or your off-hand, making it ideal for wielding with another weapon and engaging in {@action Two-Weapon Fighting|XPHB}."
+						"Light Weapons are small and easy to handle in either your main-hand or your off-hand, making it ideal for wielding with another weapon and engaging in {@action Two-Weapon Fighting|XPHB}. You can also make attacks with these weapons while you are {@condition Prone|XPHB}, ignoring {@variantrule Disadvantage|XPHB}, so long as you are proficient with the weapon."
 					]
 				}
 			]
@@ -9124,6 +9160,23 @@
 			"source": "XPHB",
 			"page": 214,
 			"template": "{{prop_name}}"
+		},
+		{
+			"abbreviation": "ST",
+			"source": "XPHB",
+			"page": 214,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Strangulation",
+					"entries": [
+						"A Strangulation weapon is a {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} weapon that chokes the target, as long as you maintain the attack. The target does not need to have the {@status Surprised|XPHB} condition in order for this weapon to work properly, however, they cannot be aware of your intent to strangle, or risk anticipated preparation.",
+						"The first time the target fails its {@variantrule Saving Throw|XPHB} against the {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} and it fails use its next turn to successfully escape, it gains 1 round of {@hazard Suffocation|XPHB}, with each subsequent round counted at the end of your turn, as long as you use your {@variantrule Action|XPHB} to maintain your attack. When you maintain your attack, you can also apply its mastery property, if applicable.",
+						"A creature that suffers a number of consecutive rounds of suffocation equal to its Constitution modifier + 1 (minimum of 2 rounds), drops to 0 {@variantrule Hit Points|XPHB} and is dying. It can't regain {@variantrule Hit Points|XPHB} or be {@variantrule Stable|XPHB|Stabilized} until it can breathe again."
+					]
+				}
+			]
 		},
 		{
 			"abbreviation": "T",

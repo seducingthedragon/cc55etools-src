@@ -4497,6 +4497,13 @@
 			]
 		},
 		{
+			"name": "Garrote",
+			"source": "XPHB",
+			"entries": [
+				"{@i A Garrote is a strangulation device, typically a strong length of cord or a steel wire with a handle on each end. It is designed to constrain a target's intake of air and the flow of blood to its brain. It is often used among Rogues and assassins for stealth-related attacks, attacking from behind in order to improve success.}"
+			]
+		},
+		{
 			"name": "Gauntlets of Ogre Power",
 			"source": "DMG",
 			"images": [
