@@ -3560,6 +3560,40 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Hidden Blade",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 0.5,
+			"value": 1000,
+			"weaponCategory": "specialized",
+			"property": [
+				"C|XPHB",
+				"F|XPHB",
+				"L|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Vex|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true,
+			"entries": [
+				"{@i This small, spring-loaded blade can be hidden in {@item Bracers|XPHB}, soles of shoes, or other objects.}",
+				{
+					"type": "entries",
+					"name": "Special: Worn and Free-Hands",
+					"entries": [
+						"A hidden blade can be revealed by a spring-loaded mechanism and attacked with as a {@variantrule Bonus Action|XPHB}. While this blade is hidden on your person, your hands are available to hold or wield other weapons. Revealing the weapon requires a free-hand."
+					]
+				}
+			]
+		},
+		{
 			"name": "Hide Armor",
 			"source": "PHB",
 			"page": 144,
@@ -9514,53 +9548,6 @@
 			]
 		},
 		{
-			"name": "Explosive",
-			"abbreviation": "EXP",
-			"source": "DMG",
-			"page": 267,
-			"reprintedAs": [
-				"EXP|XDMG"
-			]
-		},
-		{
-			"name": "Explosive",
-			"abbreviation": "EXP",
-			"source": "XDMG",
-			"page": 72
-		},
-		{
-			"name": "Food and Drink",
-			"abbreviation": "FD",
-			"source": "PHB",
-			"page": 158,
-			"reprintedAs": [
-				"FD|XPHB"
-			]
-		},
-		{
-			"name": "Food and Drink",
-			"abbreviation": "FD",
-			"source": "XPHB",
-			"page": 231,
-			"basicRules2024": true
-		},
-		{
-			"name": "Adventuring Gear",
-			"abbreviation": "G",
-			"source": "PHB",
-			"page": 148,
-			"reprintedAs": [
-				"G|XPHB"
-			]
-		},
-		{
-			"name": "Adventuring Gear",
-			"abbreviation": "G",
-			"source": "XPHB",
-			"page": 222,
-			"basicRules2024": true
-		},
-		{
 			"name": "Cultural (Beastfolk)",
 			"abbreviation": "CBsf",
 			"source": "XPHB",
@@ -9634,6 +9621,53 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Explosive",
+			"abbreviation": "EXP",
+			"source": "DMG",
+			"page": 267,
+			"reprintedAs": [
+				"EXP|XDMG"
+			]
+		},
+		{
+			"name": "Explosive",
+			"abbreviation": "EXP",
+			"source": "XDMG",
+			"page": 72
+		},
+		{
+			"name": "Food and Drink",
+			"abbreviation": "FD",
+			"source": "PHB",
+			"page": 158,
+			"reprintedAs": [
+				"FD|XPHB"
+			]
+		},
+		{
+			"name": "Food and Drink",
+			"abbreviation": "FD",
+			"source": "XPHB",
+			"page": 231,
+			"basicRules2024": true
+		},
+		{
+			"name": "Adventuring Gear",
+			"abbreviation": "G",
+			"source": "PHB",
+			"page": 148,
+			"reprintedAs": [
+				"G|XPHB"
+			]
+		},
+		{
+			"name": "Adventuring Gear",
+			"abbreviation": "G",
+			"source": "XPHB",
+			"page": 222,
+			"basicRules2024": true
 		},
 		{
 			"name": "Gaming Set",

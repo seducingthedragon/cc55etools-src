@@ -9401,6 +9401,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Hidden Blade|XPHB}",
+										"{@dice 1d4} Piercing",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
+										"{@itemMastery Vex}",
+										"0.5 lb.",
+										"10 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Hurled Colpik|XPHB} {@i Cultural (Dwarven)}",
 										"{@dice 1d4} Piercing",
 										"{@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
@@ -20070,6 +20082,14 @@
 									"type": "item",
 									"name": "{@item Granite Fists|XPHB} {@i Cultural (Dwarven)}",
 									"entry": "These Granite Fists are a brutal pair of gauntlet-like designed weapons. Weighing 10 lbs per individual fist, these are made to break bones. These stone weapons are shapes to look like giant fists with an iron bar inside for the wielder to grip. They are frequently sold in pairs, however, it is not uncommon to see someone weilding only one. There are many variations of these fists within the Dwarven community, which includes spiked knuckles, iron rings, and more."
+								},
+								{
+									"type": "item",
+									"name": "{@item Hidden Blade|XPHB}",
+									"entries": [
+										"{@i This small, spring-loaded blade can be hidden in {@item Bracers|XPHB}, soles of shoes, or other objects.}",
+										"{@b {@i Special: Worn and Free-Hands.}} A hidden blade can be revealed by a spring-loaded mechanism and attacked with as a {@variantrule Bonus Action|XPHB}. While this blade is hidden on your person, your hands are available to hold or wield other weapons. Revealing the weapon requires a free-hand."
+									]
 								},
 								{
 									"type": "item",
