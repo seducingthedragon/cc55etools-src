@@ -10595,7 +10595,17 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"{@i Maneuver.} You can choose to make a single \"Crushing Blow\" attack for your {@action Attack|XPHB} action, targeting a creature wearing non-magical armor. On a hit, the target takes the weapon damage and you cause a long-term \u20141 penalty to their AC. The target's AC cannot be reduced lower than 10 plus their Dexterity modifier. This penalty cannot be removed until they repair their armor. This maneuver only works on magical armor if the weapon is also magical."
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make a single {@variantrule Weapon Attack|XPHB} roll against an armored or naturally armored creature. If the attack hits, the target's AC is permanently reduced by 1 until its armor is repaired. It cannot be reduced below 10 plus the target's Dexterity modifier. This attack has no effect on creatures with magical armor unless this weapon is also magical."
+			]
+		},
+		{
+			"name": "Disarm",
+			"source": "XPHB",
+			"page": 214,
+			"srd52": true,
+			"basicRules2024": true,
+			"entries": [
+				"{@i Maneuver.} When a creature attacks you with a weapon, you can use your {@variantrule Reaction|XPHB} to \"catch\" and disarm your opponent. Make a {@variantrule Weapon Attack|XPHB} roll with this weapon. If your attack meets or exceeds your opponent's attack, their attack misses and must succeed on a Strength {@variantrule Saving Throw|XPHB} or drop their weapon. The DC is {@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your Attack modifier."
 			]
 		},
 		{
@@ -10615,7 +10625,17 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"{@i Maneuver.} This property only works on {@itemProperty Light} weapons and regarding its off-hand extra attack benefit. You can make this extra attack as part of the {@action Attack|XPHB} action instead of as a {@variantrule Bonus Action|XPHB}. You can make this extra attack only once per turn."
+				"{@i Maneuver.} This property only works on {@itemProperty L|XPHB|Light} weapons and regarding its off-hand extra attack benefit with {@action Two-Weapon Fighting}. You can make this extra attack as part of the {@action Attack|XPHB} action instead of as a {@variantrule Bonus Action|XPHB}. You can make this extra attack only once per turn."
+			]
+		},
+		{
+			"name": "Pin",
+			"source": "XPHB",
+			"page": 214,
+			"srd52": true,
+			"basicRules2024": true,
+			"entries": [
+				"{@i Maneuver.} When you make an attack roll with this weapon and hit a Large or smaller creature, you can attempt to pin them to a nearby (5 feet) surface. On a hit, the target must make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice), The DC is {@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your Attack Modifier. On a failed save, the target is pinned, via {@condition Restrained|XPHB} condition, until the weapon is removed. The target can use an {@variantrule Action|XPHB} on their turn to attempt to remove the weapon."
 			]
 		},
 		{
@@ -10645,7 +10665,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"{@i Other.} If you hit a creature with this weapon and deal damage to it, you can reduce its {@variantrule Speed|XPHB} by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the {@variantrule Speed|XPHB} reduction doesn't exceed 10 feet."
+				"{@i Buff.} If you hit a creature with this weapon and deal damage to it, you can reduce its {@variantrule Speed|XPHB} by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the {@variantrule Speed|XPHB} reduction doesn't exceed 10 feet."
 			]
 		},
 		{
@@ -10655,7 +10675,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"{@i Maneuver.} If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw ({@dc 8} plus your Proficiency Bonus and your Strength or Dexterity modifier, the one used with this weapon). On a failed save, the creature has the {@condition Prone|XPHB} condition."
+				"{@i Maneuver.} If you hit a creature with this weapon, you can force the creature to make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice). The DC is {@dc 8} plus your Proficiency Bonus and your Attack modifier. On a failed save, the creature has the {@condition Prone|XPHB} condition."
 			]
 		},
 		{
