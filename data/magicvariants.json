@@ -6477,9 +6477,46 @@
 				"namePrefix": "Silvered ",
 				"source": "PHB",
 				"page": 148,
+				"reprintedAs": [
+					"Silvered Ammunition|XDMG"
+				],
 				"basicRules": true,
 				"tier": "minor",
 				"rarity": "unknown"
+			}
+		},
+		{
+			"name": "Silvered Ammunition",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "A"
+				},
+				{
+					"type": "AF|DMG"
+				},
+				{
+					"type": "A|XPHB"
+				},
+				{
+					"type": "AF|XDMG"
+				}
+			],
+			"excludes": {
+				"cellEnergy": true
+			},
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"source": "XDMG",
+				"page": 304,
+				"rarity": "common",
+				"entries": [
+					"An alchemical process has bonded silver to this ammunition, making it magical. When you score a {@variantrule Critical Hit|XPHB} with it against a creature that is shape-shifted, the weapon deals one additional die of damage."
+				],
+				"lootTables": [
+					"Armaments - Common|XDMG"
+				]
 			}
 		},
 		{
@@ -6530,7 +6567,7 @@
 				"page": 304,
 				"rarity": "common",
 				"entries": [
-					"An alchemical process has bonded silver to this magic weapon. When you score a {@variantrule Critical Hit|XPHB} with it against a creature that is shape-shifted, the weapon deals one additional die of damage."
+					"An alchemical process has bonded silver to this weapon, making it magical. When you score a {@variantrule Critical Hit|XPHB} with it against a creature that is shape-shifted, the weapon deals one additional die of damage."
 				],
 				"lootTables": [
 					"Armaments - Common|XDMG"

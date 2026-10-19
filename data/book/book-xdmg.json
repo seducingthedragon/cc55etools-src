@@ -24929,7 +24929,7 @@
 											"page": 217,
 											"id": "423",
 											"entries": [
-												"If a magic weapon has the {@itemProperty AF|XDMG|Ammunition} property, ammunition fired from it is considered magical for the purpose of any rule that cares whether a weapon is magical or not."
+												"If a magic weapon has the {@itemProperty AF|XDMG|Ammunition} property, ammunition fired from it is considered magical for the purpose of any rule that cares whether a weapon is magical or not. Additionally, firing a magical piece of ammunition from a magical weapon, may or may not gain the benefits of both, per your perview."
 											]
 										}
 									]
@@ -26583,6 +26583,7 @@
 								"{@item Shield of Expression|XDMG}",
 								"{@item Shield of Missile Attraction|XDMG}",
 								"{@item Shield of the Cavalier|XDMG}",
+								"{@item Silvered Ammunition|XDMG}",
 								"{@item Silvered Weapon|XDMG}",
 								"{@item Slippers of Spider Climbing|XDMG}",
 								"{@item Smoldering Armor|XDMG}",
@@ -28463,6 +28464,12 @@
 								},
 								{
 									"type": "statblock",
+									"name": "Silvered Ammunition",
+									"tag": "item",
+									"source": "XDMG"
+								},
+								{
+									"type": "statblock",
 									"name": "Silvered Weapon",
 									"tag": "item",
 									"source": "XDMG"
@@ -30001,7 +30008,11 @@
 											"{@item Shield of Expression|XDMG}"
 										],
 										[
-											"51\u201360",
+											"51\u201355",
+											"{@item Silvered Ammunition|XDMG}"
+										],
+										[
+											"56\u201360",
 											"{@item Silvered Weapon|XDMG}"
 										],
 										[
