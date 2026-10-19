@@ -907,6 +907,9 @@
 				"namePrefix": "Adamantine ",
 				"source": "XGE",
 				"page": 78,
+				"reprintedAs": [
+					"Adamantine Ammunition|XDMG"
+				],
 				"tier": "minor",
 				"rarity": "unknown",
 				"entries": [
