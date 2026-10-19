@@ -915,6 +915,40 @@
 			}
 		},
 		{
+			"name": "Adamantine Ammunition",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "A"
+				},
+				{
+					"type": "AF|DMG"
+				},
+				{
+					"type": "A|XPHB"
+				},
+				{
+					"type": "AF|XDMG"
+				}
+			],
+			"excludes": {
+				"cellEnergy": true
+			},
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"source": "XDMG",
+				"page": 227,
+				"rarity": "uncommon",
+				"entries": [
+					"This piece of ammunition is made of adamantine, one of the hardest substances in existence. Whenever this piece of ammunition hits an object, the hit is a {@variantrule Critical Hit|XPHB}."
+				],
+				"lootTables": [
+					"Armaments - Uncommon|XDMG"
+				]
+			}
+		},
+		{
 			"name": "Adamantine Armor",
 			"edition": "classic",
 			"type": "GV|DMG",
@@ -1015,13 +1049,13 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"type": "A|XPHB"
+					"weaponCategory": "simple"
 				},
 				{
-					"type": "AF|XDMG"
+					"weaponCategory": "martial"
 				},
 				{
-					"type": "M|XPHB"
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -1030,7 +1064,7 @@
 				"page": 227,
 				"rarity": "uncommon",
 				"entries": [
-					"This weapon or piece of ammunition is made of adamantine, one of the hardest substances in existence. Whenever this weapon or piece of ammunition hits an object, the hit is a {@variantrule Critical Hit|XPHB}."
+					"This weapon is made of adamantine, one of the hardest substances in existence. Whenever this weapon hits an object, the hit is a {@variantrule Critical Hit|XPHB}."
 				],
 				"lootTables": [
 					"Armaments - Uncommon|XDMG"
@@ -2882,6 +2916,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -3145,6 +3182,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -3818,6 +3858,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -3845,6 +3888,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -3872,6 +3918,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -3899,6 +3948,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -3926,6 +3978,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -3953,6 +4008,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -3980,6 +4038,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -4007,6 +4068,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -4034,6 +4098,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -4443,6 +4510,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -4697,6 +4767,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -5707,6 +5780,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -6256,6 +6332,10 @@
 				{
 					"weaponCategory": "martial",
 					"property": "A|XPHB"
+				},
+				{
+					"weaponCategory": "specialized",
+					"property": "A|XPHB"
 				}
 			],
 			"inherits": {
@@ -6316,6 +6396,10 @@
 				},
 				{
 					"weaponCategory": "martial",
+					"property": "T|XPHB"
+				},
+				{
+					"weaponCategory": "specialized",
 					"property": "T|XPHB"
 				}
 			],
@@ -6559,6 +6643,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -7491,6 +7578,10 @@
 				{
 					"weaponCategory": "martial",
 					"type": "M|XPHB"
+				},
+				{
+					"weaponCategory": "specialized",
+					"type": "M|XPHB"
 				}
 			],
 			"inherits": {
@@ -7632,6 +7723,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -7941,6 +8035,9 @@
 				},
 				{
 					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {

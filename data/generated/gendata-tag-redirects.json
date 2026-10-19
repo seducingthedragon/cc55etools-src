@@ -1809,6 +1809,7 @@
         "%2b3%20armor_dmg": "%2b3%20armor_xdmg",
         "%2b3%20shield%20(*)_dmg": "%2b3%20shield%20(*)_xdmg",
         "%2b3%20weapon_dmg": "%2b3%20weapon_xdmg",
+        "adamantine%20ammunition_xge": "adamantine%20ammunition_xdmg",
         "adamantine%20armor_dmg": "adamantine%20armor_xdmg",
         "adamantine%20weapon_xge": "adamantine%20weapon_xdmg",
         "armor%20of%20acid%20resistance_dmg": "armor%20of%20acid%20resistance_xdmg",

@@ -26306,6 +26306,7 @@
 							"type": "list",
 							"columns": 3,
 							"items": [
+								"{@item Adamantine Ammunition|XDMG}",
 								"{@item Adamantine Armor|XDMG}",
 								"{@item Adamantine Weapon|XDMG}",
 								"{@item Alchemy Jug|XDMG}",
@@ -26668,6 +26669,12 @@
 							"type": "entries",
 							"name": "A",
 							"entries": [
+								{
+									"type": "statblock",
+									"name": "Adamantine Ammunition",
+									"tag": "item",
+									"source": "XDMG"
+								},
 								{
 									"type": "statblock",
 									"name": "Adamantine Armor",
@@ -30056,34 +30063,38 @@
 									"rows": [
 										[
 											"01\u201304",
-											"{@item Adamantine Armor|XDMG}"
+											"{@item Adamantine Ammunition|XDMG}"
 										],
 										[
 											"05\u201308",
+											"{@item Adamantine Armor|XDMG}"
+										],
+										[
+											"09\u201312",
 											"{@item Adamantine Weapon|XDMG}"
 										],
 										[
-											"09\u201313",
+											"13\u201316",
 											"{@item +1 Ammunition|XDMG|Ammunition, +1}"
 										],
 										[
-											"14\u201318",
+											"17\u201320",
 											"{@item Bracers of Archery|XDMG}"
 										],
 										[
-											"19\u201323",
+											"21\u201325",
 											"{@item Enspelled Armor|XDMG} ({@item Enspelled Armor (Cantrip)|XDMG|cantrip} or {@item Enspelled Armor (Level 1)|XDMG|level 1} spell)"
 										],
 										[
-											"24\u201328",
+											"26\u201330",
 											"{@item Enspelled Weapon|XDMG} ({@item Enspelled Weapon (Cantrip)|XDMG|cantrip} or {@item Enspelled Weapon (Level 1)|XDMG|level 1} spell)"
 										],
 										[
-											"29\u201333",
+											"31\u201334",
 											"{@item Gauntlets of Ogre Power|XDMG}"
 										],
 										[
-											"34\u201338",
+											"35\u201338",
 											"{@item Javelin of Lightning|XDMG}"
 										],
 										[
