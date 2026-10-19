@@ -2901,6 +2901,34 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Gnome Hooked Hammer",
+			"alias": [
+				"Hooked Hammer"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CSmf|XPHB",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "specialized",
+			"property": [
+				"DM|XPHB",
+				"2H|XPHB"
+			],
+			"mastery": [
+				"Topple|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d4 Piercing",
+			"hammer": true,
+			"weapon": true,
+			"hasFluff": true
+		},
+		{
 			"name": "Gorgash",
 			"alias": [
 				"Double-Headed Battleaxe"
@@ -3227,6 +3255,45 @@
 				"{@i Sometimes called \"field plate,\" this is a lighter version of full plate armor. Most of the wearer's body is covered in connected metal plates. It tends to provide less protection at the joints and the extremities of the limbs than full plate armor.}"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Halfling Skiprocks",
+			"alias": [
+				"Skiprock"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "R|XPHB",
+			"typeAlt": "CSmf|XPHB",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 300,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"L|XPHB",
+				"T|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Sap|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"range": "10/40",
+			"weapon": true,
+			"entries": [
+				"Halfling Skiprocks are sold in packs of 20. While they can be used as Ammunition for {@item Sling|XPHB|Slings}, they do not benefit from its Ricochet property.",
+				{
+					"type": "entries",
+					"name": "Special: Ricochet",
+					"entries": [
+						"When you hit a target with this weapon by throwing it, it will ricochet back to you. If you rolled an 18 or higher on the attack die, you can choose to have it return to you or it can ricochet to another target within 5 feet of its first target. Make another attack roll for the second target. On a hit, the skiprock will ricochet back to you. You do not add your ability modifier to the damage roll of the second target, unless the modifier is negative."
+					]
+				}
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Hand Crossbow",
@@ -3655,34 +3722,6 @@
 			"dmg1": "2d6",
 			"dmgType": "B",
 			"range": "20/50",
-			"weapon": true,
-			"hasFluff": true
-		},
-		{
-			"name": "Hooked Hammer",
-			"alias": [
-				"Gnome Hooked Hammer"
-			],
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "M|XPHB",
-			"typeAlt": "CSmf|XPHB",
-			"rarity": "none",
-			"weight": 6,
-			"value": 2000,
-			"weaponCategory": "specialized",
-			"property": [
-				"DM|XPHB",
-				"2H|XPHB"
-			],
-			"mastery": [
-				"Topple|XPHB"
-			],
-			"dmg1": "1d6",
-			"dmgType": "B",
-			"dmg2": "1d4 Piercing",
-			"hammer": true,
 			"weapon": true,
 			"hasFluff": true
 		},

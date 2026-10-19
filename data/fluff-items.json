@@ -4743,6 +4743,13 @@
 			]
 		},
 		{
+			"name": "Gnome Hooked Hammer",
+			"source": "XPHB",
+			"entries": [
+				"A Gnome Hooked Hammer, also known as the Hooked Hammer, is a Double weapon that was created by the Gnome community and has spread to other communities of smallfolks. They have relatively short shafts, with a hammer on one end and a sharp-pointed hook (curved only slightly more than a pickaxe) on the other."
+			]
+		},
+		{
 			"name": "Goggles of Night",
 			"source": "DMG",
 			"images": [
@@ -5084,6 +5091,13 @@
 					"width": 315,
 					"height": 392
 				}
+			]
+		},
+		{
+			"name": "Halfling Skiprock",
+			"source": "XPHB",
+			"entries": [
+				"Halfling Skiprocks, also known as Skiprocks, were specially made, polished stone projectiles invented by Halfling weaponsmiths and became prized by members of various Smallfolk communities. Skiprocks were finely weighted and shaped to ensure they were perfect for throwing. If thrown well enough, after hitting a target they would typically ricochet and hit another, taking inspiration from river pebbles."
 			]
 		},
 		{
@@ -5669,13 +5683,6 @@
 					"width": 767,
 					"height": 1000
 				}
-			]
-		},
-		{
-			"name": "Hooked Hammer",
-			"source": "XPHB",
-			"entries": [
-				"A Hooked Hammer, also known as the Gnome Hooked Hammer, is a Double weapon that was created by the Gnome community. They have relatively short shafts, with a hammer on one end and a sharp-pointed hook (curved only slightly more than a pickaxe) on the other."
 			]
 		},
 		{

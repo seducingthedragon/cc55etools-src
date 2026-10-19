@@ -9378,6 +9378,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Gnome Hooked Hammer|XPHB} {@i Cultural (Smallfolk)}",
+										"{@dice 1d6} Bludgeoning",
+										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d4} Piercing), {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Topple}",
+										"6 lb.",
+										"20 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Gorgash|XPHB} {@i Cultural (Orcish}",
 										"{@dice 1d8} Slashing",
 										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6}), {@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty VH|XPHB|Very Heavy}",
@@ -9408,18 +9420,6 @@
 										"{@itemMastery Vex}",
 										"0.5 lb.",
 										"10 GP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
-										"{@item Hooked Hammer|XPHB} {@i Cultural (Smallfolk)}",
-										"{@dice 1d6} Bludgeoning",
-										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d4} Piercing), {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Topple}",
-										"6 lb.",
-										"20 GP"
 									]
 								},
 								{
@@ -9595,6 +9595,18 @@
 										"{@itemMastery Slow}",
 										"4 lb.",
 										"100 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Halfling Skiprocks|XPHB}",
+										"{@dice 1d4} Bludgeoning",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 10/40), Special",
+										"{@itemMastery Sap}",
+										"0.25 lb.",
+										"3 GP"
 									]
 								},
 								{
@@ -20088,6 +20100,11 @@
 								},
 								{
 									"type": "item",
+									"name": "{@item Gnome Hooked Hammer|XPHB}",
+									"entry": "A Gnome Hooked Hammer, also known as the Hooked Hammer, is a Double weapon that was created by the Gnome community and has spread to other communities of smallfolks. They have relatively short shafts, with a hammer on one end and a sharp-pointed hook (curved only slightly more than a pickaxe) on the other."
+								},
+								{
+									"type": "item",
 									"name": "{@item Gorgash|XPHB} {@i Cultural (Orcish)}",
 									"entry": "The Gorgash, which translates to {@i \"blood-shower blade\"}, is commonly known as the Double-Headed Battleaxe, and is a symbol of the Orcish philosphy of strength and power. This weapon has a 6-foot long haft with a large axe head on each end. While it can be extremely difficult to wield, those proficient with it exude extreme power and finesse. It is often rare to see this weapon on the battlefield as it is most commonly used in duels between Orc leaders."
 								},
@@ -20095,6 +20112,15 @@
 									"type": "item",
 									"name": "{@item Granite Fists|XPHB} {@i Cultural (Dwarven)}",
 									"entry": "These Granite Fists are a brutal pair of gauntlet-like designed weapons. Weighing 10 lbs per individual fist, these are made to break bones. These stone weapons are shapes to look like giant fists with an iron bar inside for the wielder to grip. They are frequently sold in pairs, however, it is not uncommon to see someone weilding only one. There are many variations of these fists within the Dwarven community, which includes spiked knuckles, iron rings, and more."
+								},
+								{
+									"type": "item",
+									"name": "{@item Halfling Skiprocks|XPHB} {@i Cultural (Smallfolk)}",
+									"entries": [
+										"Halfling Skiprocks, also known as Skiprocks, were specially made, polished stone projectiles invented by Halfling weaponsmiths and became prized by members of various Smallfolk communities. Skiprocks were finely weighted and shaped to ensure they were perfect for throwing. If thrown well enough, after hitting a target they would typically ricochet and hit another, taking inspiration from river pebbles.",
+										"Halfling Skiprocks are sold in packs of 20. While they can be used as Ammunition for {@item Sling|XPHB|Slings}, they do not benefit from its Ricochet property."
+										"{@b {@i Special: Ricochet.}} When you hit a target with this weapon by throwing it, it will ricochet back to you. If you rolled an 18 or higher on the attack die, you can choose to have it return to you or it can ricochet to another target within 5 feet of its first target. Make another attack roll for the second target. On a hit, the skiprock will ricochet back to you. You do not add your ability modifier to the damage roll of the second target, unless the modifier is negative."
+									]
 								},
 								{
 									"type": "item",
@@ -20108,11 +20134,6 @@
 									"type": "item",
 									"name": "{@item Hokur Ball|XPHB}",
 									"entry": "The Hokur Ball is a small ball of dense iron, or stone, that was initially used in Orcish games of athleticism, very much like Shotput. Sometimes during fights and battles, when weapons have been destroyed, Orc communities are known for their use of improvised weapons, which led to some Orcish Athletes turned Warriors using their Hokur Ball as a weapon, with devastating effects on their victims. The Hokur Ball can be made out of various materials, however, it is always in the shape of a smooth sphere. Those who are proficient with a Hokur Ball can also find various stones of its similar weight can throw them proficiently as well."
-								},
-								{
-									"type": "item",
-									"name": "{@item Hooked Hammer|XPHB}",
-									"entry": "A Hooked Hammer, also known as the Gnome Hooked Hammer, is a Double weapon that was created by the Gnome community. They have relatively short shafts, with a hammer on one end and a sharp-pointed hook (curved only slightly more than a pickaxe) on the other."
 								},
 								{
 									"type": "item",
