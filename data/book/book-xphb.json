@@ -9591,7 +9591,7 @@
 									"row": [
 										"{@item Composite Bow|XPHB}",
 										"{@dice 1d10} Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 200/600; Arrow), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemProperty A|XPHB|Ammunition} (Range 200/600; Arrow), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
 										"{@itemMastery Slow}",
 										"4 lb.",
 										"100 GP"
@@ -9979,7 +9979,7 @@
 									"page": 214,
 									"id": "663",
 									"entries": [
-										"A Strangulation weapon is a {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} weapon that chokes the target, as long as you maintain the attack. The target does not need to have the {@status Surprised|XPHB} condition in order for this weapon to work properly, however, they cannot be aware of your intent to strangle, or risk anticipated preparation.",
+										"A Strangulation weapon is a {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} weapon that chokes the target, as long as you maintain the attack. The target does not need to have the {@status Surprised|XPHB} condition in order for this weapon to work properly, however, they cannot be aware of your intent to strangle, or risk anticipated preparation. If this property is on a {@itemProperty GP|XPHB|Grappling} weapon, the target has {@variantrule Disadvantage|XPHB} on attack rolls against you while grappled by the weapon.",
 										"The first time the target fails its {@variantrule Saving Throw|XPHB} against the {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} and it fails use its next turn to successfully escape, it gains 1 round of {@hazard Suffocation|XPHB}, with each subsequent round counted at the end of your turn, as long as you use your {@variantrule Action|XPHB} to maintain your attack. When you maintain your attack, you can also apply its mastery property, if applicable.",
 										"A creature that suffers a number of consecutive rounds of suffocation equal to its Constitution modifier + 1 (minimum of 2 rounds), drops to 0 {@variantrule Hit Points|XPHB} and is dying. It can't regain {@variantrule Hit Points|XPHB} or be {@variantrule Stable|XPHB|Stabilized} until it can breathe again."
 									]
@@ -10022,6 +10022,15 @@
 								},
 								{
 									"type": "entries",
+									"name": "Flourish",
+									"page": 214,
+									"id": "666",
+									"entries": [
+										"{@i Buff.} This weapon is in constant motion. While you wield this weapon, you gain a +1 bonus to your {@variantrule Armor Class|XPHB}. If you are targeted with a {@variantrule Weapon Attack|XPHB} and it hits, you can use your {@variantrule Reaction|XPHB} to take only half damage."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Graze",
 									"page": 214,
 									"id": "64f",
@@ -10042,7 +10051,7 @@
 									"type": "entries",
 									"name": "Pin",
 									"page": 214,
-									"id": "666",
+									"id": "667",
 									"entries": [
 										"{@i Maneuver.} When you make an attack roll with this weapon and hit a Large or smaller creature, you can attempt to pin them to a nearby (5 feet) surface. On a hit, the target must make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice), The DC is {@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your Attack Modifier. On a failed save, the target is pinned, via {@condition Restrained|XPHB} condition, until the weapon is removed. The target can use an {@variantrule Action|XPHB} on their turn to attempt to remove the weapon."
 									]
@@ -20085,7 +20094,11 @@
 								{
 									"type": "item",
 									"name": "{@item Composite Bow|XPHB}",
-									"entry": "The Composite Bow has a unique construction that gives it an incredibly heavy draw while often with an overall size between the Longbow and the Shortbow. This bow has the farthest normal range of any other bow, however due to that Strength-based draw, its long range is only twice its normal range instead of the usual three to four times that length."
+									"entries": [
+										"The Composite Bow has a unique construction that gives it an incredibly heavy draw while often with an overall size between the Longbow and the Shortbow. This bow has the farthest normal range of any other bow, however due to that Strength-based draw, its long range is only twice its normal range instead of the usual three to four times that length.",
+										"{@i This is a Strongbow, meaning that it uses Strength as its Attack and Damage ability, even though it is a Ranged weapon.}",
+										"{@b {@i Special: Deadly Shot}} As an {@variantrule Action|XPHB}, you can make a single ranged {@variantrule Weapon Attack|XPHB} against a target within range. On a hit, the target takes max damage."
+									]
 								},
 								{
 									"type": "item",

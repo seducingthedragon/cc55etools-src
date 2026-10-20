@@ -1943,7 +1943,8 @@
 			"property": [
 				"A|XPHB",
 				"H|XPHB",
-				"2H|XPHB"
+				"2H|XPHB",
+				"S|XPHB"
 			],
 			"mastery": [
 				"Slow|XPHB"
@@ -1955,11 +1956,12 @@
 			"weapon": true,
 			"ammoType": "arrow|xphb",
 			"entries": [
+				"{@i This is a Strongbow, meaning that it uses Strength as its Attack and Damage ability, even though it is a Ranged weapon.}",
 				{
 					"type": "entries",
-					"name": "Strongbow",
+					"name": "Special: Deadly Shot",
 					"entries": [
-						"This ranged weapon uses Strength as its Attack and Damage ability, instead of the usual Dexterity."
+						"As an {@variantrule Action|XPHB}, you can make a single ranged {@variantrule Weapon Attack|XPHB} against a target within range. On a hit, the target takes max damage."
 					]
 				}
 			],
@@ -9282,7 +9284,7 @@
 					"type": "entries",
 					"name": "Strangulation",
 					"entries": [
-						"A Strangulation weapon is a {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} weapon that chokes the target, as long as you maintain the attack. The target does not need to have the {@status Surprised|XPHB} condition in order for this weapon to work properly, however, they cannot be aware of your intent to strangle, or risk anticipated preparation.",
+						"A Strangulation weapon is a {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} weapon that chokes the target, as long as you maintain the attack. The target does not need to have the {@status Surprised|XPHB} condition in order for this weapon to work properly, however, they cannot be aware of your intent to strangle, or risk anticipated preparation. If this property is on a {@itemProperty GP|XPHB|Grappling} weapon, the target has {@variantrule Disadvantage|XPHB} on attack rolls against you while grappled by the weapon.",
 						"The first time the target fails its {@variantrule Saving Throw|XPHB} against the {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} and it fails use its next turn to successfully escape, it gains 1 round of {@hazard Suffocation|XPHB}, with each subsequent round counted at the end of your turn, as long as you use your {@variantrule Action|XPHB} to maintain your attack. When you maintain your attack, you can also apply its mastery property, if applicable.",
 						"A creature that suffers a number of consecutive rounds of suffocation equal to its Constitution modifier + 1 (minimum of 2 rounds), drops to 0 {@variantrule Hit Points|XPHB} and is dying. It can't regain {@variantrule Hit Points|XPHB} or be {@variantrule Stable|XPHB|Stabilized} until it can breathe again."
 					]
@@ -10616,6 +10618,16 @@
 			"basicRules2024": true,
 			"entries": [
 				"{@i Maneuver.} When a creature attacks you with a weapon, you can use your {@variantrule Reaction|XPHB} to \"catch\" and disarm your opponent. Make a {@variantrule Weapon Attack|XPHB} roll with this weapon. If your attack meets or exceeds your opponent's attack, their attack misses and must succeed on a Strength {@variantrule Saving Throw|XPHB} or drop their weapon. The DC is {@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your Attack modifier."
+			]
+		},
+		{
+			"name": "Flourish",
+			"source": "XPHB",
+			"page": 214,
+			"srd52": true,
+			"basicRules2024": true,
+			"entries": [
+				"{@i Buff.} This weapon is in constant motion. While you wield this weapon, you gain a +1 bonus to your {@variantrule Armor Class|XPHB}. If you are targeted with a {@variantrule Weapon Attack|XPHB} and it hits, you can use your {@variantrule Reaction|XPHB} to take only half damage."
 			]
 		},
 		{
