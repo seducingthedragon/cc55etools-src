@@ -3141,7 +3141,8 @@
 			"weaponCategory": "martial",
 			"property": [
 				"H|XPHB",
-				"2H|XPHB"
+				"2H|XPHB",
+				"S|XPHB"
 			],
 			"mastery": [
 				"Graze|XPHB"
@@ -3150,6 +3151,15 @@
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Grinding Halt Reaction",
+					"entries": [
+						"Whenever you make a Strength {@variantrule Saving Throw|XPHB} to avoid being moved against your will, you can use your {@variantrule Reaction|XPHB} to dig the Greatsword's blade into the ground in order to avoid being moved. Roll {@dice 1d6} and add the number to your Saving Throw total, as you hold on to your anchored Greatsword. If you fail, succeed, or there is no saving throw, you move 5 feel less than expected, if you move at all."
+					]
+				}
+			],
 			"hasFluffImages": true
 		},
 		{
@@ -10585,7 +10595,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"{@i Maneuver.} If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn."
+				"{@i Maneuver.} If you target a creature with this weapon for an attack and there is another creature within 5 feet of your target and in range of your weapon, you can make one {@action Attack} roll apply to both targets. On a hit, you roll for each target individually. The first target (your choice), takes the normal damage (with your ability modifier included) while the second target does not gain your ability modifier on the damage roll, unless it is negative. You can make this extra attack only once per turn."
 			]
 		},
 		{
@@ -10645,7 +10655,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"{@i Maneuver.} If you hit a creature with this weapon, you can immediately push the creature up to 10 feet straight away from yourself if it is Large or smaller."
+				"{@i Maneuver.} If you hit a creature with this weapon, you deal weapon damage and can immediately push the creature up to 10 feet straight away from yourself if it is Large or smaller. If this weapon is a {@itemProperty P|XPHB|Polearm} weapon or a weapon with a long haft, you can use your {@variantrule Action|XPHB} to target two creatures within 5 feet of eachother with a single Attack roll. On a hit, the target is pushed up to 10 feet straight away from you but you do not deal damage."
 			]
 		},
 		{
