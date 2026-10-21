@@ -68,7 +68,7 @@
 			"name": "Agrogash",
 			"source": "XPHB",
 			"entries": [
-				"The Agrogash, which translates to {@i \"wrath-pulling blade\"}, is commonly known as the Hook-Bearded Axe. It is known for its serrated hook at the bottom of the axe-head, which allows the weapon to have a further reach than what it appears it should be. It is often viewed as the lightest and smallest weapon used by Orcs as they may wield it along side a shortsword, even though it typically has the size of a standard {@item Battleaxe|XPHB}."
+				"{@i The Agrogash, (\"wrath-pulling axe\" in Orcish), is commonly known as the Hook-Bearded Axe. This double-headed Battleaxe has a serrated \"hook\" at the bottom of its axeheads, for devastating effects.}"
 			]
 		},
 		{
@@ -1164,14 +1164,14 @@
 			"name": "Bolas",
 			"source": "XPHB",
 			"entries": [
-				"Bolas consist of three round weights at the end of three cords or ropes, tied together at their tails. This thrown weapon is designed to entangle the limbs of foes it hits. This weapon can be reskinned as a {@b Lasso}, maintaining the same proficiency and weapon properties, however it would lose its Bludgeoning damage."
+				"{@i Bolas consist of three round weights at the end of three cords or ropes, tied together at their tails. This thrown weapon is designed to entangle the limbs of foes it hits.}"
 			]
 		},
 		{
 			"name": "Bologorash",
 			"source": "XPHB",
 			"entries": [
-				"The Bologorash, {@i meaning \"flesh-rending flying blade\"}, or more commonly known as the Chained Throwing Axe, is a wicked, serrated throwing axe attached to a length of chain. It is usually 30 feet long, however, it can be extended to a maximum chain length of 60 feet."
+				"{@i The Bologorash, (\"flesh-rending flying blade\" in Orcish), or more commonly known as the Chained Throwing Axe, is a wicked, serrated throwing axe attached to a length of chain. It is usually 30 feet long, however, it can be extended to a maximum chain length of 60 feet. This weapon can be impossible to be disarmed, while holding the chain in your off-hand and the axe is your main hand, which also counts for its {@itemProperty 2H|XPHB|Two-Handed} property.}"
 			]
 		},
 		{
@@ -1247,7 +1247,7 @@
 			"name": "Boomerang",
 			"source": "XPHB",
 			"entries": [
-				"A Boomerang, while categorized as a specialized weapon, is considered a simple weapon throughout various communities located in plains-like environments that emphasize the use of nature within its builds than those of brick-and-mortar towns."
+				"{@i A Boomerang, while categorized as a specialized weapon, is viewed as a simple weapon throughout various communities located in plains-like environments that emphasize the use of nature within its builds than those of brick-and-mortar towns.}"
 			]
 		},
 		{
@@ -4838,14 +4838,14 @@
 			"name": "Gorgash",
 			"source": "XPHB",
 			"entries": [
-				"The Gorgash, which translates to {@i \"blood-shower blade\"}, is commonly known as the Double-Headed Battleaxe, and is a symbol of the Orcish philosphy of strength and power. This weapon has a 6-foot long haft with a large axe head on each end. While it can be extremely difficult to wield, those proficient with it exude extreme power and finesse. It is often rare to see this weapon on the battlefield as it is most commonly used in duels between Orc leaders."
+				"{@i The Gorgash (\"blood-shower blade\" in Orcish), is commonly known as the Double-Headed Battleaxe, and is a symbol of the Orcish philosphy of strength and power. This weapon has a 6-foot long haft with a large axe head (or double axe head), on each end. While it can be extremely difficult to wield, those proficient with it exude extreme power and finesse. It is often rare to see this weapon on the battlefield as it is most commonly used in duels between Orc leaders.}"
 			]
 		},
 		{
 			"name": "Granite Fists",
 			"source": "XPHB",
 			"entries": [
-				"These Granite Fists are a brutal pair of gauntlet-like designed weapons. Weighing 10 lbs per individual fist, these are made to break bones. These stone weapons are shapes to look like giant fists with an iron bar inside for the wielder to grip. They are frequently sold in pairs, however, it is not uncommon to see someone weilding only one. There are many variations of these fists within the Dwarven community, which includes spiked knuckles, iron rings, and more."
+				"{@i These Granite Fists are a brutal pair of gauntlet-like designed weapons from the Dwarven community. Weighing at 10 lbs per individual fist, these are made to break bones and crush armor. Shaped to look like giant fists, each one comes with an iron bar inside for the wielder to grip. They are frequently sold in pairs, however, it is not uncommon to see someone weilding only one fist in a fight. Difficult communities and clans have variations on these fists, including some made out of metal, has sharp spikes on the knuckles, decorative yet brutal iron rings, and more.}"
 			]
 		},
 		{
@@ -5819,7 +5819,7 @@
 			"name": "Hurled Colpik",
 			"source": "XPHB",
 			"entries": [
-				"At first glance, this Dwarven weapon resembles nothing more than a tiny pickaxe with a very long handle. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor."
+				"This weapon resembles nothing more than a pickaxe with a long haft. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor before expanding to be used for anyone who wishes to have a weapon of multiple uses."
 			]
 		},
 		{
@@ -8047,8 +8047,7 @@
 			"name": "Multi-Saber",
 			"source": "XPHB",
 			"entries": [
-				"Some say that the Double-Bladed Scimitar walked so that the Multi-Saber could run, and the Elven Warriors of recent times would agree. What makes the Multi-Saber different and a preference for the famed Elven Warriors of the land is that its split form makes it easier to travel with as it takes the size of two Scimitars instead of a long polearm of blades. There is no difference in either blade and its joined haft is longer. All of these factors lead to the Multi-Saber to become a highly desired weapon to learn to wield over the Double-Bladed Scimitar."
-				
+				"{@i What makes the Multi-Saber different from a Dual Scimitar is that its split form makes it easier to travel with, there's no size difference between the two blades, and a longer haft whhen joined together. All of these factors lead to the Multi-Saber to become a highly desired weapon to learn to wield over the Dual Scimitar.}"
 			]
 		},
 		{

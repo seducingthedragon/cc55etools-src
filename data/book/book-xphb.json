@@ -9271,9 +9271,9 @@
 									"style": "row-indent-first",
 									"row": [
 										"{@item Agrogash|XPHB} {@i Cultural (Orcish)}",
-										"{@dice 1d6} Slashing",
-										"{@itemProperty L|XPHB|Light}, {@itemProperty R|XPHB|Reach}, Special",
-										"{@itemMastery Slow}",
+										"{@dice 1d8} Slashing",
+										"{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+										"{@itemMastery Chuck}, {@itemMastery Sap}",
 										"4 lb.",
 										"12 GP"
 									]
@@ -9296,8 +9296,8 @@
 									"row": [
 										"{@item Bologorash|XPHB} {@i Cultural (Orcish)}",
 										"{@dice 1d6} Slashing",
-										"{@itemProperty TP|XPHB|Thrown (Partial)} (Range 20/60), {@itemProperty 2H|XPHB|Two-Handed}, Special",
-										"{@itemMastery Sap}",
+										"{@itemProperty TP|XPHB|Thrown (Partial)} (Range 20/60), {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Hooked}, {@itemMastery Slow}",
 										"4 lb.",
 										"25 GP"
 									]
@@ -9393,7 +9393,7 @@
 										"{@item Gorgash|XPHB} {@i Cultural (Orcish}",
 										"{@dice 1d8} Slashing",
 										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6}), {@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty VH|XPHB|Very Heavy}",
-										"{@itemMastery Cleave}",
+										"{@itemMastery Burst}, {@itemMastery Topple}",
 										"15 lb.",
 										"50 GP"
 									]
@@ -9405,7 +9405,7 @@
 										"{@item Granite Fists|XPHB} {@i Cultural (Dwarven)}",
 										"{@dice 2d6} Bludgeoning",
 										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6}), {@itemProperty H|XPHB|Heavy}, {@itemProperty UA|XPHB|\"Unarmed\"}, Special",
-										"{@itemMastery Crush}, {@itemMastery Sap}",
+										"{@itemMastery Crush}, {@itemMastery Slow}",
 										"10 lb.",
 										"50 GP"
 									]
@@ -9428,8 +9428,8 @@
 									"row": [
 										"{@item Hurled Colpik|XPHB} {@i Cultural (Dwarven)}",
 										"{@dice 1d4} Piercing",
-										"{@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
-										"{@itemMastery Sap}",
+										"{@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} (@dice 1d6)",
+										"{@itemMastery Bludgeon}, {@itemMastery Topple}",
 										"2 lb.",
 										"3 GP"
 									]
@@ -9464,8 +9464,8 @@
 									"row": [
 										"{@item Multi-Saber|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
-										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty 2F|XPHB|Two Forms}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
-										"{@itemMastery Vex}",
+										"{@itemProperty 2F|XPHB|Two Forms}, {@itemProperty FL|XPHB|Flourish}, {@itemProperty DM|XPHB|Double: Melee} ({@dice 1d6}), {@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
+										"{@itemMastery Shield}, {@itemMastery Vex}",
 										"6 lb.",
 										"200 GP"
 									]
@@ -9568,7 +9568,7 @@
 										"{@item Bolas|XPHB}",
 										"{@dice 1d4} Bludgeoning",
 										"{@itemProperty GP|XPHB|Grappling}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty TP|XPHB|Thrown (Partial)} (Range 20/60), Special",
-										"{@itemMastery Topple}",
+										"{@itemMastery Sap}, {@itemMastery Wing-Wrapped}",
 										"2 lb.",
 										"5 CP"
 									]
@@ -9580,7 +9580,7 @@
 										"{@item Boomerang|XPHB}",
 										"{@dice 1d6} Bludgeoning",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 100/400), Special",
-										"{@itemMastery Sap}",
+										"{@itemMastery Sap}, {@itemMastery Windsweep}",
 										"2 lb.",
 										"5 GP"
 									]
@@ -9743,7 +9743,7 @@
 								{
 									"type": "entries",
 									"name": "\"Unarmed\"",
-									"page": 214,
+									"page": 215,
 									"id": "634",
 									"entries": [
 										"An \"Unarmed\" weapon is typically a weapon that is worn, yet still requires you to grip part of the weapon itself. You can wield this weapon and use any {@variantrule Unarmed Attack|XPHB} option, unless specified. Making an {@action Attack|XPHB|Unarmed Strike Attack} while wielding this weapon uses the weapon's damage instead of the normal {@action Attack|XPHB|Unarmed Strike damage}."
@@ -9810,6 +9810,15 @@
 								},
 								{
 									"type": "entries",
+									"name": "Flourish",
+									"page": 213,
+									"id": "666",
+									"entries": [
+										"While you wield this weapon, you gain a +1 bonus to your {@variantrule Armor Class|XPHB} while not in motion. If you are targeted with a {@variantrule Weapon Attack|XPHB} and it hits, you can use your {@variantrule Reaction|XPHB} to take only half damage."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Grappling",
 									"page": 213,
 									"id": "63a",
@@ -9848,7 +9857,7 @@
 								{
 									"type": "entries",
 									"name": "Loading",
-									"page": 214,
+									"page": 215,
 									"id": "647",
 									"entries": [
 										"A Loading weapon is a Ranged weapon that requires you to load ammunition before you make an attack roll. You can fire only one piece of ammunition from a Loading weapon when you use an {@variantrule Action|XPHB}, a {@variantrule Bonus Action|XPHB}, or a {@variantrule Reaction|XPHB} to fire it, regardless of the number of attacks you can normally make. Loading ammunition uses your {@variantrule Bonus Action|XPHB}."
@@ -9857,7 +9866,7 @@
 								{
 									"type": "entries",
 									"name": "Polearm",
-									"page": 214,
+									"page": 215,
 									"id": "632",
 									"entries": [
 										"A Polearm weapon is typically a weapon with a long shaft that may or may not have a blade at the end of one side. The purpose of this property is to label which weapons are benefitted by the {@feat Polearm Master|XPHB} feat."
@@ -9866,7 +9875,7 @@
 								{
 									"type": "entries",
 									"name": "Reach",
-									"page": 214,
+									"page": 215,
 									"id": "649",
 									"entries": [
 										"A Reach weapon is a melee weapon that adds 5 feet to your reach when you attack with it. This reach is also used for your {@action Opportunity Attack|XPHB|Opportunity Attacks} with it."
@@ -9875,7 +9884,7 @@
 								{
 									"type": "entries",
 									"name": "Reload",
-									"page": 214,
+									"page": 215,
 									"id": "633",
 									"entries": [
 										"A Reload weapon allows you to make a limited number of {@action Attack|XPHB|Attacks} before ammunition must be reloaded. This is often done with mechanized parts that automatically loads another piece of ammunition for you from a secondary storage unit attached to the weapon. Once you make a number of attacks equal to the number listed with this weapon property, you must spend an entire turn in order to refill all ammunition. Reloading a single piece of ammunition takes a {@variantrule Bonus Action|XPHB}."
@@ -9884,7 +9893,7 @@
 								{
 									"type": "entries",
 									"name": "Restraining",
-									"page": 214,
+									"page": 215,
 									"id": "648",
 									"entries": [
 										"A Restraining weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Restrained|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice). If this weapon deals damage, it will only deal damage on a failed save, unless it also has the {@itemProperty O|XPHB|Ongoing} property Huge and larger creatures, and formless creatures, automatically succeed on the save, unless specified. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
@@ -9893,7 +9902,7 @@
 								{
 									"type": "entries",
 									"name": "Thrown",
-									"page": 214,
+									"page": 215,
 									"id": "64a",
 									"entries": [
 										"A Thrown weapon is a melee or ranged weapon that you throw in order to make a ranged attack. The range of this weapon, listed next to this property, describes its normal range, followed by its long-distance range. Making an attack within this weapon's long-distance range is made with disadvantage. This weapon cannot target a creature beyond its long-distance range. You can draw that weapon as part of the attack, however you must retrieve it before you can attack with it again. If you throw a melee weapon, you use your melee Ability modifier for your attack and damage rolls."
@@ -9902,7 +9911,7 @@
 								{
 									"type": "entries",
 									"name": "Thrown (Partial)",
-									"page": 214,
+									"page": 215,
 									"id": "635",
 									"entries": [
 										"A Thrown (Partial) weapon is a {@itemProperty T|XPHB|Thrown} weapon that is attached to a chain, rope, or other similar material that remains in your hand. All Thrown (Partial) weapons are considered {@itemProperty V|XPHB|Versatile}, in the idea that you can wield it one-handed or with two, however you do not gain the damage change benefit. If this is a Melee weapon, and you want to make a Melee {@variantrule Weapon Attack|XPHB}, you must wield it as a {@itemProperty 2H|XPHB|Two-Handed}, unless it has the {@itemProperty L|XPHB|Light} property.",
@@ -9912,16 +9921,16 @@
 								{
 									"type": "entries",
 									"name": "Two Forms",
-									"page": 214,
+									"page": 215,
 									"id": "638",
 									"entries": [
-										"This weapon can change its form. A weapon with two forms does not have all of its listed weapon properties all the time. See the weapon's specific details for confirmation on which weapon properties are related to which form. Typically, a weapon with two forms can be separated from one weapon into two. Splitting a weapon takes a {@action Free Object Interaction|XPHB} while rejoining them takes a {@variantrule Bonus Action|XPHB}. If a two-formed weapon does not follow this general rule, it will be specified."
+										"This weapon can change its form. A weapon with two forms may not have all of its listed weapon properties all the time. See the weapon's specific details for confirmation on which weapon properties are related to which form. Most commonly, a weapon with two forms can be separated from one weapon into two. Splitting a weapon takes a {@action Free Object Interaction|XPHB} while rejoining them takes a {@variantrule Bonus Action|XPHB}. If a two-formed weapon does not follow this general rule, it will be specified with its paired properties."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Two-Handed",
-									"page": 214,
+									"page": 215,
 									"id": "64b",
 									"entries": [
 										"A Two-Handed weapon requires two hands when you attack with it."
@@ -9930,7 +9939,7 @@
 								{
 									"type": "entries",
 									"name": "Versatile",
-									"page": 214,
+									"page": 215,
 									"id": "64c",
 									"entries": [
 										"A Versatile weapon is a melee weapon that can be used with one or two hands. A damage value in parentheses appears with the property is the damage used when making a melee attack with two hands."
@@ -9939,7 +9948,7 @@
 								{
 									"type": "entries",
 									"name": "Very Heavy",
-									"page": 214,
+									"page": 215,
 									"id": "637",
 									"entries": [
 										"You have {@variantrule Disadvantage|XPHB} on attack rolls with a Very Heavy weapon if your attack ability score isn't at least a 15."
@@ -9950,14 +9959,14 @@
 						{
 							"type": "entries",
 							"name": "Secondary Properties",
-							"page": 214,
+							"page": 215,
 							"id": "660",
 							"entries": [
 								"Seconary Properties are weapon properties that are only applicable when another weapon property is present and they are listed with all weapon properties.",
 								{
 									"type": "entries",
 									"name": "Misfire",
-									"page": 214,
+									"page": 215,
 									"id": "639",
 									"entries": [
 										"Ranged {@itemProperty RLX|XPHB|Reload} weapons have a chance for Misfiring. When you make your {@action Attack|XPHB} roll and your {@variantrule Attack Roll|XPHB|Die Roll} is equal to half of the number listed next to the weapon's {@itemProperty RLX|XPHB|Reload} property.",
@@ -9967,7 +9976,7 @@
 								{
 									"type": "entries",
 									"name": "Ongoing",
-									"page": 214,
+									"page": 215,
 									"id": "63b",
 									"entries": [
 										"An Ongoing weapon is a {@itemProperty GP|XPHB|Grappling} weapon or a {@itemProperty RST|XPHB|Restraining} weapon that deals damage at the start of the target's turn, so long as they are still contained by the weapon. The damage value will be listed in parentheses next to this property."
@@ -9976,7 +9985,7 @@
 								{
 									"type": "entries",
 									"name": "Strangulation",
-									"page": 214,
+									"page": 215,
 									"id": "663",
 									"entries": [
 										"A Strangulation weapon is a {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} weapon that chokes the target, as long as you maintain the attack. The target does not need to have the {@status Surprised|XPHB} condition in order for this weapon to work properly, however, they cannot be aware of your intent to strangle, or risk anticipated preparation. If this property is on a {@itemProperty GP|XPHB|Grappling} weapon, the target has {@variantrule Disadvantage|XPHB} on attack rolls against you while grappled by the weapon.",
@@ -9989,14 +9998,23 @@
 						{
 							"type": "entries",
 							"name": "Mastery Properties",
-							"page": 214,
+							"page": 216,
 							"id": "64d",
 							"entries": [
-								"Each weapon has at least one mastery property, which is usable only by a character who has a feature, or feat, that unlocks the property for the character. There are different categories of Mastery properperties. A {@b Buff} property is a benefit or a boost gained by this weapon that occurs automatically and can be used any amount of times per turn, as long as it meets any requirements provided in its description. A {@b Maneuver} property relates to how you use with the weapon itself and, more often than not, can only be used once per turn. Additionally, you can only use one Mastery property at a time, even if a weapon has more than one. The properties are defined below.",
+								"Each weapon has, at least, one mastery property, which is usable only by a character who has a feature, or feat, that unlocks the property for the character. There are different categories of Mastery properties. A {@b Buff} property is a benefit or a boost gained by this weapon that occurs automatically and can be used any amount of times per turn, as long as it meets any requirements provided in its description. A {@b Maneuver} property relates to how you use with the weapon itself and, more often than not, can only be used once per turn. Most properties are defined below, however, if a Mastery property is not listed below, it will be found in the weapon's extra information in {@book Appendix D|XPHB|11}.",
+								{
+									"type": "entries",
+									"name": "Burst",
+									"page": 216,
+									"id": "66a",
+									"entries": [
+										"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can force all adjacent creatures to make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your weapon's Ability modifier). On a failed save, a target takes the weapon's damage plus your {@variantrule Proficiency Bonus|XPHB}. On a save, a target takes half damage."
+									]
+								},
 								{
 									"type": "entries",
 									"name": "Cleave",
-									"page": 214,
+									"page": 216,
 									"id": "64e",
 									"entries": [
 										"{@i Maneuver.} If you target a creature with this weapon for an attack and there is another creature within 5 feet of your target and in range of your weapon, you can make one {@action Attack} roll apply to both targets. On a hit, you roll for each target individually. The first target (your choice), takes the normal damage (with your ability modifier included) while the second target does not gain your ability modifier on the damage roll, unless it is negative. You can make this extra attack only once per turn."
@@ -10005,7 +10023,7 @@
 								{
 									"type": "entries",
 									"name": "Crush",
-									"page": 214,
+									"page": 216,
 									"id": "661",
 									"entries": [
 										"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make a single {@variantrule Weapon Attack|XPHB} roll against an armored or naturally armored creature. If the attack hits, the target's AC is permanently reduced by 1 until its armor is repaired. It cannot be reduced below 10 plus the target's Dexterity modifier. This attack has no effect on creatures with magical armor unless this weapon is also magical."
@@ -10014,7 +10032,7 @@
 								{
 									"type": "entries",
 									"name": "Disarm",
-									"page": 214,
+									"page": 216,
 									"id": "664",
 									"entries": [
 										"{@i Maneuver.} When a creature attacks you with a weapon, you can use your {@variantrule Reaction|XPHB} to \"catch\" and disarm your opponent. Make a {@variantrule Weapon Attack|XPHB} roll with this weapon. If your attack meets or exceeds your opponent's attack, their attack misses and must succeed on a Strength {@variantrule Saving Throw|XPHB} or drop their weapon. The DC is {@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your Attack modifier."
@@ -10022,17 +10040,8 @@
 								},
 								{
 									"type": "entries",
-									"name": "Flourish",
-									"page": 214,
-									"id": "666",
-									"entries": [
-										"{@i Buff.} This weapon is in constant motion. While you wield this weapon, you gain a +1 bonus to your {@variantrule Armor Class|XPHB}. If you are targeted with a {@variantrule Weapon Attack|XPHB} and it hits, you can use your {@variantrule Reaction|XPHB} to take only half damage."
-									]
-								},
-								{
-									"type": "entries",
 									"name": "Graze",
-									"page": 214,
+									"page": 216,
 									"id": "64f",
 									"entries": [
 										"{@i Buff.} If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier."
@@ -10041,7 +10050,7 @@
 								{
 									"type": "entries",
 									"name": "Nick",
-									"page": 214,
+									"page": 216,
 									"id": "650",
 									"entries": [
 										"{@i Maneuver.} This property only works on {@itemProperty L|XPHB|Light} weapons and regarding its off-hand extra attack benefit with {@action Two-Weapon Fighting}. You can make this extra attack as part of the {@action Attack|XPHB} action instead of as a {@variantrule Bonus Action|XPHB}. You can make this extra attack only once per turn."
@@ -10050,7 +10059,7 @@
 								{
 									"type": "entries",
 									"name": "Pin",
-									"page": 214,
+									"page": 216,
 									"id": "667",
 									"entries": [
 										"{@i Maneuver.} When you make an attack roll with this weapon and hit a Large or smaller creature, you can attempt to pin them to a nearby (5 feet) surface. On a hit, the target must make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice), The DC is {@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your Attack Modifier. On a failed save, the target is pinned, via {@condition Restrained|XPHB} condition, until the weapon is removed. The target can use an {@variantrule Action|XPHB} on their turn to attempt to remove the weapon."
@@ -10059,7 +10068,7 @@
 								{
 									"type": "entries",
 									"name": "Push",
-									"page": 214,
+									"page": 216,
 									"id": "651",
 									"entries": [
 										"{@i Maneuver.} If you hit a creature with this weapon, you deal weapon damage and can immediately push the creature up to 10 feet straight away from yourself if it is Large or smaller. If this weapon is a {@itemProperty P|XPHB|Polearm} weapon or a weapon with a long haft, you can use your {@variantrule Action|XPHB} to target two creatures within 5 feet of eachother with a single Attack roll. On a hit, the target is pushed up to 10 feet straight away from you but you do not deal damage."
@@ -10068,7 +10077,7 @@
 								{
 									"type": "entries",
 									"name": "Sap",
-									"page": 214,
+									"page": 216,
 									"id": "652",
 									"entries": [
 										"{@i Buff.} If you hit a creature with this weapon, that creature has {@variantrule Disadvantage|XPHB} on its next attack roll before the start of your next turn."
@@ -10077,7 +10086,7 @@
 								{
 									"type": "entries",
 									"name": "Slow",
-									"page": 214,
+									"page": 216,
 									"id": "653",
 									"entries": [
 										"{@i Buff.} If you hit a creature with this weapon and deal damage to it, you can reduce its {@variantrule Speed|XPHB} by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the {@variantrule Speed|XPHB} reduction doesn't exceed 10 feet."
@@ -10086,7 +10095,7 @@
 								{
 									"type": "entries",
 									"name": "Topple",
-									"page": 214,
+									"page": 216,
 									"id": "654",
 									"entries": [
 										"{@i Maneuver.} If you hit a creature with this weapon, you can force the creature to make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice). The DC is {@dc 8} plus your Proficiency Bonus and your Attack modifier. On a failed save, the creature has the {@condition Prone|XPHB} condition."
@@ -10095,7 +10104,7 @@
 								{
 									"type": "entries",
 									"name": "Vex",
-									"page": 214,
+									"page": 216,
 									"id": "655",
 									"entries": [
 										"{@i Buff.} If you hit a creature with this weapon and deal damage to the creature, you have {@variantrule Advantage|XPHB} on your next attack roll against that creature before the end of your next turn."
@@ -10110,6 +10119,51 @@
 									"basicRules2024": true
 								}
 							}
+						},
+						{
+							"type": "section",
+							"name": "Bonus Mastery Properties",
+							"page": 216,
+							"id": "750",
+							"entries": [
+								"These bonus mastery properties operate exactly like the ones above, however these are unique because they are only found on one weapon or a very specific type of weapon.",
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Bludgeon",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Chuck",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Hooked",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Shield",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Windsweep",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Wing-Wrapped",
+									"style": "inset"
+								}
+							]
 						}
 					]
 				},
@@ -20006,10 +20060,7 @@
 								{
 									"type": "item",
 									"name": "{@item Agrogash|XPHB} {@i Cultural (Orcish)}",
-									"entries": [
-										"The Agrogash, which translates to {@i (\"wrath-pulling blade\")}, is commonly known as the Hook-Bearded Axe. It is known for its serrated hook at the bottom of the axe-head, which allows the weapon to have a further reach than what it appears it should be. It is often viewed as the lightest and smallest weapon used by Orcs as they may wield it along side a shortsword, even though it typically has the size of a standard {@item Battleaxe|XPHB}.",
-										"{@b {@i Special: Revised Light.}} In order to use this weapon's {@itemProperty L|XPHB|Light} property, you need a Strength score of, at least, a 13."
-									]
+									"entry": "{@i The Agrogash, (\"wrath-pulling axe\" in Orcish), is commonly known as the Hook-Bearded Axe. This double-headed Battleaxe has a serrated \"hook\" at the bottom of its axeheads, for devastating effects.}"
 								},
 								{
 									"type": "item",
@@ -20035,7 +20086,7 @@
 									"type": "item",
 									"name": "{@item Bolas|XPHB}",
 									"entries": [
-										"Bolas consist of three round weights at the end of three cords or ropes, tied together at their tails. This thrown weapon is designed to entangle the limbs of foes it hits. This weapon can be reskinned as a {@b Lasso}, maintaining the same proficiency and weapon properties, however it would lose its Bludgeoning damage.",
+										"{@i Bolas consist of three round weights at the end of three cords or ropes, tied together at their tails. This thrown weapon is designed to entangle the limbs of foes it hits.}",
 										"{@b {@i Special: Escaping.}} In order to escape a Bolas, the target has the following options:",
 										{
 											"type": "list",
@@ -20049,17 +20100,14 @@
 								{
 									"type": "item",
 									"name": "{@item Bologorash|XPHB} {@i Cultural (Orcish)}",
-									"entries": [
-										"The Bologorash, {@i meaning \"flesh-rending flying blade\"}, or more commonly known as the Chained Throwing Axe, is a wicked, serrated throwing axe attached to a length of chain. It is usually 30 feet long, however, it can be extended to a maximum chain length of 60 feet.",
-										"{@b {@i Special: Cannot Disarm.}} While holding the axe in one hand and its chain in the other, you cannot be disarmed of this weapon."
-									]
+									"entry": "{@i The Bologorash, (\"flesh-rending flying blade\" in Orcish), or more commonly known as the Chained Throwing Axe, is a wicked, serrated throwing axe attached to a length of chain. It is usually 30 feet long, however, it can be extended to a maximum chain length of 60 feet. This weapon can be impossible to be disarmed, while holding the chain in your off-hand and the axe is your main hand, which also counts for its {@itemProperty 2H|XPHB|Two-Handed} property.}"
 								},
 								{
 									"type": "item",
 									"name": "{@item Boomerang|XPHB}",
 									"entries": [
-										"A Boomerang, while categorized as a specialized weapon, is considered a simple weapon throughout various communities located in plains-like environments that emphasize the use of nature within its builds than those of brick-and-mortar towns.",
-										"{@b {@i Special: Returning.}} When this weapon is thrown within its normal range and it misses the attack, it will return to you by the end of your turn. If it hits your target, it can still return, however it may take longer to do so. Attacks within its long-range will not have the weapon naturally return."
+										"{@i A Boomerang, while categorized as a specialized weapon, is viewed as a simple weapon throughout various communities located in plains-like environments that emphasize the use of nature within its builds than those of brick-and-mortar towns.}",
+										"{@b {@i Special: Returning.}} This weapon, when thrown, will typically return to you, as long as the attack targets a creature within its normal range. If you target a creature within 50 feet of you (half of its normal range), the weapon will return by the end of that attack. If you target a creature between 50 feet and 100 feet (its remaining normal range), the weapon will return at the end of your turn. Any attack targeting a creature within its long-distance range will not return."
 									]
 								},
 								{
@@ -20137,12 +20185,15 @@
 								{
 									"type": "item",
 									"name": "{@item Gorgash|XPHB} {@i Cultural (Orcish)}",
-									"entry": "The Gorgash, which translates to {@i \"blood-shower blade\"}, is commonly known as the Double-Headed Battleaxe, and is a symbol of the Orcish philosphy of strength and power. This weapon has a 6-foot long haft with a large axe head on each end. While it can be extremely difficult to wield, those proficient with it exude extreme power and finesse. It is often rare to see this weapon on the battlefield as it is most commonly used in duels between Orc leaders."
+									"entry": "{@i The Gorgash (\"blood-shower blade\" in Orcish), is commonly known as the Double-Headed Battleaxe, and is a symbol of the Orcish philosphy of strength and power. This weapon has a 6-foot long haft with a large axe head (or double axe head), on each end. While it can be extremely difficult to wield, those proficient with it exude extreme power and finesse. It is often rare to see this weapon on the battlefield as it is most commonly used in duels between Orc leaders.}"
 								},
 								{
 									"type": "item",
 									"name": "{@item Granite Fists|XPHB} {@i Cultural (Dwarven)}",
-									"entry": "These Granite Fists are a brutal pair of gauntlet-like designed weapons. Weighing 10 lbs per individual fist, these are made to break bones. These stone weapons are shapes to look like giant fists with an iron bar inside for the wielder to grip. They are frequently sold in pairs, however, it is not uncommon to see someone weilding only one. There are many variations of these fists within the Dwarven community, which includes spiked knuckles, iron rings, and more."
+									"entries": [
+										"{@i These Granite Fists are a brutal pair of gauntlet-like designed weapons from the Dwarven community. Weighing at 10 lbs per individual fist, these are made to break bones and crush armor. Shaped to look like giant fists, each one comes with an iron bar inside for the wielder to grip. They are frequently sold in pairs, however, it is not uncommon to see someone weilding only one fist in a fight. Difficult communities and clans have variations on these fists, including some made out of metal, has sharp spikes on the knuckles, decorative yet brutal iron rings, and more.}",
+										"{@b {@i Special: Heavy Dual Wield.}} When you wield this weapon as a pair, you gain access to its {@itemProperty DM|XPHB|Double: Melee} property, allowing you to use {@action Two-Weapon Fighting|XPHB}. If you have a feat, feature, or fighting style that grants benefits to {@action Two-Weapon Fighting|XPHB}, you can only use those benefits with this weapon if your Strength score is a 15 or higher."
+									]
 								},
 								{
 									"type": "item",
@@ -20174,7 +20225,7 @@
 								{
 									"type": "item",
 									"name": "{@item Hurled Colpik|XPHB} {@i Cultural (Dwarven)}",
-									"entry": "At first glance, this Dwarven weapon resembles nothing more than a tiny pickaxe with a very long handle. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor."
+									"entry": "{@i This weapon resembles nothing more than a pickaxe with a long haft. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor before expanding to be used for anyone who wishes to have a weapon of multiple uses.}"
 								},
 								{
 									"type": "item",
@@ -20193,10 +20244,11 @@
 									"type": "item",
 									"name": "{@item Multi-Saber|XPHB} {@i Cultural (Elven)}",
 									"entries": [
-										"Some say that the Double-Bladed Scimitar walked so that the Multi-Saber could run, and the Elven Warriors of recent times would agree. What makes the Multi-Saber different and a preference for the famed Elven Warriors of the land is that its split form makes it easier to travel with as it takes the size of two Scimitars instead of a long polearm of blades. There is no difference in either blade and its joined haft is longer. All of these factors lead to the Multi-Saber to become a highly desired weapon to learn to wield over the Double-Bladed Scimitar.",
-										"{@b {@i Special.}} The Two Forms, {@u Joined} and {@u Split}, are described below. Regardless of what form this weapon takes, it uses the same weapon mastery property.",
-										"{@b The {@u Joined} form}} presents similarly to a {@item Double-Bladed Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}.",
-										"{@b The {@u Split} form} presents as two standard {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}."
+										"{@i What makes the Multi-Saber different from a Dual Scimitar is that its split form makes it easier to travel with, there's no size difference between the two blades, and a longer haft whhen joined together. All of these factors lead to the Multi-Saber to become a highly desired weapon to learn to wield over the Dual Scimitar}.",
+										"{@b {@i Properties per Form.}} The Two Forms, {@u Joined} and {@u Split}, are described below. This weapon can also use any of its Mastery properties with either form.",
+										"{@b Regardless of form,} this weapon always has the following properties: {@b {@itemProperty 2F|XPHB|Two Forms}} and {@b {@itemProperty FL|XPHB|Flourish}}.",
+										"{@b The {@u Joined} form}} presents similarly to a {@item Dual Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty DM|XPHB|Double: Melee}}.",
+										"{@b The {@u Split} form} presents as two {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}."
 									]
 								},
 								{

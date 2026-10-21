@@ -20,26 +20,17 @@
 			"value": 1200,
 			"weaponCategory": "specialized",
 			"property": [
-				"L|XPHB",
-				"R|XPHB",
-				"S|XPHB"
+				"V|XPHB"
 			],
 			"mastery": [
-				"Slow|XPHB"
+				"Chuck|XPHB",
+				"Sap|XPHB"
 			],
-			"dmg1": "1d6",
+			"dmg1": "1d8",
 			"dmgType": "S",
+			"dmg2": "1d10",
 			"axe": true,
 			"weapon": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Special: Revised Light",
-					"entries": [
-						"In order to use this weapon's {@itemProperty L|XPHB|Light} property, you need a Strength score of, at least, a 13."
-					]
-				}
-			],
 			"hasFluff": true
 		},
 		{
@@ -705,7 +696,8 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Slow|XPHB"
+				"Sap|XPHB",
+				"Wing-Wrapped|XPHB"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
@@ -713,6 +705,14 @@
 			"net": true,
 			"weapon": true,
 			"entries": [
+				{
+					"type": "variant",
+					"name": "Thrown Property",
+					"entries": [
+						"The use of the {@itemProperty TP|XPHB|Thrown (Partial)} property is meant to allow this weapon to be viewed as a Lasso, as both Bolas and Lassos operate very similarly when used, especially when Bolas have their extended corded tails. However, not all Bolas will have this.",
+						"With your DM's approval, you can replace this weapon's {@itemProperty TP|XPHB|Thrown (Partial)} property with the standard {@itemProperty T|XPHB|Thrown} property, in order for it to not have that extended tail. There are no other stat-related information that would be impacted by the change."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Special: Escaping",
@@ -746,26 +746,17 @@
 			"weaponCategory": "specialized",
 			"property": [
 				"TP|XPHB",
-				"2H|XPHB",
-				"S|XPHB"
+				"2H|XPHB"
 			],
 			"mastery": [
-				"Sap|XPHB"
+				"Hooked|XPHB",
+				"Slow|XPHB"
 			],
 			"range": "20/60",
 			"dmg1": "1d6",
 			"dmgType": "S",
 			"axe": true,
 			"weapon": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Special: Cannot Disarm.",
-					"entries": [
-						"While holding the axe in one hand and its chain in the other, you cannot be disarmed of this weapon."
-					]
-				}
-			],
 			"hasFluff": true
 		},
 		{
@@ -823,7 +814,8 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Sap|XPHB"
+				"Sap|XPHB",
+				"Windsweep|XPHB"
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
@@ -834,7 +826,7 @@
 					"type": "entries",
 					"name": "Special: Returning",
 					"entries": [
-						"When this weapon is thrown within its normal range and it misses the attack, it will return to you by the end of your turn. If it hits your target, it can still return, however it may take longer to do so. Attacks within its long-range will not have the weapon naturally return."
+						"This weapon, when thrown, will typically return to you, as long as the attack targets a creature within its normal range. If you target a creature within 50 feet of you (half of its normal range), the weapon will return by the end of that attack. If you target a creature between 50 feet and 100 feet (its remaining normal range), the weapon will return at the end of your turn. Any attack targeting a creature within its long-distance range will not return."
 					]
 				}
 			],
@@ -2950,7 +2942,8 @@
 				"VH|XPHB"
 			],
 			"mastery": [
-				"Cleave|XPHB"
+				"Burst|XPHB",
+				"Topple|XPHB"
 			],
 			"dmg1": "1d8",
 			"dmgType": "S",
@@ -2978,7 +2971,7 @@
 			],
 			"mastery": [
 				"Crush|XPHB",
-				"Sap|XPHB"
+				"Slow|XPHB"
 			],
 			"dmg1": "2d6",
 			"dmgType": "B",
@@ -2987,9 +2980,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Heavy Dual Wield",
+					"name": "Special: Heavy Dual Wield",
 					"entries": [
-						"When you wield a pair of these fists, you gain access to its {@itemProperty DM|XPHB|Double: Melee} property. If you have the {@feat Dual Wielding|XPHB} Fighting Style, the {@feat Two-Weapon Champ|XPHB} feat, or another feature that grants you benefits relating to {@action Two-Weapon Fighting|XPHB}, you can only gain access to those benefits with this weapon if your Strength score is, at least, 15."
+						"When you wield this weapon as a pair, you gain access to its {@itemProperty DM|XPHB|Double: Melee} property, allowing you to use {@action Two-Weapon Fighting|XPHB}. If you have a feat, feature, or fighting style that grants benefits to {@action Two-Weapon Fighting|XPHB}, you can only use those benefits with this weapon if your Strength score is a 15 or higher."
 					]
 				}
 			],
@@ -3913,15 +3906,17 @@
 			"value": 300,
 			"weaponCategory": "specialized",
 			"property": [
-				"L|XPHB",
-				"T|XPHB"
+				"T|XPHB",
+				"V|XPHB"
 			],
 			"mastery": [
-				"Sap|XPHB"
+				"Bludgeon|XPHB",
+				"Topple|XPHB"
 			],
 			"range": "20/60",
 			"dmg1": "1d4",
 			"dmgType": "P",
+			"dmg2": "1d6",
 			"weapon": true,
 			"hasFluff": true
 		},
@@ -5316,13 +5311,14 @@
 			"weaponCategory": "specialized",
 			"property": [
 				"2F|XPHB",
+				"FL|XPHB",
 				"2H|XPHB",
 				"DM|XPHB",
 				"F|XPHB",
-				"L|XPHB",
-				"S|XPHB"
+				"L|XPHB"
 			],
 			"mastery": [
+				"Shield|XPHB",
 				"Vex|XPHB"
 			],
 			"dmg1": "2d6",
@@ -5333,9 +5329,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Special",
+					"name": "Properties per Form",
 					"entries": [
-						"The Two Forms, {@u Joined} and {@u Split}, are described below. Regardless of what form this weapon takes, it uses the same weapon mastery property.",
+						"The Two Forms, {@u Joined} and {@u Split}, are described below. This weapon can also use any of its Mastery properties with either form.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -5343,14 +5339,20 @@
 								{
 									"type": "item",
 									"nameDot": false,
+									"name": "Regardless of form,",
+									"entry": "this weapon always has the following properties: {@b {@itemProperty 2F|XPHB|Two Forms}} and {@b {@itemProperty FL|XPHB|Flourish}}."
+								},
+								{
+									"type": "item",
+									"nameDot": false,
 									"name": "The {@u Joined} form",
-									"entry": "presents similarly to a {@item Double-Bladed Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}."
+									"entry": "presents similarly to a {@item Dual Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty DM|XPHB|Double: Melee}}."
 								},
 								{
 									"type": "item",
 									"nameDot": false,
 									"name": "The {@u Split} form",
-									"entry": "presents as two standard {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}."
+									"entry": "presents as two {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}."
 								}
 							]
 						}
@@ -8709,7 +8711,7 @@
 					"type": "entries",
 					"name": "Two Forms",
 					"entries": [
-						"This weapon can change its form. A weapon with two forms does not have all of its listed weapon properties all the time. See the weapon's specific details for confirmation on which weapon properties are related to which form. Typically, a weapon with two forms can be separated from one weapon into two. Splitting a weapon takes a {@action Free Object Interaction|XPHB} while rejoining them takes a {@variantrule Bonus Action|XPHB}. If a two-formed weapon does not follow this general rule, it will be specified."
+						"This weapon can change its form. A weapon with two forms may not have all of its listed weapon properties all the time. See the weapon's specific details for confirmation on which weapon properties are related to which form. Most commonly, a weapon with two forms can be separated from one weapon into two. Splitting a weapon takes a {@action Free Object Interaction|XPHB} while rejoining them takes a {@variantrule Bonus Action|XPHB}. If a two-formed weapon does not follow this general rule, it will be specified with its paired properties."
 					]
 				}
 			]
@@ -8998,6 +9000,22 @@
 			]
 		},
 		{
+			"abbreviation": "FL",
+			"source": "XPHB",
+			"page": 213,
+			"basicRules2024": true,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Flourish",
+					"entries": [
+						"While you wield this weapon, you gain a +1 bonus to your {@variantrule Armor Class|XPHB} while not in motion. If you are targeted with a {@variantrule Weapon Attack|XPHB} and it hits, you can use your {@variantrule Reaction|XPHB} to take only half damage."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "GP",
 			"source": "XPHB",
 			"page": 213,
@@ -9118,7 +9136,7 @@
 		{
 			"abbreviation": "MF",
 			"source": "XPHB",
-			"page": 214,
+			"page": 215,
 			"basicRules2024": true,
 			"template": "{{prop_name}}",
 			"entries":[
@@ -9135,7 +9153,7 @@
 		{
 			"abbreviation": "O",
 			"source": "XPHB",
-			"page": 214,
+			"page": 215,
 			"template": "{{prop_name}} ({{item.dmg2}})",
 			"entries": [
 				{
@@ -9277,7 +9295,7 @@
 		{
 			"abbreviation": "ST",
 			"source": "XPHB",
-			"page": 214,
+			"page": 215,
 			"template": "{{prop_name}}",
 			"entries": [
 				{
@@ -10591,9 +10609,25 @@
 	],
 	"itemMastery": [
 		{
+			"name": "Bludgeon",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Buff.} This weapon can deal Bludgeoning damage instead of its listed damage type, using the same damage die size. When you drop a creature to 0 {@variantrule Hit Points|XPHB} using this weapon's Bludgeoning damage (melee or ranged attack), the creature falls {@condition Unconscious|XPHB} and is {@variantrule Stable|XPHB}."
+			]
+		},
+		{
+			"name": "Burst",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can force all adjacent creatures to make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your weapon's Ability modifier). On a failed save, a target takes the weapon's damage plus your {@variantrule Proficiency Bonus|XPHB}. On a save, a target takes half damage."
+			]
+		},
+		{
 			"name": "Cleave",
 			"source": "XPHB",
-			"page": 214,
+			"page": 216,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
@@ -10601,9 +10635,17 @@
 			]
 		},
 		{
+			"name": "Chuck",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} In order to use this mastery property, you must first hit a creature of your size or smaller with two melee attacks with this weapon. Then, on a subsequent turn, you can use your {@variantrule Action|XPHB} to make another melee weapon attack, wielding this weapon with two-hands. On a hit, the target takes damage and must make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (their choice), against a {@dc 8} plus your {@variantrule Proficiency Bonus} and your attack modifier. On a fail, the weapon is lodged and they are temporarily grappled. Make a Strength ({@skill Athletics|XPHB}) check ({@dc 10}). As part of this maneuver and {@variantrule Action|XPHB}, you throw the target a number of feet equal to your check, rounded down to the nearest 5 foot space."
+			]
+		},
+		{
 			"name": "Crush",
 			"source": "XPHB",
-			"page": 214,
+			"page": 216,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
@@ -10613,7 +10655,7 @@
 		{
 			"name": "Disarm",
 			"source": "XPHB",
-			"page": 214,
+			"page": 216,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
@@ -10621,19 +10663,9 @@
 			]
 		},
 		{
-			"name": "Flourish",
-			"source": "XPHB",
-			"page": 214,
-			"srd52": true,
-			"basicRules2024": true,
-			"entries": [
-				"{@i Buff.} This weapon is in constant motion. While you wield this weapon, you gain a +1 bonus to your {@variantrule Armor Class|XPHB}. If you are targeted with a {@variantrule Weapon Attack|XPHB} and it hits, you can use your {@variantrule Reaction|XPHB} to take only half damage."
-			]
-		},
-		{
 			"name": "Graze",
 			"source": "XPHB",
-			"page": 214,
+			"page": 216,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
@@ -10641,9 +10673,17 @@
 			]
 		},
 		{
+			"name": "Hooked",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make one ranged weapon attack targeting a creature 20 feet away from you. On a hit, you deal damage and the axe gets lodged into your target. You force the target to make a Strength {@variantrule Saving Throw}, ({@dc 8} plus your {@variantrule Proficiency Bonus and Attack modifier}), or the target is dragged 10 feet closer to you and is {@condition Grappled} by the weapon via you."
+			]
+		},
+		{
 			"name": "Nick",
 			"source": "XPHB",
-			"page": 214,
+			"page": 216,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
@@ -10653,7 +10693,7 @@
 		{
 			"name": "Pin",
 			"source": "XPHB",
-			"page": 214,
+			"page": 216,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
@@ -10663,7 +10703,7 @@
 		{
 			"name": "Push",
 			"source": "XPHB",
-			"page": 214,
+			"page": 216,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
@@ -10673,7 +10713,7 @@
 		{
 			"name": "Sap",
 			"source": "XPHB",
-			"page": 214,
+			"page": 216,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
@@ -10681,9 +10721,17 @@
 			]
 		},
 		{
+			"name": "Shield",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Buff.} When you take the {@action Dodge|XPHB} action while wielding this weapon, you also gain {@variantrule Cover|XPHB|Half Cover} against {@variantrule Weapon Attack|XPHB|Ranged Weapon attacks}. If this weapon is magical, this also applies to {@variantrule Spell Attack|XPHB|Ranged Spell attacks}."
+			]
+		},
+		{
 			"name": "Slow",
 			"source": "XPHB",
-			"page": 214,
+			"page": 216,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
@@ -10693,7 +10741,7 @@
 		{
 			"name": "Topple",
 			"source": "XPHB",
-			"page": 214,
+			"page": 216,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
@@ -10703,11 +10751,28 @@
 		{
 			"name": "Vex",
 			"source": "XPHB",
-			"page": 214,
+			"page": 216,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
 				"{@i Buff.} If you hit a creature with this weapon and deal damage to the creature, you have {@variantrule Advantage|XPHB} on your next attack roll against that creature before the end of your next turn."
+			]
+		},
+		{
+			"name": "Windsweep",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} As an action, you make one ranged attack roll and target two creatures within its normal range. If the weapon hits both targets, it ends its run and falls to the ground. If the weapon only hits one out of the two targets or neither targets, you can choose a third target who is also in range. If the attack misses, the weapon will return to you by the end of your action. All attacks made with this property use the same attack roll. All attacks that hit uses the same damage roll."
+			]
+		},
+		{
+			"name": "Wing-Wrapped",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} This Mastery property applies only to net-like weapons that have the {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} property.",
+				"When you use this weapon's {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} property on an attack, you can forgo the condition when you target a Huge or smaller winged creature with a Fly speed. When that creature fails its saving throw, this weapon gets entangled in its wings only and its Fly speed drops to 0 until its freed. The escape DC and Armor class of the weapon increases by 5 due to the lack of accessibility the creature will have with its wings, however this increase is not applied when another creature helps by making the checks themselves."
 			]
 		}
 	]
