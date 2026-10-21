@@ -129,6 +129,8 @@
 					"class": "paladin"
 				}
 			],
+			"type": "SCF",
+			"scfType": "holy",
 			"wondrous": true,
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
@@ -139,13 +141,44 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "+1 Hunter's Bracers",
+			"source": "XDMG",
+			"page": 270,
+			"type": "SCF|XPHB",
+			"rarity": "uncommon",
+			"reqAttune": "by a ranger",
+			"reqAttuneTags": [
+				{
+					"class": "ranger"
+				}
+			],
+			"focus": [
+				"Ranger"
+			],
+			"weight": 0.5,
+			"wondrous": true,
+			"bonusWeapon": "+1",
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"entries": [
+				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +1 bonus to attack and damage rolls, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells."
+			],
+			"lootTables": [
+				"Armanents - Uncommon|XDMG"
+			]
+		},
+		{
 			"name": "+1 Moon Sickle",
 			"source": "TCE",
 			"page": 133,
+			"reprintedAs": [
+				"+1 Moon Sickle|XDMG"
+			],
 			"baseItem": "sickle|PHB",
 			"type": "M",
+			"typeAlt": "SCF",
 			"rarity": "uncommon",
-			"reqAttune": "by a druid or ranger",
+			"reqAttune": "by a druid or a ranger",
 			"reqAttuneTags": [
 				{
 					"class": "druid"
@@ -169,8 +202,44 @@
 				"Ranger"
 			],
 			"entries": [
-				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +1 bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.",
+				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +1 bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid or ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid or ranger spells.",
 				"When you cast a spell that restores hit points, you can roll a {@dice d4} and add the number rolled to the amount of hit points restored, provided you are holding the sickle."
+			]
+		},
+		{
+			"name": "+1 Moon Sickle",
+			"source": "XDMG",
+			"page": 279,
+			"baseItem": "sickle|XPHB",
+			"type": "M|XPHB",
+			"typeAlt": "SCF|XPHB",
+			"rarity": "uncommon",
+			"reqAttune": "by a druid",
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				}
+			],
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"focus": [
+				"Druid"
+			],
+			"entries": [
+				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +1 bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid spells. In addition, you can use the sickle as a spellcasting focus for your druid spells.",
+				"When you Wild Shape, you gain additional {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4+1}."
+			],
+			"lootTables": [
+				"Arcana - Uncommon|XDMG",
+				"Armanents - Uncommon|XDMG"
 			]
 		},
 		{
@@ -245,6 +314,9 @@
 			"entries": [
 				"While holding this rod, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your {@filter Warlock spells|spells|class=Warlock}.",
 				"In addition, you can regain one spell slot as a {@action Magic|XPHB} action while holding the rod. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+			],
+			"lootTables": [
+				"Arcana - Uncommon|XDMG"
 			]
 		},
 		{
@@ -313,6 +385,44 @@
 			]
 		},
 		{
+			"name": "+1 Wild Staff",
+			"source": "XDMG",
+			"page": 325,
+			"baseItem": "wooden staff|XPHB",
+			"type": "M|XPHB",
+			"typeAlt": "SCF|XPHB",
+			"rarity": "uncommon",
+			"reqAttune": "by a druid or a ranger",
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				},
+				{
+					"class": "ranger"
+				}
+			],
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"bonusWeapon": "+1",
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"scfType": "druid",
+			"entries": [
+				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +1 bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use this staff as a spellcasting focus for your druid and ranger spells.",
+				"When you cast a spell that restores hit points, you can roll a {@dice d6} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG",
+				"Implements - Uncommon|XDMG"
+			]
+		},
+		{
 			"name": "+1 Wraps of Unarmed Power",
 			"source": "XDMG",
 			"page": 325,
@@ -320,7 +430,7 @@
 			"wondrous": true,
 			"bonusWeapon": "+1",
 			"entries": [
-				"While wearing these wraps, you have a +1 bonus to attack rolls and damage rolls made with your Unarmed Strikes. Those strikes deal your choice of Force damage or their normal damage type."
+				"While wearing these wraps, you have a +1 bonus to attack rolls and damage rolls made with your {@variantrule Unarmed Attack|XPHB|Unarmed Strike Attack}. Those strikes deal your choice of Force damage or their normal damage type."
 			],
 			"classFeatures": [
 				"replicate magic item|artificer|efa|2|efa"
@@ -468,6 +578,8 @@
 				}
 			],
 			"wondrous": true,
+			"type": "SCF",
+			"scfType": "holy",
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
 			"entries": [
@@ -477,19 +589,47 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "+2 Hunter's Bracers",
+			"source": "XDMG",
+			"page": 270,
+			"type": "SCF|XPHB",
+			"rarity": "rare",
+			"reqAttune": "by a ranger",
+			"reqAttuneTags": [
+				{
+					"class": "ranger"
+				}
+			],
+			"focus": [
+				"Ranger"
+			],
+			"weight": 0.5,
+			"wondrous": true,
+			"bonusWeapon": "+2",
+			"bonusSpellAttack": "+2",
+			"bonusSpellSaveDc": "+2",
+			"entries": [
+				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +2 bonus to attack and damage rolls, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells."
+			],
+			"lootTables": [
+				"Armanents - Rare|XDMG"
+			]
+		},
+		{
 			"name": "+2 Moon Sickle",
 			"source": "TCE",
 			"page": 133,
+			"reprintedAs": [
+				"+2 Moon Sickle|XDMG"
+			],
 			"baseItem": "sickle|PHB",
 			"type": "M",
+			"type": "SCF",
 			"rarity": "rare",
-			"reqAttune": "by a druid or ranger",
+			"reqAttune": "by a druid",
 			"reqAttuneTags": [
 				{
 					"class": "druid"
-				},
-				{
-					"class": "ranger"
 				}
 			],
 			"weight": 2,
@@ -503,12 +643,47 @@
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
 			"focus": [
-				"Druid",
-				"Ranger"
+				"Druid"
 			],
 			"entries": [
-				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +2 bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.",
+				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +2 bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your druid spells. In addition, you can use the sickle as a spellcasting focus for your druid spells.",
 				"When you cast a spell that restores hit points, you can roll a {@dice d4} and add the number rolled to the amount of hit points restored, provided you are holding the sickle."
+			]
+		},
+		{
+			"name": "+2 Moon Sickle",
+			"source": "XDMG",
+			"page": 279,
+			"baseItem": "sickle|XPHB",
+			"type": "M|XPHB",
+			"typeAlt": "SCF|XPHB",
+			"rarity": "rare",
+			"reqAttune": "by a druid",
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				}
+			],
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"bonusSpellAttack": "+2",
+			"bonusSpellSaveDc": "+2",
+			"focus": [
+				"Druid"
+			],
+			"entries": [
+				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +2 bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your druid spells. In addition, you can use the sickle as a spellcasting focus for your druid spells.",
+				"When you Wild Shape, you gain additional {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4+2}."
+			],
+			"lootTables": [
+				"Arcana - Rare|XDMG",
+				"Armanents - Rare|XDMG"
 			]
 		},
 		{
@@ -644,6 +819,44 @@
 			]
 		},
 		{
+			"name": "+2 Wild Staff",
+			"source": "XDMG",
+			"page": 325,
+			"baseItem": "wooden staff|XPHB",
+			"type": "M|XPHB",
+			"typeAlt": "SCF|XPHB",
+			"rarity": "rare",
+			"reqAttune": "by a druid or a ranger",
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				},
+				{
+					"class": "ranger"
+				}
+			],
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"bonusWeapon": "+2",
+			"bonusSpellAttack": "+2",
+			"bonusSpellSaveDc": "+2",
+			"scfType": "druid",
+			"entries": [
+				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +2 bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use this staff as a spellcasting focus for your druid and ranger spells.",
+				"When you cast a spell that restores hit points, you can roll a {@dice d6} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
+			],
+			"lootTables": [
+				"Armaments - Rare|XDMG",
+				"Implements - Rare|XDMG"
+			]
+		},
+		{
 			"name": "+2 Wraps of Unarmed Power",
 			"source": "XDMG",
 			"page": 325,
@@ -651,7 +864,7 @@
 			"wondrous": true,
 			"bonusWeapon": "+2",
 			"entries": [
-				"While wearing these wraps, you have a +2 bonus to attack rolls and damage rolls made with your Unarmed Strikes. Those strikes deal your choice of Force damage or their normal damage type."
+				"While wearing these wraps, you have a +2 bonus to attack rolls and damage rolls made with your {@variantrule Unarmed Attack|XPHB|Unarmed Strike Attack}. Those strikes deal your choice of Force damage or their normal damage type."
 			],
 			"classFeatures": [
 				"replicate magic item|artificer|efa|2|efa"
@@ -799,6 +1012,8 @@
 				}
 			],
 			"wondrous": true,
+			"type": "SCF",
+			"scfType": "holy",
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
 			"entries": [
@@ -808,19 +1023,47 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "+3 Hunter's Bracers",
+			"source": "XDMG",
+			"page": 270,
+			"type": "SCF|XPHB",
+			"rarity": "very rare",
+			"reqAttune": "by a ranger",
+			"reqAttuneTags": [
+				{
+					"class": "ranger"
+				}
+			],
+			"focus": [
+				"Ranger"
+			],
+			"weight": 0.5,
+			"wondrous": true,
+			"bonusWeapon": "+3",
+			"bonusSpellAttack": "+3",
+			"bonusSpellSaveDc": "+3",
+			"entries": [
+				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +3 bonus to attack and damage rolls, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells."
+			],
+			"lootTables": [
+				"Armanents - Very Rare|XDMG"
+			]
+		},
+		{
 			"name": "+3 Moon Sickle",
 			"source": "TCE",
 			"page": 133,
+			"reprintedAs": [
+				"+3 Moon Sickle|XDMG"
+			],
 			"baseItem": "sickle|PHB",
 			"type": "M",
+			"type": "SCF",
 			"rarity": "very rare",
-			"reqAttune": "by a druid or ranger",
+			"reqAttune": "by a druid",
 			"reqAttuneTags": [
 				{
 					"class": "druid"
-				},
-				{
-					"class": "ranger"
 				}
 			],
 			"weight": 2,
@@ -834,12 +1077,47 @@
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
 			"focus": [
-				"Druid",
-				"Ranger"
+				"Druid"
 			],
 			"entries": [
-				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +3 bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.",
+				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +3 bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your druid spells. In addition, you can use the sickle as a spellcasting focus for your druid spells.",
 				"When you cast a spell that restores hit points, you can roll a {@dice d4} and add the number rolled to the amount of hit points restored, provided you are holding the sickle."
+			]
+		},
+		{
+			"name": "+3 Moon Sickle",
+			"source": "XDMG",
+			"page": 279,
+			"baseItem": "sickle|XPHB",
+			"type": "M|XPHB",
+			"typeAlt": "SCF|XPHB",
+			"rarity": "very rare",
+			"reqAttune": "by a druid",
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				}
+			],
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"bonusWeapon": "+3",
+			"bonusSpellAttack": "+3",
+			"bonusSpellSaveDc": "+3",
+			"focus": [
+				"Druid"
+			],
+			"entries": [
+				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +3 bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your druid spells. In addition, you can use the sickle as a spellcasting focus for your druid spells.",
+				"When you Wild Shape, you gain additional {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4+3}."
+			],
+			"lootTables": [
+				"Arcana - Very Rare|XDMG",
+				"Armanents - Very Rare|XDMG"
 			]
 		},
 		{
@@ -965,6 +1243,44 @@
 			"lootTables": [
 				"Arcana - Very Rare|XDMG",
 				"Relics - Very Rare|XDMG"
+			]
+		},
+		{
+			"name": "+3 Wild Staff",
+			"source": "XDMG",
+			"page": 325,
+			"baseItem": "wooden staff|XPHB",
+			"type": "M|XPHB",
+			"typeAlt": "SCF|XPHB",
+			"rarity": "very rare",
+			"reqAttune": "by a druid or a ranger",
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				},
+				{
+					"class": "ranger"
+				}
+			],
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"bonusWeapon": "+3",
+			"bonusSpellAttack": "+3",
+			"bonusSpellSaveDc": "+3",
+			"scfType": "druid",
+			"entries": [
+				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +3 bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use this staff as a spellcasting focus for your druid and ranger spells.",
+				"When you cast a spell that restores hit points, you can roll a {@dice d6} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
+			],
+			"lootTables": [
+				"Armaments - Very Rare|XDMG",
+				"Implements - Very Rare|XDMG"
 			]
 		},
 		{
@@ -80080,6 +80396,29 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Hunter's Bracers",
+			"source": "XDMG",
+			"page": 270,
+			"type": "SCF|XPHB",
+			"rarity": "varies",
+			"reqAttune": "by a ranger",
+			"reqAttuneTags": [
+				{
+					"class": "ranger"
+				}
+			],
+			"weight": 0.5,
+			"focus": [
+				"Ranger"
+			],
+			"wondrous": true,
+			"items": [
+				"+1 Hunter's Bracers|XDMG",
+				"+2 Hunter's Bracers|XDMG",
+				"+3 Hunter's Bracers|XDMG"
+			]
+		},
+		{
 			"name": "Idol of Good Fortunes",
 			"source": "AU",
 			"page": 127,
@@ -80696,6 +81035,36 @@
 				"Mind Crystal (Subtle)|PaBTSO"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Moon Sickle",
+			"source": "XDMG",
+			"page": 279,
+			"baseItem": "sickle|XPHB",
+			"type": "M|XDMG",
+			"typeAlt": "SCF|XPHB",
+			"rarity": "varies",
+			"reqAttune": "by a druid",
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				}
+			],
+			"weight": 2,
+			"weaponCategory": "simple",
+			"focus": [
+				"Druid"
+			],
+			"property": [
+				"L|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"items": [
+				"+1 Moon Sickle|XDMG",
+				"+2 Moon Sickle|XDMG",
+				"+3 Moon Sickle|XDMG"
+			]
 		},
 		{
 			"name": "Musical Instrument",
@@ -81641,9 +82010,6 @@
 				"+1 Rod of the Pact Keeper|XDMG",
 				"+2 Rod of the Pact Keeper|XDMG",
 				"+3 Rod of the Pact Keeper|XDMG"
-			],
-			"lootTables": [
-				"Arcana - Uncommon|XDMG"
 			]
 		},
 		{
@@ -82625,6 +82991,37 @@
 				"Ascendant Wave-Swept Weapon|AU"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Wild Staff",
+			"source": "XDMG",
+			"page": 325,
+			"type": "M|XDMG",
+			"typeAlt": "SCF|XPHB",
+			"rarity": "varies",
+			"reqAttune": "by a druid or a ranger",
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				},
+				{
+					"class": "ranger"
+				}
+			],
+			"weight": 4,
+			"weaponCategory": "simple",
+			"scfType": "druid",
+			"property": [
+				"V|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"items": [
+				"+1 Wild Staff|XDMG",
+				"+2 Wild Staff|XDMG",
+				"+3 Wild Staff|XDMG"
+			]
 		},
 		{
 			"name": "Will of the Talon",

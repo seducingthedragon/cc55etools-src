@@ -6108,7 +6108,7 @@
 				"Ranger"
 			],
 			"rarity": "none",
-			"weight": 1,
+			"weight": 0.5,
 			"value": 500,
 			"entries": [
 				"Primal Bracers are Archery Bracers that can be used as a {@variantrule Spellcasting Focus|XPHB} for {@class Ranger|XPHB|Rangers}. There are various runes stitched into them, in order to allow them to be used as a {@variantrule Spellcasting Focus|XPHB} and more are added after a Ranger joins their conclave."
@@ -9570,7 +9570,7 @@
 					"type": "entries",
 					"name": "Armor Parts",
 					"entries": [
-						"Armor Parts are individual portions, or parts, of an armor that are sold separately for the purpose of repair, replacement, and/or custom enhancements."
+						"Armor Parts are individual mundane portions, or parts, of an armor that are sold separately for the purpose of repair, replacement, and/or custom enhancements."
 					]
 				}
 			]

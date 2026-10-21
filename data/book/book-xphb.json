@@ -10468,7 +10468,7 @@
 							"page": 219,
 							"id": "636",
 							"entries": [
-								"Armor Parts are individual portions, or parts, of an armor that are sold separately for the purpose of repair, replacement, and/or custom enhancements. On their own, they do not add any bonuses to your {@variantrule Armor Class|XPHB}, however, some may have other unique benefits. While Armor Parts do not require their own separate training in order to use them, they do require, at least, {@variantrule Armor training|XPHB|Light Armor Training}. Most armor parts are considered Standard, meaning that they are fairly common. Specialized Armor Parts {@i (*)} are mundane Armor Parts that are equivalent to an Uncommon to Rare rarity.",
+								"Armor Parts are individual mundane portions, or parts, of an armor that are sold separately for the purpose of repair, replacement, and/or custom enhancements. On their own, they do not add any bonuses to your {@variantrule Armor Class|XPHB}, however, some may have other unique benefits. While Armor Parts do not require their own separate training in order to use them, they do require, at least, {@variantrule Armor training|XPHB|Light Armor Training}. Most armor parts are considered Standard, meaning that they are fairly common. Specialized Armor Parts {@i (*)} are mundane Armor Parts that are equivalent to an Uncommon to Rare rarity.",
 								"These items are the various Armor Parts available.",
 								{
 									"type": "entries",
@@ -10482,7 +10482,7 @@
 											"items": [
 												"{@item Leather Bracers|XPHB}",
 												"{@item Metal Bracers|XPHB}",
-												"{@item Primal Bracers|XPHB}"
+												"{@item Primal Bracers|XPHB} (worn spellcasting focus for rangers)"
 											]
 										},
 										{
