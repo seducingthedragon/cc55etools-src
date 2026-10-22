@@ -8820,7 +8820,7 @@
 										"{@item Basic Net|XPHB}",
 										"2 Bludgeoning",
 										"{@itemProperty RST|XPHB|Restraining}, {@itemProperty T|XPHB|Thrown} (Range 10/40), {@itemProperty 2H|XPHB|Two-Handed}, Special",
-										"{@itemMastery Topple}",
+										"{@itemMastery Topple}, {@itemMastery Wing-Wrapped}",
 										"4 lb.",
 										"1 GP"
 									]
@@ -9066,8 +9066,8 @@
 									"row": [
 										"{@item Stiletto|XPHB}",
 										"{@dice 1d4} Piercing",
-										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light} {@itemProperty T|XPHB|Thrown} (Range 20/60)",
-										"{@itemMastery Vex}",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light} {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+										"{@itemMastery Piercer}, {@itemMastery Vex}",
 										"1 lb.",
 										"5 GP"
 									]
@@ -9254,7 +9254,7 @@
 										"{@item Spiked Net|XPHB}",
 										"{@dice 1d6} Piercing",
 										"{@itemProperty RST|XPHB|Restraining}, {@itemProperty O|XPHB|Ongoing} ({@dice 1d4}), {@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty T|XPHB|Thrown} (Range 5/15), Special",
-										"{@itemMastery Vex}",
+										"{@itemMastery Vex}, {@itemMastery Wing-Wrapped}",
 										"6 lb.",
 										"10 GP"
 									]
@@ -9309,7 +9309,7 @@
 										"{@item Cauv Agland|XPHB} {@i Cultural (Dwarven)}",
 										"{@dice 1d6} Piercing",
 										"{@itemProperty V|XPHB|Versatile} ({@dice 1d8}), Special",
-										"{@itemMastery Vex}",
+										"{@itemMastery Piercer}, {@itemMastery Slow}",
 										"3 lb.",
 										"40 GP"
 									]
@@ -9345,7 +9345,7 @@
 										"{@item Dikama|XPHB} {@i Cultural (Beastfolk)}",
 										"{@dice 1d4} Slashing",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
-										"{@itemMastery Vex}",
+										"{@itemMastery Twist}, {@itemMastery Vex}",
 										"2 lb.",
 										"10 GP"
 									]
@@ -9477,7 +9477,7 @@
 										"{@item Nunchaku|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Bludgeoning",
 										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d4}), {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
-										"{@itemMastery Sap}",
+										"{@itemMastery Sap}, {@itemMastery Shield}",
 										"2 lb.",
 										"5 SP"
 									]
@@ -9664,7 +9664,7 @@
 										"{@item Shuriken|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Piercing",
 										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
-										"{@itemMastery Vex}",
+										"{@itemMastery Barrage}, {@itemMastery Hidden}",
 										"0.25 lb.",
 										"5 SP"
 									]
@@ -9675,8 +9675,8 @@
 									"row": [
 										"{@item Shuriken (20)|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Piercing",
-										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
-										"{@itemMastery Vex}",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
+										"{@itemMastery Barrage}, {@itemMastery Hidden}",
 										"5 lb.",
 										"10 GP"
 									]
@@ -9979,7 +9979,7 @@
 									"page": 215,
 									"id": "63b",
 									"entries": [
-										"An Ongoing weapon is a {@itemProperty GP|XPHB|Grappling} weapon or a {@itemProperty RST|XPHB|Restraining} weapon that deals damage at the start of the target's turn, so long as they are still contained by the weapon. The damage value will be listed in parentheses next to this property."
+										"An Ongoing weapon is a weapon that deals damage at the start of the target's turn, so long as they are still contained by the weapon or embedded with it. The damage value will be listed in parentheses next to this property. Most Ongoing weapons are {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} weapons, but not always."
 									]
 								},
 								{
@@ -10130,6 +10130,12 @@
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
+									"name": "Barrage",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
 									"name": "Bludgeon",
 									"style": "inset"
 								},
@@ -10148,7 +10154,19 @@
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
+									"name": "Piercer",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
 									"name": "Shield",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Twist",
 									"style": "inset"
 								},
 								{
@@ -20066,7 +20084,7 @@
 									"type": "item",
 									"name": "{@item Basic Net|XPHB}",
 									"entries": [
-										"A Basic Net is like your standard Adventuring Gear {@item Net|XPHB}, however it often has various weights scattered throughout to make a creature's escape more difficult, and dealing a small amount of damage.",
+										"{@i A Basic Net is like your standard Adventuring Gear {@item Net|XPHB}, however it often has various weights scattered throughout to make a creature's escape more difficult, and dealing a small amount of damage.}",
 										"{@b {@i Special: Escaping.}} In order to escape a Basic Net, the target has the following options:",
 										{
 											"type": "list",
@@ -20119,8 +20137,8 @@
 									"type": "item",
 									"name": "{@item Cauv Agland|XPHB} {@i Cultural (Dwarven)}",
 									"entries": [
-										"The Cauv Agland, translated from Dwarvish meaning {@i \"Spot Sword\"}, is a Dwarven Estoc Sword known for its heavy armor and scales piercing properties. Its hilt is a hand-and-a-half, with a 4 foot long blade. Sometimes it is referred to as a \"Tuck Sword\".",
-										"{@b {@i Special: High AC Extra Damage.}} This sword deals an additional {@dice 1d6} damage to creatures wearing Heavy armor, or to creatures with natural armor whose {@variantrule Armor Class|XPHB|AC} is 16 or higher."
+										"{@i The Cauv Agland, (\"Spot Sword\" in Dwarvish), is a Dwarven Estoc Sword known for its heavy armor and scales piercing properties. Its hilt is a hand-and-a-half, with a 4 foot long blade. Sometimes it is referred to as a \"Tuck Sword\".}",
+										"{@b {@i Special: High AC Damage.}} This sword deals an additional {@dice 1d6} damage to creatures wearing Heavy armor, or to creatures with natural armor whose {@variantrule Armor Class|XPHB|AC} is 16 or higher."
 									]
 								},
 								{
@@ -20151,7 +20169,7 @@
 								{
 									"type": "item",
 									"name": "{@item Dikama|XPHB} {@i Cultural (Beastfolk)}",
-									"entry": "The Dikama, or Fang Blade, is a serrated curved dagger, often looking like an oversized lion's fang."
+									"entry": "{@i The Dikama, or Fang Blade, is a serrated curved dagger, often looking like an oversized lion's fang.}"
 								},
 								{
 									"type": "item",
@@ -20255,7 +20273,7 @@
 									"type": "item",
 									"name": "{@item Nunchaku|XPHB} {@i Cultural (Monks)}",
 									"entries": [
-										"Nunchakus, or commonly referred to as \"Nunchucks\" by non-Martial Arts practitioners, are unique {@itemProperty DM|XPHB|Double: Melee} weapons as the handle of the weapon is also the portion of the weapon that you attack with.",
+										"{@i Nunchakus, or commonly referred to as \"Nunchucks\" by non-Martial Arts practitioners, are unique {@itemProperty DM|XPHB|Double: Melee} weapons as the handle of the weapon is also the portion of the weapon that you attack with.}",
 										"{@b {@i Special: Indirectly Two-Handed.}} While this weapon is a One-Handed weapon to attack with, in order to utilize its {@itemProperty DM|XPHB|Double: Melee} property, you would need to maneuver the weapon with and between both hands. Due to this, if your Dexterity score is at least a 13, you can take the {@action Free Object Interaction|XPHB} as part of each attack you make on your turn with this weapon as long as you do not use that free action for a different object interaction."
 									]
 								},
@@ -20278,7 +20296,8 @@
 									"type": "item",
 									"name": "{@item Shuriken|XPHB} (Single or 20) {@i Cultural (Monks)}",
 									"entries": [
-										"A Shuriken is a flat throwing blade with 2 to 8 sharp points, each one with an equal distance from the weapon's center, where the wielder holds it with a pinch grip. Due to its expendable nature, it is often sold is packs but can be purchased individually. Lodging a group of shurikens in the ground can also act as {@item Caltrops|XPHB}.",
+										"{@i A Shuriken is a flat throwing blade with 2 to 8 sharp points, each one with an equal distance from the weapon's center, where the wielder holds it with a pinch grip. Due to its expendable nature, it is often sold is packs but can be purchased individually. Lodging a group of shurikens in the ground can also act as {@item Caltrops|XPHB}.}",
+										"{@i A single Shuriken is {@itemProperty C|XPHB|Concealable}. Trying to hide a whole pack of Shurikens is not.}",
 										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Shuriken as part of your {@action Attack|XPHB} action, you can draw up to three Shurikens on one draw, while attacking with one weapon per {@action Attack|XPHB}."
 									]
 								},
@@ -20298,13 +20317,14 @@
 												"The target or a creature within 5 feet of it must take an action to make a {@dc 15} Strength ({@skill Athletics|XPHB}) check, escaping on a success",
 												"Attacking the Net: AC 10; 12 HP; {@variantrule Immunity|XPHB} to Poison, and Psychic damage"
 											]
-										}
+										},
+										"When a target escapes from this net, they take half of this weapon's damage ({@damage 1d6/2}), unless they roll a {@variantrule Critical Hit|XPHB|Nat 20}, then they take no damage on that successful escape."
 									]
 								},
 								{
 									"type": "item",
 									"name": "{@item Stiletto|XPHB}",
-									"entry": "A Stiletto is a specialized {@item Dagger|XPHB} with a longer and thinner blade, remininsent of a {@item Rapier|XPHB}. This allows the Stiletto puncture through chain and plated armor easier than standard {@item Dagger|XPHB}."
+									"entry": "{@i A Stiletto is a specialized {@item Dagger|XPHB} with a longer and thinner blade, remininsent of a {@item Rapier|XPHB}. This allows the Stiletto puncture through chain and plated armor easier than standard {@item Dagger|XPHB}.}"
 								},
 								{
 									"type": "item",

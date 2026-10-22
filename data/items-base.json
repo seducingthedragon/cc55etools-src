@@ -466,7 +466,8 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Topple|XPHB"
+				"Topple|XPHB",
+				"Wing-Wrapped|XPHB"
 			],
 			"range": "10/40",
 			"dmg1": "2",
@@ -1534,7 +1535,8 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Vex|XPHB"
+				"Piercer|XPHB",
+				"Slow|XPHB"
 			],
 			"dmg1": "1d6",
 			"dmgType": "P",
@@ -1544,7 +1546,7 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Special: High AC Extra Damage",
+					"name": "Special: High AC Damage",
 					"entries": [
 						"This sword deals an additional {@dice 1d6} damage to creatures wearing Heavy armor, or to creatures with natural armor whose {@variantrule Armor Class|XPHB|AC} is 16 or higher."
 					]
@@ -2336,14 +2338,13 @@
 				"L|XPHB"
 			],
 			"mastery": [
+				"Twist|XPHB",
 				"Vex|XPHB"
 			],
 			"dmg1": "1d4",
 			"dmgType": "S",
 			"dagger": true,
 			"weapon": true,
-			"entries": [
-			],
 			"hasFluff": true
 		},
 		{
@@ -5514,7 +5515,8 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Sap|XPHB"
+				"Sap|XPHB",
+				"Shield|XPHB"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
@@ -6958,7 +6960,8 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Vex|XPHB"
+				"Barrage|XPHB",
+				"Hidden|XPHB"
 			],
 			"dmg1": "1d4",
 			"dmgType": "P",
@@ -6987,20 +6990,21 @@
 			"value": 1000,
 			"weaponCategory": "specialized",
 			"property": [
-				"C|XPHB",
 				"F|XPHB",
 				"L|XPHB",
 				"T|XPHB",
 				"S|XPHB"
 			],
 			"mastery": [
-				"Vex|XPHB"
+				"Barrage|XPHB",
+				"Hidden|XPHB"
 			],
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"range": "20/60",
 			"weapon": true,
 			"entries": [
+				"{@i A single Shuriken is {@itemProperty C|XPHB|Concealable}. Trying to hide a whole pack of Shurikens is not.}",
 				{
 					"type": "entries",
 					"name": "Special: Multi-Draw",
@@ -7504,7 +7508,8 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Vex|XPHB"
+				"Vex|XPHB",
+				"Wing-Wrapped|XPHB"
 			],
 			"dmg1": "1d6",
 			"dmgType": "P",
@@ -7524,10 +7529,12 @@
 								"The target or a creature within 5 feet of it must take an action to make a {@dc 15} Strength ({@skill Athletics|XPHB}) check, escaping on a success",
 								"Attacking the Net: AC 10; 12 HP; {@variantrule Immunity|XPHB} to Poison, and Psychic damage"
 							]
-						}
+						},
+						"When a target escapes from this net, they take half of this weapon's damage ({@damage 1d6/2}), unless they roll a {@variantrule Critical Hit|XPHB|Nat 20}, then they take no damage on that successful escape."
 					]
 				}
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Splint Armor",
@@ -7645,11 +7652,13 @@
 			"value": 500,
 			"weaponCategory": "martial",
 			"property": [
+				"C|XPHB",
 				"F|XPHB",
 				"L|XPHB",
 				"T|XPHB"
 			],
 			"mastery": [
+				"Piercer|XPHB",
 				"Vex|XPHB"
 			],
 			"range": "20/60",
@@ -9160,7 +9169,7 @@
 					"type": "entries",
 					"name": "Ongoing",
 					"entries": [
-						"An Ongoing weapon is a {@itemProperty GP|XPHB|Grappling} weapon or a {@itemProperty RST|XPHB|Restraining} weapon that deals damage at the start of the target's turn, so long as they are still contained by the weapon. The damage value will be listed in parentheses next to this property."
+						"An Ongoing weapon is a weapon that deals damage at the start of the target's turn, so long as they are still contained by the weapon or embedded with it. The damage value will be listed in parentheses next to this property. Most Ongoing weapons are {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} weapons, but not always."
 					]
 				}
 			]
@@ -10609,6 +10618,14 @@
 	],
 	"itemMastery": [
 		{
+			"name": "Barrage",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, draw three pieces of Shurikens and throw them all at once. Choose one target in range to get hit by all three or throw in a 15-foot cone area. The target, or targets, must make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and attack modifier) or take {@damage 4d4} Piercing damage, disperse between all targets. If you choose one target and they make the save, they take half damage. If you choose the 15-foot cone and a target makes the save, they do not take any damage."
+			]
+		},
+		{
 			"name": "Bludgeon",
 			"source": "XPHB",
 			"page": 216,
@@ -10673,6 +10690,14 @@
 			]
 		},
 		{
+			"name": "Hidden",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make one ranged attack roll with this weapon against that you can see but cannot see you. The range of this attack is doubled and does not reveal your location to your target. On a hit, you deal normal weapon damage and the target can make a {@dc 15} Wisdom ({@skill Perception}) check in order to find the weapon or ammunition that hit it."
+			]
+		},
+		{
 			"name": "Hooked",
 			"source": "XPHB",
 			"page": 216,
@@ -10688,6 +10713,14 @@
 			"basicRules2024": true,
 			"entries": [
 				"{@i Maneuver.} This property only works on {@itemProperty L|XPHB|Light} weapons and regarding its off-hand extra attack benefit with {@action Two-Weapon Fighting}. You can make this extra attack as part of the {@action Attack|XPHB} action instead of as a {@variantrule Bonus Action|XPHB}. You can make this extra attack only once per turn."
+			]
+		},
+		{
+			"name": "Piercer",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Buff.} When targeting a creature wearing Medium or Heavy metal armor, their {@variantrule Armor Class|XPHB} is reduced by half of your {@variantrule Proficiency Bonus|XPHB} (round down) when you target them with this weapon for an attack roll. This does not work on magical armor, unless this weapon is also magical."
 			]
 		},
 		{
@@ -10749,6 +10782,14 @@
 			]
 		},
 		{
+			"name": "Twist",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Buff.} When you hit a creature with this weapon, you can \"twist\" the weapon as part of your attack. The creature must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and attack modifier) or you add one additional damage dice to the damage total."
+			]
+		},
+		{
 			"name": "Vex",
 			"source": "XPHB",
 			"page": 216,
@@ -10772,7 +10813,7 @@
 			"page": 216,
 			"entries": [
 				"{@i Maneuver.} This Mastery property applies only to net-like weapons that have the {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} property.",
-				"When you use this weapon's {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} property on an attack, you can forgo the condition when you target a Huge or smaller winged creature with a Fly speed. When that creature fails its saving throw, this weapon gets entangled in its wings only and its Fly speed drops to 0 until its freed. The escape DC and Armor class of the weapon increases by 5 due to the lack of accessibility the creature will have with its wings, however this increase is not applied when another creature helps by making the checks themselves."
+				"When you use this weapon's {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} property on an attack, you can forgo the condition when you target a Huge or smaller winged creature with a Fly speed. When that creature fails its saving throw, this weapon gets entangled in its wings only and its Fly speed drops to 0 until its freed. The escape DC and Armor class of the weapon increases by 5 due to the lack of accessibility the creature will have with its wings, however this increase is not applied when another creature helps by making the checks themselves. This mastery property still allows for any weapon damage to be applied per the rules of the @itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} property."
 			]
 		}
 	]

@@ -833,7 +833,7 @@
 			"name": "Basic Net",
 			"source": "XPHB",
 			"entries": [
-				"A Basic Net is like your standard Adventuring Gear {@item Net|XPHB}, however it often has various weights scattered throughout to make a creature's escape more difficult, and dealing a small amount of damage."
+				"{@i A Basic Net is like your standard Adventuring Gear {@item Net|XPHB}, however it often has various weights scattered throughout to make a creature's escape more difficult, and dealing a small amount of damage.}"
 			]
 		},
 		{
@@ -1843,7 +1843,7 @@
 			"name": "Cauv Agland",
 			"source": "XPHB",
 			"entries": [
-				"The Cauv Agland, translated from Dwarvish means {@i \"Spot Sword\"}, is a Dwarven Estoc Sword known for its heavy armor and scales piercing properties. Its hilt is a hand-and-a-half, with a 4 foot long blade. Sometimes it is referred to as a \"Tuck Sword\"."
+				"{@i The Cauv Agland, (\"Spot Sword\" in Dwarvish), is a Dwarven Estoc Sword known for its heavy armor and scales piercing properties. Its hilt is a hand-and-a-half, with a 4 foot long blade. Sometimes it is referred to as a \"Tuck Sword\".}"
 			]
 		},
 		{
@@ -3031,7 +3031,7 @@
 			"name": "Dikama",
 			"source": "XPHB",
 			"entries": [
-				"The Dikama, or Fang Blade, is a serrated curved dagger, often looking like an oversized lion's fang."
+				"{@i The Dikama, or Fang Blade, is a serrated curved dagger, often looking like an oversized lion's fang.}"
 			]
 		},
 		{
@@ -8388,7 +8388,7 @@
 			"name": "Nunchaku",
 			"source": "XPHB",
 			"entries": [
-				"Nunchakus, or commonly referred to as \"Nunchucks\" by non-Martial Arts practitioners, are unique {@itemProperty DM|XPHB|Double: Melee} weapons as the handle of the weapon is also the portion of the weapon that you attack with."
+				"{@i Nunchakus, or commonly referred to as \"Nunchucks\" by non-Martial Arts practitioners, are unique {@itemProperty DM|XPHB|Double: Melee} weapons as the handle of the weapon is also the portion of the weapon that you attack with.}"
 			]
 		},
 		{
@@ -11480,7 +11480,7 @@
 			"name": "Shuriken",
 			"source": "XPHB",
 			"entries": [
-				"A Shuriken is a flat throwing blade with 2 to 8 sharp points, each one with an equal distance from the weapon's center, where the wielder holds it with a pinch grip. Due to its expendable nature, it is often sold is packs but can be purchased individually. Lodging a group of shurikens in the ground can also act as {@item Caltrops|XPHB}."
+				"{@i A Shuriken is a flat throwing blade with 2 to 8 sharp points, each one with an equal distance from the weapon's center, where the wielder holds it with a pinch grip. Due to its expendable nature, it is often sold is packs but can be purchased individually. Lodging a group of shurikens in the ground can also act as {@item Caltrops|XPHB}.}"
 			]
 		},
 		{
@@ -11956,6 +11956,13 @@
 			"source": "XPHB",
 			"entries": [
 				"A Spiked Chain looks like two {@item Flail|XPHB|Flails} with various spikes along its chain, a smaller ball of spikes at each end, and with a thick non-spikey chain connecting the ends of the handles together. While this weapon is considered a Specialized Cultural Weapon for the Elven Community, this is predominetly only found within a small portion of the Elven Community, specically within the Drow, Shadar-Kai, and Wild Elven communities."
+			]
+		},
+		{
+			"name": "Spiked Net",
+			"source": "XPHB",
+			"entries": [
+				"A Spiked Net is like a {@item Basic Net|XPHB}, however, instead of the various knots and weights adding weight and bludgeoning damage, sharp spiked chains and other metal objects are incorporated into it, making it very difficult to escape without taking damage."
 			]
 		},
 		{
@@ -12496,7 +12503,7 @@
 			"name": "Stiletto",
 			"source": "XPHB",
 			"entries": [
-				"A Stiletto is a specialized {@item Dagger|XPHB} with a longer and thinner blade, remininsent of a {@item Rapier|XPHB}. This allows the Stiletto puncture through chain and plated armor easier than standard {@item Dagger|XPHB}."
+				"{@i A Stiletto is a specialized {@item Dagger|XPHB} with a longer and thinner blade, remininsent of a {@item Rapier|XPHB}. This allows the Stiletto puncture through chain and plated armor easier than standard {@item Dagger|XPHB}.}"
 			]
 		},
 		{
