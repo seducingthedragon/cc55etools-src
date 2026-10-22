@@ -1679,7 +1679,8 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Slow|XPHB"
+				"Slow|XPHB",
+				"Vex|XPHB"
 			],
 			"dmg1": "1d6",
 			"dmgType": "S",
@@ -1715,6 +1716,7 @@
 				"S|XPHB"
 			],
 			"mastery": [
+				"Barrage|XPHB",
 				"Vex|XPHB"
 			],
 			"dmg1": "1d4",
@@ -1931,7 +1933,7 @@
 			"ediiton": "one",
 			"type": "R|XPHB",
 			"rarity": "none",
-			"weight": 4,
+			"weight": 8,
 			"value": 10000,
 			"weaponCategory": "specialized",
 			"property": [
@@ -1941,21 +1943,21 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Slow|XPHB"
+				"Sap|XPHB",
+				"Stagger|XPHB"
 			],
 			"range": "250/500",
-			"dmg1": "1d10",
+			"dmg1": "1d12",
 			"dmgType": "P",
 			"bow": true,
 			"weapon": true,
 			"ammoType": "arrow|xphb",
 			"entries": [
-				"{@i This is a Strongbow, meaning that it uses Strength as its Attack and Damage ability, even though it is a Ranged weapon.}",
 				{
 					"type": "entries",
-					"name": "Special: Deadly Shot",
+					"name": "Special: Strongbow",
 					"entries": [
-						"As an {@variantrule Action|XPHB}, you can make a single ranged {@variantrule Weapon Attack|XPHB} against a target within range. On a hit, the target takes max damage."
+						"This is a Strongbow, meaning that it uses Strength as its Attack and Damage ability, even though it is a Ranged weapon."
 					]
 				}
 			],
@@ -3283,7 +3285,8 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Sap|XPHB"
+				"Sap|XPHB",
+				"Underdog|XPHB"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
@@ -3354,6 +3357,7 @@
 				"LD|XPHB"
 			],
 			"mastery": [
+				"Rapid Shot|XPHB",
 				"Vex|XPHB"
 			],
 			"range": "30/120",
@@ -3408,6 +3412,7 @@
 				"RLX|XPHB"
 			],
 			"mastery": [
+				"Spray|XPHB",
 				"Vex|XPHB"
 			],
 			"range": "20/80",
@@ -3564,7 +3569,8 @@
 				"2H|XPHB"
 			],
 			"mastery": [
-				"Push|XPHB"
+				"Push|XPHB",
+				"Snipe|XPHB"
 			],
 			"range": "100/400",
 			"dmg1": "1d10",
@@ -3621,7 +3627,8 @@
 				"2H|XPHB"
 			],
 			"mastery": [
-				"Push|XPHB"
+				"Push|XPHB",
+				"Spray|XPHB"
 			],
 			"range": "80/320",
 			"reload": 6,
@@ -4155,6 +4162,7 @@
 				"S|XPHB"
 			],
 			"mastery": [
+				"Barrage|XPHB",
 				"Vex|XPHB"
 			],
 			"dmg1": "1d4",
@@ -4582,7 +4590,8 @@
 				"2H|XPHB"
 			],
 			"mastery": [
-				"Slow|XPHB"
+				"Slow|XPHB",
+				"Snipe|XPHB"
 			],
 			"range": "80/320",
 			"dmg1": "1d8",
@@ -4718,7 +4727,8 @@
 				"RLX|XPHB"
 			],
 			"mastery": [
-				"Slow|XPHB"
+				"Slow|XPHB",
+				"Spray|XPHB"
 			],
 			"range": "65/260",
 			"reload": 6,
@@ -6138,6 +6148,7 @@
 				"S|XPHB"
 			],
 			"mastery": [
+				"Piercer|XPHB",
 				"Sap|XPHB"
 			],
 			"dmg1": "1d4",
@@ -10622,7 +10633,7 @@
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Maneuver.} As an {@variantrule Action|XPHB}, draw three pieces of Shurikens and throw them all at once. Choose one target in range to get hit by all three or throw in a 15-foot cone area. The target, or targets, must make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and attack modifier) or take {@damage 4d4} Piercing damage, disperse between all targets. If you choose one target and they make the save, they take half damage. If you choose the 15-foot cone and a target makes the save, they do not take any damage."
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, use this weapon's Multi-Draw and throw them all drawn weapons at once. Choose one target in range to get hit by all three or throw in a 15-foot cone area. The target, or targets, must make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and attack modifier) or take {@damage 4d4} weapon damage plus your attack modifier, disperse between all targets. If you choose one target and they make the save, they take half damage. If you choose the 15-foot cone and a target makes the save, they do not take any damage."
 			]
 		},
 		{
@@ -10744,6 +10755,14 @@
 			]
 		},
 		{
+			"name": "Rapid Shot",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} After you have used your {@variantrule Action|XPHB} to make attacks with this weapon, you can use your {@variantrule Bonus Action|XPHB} to rapidly reload this weapon and make another attack, targeting a creature within range, risking accuracy. You make this attack with {@variantrule Disadvantage|XPHB} but gain a bonus to your damage roll equal to your {@variantrule Proficiency Bonus|XPHB} on a hit."
+			]
+		},
+		{
 			"name": "Sap",
 			"source": "XPHB",
 			"page": 216,
@@ -10772,6 +10791,30 @@
 			]
 		},
 		{
+			"name": "Snipe",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Buff.} At the end of a turn where you did not move, you can use your {@variantrule Bonus Action|XPHB} to focus your aim on one target within range, as if you were {@status Concentration|XPHB|Concentrating} on a spell. You gain {@variantrule Advantage|XPHB} on your next attack roll on your next turn against that target. If the target moves 5 feet out from their spot up until the end of their turn, you can forgo the {@variantrule Advantage|XPHB} to use your {@variantrule Reaction|XPHB} and make a Ranged {@action Opportunity Attack|XPHB}. On a hit, regardless of how you attack, you deal damage as if it were a {@variantrule Critical Hit|XPHB}. If you are hit with an attack and lose {@status Concentration|XPHB}, you lose out on these benefits."
+			]
+		},
+		{
+			"name": "Spray",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can empty out your entire clip, magazine, or other container holding the ammunition for this {@itemProperty RLX|XPHB|Reload} (or {@itemProperty RLD|XDMG|Reload} for DMG items) weapon, causing you to attack with wild inaccuracy. Targets within this weapon's normal range in a {@variantrule Cone [Area of Effect]|XPHB|Cone AOE} must make a Wisdom Saving Throw ({@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your attack modifier). On a failed save, the target has {@variantrule Disadvantage|XPHB} on attack rolls that do not target you, until the end of its turn."
+			]
+		},
+		{
+			"name": "Stagger",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make a single ranged weapon attack. On a hit, the targt takes full weapon damage and must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your attack modifier). On a failed save, the target's speed is reduced to 0 until the end of its turn."
+			]
+		},
+		{
 			"name": "Topple",
 			"source": "XPHB",
 			"page": 216,
@@ -10787,6 +10830,14 @@
 			"page": 216,
 			"entries": [
 				"{@i Buff.} When you hit a creature with this weapon, you can \"twist\" the weapon as part of your attack. The creature must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and attack modifier) or you add one additional damage dice to the damage total."
+			]
+		},
+		{
+			"name": "Underdog",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make a single weapon attack against a creature at least 1 size category larger than you. On a hit, this attack deals the normal weapon damage plus an additional {@damage 1d4} Bludgeoning damage per size category difference."
 			]
 		},
 		{

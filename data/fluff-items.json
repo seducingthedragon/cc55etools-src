@@ -1912,14 +1912,14 @@
 			"name": "Chakram",
 			"source": "XPHB",
 			"entries": [
-				"A Chakram is a bladed disk with a central opening for improved aerodynamics. In its most simplistic form, it is extremely concealable, while providing a longer range for thrown weapons. When thrown, it \"vanishes\" in the air, similarly to a Shuriken, making it nearly impossible to track before it reaches its target."
+				"{@i A Chakram is a bladed disk with a central opening for improved aerodynamics. In its most simplistic form, it is extremely concealable, while providing a longer range for thrown weapons. When thrown, it \"vanishes\" in the air, similarly to a Shuriken, making it nearly impossible to track before it reaches its target.}"
 			]
 		},
 		{
 			"name": "Chakri",
 			"source": "XPHB",
 			"entries": [
-				"Chakri is a smaller and lighter version of the Ckakram. Due to its smaller size, its range is reduce but you can draw more Chakri on one draw and potentially wear it on your wrists while remaining unarmed."
+				"{@i Chakri is a smaller and lighter version of the Ckakram. Due to its smaller size, its range is reduce but you can draw more Chakri on one draw and potentially wear it on your wrists while remaining unarmed.}"
 			]
 		},
 		{
@@ -2277,7 +2277,7 @@
 			"name": "Composite Bow",
 			"source": "XPHB",
 			"entries": [
-				"The Composite Bow has a unique construction that gives it an incredibly heavy draw while often with an overall size between the Longbow and the Shortbow. This bow has the farthest normal range of any other bow, however due to that Strength-based draw, its long range is only twice its normal range instead of the usual three to four times that length."
+				"{@i The Composite Bow has a unique construction that gives it an incredibly heavy draw while often with an overall size between the Longbow and the Shortbow. The heavy draw allows for far normal range and deadly hits.}"
 			]
 		},
 		{
@@ -5097,7 +5097,7 @@
 			"name": "Halfling Skiprock",
 			"source": "XPHB",
 			"entries": [
-				"Halfling Skiprocks, also known as Skiprocks, were specially made, polished stone projectiles invented by Halfling weaponsmiths and became prized by members of various Smallfolk communities. Skiprocks were finely weighted and shaped to ensure they were perfect for throwing. If thrown well enough, after hitting a target they would typically ricochet and hit another, taking inspiration from river pebbles."
+				"{@i Halfling Skiprocks, also known as Skiprocks, were specially made, polished stone projectiles invented by Halfling weaponsmiths and became prized by members of various Smallfolk communities. Skiprocks were finely weighted and shaped to ensure they were perfect for throwing. If thrown well enough, after hitting a target they would typically ricochet and hit another, taking inspiration from river pebbles.}"
 			]
 		},
 		{
@@ -5181,7 +5181,7 @@
 			"name": "Hand Double Crossbow",
 			"source": "XPHB",
 			"entries": [
-				"Double Crossbows give the appearance of two crossbows built on top of each other, which is essentially correct. You load one bolt above another and the trigger has another trigger placed ahead of it, allowing you to fire each section individually. This expansion is done so in a way that does not require a separate proficiency with the weapon, with the Light Double Crossbow being the exception, allowing for some of the benefits of a repeating weapon but without its drawback of a signficantly longer reload time."
+				"{@i Double Crossbows give the appearance of two crossbows built on top of each other, which is essentially correct. You load one bolt above another and the trigger has another trigger placed ahead of it, allowing you to fire each section individually. This expansion is done so in a way that does not require a separate proficiency with the weapon, with the Light Double Crossbow being the exception, allowing for some of the benefits of a repeating weapon but without its drawback of a signficantly longer reload time.}"
 			]
 		},
 		{
@@ -5211,7 +5211,7 @@
 			"name": "Hand Repeating Crossbow",
 			"source": "XPHB",
 			"entries": [
-				"Repeating Crossbows are altered crossbows that allows for a cartridge of bolts to be attached. There are also additional parts that aid in the retracting of the bow string in order to instantly load a new bolt for another attack. Due to these changes, all Repeating Crossbows are Specialized weapons."
+				"{@i Repeating Crossbows are altered crossbows that allows for a cartridge of bolts to be attached. There are also additional parts that aid in the retracting of the bow string in order to instantly load a new bolt for another attack. Due to these changes, all Repeating Crossbows are Specialized weapons.}"
 			]
 		},
 		{
@@ -6803,7 +6803,7 @@
 			"name": "Kunai",
 			"source": "XPHB",
 			"entries": [
-				"A Kunai is a dagger-like weapon that originated as a multipurpose gardening tool before evolving to its primarily weapon-like form. As a weapon, it has a leaf-shaped wrought blade, lacks a cross-guard, with a grip often wrapped in rope, and an O-Ring styled pommel whose diameter is wider than the grip. While it is commonly perceived as a ranged weapon, like a dart, those proficient with this weapon understands its melee purpose."
+				"{@i A Kunai is a dagger-like weapon that originated as a multipurpose gardening tool before evolving to its primarily weapon-like form. As a weapon, it has a leaf-shaped wrought blade, lacks a cross-guard, with a grip often wrapped in rope, and an O-Ring styled pommel whose diameter is wider than the grip. While it is commonly perceived as a ranged weapon, like a dart, those proficient with this weapon understands its melee purpose.}"
 			]
 		},
 		{
@@ -9275,7 +9275,7 @@
 			"name": "Punch Dagger",
 			"source": "XPHB",
 			"entries": [
-				"With a blade as wide as a sword, yet as long as a dagger, this weapon is affixed to a base with a handle that when held, lays the blade in a way that appears as if it were jetting out of ones knuckles."
+				"{@i With a blade as wide as a sword, yet as long as a dagger, this weapon is affixed to a base with a handle that when held, lays the blade in a way that appears as if it were jetting out of ones knuckles. It is also known as a Katar.}"
 			]
 		},
 		{
@@ -11560,13 +11560,6 @@
 					"width": 474,
 					"height": 346
 				}
-			]
-		},
-		{
-			"name": "Skiprock",
-			"source": "XPHB",
-			"entries": [
-				"A Skiprock was traditionally a smooth river pebble used for games within Halfling communities. It eventually grew to become competitive games involving families carving their engravings on one side in order to distinguish it from others. As the games grew, masoners began crafting formal Skiprocks in order to create some form of standard for the tool. It eventually became to be used as a weapon in order to \"skip\" between targets, hitting multiple with one throw. Skiprocks are now used as game materials, thrown weapons, and replacement ammunition for slings and slingshots."
 			]
 		},
 		{

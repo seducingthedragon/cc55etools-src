@@ -8856,7 +8856,7 @@
 										"{@item Light Crossbow|XPHB}",
 										"{@dice 1d8} Piercing",
 										"{@itemProperty A|XPHB|Ammunition} (Range 80/320; Bolt), {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Slow}",
+										"{@itemMastery Slow}, {@itemMastery Snipe}",
 										"5 lb.",
 										"25 GP"
 									]
@@ -9158,7 +9158,7 @@
 										"{@item Hand Crossbow|XPHB}",
 										"{@dice 1d6} Piercing",
 										"{@itemProperty A|XPHB|Ammunition} (Range 30/120; Bolt), {@itemProperty L|XPHB|Light}, {@itemProperty LD|XPHB|Loading}",
-										"{@itemMastery Vex}",
+										"{@itemMastery Rapid Shot}, {@itemMastery Vex}",
 										"3 lb.",
 										"75 GP"
 									]
@@ -9182,7 +9182,7 @@
 										"{@item Heavy Crossbow|XPHB}",
 										"{@dice 1d10} Piercing",
 										"{@itemProperty A|XPHB|Ammunition} (Range 100/400; Bolt), {@itemProperty H|XPHB|Heavy}, {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Push}",
+										"{@itemMastery Push}, {@itemMastery Snipe}",
 										"18 lb.",
 										"50 GP"
 									]
@@ -9321,7 +9321,7 @@
 										"{@item Chakram|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d6} Slashing",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 80/320), Special",
-										"{@itemMastery Slow}",
+										"{@itemMastery Slow}, {@itemMastery Vex}",
 										"1 lb.",
 										"7 GP"
 									]
@@ -9333,7 +9333,7 @@
 										"{@item Chakri|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Slashing",
 										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 40/160), Special",
-										"{@itemMastery Vex}",
+										"{@itemMastery Barrage}, {@itemMastery Vex}",
 										"0.5 lb.",
 										"5 GP"
 									]
@@ -9453,7 +9453,7 @@
 										"{@item Kunai|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Piercing",
 										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
-										"{@itemMastery Vex}",
+										"{@itemMastery Barrage}, {@itemMastery Vex}",
 										"0.5 lb.",
 										"5 SP"
 									]
@@ -9489,7 +9489,7 @@
 										"{@item Punch Dagger|XPHB}",
 										"{@dice 1d4} Piercing",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty UA|XPHB|\"Unarmed\"}, Special",
-										"{@itemMastery Sap}",
+										"{@itemMastery Piercer}, {@itemMastery Sap}",
 										"1 lb.",
 										"5 GP"
 									]
@@ -9590,10 +9590,10 @@
 									"style": "row-indent-first",
 									"row": [
 										"{@item Composite Bow|XPHB}",
-										"{@dice 1d10} Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 200/600; Arrow), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
-										"{@itemMastery Slow}",
-										"4 lb.",
+										"{@dice 1d12} Piercing",
+										"{@itemProperty A|XPHB|Ammunition} (Range 250/500; Arrow), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
+										"{@itemMastery Sap}, {@itemMastery Stagger}",
+										"8 lb.",
 										"100 GP"
 									]
 								},
@@ -9604,7 +9604,7 @@
 										"{@item Halfling Skiprocks|XPHB}",
 										"{@dice 1d4} Bludgeoning",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 10/40), Special",
-										"{@itemMastery Sap}",
+										"{@itemMastery Sap}, {@itemMastery Underdog}",
 										"0.25 lb.",
 										"3 GP"
 									]
@@ -9616,7 +9616,7 @@
 										"{@item Hand Repeating Crossbow|XPHB}",
 										"{@dice 1d6} Piercing",
 										"{@itemProperty A|XPHB|Ammunition} (Range 20/80; Bolt), {@itemProperty L|XPHB|Light}, {@itemProperty MF|XPHB|Misfire}, {@itemProperty RLX|XPHB|Reload}",
-										"{@itemMastery Vex}",
+										"{@itemMastery Spray}, {@itemMastery Vex}",
 										"3.5 lb.",
 										"150 GP"
 									]
@@ -9628,7 +9628,7 @@
 										"{@item Heavy Repeating Crossbow|XPHB}",
 										"{@dice 1d10} Piercing",
 										"{@itemProperty A|XPHB|Ammunition} (Range 80/320; Bolt), {@itemProperty H|XPHB|Heavy}, {@itemProperty MF|XPHB|Misfire}, {@itemProperty RLX|XPHB|Reload}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Push}",
+										"{@itemMastery Push}, {@itemMastery Spray}",
 										"20 lb.",
 										"200 GP"
 									]
@@ -9652,7 +9652,7 @@
 										"{@item Light Repeating Crossbow|XPHB}",
 										"{@dice 1d8} Piercing",
 										"{@itemProperty A|XPHB|Ammunition} (Range 65/260; Bolt), {@itemProperty MF|XPHB|Misfire}, {@itemProperty RLX|XPHB|Reload}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Slow}",
+										"{@itemMastery Slow}, {@itemMastery Spray}",
 										"6 lb.",
 										"75 GP"
 									]
@@ -10160,13 +10160,43 @@
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
+									"name": "Rapid Shot",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
 									"name": "Shield",
 									"style": "inset"
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
+									"name": "Snipe",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Spray",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Stagger",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
 									"name": "Twist",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Underdog",
 									"style": "inset"
 								},
 								{
@@ -20145,7 +20175,7 @@
 									"type": "item",
 									"name": "{@item Chakram|XPHB} {@i Cultural (Monks)}",
 									"entries": [
-										"A Chakram is a bladed disk with a central opening for improved aerodynamics. In its most simplistic form, it is extremely concealable, while providing a longer range for thrown weapons. When thrown, it \"vanishes\" in the air, similarly to a Shuriken, making it nearly impossible to track before it reaches its target.",
+										"{@i A Chakram is a bladed disk with a central opening for improved aerodynamics. In its most simplistic form, it is extremely concealable, while providing a longer range for thrown weapons. When thrown, it \"vanishes\" in the air, similarly to a Shuriken, making it nearly impossible to track before it reaches its target.}",
 										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Chakram as part of your {@action Attack|XPHB} action, you can draw two Chakrams on one draw, while attacking with one weapon per {@action Attack|XPHB}."
 									]
 								},
@@ -20153,7 +20183,7 @@
 									"type": "item",
 									"name": "{@item Chakri|XPHB} {@i Cultural (Monks)}",
 									"entries": [
-										"Chakri is a smaller and lighter version of the Ckakram. Due to its smaller size, its range is reduce but you can draw more Chakri on one draw and potentially wear it on your wrists while remaining unarmed.",
+										"{@i Chakri is a smaller and lighter version of the Ckakram. Due to its smaller size, its range is reduce but you can draw more Chakri on one draw and potentially wear it on your wrists while remaining unarmed.}",
 										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Chakri as part of your {@action Attack|XPHB} action, you can draw three Chakris on one draw, while attacking with one weapon per {@action Attack|XPHB}."
 									]
 								},
@@ -20161,9 +20191,8 @@
 									"type": "item",
 									"name": "{@item Composite Bow|XPHB}",
 									"entries": [
-										"The Composite Bow has a unique construction that gives it an incredibly heavy draw while often with an overall size between the Longbow and the Shortbow. This bow has the farthest normal range of any other bow, however due to that Strength-based draw, its long range is only twice its normal range instead of the usual three to four times that length.",
-										"{@i This is a Strongbow, meaning that it uses Strength as its Attack and Damage ability, even though it is a Ranged weapon.}",
-										"{@b {@i Special: Deadly Shot}} As an {@variantrule Action|XPHB}, you can make a single ranged {@variantrule Weapon Attack|XPHB} against a target within range. On a hit, the target takes max damage."
+										"{@i The Composite Bow has a unique construction that gives it an incredibly heavy draw while often with an overall size between the Longbow and the Shortbow. The heavy draw allows for far normal range and deadly hits.}",
+										"{@b {@i Special: Strongbow.}} This is a Strongbow, meaning that it uses Strength as its Attack and Damage ability, even though it is a Ranged weapon."
 									]
 								},
 								{
@@ -20174,7 +20203,7 @@
 								{
 									"type": "item",
 									"name": "Double Crossbow ({@item Hand Double Crossbow|XPHB|Hand}, {@item Heavy Double Crossbow|XPHB|Heavy}, and {@item Light Double Crossbow|XPHB|Light})",
-									"entry": "Double Crossbows give the appearance of two crossbows built on top of each other, which is essentially correct. You load one bolt above another and the trigger has another trigger placed ahead of it, allowing you to fire each section individually. This expansion is done so in a way that does not require a separate proficiency with the weapon, with the Light Double Crossbow being the exception, allowing for some of the benefits of a repeating weapon but without its drawback of a signficantly longer reload time."
+									"entry": "{@i Double Crossbows give the appearance of two crossbows built on top of each other, which is essentially correct. You load one bolt above another and the trigger has another trigger placed ahead of it, allowing you to fire each section individually. This expansion is done so in a way that does not require a separate proficiency with the weapon, with the Light Double Crossbow being the exception, allowing for some of the benefits of a repeating weapon but without its drawback of a signficantly longer reload time.}"
 								},
 								{
 									"type": "item",
@@ -20222,7 +20251,7 @@
 									"type": "item",
 									"name": "{@item Halfling Skiprocks|XPHB} {@i Cultural (Smallfolk)}",
 									"entries": [
-										"Halfling Skiprocks, also known as Skiprocks, were specially made, polished stone projectiles invented by Halfling weaponsmiths and became prized by members of various Smallfolk communities. Skiprocks were finely weighted and shaped to ensure they were perfect for throwing. If thrown well enough, after hitting a target they would typically ricochet and hit another, taking inspiration from river pebbles.",
+										"{@i Halfling Skiprocks, also known as Skiprocks, were specially made, polished stone projectiles invented by Halfling weaponsmiths and became prized by members of various Smallfolk communities. Skiprocks were finely weighted and shaped to ensure they were perfect for throwing. If thrown well enough, after hitting a target they would typically ricochet and hit another, taking inspiration from river pebbles.}",
 										"Halfling Skiprocks are sold in packs of 20. While they can be used as Ammunition for {@item Sling|XPHB|Slings}, they do not benefit from its Ricochet property.",
 										"{@b {@i Special: Ricochet.}} When you hit a target with this weapon by throwing it, it will ricochet back to you. If you rolled an 18 or higher on the attack die, you can choose to have it return to you or it can ricochet to another target within 5 feet of its first target. Make another attack roll for the second target. On a hit, the skiprock will ricochet back to you. You do not add your ability modifier to the damage roll of the second target, unless the modifier is negative."
 									]
@@ -20254,7 +20283,7 @@
 									"type": "item",
 									"name": "{@item Kunai|XPHB} {@i Cultural (Monks)}",
 									"entries": [
-										"A Kunai is a dagger-like weapon that originated as a multipurpose gardening tool before evolving to its primarily weapon-like form. As a weapon, it has a leaf-shaped wrought blade, lacks a cross-guard, with a grip often wrapped in rope, and an O-Ring styled pommel whose diameter is wider than the grip. While it is commonly perceived as a ranged weapon, like a dart, those proficient with this weapon understands its melee purpose.",
+										"{@i A Kunai is a dagger-like weapon that originated as a multipurpose gardening tool before evolving to its primarily weapon-like form. As a weapon, it has a leaf-shaped wrought blade, lacks a cross-guard, with a grip often wrapped in rope, and an O-Ring styled pommel whose diameter is wider than the grip. While it is commonly perceived as a ranged weapon, like a dart, those proficient with this weapon understands its melee purpose.}",
 										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Kunai as part of your {@action Attack|XPHB} action, you can draw two Kunais on one draw, while attacking with one weapon per {@action Attack|XPHB}."
 									]
 								},
@@ -20279,8 +20308,13 @@
 								},
 								{
 									"type": "item",
+									"name": "{@item Punch Dagger|XPHB}",
+									"entry": "{@i With a blade as wide as a sword, yet as long as a dagger, this weapon is affixed to a base with a handle that when held, lays the blade in a way that appears as if it were jetting out of ones knuckles. It is also known as a Katar.}"
+								},
+								{
+									"type": "item",
 									"name": "Repeating Crossbows ({@item Hand Repeating Crossbow|XPHB|Hand}, {@item Heavy Repeating Crossbow|XPHB|Heavy}, and {@item Light Repeating Crossbow|XPHB|Light)}",
-									"entry": "Repeating Crossbows are altered crossbows that allows for a cartridge of bolts to be attached. There are also additional parts that aid in the retracting of the bow string in order to instantly load a new bolt for another attack. Due to these changes, all Repeating Crossbows are Specialized weapons."
+									"entry": "{@i Repeating Crossbows are altered crossbows that allows for a cartridge of bolts to be attached. There are also additional parts that aid in the retracting of the bow string in order to instantly load a new bolt for another attack. Due to these changes, all Repeating Crossbows are Specialized weapons.}"
 								},
 								{
 									"type": "item",
