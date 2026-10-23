@@ -671,6 +671,7 @@
 				"V|XPHB"
 			],
 			"mastery": [
+				"Non-Lethal|XPHB",
 				"Sap|XPHB"
 			],
 			"dmg1": "1d6",
@@ -850,6 +851,7 @@
 				"UA|XPHB"
 			],
 			"mastery": [
+				"Nick|XPHB",
 				"Sap|XPHB"
 			],
 			"dmg1": "1d4",
@@ -1943,6 +1945,7 @@
 				"S|XPHB"
 			],
 			"mastery": [
+				"Pin|XPHB",
 				"Sap|XPHB",
 				"Stagger|XPHB"
 			],
@@ -2395,7 +2398,9 @@
 				"A|XPHB"
 			],
 			"mastery": [
-				"Vex|XPHB"
+				"Graze|XPHB",
+				"Pin|XPHB",
+				"Trick Shot|XPHB"
 			],
 			"dmg1": "1d8",
 			"dmgType": "P",
@@ -2455,7 +2460,8 @@
 				"DM|XPHB"
 			],
 			"mastery": [
-				"Vex|XPHB"
+				"Burst|XPHB",
+				"Set|XPHB"
 			],
 			"dmg1": "2d6",
 			"dmgType": "S",
@@ -2669,7 +2675,7 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Slow|XPHB"
+				"Sap|XPHB"
 			],
 			"weapon": true,
 			"entries": [
@@ -2916,7 +2922,8 @@
 				"2H|XPHB"
 			],
 			"mastery": [
-				"Topple|XPHB"
+				"Topple|XPHB",
+				"Underdog|XPHB"
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
@@ -3366,63 +3373,8 @@
 			"crossbow": true,
 			"weapon": true,
 			"ammoType": "bolt|xphb",
+			"hasFluff": true,
 			"hasFluffImages": true
-		},
-		{
-			"name": "Hand Double Crossbow",
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "R|XPHB",
-			"rarity": "none",
-			"weight": 3.25,
-			"value": 12500,
-			"weaponCategory": "martial",
-			"property": [
-				"A|XPHB",
-				"DR|XPHB",
-				"L|XPHB",
-				"LD|XPHB"
-			],
-			"mastery": [
-				"Vex|XPHB"
-			],
-			"range": "25/100",
-			"dmg1": "1d6",
-			"dmgType": "P",
-			"crossbow": true,
-			"weapon": true,
-			"ammoType": "bolt|xphb",
-			"hasFluff": true
-		},
-		{
-			"name": "Hand Repeating Crossbow",
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "R|XPHB",
-			"rarity": "none",
-			"weight": 3.5,
-			"value": 15000,
-			"weaponCategory": "specialized",
-			"property": [
-				"A|XPHB",
-				"MF|XPHB",
-				"L|XPHB",
-				"RLX|XPHB"
-			],
-			"mastery": [
-				"Spray|XPHB",
-				"Vex|XPHB"
-			],
-			"range": "20/80",
-			"reload": 4,
-			"dmg1": "1d6",
-			"dmgType": "P",
-			"crossbow": true,
-			"weapon": true,
-			"ammoType": "bolt|xphb",
-			"hasFluff": true
 		},
 		{
 			"name": "Hand Drum",
@@ -3656,6 +3608,7 @@
 				"S|XPHB"
 			],
 			"mastery": [
+				"Punch|XPHB",
 				"Vex|XPHB"
 			],
 			"dmg1": "1d4",
@@ -3730,7 +3683,8 @@
 				"VH|XPHB"
 			],
 			"mastery": [
-				"Sap|XPHB"
+				"Sap|XPHB",
+				"Slow|XPHB"
 			],
 			"dmg1": "2d6",
 			"dmgType": "B",
@@ -3809,7 +3763,8 @@
 				"F|XPHB"
 			],
 			"mastery": [
-				"Push|XPHB"
+				"Sap|XPHB",
+				"Underdog|XPHB"
 			],
 			"range": "40/160",
 			"dmg1": "1d6",
@@ -3817,6 +3772,9 @@
 			"dmg2": "1d4 Bludgeoning",
 			"weapon": true,
 			"ammoType": "sling bullets|xphb",
+			"entries": [
+				"Regardless of what side of this weapon is used, the {@itemMastery Sap|XPHB} weapon mastery can be applied. When making ranged weapon attacks with this weapon, you can utilize the {@itemMastery Underdog|XPHB} weapon mastery."
+			],
 			"hasFluff": true
 		},
 		{
@@ -3914,11 +3872,12 @@
 			"value": 300,
 			"weaponCategory": "specialized",
 			"property": [
+				"B|XPHB",
 				"T|XPHB",
 				"V|XPHB"
 			],
 			"mastery": [
-				"Bludgeon|XPHB",
+				"Non-Lethal|XPHB",
 				"Topple|XPHB"
 			],
 			"range": "20/60",
@@ -4134,6 +4093,8 @@
 				"V|XPHB"
 			],
 			"mastery": [
+				"Bleeder|XPHB",
+				"Set|XPHB",
 				"Vex|XPHB"
 			],
 			"dmg1": "1d8",
@@ -4790,6 +4751,8 @@
 				"2H|XPHB"
 			],
 			"mastery": [
+				"Dual Shot|XPHB",
+				"Pin|XPHB",
 				"Slow|XPHB"
 			],
 			"range": "150/600",
@@ -5329,6 +5292,7 @@
 				"L|XPHB"
 			],
 			"mastery": [
+				"Burst|XPHB",
 				"Shield|XPHB",
 				"Vex|XPHB"
 			],
@@ -5342,7 +5306,7 @@
 					"type": "entries",
 					"name": "Properties per Form",
 					"entries": [
-						"The Two Forms, {@u Joined} and {@u Split}, are described below. This weapon can also use any of its Mastery properties with either form.",
+						"The Two Forms, {@u Joined} and {@u Split}, are described below.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -5351,19 +5315,19 @@
 									"type": "item",
 									"nameDot": false,
 									"name": "Regardless of form,",
-									"entry": "this weapon always has the following properties: {@b {@itemProperty 2F|XPHB|Two Forms}} and {@b {@itemProperty FL|XPHB|Flourish}}."
+									"entry": "this weapon always has the following properties: {@b {@itemProperty 2F|XPHB|Two Forms}} and {@b {@itemProperty FL|XPHB|Flourish}}. Additionally, this weapon also has access to its {@itemMastery Shield|XPHB} mastery property regardless of form."
 								},
 								{
 									"type": "item",
 									"nameDot": false,
 									"name": "The {@u Joined} form",
-									"entry": "presents similarly to a {@item Dual Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty DM|XPHB|Double: Melee}}."
+									"entry": "presents similarly to a {@item Dual Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty DM|XPHB|Double: Melee}}. This form uses the {@itemMastery Burst|XPHB} mastery property."
 								},
 								{
 									"type": "item",
 									"nameDot": false,
 									"name": "The {@u Split} form",
-									"entry": "presents as two {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}."
+									"entry": "presents as two {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}. This form uses the {@itemMastery Vex|XPHB} mastery property."
 								}
 							]
 						}
@@ -6471,6 +6435,8 @@
 				"L|XPHB"
 			],
 			"mastery": [
+				"Disarm|XPHB",
+				"Piercer|XPHB",
 				"Vex|XPHB"
 			],
 			"dmg1": "1d4",
@@ -6494,6 +6460,8 @@
 				"L|XPHB"
 			],
 			"mastery": [
+				"Crush|XPHB",
+				"Disarm|XPHB",
 				"Sap|XPHB"
 			],
 			"dmg1": "1d4",
@@ -6624,7 +6592,8 @@
 				"R|XPHB"
 			],
 			"mastery": [
-				"Cleave|XPHB"
+				"Cleave|XPHB",
+				"Topple|XPHB"
 			],
 			"dmg1": "1d8",
 			"dmgType": "S",
@@ -6826,6 +6795,8 @@
 				"2H|XPHB"
 			],
 			"mastery": [
+				"Pin|XPHB",
+				"Trick Shot|XPHB",
 				"Vex|XPHB"
 			],
 			"range": "80/320",
@@ -7493,6 +7464,7 @@
 				"R|XPHB"
 			],
 			"mastery": [
+				"Disarm|XPHB",
 				"Sap|XPHB"
 			],
 			"dmg1": "2d4",
@@ -8028,7 +8000,8 @@
 				"2H|XPHB"
 			],
 			"mastery": [
-				"Graze|XPHB"
+				"Cleave|XPHB",
+				"Topple|XPHB"
 			],
 			"dmg1": "1d8",
 			"dmgType": "S",
@@ -8177,7 +8150,8 @@
 				"V|XPHB"
 			],
 			"mastery": [
-				"Cleave|XPHB"
+				"Cleave|XPHB",
+				"Graze|XPHB"
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
@@ -8731,7 +8705,7 @@
 					"type": "entries",
 					"name": "Two Forms",
 					"entries": [
-						"This weapon can change its form. A weapon with two forms may not have all of its listed weapon properties all the time. See the weapon's specific details for confirmation on which weapon properties are related to which form. Most commonly, a weapon with two forms can be separated from one weapon into two. Splitting a weapon takes a {@action Free Object Interaction|XPHB} while rejoining them takes a {@variantrule Bonus Action|XPHB}. If a two-formed weapon does not follow this general rule, it will be specified with its paired properties."
+						"This weapon can change its form. A weapon with two forms may not have all of its listed weapon properties, or mastery properties, all the time. See the weapon's specific details for confirmation on which weapon properties are related to which form. Most commonly, a weapon with two forms can be separated from one weapon into two. Splitting a weapon takes a {@action Free Object Interaction|XPHB} while rejoining them takes a {@variantrule Bonus Action|XPHB}. If a two-formed weapon does not follow this general rule, it will be specified with its paired properties."
 					]
 				}
 			]
@@ -8842,6 +8816,21 @@
 			]
 		},
 		{
+			"abbreviation": "B",
+			"source": "XPHB",
+			"page": 213,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Bludgeon",
+					"entries": [
+						"Bludgeon weapons are weapon that have either, Piercing or Slashing, listed as its primary damage type, but can do Bludgeoning damage, without being a Double weapon. When you make an attack with this weapon, you can choose between its listed damage type or Bludgeoning damage, using the list damage die size."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "BF",
 			"source": "DMG",
 			"page": 267,
@@ -8908,7 +8897,7 @@
 									"type": "item",
 									"nameDot": false,
 									"name": "A Double: Both",
-									"entry": "weapon is a weapon that can make a melee attack from one end and a ranged attack, using {@itemProperty A|XPHB|Ammunition}, from the other. The damage provided next to this weapon property is for its Ranged side. This weapon ignores the improvised weapon condition, that is part of the {@itemProperty A|XPHB|Ammunition} property, when making its melee attacks. This weapon also uses the same Mastery property regardless of how you attack with it."
+									"entry": "weapon is a weapon that can make a melee attack from one end and a ranged attack, using {@itemProperty A|XPHB|Ammunition}, from the other. The damage provided next to this weapon property is for its Ranged side. This weapon ignores the improvised weapon condition, that is part of the {@itemProperty A|XPHB|Ammunition} property, when making its melee attacks."
 								}
 							]
 						}
@@ -10637,6 +10626,14 @@
 			]
 		},
 		{
+			"name": "Bleeder",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Buff.} This weapon makes a {@variantrule Critical Hit|XPHB} on a roll of 19 or 20. When this weapon {@variantrule Critical Hit|XPHB|Crits}, you cause the wound to constantly bleed out. At the start of each of its turn, it takes Slashing damage equal to your {@variantrule Proficiency Bonus|XPHB} until the target is healed ({@variantrule Temporary Hit Points|XPHB|Temp HP} not included) or it uses its Action to make a {@dc 12} Wisdom ({@skill Medicine}) check."
+			]
+		},
+		{
 			"name": "Bludgeon",
 			"source": "XPHB",
 			"page": 216,
@@ -10649,7 +10646,7 @@
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can force all adjacent creatures to make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your weapon's Ability modifier). On a failed save, a target takes the weapon's damage plus your {@variantrule Proficiency Bonus|XPHB}. On a save, a target takes half damage."
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can force all adjacent creatures to make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your weapon's Ability modifier). On a failed save, a target takes the weapon's damage plus your {@variantrule Proficiency Bonus|XPHB} and attack modifier. On a save, a target takes half damage."
 			]
 		},
 		{
@@ -10691,13 +10688,21 @@
 			]
 		},
 		{
+			"name": "Dual Shot",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} Once per turn when you take the {@action Attack|XPHB} action, you can replace one of your attacks with a Dual Shot. You target two creatures within half of this weapon's normal range that are within 25 feet of each other. Make a separate attack roll for each target. You roll damage for this weapon as normal but only once. On a hit, a target takes half of that damage. Any bonus damage or other effects will only apply to one target of your choosing."
+			]
+		},
+		{
 			"name": "Graze",
 			"source": "XPHB",
 			"page": 216,
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"{@i Buff.} If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier."
+				"{@i Buff.} If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier. If you miss with a Nat 1, this property is not applied."
 			]
 		},
 		{
@@ -10727,6 +10732,14 @@
 			]
 		},
 		{
+			"name": "Non-Lethal",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Buff.} When you drop a target down to 0 {@variantrule Hit Points|XPHB} with this weapon dealing Bludgeoning damage, the target falls {@condition Unconscious|XPHB} yet {@variantrule Stable|XPHB}."
+			]
+		},
+		{
 			"name": "Piercer",
 			"source": "XPHB",
 			"page": 216,
@@ -10741,7 +10754,15 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"{@i Maneuver.} When you make an attack roll with this weapon and hit a Large or smaller creature, you can attempt to pin them to a nearby (5 feet) surface. On a hit, the target must make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice), The DC is {@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your Attack Modifier. On a failed save, the target is pinned, via {@condition Restrained|XPHB} condition, until the weapon is removed. The target can use an {@variantrule Action|XPHB} on their turn to attempt to remove the weapon."
+				"{@i Maneuver.} When you make an attack roll with this weapon and hit a Large or smaller creature, you can attempt to pin them to a nearby (5 feet) surface. On a hit, the target must make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice), The DC is {@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your Attack Modifier. On a failed save, the target is pinned, via {@condition Restrained|XPHB} condition, until the weapon, or ammunition, is removed. The target can use an {@variantrule Action|XPHB} on their turn to attempt to remove the weapon."
+			]
+		},
+		{
+			"name": "Punch",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} Anytime you use an {@variantrule Unarmed Attack|XPHB} effect utilizing a body part where this weapon is hidden within, you deal an extra {@damage 1d4} Piercing damage when the weapon is revealed."
 			]
 		},
 		{
@@ -10770,6 +10791,14 @@
 			"basicRules2024": true,
 			"entries": [
 				"{@i Buff.} If you hit a creature with this weapon, that creature has {@variantrule Disadvantage|XPHB} on its next attack roll before the start of your next turn."
+			]
+		},
+		{
+			"name": "Set",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Buff.} For non-Polearm weapons. You can use your {@variantrule Reaction|XPHB} to make an {@action Opportunity Attack|XPHB} when a creature enters your reach."
 			]
 		},
 		{
@@ -10822,6 +10851,14 @@
 			"basicRules2024": true,
 			"entries": [
 				"{@i Maneuver.} If you hit a creature with this weapon, you can force the creature to make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice). The DC is {@dc 8} plus your Proficiency Bonus and your Attack modifier. On a failed save, the creature has the {@condition Prone|XPHB} condition."
+			]
+		},
+		{
+			"name": "Trick Shot",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make a single attack roll with {@variantrule Disadvantage|XPHB}. If you miss, you \"Distract\" your target, allowing the next attack roll by anyone against the target, has {@variantrule Advantage|XPHB}. On a hit, it becomes an automatic {@variantrule Critical Hit|XPHB}."
 			]
 		},
 		{

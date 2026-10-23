@@ -1157,7 +1157,7 @@
 			"name": "Bokken",
 			"source": "XPHB",
 			"entries": [
-				"This wooden practice sword can be used as a fearsome weapon in its own right."
+				"{@i This wooden practice sword can be used as a fearsome weapon in its own right.}"
 			]
 		},
 		{
@@ -1520,7 +1520,7 @@
 			"name": "Brass Knuckles",
 			"source": "XPHB",
 			"entries": [
-				"Brass Knuckles is a series of 4 simple banded rings connected with a bar-like piece that fits in your palm. The rings go over your four fingers and sit right above your base knuckles. This makes the weapon easier to conceal and hide while making your punches deal extra damage."
+				"{@i Brass Knuckles is a series of 4 simple banded rings connected with a bar-like piece that fits in your palm. The rings go over your four fingers and sit right above your base knuckles. This makes the weapon easier to conceal and hide while making your punches deal extra damage.}"
 			]
 		},
 		{
@@ -3166,7 +3166,7 @@
 			"name": "Double Recursive Bow",
 			"source": "XPHB",
 			"entries": [
-				"A Double Recursive Bow is a bow that is inbetween the size of a Shortbow and a Longbow. It has double-limbs, which allows wielder to aim farther and hit harder without sacrificing weight or needing extra strength. The double-limbs also helps the bow last longer as the weight of the draw is dispersed evenly between the two sets instead of just one. Due to this, it is common to see these bows on mounted archers in combat or sniping from afar."
+				"{@i A Double Recursive Bow is a bow that is inbetween the size of a Shortbow and a Longbow. It has double-limbs, which allows wielder to aim farther and hit harder without sacrificing weight or needing extra strength. The double-limbs also helps the bow last longer as the weight of the draw is dispersed evenly between the two sets instead of just one. Due to this, it is common to see these bows on mounted archers in combat or sniping from afar.}"
 			]
 		},
 		{
@@ -3388,7 +3388,7 @@
 			"name": "Dual Scimitar",
 			"source": "XPHB",
 			"entries": [
-				"The Dual Scimitar was, historically, the signature weapon of various Elven communities. A two-handed haft of fine wood and metal supports two curved scimitar blades, with the secondary blade slightly smaller. Although this weapon's station within the Elven communities has diminished as the design has expanded to other communities, it is still honored as a valuable piece of Elven history."
+				"{@i The Dual Scimitar was, historically, the signature weapon of various Elven communities. A two-handed haft of fine wood and metal supports two curved scimitar blades, with the secondary blade slightly smaller. Although this weapon's station within the Elven communities has diminished as the design has expanded to other communities, it is still honored as a valuable piece of Elven history.}"
 			]
 		},
 		{
@@ -4746,7 +4746,7 @@
 			"name": "Gnome Hooked Hammer",
 			"source": "XPHB",
 			"entries": [
-				"A Gnome Hooked Hammer, also known as the Hooked Hammer, is a Double weapon that was created by the Gnome community and has spread to other communities of smallfolks. They have relatively short shafts, with a hammer on one end and a sharp-pointed hook (curved only slightly more than a pickaxe) on the other."
+				"{@i A Gnome Hooked Hammer, also known as the Hooked Hammer, is a Double weapon that was created by the Gnome community and has spread to other communities of smallfolks. They have relatively short shafts, with a hammer on one end and a sharp-pointed hook (curved only slightly more than a pickaxe) on the other.}"
 			]
 		},
 		{
@@ -5164,6 +5164,9 @@
 		{
 			"name": "Hand Crossbow",
 			"source": "XPHB",
+			"entries": [
+				"{@i Hand Crossbows are extremely small and light crossbows, allowing for use with one-hand. Due to this, these crossbows often do not get updated mechanically to be a Double or Repeating crossbow. Any other mechanical updates that are applied to Heavy and Light Crossbows may not necessarily be able to be applied to these due to their size.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -5175,13 +5178,6 @@
 					"width": 393,
 					"height": 180
 				}
-			]
-		},
-		{
-			"name": "Hand Double Crossbow",
-			"source": "XPHB",
-			"entries": [
-				"{@i Double Crossbows give the appearance of two crossbows built on top of each other, which is essentially correct. You load one bolt above another and the trigger has another trigger placed ahead of it, allowing you to fire each section individually. This expansion is done so in a way that does not require a separate proficiency with the weapon, with the Light Double Crossbow being the exception, allowing for some of the benefits of a repeating weapon but without its drawback of a signficantly longer reload time.}"
 			]
 		},
 		{
@@ -5361,18 +5357,16 @@
 		{
 			"name": "Heavy Double Crossbow",
 			"source":"XPHB",
-			"_copy": {
-				"name": "Hand Double Crossbow",
-				"source": "XPHB"
-			}
+			"entries": [
+				"{@i Double Crossbows give the appearance of two crossbows built on top of each other, which is essentially correct. You load one bolt above another and the trigger has another trigger placed ahead of it, allowing you to fire each section individually. This expansion is done so in a way that does not require a separate proficiency with the weapon, with the Light Double Crossbow being the exception, allowing for some of the benefits of a repeating weapon but without its drawback of a signficantly longer reload time.}"
+			]
 		},
 		{
 			"name": "Heavy Repeating Crossbow",
 			"source": "XPHB",
-			"_copy": {
-				"name": "Hand Repeating Crossbow",
-				"source": "XPHB"
-			}
+			"entries": [
+				"{@i Repeating Crossbows are altered crossbows that allows for a cartridge of bolts to be attached. There are also additional parts that aid in the retracting of the bow string in order to instantly load a new bolt for another attack. Due to these changes, all Repeating Crossbows are Specialized weapons.}"
+			]
 		},
 		{
 			"name": "Hellfire Weapon",
@@ -5620,7 +5614,7 @@
 			"name": "Hokur Ball",
 			"source": "XPHB",
 			"entries": [
-				"The Hokur Ball is a small ball of dense iron, or stone, that was initially used in Orcish games of athleticism, very much like Shotput. Sometimes during fights and battles, when weapons have been destroyed, Orc communities are known for their use of improvised weapons, which led to some Orcish Athletes turned Warriors using their Hokur Ball as a weapon, with devastating effects on their victims. The Hokur Ball can be made out of various materials, however, it is always in the shape of a smooth sphere. Those who are proficient with a Hokur Ball can also find various stones of its similar weight can throw them proficiently as well."
+				"{@i The Hokur Ball is a small ball of dense iron, or stone, that was initially used in Orcish games of athleticism, very much like Shotput. Sometimes during fights and battles, when weapons have been destroyed, Orc communities are known for their use of improvised weapons, which led to some Orcish Athletes turned Warriors using their Hokur Ball as a weapon, with devastating effects on their victims. The Hokur Ball can be made out of various materials, however, it is always in the shape of a smooth sphere. Those who are proficient with a Hokur Ball can also find various stones of its similar weight can throw them proficiently as well.}"
 			]
 		},
 		{
@@ -5705,7 +5699,7 @@
 			"name": "Hoopak",
 			"source": "XPHB",
 			"entries": [
-				"A Hoopak looks like a slingshot with a long shaft that ends with a sharp, sometimes metal-coated, piercing tip."
+				"{@i A Hoopak looks like a slingshot with a long shaft that ends with a sharp, sometimes metal-coated, piercing tip.}"
 			]
 		},
 		{
@@ -6718,7 +6712,7 @@
 			"name": "Katana",
 			"source": "XPHB",
 			"entries": [
-				"The Katana is like a {@item Longsword|XPHB} except the blade is thinner, often of higher quality, sharpened on one side, and is slightly curved."
+				"{@i The Katana is like a {@item Longsword|XPHB} except the blade is thinner, often of higher quality, sharpened on one side, and is slightly curved.}"
 			]
 		},
 		{
@@ -6952,7 +6946,7 @@
 			"name": "Light Double Crossbow",
 			"source": "XPHB",
 			"_copy": {
-				"name": "Hand Double Crossbow",
+				"name": "Heavy Double Crossbow",
 				"source": "XPHB"
 			}
 		},
@@ -6960,7 +6954,7 @@
 			"name": "Light Repeating Crossbow",
 			"source": "XPHB",
 			"_copy": {
-				"name": "Hand Repeating Crossbow",
+				"name": "Heavy Repeating Crossbow",
 				"source": "XPHB"
 			}
 		},
@@ -10863,15 +10857,16 @@
 			"name": "Sai (Bladed)",
 			"source": "XPHB",
 			"entries": [
-				"A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong {@i (the monouchi)} as the longest and most significant part of the weapon. This central prong determines the difference between a Bladed and a Blunted Sai. A Bladed Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Blunted Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers."
+				"{@i A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong (the monouchi) as the longest and most significant part of the weapon. This central prong determines the difference between a Bladed and a Blunted Sai. A Bladed Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Blunted Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers.}"
 			]
 		},
 		{
 			"name": "Sai (Blunted)",
 			"source": "XPHB",
-			"entries": [
-				"A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong {@i (the monouchi)} as the longest and most significant part of the weapon. This central prong determines the difference between a Bladed and a Blunted Sai. A Bladed Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Blunted Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers."
-			]
+			"_copy": {
+				"name": "Sai (Bladed)",
+				"source": "XPHB"
+			}
 		},
 		{
 			"name": "Saint Markovia's Thighbone",
@@ -11130,7 +11125,7 @@
 			"name": "Scythe",
 			"source": "XPHB",
 			"entries": [
-				"A Scythe is a harvesting tool that has a polearm like shaft and a large curved blade that appeears to be between a Sickle and a Scimitar. It has become a symbol for a Grim Reaper, a harvester of souls, while also being used to protect the laborers across the lands from those who wish to oppress them."
+				"{@i A Scythe is a harvesting tool that has a polearm like shaft and a large curved blade that appeears to be between a Sickle and a Scimitar. It has become a symbol for a Grim Reaper, a harvester of souls, while also being used to protect the laborers across the lands from those who wish to oppress them.}"
 			]
 		},
 		{
@@ -11948,7 +11943,7 @@
 			"name": "Spiked Chain",
 			"source": "XPHB",
 			"entries": [
-				"A Spiked Chain looks like two {@item Flail|XPHB|Flails} with various spikes along its chain, a smaller ball of spikes at each end, and with a thick non-spikey chain connecting the ends of the handles together. While this weapon is considered a Specialized Cultural Weapon for the Elven Community, this is predominetly only found within a small portion of the Elven Community, specically within the Drow, Shadar-Kai, and Wild Elven communities."
+				"{@i A Spiked Chain looks like two {@item Flail|XPHB|Flails} with various spikes along its chain, a smaller ball of spikes at each end, and with a thick non-spikey chain connecting the ends of the handles together. While this weapon is considered a Specialized Cultural Weapon for the Elven Community, this is predominetly only found within a small portion of the Elven Community, specically within the Drow, Shadar-Kai, and Wild Elven communities.}"
 			]
 		},
 		{
@@ -13538,7 +13533,7 @@
 			"name": "Urgrosh",
 			"source": "XPHB",
 			"entries": [
-				"The Urgrosh, also known as the Spear-Axe, is a specialized weapon for the Dwarven community. An Urgrosh appeared to be a Waraxe, with a slightly smaller axe head and longer haft, and at the end of the haft there is a iron point, much like a shortspear."
+				"{@i The Urgrosh, also known as the Spear-Axe, is a specialized weapon for the Dwarven community. An Urgrosh appeared to be a Waraxe, with a slightly smaller axe head and longer haft, and at the end of the haft there is a iron point, much like a shortspear.}"
 			]
 		},
 		{
@@ -14064,7 +14059,7 @@
 			"name": "Waraxe",
 			"source": "XPHB",
 			"entries": [
-				"The Waraxe, also known as the Dwarven Waraxe, was a single-bladed, versatile axe, that is larger and heavier than a battleaxe, but only slightly less so than the double-bladed greataxe. While this weapon does not have reach abilities, its large blade makes it difficult to miss a target when properly wielded and always does deadly damage."
+				"{@i The Waraxe, also known as the Dwarven Waraxe, was a single-bladed, versatile axe, that is larger and heavier than a battleaxe, but only slightly less so than the double-bladed greataxe. While this weapon does not have reach abilities, its large blade makes it difficult to miss a target when properly wielded and always does deadly damage.}"
 			]
 		},
 		{
