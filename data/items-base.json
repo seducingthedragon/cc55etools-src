@@ -535,6 +535,7 @@
 				"V|XPHB"
 			],
 			"mastery": [
+				"Crush|XPHB",
 				"Topple|XPHB"
 			],
 			"dmg1": "1d8",
@@ -542,6 +543,7 @@
 			"dmg2": "1d10",
 			"axe": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -2738,12 +2740,14 @@
 				"2H|XPHB"
 			],
 			"mastery": [
-				"Graze|XPHB"
+				"Graze|XPHB",
+				"Topple|XPHB"
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
 			"polearm": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -3046,12 +3050,14 @@
 				"2H|XPHB"
 			],
 			"mastery": [
+				"Bleeder|XPHB",
 				"Cleave|XPHB"
 			],
 			"dmg1": "1d12",
 			"dmgType": "S",
 			"axe": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -3150,6 +3156,7 @@
 				"S|XPHB"
 			],
 			"mastery": [
+				"Cleave|XPHB",
 				"Graze|XPHB"
 			],
 			"dmg1": "2d6",
@@ -3165,6 +3172,7 @@
 					]
 				}
 			],
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -3445,6 +3453,7 @@
 				"T|XPHB"
 			],
 			"mastery": [
+				"Pin|XPHB",
 				"Vex|XPHB"
 			],
 			"range": "20/60",
@@ -3452,6 +3461,7 @@
 			"dmgType": "S",
 			"axe": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -4848,6 +4858,7 @@
 				"V|XPHB"
 			],
 			"mastery": [
+				"Block|XPHB",
 				"Sap|XPHB"
 			],
 			"dmg1": "1d8",
@@ -4855,6 +4866,7 @@
 			"dmg2": "1d10",
 			"sword": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -6234,6 +6246,7 @@
 				"F|XPHB"
 			],
 			"mastery": [
+				"Lunge|XPHB",
 				"Vex|XPHB"
 			],
 			"dmg1": "1d8",
@@ -6241,6 +6254,7 @@
 			"rapier": true,
 			"sword": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -6567,12 +6581,14 @@
 				"L|XPHB"
 			],
 			"mastery": [
-				"Nick|XPHB"
+				"Bleeder|XPHB",
+				"Vex|XPHB"
 			],
 			"dmg1": "1d6",
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -6862,12 +6878,14 @@
 				"L|XPHB"
 			],
 			"mastery": [
+				"Upclose|XPHB",
 				"Vex|XPHB"
 			],
 			"dmg1": "1d6",
 			"dmgType": "P",
 			"sword": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -7453,7 +7471,7 @@
 			"type": "M|XPHB",
 			"typeAlt": "CElf|XPHB",
 			"rarity": "none",
-			"weight": 10,
+			"weight": 7,
 			"value": 5000,
 			"weaponCategory": "specialized",
 			"property": [
@@ -10630,7 +10648,15 @@
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Buff.} This weapon makes a {@variantrule Critical Hit|XPHB} on a roll of 19 or 20. When this weapon {@variantrule Critical Hit|XPHB|Crits}, you cause the wound to constantly bleed out. At the start of each of its turn, it takes Slashing damage equal to your {@variantrule Proficiency Bonus|XPHB} until the target is healed ({@variantrule Temporary Hit Points|XPHB|Temp HP} not included) or it uses its Action to make a {@dc 12} Wisdom ({@skill Medicine}) check."
+				"{@i Buff.} This weapon makes a {@variantrule Critical Hit|XPHB} on a roll of 19 or 20. When this weapon {@variantrule Critical Hit|XPHB|Crits}, you cause the wound to constantly bleed out. At the start of each of its turn, it takes the weapon damage type equal to your {@variantrule Proficiency Bonus|XPHB} until the target is healed ({@variantrule Temporary Hit Points|XPHB|Temp HP} not included) or it uses its Action to make a {@dc 12} Wisdom ({@skill Medicine}) check."
+			]
+		},
+		{
+			"name": "Block",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} Similarly to {@itemMastery Disarm|XPHB}, when a creature targets you with a weapon attack, you may use your {@variantrule Reaction|XPHB} to attempt to lock blades to block the attack. Make a contested Attack roll with this weapon. If your roll meets or exceeds their attack roll, their attack misses."
 			]
 		},
 		{
@@ -10684,7 +10710,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"{@i Maneuver.} When a creature attacks you with a weapon, you can use your {@variantrule Reaction|XPHB} to \"catch\" and disarm your opponent. Make a {@variantrule Weapon Attack|XPHB} roll with this weapon. If your attack meets or exceeds your opponent's attack, their attack misses and must succeed on a Strength {@variantrule Saving Throw|XPHB} or drop their weapon. The DC is {@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your Attack modifier."
+				"{@i Maneuver.} Similarly to {@itemMastery Block|XPHB}, when a creature attacks you with a weapon, you can use your {@variantrule Reaction|XPHB} to \"catch\" and disarm your opponent. Make a {@variantrule Weapon Attack|XPHB} roll with this weapon. If your attack meets or exceeds your opponent's attack, their attack misses and must succeed on a Strength {@variantrule Saving Throw|XPHB} or drop their weapon. The DC is {@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your Attack modifier."
 			]
 		},
 		{
@@ -10719,6 +10745,14 @@
 			"page": 216,
 			"entries": [
 				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make one ranged weapon attack targeting a creature 20 feet away from you. On a hit, you deal damage and the axe gets lodged into your target. You force the target to make a Strength {@variantrule Saving Throw}, ({@dc 8} plus your {@variantrule Proficiency Bonus and Attack modifier}), or the target is dragged 10 feet closer to you and is {@condition Grappled} by the weapon via you."
+			]
+		},
+		{
+			"name": "Lunge",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Buff.} Once per turn when you take the {@action Attack|XPHB} action with this weapon, you can position yourself into a Lunge stance in your space as part of the {@action Attack|XPHB} action, in order to extend the reach of this weapon by an additional 5 feet. You can make all of your attacks from this position until the end of your turn."
 			]
 		},
 		{
@@ -10875,6 +10909,14 @@
 			"page": 216,
 			"entries": [
 				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make a single weapon attack against a creature at least 1 size category larger than you. On a hit, this attack deals the normal weapon damage plus an additional {@damage 1d4} Bludgeoning damage per size category difference."
+			]
+		},
+		{
+			"name": "Upclose",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} When you successfully {@action Grapple [Unarmed Attack]|XPHB|Grapple} a creature or {@action Escape a Grapple|XPHB}, you can use your {@variantrule Bonus Action|XPHB} to make one attack with this weapon. Additionally, whenever a creature fails to {@action Escape a Grapple|XPHB} from you, you may use your {@variantrule Reaction|XPHB} to make one attack with this weapon."
 			]
 		},
 		{

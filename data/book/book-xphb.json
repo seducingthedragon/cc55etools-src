@@ -8705,7 +8705,7 @@
 										"{@item Handaxe|XPHB}",
 										"{@dice 1d6} Slashing",
 										"{@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
-										"{@itemMastery Vex}",
+										"{@itemMastery Pin}, {@itemMastery Vex}",
 										"2 lb.",
 										"5 GP"
 									]
@@ -8899,7 +8899,7 @@
 										"{@item Battleaxe|XPHB}",
 										"{@dice 1d8} Slashing",
 										"{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
-										"{@itemMastery Topple}",
+										"{@itemMastery Crush}, {@itemMastery Topple}",
 										"4 lb.",
 										"10 GP"
 									]
@@ -8923,7 +8923,7 @@
 										"{@item Glaive|XPHB}",
 										"{@dice 1d10} Slashing",
 										"{@itemProperty H|XPHB|Heavy}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Graze}",
+										"{@itemMastery Graze}, {@itemMastery Topple}",
 										"6 lb.",
 										"20 GP"
 									]
@@ -8935,7 +8935,7 @@
 										"{@item Greataxe|XPHB}",
 										"{@dice 1d12} Slashing",
 										"{@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Cleave}",
+										"{@itemMastery Bleeder}, {@itemMastery Cleave}",
 										"7 lb.",
 										"30 GP"
 									]
@@ -8947,7 +8947,7 @@
 										"{@item Greatsword|XPHB}",
 										"{@dice 2d6} Slashing",
 										"{@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
-										"{@itemMastery Graze}",
+										"{@itemMastery Cleave}, {@itemMastery Graze}",
 										"6 lb.",
 										"50 GP"
 									]
@@ -8983,7 +8983,7 @@
 										"{@item Longsword|XPHB}",
 										"{@dice 1d8} Slashing",
 										"{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
-										"{@itemMastery Sap}",
+										"{@itemMastery Block}, {@itemMastery Sap}",
 										"3 lb.",
 										"15 GP"
 									]
@@ -9031,7 +9031,7 @@
 										"{@item Rapier|XPHB}",
 										"{@dice 1d8} Piercing",
 										"{@itemProperty F|XPHB|Finesse}",
-										"{@itemMastery Vex}",
+										"{@itemMastery Lunge}, {@itemMastery Vex}",
 										"2 lb.",
 										"25 GP"
 									]
@@ -9043,7 +9043,7 @@
 										"{@item Scimitar|XPHB}",
 										"{@dice 1d6} Slashing",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
-										"{@itemMastery Nick}",
+										"{@itemMastery Bleeder}, {@itemMastery Vex}",
 										"3 lb.",
 										"25 GP"
 									]
@@ -9055,7 +9055,7 @@
 										"{@item Shortsword|XPHB}",
 										"{@dice 1d6} Piercing",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
-										"{@itemMastery Vex}",
+										"{@itemMastery Upclose}, {@itemMastery Vex}",
 										"2 lb.",
 										"10 GP"
 									]
@@ -9514,7 +9514,7 @@
 										"{@dice 2d4} Piercing",
 										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d4}), {@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Disarm}, {@itemMastery Sap}",
-										"10 lb.",
+										"7 lb.",
 										"50 GP"
 									]
 								},
@@ -9989,6 +9989,15 @@
 								"Each weapon has, at least, one mastery property, which is usable only by a character who has a feature, or feat, that unlocks the property for the character. There are different categories of Mastery properties. A {@b Buff} property is a benefit or a boost gained by this weapon that occurs automatically and can be used any amount of times per turn, as long as it meets any requirements provided in its description. A {@b Maneuver} property relates to how you use with the weapon itself and, more often than not, can only be used once per turn. Most properties are defined below, however, if a Mastery property is not listed below, it will be found in the weapon's extra information in {@book Appendix D|XPHB|11}.",
 								{
 									"type": "entries",
+									"name": "Block",
+									"page": 216,
+									"id": "66c",
+									"entries": [
+										"{@i Maneuver.} Similarly to {@itemMastery Disarm|XPHB}, when a creature targets you with a weapon attack, you may use your {@variantrule Reaction|XPHB} to attempt to lock blades to block the attack. Make a contested Attack roll with this weapon. If your roll meets or exceeds their attack roll, their attack misses."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Burst",
 									"page": 216,
 									"id": "66a",
@@ -10020,7 +10029,7 @@
 									"page": 216,
 									"id": "664",
 									"entries": [
-										"{@i Maneuver.} When a creature attacks you with a weapon, you can use your {@variantrule Reaction|XPHB} to \"catch\" and disarm your opponent. Make a {@variantrule Weapon Attack|XPHB} roll with this weapon. If your attack meets or exceeds your opponent's attack, their attack misses and must succeed on a Strength {@variantrule Saving Throw|XPHB} or drop their weapon. The DC is {@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your Attack modifier."
+										"{@i Maneuver.} Similarly to {@itemMastery Block|XPHB}, when a creature attacks you with a weapon, you can use your {@variantrule Reaction|XPHB} to \"catch\" and disarm your opponent. Make a {@variantrule Weapon Attack|XPHB} roll with this weapon. If your attack meets or exceeds your opponent's attack, their attack misses and must succeed on a Strength {@variantrule Saving Throw|XPHB} or drop their weapon. The DC is {@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your Attack modifier."
 									]
 								},
 								{
@@ -10030,6 +10039,15 @@
 									"id": "64f",
 									"entries": [
 										"{@i Buff.} If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier. If you miss with a Nat 1, this property is not applied."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lunge",
+									"page": 216,
+									"id": "66d",
+									"entries": [
+										"{@i Buff.} Once per turn when you take the {@action Attack|XPHB} action with this weapon, you can position yourself into a Lunge stance in your space as part of the {@action Attack|XPHB} action, in order to extend the reach of this weapon by an additional 5 feet. You can make all of your attacks from this position until the end of your turn."
 									]
 								},
 								{
@@ -10084,6 +10102,15 @@
 									"id": "654",
 									"entries": [
 										"{@i Maneuver.} If you hit a creature with this weapon, you can force the creature to make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice). The DC is {@dc 8} plus your Proficiency Bonus and your Attack modifier. On a failed save, the creature has the {@condition Prone|XPHB} condition."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Upclose",
+									"page": 216,
+									"id": "66f",
+									"entries": [
+										"{@i Maneuver.} When you successfully {@action Grapple [Unarmed Attack]|XPHB|Grapple} a creature or {@action Escape a Grapple|XPHB}, you can use your {@variantrule Bonus Action|XPHB} to make one attack with this weapon. Additionally, whenever a creature fails to {@action Escape a Grapple|XPHB} from you, you may use your {@variantrule Reaction|XPHB} to make one attack with this weapon."
 									]
 								},
 								{
@@ -20121,6 +20148,15 @@
 								},
 								{
 									"type": "item",
+									"name": "Axes",
+									"entries": [
+										"{@b {@item Handaxe|XPHB}.} {@i A Handaxe is a small axe, much like a hatchet, that has been made and balanced for both melee combat and throwing capabilities. Most handaxes have a hammered butt or poll, opposite of its bladed head, however sometimes you may find a double-bit axe head on a Handaxe, but only if it maintains its balance for throwing. Additionally, a Handaxe does have a higher chance of having multiple functions, including use as a tool.}",
+										"{@b {@item Battleaxe|XPHB}.} {@i A Battleaxe is an axe of significant size, but not larger than a Greataxe, that is often used in combat instead of as a tool. Battleaxes will either have a double-edged axe head or a double-bit axe head. Both options means that on the axe head, opposite side from its main blade, there is a second blade. If it is a double-edge axe head, you won't be able to tell which side is the main blade, whereas the double-bit axe head will have its secondary blade smaller than its main one, often used for smaller jobs. Additionally, while it is more common to see Greataxes with a bearded axe head, it can still occur in Battleaxes as well.}",
+										"{@b {@item Greataxe|XPHB}.} {@i A Greataxe is an axe of significant size with a longer haft than a Battleaxe. Greataxes will either have a double-edged axe head or a double-bit axe head. Both options means that on the axe head, opposite side from its main blade, there is a second blade. If it is a double-edge axe head, you won't be able to tell which side is the main blade, whereas the double-bit axe head will have its secondary blade smaller than its main one, often used for smaller jobs. Additionally, it is more common to see Greataxes with a bearded axe head, however it can occur in Battleaxes as well.}"
+									]
+								},
+								{
+									"type": "item",
 									"name": "{@item Basic Net|XPHB}",
 									"entries": [
 										"{@i A Basic Net is like your standard Adventuring Gear {@item Net|XPHB}, however it often has various weights scattered throughout to make a creature's escape more difficult, and dealing a small amount of damage.}",
@@ -20235,6 +20271,11 @@
 								},
 								{
 									"type": "item",
+									"name": "{@item Glaive|XPHB}",
+									"entry": "{@i A Glaive is a polearm weapon, with extra reach, and a single-edge wide blade with a curve near the top.}"
+								},
+								{
+									"type": "item",
 									"name": "{@item Gnome Hooked Hammer|XPHB}",
 									"entry": "{@i A Gnome Hooked Hammer, also known as the Hooked Hammer, is a Double weapon that was created by the Gnome community and has spread to other communities of smallfolks. They have relatively short shafts, with a hammer on one end and a sharp-pointed hook (curved only slightly more than a pickaxe) on the other.}"
 								},
@@ -20254,7 +20295,10 @@
 								{
 									"type": "item",
 									"name": "{@item Greatsword|XPHB}",
-									"entry": "{@b {@i Special: Grinding Halt.}} Whenever you make a Strength {@variantrule Saving Throw|XPHB} to avoid being moved against your will, you can use your {@variantrule Reaction|XPHB} to dig the Greatsword's blade into the ground in order to avoid being moved. Roll {@dice 1d6} and add the number to your Saving Throw total, as you hold on to your anchored Greatsword. If you fail, succeed, or there is no saving throw, you move 5 feel less than expected, if you move at all."
+									"entries": [
+										"{@i A Greatsword is a massive two-handed sword, with an extremely long blade. Sometimes, it is considered a Claymore, a Broadsword, and even a Bastard Sword, depending on style, era, and location.}",
+										"{@b {@i Special: Grinding Halt.}} Whenever you make a Strength {@variantrule Saving Throw|XPHB} to avoid being moved against your will, you can use your {@variantrule Reaction|XPHB} to dig the Greatsword's blade into the ground in order to avoid being moved. Roll {@dice 1d6} and add the number to your Saving Throw total, as you hold on to your anchored Greatsword. If you fail, succeed, or there is no saving throw, you move 5 feel less than expected, if you move at all."
+									]
 								},
 								{
 									"type": "item",
@@ -20308,6 +20352,11 @@
 								},
 								{
 									"type": "item",
+									"name": "{@item Longsword|XPHB}",
+									"entry": "{@i A Longsword is a sword with a hand-and-a-half hilt, with an overall size inbetween a Shortsword and a Greatsword.}"
+								},
+								{
+									"type": "item",
 									"name": "{@item Multi-Saber|XPHB} {@i Cultural (Elven)}",
 									"entries": [
 										"{@i What makes the Multi-Saber different from a Dual Scimitar is that its split form makes it easier to travel with, there's no size difference between the two blades, and a longer haft whhen joined together. All of these factors lead to the Multi-Saber to become a highly desired weapon to learn to wield over the Dual Scimitar}.",
@@ -20332,6 +20381,11 @@
 								},
 								{
 									"type": "item",
+									"name": "{@item Rapier|XPHB}",
+									"entry": "{@i A Rapier is a facinating sword. With the blade the lenght of a Greatsword, with the hilt size and weight of a Shortsword, and a piercing brutality of a Longsword, this sword combines all of the benefits of those to create something new. Even though this started as an accessory, it quickly became a weapon for self-defense and duels.}"
+								},
+								{
+									"type": "item",
 									"name": "Repeating Crossbows ({@item Heavy Repeating Crossbow|XPHB|Heavy} and {@item Light Repeating Crossbow|XPHB|Light)}",
 									"entry": "{@i Repeating Crossbows are altered crossbows that allows for a cartridge of bolts to be attached. There are also additional parts that aid in the retracting of the bow string in order to instantly load a new bolt for another attack. Due to these changes, all Repeating Crossbows are Specialized weapons.}"
 								},
@@ -20342,8 +20396,18 @@
 								},
 								{
 									"type": "item",
+									"name": "{@item Scimitar|XPHB}",
+									"entry": "{@i Unlike the common swords, curved swords are single-edge swords. A scimitar is a type of saber, or calvary sword, that is specific to the Central and Southern European region near the Mediterraian. It's unique shape and thick blade makes it deadly when paired with a dexterious flourish.}"
+								},
+								{
+									"type": "item",
 									"name": "{@item Scythe|XPHB}",
 									"entry": "{@i A Scythe is a harvesting tool that has a polearm like shaft and a large curved blade that appeears to be between a Sickle and a Scimitar. It has become a symbol for a Grim Reaper, a harvester of souls, while also being used to protect the laborers across the lands from those who wish to oppress them.}"
+								},
+								{
+									"type": "item",
+									"name": "{@item Shortsowrd|XPHB}",
+									"entry": "{@i Shortswords are considered the smallest of swords, compared to all sword-related weapons. Any smaller and you'll enter the {@item Dagger|XPHB|Daggers} and {@item Dart|XPHB|Darts} grouping of weapons. Their small size, with a one-handed hilt allows this weapon to be used dextriously as well as with another weapon, although this one is commonly used in the main-hand.}"
 								},
 								{
 									"type": "item",

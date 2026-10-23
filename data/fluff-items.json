@@ -854,6 +854,9 @@
 		{
 			"name": "Battleaxe",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Battleaxe is an axe of significant size, but not larger than a Greataxe, that is often used in combat instead of as a tool. Battleaxes will either have a double-edged axe head or a double-bit axe head. Both options means that on the axe head, opposite side from its main blade, there is a second blade. If it is a double-edge axe head, you won't be able to tell which side is the main blade, whereas the double-bit axe head will have its secondary blade smaller than its main one, often used for smaller jobs. Additionally, while it is more common to see Greataxes with a bearded axe head, it can still occur in Battleaxes as well.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -4677,6 +4680,9 @@
 		{
 			"name": "Glaive",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Glaive is a polearm weapon, with extra reach, and a single-edge wide blade with a curve near the top.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -4851,6 +4857,9 @@
 		{
 			"name": "Greataxe",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Greataxe is an axe of significant size with a longer haft than a Battleaxe. Greataxes will either have a double-edged axe head or a double-bit axe head. Both options means that on the axe head, opposite side from its main blade, there is a second blade. If it is a double-edge axe head, you won't be able to tell which side is the main blade, whereas the double-bit axe head will have its secondary blade smaller than its main one, often used for smaller jobs. Additionally, it is more common to see Greataxes with a bearded axe head, however it can occur in Battleaxes as well.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -4898,6 +4907,9 @@
 		{
 			"name": "Greatsword",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Greatsword is a massive two-handed sword, with an extremely long blade. Sometimes, it is considered a Claymore, a Broadsword, and even a Bastard Sword, depending on style, era, and location.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -5213,6 +5225,9 @@
 		{
 			"name": "Handaxe",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Handaxe is a small axe, much like a hatchet, that has been made and balanced for both melee combat and throwing capabilities. Most handaxes have a hammered butt or poll, opposite of its bladed head, however sometimes you may find a double-bit axe head on a Handaxe, but only if it maintains its balance for throwing. Additionally, a Handaxe does have a higher chance of having multiple functions, including use as a tool.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -7035,6 +7050,9 @@
 		{
 			"name": "Longsword",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Longsword is a sword with a hand-and-a-half hilt, with an overall size inbetween a Shortsword and a Greatsword.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -9663,6 +9681,9 @@
 		{
 			"name": "Rapier",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Rapier is a facinating sword. With the blade the lenght of a Greatsword, with the hilt size and weight of a Shortsword, and a piercing brutality of a Longsword, this sword combines all of the benefits of those to create something new. Even though this started as an accessory, it quickly became a weapon for self-defense and duels.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -10949,6 +10970,9 @@
 		{
 			"name": "Scimitar",
 			"source": "XPHB",
+			"entries": [
+				"{@i Unlike the common swords, curved swords are single-edge swords. A scimitar is a type of saber, or calvary sword, that is specific to the Central and Southern European region near the Mediterraian. It's unique shape and thick blade makes it deadly when paired with a dexterious flourish.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -11443,6 +11467,9 @@
 		{
 			"name": "Shortsword",
 			"source": "XPHB",
+			"entries": [
+				"{@i Shortswords are considered the smallest of swords, compared to all sword-related weapons. Any smaller and you'll enter the {@item Dagger|XPHB|Daggers} and {@item Dart|XPHB|Darts} grouping of weapons. Their small size, with a one-handed hilt allows this weapon to be used dextriously as well as with another weapon, although this one is commonly used in the main-hand.}"
+			],
 			"images": [
 				{
 					"type": "image",
