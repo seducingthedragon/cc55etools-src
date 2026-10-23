@@ -4681,7 +4681,8 @@
 			"name": "Glaive",
 			"source": "XPHB",
 			"entries": [
-				"{@i A Glaive is a polearm weapon, with extra reach, and a single-edge wide blade with a curve near the top.}"
+				"{@i While there is a wide variety of polearm weapons, they often appear similar in design, often making it difficult to distinguish. A Glaive, also known as a Fauchard, has a long wide blade with a curve. Sometimes it curves like a saber while others have a curve near the top. If the blade is thin in width, it is called a Naginata instead. A Halberd's blade often appears to be an axe head with a prominent spear off the top of the haft. The blade is either straight, like a machette or inverted, compared to typical axes.}",
+				"{@i Between a Javelin, a Pike, and a Spear, it can be even more difficult to tell the difference, as they all are polearms with a dagger-like bladed pointed tip at the top. However a Javelin, often has the smallest of points as it is primarily used for throwing at great distances and its weight allows it to be used with one hand. A Spear often has a wider blade, balanced for both melee and ranged attacks, as well as extra brutally when used with two-hands. A Pike has a longer blade that's narrow, like a javelin, but does not have any ranged capabilities. It is primarily used within armies as a way of preventing mounted warriors from breaching their lines.}"
 			],
 			"images": [
 				{
@@ -5076,6 +5077,10 @@
 		{
 			"name": "Halberd",
 			"source": "XPHB",
+			"_copy": {
+				"name": "Glaive",
+				"source": "XPHB"
+			},
 			"images": [
 				{
 					"type": "image",
@@ -6593,6 +6598,10 @@
 		{
 			"name": "Javelin",
 			"source": "XPHB",
+			"_copy": {
+				"name": "Glaive",
+				"source": "XPHB"
+			},
 			"images": [
 				{
 					"type": "image",
@@ -6834,6 +6843,9 @@
 		{
 			"name": "Lance",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Lance is a unique weapon. It is considered a polearm due to its length, and use of the Heavy and Reach properties, yet it is not built like a typical polearm. Most polearms are hafted weapons, with the blade, points, or blunt object at the end. A Lance, however, is a hilted weapon, much like a sword, however its crossguard is attached to a long cone-line metal piece with a sharp point. Other than the tip, the rest of the cone-line piece is smooth and not bladed. This weapon is primarily used on horseback for combat as well as in jousting matches, although that one uses a blunted tip.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -8739,6 +8751,10 @@
 		{
 			"name": "Pike",
 			"source": "XPHB",
+			"_copy": {
+				"name": "Glaive",
+				"source": "XPHB"
+			},
 			"images": [
 				{
 					"type": "image",
@@ -9555,6 +9571,9 @@
 		{
 			"name": "Quarterstaff",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Quarterstaff is a wooden polearm weapon, usually with no embellishings, metal, or other decor. Sometimes they may have cord wrapped in a couple of sections for hand placements, but otherwise, this weapon is as simple as they come, followed by the Bokken.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -11771,6 +11790,10 @@
 		{
 			"name": "Spear",
 			"source": "XPHB",
+			"_copy": {
+				"name": "Glaive",
+				"source": "XPHB"
+			},
 			"images": [
 				{
 					"type": "image",
@@ -13374,6 +13397,9 @@
 		{
 			"name": "Trident",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Trident is a three-prong spear-like weapon. It is more often seen around and in sea-faring communities due to its use with fishing and symbolism with water deities.}"
+			],
 			"images": [
 				{
 					"type": "image",

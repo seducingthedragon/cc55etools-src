@@ -2723,6 +2723,9 @@
 		},
 		{
 			"name": "Glaive",
+			"alias": [
+				"Fauchard"
+			],
 			"source": "XPHB",
 			"page": 215,
 			"srd52": true,
@@ -3224,12 +3227,14 @@
 				"2H|XPHB"
 			],
 			"mastery": [
-				"Cleave|XPHB"
+				"Cleave|XPHB",
+				"Push|XPHB"
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
 			"polearm": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -3943,6 +3948,7 @@
 				"T|XPHB"
 			],
 			"mastery": [
+				"Pin|XPHB",
 				"Slow|XPHB"
 			],
 			"range": "30/120",
@@ -3950,6 +3956,7 @@
 			"dmgType": "P",
 			"spear": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -4207,6 +4214,7 @@
 				}
 			],
 			"mastery": [
+				"Piercer|XPHB",
 				"Topple|XPHB"
 			],
 			"dmg1": "1d10",
@@ -4216,6 +4224,7 @@
 			"entries": [
 				"A Lance requires two hands to wield when you aren't mounted."
 			],
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -5833,11 +5842,13 @@
 				"2H|XPHB"
 			],
 			"mastery": [
-				"Push|XPHB"
+				"Piercer|XPHB",
+				"Repel|XPHB"
 			],
 			"dmg1": "1d10",
 			"dmgType": "P",
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -6188,12 +6199,15 @@
 				"V|XPHB"
 			],
 			"mastery": [
+				"Burst|XPHB",
+				"Push|XPHB",
 				"Topple|XPHB"
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"dmg2": "1d8",
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -7419,7 +7433,8 @@
 				"V|XPHB"
 			],
 			"mastery": [
-				"Sap|XPHB"
+				"Lunge|XPHB",
+				"Pin|XPHB"
 			],
 			"range": "20/60",
 			"dmg1": "1d6",
@@ -7427,6 +7442,7 @@
 			"dmg2": "1d8",
 			"spear": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -7632,6 +7648,8 @@
 				"V|XPHB"
 			],
 			"mastery": [
+				"Burst|XPHB",
+				"Push|XPHB",
 				"Topple|XPHB"
 			],
 			"dmg1": "1d6",
@@ -7639,7 +7657,7 @@
 			"dmg2": "1d8",
 			"staff": true,
 			"entries": [
-				"{@i This arcane focus is created by etching a normal {@item Quarterstaff|XPHB} with runes and sigils or attaching a focusing crystal to the top. While it is not considered a weapon, it can be used as one as long as you have proficiency with {@item Quarterstaff|XPHB|Quarterstaffs}}."
+				"{@i This arcane focus is created by etching a quarterstaff-like object with runes and sigils or attaching a focusing crystal to the top.}"
 			]
 		},
 		{
@@ -7989,13 +8007,16 @@
 				"V|XPHB"
 			],
 			"mastery": [
-				"Topple|XPHB"
+				"Disarm|XPHB",
+				"Lunge|XPHB",
+				"Pin|XPHB"
 			],
 			"range": "20/60",
 			"dmg1": "1d8",
 			"dmgType": "P",
 			"dmg2": "1d10",
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -8623,7 +8644,6 @@
 			"srd52": true,
 			"edition": "one",
 			"type": "SCF|XPHB",
-			"typeAlt": "M|XPHB",
 			"scfType": "druid",
 			"rarity": "none",
 			"weight": 4,
@@ -8634,13 +8654,16 @@
 				"V|XPHB"
 			],
 			"mastery": [
+				"Burst|XPHB",
+				"Push|XPHB",
 				"Topple|XPHB"
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"dmg2": "1d8",
+			"staff": true,
 			"entries": [
-				"{@i This arcane focus is created by etching a quarterstaff-like staff with runes and sigils, that may have an encased focusing crystal to the top, but does not necessarily need it. It is primarily wood and is oftem not a \"smooth\" staff form, but maintains the curves and notches of a tree branch.}"
+				"{@i This arcane focus is created by etching a quarterstaff-like object with runes and sigils, that may have an encased focusing crystal to the top, but does not necessarily need it. It is primarily wood and is oftem not a \"smooth\" staff form, but maintains the curves and notches of a tree branch.}"
 			]
 		},
 		{
@@ -10815,6 +10838,14 @@
 			"page": 216,
 			"entries": [
 				"{@i Maneuver.} After you have used your {@variantrule Action|XPHB} to make attacks with this weapon, you can use your {@variantrule Bonus Action|XPHB} to rapidly reload this weapon and make another attack, targeting a creature within range, risking accuracy. You make this attack with {@variantrule Disadvantage|XPHB} but gain a bonus to your damage roll equal to your {@variantrule Proficiency Bonus|XPHB} on a hit."
+			]
+		},
+		{
+			"name": "Repel",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} You can use your {@variantrule Action|XPHB} to set your weapon against any incoming creatures as a {@action Ready|XPHB|Readied} action. If a creature moves at least 10 feet in a straight line towards you to attack you, you may use your {@variantrule Reaction|XPHB} to make an attack roll against the creature before they do. If your attack hits, it is an automatic {@variantrule Critical Hit|XPHB} and the target has {@variantrule Disadvantage|XPHB} on its attack roll."
 			]
 		},
 		{

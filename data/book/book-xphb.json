@@ -8729,7 +8729,7 @@
 										"{@item Javelin|XPHB}",
 										"{@dice 1d6} Piercing",
 										"{@itemProperty T|XPHB|Thrown} (Range 30/120)",
-										"{@itemMastery Slow}",
+										"{@itemMastery Pin}, {@itemMastery Slow}",
 										"2 lb.",
 										"5 SP"
 									]
@@ -8765,7 +8765,7 @@
 										"{@item Quarterstaff|XPHB}",
 										"{@dice 1d6} Bludgeoning",
 										"{@itemProperty P|XPHB|Polearm}, {@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
-										"{@itemMastery Topple}",
+										"{@itemMastery Burst}, {@itemMastery Push}, {@itemMastery Topple}",
 										"4 lb.",
 										"2 SP"
 									]
@@ -8801,7 +8801,7 @@
 										"{@item Spear|XPHB}",
 										"{@dice 1d6} Piercing",
 										"{@itemProperty P|XPHB|Polearm}, {@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
-										"{@itemMastery Sap}",
+										"{@itemMastery Lunge}, {@itemMastery Pin}",
 										"3 lb.",
 										"1 GP"
 									]
@@ -8959,7 +8959,7 @@
 										"{@item Halberd|XPHB}",
 										"{@dice 1d10} Slashing",
 										"{@itemProperty H|XPHB|Heavy}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Cleave}",
+										"{@itemMastery Cleave}, {@itemMastery Push}",
 										"6 lb.",
 										"20 GP"
 									]
@@ -8971,7 +8971,7 @@
 										"{@item Lance|XPHB}",
 										"{@dice 1d10} Piercing",
 										"{@itemProperty H|XPHB|Heavy}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed} (unless mounted)",
-										"{@itemMastery Topple}",
+										"{@itemMastery Piercer}, {@itemMastery Topple}",
 										"6 lb.",
 										"10 GP"
 									]
@@ -9019,7 +9019,7 @@
 										"{@item Pike|XPHB}",
 										"{@dice 1d10} Piercing",
 										"{@itemProperty H|XPHB|Heavy}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Push}",
+										"{@itemMastery Piercer}, {@itemMastery Repel}",
 										"18 lb.",
 										"5 GP"
 									]
@@ -9079,7 +9079,7 @@
 										"{@item Trident|XPHB}",
 										"{@dice 1d8} Piercing",
 										"{@itemProperty P|XPHB|Polearm}, {@itemProperty T|XPHB|Thrown} (Range 20/60), {@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
-										"{@itemMastery Topple}",
+										"{@itemMastery Disarm}, {@itemMastery Lunge}, {@itemMastery Pin}",
 										"4 lb.",
 										"5 GP"
 									]
@@ -10185,6 +10185,12 @@
 									"type": "statblock",
 									"tag": "itemMastery",
 									"name": "Rapid Shot",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Repel",
 									"style": "inset"
 								},
 								{
@@ -20104,7 +20110,7 @@
 								{
 									"type": "item",
 									"name": "{@item Staff|XPHB} (Arcane)",
-									"entry": "{@i This arcane focus is created by etching a normal {@item Quarterstaff|XPHB} with runes and sigils or attaching a focusing crystal to the top. While it is not considered a weapon, it can be used as one as long as you have proficiency with {@item Quarterstaff|XPHB|Quarterstaffs}}."
+									"entry": "{@i This arcane focus is created by etching a quarterstaff-like object with runes and sigils or attaching a focusing crystal to the top.}"
 								},
 								{
 									"type": "item",
@@ -20119,7 +20125,7 @@
 								{
 									"type": "item",
 									"name": "{@item Wooden Staff|XPHB} (Druidic)",
-									"entry": "{@i This arcane focus is created by etching a quarterstaff-like staff with runes and sigils, that may have an encased focusing crystal to the top, but does not necessarily need it. It is primarily wood and is oftem not a \"smooth\" staff form, but maintains the curves and notches of a tree branch.}"
+									"entry": "{@i This arcane focus is created by etching a quarterstaff-like object with runes and sigils, that may have an encased focusing crystal to the top, but does not necessarily need it. It is primarily wood and is oftem not a \"smooth\" staff form, but maintains the curves and notches of a tree branch.}"
 								},
 								{
 									"type": "item",
@@ -20271,11 +20277,6 @@
 								},
 								{
 									"type": "item",
-									"name": "{@item Glaive|XPHB}",
-									"entry": "{@i A Glaive is a polearm weapon, with extra reach, and a single-edge wide blade with a curve near the top.}"
-								},
-								{
-									"type": "item",
 									"name": "{@item Gnome Hooked Hammer|XPHB}",
 									"entry": "{@i A Gnome Hooked Hammer, also known as the Hooked Hammer, is a Double weapon that was created by the Gnome community and has spread to other communities of smallfolks. They have relatively short shafts, with a hammer on one end and a sharp-pointed hook (curved only slightly more than a pickaxe) on the other.}"
 								},
@@ -20352,6 +20353,14 @@
 								},
 								{
 									"type": "item",
+									"name": "{@item Lance|XPHB}",
+									"entries": [
+										"{@i A Lance is a unique weapon. It is considered a polearm due to its length, and use of the Heavy and Reach properties, yet it is not built like a typical polearm. Most polearms are hafted weapons, with the blade, points, or blunt object at the end. A Lance, however, is a hilted weapon, much like a sword, however its crossguard is attached to a long cone-line metal piece with a sharp point. Other than the tip, the rest of the cone-line piece is smooth and not bladed. This weapon is primarily used on horseback for combat as well as in jousting matches, although that one uses a blunted tip.}",
+										"A Lance requires two hands to wield when you aren't mounted."
+									]
+								},
+								{
+									"type": "item",
 									"name": "{@item Longsword|XPHB}",
 									"entry": "{@i A Longsword is a sword with a hand-and-a-half hilt, with an overall size inbetween a Shortsword and a Greatsword.}"
 								},
@@ -20376,8 +20385,21 @@
 								},
 								{
 									"type": "item",
+									"name": "The {@itemProperty P|XPHB|Polearms}: Glaives, Halberds, Javelins, Pikes, and Spears",
+									"entries": [
+										"{@i While there is a wide variety of polearm weapons, they often appear similar in design, often making it difficult to distinguish. A {@item Glaive|XPHB}, also known as a Fauchard, has a long wide blade with a curve. Sometimes it curves like a saber while others have a curve near the top. If the blade is thin in width, it is called a Naginata instead. A {@item Halberd|XPHB|Halberd's} blade often appears to be an axe head with a prominent spear off the top of the haft. The blade is either straight, like a machette or inverted, compared to typical axes.}",
+										"{@i Between a {@item Javelin|XPHB}, a {@item Pike|XPHB}, and a {@item Spear|XPHB}, it can be even more difficult to tell the difference, as they all are polearms with a dagger-like bladed pointed tip at the top. However a Javelin, often has the smallest of points as it is primarily used for throwing at great distances and its weight allows it to be used with one hand. A Spear often has a wider blade, balanced for both melee and ranged attacks, as well as extra brutally when used with two-hands. A Pike has a longer blade that's narrow, like a javelin, but does not have any ranged capabilities. It is primarily used within armies as a way of preventing mounted warriors from breaching their lines.}"
+									]
+								},
+								{
+									"type": "item",
 									"name": "{@item Punch Dagger|XPHB}",
 									"entry": "{@i With a blade as wide as a sword, yet as long as a dagger, this weapon is affixed to a base with a handle that when held, lays the blade in a way that appears as if it were jetting out of ones knuckles. It is also known as a Katar.}"
+								},
+								{
+									"type": "item",
+									"name": "{@item Quarterstaff|XPHB}",
+									"entry": "{@i A Quarterstaff is a wooden polearm weapon, usually with no embellishings, metal, or other decor. Sometimes they may have cord wrapped in a couple of sections for hand placements, but otherwise, this weapon is as simple as they come, followed by the Bokken.}"
 								},
 								{
 									"type": "item",
@@ -20442,6 +20464,11 @@
 									"type": "item",
 									"name": "{@item Stiletto|XPHB}",
 									"entry": "{@i A Stiletto is a specialized {@item Dagger|XPHB} with a longer and thinner blade, remininsent of a {@item Rapier|XPHB}. This allows the Stiletto puncture through chain and plated armor easier than standard {@item Dagger|XPHB}.}"
+								},
+								{
+									"type": "item",
+									"name": "{@item Trident|XPHB}",
+									"entry": "{@i A Trident is a three-prong spear-like weapon. It is more often seen around and in sea-faring communities due to its use with fishing and symbolism with water deities.}"
 								},
 								{
 									"type": "item",
