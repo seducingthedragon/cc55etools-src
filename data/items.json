@@ -35427,7 +35427,7 @@
 			"weight": 0.5,
 			"value": 10,
 			"entries": [
-				"Iron Spikes come in bundles of ten. As a {@action Utilize|XPHB} action, you can use a blunt object, such as a {@item Light Hammer|XPHB}, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a {@item Rope|XPHB} or {@item Chain|XPHB} to the Spike."
+				"Iron Spikes come in bundles of ten. As a {@action Utilize|XPHB} action, you can use a blunt object, such as a {@item Hammer|XPHB}, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a {@item Rope|XPHB} or {@item Chain|XPHB} to the Spike."
 			]
 		},
 		{
@@ -50250,17 +50250,26 @@
 			"weaponCategory": "simple",
 			"property": [
 				"F|XPHB",
+				"L|XPHB",
 				"T|XPHB"
 			],
 			"mastery": [
-				{
-					"uid": "Vex|XPHB",
-					"note": "you can use this property, and it doesn't count against the number of properties you can use with Weapon Mastery"
-				}
+				"Nick|XPHB",
+				"Vex|XPHB",
+				"Upclose|XPHB"
 			],
 			"range": "60/120",
 			"dmg1": "1d6",
-			"dmgType": "Y"
+			"dmgType": "Y",
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "Regarding Weapon Mastery",
+					"entries": [
+						"You can use this weapon's mastery property, and it doesn't count against the number of properties you can use with Weapon Mastery."
+					]
+				}
+			]
 		},
 		{
 			"name": "Pulverizing Staff of Skulls",
@@ -54379,6 +54388,26 @@
 				"Arcana - Rare|XDMG"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Ritual Sickle",
+			"group": [
+				"Druidic Focus"
+			],
+			"baseItem": "sickle|XPHB",
+			"source": "XPHB",
+			"page": 225,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "SCF|XPHB",
+			"scfType": "druid",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "simple",
+			"entries": [
+				"{@i This Ritual Sickle, is based off of a Sickle as its traditional purpose as a harvesting tool. Although Ritual is in its name, it can still be used for casting of spells as a material component using spell slots.}"
+			]
 		},
 		{
 			"name": "Rival Coin",
@@ -79412,6 +79441,7 @@
 				"Ranger"
 			],
 			"items": [
+				"Ritual Sickle|XPHB",
 				"Sprig of mistletoe|XPHB",
 				"Totem|XPHB",
 				"Wooden staff|XPHB",

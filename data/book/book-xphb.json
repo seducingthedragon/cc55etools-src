@@ -8669,7 +8669,7 @@
 										"{@item Club|XPHB}",
 										"{@dice 1d4} Bludgeoning",
 										"{@itemProperty L|XPHB|Light}",
-										"{@itemMastery Slow}",
+										"{@itemMastery Daze}, {@itemMastery Non-Lethal}, {@itemMastery Upclose}",
 										"2 lb.",
 										"1 SP"
 									]
@@ -8680,8 +8680,8 @@
 									"row": [
 										"{@item Dagger|XPHB}",
 										"{@dice 1d4} Piercing",
-										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
-										"{@itemMastery Nick}",
+										"{@item C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+										"{@itemMastery Nick}, {@itemMastery Pin}, {@itemMastery Upclose}",
 										"1 lb.",
 										"2 GP"
 									]
@@ -8693,7 +8693,7 @@
 										"{@item Greatclub|XPHB}",
 										"{@dice 1d8} Bludgeoning",
 										"{@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Push}",
+										"{@itemMastery Crush}, {@itemMastery Push}, {@itemMastery Sap}",
 										"10 lb.",
 										"2 SP"
 									]
@@ -8741,7 +8741,7 @@
 										"{@item Light Hammer|XPHB}",
 										"{@dice 1d4} Bludgeoning",
 										"{@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
-										"{@itemMastery Nick}",
+										"{@itemMastery Crush}, {@itemMastery Daze}, {@itemMastery Nick}",
 										"2 lb.",
 										"2 GP"
 									]
@@ -8753,7 +8753,7 @@
 										"{@item Mace|XPHB}",
 										"{@dice 1d6} Bludgeoning",
 										"\u2014",
-										"{@itemMastery Sap}",
+										"{@itemMastery Bruiser}, {@itemMastery Daze}, {@itemMastery Sap}",
 										"4 lb.",
 										"5 GP"
 									]
@@ -8789,7 +8789,7 @@
 										"{@item Sickle|XPHB}",
 										"{@dice 1d4} Slashing",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
-										"{@itemMastery Nick}",
+										"{@itemMastery Bleeder}, {@itemMastery Nick}, {@itemMastery Upclose}",
 										"2 lb.",
 										"1 GP"
 									]
@@ -8831,8 +8831,8 @@
 									"row": [
 										"{@item Dart|XPHB}",
 										"{@dice 1d4} Piercing",
-										"{@itemProperty F|XPHB|Finesse}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
-										"{@itemMastery Vex}",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+										"{@itemMastery Pin}, {@itemMastery Vex}",
 										"1/4 lb.",
 										"5 CP"
 									]
@@ -8879,10 +8879,22 @@
 									"row": [
 										"{@item Sling|XPHB}",
 										"{@dice 1d4} Bludgeoning",
-										"{@itemProperty A|XPHB|Ammunition} (Range 30/120; Bullet)",
-										"{@itemMastery Slow}",
-										"\u2014",
+										"{@itemProperty A|XPHB|Ammunition} (Range 30/120; Sling Bullet), {@itemProperty LD|XPHB|Loading}",
+										"{@itemMastery Daze}, {@itemMastery Slow}, {@itemMastery Underdog}",
+										"0.25 lb.",
 										"1 SP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Slingshot|XPHB}",
+										"{@dice 1d6} Bludgeoning",
+										"{@itemProperty A|XPHB|Ammunition} (Range 20/60; Sling Bullet), {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Daze}, {@itemMastery Tricks Shot}, {@itemMastery Underdog}",
+										"1 lb.",
+										"5 SP"
 									]
 								},
 								[
@@ -8910,8 +8922,8 @@
 									"row": [
 										"{@item Flail|XPHB}",
 										"{@dice 1d8} Bludgeoning",
-										"\u2014",
-										"{@itemMastery Sap}",
+										"{@itemProperty FL|XPHB|Flourish}",
+										"{@itemMastery Crush}, {@itemMastery Sap}, {@itemMastery Un-Shield}",
 										"2 lb.",
 										"10 GP"
 									]
@@ -8995,7 +9007,7 @@
 										"{@item Maul|XPHB}",
 										"{@dice 2d6} Bludgeoning",
 										"{@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Topple}",
+										"{@itemMastery Crush}, {@itemMastery Push}, {@itemMastery Sunder}",
 										"10 lb.",
 										"10 GP"
 									]
@@ -9007,7 +9019,7 @@
 										"{@item Morningstar|XPHB}",
 										"{@dice 1d8} Piercing",
 										"\u2014",
-										"{@itemMastery Sap}",
+										"{@itemMastery Crush}, {@itemMastery Sap}",
 										"4 lb.",
 										"15 GP"
 									]
@@ -9091,7 +9103,7 @@
 										"{@item Warhammer|XPHB}",
 										"{@dice 1d8} Bludgeoning",
 										"{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
-										"{@itemMastery Push}",
+										"{@itemMastery Bruiser}, {@itemMastery Push}, {@itemMastery Sunder}",
 										"5 lb.",
 										"15 GP"
 									]
@@ -9102,8 +9114,8 @@
 									"row": [
 										"{@item War Pick|XPHB}",
 										"{@dice 1d8} Piercing",
-										"{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
-										"{@itemMastery Sap}",
+										"{@itemProperty B|XPHB|Bludgeon}, {@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+										"{@itemMastery Piercer}, {@itemMastery Sap}",
 										"2 lb.",
 										"5 GP"
 									]
@@ -9115,7 +9127,7 @@
 										"{@item Whip|XPHB}",
 										"{@dice 1d4} Slashing",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty R|XPHB|Reach}",
-										"{@itemMastery Slow}",
+										"{@itemMastery Bleeder}, {@itemMastery Halt}, {@itemMastery Topple}",
 										"3 lb.",
 										"2 GP"
 									]
@@ -9133,8 +9145,8 @@
 									"row": [
 										"{@item Blowgun|XPHB}",
 										"1 Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 25/100; Needle), {@itemProperty LD|XPHB|Loading}",
-										"{@itemMastery Vex}",
+										"{@itemProperty A|XPHB|Ammunition} (Range 25/100; Needle), {@itemProperty LD|XPHB|Loading}, Special",
+										"{@itemMastery Paralyzed}, {@itemMastery Poisoned}, {@itemMastery Vex}, {@itemMastery Wooziness}",
 										"1 lb.",
 										"10 GP"
 									]
@@ -9357,7 +9369,7 @@
 										"{@item Garrote|XPHB}",
 										"\u2014",
 										"{@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty F|XPHB|Finesse}, {@itemProperty GP|XPHB|Grappling}, {@itemProperty ST|XPHB|Strangulation}, Special",
-										"{@itemMastery Sap}",
+										"{@itemMastery Sap}, {@itemMastery Slow}",
 										"0.5 lb.",
 										"5 GP"
 									]
@@ -9513,7 +9525,7 @@
 										"{@item Spiked Chain|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d4} Piercing",
 										"{@itemProperty DM|XPHB|Double: Melee} ({@dice 1d4}), {@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Disarm}, {@itemMastery Sap}",
+										"{@itemMastery Sap}, {@itemMastery Un-Shield}",
 										"7 lb.",
 										"50 GP"
 									]
@@ -9568,7 +9580,7 @@
 										"{@item Boomerang|XPHB}",
 										"{@dice 1d6} Bludgeoning",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 100/400), Special",
-										"{@itemMastery Sap}, {@itemMastery Windsweep}",
+										"{@itemMastery Non-Lethal}, {@itemMastery Sap}, {@itemMastery Windsweep}",
 										"2 lb.",
 										"5 GP"
 									]
@@ -9809,7 +9821,7 @@
 									"id": "63a",
 									"entries": [
 										"A Grappling weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Grappled|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. If this weapon has a damage listed, then the damage is dealt only if your attack roll hits but the target succeeds on its Dexterity {@variantrule Saving Throw|XPHB}. If the weapon has no damage listed, then you skip the attack roll. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice). Huge and larger creatures, and formless creatures, automatically succeed on the save, unless specified.",
-										"At the DM's discretion, you and/or the DM may determine how the {@condition Grappled|XPHB} condition varies or changes based on where this weapon grapples the target. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
+										"At the DM's discretion, you and/or the DM may determine how the {@condition Grappled|XPHB} condition varies or changes based on where this weapon grapples the target, such as whether or not the grappled target actually loses their movement speed. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
 									]
 								},
 								{
@@ -9991,16 +10003,25 @@
 									"type": "entries",
 									"name": "Block",
 									"page": 216,
-									"id": "66c",
+									"id": "66a",
 									"entries": [
 										"{@i Maneuver.} Similarly to {@itemMastery Disarm|XPHB}, when a creature targets you with a weapon attack, you may use your {@variantrule Reaction|XPHB} to attempt to lock blades to block the attack. Make a contested Attack roll with this weapon. If your roll meets or exceeds their attack roll, their attack misses."
 									]
 								},
 								{
 									"type": "entries",
+									"name": "Bruiser",
+									"page": 216,
+									"id": "670",
+									"entries": [
+										"{@i Maneuver.} As an {@variantrule Action|XPHB}, make a single attack roll with this weapon against a creature. On a hit, it deals normal weapon damage and the target must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus} and your attack modifier). On a failed save, the target does not add its Dexterity modifier to its {@variantrule Armor Class|XPHB|AC} until the end of your next turn or until it is treated with a DC 10 Wisdom ({@skill Medicine}) check."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Burst",
 									"page": 216,
-									"id": "66a",
+									"id": "66c",
 									"entries": [
 										"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can force all adjacent creatures to make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your weapon's Ability modifier). On a failed save, a target takes the weapon's damage plus your {@variantrule Proficiency Bonus|XPHB} and attack modifier. On a save, a target takes half damage."
 									]
@@ -10021,6 +10042,15 @@
 									"id": "661",
 									"entries": [
 										"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make a single {@variantrule Weapon Attack|XPHB} roll against an armored or naturally armored creature. If the attack hits, the target's AC is permanently reduced by 1 until its armor is repaired. It cannot be reduced below 10 plus the target's Dexterity modifier. This attack has no effect on creatures with magical armor unless this weapon is also magical."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Daze",
+									"page": 216,
+									"id": "672",
+									"entries": [
+										"{@i Maneuver.} Once per turn, when you hit a target with this weapon and deal damage, you can force the target to make a Constitution {@variantrule Saving Throw|XPHB} or become {@condition Incapacitated|XPHB} until the end of their next turn ({@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your attack modifier)."
 									]
 								},
 								{
@@ -10166,6 +10196,12 @@
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
+									"name": "Halt",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
 									"name": "Hooked",
 									"style": "inset"
 								},
@@ -10178,7 +10214,19 @@
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
+									"name": "Paralyzed",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
 									"name": "Piercer",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Poisoned",
 									"style": "inset"
 								},
 								{
@@ -10226,6 +10274,12 @@
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
+									"name": "Sunder",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
 									"name": "Trick Shot",
 									"style": "inset"
 								},
@@ -10233,6 +10287,12 @@
 									"type": "statblock",
 									"tag": "itemMastery",
 									"name": "Twist",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Un-Shield",
 									"style": "inset"
 								},
 								{
@@ -10251,6 +10311,12 @@
 									"type": "statblock",
 									"tag": "itemMastery",
 									"name": "Wing-Wrapped",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Wooziness",
 									"style": "inset"
 								}
 							]
@@ -12774,6 +12840,11 @@
 											],
 											"rows": [
 												[
+													"{@item Ritual Sickle|XPHB}",
+													"2",
+													"5 GP"
+												],
+												[
 													"{@item Sprig of mistletoe|XPHB}",
 													"\u2014",
 													"1 GP"
@@ -13305,7 +13376,7 @@
 									"page": 228,
 									"id": "6f6",
 									"entries": [
-										"Iron Spikes come in bundles of ten. As a {@action Utilize|XPHB} action, you can use a blunt object, such as a {@item Light Hammer|XPHB}, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a {@item Rope|XPHB} or {@item Chain|XPHB} to the Spike."
+										"Iron Spikes come in bundles of ten. As a {@action Utilize|XPHB} action, you can use a blunt object, such as a {@item Hammer|XPHB}, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a {@item Rope|XPHB} or {@item Chain|XPHB} to the Spike."
 									]
 								},
 								{
@@ -20178,6 +20249,11 @@
 								},
 								{
 									"type": "item",
+									"name": "{@item Blowgun|XPHB}",
+									"entry": "{@i A Blowgun is a common weapon among nomadic communities found in jungles, swamps, and tropical forests. Its needle is like a {@item Dart|XPHB} but with a thinner blade and an even smaller handle, in order to fit through the weapon. Due to this and its low damage, it is often used with poisons for a more devastating effect.}"
+								},
+								{
+									"type": "item",
 									"name": "{@item Bokken|XPHB} {@i Cultural (Monks)}",
 									"entry": "{@i This wooden practice sword can be used as a fearsome weapon in its own right.}"
 								},
@@ -20240,11 +20316,29 @@
 								},
 								{
 									"type": "item",
+									"name": "The Clubs: {@item Club|XPHB} and {@item Greatclub|XPHB}",
+									"entries": [
+										"{@i A Club is a simple bludgeoning weapon, often small, like the size of a Dagger or Shortsword. It can also be considered a Baton or a Tonfa, and often does not include any metal parts.}",
+										"{@i Greatclubs are bigger and heavier than regular clubs and typically augmented with spikes, nails and/or bands of iron.}"
+									]
+								},
+								{
+									"type": "item",
 									"name": "{@item Composite Bow|XPHB}",
 									"entries": [
 										"{@i The Composite Bow has a unique construction that gives it an incredibly heavy draw while often with an overall size between the Longbow and the Shortbow. The heavy draw allows for far normal range and deadly hits.}",
 										"{@b {@i Special: Strongbow.}} This is a Strongbow, meaning that it uses Strength as its Attack and Damage ability, even though it is a Ranged weapon."
 									]
+								},
+								{
+									"type": "item",
+									"name": "{@item Dagger}",
+									"entry": "{@i A Dagger is an extremely small sword that is may often be considered a knife instead. It has one or two sharpened edges to a point, can easily be concealed, and is a popular weapon to use with {@action Two-Weapon Fighting|XPHB}. There are other types of Daggers, such as the Stiletto, Dirk, Poniard, Combat Knife, and more.}"
+								},
+								{
+									"type": "item",
+									"name": "{@item Dart|XPHB}",
+									"entry": "{@i A Dart is a small projectile weapon. It has a very sharp point and its handle is often decorated with feathers, like an arrow's fletchlings.}"
 								},
 								{
 									"type": "item",
@@ -20265,6 +20359,14 @@
 									"type": "item",
 									"name": "{@item Dual Scimitar|XPHB} {@i Cultural (Elven)}",
 									"entry": "{@i The Dual Scimitar was, historically, the signature weapon of various Elven communities. A two-handed haft of fine wood and metal supports two curved scimitar blades, with the secondary blade slightly smaller. Although this weapon's station within the Elven communities has diminished as the design has expanded to other communities, it is still honored as a valuable piece of Elven history.}"
+								},
+								{
+									"type": "item",
+									"name": "{@item Flail|XPHB|Flails} and {@item Morningstar|XPHB|Morningstars}",
+									"entries": [
+										"{@i Flails are weapons with a baton-like handle that has a thick chain linking it to a heavy iron ball of spikes. They look like Morningstars, however they incorporate a chain connecting the iron ball to the handle, with or without shortening the handle.}",
+										"{@i A Morningstar is a club-like weapon that has a large sphere at the end of the handle covered in piercing spikes. It appears similarly to a Flail but does not utilize a chain.}"
+									]
 								},
 								{
 									"type": "item",
@@ -20306,7 +20408,7 @@
 									"name": "{@item Halfling Skiprocks|XPHB} {@i Cultural (Smallfolk)}",
 									"entries": [
 										"{@i Halfling Skiprocks, also known as Skiprocks, were specially made, polished stone projectiles invented by Halfling weaponsmiths and became prized by members of various Smallfolk communities. Skiprocks were finely weighted and shaped to ensure they were perfect for throwing. If thrown well enough, after hitting a target they would typically ricochet and hit another, taking inspiration from river pebbles.}",
-										"Halfling Skiprocks are sold in packs of 20. While they can be used as Ammunition for {@item Sling|XPHB|Slings}, they do not benefit from its Ricochet property.",
+										"Halfling Skiprocks are sold in packs of 20. While they can be used as Ammunition for {@item Sling|XPHB|Slings} or {@item Slingshot|XPHB|Slingshots}, they do not benefit from its Ricochet property.",
 										"{@b {@i Special: Ricochet.}} When you hit a target with this weapon by throwing it, it will ricochet back to you. If you rolled an 18 or higher on the attack die, you can choose to have it return to you or it can ricochet to another target within 5 feet of its first target. Make another attack roll for the second target. On a hit, the skiprock will ricochet back to you. You do not add your ability modifier to the damage roll of the second target, unless the modifier is negative."
 									]
 								},
@@ -20361,8 +20463,24 @@
 								},
 								{
 									"type": "item",
+									"name": "{@item Light Hammer|XPHB|Light} and {@item War Hammer|XPHB|War Hammers}",
+									"entries": [
+										"{@i Light Hammers are small combat hammers but just as deadly to objects as their larger cousins. Light Hammers emerged from laborers using their tools as improvised weapons before these were created for fighting purposes. While one could use a Light Hammer as a tool, there is a higher chance of destroying a nail with this.}",
+										"{@i A Warhammer is like a Maul but with a shorter handle and lighter hammer heads, however it is just as brutal.}"
+									]
+								},
+								{
+									"type": "item",
 									"name": "{@item Longsword|XPHB}",
 									"entry": "{@i A Longsword is a sword with a hand-and-a-half hilt, with an overall size inbetween a Shortsword and a Greatsword.}"
+								},
+								{
+									"type": "item",
+									"name": "{@item Mace|XPHB|Maces} and {@item Maul|XPHB|Mauls}",
+									"entries": [
+										"{@i A Mace is a club-like weapon with a decorative handle and a heavy bludgeoning object on its end. This is usually shaped with blunted flanges or knobs for additional pressure.}",
+										"{@i A Maul is a hammer-like weapon that looks like a war-like sledgehammer.}"
+									]
 								},
 								{
 									"type": "item",
@@ -20423,8 +20541,11 @@
 								},
 								{
 									"type": "item",
-									"name": "{@item Scythe|XPHB}",
-									"entry": "{@i A Scythe is a harvesting tool that has a polearm like shaft and a large curved blade that appeears to be between a Sickle and a Scimitar. It has become a symbol for a Grim Reaper, a harvester of souls, while also being used to protect the laborers across the lands from those who wish to oppress them.}"
+									"name": "{@item Scythe|XPHB} and {@item Sickle}",
+									"entries": [
+										"{@i A Scythe is a harvesting tool that has a polearm like shaft and a large curved blade that appeears to be between a Sickle and a Scimitar. It has become a symbol for a Grim Reaper, a harvester of souls, while also being used to protect the laborers across the lands from those who wish to oppress them.}",
+										"{@i A Sickle looks like a light one-handed Scythe and has a similar history to it as well, with this weapon starting out as an agricultural tool. The curvature varies between slightly curved to almost like a hook.}"
+									]
 								},
 								{
 									"type": "item",
@@ -20438,6 +20559,14 @@
 										"{@i A Shuriken is a flat throwing blade with 2 to 8 sharp points, each one with an equal distance from the weapon's center, where the wielder holds it with a pinch grip. Due to its expendable nature, it is often sold is packs but can be purchased individually. Lodging a group of shurikens in the ground can also act as {@item Caltrops|XPHB}.}",
 										"{@i A single Shuriken is {@itemProperty C|XPHB|Concealable}. Trying to hide a whole pack of Shurikens is not.}",
 										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Shuriken as part of your {@action Attack|XPHB} action, you can draw up to three Shurikens on one draw, while attacking with one weapon per {@action Attack|XPHB}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "{@item Sling|XPHB|Slings} and {@item Slingshot|XPHB|Slingshots}",
+									"entries": [
+										"{@i A Sling, not to be confused with a Slingshot, is an elastic band with a pocket, or pouch, that holds the ammunition. It requires the wielding to whirl it like a Bola or Lasso, and with a quick flick, using its double-pendulum kinetics, the ammunition is released from the pouch towards a target.}",
+										"{@i Slingshots are simple ranged weapons comprising an elasticated material strung between a Y-frame brace. They operate similarly to Slings, however, the elastic material is significantly shorter, which reduces the range of the ammunition, which increases the amount of damage done.}"
 									]
 								},
 								{
@@ -20477,8 +20606,18 @@
 								},
 								{
 									"type": "item",
+									"name": "{@item War Pick|XPHB}",
+									"entry": "{@i A War Pick, also known as an Horseman's Pick, is a weapon that resembles an axe, with a bludgeoning poll and instead of a bladed axe head, it is a curved spike. It has also been described as having a reverse hammer-head.}"
+								},
+								{
+									"type": "item",
 									"name": "{@item Waraxe|XPHB} {@i Cultural (Dwarven)}",
 									"entry": "{@i The Waraxe, also known as the Dwarven Waraxe, was a single-bladed, versatile axe, that is larger and heavier than a battleaxe, but only slightly less so than the double-bladed greataxe. While this weapon does not have reach abilities, its large blade makes it difficult to miss a target when properly wielded and always does deadly damage.}"
+								},
+								{
+									"type": "item",
+									"name": "{@item Whip|XPHB|Whips}",
+									"entry": "{@i A Whip is a flexible weapon with a sturdy handle to hold. It makes an iconic sound when it hits a creature or object. While a whip is commonly referred to as a Bullwhip, it can also relate to riding crops, chain whip, a cat o' nine tails, a hard whip, and many more.}"
 								}
 							]
 						}

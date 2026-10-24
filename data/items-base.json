@@ -608,16 +608,30 @@
 			"weaponCategory": "martial",
 			"property": [
 				"A|XPHB",
-				"LD|XPHB"
+				"LD|XPHB",
+				"S|XPHB"
 			],
 			"mastery": [
-				"Vex|XPHB"
+				"Paralyzed|XPHB",
+				"Poisoned|XPHB",
+				"Vex|XPHB",
+				"Wooziness|XPHB"
 			],
 			"range": "25/100",
 			"dmg1": "1",
 			"dmgType": "P",
 			"weapon": true,
 			"ammoType": "needle|xphb",
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "This Weapon's Mastery Properties",
+					"entries": [
+						"This weapon's mastery properties require the use of a {@item Poisoner's Kit|XPHB} or access to a vial of poison. Three of the most common poison's used with this weapon are listed, however any obtain poison will work. It takes a {@variantrule Bonus Action|XPHB} to apply the poison to a Blowgun's ammunition and a single vial can be used 10 times before it is completely consumed. Each mastery property maintains the 1 point of Piercing damage along with its related poisoned effect."
+					]
+				}
+			],
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -818,6 +832,7 @@
 				"S|XPHB"
 			],
 			"mastery": [
+				"Non-Lethal|XPHB",
 				"Sap|XPHB",
 				"Windsweep|XPHB"
 			],
@@ -1783,12 +1798,15 @@
 				"L|XPHB"
 			],
 			"mastery": [
-				"Slow|XPHB"
+				"Daze|XPHB",
+				"Non-Lethal|XPHB",
+				"Upclose|XPHB"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
 			"club": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -2260,18 +2278,22 @@
 			"value": 200,
 			"weaponCategory": "simple",
 			"property": [
+				"C|XPHB",
 				"F|XPHB",
 				"L|XPHB",
 				"T|XPHB"
 			],
 			"mastery": [
-				"Nick|XPHB"
+				"Nick|XPHB",
+				"Pin|XPHB",
+				"Upclose|XPHB"
 			],
 			"range": "20/60",
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"dagger": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -2314,16 +2336,20 @@
 			"value": 5,
 			"weaponCategory": "simple",
 			"property": [
+				"C|XPHB",
 				"F|XPHB",
+				"L|XPHB",
 				"T|XPHB"
 			],
 			"mastery": [
+				"Pin|XPHB",
 				"Vex|XPHB"
 			],
 			"range": "20/60",
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -2614,12 +2640,18 @@
 			"weight": 2,
 			"value": 1000,
 			"weaponCategory": "martial",
+			"property": [
+				"FL|XPHB"
+			],
 			"mastery": [
-				"Sap|XPHB"
+				"Crush|XPHB",
+				"Sap|XPHB",
+				"Un-Shield|XPHB"
 			],
 			"dmg1": "1d8",
 			"dmgType": "B",
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -2677,11 +2709,11 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Sap|XPHB"
+				"Sap|XPHB",
+				"Slow|XPHB"
 			],
 			"weapon": true,
 			"entries": [
-				"{@i A Garrote is a strangulation device, typically a strong length of rope cord or a steel wire with a handle on each end. It is designed to constrain a target's intake of air and the flow of blood to its brain. It is often used among Rogues and assassins for stealth-related attacks, attacking from behind in order to improve success.}",
 				"If a target were to break this weapon, its AC is based on the {@object Generic Object|DMG|material} used to strangle. Your DM has the information.",
 				{
 					"type": "entries",
@@ -2690,7 +2722,8 @@
 						"Attacking with this weapon requires some level of planning. If a target can see you and the weapon, the target can use its {@variantrule Reaction|XPHB} to protect its neck, negating the {@itemProperty ST|XPHB|Strangulation} property, even if it fails to avoid a grapple, until the start of its turn."
 					]
 				}
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Glaive",
@@ -3105,12 +3138,15 @@
 				"2H|XPHB"
 			],
 			"mastery": [
-				"Push|XPHB"
+				"Crush|XPHB",
+				"Push|XPHB",
+				"Sap|XPHB"
 			],
 			"dmg1": "1d8",
 			"dmgType": "B",
 			"club": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -3313,7 +3349,7 @@
 			"range": "10/40",
 			"weapon": true,
 			"entries": [
-				"Halfling Skiprocks are sold in packs of 20. While they can be used as Ammunition for {@item Sling|XPHB|Slings}, they do not benefit from its Ricochet property.",
+				"Halfling Skiprocks are sold in packs of 20. While they can be used as Ammunition for {@item Sling|XPHB|Slings} or {@item Slingshot|XPHB|Slingshots}, they do not benefit from its Ricochet property.",
 				{
 					"type": "entries",
 					"name": "Special: Ricochet",
@@ -4653,6 +4689,8 @@
 				"T|XPHB"
 			],
 			"mastery": [
+				"Crush|XPHB",
+				"Daze|XPHB",
 				"Nick|XPHB"
 			],
 			"range": "20/60",
@@ -4660,6 +4698,7 @@
 			"dmgType": "B",
 			"hammer": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -4986,12 +5025,15 @@
 			"value": 500,
 			"weaponCategory": "simple",
 			"mastery": [
+				"Bruiser|XPHB",
+				"Daze|XPHB",
 				"Sap|XPHB"
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"mace": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -5202,12 +5244,15 @@
 				"2H|XPHB"
 			],
 			"mastery": [
-				"Topple|XPHB"
+				"Crush|XPHB",
+				"Push|XPHB",
+				"Sunder|XPHB"
 			],
 			"dmg1": "2d6",
 			"dmgType": "B",
 			"hammer": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -5285,12 +5330,14 @@
 			"value": 1500,
 			"weaponCategory": "martial",
 			"mastery": [
+				"Crush|XPHB",
 				"Sap|XPHB"
 			],
 			"dmg1": "1d8",
 			"dmgType": "P",
 			"mace": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -7074,11 +7121,14 @@
 				"L|XPHB"
 			],
 			"mastery": [
-				"Nick|XPHB"
+				"Bleeder|XPHB",
+				"Nick|XPHB",
+				"Upclose|XPHB"
 			],
 			"dmg1": "1d4",
 			"dmgType": "S",
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -7114,18 +7164,23 @@
 			"type": "R|XPHB",
 			"rarity": "none",
 			"value": 10,
+			"weight": 0.25,
 			"weaponCategory": "simple",
 			"property": [
-				"A|XPHB"
+				"A|XPHB",
+				"LD|XPHB"
 			],
 			"mastery": [
-				"Slow|XPHB"
+				"Daze|XPHB",
+				"Slow|XPHB",
+				"Underdog|XPHB"
 			],
 			"range": "30/120",
 			"dmg1": "1d4",
 			"dmgType": "B",
 			"weapon": true,
 			"ammoType": "sling bullet|xphb",
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -7207,6 +7262,36 @@
 					"quantity": 20
 				}
 			]
+		},
+		{
+			"name": "Slingshot",
+			"source": "XPHB",
+			"page": 215,
+			"srd52": true,
+			"basicRules2024": true,
+			"edition": "one",
+			"type": "R|XPHB",
+			"rarity": "none",
+			"value": 50,
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"A|XPHB",
+				"LD|XPHB",
+				"2H|XPHB"
+			],
+			"mastery": [
+				"Daze|XPHB",
+				"Trick Shot|XPHB",
+				"Underdog|XPHB"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"weapon": true,
+			"ammoType": "sling bullet|xphb",
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Smith's Tools",
@@ -7498,8 +7583,8 @@
 				"R|XPHB"
 			],
 			"mastery": [
-				"Disarm|XPHB",
-				"Sap|XPHB"
+				"Sap|XPHB",
+				"Un-Shield|XPHB"
 			],
 			"dmg1": "2d4",
 			"dmgType": "S",
@@ -8147,6 +8232,9 @@
 		},
 		{
 			"name": "War Pick",
+			"alias": [
+				"Horseman's Pick"
+			],
 			"source": "XPHB",
 			"page": 215,
 			"srd52": true,
@@ -8158,15 +8246,18 @@
 			"value": 500,
 			"weaponCategory": "martial",
 			"property": [
+				"B|XPHB",
 				"V|XPHB"
 			],
 			"mastery": [
+				"Piercer|XPHB",
 				"Sap|XPHB"
 			],
 			"dmg1": "1d8",
 			"dmgType": "P",
 			"dmg2": "1d10",
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -8269,13 +8360,16 @@
 				"V|XPHB"
 			],
 			"mastery": [
-				"Push|XPHB"
+				"Bruiser|XPHB",
+				"Push|XPHB",
+				"Sunder|XPHB"
 			],
 			"dmg1": "1d8",
 			"dmgType": "B",
 			"dmg2": "1d10",
 			"hammer": true,
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -8459,11 +8553,14 @@
 				"R|XPHB"
 			],
 			"mastery": [
-				"Slow|XPHB"
+				"Bleeder|XPHB",
+				"Halt|XPHB",
+				"Topple|XPHB"
 			],
 			"dmg1": "1d4",
 			"dmgType": "S",
 			"weapon": true,
+			"hasFluff": true,
 			"hasFluffImages": true
 		},
 		{
@@ -9076,7 +9173,7 @@
 					"name": "Grappling",
 					"entries": [
 						"A Grappling weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Grappled|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. If this weapon has a damage listed, then the damage is dealt only if your attack roll hits but the target succeeds on its Dexterity {@variantrule Saving Throw|XPHB}. If the weapon has no damage listed, then you skip the attack roll. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice). Huge and larger creatures, and formless creatures, automatically succeed on the save, unless specified.",
-						"At the DM's discretion, you and/or the DM may determine how the {@condition Grappled|XPHB} condition varies or changes based on where this weapon grapples the target. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
+						"At the DM's discretion, you and/or the DM may determine how the {@condition Grappled|XPHB} condition varies or changes based on where this weapon grapples the target, such as whether or not the grappled target actually loses their movement speed. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
 					]
 				}
 			]
@@ -10683,11 +10780,11 @@
 			]
 		},
 		{
-			"name": "Bludgeon",
+			"name": "Bruiser",
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Buff.} This weapon can deal Bludgeoning damage instead of its listed damage type, using the same damage die size. When you drop a creature to 0 {@variantrule Hit Points|XPHB} using this weapon's Bludgeoning damage (melee or ranged attack), the creature falls {@condition Unconscious|XPHB} and is {@variantrule Stable|XPHB}."
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, make a single attack roll with this weapon against a creature. On a hit, it deals normal weapon damage and the target must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus} and your attack modifier). On a failed save, the target does not add its Dexterity modifier to its {@variantrule Armor Class|XPHB|AC} until the end of your next turn or until it is treated with a DC 10 Wisdom ({@skill Medicine}) check."
 			]
 		},
 		{
@@ -10727,6 +10824,14 @@
 			]
 		},
 		{
+			"name": "Daze",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} Once per turn, when you hit a target with this weapon and deal damage, you can force the target to make a Constitution {@variantrule Saving Throw|XPHB} or become {@condition Incapacitated|XPHB} until the end of their next turn ({@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your attack modifier)."
+			]
+		},
+		{
 			"name": "Disarm",
 			"source": "XPHB",
 			"page": 216,
@@ -10752,6 +10857,14 @@
 			"basicRules2024": true,
 			"entries": [
 				"{@i Buff.} If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier. If you miss with a Nat 1, this property is not applied."
+			]
+		},
+		{
+			"name": "Halt",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} When you use this weapon for an {@action Opportunity Attack|XPHB} and the weapon hits, you can force the target to make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your attack modifier). On a failed save, the target is {@condition Grappled|XPHB} however you do not deal damage. On a save, you deal normal weapon damage only."
 			]
 		},
 		{
@@ -10797,6 +10910,14 @@
 			]
 		},
 		{
+			"name": "Paralyzed",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Buff.} A creature hit with a Blowgun {@item Needle|XPHB}, coated with this Numbing Ichor must make a {@dc 12} Constitution {@variantrule Saving Throw|XPHB} or gain the {@condition Paralyzed|XPHB} condition until the beginning of its next turn."
+			]
+		},
+		{
 			"name": "Piercer",
 			"source": "XPHB",
 			"page": 216,
@@ -10812,6 +10933,14 @@
 			"basicRules2024": true,
 			"entries": [
 				"{@i Maneuver.} When you make an attack roll with this weapon and hit a Large or smaller creature, you can attempt to pin them to a nearby (5 feet) surface. On a hit, the target must make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice), The DC is {@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your Attack Modifier. On a failed save, the target is pinned, via {@condition Restrained|XPHB} condition, until the weapon, or ammunition, is removed. The target can use an {@variantrule Action|XPHB} on their turn to attempt to remove the weapon."
+			]
+		},
+		{
+			"name": "Poisoned",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Buff.} A creature hit with a Blowgun {@item Needle|XPHB}, coated with this Deathtoad Toxin, must make a {@dc 12} Constitution {@variantrule Saving Throw|XPHB} or take {@damage 2d6} Poison damage."
 			]
 		},
 		{
@@ -10909,6 +11038,14 @@
 			]
 		},
 		{
+			"name": "Sunder",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} Once per turn when you take the {@action Attack|XPHB} action, targeting a creature wielding a weapon, you can attempt to destroy the weapon. The attack roll targets the creature, however, on a hit, it does not deal damage. Instead, it causes the weapon that creature is wielding to be considered damaged, resulting in all attacks made with that weapon to have {@variantrule Disadvantage|XPHB}. On a second hit with this maneuver, the weapon is destroyed. This attack has no effect on magical weapons unless this weapon is also magical."
+			]
+		},
+		{
 			"name": "Topple",
 			"source": "XPHB",
 			"page": 216,
@@ -10932,6 +11069,14 @@
 			"page": 216,
 			"entries": [
 				"{@i Buff.} When you hit a creature with this weapon, you can \"twist\" the weapon as part of your attack. The creature must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and attack modifier) or you add one additional damage dice to the damage total."
+			]
+		},
+		{
+			"name": "Un-Shield",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make a single attack against a target carrying a shield or similar defensive tool. This attack ignores any bonus to AC granted by the shield, dealing normal weapon damage on a hit. On a hit, the target must also make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (their choice) against a {@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your attack modifier. On a failed save, the shield is pulled from its grip and landing on the ground."
 			]
 		},
 		{
@@ -10975,6 +11120,14 @@
 			"entries": [
 				"{@i Maneuver.} This Mastery property applies only to net-like weapons that have the {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} property.",
 				"When you use this weapon's {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} property on an attack, you can forgo the condition when you target a Huge or smaller winged creature with a Fly speed. When that creature fails its saving throw, this weapon gets entangled in its wings only and its Fly speed drops to 0 until its freed. The escape DC and Armor class of the weapon increases by 5 due to the lack of accessibility the creature will have with its wings, however this increase is not applied when another creature helps by making the checks themselves. This mastery property still allows for any weapon damage to be applied per the rules of the @itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} property."
+			]
+		},
+		{
+			"name": "Wooziness",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Buff.} A creature hit with a Blowgun {@item Needle|XPHB}, coated with this Wooziness Tonic must make a {@dc 12} Constitution {@variantrule Saving Throw|XPHB} or gain the {@condition Poisoned|XPHB} condition until the end of its next turn."
 			]
 		}
 	]

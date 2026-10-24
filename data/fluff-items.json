@@ -1135,6 +1135,9 @@
 		{
 			"name": "Blowgun",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Blowgun is a common weapon among nomadic communities found in jungles, swamps, and tropical forests. Its needle is like a {@item Dart|XPHB} but with a thinner blade and an even smaller handle, in order to fit through the weapon. Due to this and its low damage, it is often used with poisons for a more devastating effect.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -2231,6 +2234,9 @@
 		{
 			"name": "Club",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Club is a simple bludgeoning weapon, often small, like the size of a Dagger or Shortsword. It can also be considered a Baton or a Tonfa, and often does not include any metal parts.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -2584,6 +2590,9 @@
 		{
 			"name": "Dagger",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Dagger is an extremely small sword that is may often be considered a knife instead. It has one or two sharpened edges to a point, can easily be concealed, and is a popular weapon to use with {@action Two-Weapon Fighting|XPHB}. There are other types of Daggers, such as the Stiletto, Dirk, Poniard, Combat Knife, and more.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -2732,6 +2741,9 @@
 		{
 			"name": "Dart",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Dart is a small projectile weapon. It has a very sharp point and its handle is often decorated with feathers, like an arrow's fletchlings.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -4282,6 +4294,9 @@
 		{
 			"name": "Flail",
 			"source": "XPHB",
+			"entries": [
+				"{@i Flails are weapons with a baton-like handle that has a thick chain linking it to a heavy iron ball of spikes. They look like Morningstars, however they incorporate a chain connecting the iron ball to the handle, with or without shortening the handle.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -4503,7 +4518,7 @@
 			"name": "Garrote",
 			"source": "XPHB",
 			"entries": [
-				"{@i A Garrote is a strangulation device, typically a strong length of cord or a steel wire with a handle on each end. It is designed to constrain a target's intake of air and the flow of blood to its brain. It is often used among Rogues and assassins for stealth-related attacks, attacking from behind in order to improve success.}"
+				"{@i A Garrote is a strangulation device, typically a strong length of rope cord or a steel wire with a handle on each end. It is designed to constrain a target's intake of air and the flow of blood to its brain. It is often used among Rogues and assassins for stealth-related attacks, attacking from behind in order to improve success.}"
 			]
 		},
 		{
@@ -4877,6 +4892,9 @@
 		{
 			"name": "Greatclub",
 			"source": "XPHB",
+			"entries": [
+				"{@i Greatclubs are bigger and heavier than regular clubs and typically augmented with spikes, nails and/or bands of iron.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -6988,6 +7006,9 @@
 		{
 			"name": "Light Hammer",
 			"source": "XPHB",
+			"entries": [
+				"{@i Light Hammers are small combat hammers but just as deadly to objects as their larger cousins. Light Hammers emerged from laborers using their tools as improvised weapons before these were created for fighting purposes. While one could use a Light Hammer as a tool, there is a higher chance of destroying a nail with this.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -7175,6 +7196,9 @@
 		{
 			"name": "Mace",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Mace is a club-like weapon with a decorative handle and a heavy bludgeoning object on its end. This is usually shaped with blunted flanges or knobs for additional pressure.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -7662,6 +7686,9 @@
 		{
 			"name": "Maul",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Maul is a hammer-like weapon that looks like a war-like sledgehammer.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -8039,6 +8066,9 @@
 		{
 			"name": "Morningstar",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Morningstar is a club-like weapon that has a large sphere at the end of the handle covered in piercing spikes. It appears similarly to a Flail but does not utilize a chain.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -11535,6 +11565,9 @@
 		{
 			"name": "Sickle",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Sickle looks like a light one-handed Scythe and has a similar history to it as well, with this weapon starting out as an agricultural tool. The curvature varies between slightly curved to almost like a hook.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -11653,6 +11686,9 @@
 		{
 			"name": "Sling",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Sling, not to be confused with a Slingshot, is an elastic band with a pocket, or pouch, that holds the ammunition. It requires the wielding to whirl it like a Bola or Lasso, and with a quick flick, using its double-pendulum kinetics, the ammunition is released from the pouch towards a target.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -11664,6 +11700,13 @@
 					"width": 361,
 					"height": 496
 				}
+			]
+		},
+		{
+			"name": "Slingshot",
+			"source": "XPHB",
+			"entries": [
+				"{@i Slingshots are simple ranged weapons comprising an elasticated material strung between a Y-frame brace. They operate similarly to Slings, however, the elastic material is significantly shorter, which reduces the range of the ammunition, which increases the amount of damage done.}"
 			]
 		},
 		{
@@ -14095,6 +14138,9 @@
 		{
 			"name": "War Pick",
 			"source": "XPHB",
+			"entries": [
+				"{@i A War Pick, also known as an Horseman's Pick, is a weapon that resembles an axe, with a bludgeoning poll and instead of a bladed axe head, it is a curved spike. It has also been described as having a reverse hammer-head.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -14125,6 +14171,9 @@
 		{
 			"name": "Warhammer",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Warhammer is like a Maul but with a shorter handle and lighter hammer heads, however it is just as brutal.}"
+			],
 			"images": [
 				{
 					"type": "image",
@@ -14269,6 +14318,9 @@
 		{
 			"name": "Whip",
 			"source": "XPHB",
+			"entries": [
+				"{@i A Whip is a flexible weapon with a sturdy handle to hold. It makes an iconic sound when it hits a creature or object. While a whip is commonly referred to as a Bullwhip, it can also relate to riding crops, chain whip, a cat o' nine tails, a hard whip, and many more.}"
+			],
 			"images": [
 				{
 					"type": "image",
