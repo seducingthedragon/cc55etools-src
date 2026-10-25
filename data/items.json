@@ -54394,7 +54394,6 @@
 			"group": [
 				"Druidic Focus"
 			],
-			"baseItem": "sickle|XPHB",
 			"source": "XPHB",
 			"page": 225,
 			"srd52": true,
@@ -54405,6 +54404,17 @@
 			"weight": 2,
 			"value": 500,
 			"weaponCategory": "simple",
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"property": [
+				"F|XPHB",
+				"L|XPHB"
+			],
+			"mastery": [
+				"Bleeder|XPHB",
+				"Nick|XPHB",
+				"Upclose|XPHB"
+			],
 			"entries": [
 				"{@i This Ritual Sickle, is based off of a Sickle as its traditional purpose as a harvesting tool. Although Ritual is in its name, it can still be used for casting of spells as a material component using spell slots.}"
 			]

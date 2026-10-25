@@ -8762,6 +8762,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Machete|XPHB}",
+										"{@dice 1d8} Slashing",
+										"{@itemProperty F|XPHB|Finesse}",
+										"{@itemMastery Bleeder}, {@itemMastery Cleave}",
+										"1 lb.",
+										"2 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Quarterstaff|XPHB}",
 										"{@dice 1d6} Bludgeoning",
 										"{@itemProperty P|XPHB|Polearm}, {@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
@@ -9438,6 +9450,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Kyre Kerym|XPHB} {@i Cultural (Elven)}",
+										"{@dice 1d10} Slashing",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty FL|XPHB|Flourish}, {@itemProperty P|XPHB|Polearm}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemMastery Bleeder}, {@itemMastery Graze}, {@itemMastery Push}",
+										"5 lb.",
+										"50 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Multi-Saber|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
 										"{@itemProperty 2F|XPHB|Two Forms}, {@itemProperty FL|XPHB|Flourish}, {@itemProperty D|XPHB|Double} ({@dice 1d6}), {@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
@@ -10059,6 +10083,15 @@
 								},
 								{
 									"type": "entries",
+									"name": "Swift",
+									"page": 216,
+									"id": "673",
+									"entries": [
+										"{@i Buff.} When you miss on an attack roll with a Swift weapon, you gain {@variantrule Advantage|XPHB} on your next attack roll against the same target before the end of your next turn. When you hit with this {@variantrule Advantage|XPHB}, you gain a bonus to your damage roll equal to {@dice 1d4}."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Topple",
 									"page": 216,
 									"id": "654",
@@ -10183,12 +10216,6 @@
 									"type": "statblock",
 									"tag": "itemMastery",
 									"name": "Snipe",
-									"style": "inset"
-								},
-								{
-									"type": "statblock",
-									"tag": "itemMastery",
-									"name": "Spray",
 									"style": "inset"
 								},
 								{
@@ -20373,6 +20400,11 @@
 								},
 								{
 									"type": "item",
+									"name": "{@item Kyre Kerym|XPHB} {@i Cultural (Elven)}",
+									"entry": "{@i The Kyre Kerym, which translates to Flawless Blade in Elvish, is most commonly known as the Elven Glaive. This glaive is a beautiful yet brutal weapon. It appears lighter than a standard Glaive, but appearances are deceiving. The haft is light and flexible, but the blade has some weight to it, with a sharp edge that almost never misses.}"
+								},
+								{
+									"type": "item",
 									"name": "{@item Lance|XPHB}",
 									"entries": [
 										"{@i A Lance is a unique weapon. It is considered a polearm due to its length, and use of the Heavy and Reach properties, yet it is not built like a typical polearm. Most polearms are hafted weapons, with the blade, points, or blunt object at the end. A Lance, however, is a hilted weapon, much like a sword, however its crossguard is attached to a long cone-line metal piece with a sharp point. Other than the tip, the rest of the cone-line piece is smooth and not bladed. This weapon is primarily used on horseback for combat as well as in jousting matches, although that one uses a blunted tip.}",
@@ -20399,6 +20431,11 @@
 										"{@i A Mace is a club-like weapon with a decorative handle and a heavy bludgeoning object on its end. This is usually shaped with blunted flanges or knobs for additional pressure.}",
 										"{@i A Maul is a hammer-like weapon that looks like a war-like sledgehammer.}"
 									]
+								},
+								{
+									"type": "item",
+									"name": "{@item Machete|XPHB}",
+									"entry": "A Machete is a weapon that originated from Central America, and is typically found in tropical forests, jungles, and other high fauna environments of any world. It is used either as an agricultural implement similar to an axe or cleaver, or in combat like a long-bladed knife, with some similarities to a Falcata. It often has a straight hilt with little to no crossguard or pommel, with a single-edge blade that is narrow at the grip and widens near the top before a sharp convex curve to an angled-tip. Some Machetes may include a saw-like edge on the blunt side of its blade, but not always."
 								},
 								{
 									"type": "item",

@@ -6822,6 +6822,13 @@
 			]
 		},
 		{
+			"name": "Kyre Kerym",
+			"source": "XPHB",
+			"entries": [
+				"{@i The Kyre Kerym, which translates to Flawless Blade in Elvish, is most commonly known as the Elven Glaive. This glaive is a beautiful yet brutal weapon. It appears lighter than a standard Glaive, but appearances are deceiving. The haft is light and flexible, but the blade has some weight to it, with a sharp edge that almost never misses.}"
+			]
+		},
+		{
 			"name": "Lamp",
 			"source": "XPHB",
 			"images": [
@@ -7304,6 +7311,13 @@
 				"name": "Mace of the Black Crown",
 				"source": "EGW"
 			}
+		},
+		{
+			"name": "Machete",
+			"source": "XPHB",
+			"entries": [
+				"A Machete is a weapon that originated from Central America, and is typically found in tropical forests, jungles, and other high fauna environments of any world. It is used either as an agricultural implement similar to an axe or cleaver, or in combat like a long-bladed knife, with some similarities to a Falcata. It often has a straight hilt with little to no crossguard or pommel, with a single-edge blade that is narrow at the grip and widens near the top before a sharp convex curve to an angled-tip. Some Machetes may include a saw-like edge on the blunt side of its blade, but not always."
+			]
 		},
 		{
 			"name": "Mandolin",

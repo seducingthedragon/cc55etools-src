@@ -4135,6 +4135,40 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Kyre Kerym",
+			"alias": [
+				"Elven Glaive"
+			],
+			"source": "XPHB",
+			"page": 215,
+			"srd52": true,
+			"basicRules2024": true,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CElf|XPHB",
+			"rarity": "none",
+			"weight": 5,
+			"value": 5000,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"FL|XPHB",
+				"P|XPHB",
+				"R|XPHB",
+				"2H|XPHB"
+			],
+			"mastery": [
+				"Bleeder|XPHB",
+				"Graze|XPHB",
+				"Push|XPHB"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"polearm": true,
+			"weapon": true,
+			"hasFluff": true
+		},
+		{
 			"name": "Lance",
 			"source": "PHB",
 			"page": 149,
@@ -4909,6 +4943,31 @@
 			"weapon": true,
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Machete",
+			"source": "XPHB",
+			"page": 215,
+			"srd52": true,
+			"basicRules2024": true,
+			"edition": "one",
+			"type": "M|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"F|XPHB"
+			],
+			"mastery": [
+				"Bleeder|XPHB",
+				"Cleave|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"hasFluff": true
 		},
 		{
 			"name": "Mandolin",
@@ -10823,14 +10882,6 @@
 			]
 		},
 		{
-			"name": "Spray",
-			"source": "XPHB",
-			"page": 216,
-			"entries": [
-				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can empty out your entire clip, magazine, or other container holding the ammunition for this {@itemProperty RLX|XPHB|Reload} (or {@itemProperty RLD|XDMG|Reload} for DMG items) weapon, causing you to attack with wild inaccuracy. Targets within this weapon's normal range in a {@variantrule Cone [Area of Effect]|XPHB|Cone AOE} must make a Wisdom Saving Throw ({@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your attack modifier). On a failed save, the target has {@variantrule Disadvantage|XPHB} on attack rolls that do not target you, until the end of its turn."
-			]
-		},
-		{
 			"name": "Stagger",
 			"source": "XPHB",
 			"page": 216,
@@ -10844,6 +10895,14 @@
 			"page": 216,
 			"entries": [
 				"{@i Maneuver.} Once per turn when you take the {@action Attack|XPHB} action, targeting a creature wielding a weapon, you can attempt to destroy the weapon. The attack roll targets the creature, however, on a hit, it does not deal damage. Instead, it causes the weapon that creature is wielding to be considered damaged, resulting in all attacks made with that weapon to have {@variantrule Disadvantage|XPHB}. On a second hit with this maneuver, the weapon is destroyed. This attack has no effect on magical weapons unless this weapon is also magical."
+			]
+		},
+		{
+			"name": "Swift",
+			"source": "XPHB",
+			"page": 216,
+			"entries": [
+				"{@i Buff.} When you miss on an attack roll with a Swift weapon, you gain {@variantrule Advantage|XPHB} on your next attack roll against the same target before the end of your next turn. When you hit with this {@variantrule Advantage|XPHB}, you gain a bonus to your damage roll equal to {@dice 1d4}."
 			]
 		},
 		{
