@@ -2883,6 +2883,23 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Antipetrification Oil",
+			"source": "XPHB",
+			"page": 222,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "G|XPHB",
+			"rarity": "none",
+			"value": 5000,
+			"entries": [
+				"A creature can use its {@variantrule Action|XPHB} to apply the oil to another creature that has been {@condition Petrified|XPHB} for less than 1 minute, causing the {@condition Petrified|XPHB} condition on that creature to end at the start of what would be that creature's next turn.",
+				"It is common for this item to be renamed after the plant or creature that was used to create this oil."
+			],
+			"miscTags": [
+				"CNS"
+			]
+		},
+		{
 			"name": "Antitoxin",
 			"source": "XPHB",
 			"page": 222,
@@ -22966,6 +22983,7 @@
 			"referenceSources": [
 				"FRAiF"
 			],
+			"baseItem": "spellbook|xphb",
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
@@ -35431,6 +35449,52 @@
 			]
 		},
 		{
+			"name": "Cold Iron Shavings",
+			"source": "XDMG",
+			"page": 246,
+			"type": "OTH|XPHB",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"What makes Cold Iron magical is that Fey creatures are vulnerable to cold iron, responding to it as if it were Poison. Cold Iron Shavings are often used to poison the air as well as creating a barrier on liquids. Fey Creatures who inhale Cold Iron risk the {@condition Poisoned|XPHB} condition and Fey Creatures who are found in lakes and rivers risk becoming trapped underwater, which risks {@hazard Suffocation|XPHB} to those who do need to breathe air.",
+				"When there are Cold Iron Shavings in the air, a Fey creature must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 15}) or risk becoming {@condition Poisoned|XPHB}."
+			]
+		},
+		{
+			"name": "Cold Iron Spike",
+			"source": "XDMG",
+			"page": 246,
+			"type": "G|XPHB",
+			"rarity": "uncommon",
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"What makes Cold Iron magical is that Fey creatures are vulnerable to cold iron, responding to it as if it were Poison. When these are spiked into the land of Fey, it creates an invisible barrier, preventing Fey creatures from leaving its perimeter and entrapping them to dying lands.",
+				"Cold Iron Spikes can be sold individually, however they often come in bundles of 10. As a {@action Utilize|XPHB} action, you can use a blunt object, such as a {@item Hammer|XPHB}, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a {@item Rope|XPHB} or {@item Chain|XPHB} to the spike."
+			]
+		},
+		{
+			"name": "Cold Iron Spikes",
+			"source": "XDMG",
+			"page": 246,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "G|XPHB",
+			"rarity": "uncommon",
+			"weight": 10,
+			"wondrous": true,
+			"entries": [
+				"What makes Cold Iron magical is that Fey creatures are vulnerable to cold iron, responding to it as if it were Poison. When these are spiked into the land of Fey, it creates an invisible barrier, preventing Fey creatures from leaving its perimeter and entrapping them to dying lands.",
+				"Cold Iron Spikes can be sold individually, however they often come in bundles of 10. As a {@action Utilize|XPHB} action, you can use a blunt object, such as a {@item Hammer|XPHB}, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a {@item Rope|XPHB} or {@item Chain|XPHB} to the spike."
+			],
+			"packContents": [
+				{
+					"item": "cold iron spike|xdmg",
+					"quantity": 10
+				}
+			]
+		},
+		{
 			"name": "Iron Spikes",
 			"source": "XPHB",
 			"page": 228,
@@ -37966,6 +38030,7 @@
 			"page": 132,
 			"type": "G|XPHB",
 			"rarity": "none",
+			"baseItem": "spellbook|xphb",
 			"weight": 3,
 			"value": 3500,
 			"entries": [
@@ -57281,6 +57346,7 @@
 			"name": "Scarlet Spellbook",
 			"source": "AUD",
 			"rarity": "rare",
+			"baseItem": "spellbook|xphb",
 			"reqAttune": "by a Wizard",
 			"reqAttuneTags": [
 				{
@@ -62383,6 +62449,9 @@
 			"name": "Spellbook",
 			"source": "PHB",
 			"page": 153,
+			"reprintedAs": [
+				"Spellbook|XPHB"
+			],
 			"srd": true,
 			"basicRules": true,
 			"referenceSources": [
@@ -77142,6 +77211,9 @@
 			"name": "Willowshade Oil",
 			"source": "EGW",
 			"page": 70,
+			"reprintedAs": [
+				"Antipetrification Oil|XPHB"
+			],
 			"type": "G",
 			"rarity": "none",
 			"value": 3000,

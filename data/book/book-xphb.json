@@ -11973,6 +11973,11 @@
 									"Varies"
 								],
 								[
+									"{@item Antipetrification Oil|XPHB}",
+									"\u2014",
+									"50 GP"
+								],
+								[
 									"{@item Antitoxin|XPHB}",
 									"\u2014",
 									"50 GP"
@@ -12348,6 +12353,11 @@
 									"50 GP"
 								],
 								[
+									"{@item Spellbook|XPHB}",
+									"3 lb.",
+									"25 GP"
+								],
+								[
 									"{@item Iron Spikes|XPHB|Spikes, Iron}",
 									"5 lb.",
 									"1 GP"
@@ -12475,6 +12485,16 @@
 												]
 											]
 										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Antipetrification Oil (50 GP)",
+									"page": 222,
+									"id": "675",
+									"entries": [
+										"A creature can use its {@variantrule Action|XPHB} to apply the oil to another creature that has been {@condition Petrified|XPHB} for less than 1 minute, causing the {@condition Petrified|XPHB} condition on that creature to end at the start of what would be that creature's next turn.",
+										"It is common for this item to be renamed after the plant or creature that was used to create this oil."
 									]
 								},
 								{
@@ -13315,6 +13335,15 @@
 									"entries": [
 										"A {@i Spell Scroll} (Cantrip) or {@i Spell Scroll} (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll's creator. If the spell is on your class's spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.",
 										"If the spell requires a saving throw or an attack roll, the spell save DC is 13, and the attack bonus is +5. The scroll disintegrates when the casting is completed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Spellbook (25 GP)",
+									"page": 229,
+									"id": "676",
+									"entries": [
+										"Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells."
 									]
 								},
 								{

@@ -26376,6 +26376,9 @@
 								"{@item Cloak of the Manta Ray|XDMG}",
 								"{@item Clockwork Amulet|XDMG}",
 								"{@item Clothes of Mending|XDMG}",
+								"{@item Cold Iron Shavings|XDMG}",
+								"{@item Cold Iron Spike|XDMG}",
+								"{@item Cold Iron Spikes|XDMG}",
 								"{@item Crystal Ball|XDMG}",
 								"{@item Cube of Force|XDMG}",
 								"{@item Cube of Summoning|XDMG}",
@@ -27079,6 +27082,24 @@
 								{
 									"type": "statblock",
 									"name": "Clothes of Mending",
+									"tag": "item",
+									"source": "XDMG"
+								},
+								{
+									"type": "statblock",
+									"name": "Cold Iron Shavings",
+									"tag": "item",
+									"source": "XDMG"
+								},
+								{
+									"type": "statblock",
+									"name": "Cold Iron Spike",
+									"tag": "item",
+									"source": "XDMG"
+								},
+								{
+									"type": "statblock",
+									"name": "Cold Iron Spikes",
 									"tag": "item",
 									"source": "XDMG"
 								},
@@ -30875,10 +30896,14 @@
 										],
 										[
 											"23\u201325",
+											"Cold Iron, such as {@item Cold Iron Shavings|XDMG}, {@item Cold Iron Spike|XDMG|Cold Iron Spike, 1 Count}, or {@item Cold Iron Spikes|XDMG|Cold Iron Spike, 10 Count}"
+										],
+										[
+											"26\u201327",
 											"{@item Decanter of Endless Water|XDMG}"
 										],
 										[
-											"26\u201328",
+											"28",
 											"{@item Driftglobe|XDMG}"
 										],
 										[

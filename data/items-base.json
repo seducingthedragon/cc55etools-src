@@ -7464,6 +7464,20 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Spellbook",
+			"source": "XPHB",
+			"page": 229,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "G",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2500,
+			"entries": [
+				"Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells."
+			]
+		},
+		{
 			"name": "Spiked Armor",
 			"source": "SCAG",
 			"page": 121,
