@@ -612,10 +612,8 @@
 				"S|XPHB"
 			],
 			"mastery": [
-				"Paralyzed|XPHB",
-				"Poisoned|XPHB",
-				"Vex|XPHB",
-				"Wooziness|XPHB"
+				"Poisoner|XPHB",
+				"Vex|XPHB"
 			],
 			"range": "25/100",
 			"dmg1": "1",
@@ -10721,14 +10719,6 @@
 			]
 		},
 		{
-			"name": "Paralyzed",
-			"source": "XPHB",
-			"page": 216,
-			"entries": [
-				"{@i Buff.} A creature hit with a Blowgun {@item Needle|XPHB}, coated with this Numbing Ichor must make a {@dc 12} Constitution {@variantrule Saving Throw|XPHB} or gain the {@condition Paralyzed|XPHB} condition until the beginning of its next turn."
-			]
-		},
-		{
 			"name": "Piercer",
 			"source": "XPHB",
 			"page": 216,
@@ -10747,11 +10737,11 @@
 			]
 		},
 		{
-			"name": "Poisoned",
+			"name": "Poisoner",
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Buff.} A creature hit with a Blowgun {@item Needle|XPHB}, coated with this Deathtoad Toxin, must make a {@dc 12} Constitution {@variantrule Saving Throw|XPHB} or take {@damage 2d6} Poison damage."
+				"{@i Buff.} You can apply poisons to this weapon's ammunition, as long as the poison type is on contact or injury, or is a {@item Basic Poison|XPHB}. When you use your {@variantrule Bonus Action|XPHB} to apply the poison to this weapon's ammunition, you can load the ammunition using the same {@variantrule Bonus Action|XPHB}. Additionally, when you have a vial of poison, each vial has 30 uses with a Blowgun's ammunition and you can use 3 uses on a single {@variantrule Bonus Action|XPHB} with 3 {@item Needle|XPHB|Blowgun Needles}."
 			]
 		},
 		{
@@ -10931,14 +10921,6 @@
 			"entries": [
 				"{@i Maneuver.} This Mastery property applies only to net-like weapons that have the {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} property.",
 				"When you use this weapon's {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} property on an attack, you can forgo the condition when you target a Huge or smaller winged creature with a Fly speed. When that creature fails its saving throw, this weapon gets entangled in its wings only and its Fly speed drops to 0 until its freed. The escape DC and Armor class of the weapon increases by 5 due to the lack of accessibility the creature will have with its wings, however this increase is not applied when another creature helps by making the checks themselves. This mastery property still allows for any weapon damage to be applied per the rules of the @itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} property."
-			]
-		},
-		{
-			"name": "Wooziness",
-			"source": "XPHB",
-			"page": 216,
-			"entries": [
-				"{@i Buff.} A creature hit with a Blowgun {@item Needle|XPHB}, coated with this Wooziness Tonic must make a {@dc 12} Constitution {@variantrule Saving Throw|XPHB} or gain the {@condition Poisoned|XPHB} condition until the end of its next turn."
 			]
 		}
 	]

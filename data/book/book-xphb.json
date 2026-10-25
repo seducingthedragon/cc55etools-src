@@ -9146,7 +9146,7 @@
 										"{@item Blowgun|XPHB}",
 										"1 Piercing",
 										"{@itemProperty A|XPHB|Ammunition} (Range 25/100; Needle), {@itemProperty LD|XPHB|Loading}, Special",
-										"{@itemMastery Paralyzed}, {@itemMastery Poisoned}, {@itemMastery Vex}, {@itemMastery Wooziness}",
+										"{@itemMastery Poisoner}, {@itemMastery Vex}",
 										"1 lb.",
 										"10 GP"
 									]
@@ -10146,19 +10146,13 @@
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"name": "Paralyzed",
-									"style": "inset"
-								},
-								{
-									"type": "statblock",
-									"tag": "itemMastery",
 									"name": "Piercer",
 									"style": "inset"
 								},
 								{
 									"type": "statblock",
 									"tag": "itemMastery",
-									"name": "Poisoned",
+									"name": "Poisoner",
 									"style": "inset"
 								},
 								{
@@ -10243,12 +10237,6 @@
 									"type": "statblock",
 									"tag": "itemMastery",
 									"name": "Wing-Wrapped",
-									"style": "inset"
-								},
-								{
-									"type": "statblock",
-									"tag": "itemMastery",
-									"name": "Wooziness",
 									"style": "inset"
 								}
 							]
@@ -20462,7 +20450,7 @@
 								{
 									"type": "item",
 									"name": "{@item Scimitar|XPHB}",
-									"entry": "{@i Unlike the common swords, curved swords are single-edge swords. A scimitar is a type of saber, or calvary sword, that is specific to the Central and Southern European region near the Mediterraian. It's unique shape and thick blade makes it deadly when paired with a dexterious flourish.}"
+									"entry": "{@i A scimitar is a type of saber, or calvary sword, that is specific to the Central and Southern European region near the Mediterraian. It is a single-edge saber with a convex curved blade, approximately 75 to 90 cm in length (30 to 36 inches). It is related to the Cutlass, which has a wider blade with a slight curve, and approximately 4 inches shorter in length.}"
 								},
 								{
 									"type": "item",
