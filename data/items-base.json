@@ -2485,7 +2485,7 @@
 			"weaponCategory": "specialized",
 			"property": [
 				"2H|XPHB",
-				"DM|XPHB"
+				"D|XPHB"
 			],
 			"mastery": [
 				"Burst|XPHB",
@@ -2958,7 +2958,7 @@
 			"value": 2000,
 			"weaponCategory": "specialized",
 			"property": [
-				"DM|XPHB",
+				"D|XPHB",
 				"2H|XPHB"
 			],
 			"mastery": [
@@ -2987,7 +2987,7 @@
 			"value": 5000,
 			"weaponCategory": "specialized",
 			"property": [
-				"DM|XPHB",
+				"D|XPHB",
 				"2H|XPHB",
 				"VH|XPHB"
 			],
@@ -3014,7 +3014,7 @@
 			"value": 5000,
 			"weaponCategory": "specialized",
 			"property": [
-				"DM|XPHB",
+				"D|XPHB",
 				"H|XPHB",
 				"UA|XPHB",
 				"S|XPHB"
@@ -3032,7 +3032,7 @@
 					"type": "entries",
 					"name": "Special: Heavy Dual Wield",
 					"entries": [
-						"When you wield this weapon as a pair, you gain access to its {@itemProperty DM|XPHB|Double: Melee} property, allowing you to use {@action Two-Weapon Fighting|XPHB}. If you have a feat, feature, or fighting style that grants benefits to {@action Two-Weapon Fighting|XPHB}, you can only use those benefits with this weapon if your Strength score is a 15 or higher."
+						"When you wield this weapon as a pair, you gain access to its {@itemProperty D|XPHB|Double} property, allowing you to use {@action Two-Weapon Fighting|XPHB}. If you have a feat, feature, or fighting style that grants benefits to {@action Two-Weapon Fighting|XPHB}, you can only use those benefits with this weapon if your Strength score is a 15 or higher."
 					]
 				}
 			],
@@ -3749,7 +3749,7 @@
 			"value": 10,
 			"weaponCategory": "simple",
 			"property": [
-				"DB|XPHB",
+				"D|XPHB",
 				"2H|XPHB",
 				"A|XPHB",
 				"F|XPHB"
@@ -3765,7 +3765,7 @@
 			"weapon": true,
 			"ammoType": "sling bullets|xphb",
 			"entries": [
-				"Regardless of what side of this weapon is used, the {@itemMastery Sap|XPHB} weapon mastery can be applied. When making ranged weapon attacks with this weapon, you can utilize the {@itemMastery Underdog|XPHB} weapon mastery."
+				"Regardless of what side of this weapon is used, the {@itemMastery Sap|XPHB} weapon mastery can be applied. When making a Melee Attack roll, this weapon deals {@damage 1d6} Piercing damage, using its spear-like end. When making a Ranged Attack roll, this weapon deals {@damage 1d4} Bludgeoning damage, using its slingshot-like end and you can utilize the {@itemMastery Underdog|XPHB} weapon mastery."
 			],
 			"hasFluff": true
 		},
@@ -5231,7 +5231,7 @@
 				"2F|XPHB",
 				"FL|XPHB",
 				"2H|XPHB",
-				"DM|XPHB",
+				"D|XPHB",
 				"F|XPHB",
 				"L|XPHB"
 			],
@@ -5265,7 +5265,7 @@
 									"type": "item",
 									"nameDot": false,
 									"name": "The {@u Joined} form",
-									"entry": "presents similarly to a {@item Dual Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty DM|XPHB|Double: Melee}}. This form uses the {@itemMastery Burst|XPHB} mastery property."
+									"entry": "presents similarly to a {@item Dual Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}. This form uses the {@itemMastery Burst|XPHB} mastery property."
 								},
 								{
 									"type": "item",
@@ -5427,7 +5427,7 @@
 			"value": 50,
 			"weaponCategory": "specialized",
 			"property": [
-				"DM|XPHB",
+				"D|XPHB",
 				"F|XPHB",
 				"L|XPHB",
 				"S|XPHB"
@@ -5445,7 +5445,7 @@
 					"type": "entries",
 					"name": "Special: Indirectly Two-Handed",
 					"entries": [
-						"While this weapon is a One-Handed weapon to attack with, in order to utilize its {@itemProperty DM|XPHB|Double: Melee} property, you would need to maneuver the weapon with and between both hands. Due to this, if your Dexterity score is at least a 13, you can take the {@action Free Object Interaction|XPHB} as part of each attack you make on your turn with this weapon as long as you do not use that free action for a different object interaction."
+						"While this weapon is a One-Handed weapon to attack with, in order to utilize its {@itemProperty D|XPHB|Double} property, you would need to maneuver the weapon with and between both hands. Due to this, if your Dexterity score is at least a 13, you can take the {@action Free Object Interaction|XPHB} as part of each attack you make on your turn with this weapon as long as you do not use that free action for a different object interaction."
 					]
 				}
 			],
@@ -7453,7 +7453,7 @@
 			"weaponCategory": "specialized",
 			"property": [
 				"2H|XPHB",
-				"DM|XPHB",
+				"D|XPHB",
 				"F|XPHB",
 				"H|XPHB",
 				"R|XPHB"
@@ -7995,7 +7995,7 @@
 			"value": 5000,
 			"weaponCategory": "specialized",
 			"property": [
-				"DM|XPHB",
+				"D|XPHB",
 				"H|XPHB",
 				"2H|XPHB"
 			],
@@ -8893,82 +8893,17 @@
 			]
 		},
 		{
-			"abbreviation": "DB",
+			"abbreviation": "D",
 			"source": "XPHB",
 			"page": 214,
 			"template": "{{prop_name}} ({{item.dmg2}})",
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Double: Both",
+					"name": "Double",
 					"entries": [
-						"A Double weapon has two points of attack on a singular weapon. How a weapon does so and what benefit this property grants is based on what kind of weapon it is.",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"nameDot": false,
-									"name": "A Double: Both",
-									"entry": "weapon is a weapon that can make a melee attack from one end and a ranged attack, using {@itemProperty A|XPHB|Ammunition}, from the other. The damage provided next to this weapon property is for its Ranged side. This weapon ignores the improvised weapon condition, that is part of the {@itemProperty A|XPHB|Ammunition} property, when making its melee attacks."
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "DM",
-			"source": "XPHB",
-			"page": 214,
-			"template": "{{prop_name}} ({{item.dmg2}})",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Double: Melee",
-					"entries": [
-						"A Double weapon has two points of attack on a singular weapon. How a weapon does so and what benefit this property grants is based on what kind of weapon it is.",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"nameDot": false,
-									"name": "A Double: Melee",
-									"entry": "weapon is a melee weapon that has two points of attack on opposite sides of a haft, hilt, or pole, {@b {@i or}} is an {@itemProperty UA|XPHB|\"Unarmed\"} weapon made and wielded as a pair. Immediately after you make an attack, you can use your {@variantrule Bonus Action|XPHB} to make an attack roll using its opposite side, or other half. This attack's damage value is in parentheses that appears with this property."
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "DR",
-			"source": "XPHB",
-			"page": 214,
-			"template": "{{prop_name}}",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Double: Ranged",
-					"entries": [
-						"A Double weapon has two points of attack on a singular weapon. How a weapon does so and what benefit this property grants is based on what kind of weapon it is.",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"nameDot": false,
-									"name": "A Double: Ranged",
-									"entry": "weapon is a range weapon that has the {@itemProperty LD|XPHB|Loading} property, while having two places to load ammunition individually, which may grant you the option of temporarily gaining the {@itemProperty RLX|XPHB|Reload} property. This weapon follows standard {@itemProperty LD|XPHB|Loading} rules, allowing you to load one section and not the other without impacting your ability to attack. If you choose to reload this weapon to capacity, you must spend your entire {@variantrule Action|XPHB} to do so or your entire movement speed, so long as you have not yet moved on that turn. When both ammunitions are loaded, you can ignore the {@itemProperty LD|XPHB|Loading} property for one attack."
-								}
-							]
-						}
+						"A Double weapon has two points of attack on a singular weapon. It is often a weapon with a melee weapon that can attack from either end of a long haft, hilt, or pole. Additionally, some Double weapons may be an {@itemProperty UA|XPHB|\"Unarmed\"} weapon that is made and wielded as a pair. When you take the Attack action, regardless of it hits or not, you can immediately use your {@variantrule Bonus Action|XPHB} to make an Attack roll targeting a different creature within the weapon's range, using the weapon's other attack side or half. This attack's damage value is in parentheses, appearing next to this property.",
+						"If a Double weapon can make a ranged attack, the item will list a special note, in order to determine what damage is ranged and which one is for melee."
 					]
 				}
 			]
