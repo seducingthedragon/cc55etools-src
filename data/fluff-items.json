@@ -5239,13 +5239,6 @@
 			}
 		},
 		{
-			"name": "Hand Repeating Crossbow",
-			"source": "XPHB",
-			"entries": [
-				"{@i Repeating Crossbows are altered crossbows that allows for a cartridge of bolts to be attached. There are also additional parts that aid in the retracting of the bow string in order to instantly load a new bolt for another attack. Due to these changes, all Repeating Crossbows are Specialized weapons.}"
-			]
-		},
-		{
 			"name": "Handaxe",
 			"source": "XPHB",
 			"entries": [
@@ -5390,20 +5383,6 @@
 					"width": 550,
 					"height": 354
 				}
-			]
-		},
-		{
-			"name": "Heavy Double Crossbow",
-			"source":"XPHB",
-			"entries": [
-				"{@i Double Crossbows give the appearance of two crossbows built on top of each other, which is essentially correct. You load one bolt above another and the trigger has another trigger placed ahead of it, allowing you to fire each section individually. This expansion is done so in a way that does not require a separate proficiency with the weapon, with the Light Double Crossbow being the exception, allowing for some of the benefits of a repeating weapon but without its drawback of a signficantly longer reload time.}"
-			]
-		},
-		{
-			"name": "Heavy Repeating Crossbow",
-			"source": "XPHB",
-			"entries": [
-				"{@i Repeating Crossbows are altered crossbows that allows for a cartridge of bolts to be attached. There are also additional parts that aid in the retracting of the bow string in order to instantly load a new bolt for another attack. Due to these changes, all Repeating Crossbows are Specialized weapons.}"
 			]
 		},
 		{
@@ -6986,22 +6965,6 @@
 					"height": 330
 				}
 			]
-		},
-		{
-			"name": "Light Double Crossbow",
-			"source": "XPHB",
-			"_copy": {
-				"name": "Heavy Double Crossbow",
-				"source": "XPHB"
-			}
-		},
-		{
-			"name": "Light Repeating Crossbow",
-			"source": "XPHB",
-			"_copy": {
-				"name": "Heavy Repeating Crossbow",
-				"source": "XPHB"
-			}
 		},
 		{
 			"name": "Light Hammer",

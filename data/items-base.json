@@ -3584,65 +3584,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Heavy Double Crossbow",
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "R|XPHB",
-			"rarity": "none",
-			"weight": 19,
-			"value": 10000,
-			"weaponCategory": "martial",
-			"property": [
-				"A|XPHB",
-				"DR|XPHB",
-				"H|XPHB",
-				"LD|XPHB",
-				"2H|XPHB"
-			],
-			"mastery": [
-				"Push|XPHB"
-			],
-			"range": "90/360",
-			"dmg1": "1d10",
-			"dmgType": "P",
-			"crossbow": true,
-			"weapon": true,
-			"ammoType": "bolt|xphb",
-			"hasFluff": true
-		},
-		{
-			"name": "Heavy Repeating Crossbow",
-			"source": "XPHB",
-			"page": 215,
-			"srd52": true,
-			"edition": "one",
-			"type": "R|XPHB",
-			"rarity": "none",
-			"weight": 20,
-			"value": 20000,
-			"weaponCategory": "specialized",
-			"property": [
-				"A|XPHB",
-				"H|XPHB",
-				"MF|XPHB",
-				"RLX|XPHB",
-				"2H|XPHB"
-			],
-			"mastery": [
-				"Push|XPHB",
-				"Spray|XPHB"
-			],
-			"range": "80/320",
-			"reload": 6,
-			"dmg1": "1d10",
-			"dmgType": "P",
-			"crossbow": true,
-			"weapon": true,
-			"ammoType": "bolt|xphb",
-			"hasFluff": true
-		},
-		{
 			"name": "Hidden Blade",
 			"source": "XPHB",
 			"page": 215,
@@ -4618,36 +4559,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Light Double Crossbow",
-			"alias": [
-				"Double Crossbow"
-			],
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "R|XPHB",
-			"rarity": "none",
-			"weight": 5.5,
-			"value": 5000,
-			"weaponCategory": "martial",
-			"property": [
-				"A|XPHB",
-				"DR|XPHB",
-				"LD|XPHB",
-				"2H|XPHB"
-			],
-			"mastery": [
-				"Slow|XPHB"
-			],
-			"range": "75/300",
-			"dmg1": "1d8",
-			"dmgType": "P",
-			"crossbow": true,
-			"weapon": true,
-			"ammoType": "bolt|xphb",
-			"hasFluff": true
-		},
-		{
 			"name": "Light Hammer",
 			"source": "PHB",
 			"page": 149,
@@ -4705,9 +4616,6 @@
 			"name": "Light Repeating Crossbow",
 			"source": "OotA",
 			"page": 224,
-			"reprintedAs": [
-				"Light Repeating Crossbow|XPHB"
-			],
 			"type": "R",
 			"rarity": "unknown",
 			"weight": 5,
@@ -4725,38 +4633,6 @@
 				"This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action."
 			],
 			"ammoType": "crossbow bolt|phb"
-		},
-		{
-			"name": "Light Repeating Crossbow",
-			"source": "XPHB",
-			"alias": [
-				"Repeating Crossbow"
-			],
-			"page": 215,
-			"srd52": true,
-			"edition": "one",
-			"type": "R|XPHB",
-			"rarity": "none",
-			"weight": 6,
-			"value": 7500,
-			"weaponCategory": "specialized",
-			"property": [
-				"2H|XPHB",
-				"A|XPHB",
-				"RLX|XPHB"
-			],
-			"mastery": [
-				"Slow|XPHB",
-				"Spray|XPHB"
-			],
-			"range": "65/260",
-			"reload": 6,
-			"dmg1": "1d8",
-			"dmgType": "P",
-			"crossbow": true,
-			"weapon": true,
-			"ammoType": "bolt|xphb",
-			"hasFluff": true
 		},
 		{
 			"name": "Longbow",

@@ -9191,30 +9191,6 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Heavy Double Crossbow|XPHB}",
-										"{@dice 1d10} Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 90/360; Bolt), {@itemProperty DR|XPHB|Double: Ranged},{@itemProperty H|XPHB|Heavy}, {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Push}",
-										"19 lb.",
-										"100 GP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
-										"{@item Light Double Crossbow|XPHB}",
-										"{@dice 1d8} Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 75/300; Bolt), {@itemProperty DR|XPHB|Double: Ranged}, {@itemProperty LD|XPHB|Loading}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Slow}",
-										"5.5 lb.",
-										"50 GP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
 										"{@item Longbow|XPHB}",
 										"{@dice 1d8} Piercing",
 										"{@itemProperty A|XPHB|Ammunition} (Range 150/600; Arrow), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
@@ -9613,36 +9589,12 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Heavy Repeating Crossbow|XPHB}",
-										"{@dice 1d10} Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 80/320; Bolt), {@itemProperty H|XPHB|Heavy}, {@itemProperty MF|XPHB|Misfire}, {@itemProperty RLX|XPHB|Reload}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Push}, {@itemMastery Spray}",
-										"20 lb.",
-										"200 GP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
 										"{@item Hokur Ball|XPHB}",
 										"{@dice 2d6} Bludgeoning",
 										"{@itemProperty T|XPHB|Thrown} (Range 20/50), {@itemProperty VH|XPHB|Very Heavy}",
 										"{@itemMastery Sap}, {@itemMastery Slow}",
 										"15 lb.",
 										"5 GP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
-										"{@item Light Repeating Crossbow|XPHB}",
-										"{@dice 1d8} Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 65/260; Bolt), {@itemProperty MF|XPHB|Misfire}, {@itemProperty RLX|XPHB|Reload}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Slow}, {@itemMastery Spray}",
-										"6 lb.",
-										"75 GP"
 									]
 								},
 								{
@@ -20347,11 +20299,6 @@
 								},
 								{
 									"type": "item",
-									"name": "Double Crossbow ({@item Heavy Double Crossbow|XPHB|Heavy} and {@item Light Double Crossbow|XPHB|Light})",
-									"entry": "{@i Double Crossbows give the appearance of two crossbows built on top of each other, which is essentially correct. You load one bolt above another and the trigger has another trigger placed ahead of it, allowing you to fire each section individually. This expansion is done so in a way that does not require a separate proficiency with the weapon, with the Light Double Crossbow being the exception, allowing for some of the benefits of a repeating weapon but without its drawback of a signficantly longer reload time.}"
-								},
-								{
-									"type": "item",
 									"name": "{@item Double Recursive Bow|XPHB}",
 									"entry": "{@i A Double Recursive Bow is a bow that is inbetween the size of a Shortbow and a Longbow. It has double-limbs, which allows wielder to aim farther and hit harder without sacrificing weight or needing extra strength. The double-limbs also helps the bow last longer as the weight of the draw is dispersed evenly between the two sets instead of just one. Due to this, it is common to see these bows on mounted archers in combat or sniping from afar.}"
 								},
@@ -20523,11 +20470,6 @@
 									"type": "item",
 									"name": "{@item Rapier|XPHB}",
 									"entry": "{@i A Rapier is a facinating sword. With the blade the lenght of a Greatsword, with the hilt size and weight of a Shortsword, and a piercing brutality of a Longsword, this sword combines all of the benefits of those to create something new. Even though this started as an accessory, it quickly became a weapon for self-defense and duels.}"
-								},
-								{
-									"type": "item",
-									"name": "Repeating Crossbows ({@item Heavy Repeating Crossbow|XPHB|Heavy} and {@item Light Repeating Crossbow|XPHB|Light)}",
-									"entry": "{@i Repeating Crossbows are altered crossbows that allows for a cartridge of bolts to be attached. There are also additional parts that aid in the retracting of the bow string in order to instantly load a new bolt for another attack. Due to these changes, all Repeating Crossbows are Specialized weapons.}"
 								},
 								{
 									"type": "item",
