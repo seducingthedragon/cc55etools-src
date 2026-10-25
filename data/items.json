@@ -10435,8 +10435,8 @@
 					"quantity": 5
 				},
 				"rope|xphb",
-				"tinderbox|xphb",
 				"string|xphb",
+				"tinderbox|xphb",
 				"waterskin|xphb"
 			]
 		},
@@ -35477,8 +35477,6 @@
 			"name": "Cold Iron Spikes",
 			"source": "XDMG",
 			"page": 246,
-			"srd52": true,
-			"basicRules2024": true,
 			"type": "G|XPHB",
 			"rarity": "uncommon",
 			"weight": 10,
@@ -49852,7 +49850,7 @@
 			"weight": 29,
 			"value": 3300,
 			"entries": [
-				"A Priest's Pack contains the following items:.",
+				"A Priest's Pack contains the following items:",
 				{
 					"type": "list",
 					"items": [
@@ -51925,6 +51923,61 @@
 			"value": 1000,
 			"entries": [
 				"A light pink gemstone."
+			]
+		},
+		{
+			"name": "Rider's Pack",
+			"source": "XPHB",
+			"page": 228,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "G|XPHB",
+			"rarity": "none",
+			"weight": 80,
+			"value": 1200,
+			"entries": [
+				"A Rider's Pack contains the following items:",
+				{
+					"type": "list",
+					"items": [
+						"{@item Bedroll|XPHB}",
+						"5 days of {@item Feed (per day)|XPHB|Feed}",
+						"{@item Mess Kit|XPHB}",
+						"2 flasks of {@item Oil|XPHB}",
+						"5 days of {@item Rations|XPHB}",
+						"{@item Riding Saddle|XPHB}",
+						"{@item Rope|XPHB}",
+						"{@item Saddlebags|XPHB}",
+						"{@item Tinderbox|XPHB}",
+						"5 {@item Torch|XPHB|Torches}",
+						"{@item Waterskin|XPHB}"
+					]
+				}
+			],
+			"packContents": [
+				"bedroll|xphb",
+				{
+					"item": "feed (per day)|xphb",
+					"quantity": 5
+				},
+				"mess kit|xphb",
+				{
+					"item": "oil|xphb",
+					"quantity": 2
+				},
+				{
+					"item": "rations|xphb",
+					"quantity": 5
+				},
+				"riding saddle|xphb",
+				"rope|xphb",
+				"saddlebags|xphb",
+				"tinderbox|xphb",
+				{
+					"item": "torch|xphb",
+					"quantity": 10
+				},
+				"waterskin|xphb"
 			]
 		},
 		{
@@ -56798,12 +56851,34 @@
 			"name": "Saddlebags",
 			"source": "PHB",
 			"page": 157,
+			"reprintedAs": [
+				"Saddlebags|XPHB"
+			],
 			"srd": true,
 			"basicRules": true,
 			"type": "TAH",
 			"rarity": "none",
 			"weight": 8,
 			"value": 400
+		},
+		{
+			"name": "Saddlebags",
+			"source": "XPHB",
+			"page": 229,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "TAH|XPHB",
+			"rarity": "none",
+			"weight": 7,
+			"value": 400,
+			"entries": [
+				"This device consists of two large satchels with a wide connecting strap. They are meant to straddle a Medium or Large mount and hang to either side, just behind a saddle."
+			],
+			"containerCapacity": {
+				"weight": [
+					60
+				]
+			}
 		},
 		{
 			"name": "Saffron",

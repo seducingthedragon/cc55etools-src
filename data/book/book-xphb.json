@@ -12303,6 +12303,11 @@
 									"5 SP"
 								],
 								[
+									"{@item Rider's Pack|XPHB}",
+									"72 lb.",
+									"12 GP"
+								],
+								[
 									"{@item Robe|XPHB}",
 									"4 lb.",
 									"1 GP"
@@ -12663,7 +12668,24 @@
 									"page": 224,
 									"id": "6ba",
 									"entries": [
-										"A Burglar's Pack contains the following items: {@item Backpack|XPHB}, {@item Ball Bearings|XPHB}, {@item Bell|XPHB}, 10 {@item Candle|XPHB|Candles}, {@item Crowbar|XPHB}, {@item Hooded Lantern|XPHB}, 7 flasks of {@item Oil|XPHB}, 5 days of {@item Rations|XPHB}, {@item Rope|XPHB}, {@item Tinderbox|XPHB}, and {@item Waterskin|XPHB}."
+										"A Burglar's Pack contains the following items:",
+										{
+											"type": "list",
+											"items": [
+												"{@item Backpack|XPHB}",
+												"{@item Ball Bearings|XPHB}",
+												"{@item Bell|XPHB}",
+												"5 {@item Candle|XPHB|Candles}",
+												"{@item Crowbar|XPHB}",
+												"{@item Hooded Lantern|XPHB}",
+												"7 flasks of {@item Oil|XPHB}",
+												"5 days of {@item Rations|XPHB}",
+												"{@item Rope|XPHB}",
+												"{@item String|XPHB}",
+												"{@item Tinderbox|XPHB}",
+												"{@item Waterskin|XPHB}"
+											]
+										}
 									]
 								},
 								{
@@ -12780,7 +12802,25 @@
 									"page": 225,
 									"id": "6c7",
 									"entries": [
-										"A Diplomat's Pack contains the following items: {@item Chest|XPHB}, {@item Fine Clothes|XPHB}, {@item Ink|XPHB}, 5 {@item Ink Pen|XPHB|Ink Pens}, {@item Lamp|XPHB}, 2 {@item Map or Scroll Case|XPHB|Map or Scroll Cases}, 4 flasks of {@item Oil|XPHB}, 5 sheets of {@item Paper|XPHB}, 5 sheets of {@item Parchment|XPHB}, {@item Perfume|XPHB}, and {@item Tinderbox|XPHB}."
+										"A Diplomat's Pack contains the following items:",
+										{
+											"type": "list",
+											"items": [
+												"{@item Chest|XPHB}",
+												"{@item Fine Clothes|XPHB}",
+												"{@item Ink|XPHB}",
+												"5 {@item Ink Pen|XPHB|Ink Pens}",
+												"{@item Lamp|XPHB}",
+												"2 {@item Map or Scroll Case|XPHB|Map or Scroll Cases}",
+												"4 flasks of {@item Oil|XPHB}",
+												"5 sheets of {@item Paper|XPHB}",
+												"5 sheets of {@item Parchment|XPHB}",
+												"{@item Perfume|XPHB}",
+												"{@item Sealing Wax|XPHB}",
+												"{@item Soap|XPHB}",
+												"{@item Tinderbox|XPHB}"
+											]
+										}
 									]
 								},
 								{
@@ -12841,7 +12881,22 @@
 									"page": 225,
 									"id": "6c9",
 									"entries": [
-										"A Dungeoneer's Pack contains the following items: {@item Backpack|XPHB}, {@item Caltrops|XPHB}, {@item Crowbar|XPHB}, 2 flasks of {@item Oil|XPHB}, 10 days of {@item Rations|XPHB}, {@item Rope|XPHB}, {@item Tinderbox|XPHB}, 10 {@item Torch|XPHB|Torches}, and {@item Waterskin|XPHB}."
+										"A Dungeoneer's Pack contains the following items:",
+										{
+											"type": "list",
+											"items": [
+												"{@item Backpack|XPHB}",
+												"{@item Caltrops|XPHB}",
+												"{@item Crowbar|XPHB}",
+												"{@item Hammer|XPHB}",
+												"2 flasks of {@item Oil|XPHB}",
+												"10 days of {@item Rations|XPHB}",
+												"{@item Rope|XPHB}",
+												"{@item Tinderbox|XPHB}",
+												"10 {@item Torch|XPHB|Torches}",
+												"{@item Waterskin|XPHB}"
+											]
+										}
 									]
 								},
 								{
@@ -12850,7 +12905,22 @@
 									"page": 225,
 									"id": "6ca",
 									"entries": [
-										"An Entertainer's Pack contains the following items: {@item Backpack|XPHB}, {@item Bedroll|XPHB}, {@item Bell|XPHB}, {@item Bullseye Lantern|XPHB}, 3 {@item Costume|XPHB|Costumes}, {@item Mirror|XPHB}, 8 flasks of {@item Oil|XPHB}, 9 days of {@item Rations|XPHB}, {@item Tinderbox|XPHB}, and {@item Waterskin|XPHB}."
+										"An Entertainer's Pack contains the following items:",
+										{
+											"type": "list",
+											"items": [
+												"{@item Backpack|XPHB}",
+												"{@item Bedroll|XPHB}",
+												"{@item Bell|XPHB}",
+												"{@item Bullseye Lantern|XPHB}",
+												"3 {@item Costume|XPHB|Costumes}",
+												"{@item Mirror|XPHB}",
+												"5 flasks of {@item Oil|XPHB}",
+												"5 days of {@item Rations|XPHB}",
+												"{@item Tinderbox|XPHB}",
+												"{@item Waterskin|XPHB}"
+											]
+										}
 									]
 								},
 								{
@@ -12859,7 +12929,21 @@
 									"page": 225,
 									"id": "6cb",
 									"entries": [
-										"An Explorer's Pack contains the following items: {@item Backpack|XPHB}, {@item Bedroll|XPHB}, 2 flasks of {@item Oil|XPHB}, 10 days of {@item Rations|XPHB}, {@item Rope|XPHB}, {@item Tinderbox|XPHB}, 10 {@item Torch|XPHB|Torches}, and {@item Waterskin|XPHB}."
+										"An Explorer's Pack contains the following items:",
+										{
+											"type": "list",
+											"items": [
+												"{@item Backpack|XPHB}",
+												"{@item Bedroll|XPHB}",
+												"{@item Mess Kit|XPHB}",
+												"2 flasks of {@item Oil|XPHB}",
+												"10 days of {@item Rations|XPHB}",
+												"{@item Rope|XPHB}",
+												"{@item Tinderbox|XPHB}",
+												"10 {@item Torch|XPHB|Torches}",
+												"{@item Waterskin|XPHB}"
+											]
+										}
 									]
 								},
 								{
@@ -13211,7 +13295,19 @@
 									"page": 228,
 									"id": "6eb",
 									"entries": [
-										"A Priest's Pack contains the following items: {@item Backpack|XPHB}, {@item Blanket|XPHB}, {@item Holy Water|XPHB}, {@item Lamp|XPHB}, 7 days of {@item Rations|XPHB}, {@item Robe|XPHB}, and {@item Tinderbox|XPHB}."
+										"A Priest's Pack contains the following items:",
+										{
+											"type": "list",
+											"items": [
+												"{@item Backpack|XPHB}",
+												"{@item Blanket|XPHB}",
+												"{@item Holy Water|XPHB}",
+												"{@item Lamp|XPHB}",
+												"7 days of {@item Rations|XPHB}",
+												"{@item Robe|XPHB}",
+												"{@item Tinderbox|XPHB}"
+											]
+										}
 									]
 								},
 								{
@@ -13239,6 +13335,31 @@
 									"id": "6ee",
 									"entries": [
 										"Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See \"{@hazard Malnutrition|XPHB}\" in the {@area rules glossary|a8f|x} for the risks of not eating."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rider's Pack (12 GP)",
+									"page": 228,
+									"id": "678",
+									"entries": [
+										"A Rider's Pack contains the following items:",
+										{
+											"type": "list",
+											"items": [
+												"{@item Bedroll|XPHB}",
+												"5 days of {@item Feed (per day)|XPHB|Feed}",
+												"{@item Mess Kit|XPHB}",
+												"2 flasks of {@item Oil|XPHB}",
+												"5 days of {@item Rations|XPHB}",
+												"{@item Riding Saddle|XPHB}",
+												"{@item Rope|XPHB}",
+												"{@item Saddlebags|XPHB}",
+												"{@item Tinderbox|XPHB}",
+												"5 {@item Torch|XPHB|Torches}",
+												"{@item Waterskin|XPHB}"
+											]
+										}
 									]
 								},
 								{
@@ -13297,7 +13418,20 @@
 									"page": 228,
 									"id": "6f2",
 									"entries": [
-										"A Scholar's Pack contains the following items: {@item Backpack|XPHB}, {@item Book|XPHB}, {@item Ink|XPHB}, {@item Ink Pen|XPHB}, {@item Lamp|XPHB}, 10 flasks of {@item Oil|XPHB}, 10 sheets of {@item Parchment|XPHB}, and {@item Tinderbox|XPHB}."
+										"A Scholar's Pack contains the following items:",
+										{
+											"type": "list",
+											"items": [
+												"{@item Backpack|XPHB}",
+												"{@item Book|XPHB}",
+												"{@item Ink|XPHB}",
+												"{@item Ink Pen|XPHB}",
+												"{@item Lamp|XPHB}",
+												"10 flasks of {@item Oil|XPHB}",
+												"10 sheets of {@item Parchment|XPHB}",
+												"{@item Tinderbox|XPHB}"
+											]
+										}
 									]
 								},
 								{
@@ -13574,6 +13708,15 @@
 										"{@item Feed (per day)|XPHB|Feed per day}",
 										"10 lb.",
 										"5 CP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Saddlebags|XPHB}",
+										"7 lb.",
+										"4 GP"
 									]
 								},
 								[
