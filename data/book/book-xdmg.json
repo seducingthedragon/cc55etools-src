@@ -26376,9 +26376,11 @@
 								"{@item Cloak of the Manta Ray|XDMG}",
 								"{@item Clockwork Amulet|XDMG}",
 								"{@item Clothes of Mending|XDMG}",
+								"{@item Cold Iron Ammunition|XDMG}",
 								"{@item Cold Iron Shavings|XDMG}",
 								"{@item Cold Iron Spike|XDMG}",
 								"{@item Cold Iron Spikes|XDMG}",
+								"{@item Cold Iron Weapon|XDMG}",
 								"{@item Crystal Ball|XDMG}",
 								"{@item Cube of Force|XDMG}",
 								"{@item Cube of Summoning|XDMG}",
@@ -27087,6 +27089,12 @@
 								},
 								{
 									"type": "statblock",
+									"name": "Cold Iron Ammunition",
+									"tag": "item",
+									"source": "XDMG"
+								},
+								{
+									"type": "statblock",
 									"name": "Cold Iron Shavings",
 									"tag": "item",
 									"source": "XDMG"
@@ -27100,6 +27108,12 @@
 								{
 									"type": "statblock",
 									"name": "Cold Iron Spikes",
+									"tag": "item",
+									"source": "XDMG"
+								},
+								{
+									"type": "statblock",
+									"name": "Cold Iron Weapon",
 									"tag": "item",
 									"source": "XDMG"
 								},
@@ -31078,7 +31092,11 @@
 											"{@item Chime of Opening|XDMG}"
 										],
 										[
-											"25\u201328",
+											"25\u201326",
+											"{@item Cold Iron Ammunition|XDMG} or {@item Cold Iron Weapon|XDMG}"
+										],
+										[
+											"27\u201328",
 											"{@item Dimensional Shackles|XDMG}"
 										],
 										[

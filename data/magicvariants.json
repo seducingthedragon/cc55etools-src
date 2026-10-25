@@ -2798,6 +2798,67 @@
 			}
 		},
 		{
+			"name": "Cold Iron Ammunition",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "A"
+				},
+				{
+					"type": "AF|DMG"
+				},
+				{
+					"type": "A|XPHB"
+				},
+				{
+					"type": "AF|XDMG"
+				}
+			],
+			"excludes": {
+				"cellEnergy": true
+			},
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "Cold Iron ",
+				"source": "XDMG",
+				"page": 246,
+				"rarity": "rare",
+				"entries": [
+					"This ammunition is made of Cold Iron. Whenever this weapon hits a Fey creature, the target must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 15}). On a failed save, the target is {@condition Poisoned|XPHB} and takes bonus damage equal to {@damage 2d6} Poison damage. On a success, the target takes half the damage amount only."
+				],
+				"lootTables": [
+					"Armaments - Rare|XDMG"
+				]
+			}
+		},
+		{
+			"name": "Cold Iron Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weaponCategory": "simple"
+				},
+				{
+					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Cold Iron ",
+				"source": "XDMG",
+				"page": 246,
+				"rarity": "rare",
+				"entries": [
+					"This weapon is made of Cold Iron. Whenever this weapon hits a Fey creature, the target must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 15}). On a failed save, the target is {@condition Poisoned|XPHB} and takes bonus damage equal to {@damage 2d6} Poison damage. On a success, the target takes half the damage amount only."
+				],
+				"lootTables": [
+					"Armaments - Rare|XDMG"
+				]
+			}
+		},
+		{
 			"name": "Corpse Slayer",
 			"type": "GV|DMG",
 			"requires": [
