@@ -8,7 +8,7 @@
 		{
 			"name": "Agrogash",
 			"alias": [
-				"Hook-Bearded Axe"
+				"Hook-Bearded Battleaxe"
 			],
 			"source": "XPHB",
 			"page": 215,
@@ -31,6 +31,9 @@
 			"dmg2": "1d10",
 			"axe": true,
 			"weapon": true,
+			"entries": [
+				"{@i commonly known as a Hook-Bearded Battleaxe.}"
+			],
 			"hasFluff": true
 		},
 		{
@@ -625,7 +628,7 @@
 					"type": "insetReadaloud",
 					"name": "This Weapon's Mastery Properties",
 					"entries": [
-						"This weapon's mastery properties require the use of a {@item Poisoner's Kit|XPHB} or access to a vial of poison. Three of the most common poison's used with this weapon are listed, however any obtain poison will work. It takes a {@variantrule Bonus Action|XPHB} to apply the poison to a Blowgun's ammunition and a single vial can be used 10 times before it is completely consumed. Each mastery property maintains the 1 point of Piercing damage along with its related poisoned effect."
+						"This weapon's mastery properties require the use of a {@item Poisoner's Kit|XPHB} or access to a vial of poison. On a hit, the target always takes the 1 Piercing damage, plus your Attack Modifier, followed by the specific poison's guidelines."
 					]
 				}
 			],
@@ -773,6 +776,9 @@
 			"dmgType": "S",
 			"axe": true,
 			"weapon": true,
+			"entries": [
+				"{@i commonly known as a Chained Throwing Axe.}"
+			],
 			"hasFluff": true
 		},
 		{
@@ -1561,6 +1567,7 @@
 			"sword": true,
 			"weapon": true,
 			"entries": [
+				"{@i commonly known as a Dwarven Estoc.}",
 				{
 					"type": "entries",
 					"name": "Special: High AC Damage",
@@ -2276,7 +2283,6 @@
 			"value": 200,
 			"weaponCategory": "simple",
 			"property": [
-				"C|XPHB",
 				"F|XPHB",
 				"L|XPHB",
 				"T|XPHB"
@@ -2973,7 +2979,7 @@
 		{
 			"name": "Gorgash",
 			"alias": [
-				"Double-Headed Battleaxe"
+				"Double Double Battleaxe"
 			],
 			"source": "XPHB",
 			"page": 215,
@@ -2998,6 +3004,9 @@
 			"dmg2": "1d6",
 			"axe": true,
 			"weapon": true,
+			"entries": [
+				"{@i commonly known as a Double Double Battleaxe.}"
+			],
 			"hasFluff": true
 		},
 		{
@@ -3012,7 +3021,6 @@
 			"value": 5000,
 			"weaponCategory": "specialized",
 			"property": [
-				"D|XPHB",
 				"H|XPHB",
 				"UA|XPHB",
 				"S|XPHB"
@@ -3026,11 +3034,12 @@
 			"dmg2": "1d6",
 			"weapon": true,
 			"entries": [
+				"{@i This weapon is sold as a pair, making its combined weight 10 lbs. Wielding only one fist, results in carrying 5 lbs.}",
 				{
 					"type": "entries",
 					"name": "Special: Heavy Dual Wield",
 					"entries": [
-						"When you wield this weapon as a pair, you gain access to its {@itemProperty D|XPHB|Double} property, allowing you to use {@action Two-Weapon Fighting|XPHB}. If you have a feat, feature, or fighting style that grants benefits to {@action Two-Weapon Fighting|XPHB}, you can only use those benefits with this weapon if your Strength score is a 15 or higher."
+						"When you wield this weapon as a pair, any attack made with your off-hand will deal Bludgeoning damage equal to the listed Alt. Damage of {@dice 1d6}. If your Strength score is at least a 15, wielding this weapon as a pair grants you access to {@action Two-Weapon Fighting|XPHB}."
 					]
 				}
 			],
@@ -3133,6 +3142,7 @@
 			"value": 20,
 			"weaponCategory": "simple",
 			"property": [
+				"H|XPHB",
 				"2H|XPHB"
 			],
 			"mastery": [
@@ -3582,41 +3592,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Hidden Blade",
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "M|XPHB",
-			"rarity": "none",
-			"weight": 0.5,
-			"value": 1000,
-			"weaponCategory": "specialized",
-			"property": [
-				"C|XPHB",
-				"F|XPHB",
-				"L|XPHB",
-				"S|XPHB"
-			],
-			"mastery": [
-				"Punch|XPHB",
-				"Vex|XPHB"
-			],
-			"dmg1": "1d4",
-			"dmgType": "P",
-			"dagger": true,
-			"weapon": true,
-			"entries": [
-				"{@i This small, spring-loaded blade can be hidden in {@item Bracers|XPHB}, soles of shoes, or other objects.}",
-				{
-					"type": "entries",
-					"name": "Special: Worn and Free-Hands",
-					"entries": [
-						"A hidden blade can be revealed by a spring-loaded mechanism and attacked with as a {@variantrule Bonus Action|XPHB}. While this blade is hidden on your person, your hands are available to hold or wield other weapons. Revealing the weapon requires a free-hand."
-					]
-				}
-			]
-		},
-		{
 			"name": "Hide Armor",
 			"source": "PHB",
 			"page": 144,
@@ -3763,7 +3738,13 @@
 			"weapon": true,
 			"ammoType": "sling bullets|xphb",
 			"entries": [
-				"Regardless of what side of this weapon is used, the {@itemMastery Sap|XPHB} weapon mastery can be applied. When making a Melee Attack roll, this weapon deals {@damage 1d6} Piercing damage, using its spear-like end. When making a Ranged Attack roll, this weapon deals {@damage 1d4} Bludgeoning damage, using its slingshot-like end and you can utilize the {@itemMastery Underdog|XPHB} weapon mastery."
+				{
+					"type": "entries",
+					"name": "Regarding Double Property",
+					"entries": [
+						"Regardless of what side of this weapon is used, the {@itemMastery Sap|XPHB} weapon mastery can be applied to the attack. When making a {@action Attack|XPHB|Melee Attack} roll, this weapon deals {@damage 1d6} Piercing damage, using its spear-like end. When making a {@action Attack|XPHB|Ranged Attack} roll, this weapon deals {@damage 1d4} Bludgeoning damage, using its slingshot-like end. You can utilize the {@itemMastery Underdog|XPHB} weapon mastery for its Ranged attacks."
+					]
+				}
 			],
 			"hasFluff": true
 		},
@@ -4166,6 +4147,9 @@
 			"dmgType": "S",
 			"polearm": true,
 			"weapon": true,
+			"entries": [
+				"{@i commonly known as an Elven Glaive.}"
+			],
 			"hasFluff": true
 		},
 		{
@@ -4709,7 +4693,7 @@
 			"type": "R|XPHB",
 			"rarity": "none",
 			"weight": 2,
-			"value": 5000,
+			"value": 4000,
 			"weaponCategory": "martial",
 			"property": [
 				"A|XPHB",
@@ -5549,6 +5533,40 @@
 			]
 		},
 		{
+			"name": "Oversized Longbow",
+			"source": "XPHB",
+			"page": 214,
+			"type": "R|XPHB",
+			"rarity": "none",
+			"weight": 4,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"A|XPHB",
+				"VH|XPHB",
+				"2H|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Dual Shot|XPHB",
+				"Pin|XPHB",
+				"Sap|XPHB"
+			],
+			"range": "240/800",
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Strongbow",
+					"entries": [
+						"This unique ranged weapon uses your Strength modifier for its attack and damage rolls, instead of Dexterity. Additionally, due to its size, it can only be used by Medium or larger creatures. While you need a bare minimum of a 15 for your Strength score to wield this weapon, if your Strength is lower than an 18, the range of for this weapon is reduced by 25 feet per score difference."
+					]
+				}
+			],
+			"ammoType": "arrow|xphb"
+		},
+		{
 			"name": "Padded Armor",
 			"source": "PHB",
 			"page": 144,
@@ -5761,13 +5779,10 @@
 			"weight": 7,
 			"value": 2000,
 			"ac": 2,
-			"property": [
-				"S|XPHB"
-			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Special: AC or Cover",
+					"name": "AC or Cover",
 					"entries": [
 						"It takes an {@variantrule Action|XPHB} to place a Pavise securely in the ground, and a {@variantrule Bonus Action|XPHB} to remove. When a Pavise is placed in this way, you no longer gain the AC bonus in exchange for {@variantrule Cover|XPHB|Half to Three-Quarters Cover} from ranged attacks. You can gain {@variantrule Cover|XPHB|Total Cover} from ranged attacks, however you must be {@condition Prone}."
 					]
@@ -6123,6 +6138,7 @@
 			"dagger": true,
 			"weapon": true,
 			"entries": [
+				"{@i commonly known as a Katar.}",
 				{
 					"type": "entries",
 					"name": "Special: Unarmed Attacks",
@@ -6176,7 +6192,8 @@
 			"weaponCategory": "simple",
 			"property": [
 				"P|XPHB",
-				"V|XPHB"
+				"V|XPHB",
+				"S|XPHB"
 			],
 			"mastery": [
 				"Burst|XPHB",
@@ -6187,6 +6204,15 @@
 			"dmgType": "B",
 			"dmg2": "1d8",
 			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Note for Monks",
+					"entries": [
+						"If you have, at least, 1 level in the Monk class, then this weapon also gains the {@itemProperty FL|XPHB|Flourish} weapon property while you wield this."
+					]
+				}
+			],
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -6237,7 +6263,9 @@
 			"value": 2500,
 			"weaponCategory": "martial",
 			"property": [
-				"F|XPHB"
+				"F|XPHB",
+				"SL|XPHB",
+				"S|XPHB"
 			],
 			"mastery": [
 				"Lunge|XPHB",
@@ -6245,9 +6273,19 @@
 			],
 			"dmg1": "1d8",
 			"dmgType": "P",
+			"dmg2": "2",
 			"rapier": true,
 			"sword": true,
 			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special: Revised Light",
+					"entries": [
+						"If you have a Strength and Dexterity score of at least a 13, you can treat a Rapier as if it had the {@itemProperty L|XPHB|Light} weapon property, for the purposes of {@action Two-Weapon Fighting|XPHB}, however, this weapon must remain in your main-hand only."
+					]
+				}
+			],
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -6798,7 +6836,7 @@
 			"type": "R|XPHB",
 			"rarity": "none",
 			"weight": 2,
-			"value": 2500,
+			"value": 2000,
 			"weaponCategory": "simple",
 			"property": [
 				"A|XPHB",
@@ -7512,34 +7550,6 @@
 			]
 		},
 		{
-			"name": "Spiked Chain",
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "M|XPHB",
-			"typeAlt": "CElf|XPHB",
-			"rarity": "none",
-			"weight": 7,
-			"value": 5000,
-			"weaponCategory": "specialized",
-			"property": [
-				"2H|XPHB",
-				"D|XPHB",
-				"F|XPHB",
-				"H|XPHB",
-				"R|XPHB"
-			],
-			"mastery": [
-				"Sap|XPHB",
-				"Un-Shield|XPHB"
-			],
-			"dmg1": "2d4",
-			"dmgType": "S",
-			"dmg2": "1d4 Slashing",
-			"weapon": true,
-			"hasFluff": true
-		},
-		{
 			"name": "Spiked Net",
 			"source": "XPHB",
 			"page": 215,
@@ -7703,9 +7713,9 @@
 			"value": 500,
 			"weaponCategory": "martial",
 			"property": [
-				"C|XPHB",
 				"F|XPHB",
 				"L|XPHB",
+				"SL|XPHB",
 				"T|XPHB"
 			],
 			"mastery": [
@@ -7715,8 +7725,12 @@
 			"range": "20/60",
 			"dmg1": "1d4",
 			"dmgType": "P",
+			"dmg2": "2",
 			"dagger": true,
 			"weapon": true,
+			"entries": [
+				"{@b {@i Note.}} When this weapon is thrown, it only deals Piercing damage."
+			],
 			"hasFluff": true
 		},
 		{
@@ -8067,7 +8081,7 @@
 			"weaponCategory": "specialized",
 			"property": [
 				"D|XPHB",
-				"H|XPHB",
+				"VH|XPHB",
 				"2H|XPHB"
 			],
 			"mastery": [
@@ -8079,6 +8093,9 @@
 			"dmg2": "1d6 Piercing",
 			"axe": true,
 			"weapon": true,
+			"entries": [
+				"{@i commonly known as a Dwarven Spear-Axe.}"
+			],
 			"hasFluff": true
 		},
 		{
@@ -8304,6 +8321,7 @@
 			"value": 1500,
 			"weaponCategory": "martial",
 			"property": [
+				"H|XPHB",
 				"V|XPHB"
 			],
 			"mastery": [
@@ -8496,6 +8514,7 @@
 			"value": 200,
 			"weaponCategory": "martial",
 			"property": [
+				"L|XPHB",
 				"F|XPHB",
 				"R|XPHB"
 			],
@@ -8910,7 +8929,7 @@
 					"type": "entries",
 					"name": "Bludgeon",
 					"entries": [
-						"Bludgeon weapons are weapon that have either, Piercing or Slashing, listed as its primary damage type, but can do Bludgeoning damage, without being a Double weapon. When you make an attack with this weapon, you can choose between its listed damage type or Bludgeoning damage, using the list damage die size."
+						"Bludgeon weapons are weapon that have either, Piercing or Slashing, listed as its primary damage type, but can also do Bludgeoning damage, without being a Double weapon. When you make an attack with this weapon, you can choose between its listed damage type or Bludgeoning damage, using the list damage die size."
 					]
 				}
 			]
@@ -8973,7 +8992,7 @@
 					"type": "entries",
 					"name": "Double",
 					"entries": [
-						"A Double weapon has two points of attack on a singular weapon. It is often a weapon with a melee weapon that can attack from either end of a long haft, hilt, or pole. Additionally, some Double weapons may be an {@itemProperty UA|XPHB|\"Unarmed\"} weapon that is made and wielded as a pair. When you take the Attack action, regardless of it hits or not, you can immediately use your {@variantrule Bonus Action|XPHB} to make an Attack roll targeting a different creature within the weapon's range, using the weapon's other attack side or half. This attack's damage value is in parentheses, appearing next to this property.",
+						"A Double weapon has two points of attack on a singular weapon. It is often a weapon with a melee weapon that can attack from either end of a long haft, hilt, or pole. When you take the Attack action, regardless of it hits or not, you can immediately use your {@variantrule Bonus Action|XPHB} to make an Attack roll targeting a different creature within the weapon's range, using the weapon's other attack side. This attack's damage value is in parentheses, appearing next to this property.",
 						"If a Double weapon can make a ranged attack, the item will list a special note, in order to determine what damage is ranged and which one is for melee."
 					]
 				}
@@ -9294,15 +9313,33 @@
 			"name": "special",
 			"abbreviation": "S",
 			"source": "PHB",
+			"reprintedAs": [
+				"S|XPHB"
+			],
 			"page": 147,
 			"template": "{{prop_name_lower}}"
 		},
 		{
-			"name": "Special",
+			"name": "special",
 			"abbreviation": "S",
 			"source": "XPHB",
 			"page": 214,
 			"template": "{{prop_name}}"
+		},
+		{
+			"abbreviation": "SL",
+			"source": "XPHB",
+			"page": 215,
+			"template": "{{prop_name}} ({{item.dmg2}})",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Slashing",
+					"entries": [
+						"This Piercing weapon can also deal Slashing damage. On a hit, this weapon deals Slashing damage equal to the amount listed in parentheses next to this property."
+					]
+				}
+			]
 		},
 		{
 			"abbreviation": "ST",

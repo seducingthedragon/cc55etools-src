@@ -1014,6 +1014,7 @@
         "musket_dmg": "musket_xphb",
         "net_phb": "basic%20net_xphb",
         "orb_phb": "orb_xphb",
+        "oversized%20longbow_wdh": "oversized%20longbow_xphb",
         "padded%20armor_phb": "padded%20armor_xphb",
         "painter's%20supplies_phb": "painter's%20supplies_xphb",
         "pan%20flute_phb": "pan%20flute_xphb",
@@ -2374,6 +2375,7 @@
         "ld_phb": "ld_xphb",
         "r_phb": "r_xphb",
         "rld_dmg": "rld_xdmg",
+        "s_phb": "s_xphb",
         "t_phb": "t_xphb",
         "v_phb": "v_xphb"
     },

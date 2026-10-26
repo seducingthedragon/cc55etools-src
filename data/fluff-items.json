@@ -68,7 +68,7 @@
 			"name": "Agrogash",
 			"source": "XPHB",
 			"entries": [
-				"{@i The Agrogash, (\"wrath-pulling axe\" in Orcish), is commonly known as the Hook-Bearded Axe. This double-headed Battleaxe has a serrated \"hook\" at the bottom of its axeheads, for devastating effects.}"
+				"{@i The Agrogash, (\"wrath-pulling axe\" in Orcish), is commonly known as the Hook-Bearded Battleaxe. This double-headed Battleaxe has a serrated \"hook\" at the bottom of its axeheads, for devastating effects.}"
 			]
 		},
 		{
@@ -4295,7 +4295,7 @@
 			"name": "Flail",
 			"source": "XPHB",
 			"entries": [
-				"{@i Flails are weapons with a baton-like handle that has a thick chain linking it to a heavy iron ball of spikes. They look like Morningstars, however they incorporate a chain connecting the iron ball to the handle, with or without shortening the handle.}"
+				"{@i Flails are weapons with a baton-like handle that has a thick chain linking it to a heavy iron ball of blunted spikes. They look like Morningstars, however they incorporate a chain connecting the iron ball to the handle, with or without shortening the handle.}"
 			],
 			"images": [
 				{
@@ -4696,7 +4696,7 @@
 			"name": "Glaive",
 			"source": "XPHB",
 			"entries": [
-				"{@i While there is a wide variety of polearm weapons, they often appear similar in design, often making it difficult to distinguish. A Glaive, also known as a Fauchard, has a long wide blade with a curve. Sometimes it curves like a saber while others have a curve near the top. If the blade is thin in width, it is called a Naginata instead. A Halberd's blade often appears to be an axe head with a prominent spear off the top of the haft. The blade is either straight, like a machette or inverted, compared to typical axes.}",
+				"{@i While there is a wide variety of polearm weapons, they often appear similar in design, often making it difficult to distinguish. A Glaive, also known as a Fauchard, has a long wide blade with a curve. Sometimes it curves like a saber while others have a curve near the top. If the blade is thin in width, it is called a Naginata instead. A Halberd's blade often appears to be an axe head with a prominent spear off the top of the haft. The blade appears to be an inverted axe head with its top corner further extended out compared to the bottom. If the blade appears to be a standard axe, that is a Poleaxe, which is the predecessor of the Halberd.}",
 				"{@i Between a Javelin, a Pike, and a Spear, it can be even more difficult to tell the difference, as they all are polearms with a dagger-like bladed pointed tip at the top. However a Javelin, often has the smallest of points as it is primarily used for throwing at great distances and its weight allows it to be used with one hand. A Spear often has a wider blade, balanced for both melee and ranged attacks, as well as extra brutally when used with two-hands. A Pike has a longer blade that's narrow, like a javelin, but does not have any ranged capabilities. It is primarily used within armies as a way of preventing mounted warriors from breaching their lines.}"
 			],
 			"images": [
@@ -4860,7 +4860,7 @@
 			"name": "Gorgash",
 			"source": "XPHB",
 			"entries": [
-				"{@i The Gorgash (\"blood-shower blade\" in Orcish), is commonly known as the Double-Headed Battleaxe, and is a symbol of the Orcish philosphy of strength and power. This weapon has a 6-foot long haft with a large axe head (or double axe head), on each end. While it can be extremely difficult to wield, those proficient with it exude extreme power and finesse. It is often rare to see this weapon on the battlefield as it is most commonly used in duels between Orc leaders.}"
+				"{@i The Gorgash (\"blood-shower blade\" in Orcish), is commonly known as the Double Double Battleaxe, and is a symbol of the Orcish philosphy of strength and power. This weapon has a 6-foot long haft with a large double axe head (sometimes a single axe head), on each end. While it can be extremely difficult to wield, those proficient with it exude extreme power and finesse. It is often rare to see this weapon on the battlefield as it is most commonly used in duels between Orc leaders.}"
 			]
 		},
 		{
@@ -5830,7 +5830,7 @@
 			"name": "Hurled Colpik",
 			"source": "XPHB",
 			"entries": [
-				"This weapon resembles nothing more than a pickaxe with a long haft. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor before expanding to be used for anyone who wishes to have a weapon of multiple uses."
+				"{@i While this weapon resembles nothing more than a pickaxe with a long haft, this weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor before it expanded to be used by anyone who wishes to have a weapon of multiple uses.}"
 			]
 		},
 		{
@@ -12010,13 +12010,6 @@
 			]
 		},
 		{
-			"name": "Spiked Chain",
-			"source": "XPHB",
-			"entries": [
-				"{@i A Spiked Chain looks like two {@item Flail|XPHB|Flails} with various spikes along its chain, a smaller ball of spikes at each end, and with a thick non-spikey chain connecting the ends of the handles together. While this weapon is considered a Specialized Cultural Weapon for the Elven Community, this is predominetly only found within a small portion of the Elven Community, specically within the Drow, Shadar-Kai, and Wild Elven communities.}"
-			]
-		},
-		{
 			"name": "Spiked Net",
 			"source": "XPHB",
 			"entries": [
@@ -14135,7 +14128,7 @@
 			"name": "Waraxe",
 			"source": "XPHB",
 			"entries": [
-				"{@i The Waraxe, also known as the Dwarven Waraxe, was a single-bladed, versatile axe, that is larger and heavier than a battleaxe, but only slightly less so than the double-bladed greataxe. While this weapon does not have reach abilities, its large blade makes it difficult to miss a target when properly wielded and always does deadly damage.}"
+				"{@i The Waraxe, also known as the Dwarven Waraxe, was a single-bladed, versatile axe, that is larger and heavier than a battleaxe, but only slightly less so than the double-bladed greataxe. While this weapon does not have reach abilities, its large blade makes it nearly unwieldy without the proper training.}"
 			]
 		},
 		{

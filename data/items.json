@@ -44883,6 +44883,9 @@
 			"name": "Oversized Longbow",
 			"source": "WDH",
 			"page": 201,
+			"reprintedAs": [
+				"Oversized Longbow|XPHB"
+			],
 			"type": "R",
 			"rarity": "unknown",
 			"weight": 2,

@@ -8680,7 +8680,7 @@
 									"row": [
 										"{@item Dagger|XPHB}",
 										"{@dice 1d4} Piercing",
-										"{@item C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60)",
 										"{@itemMastery Nick}, {@itemMastery Pin}, {@itemMastery Upclose}",
 										"1 lb.",
 										"2 GP"
@@ -8692,7 +8692,7 @@
 									"row": [
 										"{@item Greatclub|XPHB}",
 										"{@dice 1d8} Bludgeoning",
-										"{@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Crush}, {@itemMastery Push}, {@itemMastery Sap}",
 										"10 lb.",
 										"2 SP"
@@ -8776,7 +8776,7 @@
 									"row": [
 										"{@item Quarterstaff|XPHB}",
 										"{@dice 1d6} Bludgeoning",
-										"{@itemProperty P|XPHB|Polearm}, {@itemProperty V|XPHB|Versatile} ({@dice 1d8})",
+										"{@itemProperty P|XPHB|Polearm}, {@itemProperty V|XPHB|Versatile} ({@dice 1d8}), Special",
 										"{@itemMastery Burst}, {@itemMastery Push}, {@itemMastery Topple}",
 										"4 lb.",
 										"2 SP"
@@ -8882,7 +8882,7 @@
 										"{@itemProperty A|XPHB|Ammunition} (Range 80/320; Arrow), {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Pin}, {@itemMastery Trick Shot}, {@itemMastery Vex}",
 										"2 lb.",
-										"25 GP"
+										"20 GP"
 									]
 								},
 								{
@@ -9054,7 +9054,7 @@
 									"row": [
 										"{@item Rapier|XPHB}",
 										"{@dice 1d8} Piercing",
-										"{@itemProperty F|XPHB|Finesse}",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty SL|XPHB|Slashing} (2), Special",
 										"{@itemMastery Lunge}, {@itemMastery Vex}",
 										"2 lb.",
 										"25 GP"
@@ -9090,7 +9090,7 @@
 									"row": [
 										"{@item Stiletto|XPHB}",
 										"{@dice 1d4} Piercing",
-										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light} {@itemProperty T|XPHB|Thrown} (Range 20/60)",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty SL|XPHB|Slashing} (2), {@itemProperty T|XPHB|Thrown} (Range 20/60)",
 										"{@itemMastery Piercer}, {@itemMastery Vex}",
 										"1 lb.",
 										"5 GP"
@@ -9114,7 +9114,7 @@
 									"row": [
 										"{@item Warhammer|XPHB}",
 										"{@dice 1d8} Bludgeoning",
-										"{@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
+										"{@itemProperty H|XPHB|Heavy}, {@itemProperty V|XPHB|Versatile} ({@dice 1d10})",
 										"{@itemMastery Bruiser}, {@itemMastery Push}, {@itemMastery Sunder}",
 										"5 lb.",
 										"15 GP"
@@ -9138,7 +9138,7 @@
 									"row": [
 										"{@item Whip|XPHB}",
 										"{@dice 1d4} Slashing",
-										"{@itemProperty F|XPHB|Finesse}, {@itemProperty R|XPHB|Reach}",
+										"{@itemProperty L|XPHB|Light}, {@itemProperty F|XPHB|Finesse}, {@itemProperty R|XPHB|Reach}",
 										"{@itemMastery Bleeder}, {@itemMastery Halt}, {@itemMastery Topple}",
 										"3 lb.",
 										"2 GP"
@@ -9208,7 +9208,7 @@
 										"{@itemProperty A|XPHB|Ammunition} (Range 150/600; Arrow), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Dual Shot}, {@itemMastery Pin}, {@itemMastery Slow}",
 										"2 lb.",
-										"50 GP"
+										"40 GP"
 									]
 								},
 								{
@@ -9221,6 +9221,18 @@
 										"{@itemMastery Slow}",
 										"10 lb.",
 										"500 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Oversized Longbow|XPHB}",
+										"{@dice 2d6} Piercing",
+										"{@itemProperty A|XPHB|Ammunition} (Range 240/800; Arrow), {@itemProperty VH|XPHB|Very Heavy}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
+										"{@itemMastery Dual Shot}, {@itemMastery Pin}, {@itemMastery Sap}",
+										"4 lb.",
+										"50 GP"
 									]
 								},
 								{
@@ -9391,23 +9403,11 @@
 									"style": "row-indent-first",
 									"row": [
 										"{@item Granite Fists|XPHB} {@i Cultural (Dwarven)}",
-										"{@dice 2d6} Bludgeoning",
-										"{@itemProperty D|XPHB|Double} ({@dice 1d6}), {@itemProperty H|XPHB|Heavy}, {@itemProperty UA|XPHB|\"Unarmed\"}, Special",
+										"{@dice 2d6} Bludgeoning, Alt. ({@dice 1d6})",
+										"{@itemProperty H|XPHB|Heavy}, {@itemProperty UA|XPHB|\"Unarmed\"}, Special",
 										"{@itemMastery Crush}, {@itemMastery Slow}",
 										"10 lb.",
 										"50 GP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
-										"{@item Hidden Blade|XPHB}",
-										"{@dice 1d4} Piercing",
-										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, Special",
-										"{@itemMastery Punch}, {@itemMastery Vex}",
-										"0.5 lb.",
-										"10 GP"
 									]
 								},
 								{
@@ -9536,7 +9536,7 @@
 									"row": [
 										"{@item Urgrosh|XPHB} {@i Cultural (Dwarven)}",
 										"{@dice 1d8} Slashing",
-										"{@itemProperty D|XPHB|Double} ({@dice 1d6} Piercing), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
+										"{@itemProperty D|XPHB|Double} ({@dice 1d6} Piercing), {@itemProperty VH|XPHB|Very Heavy}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Cleave}, {@itemMastery Topple}",
 										"12 lb.",
 										"50 GP"
@@ -9548,7 +9548,7 @@
 									"row": [
 										"{@item Waraxe|XPHB} {@i Cultural (Dwarven)}",
 										"{@dice 1d10} Slashing",
-										"{@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty V|XPHB|Versatile} ({@dice 1d12})",
+										"{@itemProperty H|XPHB|Heavy}, {@itemProperty V|XPHB|Versatile} ({@dice 1d12})",
 										"{@itemMastery Cleave}, {@itemMastery Graze}",
 										"7 lb.",
 										"30 GP"
@@ -9730,7 +9730,7 @@
 									"page": 213,
 									"id": "669",
 									"entries": [
-										"Bludgeon weapons are weapon that have either, Piercing or Slashing, listed as its primary damage type, but can do Bludgeoning damage, without being a Double weapon. When you make an attack with this weapon, you can choose between its listed damage type or Bludgeoning damage, using the list damage die size."
+										"Bludgeon weapons are weapon that have either, Piercing or Slashing, listed as its primary damage type, but can also do Bludgeoning damage, without being a Double weapon. When you make an attack with this weapon, you can choose between its listed damage type or Bludgeoning damage, using the list damage die size."
 									]
 								},
 								{
@@ -9748,7 +9748,7 @@
 									"page": 213,
 									"id": "631",
 									"entries": [
-										"A Double weapon has two points of attack on a singular weapon. It is often a weapon with a melee weapon that can attack from either end of a long haft, hilt, or pole. Additionally, some Double weapons may be an {@itemProperty UA|XPHB|\"Unarmed\"} weapon that is made and wielded as a pair. When you take the Attack action, regardless of it hits or not, you can immediately use your {@variantrule Bonus Action|XPHB} to make an Attack roll targeting a different creature within the weapon's range, using the weapon's other attack side or half. This attack's damage value is in parentheses, appearing next to this property.",
+										"A Double weapon has two points of attack on a singular weapon. It is often a weapon with a melee weapon that can attack from either end of a long haft, hilt, or pole. When you take the Attack action, regardless of it hits or not, you can immediately use your {@variantrule Bonus Action|XPHB} to make an Attack roll targeting a different creature within the weapon's range, using the weapon's other attack side. This attack's damage value is in parentheses, appearing next to this property.",
 										"If a Double weapon can make a ranged attack, the item will list a special note, in order to determine what damage is ranged and which one is for melee."
 									]
 								},
@@ -9850,6 +9850,15 @@
 									"id": "648",
 									"entries": [
 										"A Restraining weapon is a weapon that may, or may not, deal damage. It will, however, deal the {@condition Restrained|XPHB} condition when the target fails a Dexterity {@variantrule Saving Throw|XPHB}. The DC for this weapon is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} plus your Strength or Dexterity modifier (your choice). If this weapon deals damage, it will only deal damage on a failed save, unless it also has the {@itemProperty O|XPHB|Ongoing} property Huge and larger creatures, and formless creatures, automatically succeed on the save, unless specified. Once you attack with this weapon, you can only attack with it again when the target is freed. See the item's specific details for this information."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Slashing",
+									"page": 215,
+									"id": "663",
+									"entries": [
+										"This Piercing weapon can also deal Slashing damage. On a hit, this weapon deals Slashing damage equal to the amount listed in parentheses next to this property."
 									]
 								},
 								{
@@ -20468,7 +20477,7 @@
 									"type": "item",
 									"name": "{@item Flail|XPHB|Flails} and {@item Morningstar|XPHB|Morningstars}",
 									"entries": [
-										"{@i Flails are weapons with a baton-like handle that has a thick chain linking it to a heavy iron ball of spikes. They look like Morningstars, however they incorporate a chain connecting the iron ball to the handle, with or without shortening the handle.}",
+										"{@i Flails are weapons with a baton-like handle that has a thick chain linking it to a heavy iron ball of blunted spikes. They look like Morningstars, however they incorporate a chain connecting the iron ball to the handle, with or without shortening the handle.}",
 										"{@i A Morningstar is a club-like weapon that has a large sphere at the end of the handle covered in piercing spikes. It appears similarly to a Flail but does not utilize a chain.}"
 									]
 								},
@@ -20489,14 +20498,15 @@
 								{
 									"type": "item",
 									"name": "{@item Gorgash|XPHB} {@i Cultural (Orcish)}",
-									"entry": "{@i The Gorgash (\"blood-shower blade\" in Orcish), is commonly known as the Double-Headed Battleaxe, and is a symbol of the Orcish philosphy of strength and power. This weapon has a 6-foot long haft with a large axe head (or double axe head), on each end. While it can be extremely difficult to wield, those proficient with it exude extreme power and finesse. It is often rare to see this weapon on the battlefield as it is most commonly used in duels between Orc leaders.}"
+									"entry": "{@i The Gorgash (\"blood-shower blade\" in Orcish), is commonly known as the Double Double Battleaxe, and is a symbol of the Orcish philosphy of strength and power. This weapon has a 6-foot long haft with a large double axe head (sometimes a single axe head), on each end. While it can be extremely difficult to wield, those proficient with it exude extreme power and finesse. It is often rare to see this weapon on the battlefield as it is most commonly used in duels between Orc leaders.}"
 								},
 								{
 									"type": "item",
 									"name": "{@item Granite Fists|XPHB} {@i Cultural (Dwarven)}",
 									"entries": [
 										"{@i These Granite Fists are a brutal pair of gauntlet-like designed weapons from the Dwarven community. Weighing at 10 lbs per individual fist, these are made to break bones and crush armor. Shaped to look like giant fists, each one comes with an iron bar inside for the wielder to grip. They are frequently sold in pairs, however, it is not uncommon to see someone weilding only one fist in a fight. Difficult communities and clans have variations on these fists, including some made out of metal, has sharp spikes on the knuckles, decorative yet brutal iron rings, and more.}",
-										"{@b {@i Special: Heavy Dual Wield.}} When you wield this weapon as a pair, you gain access to its {@itemProperty D|XPHB|Double} property, allowing you to use {@action Two-Weapon Fighting|XPHB}. If you have a feat, feature, or fighting style that grants benefits to {@action Two-Weapon Fighting|XPHB}, you can only use those benefits with this weapon if your Strength score is a 15 or higher."
+										"{@i This weapon is sold as a pair, making its combined weight 10 lbs. Wielding only one fist, results in carrying 5 lbs.}",
+										"{@b {@i Special: Heavy Dual Wield.}} When you wield this weapon as a pair, any attack made with your off-hand will deal Bludgeoning damage equal to the listed Alt. Damage of {@dice 1d6}. If your Strength score is at least a 15, wielding this weapon as a pair grants you access to {@action Two-Weapon Fighting|XPHB}."
 									]
 								},
 								{
@@ -20523,14 +20533,6 @@
 								},
 								{
 									"type": "item",
-									"name": "{@item Hidden Blade|XPHB}",
-									"entries": [
-										"{@i This small, spring-loaded blade can be hidden in {@item Bracers|XPHB}, soles of shoes, or other objects.}",
-										"{@b {@i Special: Worn and Free-Hands.}} A hidden blade can be revealed by a spring-loaded mechanism and attacked with as a {@variantrule Bonus Action|XPHB}. While this blade is hidden on your person, your hands are available to hold or wield other weapons. Revealing the weapon requires a free-hand."
-									]
-								},
-								{
-									"type": "item",
 									"name": "{@item Hokur Ball|XPHB}",
 									"entry": "{@i The Hokur Ball is a small ball of dense iron, or stone, that was initially used in Orcish games of athleticism, very much like Shotput. Sometimes during fights and battles, when weapons have been destroyed, Orc communities are known for their use of improvised weapons, which led to some Orcish Athletes turned Warriors using their Hokur Ball as a weapon, with devastating effects on their victims. The Hokur Ball can be made out of various materials, however, it is always in the shape of a smooth sphere. Those who are proficient with a Hokur Ball can also find various stones of its similar weight can throw them proficiently as well.}"
 								},
@@ -20539,13 +20541,13 @@
 									"name": "{@item Hoopak|XPHB}",
 									"entries": [
 										"{@i A Hoopak looks like a slingshot with a long shaft that ends with a sharp, sometimes metal-coated, piercing tip.}",
-										"Regardless of what side of this weapon is used, the {@itemMastery Sap|XPHB} weapon mastery can be applied. When making a Melee Attack roll, this weapon deals {@damage 1d6} Piercing damage, using its spear-like end. When making a Ranged Attack roll, this weapon deals {@damage 1d4} Bludgeoning damage, using its slingshot-like end and you can utilize the {@itemMastery Underdog|XPHB} weapon mastery."
+										"{@b {@i Regarding Double Property.}} Regardless of what side of this weapon is used, the {@itemMastery Sap|XPHB} weapon mastery can be applied to the attack. When making a {@action Attack|XPHB|Melee Attack} roll, this weapon deals {@damage 1d6} Piercing damage, using its spear-like end. When making a {@action Attack|XPHB|Ranged Attack} roll, this weapon deals {@damage 1d4} Bludgeoning damage, using its slingshot-like end. You can utilize the {@itemMastery Underdog|XPHB} weapon mastery for its Ranged attacks."
 									]
 								},
 								{
 									"type": "item",
 									"name": "{@item Hurled Colpik|XPHB} {@i Cultural (Dwarven)}",
-									"entry": "{@i This weapon resembles nothing more than a pickaxe with a long haft. This weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor before expanding to be used for anyone who wishes to have a weapon of multiple uses.}"
+									"entry": "{@i While this weapon resembles nothing more than a pickaxe with a long haft, this weapon was first designed by a group of Dwarven miners who had to improvise weapons in order to protect their labor before it expanded to be used by anyone who wishes to have a weapon of multiple uses.}"
 								},
 								{
 									"type": "item",
@@ -20620,9 +20622,14 @@
 								},
 								{
 									"type": "item",
+									"name": "{@item Oversized Longbow|XPHB}",
+									"entry": "{@b {@i Special: Strongbow.}} This unique ranged weapon uses your Strength modifier for its attack and damage rolls, instead of Dexterity. Additionally, due to its size, it can only be used by Medium or larger creatures. While you need a bare minimum of a 15 for your Strength score to wield this weapon, if your Strength is lower than an 18, the range of for this weapon is reduced by 25 feet per score difference."
+								},
+								{
+									"type": "item",
 									"name": "The {@itemProperty P|XPHB|Polearms}: Glaives, Halberds, Javelins, Pikes, and Spears",
 									"entries": [
-										"{@i While there is a wide variety of polearm weapons, they often appear similar in design, often making it difficult to distinguish. A {@item Glaive|XPHB}, also known as a Fauchard, has a long wide blade with a curve. Sometimes it curves like a saber while others have a curve near the top. If the blade is thin in width, it is called a Naginata instead. A {@item Halberd|XPHB|Halberd's} blade often appears to be an axe head with a prominent spear off the top of the haft. The blade is either straight, like a machette or inverted, compared to typical axes.}",
+										"{@i While there is a wide variety of polearm weapons, they often appear similar in design, often making it difficult to distinguish. A Glaive, also known as a Fauchard, has a long wide blade with a curve. Sometimes it curves like a saber while others have a curve near the top. If the blade is thin in width, it is called a Naginata instead. A Halberd's blade often appears to be an axe head with a prominent spear off the top of the haft. The blade appears to be an inverted axe head with its top corner further extended out compared to the bottom. If the blade appears to be a standard axe, that is a Poleaxe, which is the predecessor of the Halberd.}",
 										"{@i Between a {@item Javelin|XPHB}, a {@item Pike|XPHB}, and a {@item Spear|XPHB}, it can be even more difficult to tell the difference, as they all are polearms with a dagger-like bladed pointed tip at the top. However a Javelin, often has the smallest of points as it is primarily used for throwing at great distances and its weight allows it to be used with one hand. A Spear often has a wider blade, balanced for both melee and ranged attacks, as well as extra brutally when used with two-hands. A Pike has a longer blade that's narrow, like a javelin, but does not have any ranged capabilities. It is primarily used within armies as a way of preventing mounted warriors from breaching their lines.}"
 									]
 								},
@@ -20634,12 +20641,18 @@
 								{
 									"type": "item",
 									"name": "{@item Quarterstaff|XPHB}",
-									"entry": "{@i A Quarterstaff is a wooden polearm weapon, usually with no embellishings, metal, or other decor. Sometimes they may have cord wrapped in a couple of sections for hand placements, but otherwise, this weapon is as simple as they come, followed by the Bokken.}"
+									"entries": [
+										"{@i A Quarterstaff is a wooden polearm weapon, usually with no embellishings, metal, or other decor. Sometimes they may have cord wrapped in a couple of sections for hand placements, but otherwise, this weapon is as simple as they come, followed by the Bokken.}",
+										"{@b {@i Special: Note for Monks.}} If you have, at least, 1 level in the Monk class, then this weapon also gains the {@itemProperty FL|XPHB|Flourish} weapon property while you wield this."
+									]
 								},
 								{
 									"type": "item",
 									"name": "{@item Rapier|XPHB}",
-									"entry": "{@i A Rapier is a facinating sword. With the blade the lenght of a Greatsword, with the hilt size and weight of a Shortsword, and a piercing brutality of a Longsword, this sword combines all of the benefits of those to create something new. Even though this started as an accessory, it quickly became a weapon for self-defense and duels.}"
+									"entries": [
+										"{@i A Rapier is a facinating sword. With the blade the lenght of a Greatsword, with the hilt size and weight of a Shortsword, and a piercing brutality of a Longsword, this sword combines all of the benefits of those to create something new. Even though this started as an accessory, it quickly became a weapon for self-defense and duels.}",
+										"{@b {@i Special: Revised Light.}} If you have a Strength and Dexterity score of at least a 13, you can treat a Rapier as if it had the {@itemProperty L|XPHB|Light} weapon property, for the purposes of {@action Two-Weapon Fighting|XPHB}, however, this weapon must remain in your main-hand only."
+									]
 								},
 								{
 									"type": "item",
@@ -20661,7 +20674,7 @@
 								},
 								{
 									"type": "item",
-									"name": "{@item Shortsowrd|XPHB}",
+									"name": "{@item Shortsword|XPHB}",
 									"entry": "{@i Shortswords are considered the smallest of swords, compared to all sword-related weapons. Any smaller and you'll enter the {@item Dagger|XPHB|Daggers} and {@item Dart|XPHB|Darts} grouping of weapons. Their small size, with a one-handed hilt allows this weapon to be used dextriously as well as with another weapon, although this one is commonly used in the main-hand.}"
 								},
 								{
@@ -20680,11 +20693,6 @@
 										"{@i A Sling, not to be confused with a Slingshot, is an elastic band with a pocket, or pouch, that holds the ammunition. It requires the wielding to whirl it like a Bola or Lasso, and with a quick flick, using its double-pendulum kinetics, the ammunition is released from the pouch towards a target.}",
 										"{@i Slingshots are simple ranged weapons comprising an elasticated material strung between a Y-frame brace. They operate similarly to Slings, however, the elastic material is significantly shorter, which reduces the range of the ammunition, which increases the amount of damage done.}"
 									]
-								},
-								{
-									"type": "item",
-									"name": "{@item Spiked Chain|XPHB} {@i Cultural (Elven)}",
-									"entry": "{@i A Spiked Chain looks like two {@item Flail|XPHB|Flails} with various spikes along its chain, a smaller ball of spikes at each end, and with a thick non-spikey chain connecting the ends of the handles together. While this weapon is considered a Specialized Cultural Weapon for the Elven Community, this is predominetly only found within a small portion of the Elven Community, specically within the Drow, Shadar-Kai, and Wild Elven communities.}"
 								},
 								{
 									"type": "item",
@@ -20724,7 +20732,7 @@
 								{
 									"type": "item",
 									"name": "{@item Waraxe|XPHB} {@i Cultural (Dwarven)}",
-									"entry": "{@i The Waraxe, also known as the Dwarven Waraxe, was a single-bladed, versatile axe, that is larger and heavier than a battleaxe, but only slightly less so than the double-bladed greataxe. While this weapon does not have reach abilities, its large blade makes it difficult to miss a target when properly wielded and always does deadly damage.}"
+									"entry": "{@i The Waraxe, also known as the Dwarven Waraxe, was a single-bladed, versatile axe, that is larger and heavier than a battleaxe, but only slightly less so than the double-bladed greataxe. While this weapon does not have reach abilities, its large blade makes it nearly unwieldy without the proper training.}"
 								},
 								{
 									"type": "item",

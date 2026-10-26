@@ -12145,7 +12145,7 @@
 					"type": "entries",
 					"name": "Pole Strike",
 					"entries": [
-						"Immediately after you take the {@action Attack|XPHB} action and attack with a {@itemProperty P|XPHB|Polearm} Weapon, you can use a {@variantrule Bonus Action|XPHB} to make a melee attack with the opposite end of the weapon. The weapon deals Bludgeoning damage, and the weapon's damage die for this attack is a {@dice d4}."
+						"Immediately after you take the {@action Attack|XPHB} action and attack with a {@itemProperty P|XPHB|Polearm} Weapon, that is also {@u not} a {@itemProperty D|XPHB|Double} weapon, you can use a {@variantrule Bonus Action|XPHB} to make a melee attack with the opposite end of the weapon targeting a different creature within reach. The weapon deals Bludgeoning damage, and the weapon's damage die for this attack is a {@dice d4}."
 					]
 				},
 				{
