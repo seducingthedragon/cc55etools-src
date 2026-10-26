@@ -9918,19 +9918,9 @@
 								"Seconary Properties are weapon properties that are only applicable when another weapon property is present and they are listed with all weapon properties.",
 								{
 									"type": "entries",
-									"name": "Misfire",
-									"page": 215,
-									"id": "639",
-									"entries": [
-										"Ranged {@itemProperty RLX|XPHB|Reload} weapons have a chance for Misfiring. When you make your {@action Attack|XPHB} roll and your {@variantrule Attack Roll|XPHB|Die Roll} is equal to half of the number listed next to the weapon's {@itemProperty RLX|XPHB|Reload} property.",
-										"When you misfire, you must spend a full {@variantrule Action|XPHB} to repair it, which may include your {@variantrule Action|XPHB} on your following turn, before you can attack with it again. This can be done with {@item Tinker's Tools|XPHB} or another toolset, at the Discretion of your DM."
-									]
-								},
-								{
-									"type": "entries",
 									"name": "Ongoing",
 									"page": 215,
-									"id": "63b",
+									"id": "639",
 									"entries": [
 										"An Ongoing weapon is a weapon that deals damage at the start of the target's turn, so long as they are still contained by the weapon or embedded with it. The damage value will be listed in parentheses next to this property. Most Ongoing weapons are {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} weapons, but not always."
 									]
@@ -9939,7 +9929,7 @@
 									"type": "entries",
 									"name": "Strangulation",
 									"page": 215,
-									"id": "663",
+									"id": "63b",
 									"entries": [
 										"A Strangulation weapon is a {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} weapon that chokes the target, as long as you maintain the attack. The target does not need to have the {@status Surprised|XPHB} condition in order for this weapon to work properly, however, they cannot be aware of your intent to strangle, or risk anticipated preparation. If this property is on a {@itemProperty GP|XPHB|Grappling} weapon, the target has {@variantrule Disadvantage|XPHB} on attack rolls against you while grappled by the weapon.",
 										"The first time the target fails its {@variantrule Saving Throw|XPHB} against the {@itemProperty GP|XPHB|Grappling} or {@itemProperty RST|XPHB|Restraining} and it fails use its next turn to successfully escape, it gains 1 round of {@hazard Suffocation|XPHB}, with each subsequent round counted at the end of your turn, as long as you use your {@variantrule Action|XPHB} to maintain your attack. When you maintain your attack, you can also apply its mastery property, if applicable.",

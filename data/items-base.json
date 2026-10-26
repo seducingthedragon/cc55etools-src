@@ -9163,23 +9163,6 @@
 			]
 		},
 		{
-			"abbreviation": "MF",
-			"source": "XPHB",
-			"page": 215,
-			"basicRules2024": true,
-			"template": "{{prop_name}}",
-			"entries":[
-				{
-					"type": "entries",
-					"name": "Misfire",
-					"entries": [
-						"Ranged {@itemProperty RLX|XPHB|Reload} weapons have a chance for Misfiring. When you make your {@action Attack|XPHB} roll and your {@variantrule Attack Roll|XPHB|Die Roll} is equal to half of the number listed next to the weapon's {@itemProperty RLX|XPHB|Reload} property.",
-						"When you misfire, you must spend a full {@variantrule Action|XPHB} to repair it, which may include your {@variantrule Action|XPHB} on your following turn, before you can attack with it again. This can be done with {@item Tinker's Tools|XPHB} or another toolset, at the Discretion of your DM."
-					]
-				}
-			]
-		},
-		{
 			"abbreviation": "O",
 			"source": "XPHB",
 			"page": 215,
