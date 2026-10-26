@@ -1559,7 +1559,8 @@
 			],
 			"mastery": [
 				"Piercer|XPHB",
-				"Slow|XPHB"
+				"Slow|XPHB",
+				"Swift|XPHB"
 			],
 			"dmg1": "1d6",
 			"dmgType": "P",
@@ -2650,6 +2651,7 @@
 			"mastery": [
 				"Crush|XPHB",
 				"Sap|XPHB",
+				"Swift|XPHB",
 				"Un-Shield|XPHB"
 			],
 			"dmg1": "1d8",
@@ -4068,6 +4070,7 @@
 			"mastery": [
 				"Bleeder|XPHB",
 				"Set|XPHB",
+				"Swift|XPHB",
 				"Vex|XPHB"
 			],
 			"dmg1": "1d8",
@@ -4141,7 +4144,8 @@
 			"mastery": [
 				"Bleeder|XPHB",
 				"Graze|XPHB",
-				"Push|XPHB"
+				"Push|XPHB",
+				"Swift|XPHB"
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
@@ -4945,7 +4949,8 @@
 			],
 			"mastery": [
 				"Bleeder|XPHB",
-				"Cleave|XPHB"
+				"Cleave|XPHB",
+				"Swift|XPHB"
 			],
 			"dmg1": "1d8",
 			"dmgType": "S",
@@ -5269,16 +5274,17 @@
 			"value": 20000,
 			"weaponCategory": "specialized",
 			"property": [
-				"2F|XPHB",
 				"FL|XPHB",
 				"2H|XPHB",
 				"D|XPHB",
 				"F|XPHB",
-				"L|XPHB"
+				"L|XPHB",
+				"S|XPHB"
 			],
 			"mastery": [
 				"Burst|XPHB",
 				"Shield|XPHB",
+				"Swift|XPHB",
 				"Vex|XPHB"
 			],
 			"dmg1": "2d6",
@@ -5289,9 +5295,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Properties per Form",
+					"name": "Special: Two Forms",
 					"entries": [
-						"The Two Forms, {@u Joined} and {@u Split}, are described below.",
+						"This weapon can be wielding in two different forms called {@u Joined} and {@u Split}. When this weapon goes from its Joined form to its Split form, it takes a {@action Free Object Interaction|XPHB|Free Object Action}. When this weapon goes from its Split form to its Joined form, it takes a {@action Bonus Action|XPHB}. Regardless of its form, it always has its {@itemProperty FL|XPHB|Flourish} weapon property and its {@itemMastery Shield|XPHB} mastery form.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -5299,20 +5305,14 @@
 								{
 									"type": "item",
 									"nameDot": false,
-									"name": "Regardless of form,",
-									"entry": "this weapon always has the following properties: {@b {@itemProperty 2F|XPHB|Two Forms}} and {@b {@itemProperty FL|XPHB|Flourish}}. Additionally, this weapon also has access to its {@itemMastery Shield|XPHB} mastery property regardless of form."
-								},
-								{
-									"type": "item",
-									"nameDot": false,
 									"name": "The {@u Joined} form",
-									"entry": "presents similarly to a {@item Dual Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}. This form uses the {@itemMastery Burst|XPHB} mastery property."
+									"entry": "has a haft that is as long as two hilts followed by a Scimitar blade on each end. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}. This form uses the {@itemMastery Burst|XPHB} mastery property."
 								},
 								{
 									"type": "item",
 									"nameDot": false,
 									"name": "The {@u Split} form",
-									"entry": "presents as two {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}. This form uses the {@itemMastery Vex|XPHB} mastery property."
+									"entry": "presents as two {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage on a hit and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}. This form uses the {@itemMastery Vex|XPHB} mastery property. While in this form, you exchange the Double property for the ability to engage in {@action Two-Weapon Fighting|XPHB}."
 								}
 							]
 						}
@@ -6269,6 +6269,7 @@
 			],
 			"mastery": [
 				"Lunge|XPHB",
+				"Swift|XPHB",
 				"Vex|XPHB"
 			],
 			"dmg1": "1d8",
@@ -6614,6 +6615,7 @@
 			],
 			"mastery": [
 				"Bleeder|XPHB",
+				"Swift|XPHB",
 				"Vex|XPHB"
 			],
 			"dmg1": "1d6",
@@ -6641,6 +6643,7 @@
 			],
 			"mastery": [
 				"Cleave|XPHB",
+				"Swift|XPHB",
 				"Topple|XPHB"
 			],
 			"dmg1": "1d8",
@@ -6690,6 +6693,7 @@
 			"mastery": [
 				"Disarm|XPHB",
 				"Shield|XPHB",
+				"Swift|XPHB",
 				"Topple|XPHB"
 			],
 			"dmg1": "1d4",
@@ -6745,6 +6749,7 @@
 				"Halt|XPHB",
 				"Push|XPHB",
 				"Shield|XPHB",
+				"Swift|XPHB",
 				"Topple|XPHB"
 			],
 			"dmg1": "1d6",
@@ -6800,6 +6805,7 @@
 				"Crush|XPHB",
 				"Disarm|XPHB",
 				"Piercer|XPHB",
+				"Swift|XPHB",
 				"Un-Shield|XPHB"
 			],
 			"dmg1": "1d6",

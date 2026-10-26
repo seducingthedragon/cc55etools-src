@@ -9464,7 +9464,7 @@
 									"row": [
 										"{@item Multi-Saber|XPHB} {@i Cultural (Elven)}",
 										"{@dice 2d6} Slashing",
-										"{@itemProperty 2F|XPHB|Two Forms}, {@itemProperty FL|XPHB|Flourish}, {@itemProperty D|XPHB|Double} ({@dice 1d6}), {@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
+										"{@itemProperty FL|XPHB|Flourish}, {@itemProperty D|XPHB|Double} ({@dice 1d6}), {@itemProperty 2H|XPHB|Two-Handed}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
 										"{@itemMastery Burst}, {@itemMastery Shield}, {@itemMastery Vex}",
 										"6 lb.",
 										"200 GP"
@@ -10197,6 +10197,12 @@
 									"type": "statblock",
 									"tag": "itemMastery",
 									"name": "Halt",
+									"style": "inset"
+								},
+								{
+									"type": "statblock",
+									"tag": "itemMastery",
+									"name": "Hidden",
 									"style": "inset"
 								},
 								{
@@ -20642,10 +20648,9 @@
 									"name": "{@item Multi-Saber|XPHB} {@i Cultural (Elven)}",
 									"entries": [
 										"{@i What makes the Multi-Saber different from a Dual Scimitar is that its split form makes it easier to travel with, there's no size difference between the two blades, and a longer haft whhen joined together. All of these factors lead to the Multi-Saber to become a highly desired weapon to learn to wield over the Dual Scimitar}.",
-										"{@b {@i Properties per Form.}} The Two Forms, {@u Joined} and {@u Split}, are described below.",
-										"{@b Regardless of form,} this weapon always has the following properties: {@b {@itemProperty 2F|XPHB|Two Forms}} and {@b {@itemProperty FL|XPHB|Flourish}}. Additionally, this weapon also has access to its {@itemMastery Shield|XPHB} mastery property regardless of form.",
-										"{@b The {@u Joined} form}} presents similarly to a {@item Dual Scimitar|XPHB}. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}. This form uses the {@itemMastery Burst|XPHB} mastery property.",
-										"{@b The {@u Split} form} presents as two {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}. This form uses the {@itemMastery Vex|XPHB} mastery property."
+										"{@b {@i Special: Two Forms.}} This weapon can be wielding in two different forms called {@u Joined} and {@u Split}. When this weapon goes from its Joined form to its Split form, it takes a {@action Free Object Interaction|XPHB|Free Object Action}. When this weapon goes from its Split form to its Joined form, it takes a {@action Bonus Action|XPHB}. Regardless of its form, it always has its {@itemProperty FL|XPHB|Flourish} weapon property and its {@itemMastery Shield|XPHB} mastery form.",
+										"{@b The {@u Joined} form}} has a haft that is as long as two hilts followed by a Scimitar blade on each end. While joined, it has the following weapon properties: {@b {@itemProperty 2H|XPHB|Two-Handed}} and {@b {@itemProperty D|XPHB|Double}}. This form uses the {@itemMastery Burst|XPHB} mastery property.",
+										"{@b The {@u Split} form} presents as two {@item Scimitar|XPHB|Scimitars}, dealing {@damage 1d6} Slashing damage on a hit and with the following {@item Scimitar|XPHB} weapon properties: {@b {@itemProperty L|XPHB|Light}} and {@b {@itemProperty F|XPHB|Finesse}}. This form uses the {@itemMastery Vex|XPHB} mastery property. While in this form, you exchange the Double property for the ability to engage in {@action Two-Weapon Fighting|XPHB}."
 									]
 								},
 								{
