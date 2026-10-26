@@ -9522,12 +9522,48 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Spiked Chain|XPHB} {@i Cultural (Elven)}",
-										"{@dice 2d4} Piercing",
-										"{@itemProperty D|XPHB|Double} ({@dice 1d4}), {@itemProperty F|XPHB|Finesse}, {@itemProperty H|XPHB|Heavy}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}",
-										"{@itemMastery Sap}, {@itemMastery Un-Shield}",
-										"7 lb.",
+										"{@item Seladrin Chain|XPHB} {@i Cultural (Elven)}",
+										"{@dice 1d4} Bludgeoning",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty FL|XPHB|Flourish}, {@itemProperty L|XPHB|Light}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
+										"{@itemMastery Disarm}, {@itemMastery Shield}, {@itemMastery Topple}",
+										"2.5 lb.",
 										"50 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Seladrin Chain, Brutal|XPHB} {@i Cultural (Elven)}",
+										"{@dice 1d6} Bludgeoning",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty FL|XPHB|Flourish}, {@itemProperty L|XPHB|Light}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
+										"{@itemMastery Halt}, {@itemMastery Push}, {@itemMastery Shield}, {@itemMastery Topple}",
+										"3 lb.",
+										"75 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Seladrin Chain, Spiked|XPHB} {@i Cultural (Elven)}",
+										"{@dice 1d6} Piercing",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty FL|XPHB|Flourish}, {@itemProperty L|XPHB|Light}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
+										"{@itemMastery Crush}, {@itemMastery Disarm}, {@itemMastery Piercer}, {@itemMastery Un-Shield}",
+										"3.5 lb.",
+										"100 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Seladrin Chain, Vicious|XPHB} {@i Cultural (Elven)}",
+										"{@dice 1d8} Slashing",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty FL|XPHB|Flourish}, {@itemProperty L|XPHB|Light}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
+										"{@itemMastery Bleeder}, {@itemMastery Graze}, {@itemMastery Shield}, {@itemMastery Topple}",
+										"3 lb.",
+										"100 GP"
 									]
 								},
 								{
@@ -20671,6 +20707,14 @@
 										"{@i A Scythe is a harvesting tool that has a polearm like shaft and a large curved blade that appeears to be between a Sickle and a Scimitar. It has become a symbol for a Grim Reaper, a harvester of souls, while also being used to protect the laborers across the lands from those who wish to oppress them.}",
 										"{@i A Sickle looks like a light one-handed Scythe and has a similar history to it as well, with this weapon starting out as an agricultural tool. The curvature varies between slightly curved to almost like a hook.}"
 									]
+								},
+								{
+									"type": "item",
+									"name": "{@item Seladrin Chain|XPHB|Seladrin Chains}: Standard, {@item Seladrin Chain, Brutal|XPHB|Brutal}, {@item Seladrin Chain, Spiked|XPHB|Spiked}, and {@item Seladrin Chain, Vicious|XPHB|Vicious}",
+									"entries": [
+										"{@i Seladrin Chain is a fighting chain that is a unique weapon for the Elven communities, although it is primarily used with Drow, Shadar-Kai, Eladrin, Wild Elves, Fey'ri, and other non-commonly known Elves. Many High Sun and Moon Elves as well as Wood Elves find the Seladrin Chain to be barbaric, although the amount of grace needed to wield such weapon is substantial.}",
+										"There are various types of Seladrin Chain, based on what is attached at the end. The standard chain has a small metal weight that is only slightly wider than the chain itself. The Brutal chain has a larger metal round weight, that appears like a mace head, for harder hits. The Spiked chain has various spikes near the chain's end and a Morningstar-style weight. The Vicious chain has a cleaving-like blade to slash through enemies."
+									] 
 								},
 								{
 									"type": "item",

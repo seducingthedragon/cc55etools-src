@@ -6670,6 +6670,226 @@
 			]
 		},
 		{
+			"name": "Seladrin Chain",
+			"source": "XPHB",
+			"page": 214,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CElf|XPHB",
+			"weight": 2.5,
+			"value": 5000,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"FL|XPHB",
+				"L|XPHB",
+				"R|XPHB",
+				"2H|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Disarm|XPHB",
+				"Shield|XPHB",
+				"Topple|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				"{@i Each Seladrin Chain is approximately 15 feet long and sold in pairs. These chains can be wielded as two light weapons or a single chain can be wielded as a two-handed weapon.}",
+				{
+					"type": "entries",
+					"name": "Special: Two Forms",
+					"entries": [
+						"When wielding a Seladrin Chain, the form impacts what properties are available, however, regardless of what form you wield this weapon in, the {@itemProperty F|XPHB|Finesse} weapon property and are available at all times.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dual Wield",
+									"entry": "When you wield this weapon as a pair, wielding two Seladrin Chains, the weapon can use its {@itemProperty L|XPHB|Light} and {@itemProperty FL|XPHB|Flourish} property. You hold the weapons by wrapping its excess chain around your wrist or detach its excess length. Although, if the excess chain is wrapped, then it is nearly impossible for you to become disarmed, shy of losing a limb."
+								},
+								{
+									"type": "item",
+									"name": "Chain Whip",
+									"entry": "When you wield only one Seladrin Chain, it gains its {@itemProperty 2H|XPHB|Two-Handed} and {@itemProperty R|XPHB|Reach} property. The {@itemProperty 2H|XPHB|Two-Handed} property works slightly different with this weapon. One hand holds on to no more than 5 feet of chain, and part of that can be wrapped around your wrist, while your other hand maneuvers the remaining chain."
+								}
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Seladrin Chain, Brutal",
+			"source": "XPHB",
+			"page": 214,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CElf|XPHB",
+			"weight": 3,
+			"value": 7500,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"FL|XPHB",
+				"L|XPHB",
+				"R|XPHB",
+				"2H|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Halt|XPHB",
+				"Push|XPHB",
+				"Shield|XPHB",
+				"Topple|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				"{@i Each Seladrin Chain is approximately 15 feet long and sold in pairs. These chains can be wielded as two light weapons or a single chain can be wielded as a two-handed weapon.}",
+				{
+					"type": "entries",
+					"name": "Special: Two Forms",
+					"entries": [
+						"When wielding a Seladrin Chain, the form impacts what properties are available, however, regardless of what form you wield this weapon in, the {@itemProperty F|XPHB|Finesse} weapon property and are available at all times.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dual Wield",
+									"entry": "When you wield this weapon as a pair, wielding two Seladrin Chains, the weapon can use its {@itemProperty L|XPHB|Light} and {@itemProperty FL|XPHB|Flourish} property. You hold the weapons by wrapping its excess chain around your wrist or detach its excess length. Although, if the excess chain is wrapped, then it is nearly impossible for you to become disarmed, shy of losing a limb."
+								},
+								{
+									"type": "item",
+									"name": "Chain Whip",
+									"entry": "When you wield only one Seladrin Chain, it gains its {@itemProperty 2H|XPHB|Two-Handed} and {@itemProperty R|XPHB|Reach} property. The {@itemProperty 2H|XPHB|Two-Handed} property works slightly different with this weapon. One hand holds on to no more than 5 feet of chain, and part of that can be wrapped around your wrist, while your other hand maneuvers the remaining chain."
+								}
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Seladrin Chain, Spiked",
+			"source": "XPHB",
+			"page": 214,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CElf|XPHB",
+			"weight": 3.5,
+			"value": 10000,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"FL|XPHB",
+				"L|XPHB",
+				"R|XPHB",
+				"2H|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Crush|XPHB",
+				"Disarm|XPHB",
+				"Piercer|XPHB",
+				"Un-Shield|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"{@i Each Seladrin Chain is approximately 15 feet long and sold in pairs. These chains can be wielded as two light weapons or a single chain can be wielded as a two-handed weapon.}",
+				"The Spiked verison of the Seladrin Chain also includes spikes throughout 5 feet of chain starting from its weighted end, making it the most difficult to maneuver without getting hurt yourself.",
+				{
+					"type": "entries",
+					"name": "Special: Two Forms",
+					"entries": [
+						"When wielding a Seladrin Chain, the form impacts what properties are available, however, regardless of what form you wield this weapon in, the {@itemProperty F|XPHB|Finesse} weapon property and are available at all times.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dual Wield",
+									"entry": "When you wield this weapon as a pair, wielding two Seladrin Chains, the weapon can use its {@itemProperty L|XPHB|Light} and {@itemProperty FL|XPHB|Flourish} property. You hold the weapons by wrapping its excess chain around your wrist or detach its excess length. Although, if the excess chain is wrapped, then it is nearly impossible for you to become disarmed, shy of losing a limb."
+								},
+								{
+									"type": "item",
+									"name": "Chain Whip",
+									"entry": "When you wield only one Seladrin Chain, it gains its {@itemProperty 2H|XPHB|Two-Handed} and {@itemProperty R|XPHB|Reach} property. The {@itemProperty 2H|XPHB|Two-Handed} property works slightly different with this weapon. One hand holds on to no more than 5 feet of chain, and part of that can be wrapped around your wrist, while your other hand maneuvers the remaining chain."
+								}
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Seladrin Chain, Vicious",
+			"source": "XPHB",
+			"page": 214,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CElf|XPHB",
+			"weight": 3,
+			"value": 10000,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"FL|XPHB",
+				"L|XPHB",
+				"R|XPHB",
+				"2H|XPHB",
+				"S|XPHB"
+			],
+			"mastery": [
+				"Bleeder|XPHB",
+				"Graze|XPHB",
+				"Shield|XPHB",
+				"Topple|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"{@i Each Seladrin Chain is approximately 15 feet long and sold in pairs. These chains can be wielded as two light weapons or a single chain can be wielded as a two-handed weapon.}",
+				{
+					"type": "entries",
+					"name": "Special: Two Forms",
+					"entries": [
+						"When wielding a Seladrin Chain, the form impacts what properties are available, however, regardless of what form you wield this weapon in, the {@itemProperty F|XPHB|Finesse} weapon property and are available at all times.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dual Wield",
+									"entry": "When you wield this weapon as a pair, wielding two Seladrin Chains, the weapon can use its {@itemProperty L|XPHB|Light} and {@itemProperty FL|XPHB|Flourish} property. You hold the weapons by wrapping its excess chain around your wrist or detach its excess length. Although, if the excess chain is wrapped, then it is nearly impossible for you to become disarmed, shy of losing a limb."
+								},
+								{
+									"type": "item",
+									"name": "Chain Whip",
+									"entry": "When you wield only one Seladrin Chain, it gains its {@itemProperty 2H|XPHB|Two-Handed} and {@itemProperty R|XPHB|Reach} property. The {@itemProperty 2H|XPHB|Two-Handed} property works slightly different with this weapon. One hand holds on to no more than 5 feet of chain, and part of that can be wrapped around your wrist, while your other hand maneuvers the remaining chain."
+								}
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		{
 			"name": "Semiautomatic Pistol",
 			"source": "XDMG",
 			"page": 73,

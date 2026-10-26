@@ -11196,6 +11196,38 @@
 			]
 		},
 		{
+			"name": "Seladrin Chain",
+			"source": "XPHB",
+			"entries": [
+				"{@i Seladrin Chain is a fighting chain that is a unique weapon for the Elven communities, although it is primarily used with Drow, Shadar-Kai, Eladrin, Wild Elves, Fey'ri, and other non-commonly known Elves. Many High Sun and Moon Elves as well as Wood Elves find the Seladrin Chain to be barbaric, although the amount of grace needed to wield such weapon is substantial.}",
+				"There are various types of Seladrin Chain, based on what is attached at the end. The standard chain has a small metal weight that is only slightly wider than the chain itself. The Brutal chain has a larger metal round weight, that appears like a mace head, for harder hits. The Spiked chain has various spikes near the chain's end and a Morningstar-style weight. The Vicious chain has a cleaving-like blade to slash through enemies."
+			]
+		},
+		{
+			"name": "Seladrin Chain, Brutal",
+			"source": "XPHB",
+			"_copy": {
+				"name": "Seladrin Chain",
+				"source": "XPHB"
+			}
+		},
+		{
+			"name": "Seladrin Chain, Spiked",
+			"source": "XPHB",
+			"_copy": {
+				"name": "Seladrin Chain",
+				"source": "XPHB"
+			}
+		},
+		{
+			"name": "Seladrin Chain, Vicious",
+			"source": "XPHB",
+			"_copy": {
+				"name": "Seladrin Chain",
+				"source": "XPHB"
+			}
+		},
+		{
 			"name": "Selesnya Guild Signet",
 			"source": "GGR",
 			"images": [
