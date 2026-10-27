@@ -10817,6 +10817,13 @@
 			]
 		},
 		{
+			"name": "Magical Ammunition",
+			"source": "XDMG",
+			"entriesTemplate": [
+				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
+			]
+		},
+		{
 			"name": "Potion of Resistance",
 			"source": "DMG",
 			"entriesTemplate": [

@@ -60,7 +60,8 @@
 			],
 			"ammo": true,
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+				"You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition.",
+				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact.",
 				"This ammunition is typically found or sold in quantities of ten or twenty pieces. Ten pieces of this ammunition are equivalent in value to a potion of the same rarity {@note ({@table Magic Item Values by Rarity; Magic Item Rarities and Values|XDMG|200 GP})}."
 			],
 			"inherits": {
@@ -72,7 +73,8 @@
 				"rarity": "uncommon",
 				"bonusWeapon": "+1",
 				"entries": [
-					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition.",
+					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
 				],
 				"lootTables": [
 					"Armaments - Uncommon|XDMG",
@@ -350,7 +352,8 @@
 			],
 			"ammo": true,
 			"entries": [
-				"You have a +2 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+				"You have a +2 bonus to attack and damage rolls made with this piece of magic ammunition.",
+				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact.",
 				"This ammunition is typically found or sold in quantities of ten or twenty pieces. Ten pieces of this ammunition are equivalent in value to a potion of the same rarity {@note ({@table Magic Item Values by Rarity; Magic Item Rarities and Values|XDMG|2,000 GP})}."
 			],
 			"inherits": {
@@ -362,7 +365,8 @@
 				"rarity": "rare",
 				"bonusWeapon": "+2",
 				"entries": [
-					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition.",
+					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG",
@@ -631,7 +635,8 @@
 			],
 			"ammo": true,
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+				"You have a +3 bonus to attack and damage rolls made with this piece of magic ammunition.",
+				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact.",
 				"This ammunition is typically found or sold in quantities of ten or twenty pieces. Ten pieces of this ammunition are equivalent in value to a potion of the same rarity {@note ({@table Magic Item Values by Rarity; Magic Item Rarities and Values|XDMG|20,000 GP})}."
 			],
 			"inherits": {
@@ -643,7 +648,8 @@
 				"rarity": "very rare",
 				"bonusWeapon": "+3",
 				"entries": [
-					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition.",
+					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
 				],
 				"lootTables": [
 					"Armaments - Very Rare|XDMG",
@@ -1121,9 +1127,11 @@
 				"srd52": true,
 				"basicRules2024": true,
 				"rarity": "very rare",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
 				"entries": [
-					"This magic ammunition is meant to slay creatures of a particular type, which the DM chooses or determines randomly by rolling on the table below. If a creature of that type takes damage from the ammunition, the creature makes a {@dc 17} Constitution saving throw, taking an extra {@damage 6d10} Force damage on a failed save or half as much extra damage on a successful one.",
-					"After dealing its extra damage to a creature, the ammunition becomes nonmagical.",
+					"This magic ammunition is meant to slay creatures of a particular type, which the DM chooses or determines randomly by rolling on the table below. If a creature of that type takes damage from the ammunition, the creature makes a {@dc 17} Constitution saving throw, taking an extra {@damage 6d10} Force damage on a failed save or half as much extra damage on a successful one. Once this piece of ammunition deals its extra damage, it cannot be used as a magical piece of ammunition until the following dawn.",
+					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact.",
 					{
 						"type": "table",
 						"colStyles": [
@@ -2632,8 +2640,33 @@
 				"source": "BMT",
 				"page": 66,
 				"rarity": "very rare",
+				"reprintedAs": [
+					"Bloodseeker Ammunition|XDMG"
+				],
 				"entries": [
 					"Ranged attack rolls made with this ammunition have advantage against any creature that doesn't have all its hit points."
+				]
+			}
+		},
+		{
+			"name": "Bloodseeker Ammunition",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "A|XPHB"
+				},
+				{
+					"type": "AF|XDMG"
+				}
+			],
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "Bloodseeker ",
+				"source": "XDMG",
+				"page": 237,
+				"rarity": "very rare",
+				"entries": [
+					"Ranged attack rolls made with this ammunition have {@variantrule Advantage|XPHB} against any creature that doesn't have all its {@variantrule Hit Points|XPHB}."
 				]
 			}
 		},
@@ -3224,8 +3257,11 @@
 				"source": "AU",
 				"page": 118,
 				"rarity": "uncommon",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
 				"entries": [
-					"When a target takes damage from this magical piece of ammunition, any ongoing spell of level 3 or lower on the target ends. Once it deals damage to a target, the ammunition is no longer magical."
+					"When a target takes damage from this magical piece of ammunition, any ongoing spell of level 3 or lower on the target ends. Once this ammunition dispells a spell, it cannot be used as a piece of magical ammunition until the following dawn.",
+					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
 				]
 			}
 		},
@@ -4714,8 +4750,11 @@
 				"source": "AU",
 				"page": 119,
 				"rarity": "uncommon",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
 				"entries": [
-					"If this piece of magic ammunition hits a creature and deals damage, the target makes a {@dc 13} Charisma saving throw. On a failed save, the target can't take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn, as it sputters and rages impotently. Once it hits a target, the ammunition is no longer magical."
+					"If this piece of magic ammunition hits a creature and deals damage, the target makes a {@dc 13} Charisma saving throw. On a failed save, the target can't take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn, as it sputters and rages impotently. After this piece impacts a target's reaction, it cannot be used as a piece of magical ammunition until the following dawn.",
+					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
 				]
 			}
 		},

@@ -60816,9 +60816,12 @@
 			"type": "A",
 			"rarity": "very rare",
 			"bonusWeapon": "+2",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
 			"entries": [
 				"The sling bullets come in a pouch, which contains {@dice 1d4 + 4} bullets. Roll on the Magic Sling Bullets table for each bullet to determine its magical property.",
-				"You have a +2 bonus to attack and damage rolls made with each of these bullets. If a bullet misses its target, the bullet teleports back into the pouch. Once a bullet hits a target, the bullet loses its magic.",
+				"You have a +2 bonus to attack and damage rolls made with each of these bullets. If a bullet misses its target, the bullet teleports back into the pouch. On a hit, that piece of ammunition cannot be used until dawn.",
+				"This magical Sling Bullet is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact.",
 				{
 					"type": "table",
 					"caption": "Magic Sling Bullets",
