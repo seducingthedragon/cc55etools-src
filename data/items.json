@@ -161,7 +161,8 @@
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
 			"entries": [
-				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +1 bonus to attack and damage rolls, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells."
+				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +1 bonus to attack and damage rolls, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells.",
+				"During the minute after combat or anytime after firing ammunition from a ranged weapon, you can use a {@action Magic Action|XPHB} to summon all of your expended ammunition back to you within 60 feet."
 			],
 			"lootTables": [
 				"Armanents - Uncommon|XDMG"
@@ -609,7 +610,8 @@
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
 			"entries": [
-				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +2 bonus to attack and damage rolls, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells."
+				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +2 bonus to attack and damage rolls, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells.",
+				"During the minute after combat or anytime after firing ammunition from a ranged weapon, you can use a {@action Magic Action|XPHB} to summon all of your expended ammunition back to you within 60 feet."
 			],
 			"lootTables": [
 				"Armanents - Rare|XDMG"
@@ -1043,7 +1045,8 @@
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
 			"entries": [
-				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +3 bonus to attack and damage rolls, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells."
+				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +3 bonus to attack and damage rolls, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells.",
+				"During the minute after combat or anytime after firing ammunition from a ranged weapon, you can use a {@action Magic Action|XPHB} to summon all of your expended ammunition back to you within 60 feet."
 			],
 			"lootTables": [
 				"Armanents - Very Rare|XDMG"
@@ -9029,7 +9032,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While wearing these boots, you can have them leave tracks like those of any kind of Humanoid of your size."
+				"While wearing these boots, you can have them leave tracks like those of any kind of barefooted Humanoid of your size."
 			],
 			"lootTables": [
 				"Implements - Common|XDMG"
@@ -21864,6 +21867,9 @@
 			"name": "Earring of Message",
 			"source": "CRCotN",
 			"page": 212,
+			"reprintedAs": [
+				"Earring of Message|XDMG"
+			],
 			"rarity": "common",
 			"wondrous": true,
 			"recharge": "dawn",
@@ -21880,6 +21886,26 @@
 				}
 			},
 			"hasFluffImages": true
+		},
+		{
+			"name": "Earring of Message",
+			"source": "XDMG",
+			"page": 256,
+			"rarity": "common",
+			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4 + 1}",
+			"charges": 5,
+			"entries": [
+				"This copper-wrapped earring has 5 charges. While wearing it, you can use a {@action Magic Action|XPHB} to expend 1 charge and cast the {@spell Message|XPHB} spell. The earring regains {@dice 1d4 + 1} expended charges daily at dawn."
+			],
+			"attachedSpells": {
+				"charges": {
+					"1": [
+						"message|xphb"
+					]
+				}
+			}
 		},
 		{
 			"name": "Earworm",
@@ -58890,6 +58916,17 @@
 			"value": 750000
 		},
 		{
+			"name": "Shadow Ink",
+			"source": "XDMG",
+			"page": 305,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Once penned, this special ink can only be seen and read in total {@variantrule Darkness|XPHB}. While in {@variantrule Darkness|XPHB}, any written or tattooed words, illustrations, or other marks made with the ink glow with a soft, colored light. One bottle of Shadow Ink provides enough ink to fill 50 pages with writing, illustrations, or other such markings.",
+				"A {@spell Detect Magic|XPHB} spell reveals only that there is something faintly magical about the area where this ink has been used, but it doesn't reveal the kind of magic or how to interact with it."
+			]
+		},
+		{
 			"name": "Shadowfell Brand Tattoo",
 			"source": "TCE",
 			"page": 134,
@@ -68533,6 +68570,9 @@
 			"name": "Tankard of Plenty",
 			"source": "HotDQ",
 			"page": 74,
+			"reprintedAs": [
+				"Tankard of Plenty|XDMG"
+			],
 			"otherSources": [
 				{
 					"source": "ToD",
@@ -68547,6 +68587,19 @@
 			"entries": [
 				"This golden stein is decorated with dancing dwarves and grain patterns.",
 				"Speaking the command word (\"Illefarn\") while grasping the handle fills the tankard with three pints of rich dwarven ale. This power can be used up to three times per day."
+			]
+		},
+		{
+			"name": "Tankard of Plenty",
+			"source": "XDMG",
+			"page": 315,
+			"rarity": "common",
+			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": 3,
+			"entries": [
+				"This golden stein is decorated with dancing dwarves and grain patterns.",
+				"When you make a {@action Magic Action|XPHB} to speak the command word while grasping the handle, the tankard fills with three pints of rich dwarven ale. This tankard has three charges and regains all expended charges at dawn."
 			]
 		},
 		{

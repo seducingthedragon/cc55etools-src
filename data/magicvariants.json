@@ -2824,7 +2824,34 @@
 				"page": 246,
 				"rarity": "rare",
 				"entries": [
-					"This ammunition is made of Cold Iron. Whenever this weapon hits a Fey creature, the target must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 15}). On a failed save, the target is {@condition Poisoned|XPHB} and takes bonus damage equal to {@damage 2d6} Poison damage. On a success, the target takes half the damage amount only."
+					"This ammunition is made of Cold Iron, a magical material that is poisonous to Fey creatures. Whenever this weapon hits a Fey creature, the target must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 15}). On a failed save, the target is {@condition Poisoned|XPHB} and takes bonus damage equal to {@damage 2d6} Poison damage. On a success, the target takes half the damage amount only."
+				],
+				"lootTables": [
+					"Armaments - Rare|XDMG"
+				]
+			}
+		},
+		{
+			"name": "Cold Iron Armor",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "MA|XPHB"
+				},
+				{
+					"type": "HA|XPHB"
+				}
+			],
+			"excludes": {
+				"name": "Hide Armor"
+			},
+			"inherits": {
+				"namePrefix": "Cold Iron ",
+				"source": "XDMG",
+				"page": 246,
+				"rarity": "rare",
+				"entries": [
+					"This armor is made of Cold Iron, a magical material that protects the wearer against fey magic. While wearing it, you have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against the spells and other magical effects of fey creatures, as well as planar effects caused by the Feywild. Additionally, if you are targetted with an {@variantrule Unarmed Attack|XPHB} by a Fey creature, the attacker must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 15}) if their bareskin touches your armor. On a failed save, the attacker takes {@damage 1d6} Poison damage."
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG"
@@ -2851,7 +2878,7 @@
 				"page": 246,
 				"rarity": "rare",
 				"entries": [
-					"This weapon is made of Cold Iron. Whenever this weapon hits a Fey creature, the target must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 15}). On a failed save, the target is {@condition Poisoned|XPHB} and takes bonus damage equal to {@damage 2d6} Poison damage. On a success, the target takes half the damage amount only."
+					"This weapon is made of Cold Iron, a magical material that is poisonous to Fey creatures. Whenever this weapon hits a Fey creature, the target must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 15}). On a failed save, the target is {@condition Poisoned|XPHB} and takes bonus damage equal to {@damage 2d6} Poison damage. On a success, the target takes half the damage amount only."
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG"
@@ -6596,6 +6623,31 @@
 				]
 			},
 			"hasFluffImages": true
+		},
+		{
+			"name": "Shields of Corvids",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "S|XPHB"
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Corvids",
+				"source": "XDMG",
+				"page": 303,
+				"rarity": "uncommon",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"entries": [
+					"While holding this shield, you can speak its command work to summon a {@creature Swarm of Ravens|XMM} as a {@action Magic Action|XPHB}. For up to 12 hours, these birds will scout terrain, warn you of enemies, and keep watch while you sleep. They do not engage in combat on your behalf and flee if attacked or threatened. After the duration, the shield cannot summon another swarm until the next day.",
+					"In addition, while holding the shield, you gain the ability to speak with crows, ravens, and other corvids."
+				],
+				"lootTables": [
+					"Armaments - Uncommon|XDMG",
+					"Implements - Uncommon|XDMG"
+				]
+			}
 		},
 		{
 			"name": "Silvered Ammunition",
