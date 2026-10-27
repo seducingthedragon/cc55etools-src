@@ -8756,6 +8756,13 @@
 			]
 		},
 		{
+			"name": "Piercing Sai",
+			"source": "XPHB",
+			"entries": [
+				"{@i A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong (the monouchi) as the longest and most significant part of the weapon. This central prong determines the difference between a Piercing and a Punching Sai. A Piercing Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Punching Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers.}"
+			]
+		},
+		{
 			"name": "Pike",
 			"source": "XPHB",
 			"_copy": {
@@ -9312,6 +9319,14 @@
 			"entries": [
 				"{@i With a blade as wide as a sword, yet as long as a dagger, this weapon is affixed to a base with a handle that when held, lays the blade in a way that appears as if it were jetting out of ones knuckles. It is also known as a Katar.}"
 			]
+		},
+		{
+			"name": "Punching Sai",
+			"source": "XPHB",
+			"_copy": {
+				"name": "Piercing Sai",
+				"source": "XPHB"
+			}
 		},
 		{
 			"name": "Puzzle Card",
@@ -10899,21 +10914,6 @@
 					"height": 1552
 				}
 			]
-		},
-		{
-			"name": "Sai (Bladed)",
-			"source": "XPHB",
-			"entries": [
-				"{@i A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong (the monouchi) as the longest and most significant part of the weapon. This central prong determines the difference between a Bladed and a Blunted Sai. A Bladed Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Blunted Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers.}"
-			]
-		},
-		{
-			"name": "Sai (Blunted)",
-			"source": "XPHB",
-			"_copy": {
-				"name": "Sai (Bladed)",
-				"source": "XPHB"
-			}
 		},
 		{
 			"name": "Saint Markovia's Thighbone",

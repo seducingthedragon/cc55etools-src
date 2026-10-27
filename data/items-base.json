@@ -1700,8 +1700,8 @@
 			"property": [
 				"F|XPHB",
 				"L|XPHB",
-				"T|XPHB",
-				"S|XPHB"
+				"MD|XPHB",
+				"T|XPHB"
 			],
 			"mastery": [
 				"Slow|XPHB",
@@ -1709,17 +1709,9 @@
 			],
 			"dmg1": "1d6",
 			"dmgType": "S",
+			"reload": 2,
 			"range": "80/320",
 			"weapon": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Special: Multi-Draw",
-					"entries": [
-						"Due to its flat form, when you draw a Chakram as part of your {@action Attack|XPHB} action, you can draw two Chakrams on one draw, while attacking with one weapon per {@action Attack|XPHB}."
-					]
-				}
-			],
 			"hasFluff": true
 		},
 		{
@@ -1737,8 +1729,8 @@
 				"C|XPHB",
 				"F|XPHB",
 				"L|XPHB",
-				"T|XPHB",
-				"S|XPHB"
+				"MD|XPHB",
+				"T|XPHB"
 			],
 			"mastery": [
 				"Barrage|XPHB",
@@ -1747,16 +1739,8 @@
 			"dmg1": "1d4",
 			"dmgType": "S",
 			"range": "40/160",
+			"reload": 3,
 			"weapon": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Special: Multi-Draw",
-					"entries": [
-						"Due to its flat form, when you draw a Chakri as part of your {@action Attack|XPHB} action, you can draw three Chakris on one draw, while attacking with one weapon per {@action Attack|XPHB}."
-					]
-				}
-			],
 			"hasFluff": true
 		},
 		{
@@ -1967,8 +1951,8 @@
 			"property": [
 				"A|XPHB",
 				"H|XPHB",
-				"2H|XPHB",
-				"S|XPHB"
+				"SB|XPHB",
+				"2H|XPHB"
 			],
 			"mastery": [
 				"Pin|XPHB",
@@ -1981,15 +1965,6 @@
 			"bow": true,
 			"weapon": true,
 			"ammoType": "arrow|xphb",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Special: Strongbow",
-					"entries": [
-						"This is a Strongbow, meaning that it uses Strength as its Attack and Damage ability, even though it is a Ranged weapon."
-					]
-				}
-			],
 			"hasFluff": true
 		},
 		{
@@ -4095,8 +4070,8 @@
 				"C|XPHB",
 				"F|XPHB",
 				"L|XPHB",
-				"T|XPHB",
-				"S|XPHB"
+				"MD|XPHB",
+				"T|XPHB"
 			],
 			"mastery": [
 				"Barrage|XPHB",
@@ -4105,17 +4080,9 @@
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"range": "20/60",
+			"reload": 2,
 			"dagger": true,
 			"weapon": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Special: Multi-Draw",
-					"entries": [
-						"Due to its flat form, when you draw a Kunai as part of your {@action Attack|XPHB} action, you can draw two Kunais on one draw, however, while attacking with one weapon per {@action Attack|XPHB}."
-					]
-				}
-			],
 			"hasFluff": true
 		},
 		{
@@ -5544,6 +5511,7 @@
 			"property": [
 				"A|XPHB",
 				"VH|XPHB",
+				"SB|XPHB",
 				"2H|XPHB",
 				"S|XPHB"
 			],
@@ -5558,9 +5526,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Special: Strongbow",
+					"name": "Special: Extremely Strong",
 					"entries": [
-						"This unique ranged weapon uses your Strength modifier for its attack and damage rolls, instead of Dexterity. Additionally, due to its size, it can only be used by Medium or larger creatures. While you need a bare minimum of a 15 for your Strength score to wield this weapon, if your Strength is lower than an 18, the range of for this weapon is reduced by 25 feet per score difference."
+						"Due to its size, it can only be used by Medium or larger creatures. While you need a bare minimum of a 15 for your Strength score to wield this weapon, if your Strength is lower than an 18, the range of for this weapon is reduced by 25 feet per score difference."
 					]
 				}
 			],
@@ -5788,6 +5756,31 @@
 					]
 				}
 			],
+			"hasFluff": true
+		},
+		{
+			"name": "Piercing Sai",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CMnk|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"L|XPHB"
+			],
+			"mastery": [
+				"Disarm|XPHB",
+				"Piercer|XPHB",
+				"Vex|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true,
 			"hasFluff": true
 		},
 		{
@@ -6150,6 +6143,31 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Punching Sai",
+			"source": "XPHB",
+			"page": 215,
+			"edition": "one",
+			"type": "M|XPHB",
+			"typeAlt": "CMnk|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "specialized",
+			"property": [
+				"F|XPHB",
+				"L|XPHB"
+			],
+			"mastery": [
+				"Crush|XPHB",
+				"Disarm|XPHB",
+				"Sap|XPHB"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"hasFluff": true
+		},
+		{
 			"name": "Quarterstaff",
 			"source": "PHB",
 			"page": 149,
@@ -6465,56 +6483,6 @@
 			"entries": [
 				"{@i This arcane focus is a short cylinder with runes and sigils or attaching a focusing crystal to the top.}"
 			]
-		},
-		{
-			"name": "Sai (Bladed)",
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "M|XPHB",
-			"typeAlt": "CMnk|XPHB",
-			"rarity": "none",
-			"weight": 2,
-			"value": 1000,
-			"weaponCategory": "specialized",
-			"property": [
-				"F|XPHB",
-				"L|XPHB"
-			],
-			"mastery": [
-				"Disarm|XPHB",
-				"Piercer|XPHB",
-				"Vex|XPHB"
-			],
-			"dmg1": "1d4",
-			"dmgType": "P",
-			"weapon": true,
-			"hasFluff": true
-		},
-		{
-			"name": "Sai (Blunted)",
-			"source": "XPHB",
-			"page": 215,
-			"edition": "one",
-			"type": "M|XPHB",
-			"typeAlt": "CMnk|XPHB",
-			"rarity": "none",
-			"weight": 2,
-			"value": 500,
-			"weaponCategory": "specialized",
-			"property": [
-				"F|XPHB",
-				"L|XPHB"
-			],
-			"mastery": [
-				"Crush|XPHB",
-				"Disarm|XPHB",
-				"Sap|XPHB"
-			],
-			"dmg1": "1d4",
-			"dmgType": "B",
-			"weapon": true,
-			"hasFluff": true
 		},
 		{
 			"name": "Scale Mail",
@@ -7214,8 +7182,8 @@
 				"C|XPHB",
 				"F|XPHB",
 				"L|XPHB",
-				"T|XPHB",
-				"S|XPHB"
+				"MD|XPHB",
+				"T|XPHB"
 			],
 			"mastery": [
 				"Barrage|XPHB",
@@ -7224,16 +7192,8 @@
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"range": "20/60",
+			"reload": 3,
 			"weapon": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Special: Multi-Draw",
-					"entries": [
-						"Due to its flat form, when you draw a Shuriken as part of your {@action Attack|XPHB} action, you can draw up to three Shurikens on one draw, while attacking with one weapon per {@action Attack|XPHB}."
-					]
-				}
-			],
 			"hasFluff": true
 		},
 		{
@@ -7248,10 +7208,11 @@
 			"value": 1000,
 			"weaponCategory": "specialized",
 			"property": [
+				"C|XPHB",
 				"F|XPHB",
 				"L|XPHB",
-				"T|XPHB",
-				"S|XPHB"
+				"MD|XPHB",
+				"T|XPHB"
 			],
 			"mastery": [
 				"Barrage|XPHB",
@@ -7260,16 +7221,10 @@
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"range": "20/60",
+			"reload": 3,
 			"weapon": true,
 			"entries": [
-				"{@i A single Shuriken is {@itemProperty C|XPHB|Concealable}. Trying to hide a whole pack of Shurikens is not.}",
-				{
-					"type": "entries",
-					"name": "Special: Multi-Draw",
-					"entries": [
-						"Due to its flat form, when you draw a Shuriken as part of your {@action Attack|XPHB} action, you can draw up to three Shurikens on one draw, while attacking with one weapon per {@action Attack|XPHB}."
-					]
-				}
+				"{@i A single Shuriken is {@itemProperty C|XPHB|Concealable}. Trying to hide a whole pack of Shurikens is not.}"
 			],
 			"packContents": [
 				{
@@ -9408,6 +9363,22 @@
 			]
 		},
 		{
+			"abbreviation": "MD",
+			"source": "XPHB",
+			"page": 215,
+			"basicRules2024": true,
+			"template": "{{prop_name}} ({{item.reload}})",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Multi-Draw",
+					"entries": [
+						"A Multi-Draw weapon is a Thrown weapon that is sleak and thin, allowing for multiple weapons of its type to be drawn at once as part of your {@action Attack|XPHB} action. That amount is listed in parentheses next to this property name. For a typical ranged attack, you will still throw one item at a time, making an attack roll for each one."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "O",
 			"source": "XPHB",
 			"page": 215,
@@ -9468,21 +9439,6 @@
 					"name": "Reach",
 					"entries": [
 						"A Reach weapon is a melee weapon that adds 5 feet to your reach when you attack with it. This reach is also used for your {@action Opportunity Attack|XPHB|Opportunity Attacks} with it."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "RLX",
-			"source": "XPHB",
-			"page": 214,
-			"template": "{{prop_name}} ({{item.reload}})",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Reload",
-					"entries": [
-						"A Reload weapon allows you to make a limited number of {@action Attack|XPHB|Attacks} before ammunition must be reloaded. This is often done with mechanized parts that automatically loads another piece of ammunition for you from a secondary storage unit attached to the weapon. Once you make a number of attacks equal to the number listed with this weapon property, you must spend an entire turn in order to refill all ammunition. Reloading a single piece of ammunition takes a {@variantrule Bonus Action|XPHB}."
 					]
 				}
 			]
@@ -9551,6 +9507,21 @@
 			"source": "XPHB",
 			"page": 214,
 			"template": "{{prop_name}}"
+		},
+		{
+			"abbreviation": "SB",
+			"source": "XPHB",
+			"page": 215,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Strongbow",
+					"entries": [
+						"This ranged weapon uses Strength as its Attack and Damage ability, instead of Dexterity. If you choose to use Dexterity at the weapon's ability, then you will make the attack with {@variantrule Disadvantage|XPHB}, dealing half the die size in damage."
+					]
+				}
+			]
 		},
 		{
 			"abbreviation": "SL",

@@ -9229,7 +9229,7 @@
 									"row": [
 										"{@item Oversized Longbow|XPHB}",
 										"{@dice 2d6} Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 240/800; Arrow), {@itemProperty VH|XPHB|Very Heavy}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
+										"{@itemProperty A|XPHB|Ammunition} (Range 240/800; Arrow), {@itemProperty SB|XPHB|Strongbow}, {@itemProperty VH|XPHB|Very Heavy}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
 										"{@itemMastery Dual Shot}, {@itemMastery Pin}, {@itemMastery Sap}",
 										"4 lb.",
 										"50 GP"
@@ -9320,7 +9320,7 @@
 									"row": [
 										"{@item Chakram|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d6} Slashing",
-										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 80/320), Special",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty MD|XPHB|Multi-Draw} (2), {@itemProperty T|XPHB|Thrown} (Range 80/320)",
 										"{@itemMastery Slow}, {@itemMastery Vex}",
 										"1 lb.",
 										"7 GP"
@@ -9332,7 +9332,7 @@
 									"row": [
 										"{@item Chakri|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Slashing",
-										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 40/160), Special",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty MD|XPHB|Multi-Draw} (3), {@itemProperty T|XPHB|Thrown} (Range 40/160)",
 										"{@itemMastery Barrage}, {@itemMastery Vex}",
 										"0.5 lb.",
 										"5 GP"
@@ -9440,7 +9440,7 @@
 									"row": [
 										"{@item Kunai|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Piercing",
-										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty MD|XPHB|Multi-Draw} (2), {@itemProperty T|XPHB|Thrown} (Range 20/60)",
 										"{@itemMastery Barrage}, {@itemMastery Vex}",
 										"0.5 lb.",
 										"5 SP"
@@ -9486,6 +9486,18 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
+										"{@item Piercing Sai|XPHB} {@i Cultural (Monk)}",
+										"{@dice 1d4} Piercing",
+										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
+										"{@itemMastery Disarm}, {@itemMastery Piercer}, {@itemMastery Vex}",
+										"2 lb.",
+										"10 GP"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
 										"{@item Punch Dagger|XPHB}",
 										"{@dice 1d4} Piercing",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty UA|XPHB|\"Unarmed\"}, Special",
@@ -9498,19 +9510,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"{@item Sai (Bladed)|XPHB} {@i Cultural (Monk)}",
-										"{@dice 1d4} Piercing",
-										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
-										"{@itemMastery Disarm}, {@itemMastery Piercer}, {@itemMastery Vex}",
-										"2 lb.",
-										"10 GP"
-									]
-								},
-								{
-									"type": "row",
-									"style": "row-indent-first",
-									"row": [
-										"{@item Sai (Blunted)|XPHB} {@i Cultural (Monk)}",
+										"{@item Punching Sai|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Bludgeoning",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}",
 										"{@itemMastery Crush}, {@itemMastery Disarm}, {@itemMastery Sap}",
@@ -9627,7 +9627,7 @@
 									"row": [
 										"{@item Composite Bow|XPHB}",
 										"{@dice 1d12} Piercing",
-										"{@itemProperty A|XPHB|Ammunition} (Range 250/500; Arrow), {@itemProperty H|XPHB|Heavy}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
+										"{@itemProperty A|XPHB|Ammunition} (Range 250/500; Arrow), {@itemProperty H|XPHB|Heavy}, {@itemProperty SB|XPHB|Strongbow}, {@itemProperty 2H|XPHB|Two-Handed}",
 										"{@itemMastery Pin}, {@itemMastery Sap}, {@itemMastery Stagger}",
 										"8 lb.",
 										"100 GP"
@@ -9663,7 +9663,7 @@
 									"row": [
 										"{@item Shuriken|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Piercing",
-										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty MD|XPHB|Multi-Draw} (3), {@itemProperty T|XPHB|Thrown} (Range 20/60)",
 										"{@itemMastery Barrage}, {@itemMastery Hidden}",
 										"0.25 lb.",
 										"5 SP"
@@ -9675,7 +9675,7 @@
 									"row": [
 										"{@item Shuriken (20)|XPHB} {@i Cultural (Monk)}",
 										"{@dice 1d4} Piercing",
-										"{@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty T|XPHB|Thrown} (Range 20/60), Special",
+										"{@itemProperty C|XPHB|Concealable}, {@itemProperty F|XPHB|Finesse}, {@itemProperty L|XPHB|Light}, {@itemProperty MD|XPHB|Multi-Draw} (3), {@itemProperty T|XPHB|Thrown} (Range 20/60)",
 										"{@itemMastery Barrage}, {@itemMastery Hidden}",
 										"5 lb.",
 										"10 GP"
@@ -9899,6 +9899,15 @@
 								},
 								{
 									"type": "entries",
+									"name": "Strongbow",
+									"page": 215,
+									"id": "67b",
+									"entries": [
+										"This ranged weapon uses Strength as its Attack and Damage ability, instead of Dexterity. If you choose to use Dexterity at the weapon's ability, then you will make the attack with {@variantrule Disadvantage|XPHB}, dealing half the die size in damage."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Thrown",
 									"page": 215,
 									"id": "64a",
@@ -9961,6 +9970,15 @@
 							"id": "660",
 							"entries": [
 								"Seconary Properties are weapon properties that are only applicable when another weapon property is present and they are listed with all weapon properties.",
+								{
+									"type": "entries",
+									"name": "Multi-Draw",
+									"page": 215,
+									"id": "679",
+									"entries": [
+										"A Multi-Draw weapon is a Thrown weapon that is sleak and thin, allowing for multiple weapons of its type to be drawn at once as part of your {@action Attack|XPHB} action. That amount is listed in parentheses next to this property name. For a typical ranged attack, you will still throw one item at a time, making an attack roll for each one."
+									]
+								},
 								{
 									"type": "entries",
 									"name": "Ongoing",
@@ -20461,18 +20479,12 @@
 								{
 									"type": "item",
 									"name": "{@item Chakram|XPHB} {@i Cultural (Monks)}",
-									"entries": [
-										"{@i A Chakram is a bladed disk with a central opening for improved aerodynamics. In its most simplistic form, it is extremely concealable, while providing a longer range for thrown weapons. When thrown, it \"vanishes\" in the air, similarly to a Shuriken, making it nearly impossible to track before it reaches its target.}",
-										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Chakram as part of your {@action Attack|XPHB} action, you can draw two Chakrams on one draw, while attacking with one weapon per {@action Attack|XPHB}."
-									]
+									"entry": "{@i A Chakram is a bladed disk with a central opening for improved aerodynamics. In its most simplistic form, it is extremely concealable, while providing a longer range for thrown weapons. When thrown, it \"vanishes\" in the air, similarly to a Shuriken, making it nearly impossible to track before it reaches its target.}"
 								},
 								{
 									"type": "item",
 									"name": "{@item Chakri|XPHB} {@i Cultural (Monks)}",
-									"entries": [
-										"{@i Chakri is a smaller and lighter version of the Ckakram. Due to its smaller size, its range is reduce but you can draw more Chakri on one draw and potentially wear it on your wrists while remaining unarmed.}",
-										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Chakri as part of your {@action Attack|XPHB} action, you can draw three Chakris on one draw, while attacking with one weapon per {@action Attack|XPHB}."
-									]
+									"entry": "{@i Chakri is a smaller and lighter version of the Ckakram. Due to its smaller size, its range is reduce but you can draw more Chakri on one draw and potentially wear it on your wrists while remaining unarmed.}"
 								},
 								{
 									"type": "item",
@@ -20599,10 +20611,7 @@
 								{
 									"type": "item",
 									"name": "{@item Kunai|XPHB} {@i Cultural (Monks)}",
-									"entries": [
-										"{@i A Kunai is a dagger-like weapon that originated as a multipurpose gardening tool before evolving to its primarily weapon-like form. As a weapon, it has a leaf-shaped wrought blade, lacks a cross-guard, with a grip often wrapped in rope, and an O-Ring styled pommel whose diameter is wider than the grip. While it is commonly perceived as a ranged weapon, like a dart, those proficient with this weapon understands its melee purpose.}",
-										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Kunai as part of your {@action Attack|XPHB} action, you can draw two Kunais on one draw, while attacking with one weapon per {@action Attack|XPHB}."
-									]
+									"entry": "{@i A Kunai is a dagger-like weapon that originated as a multipurpose gardening tool before evolving to its primarily weapon-like form. As a weapon, it has a leaf-shaped wrought blade, lacks a cross-guard, with a grip often wrapped in rope, and an O-Ring styled pommel whose diameter is wider than the grip. While it is commonly perceived as a ranged weapon, like a dart, those proficient with this weapon understands its melee purpose.}"
 								},
 								{
 									"type": "item",
@@ -20664,7 +20673,7 @@
 								{
 									"type": "item",
 									"name": "{@item Oversized Longbow|XPHB}",
-									"entry": "{@b {@i Special: Strongbow.}} This unique ranged weapon uses your Strength modifier for its attack and damage rolls, instead of Dexterity. Additionally, due to its size, it can only be used by Medium or larger creatures. While you need a bare minimum of a 15 for your Strength score to wield this weapon, if your Strength is lower than an 18, the range of for this weapon is reduced by 25 feet per score difference."
+									"entry": "{@b {@i Special: Extremely Strong.}} Due to its size, it can only be used by Medium or larger creatures. While you need a bare minimum of a 15 for your Strength score to wield this weapon, if your Strength is lower than an 18, the range of for this weapon is reduced by 25 feet per score difference."
 								},
 								{
 									"type": "item",
@@ -20697,8 +20706,8 @@
 								},
 								{
 									"type": "item",
-									"name": "Sai ({@item Sai (Bladed)|XPHB|Bladed} or {@item Sai (Blunted)|XPHB|Blunted}) {@i Cultural (Monks)}",
-									"entry": "{@i A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong (the monouchi) as the longest and most significant part of the weapon. This central prong determines the difference between a Bladed and a Blunted Sai. A Bladed Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Blunted Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers.}"
+									"name": "Sai ({@item Piercing Sai|XPHB|Bladed} and {@item Punching Sai|XPHB|Blunted}) {@i Cultural (Monks)}",
+									"entry": "{@i A Sai is a light weapon that appears as if it were a small trident with three prongs, with the central prong (the monouchi) as the longest and most significant part of the weapon. This central prong determines the difference between a Piercing and a Punching Sai. A Piercing Sai will have its central prong with a sharp point and is designed for offensive piercing maneuvers. A Punching Sai will have its central prong with a blunted round point and is designed for defensive disarming maneuvers.}"
 								},
 								{
 									"type": "item",
@@ -20731,8 +20740,7 @@
 									"name": "{@item Shuriken|XPHB} (Single or 20) {@i Cultural (Monks)}",
 									"entries": [
 										"{@i A Shuriken is a flat throwing blade with 2 to 8 sharp points, each one with an equal distance from the weapon's center, where the wielder holds it with a pinch grip. Due to its expendable nature, it is often sold is packs but can be purchased individually. Lodging a group of shurikens in the ground can also act as {@item Caltrops|XPHB}.}",
-										"{@i A single Shuriken is {@itemProperty C|XPHB|Concealable}. Trying to hide a whole pack of Shurikens is not.}",
-										"{@b {@i Special: Multi-Draw.}} Due to its flat form, when you draw a Shuriken as part of your {@action Attack|XPHB} action, you can draw up to three Shurikens on one draw, while attacking with one weapon per {@action Attack|XPHB}."
+										"{@i A single Shuriken is {@itemProperty C|XPHB|Concealable}. Trying to hide a whole pack of Shurikens is not.}"
 									]
 								},
 								{
