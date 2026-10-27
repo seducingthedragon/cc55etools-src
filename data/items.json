@@ -23527,6 +23527,16 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Erasable Quill",
+			"source": "XDMG",
+			"page": 259,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"Any nonmagical markings written or drawn with this quill can be completely erased by brushing them away with its feather."
+			]
+		},
+		{
 			"name": "Ersatz Eye",
 			"source": "XDMG",
 			"page": 259,
@@ -51115,6 +51125,43 @@
 			}
 		},
 		{
+			"name": "Quill of the Dead",
+			"source": "XDMG",
+			"page": 291,
+			"rarity": "rare",
+			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"entries": [
+				"This quill is made with a black feather from a crow or raven. When you place a piece of {@item Parchment|XPHB} over a gravestone or a corpse, you can use a {@action Magic Action|XPHB} to speak its command word, casting {@spell Speak with Dead|XPHB}. When you cast this spell in this way, the spell is altered in the following ways.",
+				{
+					"type": "list",
+					"items": [
+						"You can only ask 3 questions, instead of 5.",
+						"There is no limit on how long the corpse has been dead, as long as there are still physical remenants of their previous body remaining"
+					]
+				},
+				"When you write down a question with this quill, the quill will fly out of your hand to write down the corpse's response on the same sheet of {@item Parchment|XPHB}. Once used, this property of the quill can't be used again until the next dawn."
+			],
+			"attachedSpells": {
+				"daily": {
+					"1e": [
+						"speak with dead|xphb"
+					]
+				}
+			}
+		},
+		{
+			"name": "Quill of Studiousness",
+			"source": "XDMG",
+			"page": 291,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This quill produces its own ink and never runs out, no mater how much this quill has written."
+			]
+		},
+		{
 			"name": "Quiver",
 			"source": "PHB",
 			"page": 153,
@@ -60545,6 +60592,16 @@
 			}
 		},
 		{
+			"name": "Sketchy Quill",
+			"source": "XDMG",
+			"page": 305,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"As a {@variantrule Magic Action|XPHB}, you can speak a command word to activate this quill. It will sketch whatever you describe, producing an endless supply of ink to do so. It is quick and fairly skilled, but can't compare to a practiced artist."
+			]
+		},
+		{
 			"name": "Skull Card",
 			"source": "BMT",
 			"page": 15,
@@ -61582,6 +61639,16 @@
 					]
 				},
 				"Whenever you roll a 1 on an attack roll using this weapon, the weapon bends or flies to hit you in the back. Make a new attack roll with advantage against your own AC. If the result is a hit, you take damage as if you had attacked yourself with the spear."
+			]
+		},
+		{
+			"name": "Speedy Quill",
+			"source": "XDMG",
+			"page": 305,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"The feather adorning this quill was a gift from either a mighty pegasus, griffon, or other magically fast feathery creature, and has a beautiful, pearlescent shimmer. When you write with this magic quill, the time it takes for you to write something, such as copying a spell into a spellbook or creating a spell scroll, is halved."
 			]
 		},
 		{
