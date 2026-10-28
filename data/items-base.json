@@ -694,6 +694,7 @@
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"dmg2": "1d8",
+			"club": true,
 			"weapon": true,
 			"hasFluff": true
 		},
@@ -843,6 +844,7 @@
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"range": "100/400",
+			"club": true,
 			"weapon": true,
 			"entries": [
 				{
@@ -857,6 +859,9 @@
 		},
 		{
 			"name": "Brass Knuckles",
+			"alias": [
+				"Knuckle Busters"
+			],
 			"source": "XPHB",
 			"page": 215,
 			"edition": "one",
@@ -1083,7 +1088,7 @@
 			"value": 1500,
 			"ac": 1,
 			"entries": [
-				"A Buckler does not benefit from the {@feat Shield Master|XPHB} feat."
+				"{@i Due to its size, a Buckler does not benefit from the {@feat Shield Master|XPHB} feat.}"
 			],
 			"hasFluff": true
 		},
@@ -1565,7 +1570,7 @@
 			"dmg1": "1d6",
 			"dmgType": "P",
 			"dmg2": "1d8",
-			"sword": true,
+			"rapier": true,
 			"weapon": true,
 			"entries": [
 				"{@i commonly known as a Dwarven Estoc.}",
@@ -2762,6 +2767,7 @@
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
+			"glaive": true,
 			"polearm": true,
 			"weapon": true,
 			"hasFluff": true,
@@ -3253,6 +3259,7 @@
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
+			"halberd": true,
 			"polearm": true,
 			"weapon": true,
 			"hasFluff": true,
@@ -3647,6 +3654,7 @@
 			],
 			"dmg1": "1d4",
 			"dmgType": "P",
+			"spear": true,
 			"weapon": true,
 			"entries": [
 				"On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall {@condition prone}. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus."
@@ -3712,6 +3720,7 @@
 			"dmg1": "1d6",
 			"dmgType": "P",
 			"dmg2": "1d4 Bludgeoning",
+			"spear": true,
 			"weapon": true,
 			"ammoType": "sling bullets|xphb",
 			"entries": [
@@ -3888,6 +3897,7 @@
 			"dmg1": "1d6",
 			"dmgType": "P",
 			"spear": true,
+			"polearm": true,
 			"weapon": true,
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -4116,6 +4126,7 @@
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
+			"glaive": true,
 			"polearm": true,
 			"weapon": true,
 			"entries": [
@@ -4184,6 +4195,7 @@
 			"dmg1": "1d10",
 			"dmgType": "P",
 			"lance": true,
+			"polearm": true,
 			"weapon": true,
 			"entries": [
 				"A Lance requires two hands to wield when you aren't mounted."
@@ -5835,6 +5847,7 @@
 			],
 			"dmg1": "1d10",
 			"dmgType": "P",
+			"polearm": true,
 			"weapon": true,
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -6221,6 +6234,7 @@
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"dmg2": "1d8",
+			"polearm": true,
 			"weapon": true,
 			"entries": [
 				{
@@ -6666,6 +6680,7 @@
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
+			"whip": true,
 			"weapon": true,
 			"entries": [
 				"{@i Each Seladrin Chain is approximately 15 feet long and sold in pairs. These chains can be wielded as two light weapons or a single chain can be wielded as a two-handed weapon.}",
@@ -6722,6 +6737,7 @@
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
+			"whip": true,
 			"weapon": true,
 			"entries": [
 				"{@i Each Seladrin Chain is approximately 15 feet long and sold in pairs. These chains can be wielded as two light weapons or a single chain can be wielded as a two-handed weapon.}",
@@ -6778,6 +6794,7 @@
 			],
 			"dmg1": "1d6",
 			"dmgType": "P",
+			"whip": true,
 			"weapon": true,
 			"entries": [
 				"{@i Each Seladrin Chain is approximately 15 feet long and sold in pairs. These chains can be wielded as two light weapons or a single chain can be wielded as a two-handed weapon.}",
@@ -6834,6 +6851,7 @@
 			],
 			"dmg1": "1d8",
 			"dmgType": "S",
+			"whip": true,
 			"weapon": true,
 			"entries": [
 				"{@i Each Seladrin Chain is approximately 15 feet long and sold in pairs. These chains can be wielded as two light weapons or a single chain can be wielded as a two-handed weapon.}",
@@ -6983,7 +7001,7 @@
 			"value": 1000,
 			"ac": 2,
 			"entries": [
-				"{@i A one-handed protective device, this flat or curved plane covers a portion of the body and is actively wielded for blocking attacks. A standard Shield is not large enough to grant {@variantrule Cover|XPHB|Half Cover}, however, there are other types of shields that can.}"
+				"{@i A Shield is a one-handed protective device, this flat or curved plane covers a portion of the body and is actively wielded for blocking attacks.}"
 			],
 			"hasFluffImages": true
 		},
@@ -8242,6 +8260,8 @@
 			"dmg1": "1d8",
 			"dmgType": "P",
 			"dmg2": "1d10",
+			"spear": true,
+			"polearm": true,
 			"weapon": true,
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -8706,6 +8726,7 @@
 			],
 			"dmg1": "1d4",
 			"dmgType": "S",
+			"whip": true,
 			"weapon": true,
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -10817,13 +10838,6 @@
 			]
 		},
 		{
-			"name": "Magical Ammunition",
-			"source": "XDMG",
-			"entriesTemplate": [
-				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
-			]
-		},
-		{
 			"name": "Potion of Resistance",
 			"source": "DMG",
 			"entriesTemplate": [
@@ -10866,7 +10880,7 @@
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Maneuver.} As an {@variantrule Action|XPHB}, use this weapon's Multi-Draw and throw them all drawn weapons at once. Choose one target in range to get hit by all three or throw in a 15-foot cone area. The target, or targets, must make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and attack modifier) or take {@damage 4d4} weapon damage plus your attack modifier, disperse between all targets. If you choose one target and they make the save, they take half damage. If you choose the 15-foot cone and a target makes the save, they do not take any damage."
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, use this weapon's Multi-Draw and throw them all drawn weapons at once. Choose one target in range to get hit by all three or throw in a 15-foot cone area. The target, or targets, must make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} and attack modifier) or take {@damage 4d4} weapon damage plus your attack modifier, disperse between all targets. If you choose one target and they make the save, they take half damage. If you choose the 15-foot cone and a target makes the save, they do not take any damage."
 			]
 		},
 		{
@@ -10874,7 +10888,7 @@
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Buff.} This weapon makes a {@variantrule Critical Hit|XPHB} on a roll of 19 or 20. When this weapon {@variantrule Critical Hit|XPHB|Crits}, you cause the wound to constantly bleed out. At the start of each of its turn, it takes the weapon damage type equal to your {@variantrule Proficiency Bonus|XPHB} until the target is healed ({@variantrule Temporary Hit Points|XPHB|Temp HP} not included) or it uses its Action to make a {@dc 12} Wisdom ({@skill Medicine}) check."
+				"{@i Buff.} This weapon makes a {@variantrule Critical Hit|XPHB} on a roll of 19 or 20. When this weapon {@variantrule Critical Hit|XPHB|Crits}, you cause the wound to constantly bleed out. At the start of each of its turn, it takes the weapon damage type equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} until the target is healed ({@variantrule Temporary Hit Points|XPHB|Temp HP} not included) or it uses its Action to make a {@dc 12} Wisdom ({@skill Medicine}) check."
 			]
 		},
 		{
@@ -10898,7 +10912,7 @@
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can force all adjacent creatures to make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your weapon's Ability modifier). On a failed save, a target takes the weapon's damage plus your {@variantrule Proficiency Bonus|XPHB} and attack modifier. On a save, a target takes half damage."
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can force all adjacent creatures to make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} and your weapon's Ability modifier). On a failed save, a target takes the weapon's damage plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} and attack modifier. On a save, a target takes half damage."
 			]
 		},
 		{
@@ -10934,7 +10948,7 @@
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Maneuver.} Once per turn, when you hit a target with this weapon and deal damage, you can force the target to make a Constitution {@variantrule Saving Throw|XPHB} or become {@condition Incapacitated|XPHB} until the end of their next turn ({@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your attack modifier)."
+				"{@i Maneuver.} Once per turn, when you hit a target with this weapon and deal damage, you can force the target to make a Constitution {@variantrule Saving Throw|XPHB} or become {@condition Incapacitated|XPHB} until the end of their next turn ({@dc 8} plus {@variantrule Proficiency|XPHB|Proficiency Bonus} and your attack modifier)."
 			]
 		},
 		{
@@ -10944,7 +10958,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"{@i Maneuver.} Similarly to {@itemMastery Block|XPHB}, when a creature attacks you with a weapon, you can use your {@variantrule Reaction|XPHB} to \"catch\" and disarm your opponent. Make a {@variantrule Weapon Attack|XPHB} roll with this weapon. If your attack meets or exceeds your opponent's attack, their attack misses and must succeed on a Strength {@variantrule Saving Throw|XPHB} or drop their weapon. The DC is {@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your Attack modifier."
+				"{@i Maneuver.} Similarly to {@itemMastery Block|XPHB}, when a creature attacks you with a weapon, you can use your {@variantrule Reaction|XPHB} to \"catch\" and disarm your opponent. Make a {@variantrule Weapon Attack|XPHB} roll with this weapon. If your attack meets or exceeds your opponent's attack, their attack misses and must succeed on a Strength {@variantrule Saving Throw|XPHB} or drop their weapon. The DC is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} and your Attack modifier."
 			]
 		},
 		{
@@ -10970,7 +10984,7 @@
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Maneuver.} When you use this weapon for an {@action Opportunity Attack|XPHB} and the weapon hits, you can force the target to make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your attack modifier). On a failed save, the target is {@condition Grappled|XPHB} however you do not deal damage. On a save, you deal normal weapon damage only."
+				"{@i Maneuver.} When you use this weapon for an {@action Opportunity Attack|XPHB} and the weapon hits, you can force the target to make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} and your attack modifier). On a failed save, the target is {@condition Grappled|XPHB} however you do not deal damage. On a save, you deal normal weapon damage only."
 			]
 		},
 		{
@@ -11020,7 +11034,7 @@
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Buff.} When targeting a creature wearing Medium or Heavy metal armor, their {@variantrule Armor Class|XPHB} is reduced by half of your {@variantrule Proficiency Bonus|XPHB} (round down) when you target them with this weapon for an attack roll. This does not work on magical armor, unless this weapon is also magical."
+				"{@i Buff.} When targeting a creature wearing Medium or Heavy metal armor, their {@variantrule Armor Class|XPHB} is reduced by half of your {@variantrule Proficiency|XPHB|Proficiency Bonus} (round down) when you target them with this weapon for an attack roll. This does not work on magical armor, unless this weapon is also magical."
 			]
 		},
 		{
@@ -11030,7 +11044,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"entries": [
-				"{@i Maneuver.} When you make an attack roll with this weapon and hit a Large or smaller creature, you can attempt to pin them to a nearby (5 feet) surface. On a hit, the target must make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice), The DC is {@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your Attack Modifier. On a failed save, the target is pinned, via {@condition Restrained|XPHB} condition, until the weapon, or ammunition, is removed. The target can use an {@variantrule Action|XPHB} on their turn to attempt to remove the weapon."
+				"{@i Maneuver.} When you make an attack roll with this weapon and hit a Large or smaller creature, you can attempt to pin them to a nearby (5 feet) surface. On a hit, the target must make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice), The DC is {@dc 8} plus {@variantrule Proficiency|XPHB|Proficiency Bonus} and your Attack Modifier. On a failed save, the target is pinned, via {@condition Restrained|XPHB} condition, until the weapon, or ammunition, is removed. The target can use an {@variantrule Action|XPHB} on their turn to attempt to remove the weapon."
 			]
 		},
 		{
@@ -11064,7 +11078,7 @@
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Maneuver.} After you have used your {@variantrule Action|XPHB} to make attacks with this weapon, you can use your {@variantrule Bonus Action|XPHB} to rapidly reload this weapon and make another attack, targeting a creature within range, risking accuracy. You make this attack with {@variantrule Disadvantage|XPHB} but gain a bonus to your damage roll equal to your {@variantrule Proficiency Bonus|XPHB} on a hit."
+				"{@i Maneuver.} After you have used your {@variantrule Action|XPHB} to make attacks with this weapon, you can use your {@variantrule Bonus Action|XPHB} to rapidly reload this weapon and make another attack, targeting a creature within range, risking accuracy. You make this attack with {@variantrule Disadvantage|XPHB} but gain a bonus to your damage roll equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} on a hit."
 			]
 		},
 		{
@@ -11124,7 +11138,7 @@
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make a single ranged weapon attack. On a hit, the targt takes full weapon damage and must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your attack modifier). On a failed save, the target's speed is reduced to 0 until the end of its turn."
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make a single ranged weapon attack. On a hit, the targt takes full weapon damage and must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} and your attack modifier). On a failed save, the target's speed is reduced to 0 until the end of its turn."
 			]
 		},
 		{
@@ -11166,7 +11180,7 @@
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Buff.} When you hit a creature with this weapon, you can \"twist\" the weapon as part of your attack. The creature must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and attack modifier) or you add one additional damage dice to the damage total."
+				"{@i Buff.} When you hit a creature with this weapon, you can \"twist\" the weapon as part of your attack. The creature must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} and attack modifier) or you add one additional damage dice to the damage total."
 			]
 		},
 		{
@@ -11174,7 +11188,7 @@
 			"source": "XPHB",
 			"page": 216,
 			"entries": [
-				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make a single attack against a target carrying a shield or similar defensive tool. This attack ignores any bonus to AC granted by the shield, dealing normal weapon damage on a hit. On a hit, the target must also make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (their choice) against a {@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your attack modifier. On a failed save, the shield is pulled from its grip and landing on the ground."
+				"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can make a single attack against a target carrying a shield or similar defensive tool. This attack ignores any bonus to AC granted by the shield, dealing normal weapon damage on a hit. On a hit, the target must also make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (their choice) against a {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} and your attack modifier. On a failed save, the shield is pulled from its grip and landing on the ground."
 			]
 		},
 		{

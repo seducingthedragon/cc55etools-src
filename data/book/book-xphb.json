@@ -10032,7 +10032,7 @@
 									"page": 216,
 									"id": "66c",
 									"entries": [
-										"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can force all adjacent creatures to make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your weapon's Ability modifier). On a failed save, a target takes the weapon's damage plus your {@variantrule Proficiency Bonus|XPHB} and attack modifier. On a save, a target takes half damage."
+										"{@i Maneuver.} As an {@variantrule Action|XPHB}, you can force all adjacent creatures to make a Dexterity {@variantrule Saving Throw|XPHB} ({@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} and your weapon's Ability modifier). On a failed save, a target takes the weapon's damage plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} and attack modifier. On a save, a target takes half damage."
 									]
 								},
 								{
@@ -10059,7 +10059,7 @@
 									"page": 216,
 									"id": "672",
 									"entries": [
-										"{@i Maneuver.} Once per turn, when you hit a target with this weapon and deal damage, you can force the target to make a Constitution {@variantrule Saving Throw|XPHB} or become {@condition Incapacitated|XPHB} until the end of their next turn ({@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your attack modifier)."
+										"{@i Maneuver.} Once per turn, when you hit a target with this weapon and deal damage, you can force the target to make a Constitution {@variantrule Saving Throw|XPHB} or become {@condition Incapacitated|XPHB} until the end of their next turn ({@dc 8} plus {@variantrule Proficiency|XPHB|Proficiency Bonus} and your attack modifier)."
 									]
 								},
 								{
@@ -10068,7 +10068,7 @@
 									"page": 216,
 									"id": "664",
 									"entries": [
-										"{@i Maneuver.} Similarly to {@itemMastery Block|XPHB}, when a creature attacks you with a weapon, you can use your {@variantrule Reaction|XPHB} to \"catch\" and disarm your opponent. Make a {@variantrule Weapon Attack|XPHB} roll with this weapon. If your attack meets or exceeds your opponent's attack, their attack misses and must succeed on a Strength {@variantrule Saving Throw|XPHB} or drop their weapon. The DC is {@dc 8} plus your {@variantrule Proficiency Bonus|XPHB} and your Attack modifier."
+										"{@i Maneuver.} Similarly to {@itemMastery Block|XPHB}, when a creature attacks you with a weapon, you can use your {@variantrule Reaction|XPHB} to \"catch\" and disarm your opponent. Make a {@variantrule Weapon Attack|XPHB} roll with this weapon. If your attack meets or exceeds your opponent's attack, their attack misses and must succeed on a Strength {@variantrule Saving Throw|XPHB} or drop their weapon. The DC is {@dc 8} plus your {@variantrule Proficiency|XPHB|Proficiency Bonus} and your Attack modifier."
 									]
 								},
 								{
@@ -10104,7 +10104,7 @@
 									"page": 216,
 									"id": "667",
 									"entries": [
-										"{@i Maneuver.} When you make an attack roll with this weapon and hit a Large or smaller creature, you can attempt to pin them to a nearby (5 feet) surface. On a hit, the target must make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice), The DC is {@dc 8} plus {@variantrule Proficiency Bonus|XPHB} and your Attack Modifier. On a failed save, the target is pinned, via {@condition Restrained|XPHB} condition, until the weapon, or ammunition, is removed. The target can use an {@variantrule Action|XPHB} on their turn to attempt to remove the weapon."
+										"{@i Maneuver.} When you make an attack roll with this weapon and hit a Large or smaller creature, you can attempt to pin them to a nearby (5 feet) surface. On a hit, the target must make a Strength or Dexterity {@variantrule Saving Throw|XPHB} (the target's choice), The DC is {@dc 8} plus {@variantrule Proficiency|XPHB|Proficiency Bonus} and your Attack Modifier. On a failed save, the target is pinned, via {@condition Restrained|XPHB} condition, until the weapon, or ammunition, is removed. The target can use an {@variantrule Action|XPHB} on their turn to attempt to remove the weapon."
 									]
 								},
 								{

@@ -148,6 +148,37 @@
 			}
 		},
 		{
+			"name": "+1 Dragonkin Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "+1 Dragonkin ",
+				"source": "XDMG",
+				"page": 254,
+				"srd52": true,
+				"basicRules2024": true,
+				"rarity": "uncommon",
+				"reqAttune": "by a Dragonborn",
+				"reqAttuneTags": [
+					{
+						"race": "dragonborn|xphb"
+					}
+				],
+				"bonusWeapon": "+1",
+				"entries": [
+					"These weapons are made of a scaly metal that radiates draconic elements. You have a {=bonusWeapon} bonus to attack rolls and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Dragonborn Breath Weapon trait on a hit. In addition, while attuned to the weapon, you have a +1 bonus to your Breath Weapon's save DC.",
+					"The color of the weapon's metal changes to reflect your own natural colors as a Dragonborn once you attune to it."
+				],
+				"lootTables": [
+					"Armaments - Uncommon|XDMG"
+				]
+			}
+		},
+		{
 			"name": "+1 Shield (*)",
 			"edition": "classic",
 			"type": "GV|DMG",
@@ -439,6 +470,37 @@
 			}
 		},
 		{
+			"name": "+2 Dragonkin Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "+2 Dragonkin ",
+				"source": "XDMG",
+				"page": 254,
+				"srd52": true,
+				"basicRules2024": true,
+				"rarity": "rare",
+				"reqAttune": "by a Dragonborn",
+				"reqAttuneTags": [
+					{
+						"race": "dragonborn|xphb"
+					}
+				],
+				"bonusWeapon": "+2",
+				"entries": [
+					"These weapons are made of a scaly metal that radiates draconic elements. You have a {=bonusWeapon} bonus to attack rolls and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Dragonborn Breath Weapon trait on a hit. In addition, while attuned to the weapon, you have a +2 bonus to your Breath Weapon's save DC.",
+					"The color of the weapon's metal changes to reflect your own natural colors as a Dragonborn once you attune to it."
+				],
+				"lootTables": [
+					"Armaments - Rare|XDMG"
+				]
+			}
+		},
+		{
 			"name": "+2 Shield (*)",
 			"edition": "classic",
 			"type": "GV|DMG",
@@ -711,6 +773,37 @@
 				"lootTables": [
 					"Armaments - Legendary|XDMG",
 					"Relics - Legendary|XDMG"
+				]
+			}
+		},
+		{
+			"name": "+3 Dragonkin Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "+3 Dragonkin ",
+				"source": "XDMG",
+				"page": 254,
+				"srd52": true,
+				"basicRules2024": true,
+				"rarity": "very rare",
+				"reqAttune": "by a Dragonborn",
+				"reqAttuneTags": [
+					{
+						"race": "dragonborn|xphb"
+					}
+				],
+				"bonusWeapon": "+3",
+				"entries": [
+					"These weapons are made of a scaly metal that radiates draconic elements. You have a {=bonusWeapon} bonus to attack rolls and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Dragonborn Breath Weapon trait on a hit. In addition, while attuned to the weapon, you have a +3 bonus to your Breath Weapon's save DC.",
+					"The color of the weapon's metal changes to reflect your own natural colors as a Dragonborn once you attune to it."
+				],
+				"lootTables": [
+					"Armaments - Uncommon|XDMG"
 				]
 			}
 		},
@@ -2697,6 +2790,24 @@
 							"Once the rune has been invoked, it can't be invoked again until the next dawn."
 						]
 					}
+				]
+			}
+		},
+		{
+			"name": "Bow of Accuracy",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"bow": true
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Accuracy",
+				"source": "XDMG",
+				"page": 240,
+				"rarity": "common",
+				"entries": [
+					"The normal range of this bow is doubled, but its long range remains the same."
 				]
 			}
 		},
@@ -7898,6 +8009,37 @@
 				]
 			},
 			"hasFluffImages": true
+		},
+		{
+			"name": "Vine Weapon",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"net": true
+				},
+				{
+					"whip": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Vine ",
+				"source": "XDMG",
+				"page": 318,
+				"rarity": "uncommon",
+				"bonusWeapon": "+1",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"entries": [
+					"Tightly braided living vines have been rooted to the end of a branch to make this magic weapon. This +1 weapon can be targeted by the {@spell Shillelagh|XPHB} spell and it gains an additional 10 feet to its reach or range, gaining {@variantrule Proficiency|XPHB} in this weapon if you do not already have it. If you are a {@class Druid|XPHB} or {@class Ranger|XPHB}, this weapon has gains an additional 20 feet to its reach or range, instead of 10 feet.",
+					{
+						"type": "entries",
+						"name": "Drag",
+						"entries": [
+							"When you hit a Large or smaller target with the whip, you can choose to pull it up to 10 feet towards you, or 20 feet if you're a {@class Druid|XPHB} or {@class Ranger|XPHB}. You can only use this property once per dawn, unless you're a druid, who can use this benefit a number of times equal to their {@variantrule Proficiency|XPHB|Proficiency Bonus} per dawn."
+						]
+					}
+				]
+			}
 		},
 		{
 			"name": "Vorpal Sword",

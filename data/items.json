@@ -321,6 +321,31 @@
 			]
 		},
 		{
+			"name": "+1 Spiked Collar",
+			"source": "XDMG",
+			"page": 306,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
+				"This collar comes in a variety of colors and sizes, all with metal spikes protruding around the outside of the collar. A creature wearing this magic item gains a +1 bonus to its attack rolls and damage rolls while wearing this collar."
+			]
+		},
+		{
+			"name": "+1 Studded Collar",
+			"source": "XDMG",
+			"page": 312,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"bonusAc": "+1",
+			"bonusSavingThrow": "+1",
+			"entries": [
+				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
+				"This collar comes in a variety of colors and sizes, all with crystalline studs decorating the outside of the collar. A creature wearing this wondrous item gains a +1 bonus to {@variantrule Armor Class|XPHB} and {@variantrule Saving Throw|XPHB|Saving Throws} while wearing this collar."
+			]
+		},
+		{
 			"name": "+1 Wand of the War Mage",
 			"source": "DMG",
 			"page": 212,
@@ -765,6 +790,31 @@
 			]
 		},
 		{
+			"name": "+2 Spiked Collar",
+			"source": "XDMG",
+			"page": 306,
+			"rarity": "rare",
+			"wondrous": true,
+			"bonusWeapon": "+2",
+			"entries": [
+				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
+				"This collar comes in a variety of colors and sizes, all with metal spikes protruding around the outside of the collar. A creature wearing this magic item gains a +1 bonus to its attack rolls and damage rolls while wearing this collar."
+			]
+		},
+		{
+			"name": "+2 Studded Collar",
+			"source": "XDMG",
+			"page": 312,
+			"rarity": "rare",
+			"wondrous": true,
+			"bonusAc": "+2",
+			"bonusSavingThrow": "+2",
+			"entries": [
+				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
+				"This collar comes in a variety of colors and sizes, all with crystalline studs decorating the outside of the collar. A creature wearing this wondrous item gains a +1 bonus to {@variantrule Armor Class|XPHB} and {@variantrule Saving Throw|XPHB|Saving Throws} while wearing this collar."
+			]
+		},
+		{
 			"name": "+2 Wand of the War Mage",
 			"source": "DMG",
 			"page": 212,
@@ -1193,6 +1243,31 @@
 			],
 			"lootTables": [
 				"Arcana - Very Rare|XDMG"
+			]
+		},
+		{
+			"name": "+3 Spiked Collar",
+			"source": "XDMG",
+			"page": 306,
+			"rarity": "very rare",
+			"wondrous": true,
+			"bonusWeapon": "+3",
+			"entries": [
+				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
+				"This collar comes in a variety of colors and sizes, all with metal spikes protruding around the outside of the collar. A creature wearing this magic item gains a +3 bonus to its attack rolls and damage rolls while wearing this collar."
+			]
+		},
+		{
+			"name": "+3 Studded Collar",
+			"source": "XDMG",
+			"page": 312,
+			"rarity": "very rare",
+			"wondrous": true,
+			"bonusAc": "+3",
+			"bonusSavingThrow": "+3",
+			"entries": [
+				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
+				"This collar comes in a variety of colors and sizes, all with crystalline studs decorating the outside of the collar. A creature wearing this wondrous item gains a +3 bonus to {@variantrule Armor Class|XPHB} and {@variantrule Saving Throw|XPHB|Saving Throws} while wearing this collar."
 			]
 		},
 		{
@@ -3628,6 +3703,29 @@
 						"When you make an {@action Attack|XPHB|Unarmed Strike Attack} while wearing these gloves, you gain a +2 damage bonus on a hit."
 					]
 				}
+			]
+		},
+		{
+			"name": "Arrow of Faerie Fire",
+			"source": "XDMG",
+			"page": 231,
+			"type": "A|XPHB",
+			"rarity": "uncommon",
+			"entries": [
+				"When this arrow hits a target, each creature within a 20-foot cube centered on your hit target, must make a {@dc 15} Dexterity {@variantrule Saving Throw|XPHB} or fall under the effects of a {@spell Faerie Fire|XPHB} spell, no concentration required. Your initial target takes magical weapon damage and the effects last for 12 rounds.",
+				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
+			]
+		},
+		{
+			"name": "Arrow of Returning",
+			"source": "XDMG",
+			"page": 231,
+			"type": "A|XPHB",
+			"rarity": "uncommon",
+			"bonusWeapon": "+1",
+			"entries": [
+				"Once shot, this +1 arrow will return to the archer's quiver if it misses its target.",
+				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
 			]
 		},
 		{
@@ -23826,6 +23924,28 @@
 			]
 		},
 		{
+			"name": "Explorer's Machete",
+			"source": "XDMG",
+			"page": 261,
+			"type": "M|XPHB",
+			"baseItem": "machete|xphb",
+			"rarity": "uncommon",
+			"weaponCategory": "simple",
+			"property": [
+				"F|XPHB"
+			],
+			"mastery": [
+				"Bleeder|XPHB",
+				"Cleave|XPHB",
+				"Swift|XPHB"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"entries": [
+				"This machete is adorned with embossed jungle and tropical designs. While holding it, you gain a +5 bonus to any Wisdom ({@skill Survival|XPHB}) checks you make. Additionally, when you hit a plant or Plant Creature with this weapon, you deal max weapon die damage."
+			]
+		},
+		{
 			"name": "Explorer's Pack",
 			"source": "PHB",
 			"page": 151,
@@ -24451,6 +24571,9 @@
 			"name": "Faerie Dust",
 			"source": "SKT",
 			"page": 35,
+			"reprintedAs": [
+				"Fairy Dust|XDMG"
+			],
 			"type": "OTH",
 			"rarity": "unknown (magic)",
 			"entries": [
@@ -24519,6 +24642,46 @@
 					]
 				}
 			}
+		},
+		{
+			"name": "Fairy Dust",
+			"source": "XDMG",
+			"page": 261,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"A bottle of Fairy Dust has 20 uses before it is emptied. One use of this dust can substitute for the material components of any enchantment spell of 3rd level or lower. As a {@action Magic Action|XPHB}, you can expend one use targeting yourself or another creature within 5 feet. Roll {@dice 1d20} and consult the Fairy Dust table below for the effect.",
+				{
+					"type": "table",
+					"caption": "Fairy Dust",
+					"colLabels": [
+						"d20",
+						"Magical Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"01-10",
+							"The creature sprinkled with dust gains a flying speed of 60 feet for 10 minutes."
+						],
+						[
+							"11-14",
+							"The creature sprinkled with dust must succeed on a {@dc 11} Constitution saving throw or fall {@condition unconscious} for 1 minute. The creature awakens if it takes damage or if it is shaken or slapped as an action."
+						],
+						[
+							"15-18",
+							"The creature sprinkled with dust must succeed on a {@dc 11} Wisdom saving throw or be affected by a {@spell confusion} spell."
+						],
+						[
+							"19-20",
+							"The creature sprinkled with dust becomes {@condition invisible} for 1 hour. Any equipment it is wearing or carrying is {@condition invisible} as long as it is on the creature's person. The effect on the creature ends if it attacks, deals any damage, or casts a spell."
+						]
+					]
+				}
+			]
 		},
 		{
 			"name": "Falkir's Helm of Pigheadedness",
@@ -26719,6 +26882,16 @@
 				"wall of force"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Funeral Marchers",
+			"source": "XDMG",
+			"page": 263,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"When you gain the {@condition Unconscious|XPHB} condition as a result of being reduced to 0 {@variantrule Hit Points|XPHB} while wearing these black leather boots, you can choose to not gain the {@condition Prone|XPHB} condition. While you have the {@condition Unconscious|XPHB} condition and are standing in this way, you can walk up to 10 feet on your turn after making a {@variantrule Death Saving Throw|XPHB}."
+			]
 		},
 		{
 			"name": "Galder's Bubble Pipe",
@@ -51244,6 +51417,27 @@
 			}
 		},
 		{
+			"name": "Quiver of Arrow Storing",
+			"source": "XDMG",
+			"page": 291,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"weight": 1,
+			"entries": [
+				"This quiver appears to be a normal quiver, although it has magical properties much like a {@item Bag of Holding|XDMG}. Up to 200 arrows can be held in this quiver without adding any further encumbrance to the bowman (the quiver itself weighs as much as a normal quiver without any additions from the quiver's contents). The arrows within the quiver are easily accessible and may be of any sort, though finding the exact magical arrow desired may prove difficult, even with its 3 separate compartments.",
+				"You can draw any item the quiver contains as if doing so from a regular quiver or scabbard."
+			],
+			"containerCapacity": {
+				"item": [
+					{
+						"bolt|xphb": 200,
+						"arrow|xphb": 200
+					}
+				],
+				"weightless": true
+			}
+		},
+		{
 			"name": "Quiver of Ehlonna",
 			"source": "DMG",
 			"page": 189,
@@ -54173,6 +54367,16 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Ring of Shadows",
+			"source": "XDMG",
+			"page": 296,
+			"type": "RG|XDMG",
+			"rarity": "uncommon",
+			"entries": [
+				"While wearing this ebony ring in dim light or darkness, you have advantage on Dexterity ({@skill Stealth|XPHB}) checks. When you roll a 20 on a Dexterity ({@skill Stealth|XPHB}) check, the ring's magic ceases to function until the next dawn."
+			]
+		},
+		{
 			"name": "Ring of Three Wishes",
 			"source": "DMG",
 			"page": 193,
@@ -54286,6 +54490,16 @@
 			"reqAttune": true,
 			"entries": [
 				"While wearing this ring, you have advantage on Wisdom ({@skill Insight}) checks to determine whether someone is lying to you."
+			]
+		},
+		{
+			"name": "Ring of Volley",
+			"source": "XDMG",
+			"page": 296,
+			"type": "RG|XDMG",
+			"rarity": "uncommon",
+			"entries": [
+				"While wearing this ring, you can choose to summon a nocked arrow or bolt whenever you draw a bow or crossbow. The ammunition is magical. An arrow or bolt vanishes if you don't fire it right away and disappears right after it hits or misses."
 			]
 		},
 		{
@@ -79689,6 +79903,22 @@
 			]
 		},
 		{
+			"name": "Dragonkin Weapon",
+			"source": "XDMG",
+			"page": 254,
+			"rarity": "varies",
+			"type": "GV|XDMG",
+			"entries": [
+				"These weapons are made of a scaly metal that radiates draconic elements. You have a specified bonus to attack rolls and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Dragonborn Breath Weapon trait on a hit. In addition, while attuned to the weapon, you have a specified bonus to your Breath Weapon's save DC.",
+				"The color of the weapon's metal changes to reflect your own natural colors as a Dragonborn once you attune to it."
+			],
+			"items": [
+				"+1 Dragonkin Weapon|XDMG",
+				"+2 Dragonkin Weapon|XDMG",
+				"+3 Dragonkin Weapon|XDMG"
+			]
+		},
+		{
 			"name": "Druidic Focus",
 			"source": "PHB",
 			"page": 151,
@@ -82964,6 +83194,22 @@
 			]
 		},
 		{
+			"name": "Spiked Collar",
+			"source": "XDMG",
+			"page": 306,
+			"rarity": "varies",
+			"wondrous": true,
+			"entries": [
+				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
+				"This collar comes in a variety of colors and sizes, all with metal spikes protruding around the outside of the collar. A creature wearing this magic item gains a specified bonus to its attack rolls and damage rolls while wearing this collar."
+			],
+			"items": [
+				"+1 Spiked Collar|XDMG",
+				"+2 Spiked Collar|XDMG",
+				"+3 Spiked Collar|XDMG"
+			]
+		},
+		{
 			"name": "Staff of Skulls",
 			"source": "AU",
 			"page": 128,
@@ -83029,6 +83275,22 @@
 				"Stormgirdle (Dormant)|EGW",
 				"Stormgirdle (Awakened)|EGW",
 				"Stormgirdle (Exalted)|EGW"
+			]
+		},
+		{
+			"name": "Studded Collar",
+			"source": "XDMG",
+			"page": 312,
+			"rarity": "varies",
+			"wondrous": true,
+			"entries": [
+				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
+				"This collar comes in a variety of colors and sizes, all with crystalline studs decorating the outside of the collar. A creature wearing this wondrous item gains a specified bonus to {@variantrule Armor Class|XPHB} and {@variantrule Saving Throw|XPHB|Saving Throws} while wearing this collar."
+			],
+			"items": [
+				"+1 Studded Collar|XDMG",
+				"+2 Studded Collar|XDMG",
+				"+3 Studded Collar|XDMG"
 			]
 		},
 		{
