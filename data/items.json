@@ -129,8 +129,6 @@
 					"class": "paladin"
 				}
 			],
-			"type": "SCF",
-			"scfType": "holy",
 			"wondrous": true,
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
@@ -162,7 +160,7 @@
 			"bonusSpellSaveDc": "+1",
 			"entries": [
 				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +1 bonus to attack and damage rolls, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells.",
-				"During the minute after combat or anytime after firing ammunition from a ranged weapon, you can use a {@action Magic Action|XPHB} to summon all of your expended ammunition back to you within 60 feet."
+				"During the minute after combat or anytime after firing ammunition from a ranged weapon, you can use a {@action Magic|XPHB|Magic Action} to summon all of your expended ammunition back to you within 60 feet."
 			],
 			"lootTables": [
 				"Armanents - Uncommon|XDMG"
@@ -416,7 +414,6 @@
 			"page": 325,
 			"baseItem": "wooden staff|XPHB",
 			"type": "M|XPHB",
-			"typeAlt": "SCF|XPHB",
 			"rarity": "uncommon",
 			"reqAttune": "by a druid or a ranger",
 			"reqAttuneTags": [
@@ -438,10 +435,9 @@
 			"bonusWeapon": "+1",
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
-			"scfType": "druid",
 			"entries": [
-				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +1 bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use this staff as a spellcasting focus for your druid and ranger spells.",
-				"When you cast a spell that restores hit points, you can roll a {@dice d6} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
+				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +1 bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your {@class Druid|XPHB} and {@class Ranger|XPHB} spells. In addition, you can use this staff as a {@variantrule Spellcasting Focus|XPHB} for your {@class Druid|XPHB} and {@class Ranger|XPHB} spells.",
+				"When you cast a spell that restores hit points, you can roll {@dice 1d6} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
 			],
 			"lootTables": [
 				"Armaments - Uncommon|XDMG",
@@ -604,8 +600,6 @@
 				}
 			],
 			"wondrous": true,
-			"type": "SCF",
-			"scfType": "holy",
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
 			"entries": [
@@ -636,7 +630,7 @@
 			"bonusSpellSaveDc": "+2",
 			"entries": [
 				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +2 bonus to attack and damage rolls, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells.",
-				"During the minute after combat or anytime after firing ammunition from a ranged weapon, you can use a {@action Magic Action|XPHB} to summon all of your expended ammunition back to you within 60 feet."
+				"During the minute after combat or anytime after firing ammunition from a ranged weapon, you can use a {@action Magic|XPHB|Magic Action} to summon all of your expended ammunition back to you within 60 feet."
 			],
 			"lootTables": [
 				"Armanents - Rare|XDMG"
@@ -876,7 +870,6 @@
 			"page": 325,
 			"baseItem": "wooden staff|XPHB",
 			"type": "M|XPHB",
-			"typeAlt": "SCF|XPHB",
 			"rarity": "rare",
 			"reqAttune": "by a druid or a ranger",
 			"reqAttuneTags": [
@@ -898,10 +891,9 @@
 			"bonusWeapon": "+2",
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
-			"scfType": "druid",
 			"entries": [
-				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +2 bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use this staff as a spellcasting focus for your druid and ranger spells.",
-				"When you cast a spell that restores hit points, you can roll a {@dice d6} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
+				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +2 bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your {@class Druid|XPHB} and {@class Ranger|XPHB} spells. In addition, you can use this staff as a {@variantrule Spellcasting Focus|XPHB} for your {@class Druid|XPHB} and {@class Ranger|XPHB} spells.",
+				"When you cast a spell that restores hit points, you can roll {@dice 2d6} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
 			],
 			"lootTables": [
 				"Armaments - Rare|XDMG",
@@ -1064,8 +1056,6 @@
 				}
 			],
 			"wondrous": true,
-			"type": "SCF",
-			"scfType": "holy",
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
 			"entries": [
@@ -1096,7 +1086,7 @@
 			"bonusSpellSaveDc": "+3",
 			"entries": [
 				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +3 bonus to attack and damage rolls, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells.",
-				"During the minute after combat or anytime after firing ammunition from a ranged weapon, you can use a {@action Magic Action|XPHB} to summon all of your expended ammunition back to you within 60 feet."
+				"During the minute after combat or anytime after firing ammunition from a ranged weapon, you can use a {@action Magic|XPHB|Magic Action} to summon all of your expended ammunition back to you within 60 feet."
 			],
 			"lootTables": [
 				"Armanents - Very Rare|XDMG"
@@ -1329,7 +1319,6 @@
 			"page": 325,
 			"baseItem": "wooden staff|XPHB",
 			"type": "M|XPHB",
-			"typeAlt": "SCF|XPHB",
 			"rarity": "very rare",
 			"reqAttune": "by a druid or a ranger",
 			"reqAttuneTags": [
@@ -1351,10 +1340,9 @@
 			"bonusWeapon": "+3",
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
-			"scfType": "druid",
 			"entries": [
-				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +3 bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use this staff as a spellcasting focus for your druid and ranger spells.",
-				"When you cast a spell that restores hit points, you can roll a {@dice d6} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
+				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +3 bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your {@class Druid|XPHB} and {@class Ranger|XPHB} spells. In addition, you can use this staff as a {@variantrule Spellcasting Focus|XPHB} for your {@class Druid|XPHB} and {@class Ranger|XPHB} spells.",
+				"When you cast a spell that restores hit points, you can roll {@dice 3d6} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
 			],
 			"lootTables": [
 				"Armaments - Very Rare|XDMG",
@@ -1369,7 +1357,7 @@
 			"wondrous": true,
 			"bonusWeapon": "+3",
 			"entries": [
-				"While wearing these wraps, you have a +3 bonus to attack rolls and damage rolls made with your Unarmed Strikes. Those strikes deal your choice of Force damage or their normal damage type."
+				"While wearing these wraps, you have a +3 bonus to attack rolls and damage rolls made with your {@variantrule Unarmed Attack|XPHB|Unarmed Strike Attacks}. Those strikes deal your choice of Force damage or their normal damage type."
 			],
 			"lootTables": [
 				"Armaments - Very Rare|XDMG"
@@ -21995,7 +21983,7 @@
 			"rechargeAmount": "{@dice 1d4 + 1}",
 			"charges": 5,
 			"entries": [
-				"This copper-wrapped earring has 5 charges. While wearing it, you can use a {@action Magic Action|XPHB} to expend 1 charge and cast the {@spell Message|XPHB} spell. The earring regains {@dice 1d4 + 1} expended charges daily at dawn."
+				"This copper-wrapped earring has 5 charges. While wearing it, you can use a {@action Magic|XPHB|Magic Action} to expend 1 charge and cast the {@spell Message|XPHB} spell. The earring regains {@dice 1d4 + 1} expended charges daily at dawn."
 			],
 			"attachedSpells": {
 				"charges": {
@@ -24650,7 +24638,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
-				"A bottle of Fairy Dust has 20 uses before it is emptied. One use of this dust can substitute for the material components of any enchantment spell of 3rd level or lower. As a {@action Magic Action|XPHB}, you can expend one use targeting yourself or another creature within 5 feet. Roll {@dice 1d20} and consult the Fairy Dust table below for the effect.",
+				"A bottle of Fairy Dust has 20 uses before it is emptied. One use of this dust can substitute for the material components of any enchantment spell of 3rd level or lower. As a {@action Magic|XPHB|Magic Action}, you can expend one use targeting yourself or another creature within 5 feet. Roll {@dice 1d20} and consult the Fairy Dust table below for the effect.",
 				{
 					"type": "table",
 					"caption": "Fairy Dust",
@@ -51332,7 +51320,7 @@
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"entries": [
-				"This quill is made with a black feather from a crow or raven. When you place a piece of {@item Parchment|XPHB} over a gravestone or a corpse, you can use a {@action Magic Action|XPHB} to speak its command word, casting {@spell Speak with Dead|XPHB}. When you cast this spell in this way, the spell is altered in the following ways.",
+				"This quill is made with a black feather from a crow or raven. When you place a piece of {@item Parchment|XPHB} over a gravestone or a corpse, you can use a {@action Magic|XPHB|Magic Action} to speak its command word, casting {@spell Speak with Dead|XPHB}. When you cast this spell in this way, the spell is altered in the following ways.",
 				{
 					"type": "list",
 					"items": [
@@ -51786,6 +51774,18 @@
 			],
 			"miscTags": [
 				"CNS"
+			]
+		},
+		{
+			"name": "Raven's Slumber",
+			"source": "XDMG",
+			"page": 291,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"This black crystal pendant is a magical gateway to a small pocket dimension. You can use the pendant as an improvised weapon to make a melee or ranged weapon attack against a Large or smaller creature. On a hit, the target must succeed on a {@dc 10} Wisdom {@variantrule Saving Throw|XPHB} or be trapped within the crystal. A creature that wants to be trapped can intentionally fail this {@variantrule Saving Throw|XPHB}",
+				"Only one creature at a time can be held in this pendant. That creature is aware of the passage of time and can see the world outside of this talisman as if through a window, however, while inside the creature does not require food or water to survive. You can release a held creature to an unoccupied space within 5 feet of you as a {@variantrule Bonus Action|XPHB}.",
+				"If a companion creature of yours has already been inside of this pendant and is reduced to 0 hit points while within 100 feet of you, it is immediately drawn into the pendant and stabilized. If the pendant already holds a creature within, this effect fails."
 			]
 		},
 		{
@@ -68816,7 +68816,7 @@
 			"rechargeAmount": 3,
 			"entries": [
 				"This golden stein is decorated with dancing dwarves and grain patterns.",
-				"When you make a {@action Magic Action|XPHB} to speak the command word while grasping the handle, the tankard fills with three pints of rich dwarven ale. This tankard has three charges and regains all expended charges at dawn."
+				"When you make a {@action Magic|XPHB|Magic Action} to speak the command word while grasping the handle, the tankard fills with three pints of rich dwarven ale. This tankard has three charges and regains all expended charges at dawn."
 			]
 		},
 		{
@@ -78920,6 +78920,59 @@
 			]
 		},
 		{
+			"name": "All-Purpose Tool",
+			"source": "TCE",
+			"page": 119,
+			"type": "SCF",
+			"rarity": "varies",
+			"reqAttune": "by an artificer",
+			"reqAttuneTags": [
+				{
+					"class": "artificer|tce"
+				}
+			],
+			"wondrous": true,
+			"focus": [
+				"Artificer"
+			],
+			"entries": [
+				"This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the {@book Player's Handbook|PHB} for a list of {@item artisan's tools|PHB}). Whatever form the tool takes, you are proficient with it.",
+				"While holding this tool, you gain a specified bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
+				"As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn."
+			],
+			"items": [
+				"+1 All-Purpose Tool|TCE",
+				"+2 All-Purpose Tool|TCE",
+				"+3 All-Purpose Tool|TCE"
+			]
+		},
+		{
+			"name": "Amulet of the Devout",
+			"source": "TCE",
+			"page": 119,
+			"rarity": "varies",
+			"reqAttune": "by a cleric or paladin",
+			"reqAttuneTags": [
+				{
+					"class": "cleric"
+				},
+				{
+					"class": "paladin"
+				}
+			],
+			"wondrous": true,
+			"weight": 1,
+			"entries": [
+				"This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a specified bonus to spell attack rolls and the saving throw DCs of your spells.",
+				"While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
+			],
+			"items": [
+				"+1 Amulet of the Devout|TCE",
+				"+2 Amulet of the Devout|TCE",
+				"+3 Amulet of the Devout|TCE"
+			]
+		},
+		{
 			"name": "Arcane Focus",
 			"source": "PHB",
 			"page": 151,
@@ -78965,6 +79018,33 @@
 				"Rod|XPHB",
 				"Staff|XPHB",
 				"Wand|XPHB"
+			]
+		},
+		{
+			"name": "Arcane Grimoire",
+			"source": "TCE",
+			"page": 120,
+			"type": "SCF",
+			"rarity": "varies",
+			"reqAttune": "by a wizard",
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				}
+			],
+			"wondrous": true,
+			"weight": 3,
+			"focus": [
+				"Wizard"
+			],
+			"entries": [
+				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a specified bonus to spell attack rolls and to the saving throw DCs of your wizard spells.",
+				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
+			],
+			"items": [
+				"+1 Arcane Grimoire|TCE",
+				"+2 Arcane Grimoire|TCE",
+				"+3 Arcane Grimoire|TCE"
 			]
 		},
 		{
@@ -79445,6 +79525,32 @@
 			]
 		},
 		{
+			"name": "Bloodwell Vial",
+			"source": "TCE",
+			"page": 122,
+			"type": "SCF",
+			"rarity": "varies",
+			"reqAttune": "by a sorcerer",
+			"reqAttuneTags": [
+				{
+					"class": "sorcerer"
+				}
+			],
+			"wondrous": true,
+			"focus": [
+				"Sorcerer"
+			],
+			"entries": [
+				"To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a specified bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.",
+				"In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn."
+			],
+			"items": [
+				"+1 Bloodwell Vial|TCE",
+				"+2 Bloodwell Vial|TCE",
+				"+3 Bloodwell Vial|TCE"
+			]
+		},
+		{
 			"name": "Blossom Rod",
 			"source": "AU",
 			"page": 127,
@@ -79900,6 +80006,27 @@
 				"Stirring Dragon-Touched Focus|FTD",
 				"Wakened Dragon-Touched Focus|FTD",
 				"Ascendant Dragon-Touched Focus|FTD"
+			]
+		},
+		{
+			"name": "Dragonhide Belt",
+			"source": "FTD",
+			"page": 23,
+			"rarity": "varies",
+			"reqAttune": "by a monk",
+			"reqAttuneTags": [
+				{
+					"class": "monk"
+				}
+			],
+			"wondrous": true,
+			"entries": [
+				"This finely detailed belt is made of dragonhide. While wearing it, you gain a specified bonus to the saving throw DCs of your ki features. In addition, you can use an action to regain ki points equal to a roll of your Martial Arts die. You can't use this action again until the next dawn."
+			],
+			"items": [
+				"+1 Dragonhide Belt|FTD",
+				"+2 Dragonhide Belt|FTD",
+				"+3 Dragonhide Belt|FTD"
 			]
 		},
 		{
@@ -80524,6 +80651,31 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Fate Dealer's Deck",
+			"source": "BMT",
+			"page": 61,
+			"rarity": "varies",
+			"reqAttune": "by a cleric or paladin",
+			"reqAttuneTags": [
+				{
+					"class": "cleric"
+				},
+				{
+					"class": "paladin"
+				}
+			],
+			"wondrous": true,
+			"entries": [
+				"The backs of these cards are inscribed with glyphs representing the Inner Planes, the Outer Planes, or the holy symbols of various deities. While holding this deck, you can use it as a spellcasting focus, and you gain a +3 bonus to spell attack rolls and to your spell save DC.",
+				"In addition, while you're holding the deck, you can draw a card as an action to expend and roll one of your Hit Dice and add the deck's bonus to the number rolled. One creature you can see within 30 feet of you either takes radiant damage or regains hit points (your choice) equal to the total."
+			],
+			"items": [
+				"+1 Fate Dealer's Deck|BMT",
+				"+2 Fate Dealer's Deck|BMT",
+				"+3 Fate Dealer's Deck|BMT"
+			]
+		},
+		{
 			"name": "Figurine of Wondrous Power",
 			"source": "DMG",
 			"page": 169,
@@ -80943,6 +81095,7 @@
 			"source": "XDMG",
 			"page": 270,
 			"type": "SCF|XPHB",
+			"type": "GV|XDMG",
 			"rarity": "varies",
 			"reqAttune": "by a ranger",
 			"reqAttuneTags": [
@@ -81585,7 +81738,7 @@
 			"page": 279,
 			"baseItem": "sickle|XPHB",
 			"type": "M|XDMG",
-			"typeAlt": "SCF|XPHB",
+			"typeAlt": "GV|XDMG",
 			"rarity": "varies",
 			"reqAttune": "by a druid",
 			"reqAttuneTags": [
@@ -81595,9 +81748,6 @@
 			],
 			"weight": 2,
 			"weaponCategory": "simple",
-			"focus": [
-				"Druid"
-			],
 			"property": [
 				"L|XPHB"
 			],
@@ -82260,6 +82410,31 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Rhythm-Maker's Drum",
+			"source": "TCE",
+			"page": 134,
+			"baseItem": "drum|phb",
+			"type": "INS",
+			"rarity": "varies",
+			"reqAttune": "by a bard",
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				}
+			],
+			"wondrous": true,
+			"weight": 3,
+			"entries": [
+				"While holding this {@item drum|PHB}, you gain a specified bonus to spell attack rolls and to the saving throw DCs of your bard spells.",
+				"As an action, you can play the {@item drum|PHB} to regain one use of your Bardic Inspiration feature. This property of the {@item drum|PHB} can't be used again until the next dawn."
+			],
+			"items": [
+				"+1 Rhythm-Maker's Drum|TCE",
+				"+2 Rhythm-Maker's Drum|TCE",
+				"+3 Rhythm-Maker's Drum|TCE"
+			]
+		},
+		{
 			"name": "Ring of Elemental Command",
 			"source": "DMG",
 			"page": 190,
@@ -82541,6 +82716,7 @@
 			"source": "XDMG",
 			"page": 301,
 			"type": "RD|XDMG",
+			"typeAlt": "GV|XDMG",
 			"rarity": "varies",
 			"reqAttune": "by a warlock",
 			"reqAttuneTags": [
@@ -82549,6 +82725,10 @@
 				}
 			],
 			"weight": 2,
+			"entries": [
+				"While holding this rod, you gain a specified bonus to spell attack rolls and to the saving throw DCs of your {@filter Warlock spells|spells|class=Warlock}.",
+				"In addition, you can regain one spell slot as a {@action Magic|XPHB} action while holding the rod. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+			],
 			"items": [
 				"+1 Rod of the Pact Keeper|XDMG",
 				"+2 Rod of the Pact Keeper|XDMG",
@@ -83198,6 +83378,7 @@
 			"source": "XDMG",
 			"page": 306,
 			"rarity": "varies",
+			"type": "GV|XDMG",
 			"wondrous": true,
 			"entries": [
 				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
@@ -83282,6 +83463,7 @@
 			"source": "XDMG",
 			"page": 312,
 			"rarity": "varies",
+			"type": "GV|XDMG",
 			"wondrous": true,
 			"entries": [
 				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
@@ -83533,6 +83715,7 @@
 			"page": 322,
 			"srd52": true,
 			"type": "WD|XDMG",
+			"typeAlt": "GV|XDMG",
 			"rarity": "varies",
 			"reqAttune": "by a spellcaster",
 			"reqAttuneTags": [
@@ -83541,6 +83724,9 @@
 				}
 			],
 			"weight": 1,
+			"entries": [
+				"While holding this wand, you gain a specified bonus to spell attack rolls. In addition, you ignore {@variantrule Cover|XPHB|Half Cover} when making a spell attack roll."
+			],
 			"items": [
 				"+1 Wand of the War Mage|XDMG",
 				"+2 Wand of the War Mage|XDMG",
@@ -83571,8 +83757,9 @@
 			"name": "Wild Staff",
 			"source": "XDMG",
 			"page": 325,
+			"baseItem": "wooden staff|XPHB",
 			"type": "M|XDMG",
-			"typeAlt": "SCF|XPHB",
+			"typeAlt": "GV|XDMG",
 			"rarity": "varies",
 			"reqAttune": "by a druid or a ranger",
 			"reqAttuneTags": [
@@ -83585,13 +83772,16 @@
 			],
 			"weight": 4,
 			"weaponCategory": "simple",
-			"scfType": "druid",
 			"property": [
 				"V|XPHB"
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"dmg2": "1d8",
+			"entries": [
+				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a specified bonus to attack and damage rolls made with it, and you gain a specified bonus to spell attack rolls and the saving throw DCs of your {@class Druid|XPHB} and {@class Ranger|XPHB} spells. In addition, you can use this staff as a {@variantrule Spellcasting Focus|XPHB} for your {@class Druid|XPHB} and {@class Ranger|XPHB} spells.",
+				"When you cast a spell that restores hit points, you can roll a specified number of {@dice d6|d6's} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
+			],
 			"items": [
 				"+1 Wild Staff|XDMG",
 				"+2 Wild Staff|XDMG",
@@ -83627,8 +83817,12 @@
 			"name": "Wraps of Unarmed Power",
 			"source": "XDMG",
 			"page": 325,
+			"type": "GV|XDMG",
 			"rarity": "varies",
 			"wondrous": true,
+			"entries": [
+				"While wearing these wraps, you have a specified bonus to attack rolls and damage rolls made with your {@variantrule Unarmed Attack|XPHB|Unarmed Strike Attacks}. Those strikes deal your choice of Force damage or their normal damage type."
+			],
 			"items": [
 				"+1 Wraps of Unarmed Power|XDMG",
 				"+2 Wraps of Unarmed Power|XDMG",

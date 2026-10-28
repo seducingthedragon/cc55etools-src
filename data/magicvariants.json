@@ -133,7 +133,7 @@
 				"page": 230,
 				"srd52": true,
 				"basicRules2024": true,
-				"rarity": "rare",
+				"rarity": "uncommon",
 				"bonusAc": "+1",
 				"entries": [
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
@@ -142,8 +142,8 @@
 					"replicate magic item|artificer|efa|2|efa"
 				],
 				"lootTables": [
-					"Armaments - Rare|XDMG",
-					"Relics - Rare|XDMG"
+					"Armaments - Uncommon|XDMG",
+					"Relics - Uncommon|XDMG"
 				]
 			}
 		},
@@ -455,7 +455,7 @@
 				"page": 230,
 				"srd52": true,
 				"basicRules2024": true,
-				"rarity": "very rare",
+				"rarity": "rare",
 				"bonusAc": "+2",
 				"entries": [
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
@@ -464,8 +464,8 @@
 					"replicate magic item|artificer|efa|2|efa"
 				],
 				"lootTables": [
-					"Armaments - Very Rare|XDMG",
-					"Relics - Very Rare|XDMG"
+					"Armaments - Rare|XDMG",
+					"Relics - Rare|XDMG"
 				]
 			}
 		},
@@ -765,14 +765,14 @@
 				"page": 230,
 				"srd52": true,
 				"basicRules2024": true,
-				"rarity": "legendary",
+				"rarity": "very rare",
 				"bonusAc": "+3",
 				"entries": [
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
 				],
 				"lootTables": [
-					"Armaments - Legendary|XDMG",
-					"Relics - Legendary|XDMG"
+					"Armaments - Very Rare|XDMG",
+					"Relics - Very Rare|XDMG"
 				]
 			}
 		},
@@ -1041,12 +1041,12 @@
 				"namePrefix": "Adamantine ",
 				"source": "XDMG",
 				"page": 227,
-				"rarity": "uncommon",
+				"rarity": "rare",
 				"entries": [
 					"This piece of ammunition is made of adamantine, one of the hardest substances in existence. Whenever this piece of ammunition hits an object, the hit is a {@variantrule Critical Hit|XPHB}."
 				],
 				"lootTables": [
-					"Armaments - Uncommon|XDMG"
+					"Armaments - Rare|XDMG"
 				]
 			}
 		},
@@ -1106,12 +1106,12 @@
 				"page": 227,
 				"srd52": true,
 				"basicRules2024": true,
-				"rarity": "uncommon",
+				"rarity": "rare",
 				"entries": [
 					"This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any {@variantrule Critical Hit|XPHB} against you becomes a normal hit."
 				],
 				"lootTables": [
-					"Armaments - Uncommon|XDMG"
+					"Armaments - Rare|XDMG"
 				]
 			}
 		},
@@ -1164,12 +1164,12 @@
 				"namePrefix": "Adamantine ",
 				"source": "XDMG",
 				"page": 227,
-				"rarity": "uncommon",
+				"rarity": "rare",
 				"entries": [
 					"This weapon is made of adamantine, one of the hardest substances in existence. Whenever this weapon hits an object, the hit is a {@variantrule Critical Hit|XPHB}."
 				],
 				"lootTables": [
-					"Armaments - Uncommon|XDMG"
+					"Armaments - Rare|XDMG"
 				]
 			}
 		},
@@ -6790,7 +6790,7 @@
 				"recharge": "dawn",
 				"rechargeAmount": 1,
 				"entries": [
-					"While holding this shield, you can speak its command work to summon a {@creature Swarm of Ravens|XMM} as a {@action Magic Action|XPHB}. For up to 12 hours, these birds will scout terrain, warn you of enemies, and keep watch while you sleep. They do not engage in combat on your behalf and flee if attacked or threatened. After the duration, the shield cannot summon another swarm until the next day.",
+					"While holding this shield, you can speak its command work to summon a {@creature Swarm of Ravens|XMM} as a {@action Magic|XPHB|Magic Action}. For up to 12 hours, these birds will scout terrain, warn you of enemies, and keep watch while you sleep. They do not engage in combat on your behalf and flee if attacked or threatened. After the duration, the shield cannot summon another swarm until the next day.",
 					"In addition, while holding the shield, you gain the ability to speak with crows, ravens, and other corvids."
 				],
 				"lootTables": [
