@@ -803,7 +803,7 @@
 					"The color of the weapon's metal changes to reflect your own natural colors as a Dragonborn once you attune to it."
 				],
 				"lootTables": [
-					"Armaments - Uncommon|XDMG"
+					"Armaments - Very Rare|XDMG"
 				]
 			}
 		},
@@ -2808,6 +2808,9 @@
 				"rarity": "uncommon",
 				"entries": [
 					"The normal range of this bow is doubled, but its long range remains the same."
+				],
+				"lootTables": [
+					"Armaments - Uncommon|XDMG"
 				]
 			}
 		},
@@ -8038,6 +8041,9 @@
 							"When you hit a Large or smaller target with the whip, you can choose to pull it up to 10 feet towards you, or 20 feet if you're a {@class Druid|XPHB} or {@class Ranger|XPHB}. You can only use this property once per dawn, unless you're a druid, who can use this benefit a number of times equal to their {@variantrule Proficiency|XPHB|Proficiency Bonus} per dawn."
 						]
 					}
+				],
+				"lootTables": [
+					"Armaments - Uncommon|XDMG"
 				]
 			}
 		},

@@ -237,8 +237,8 @@
 				"When you Wild Shape, you gain additional {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4+1}."
 			],
 			"lootTables": [
-				"Arcana - Uncommon|XDMG",
-				"Armanents - Uncommon|XDMG"
+				"Armanents - Uncommon|XDMG",
+				"Relics - Uncommon|XDMG"
 			]
 		},
 		{
@@ -328,6 +328,9 @@
 			"entries": [
 				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
 				"This collar comes in a variety of colors and sizes, all with metal spikes protruding around the outside of the collar. A creature wearing this magic item gains a +1 bonus to its attack rolls and damage rolls while wearing this collar."
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG"
 			]
 		},
 		{
@@ -341,6 +344,9 @@
 			"entries": [
 				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
 				"This collar comes in a variety of colors and sizes, all with crystalline studs decorating the outside of the collar. A creature wearing this wondrous item gains a +1 bonus to {@variantrule Armor Class|XPHB} and {@variantrule Saving Throw|XPHB|Saving Throws} while wearing this collar."
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG"
 			]
 		},
 		{
@@ -703,8 +709,8 @@
 				"When you Wild Shape, you gain additional {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4+2}."
 			],
 			"lootTables": [
-				"Arcana - Rare|XDMG",
-				"Armanents - Rare|XDMG"
+				"Armanents - Rare|XDMG",
+				"Relics - Rare|XDMG"
 			]
 		},
 		{
@@ -793,6 +799,9 @@
 			"entries": [
 				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
 				"This collar comes in a variety of colors and sizes, all with metal spikes protruding around the outside of the collar. A creature wearing this magic item gains a +1 bonus to its attack rolls and damage rolls while wearing this collar."
+			],
+			"lootTables": [
+				"Armaments - Rare|XDMG"
 			]
 		},
 		{
@@ -806,6 +815,9 @@
 			"entries": [
 				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
 				"This collar comes in a variety of colors and sizes, all with crystalline studs decorating the outside of the collar. A creature wearing this wondrous item gains a +1 bonus to {@variantrule Armor Class|XPHB} and {@variantrule Saving Throw|XPHB|Saving Throws} while wearing this collar."
+			],
+			"lootTables": [
+				"Armaments - Rare|XDMG"
 			]
 		},
 		{
@@ -1159,8 +1171,8 @@
 				"When you Wild Shape, you gain additional {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4+3}."
 			],
 			"lootTables": [
-				"Arcana - Very Rare|XDMG",
-				"Armanents - Very Rare|XDMG"
+				"Armanents - Very Rare|XDMG",
+				"Relics - Very Rare|XDMG"
 			]
 		},
 		{
@@ -1245,6 +1257,9 @@
 			"entries": [
 				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
 				"This collar comes in a variety of colors and sizes, all with metal spikes protruding around the outside of the collar. A creature wearing this magic item gains a +3 bonus to its attack rolls and damage rolls while wearing this collar."
+			],
+			"lootTables": [
+				"Armaments - Very Rare|XDMG"
 			]
 		},
 		{
@@ -1258,6 +1273,9 @@
 			"entries": [
 				"{@b This magical item is for your animal companion or familiar, worn by the following creature types: Beast, Celestial, Fey, Fiend, and Monstrosity.}",
 				"This collar comes in a variety of colors and sizes, all with crystalline studs decorating the outside of the collar. A creature wearing this wondrous item gains a +3 bonus to {@variantrule Armor Class|XPHB} and {@variantrule Saving Throw|XPHB|Saving Throws} while wearing this collar."
+			],
+			"lootTables": [
+				"Armaments - Very Rare|XDMG"
 			]
 		},
 		{
@@ -3697,23 +3715,32 @@
 			"name": "Arrow of Faerie Fire",
 			"source": "XDMG",
 			"page": 231,
+			"baseItem": "arrow|xphb",
 			"type": "A|XPHB",
 			"rarity": "uncommon",
 			"entries": [
 				"When this arrow hits a target, each creature within a 20-foot cube centered on your hit target, must make a {@dc 15} Dexterity {@variantrule Saving Throw|XPHB} or fall under the effects of a {@spell Faerie Fire|XPHB} spell, no concentration required. Your initial target takes magical weapon damage and the effects last for 12 rounds.",
 				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG"
 			]
 		},
 		{
 			"name": "Arrow of Returning",
 			"source": "XDMG",
 			"page": 231,
+			"baseItem": "arrow|xphb",
 			"type": "A|XPHB",
 			"rarity": "uncommon",
 			"bonusWeapon": "+1",
 			"entries": [
 				"Once shot, this +1 arrow will return to the archer's quiver if it misses its target.",
 				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG",
+				"Implements - Uncommon|XDMG"
 			]
 		},
 		{
@@ -10223,6 +10250,19 @@
 			"entries": [
 				"The central jewel of this butterfly-shaped brooch swirls with multicolored iridescence.",
 				"The brooch has 3 charges and regains all expended charges daily at dawn. As a {@variantrule Reaction|XPHB} when a creature you can see within 60 feet of you hits a target with an attack roll and deals damage, you can expend 1 charge and change one damage type the attack deals to one of the following damage types: Acid, Cold, Fire, Lightning, Poison, or Thunder."
+			]
+		},
+		{
+			"name": "Broom of Cleaning",
+			"source": "XDMG",
+			"page": 241,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This appears to be a standard broom until you use a {@action Magic|XPHB|Magic Action} to speak the command word, at which point it begins to sweep the nearby vicinity. You must be within 30 feet of the broom or it'll return to its mundane-like state. It'll continue to clean until you use a Free Action to speak the command word to get it to stop, or until 1 hour as passed."
+			],
+			"lootTables": [
+				"Implements - Common|XDMG"
 			]
 		},
 		{
@@ -21991,7 +22031,11 @@
 						"message|xphb"
 					]
 				}
-			}
+			},
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
 		},
 		{
 			"name": "Earworm",
@@ -23646,6 +23690,10 @@
 			"wondrous": true,
 			"entries": [
 				"Any nonmagical markings written or drawn with this quill can be completely erased by brushing them away with its feather."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
 			]
 		},
 		{
@@ -23931,6 +23979,9 @@
 			"dmgType": "S",
 			"entries": [
 				"This machete is adorned with embossed jungle and tropical designs. While holding it, you gain a +5 bonus to any Wisdom ({@skill Survival|XPHB}) checks you make. Additionally, when you hit a plant or Plant Creature with this weapon, you deal max weapon die damage."
+			],
+			"lootTables": [
+				"Implements - Uncommon|XDMG"
 			]
 		},
 		{
@@ -24669,6 +24720,9 @@
 						]
 					]
 				}
+			],
+			"lootTables": [
+				"Implements - Uncommon|XDMG"
 			]
 		},
 		{
@@ -26879,6 +26933,9 @@
 			"wondrous": true,
 			"entries": [
 				"When you gain the {@condition Unconscious|XPHB} condition as a result of being reduced to 0 {@variantrule Hit Points|XPHB} while wearing these black leather boots, you can choose to not gain the {@condition Prone|XPHB} condition. While you have the {@condition Unconscious|XPHB} condition and are standing in this way, you can walk up to 10 feet on your turn after making a {@variantrule Death Saving Throw|XPHB}."
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG"
 			]
 		},
 		{
@@ -35655,6 +35712,9 @@
 			"entries": [
 				"What makes Cold Iron magical is that Fey creatures are vulnerable to cold iron, responding to it as if it were Poison. Cold Iron Shavings are often used to poison the air as well as creating a barrier on liquids. Fey Creatures who inhale Cold Iron risk the {@condition Poisoned|XPHB} condition and Fey Creatures who are found in lakes and rivers risk becoming trapped underwater, which risks {@hazard Suffocation|XPHB} to those who do need to breathe air.",
 				"When there are Cold Iron Shavings in the air, a Fey creature must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 15}) or risk becoming {@condition Poisoned|XPHB}."
+			],
+			"lootTables": [
+				"Implements - Uncommon|XDMG"
 			]
 		},
 		{
@@ -35668,6 +35728,9 @@
 			"entries": [
 				"What makes Cold Iron magical is that Fey creatures are vulnerable to cold iron, responding to it as if it were Poison. When these are spiked into the land of Fey, it creates an invisible barrier, preventing Fey creatures from leaving its perimeter and entrapping them to dying lands.",
 				"Cold Iron Spikes can be sold individually, however they often come in bundles of 10. As a {@action Utilize|XPHB} action, you can use a blunt object, such as a {@item Hammer|XPHB}, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a {@item Rope|XPHB} or {@item Chain|XPHB} to the spike."
+			],
+			"lootTables": [
+				"Implements - Uncommon|XDMG"
 			]
 		},
 		{
@@ -35687,6 +35750,9 @@
 					"item": "cold iron spike|xdmg",
 					"quantity": 10
 				}
+			],
+			"lootTables": [
+				"Implements - Uncommon|XDMG"
 			]
 		},
 		{
@@ -51312,6 +51378,20 @@
 			}
 		},
 		{
+			"name": "Quill of Studiousness",
+			"source": "XDMG",
+			"page": 291,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This quill produces its own ink and never runs out, no mater how much this quill has written."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
+			]
+		},
+		{
 			"name": "Quill of the Dead",
 			"source": "XDMG",
 			"page": 291,
@@ -51336,16 +51416,10 @@
 						"speak with dead|xphb"
 					]
 				}
-			}
-		},
-		{
-			"name": "Quill of Studiousness",
-			"source": "XDMG",
-			"page": 291,
-			"rarity": "common",
-			"wondrous": true,
-			"entries": [
-				"This quill produces its own ink and never runs out, no mater how much this quill has written."
+			},
+			"lootTables": [
+				"Arcana - Rare|XDMG",
+				"Implements - Rare|XDMG"
 			]
 		},
 		{
@@ -51423,7 +51497,10 @@
 					}
 				],
 				"weightless": true
-			}
+			},
+			"lootTables": [
+				"Armaments - Uncommon|XDMG"
+			]
 		},
 		{
 			"name": "Quiver of Ehlonna",
@@ -51786,6 +51863,10 @@
 				"This black crystal pendant is a magical gateway to a small pocket dimension. You can use the pendant as an improvised weapon to make a melee or ranged weapon attack against a Large or smaller creature. On a hit, the target must succeed on a {@dc 10} Wisdom {@variantrule Saving Throw|XPHB} or be trapped within the crystal. A creature that wants to be trapped can intentionally fail this {@variantrule Saving Throw|XPHB}",
 				"Only one creature at a time can be held in this pendant. That creature is aware of the passage of time and can see the world outside of this talisman as if through a window, however, while inside the creature does not require food or water to survive. You can release a held creature to an unoccupied space within 5 feet of you as a {@variantrule Bonus Action|XPHB}.",
 				"If a companion creature of yours has already been inside of this pendant and is reduced to 0 hit points while within 100 feet of you, it is immediately drawn into the pendant and stabilized. If the pendant already holds a creature within, this effect fails."
+			],
+			"lootTables": [
+				"Arcana - Very Rare|XDMG",
+				"Implements - Very Rare|XDMG"
 			]
 		},
 		{
@@ -54500,6 +54581,9 @@
 			"rarity": "uncommon",
 			"entries": [
 				"While wearing this ring, you can choose to summon a nocked arrow or bolt whenever you draw a bow or crossbow. The ammunition is magical. An arrow or bolt vanishes if you don't fire it right away and disappears right after it hits or misses."
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG"
 			]
 		},
 		{
@@ -59138,6 +59222,10 @@
 			"entries": [
 				"Once penned, this special ink can only be seen and read in total {@variantrule Darkness|XPHB}. While in {@variantrule Darkness|XPHB}, any written or tattooed words, illustrations, or other marks made with the ink glow with a soft, colored light. One bottle of Shadow Ink provides enough ink to fill 50 pages with writing, illustrations, or other such markings.",
 				"A {@spell Detect Magic|XPHB} spell reveals only that there is something faintly magical about the area where this ink has been used, but it doesn't reveal the kind of magic or how to interact with it."
+			],
+			"lootTables": [
+				"Arcana - Uncommon|XDMG",
+				"Implements - Uncommon|XDMG"
 			]
 		},
 		{
@@ -60850,6 +60938,10 @@
 			"wondrous": true,
 			"entries": [
 				"As a {@variantrule Magic Action|XPHB}, you can speak a command word to activate this quill. It will sketch whatever you describe, producing an endless supply of ink to do so. It is quick and fairly skilled, but can't compare to a practiced artist."
+			],
+			"lootTables": [
+				"Arcana - Uncommon|XDMG",
+				"Implements - Uncommon|XDMG"
 			]
 		},
 		{
@@ -61899,10 +61991,14 @@
 			"name": "Speedy Quill",
 			"source": "XDMG",
 			"page": 305,
-			"rarity": "common",
+			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
 				"The feather adorning this quill was a gift from either a mighty pegasus, griffon, or other magically fast feathery creature, and has a beautiful, pearlescent shimmer. When you write with this magic quill, the time it takes for you to write something, such as copying a spell into a spellbook or creating a spell scroll, is halved."
+			],
+			"lootTables": [
+				"Arcana - Uncommon|XDMG",
+				"Implements - Uncommon|XDMG"
 			]
 		},
 		{
@@ -68817,6 +68913,10 @@
 			"entries": [
 				"This golden stein is decorated with dancing dwarves and grain patterns.",
 				"When you make a {@action Magic|XPHB|Magic Action} to speak the command word while grasping the handle, the tankard fills with three pints of rich dwarven ale. This tankard has three charges and regains all expended charges at dawn."
+			],
+			"lootTables": [
+				"Arcana - Common|XDMG",
+				"Implements - Common|XDMG"
 			]
 		},
 		{

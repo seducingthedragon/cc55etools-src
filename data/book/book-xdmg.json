@@ -26356,6 +26356,7 @@
 								"{@item Bracers of Defense|XDMG}",
 								"{@item Brazier of Commanding Fire Elementals|XDMG}",
 								"{@item Brooch of Shielding|XDMG}",
+								"{@item Broom of Cleaning|XDMG}",
 								"{@item Broom of Flying|XDMG}",
 								"{@item Candle of Invocation|XDMG}",
 								"{@item Candle of the Deep|XDMG}",
@@ -27003,6 +27004,12 @@
 								{
 									"type": "statblock",
 									"name": "Brooch of Shielding",
+									"tag": "item",
+									"source": "XDMG"
+								},
+								{
+									"type": "statblock",
+									"name": "Broom of Cleaning",
 									"tag": "item",
 									"source": "XDMG"
 								},
@@ -30723,131 +30730,151 @@
 											"{@item Boots of False Tracks|XDMG}"
 										],
 										[
-											"07\u201308",
+											"07\u201310",
+											"{@item Broom of Cleaning|XDMG}"
+										],
+										[
+											"11\u201312",
 											"{@item Candle of the Deep|XDMG}"
 										],
 										[
-											"09\u201310",
+											"13\u201314",
 											"{@item Charlatan's Die|XDMG}"
 										],
 										[
-											"11\u201313",
+											"15\u201316",
 											"{@item Cloak of Many Fashions|XDMG}"
 										],
 										[
-											"14\u201315",
+											"17\u201318",
 											"{@item Clockwork Amulet|XDMG}"
 										],
 										[
-											"16\u201317",
+											"19\u201320",
 											"{@item Ear Horn of Hearing|XDMG}"
 										],
 										[
-											"18\u201319",
+											"21\u201322",
+											"{@item Earring of Message|XDMG}"
+										],
+										[
+											"23\u201326",
+											"{@item Erasable Quill|XDMG}"
+										],
+										[
+											"27\u201328",
 											"{@item Ersatz Eye|XDMG}"
 										],
 										[
-											"20\u201321",
+											"29\u201332",
 											"{@item Heward's Handy Spice Pouch|XDMG}"
 										],
 										[
-											"22\u201323",
+											"33\u201334",
 											"{@item Horn of Silent Alarm|XDMG}"
 										],
 										[
-											"24\u201325",
+											"35\u201336",
 											"{@item Instrument of Illusions|XDMG}"
 										],
 										[
-											"26\u201327",
+											"37\u201338",
 											"{@item Instrument of Scribing|XDMG}"
 										],
 										[
-											"28\u201329",
+											"39\u201342",
 											"{@item Lock of Trickery|XDMG}"
 										],
 										[
-											"30\u201332",
+											"43\u201346",
 											"{@item Moon-Touched Sword|XDMG}"
 										],
 										[
-											"33\u201334",
+											"47\u201348",
 											"{@item Mystery Key|XDMG}"
 										],
 										[
-											"35\u201336",
+											"49\u201350",
 											"{@item Orb of Direction|XDMG}"
 										],
 										[
-											"37\u201338",
+											"51\u201352",
 											"{@item Orb of Time|XDMG}"
 										],
 										[
-											"39\u201340",
+											"53\u201354",
 											"{@item Perfume of Bewitching|XDMG}"
 										],
 										[
-											"41\u201342",
+											"55\u201358",
 											"{@item Pipe of Smoke Monsters|XDMG}"
 										],
 										[
-											"43\u201344",
+											"59\u201360",
 											"{@item Pole of Angling|XDMG}"
 										],
 										[
-											"45\u201346",
+											"61\u201362",
 											"{@item Pole of Collapsing|XDMG}"
 										],
 										[
-											"47\u201352",
+											"63\u201366",
 											"{@item Potion of Climbing|XDMG}"
 										],
 										[
-											"53\u201358",
+											"67\u201368",
 											"{@item Potion of Comprehension|XDMG}"
 										],
 										[
-											"59\u201374",
+											"69\u201372",
 											"{@item Potion of Healing|XDMG}"
 										],
 										[
-											"75\u201376",
+											"73\u201374",
 											"{@item Prosthetic Limb|XDMG}"
 										],
 										[
-											"77\u201378",
-											"{@item Rope of Mending|XDMG}"
+											"75\u201378",
+											"{@item Quill of Studiousness|XDMG}"
 										],
 										[
 											"79\u201380",
-											"{@item Staff of Birdcalls|XDMG}"
+											"{@item Rope of Mending|XDMG}"
 										],
 										[
 											"81\u201382",
-											"{@item Sylvan Talon|XDMG}"
+											"{@item Staff of Birdcalls|XDMG}"
 										],
 										[
 											"83\u201384",
-											"{@item Talking Doll|XDMG}"
+											"{@item Sylvan Talon|XDMG}"
 										],
 										[
 											"85\u201386",
-											"{@item Tankard of Sobriety|XDMG}"
+											"{@item Talking Doll|XDMG}"
 										],
 										[
 											"87\u201390",
+											"{@item Tankard of Plenty|XDMG}"
+										],
+										[
+											"91\u201392",
+											"{@item Tankard of Sobriety|XDMG}"
+										],
+										[
+											"93\u201394",
 											"{@item Veteran's Cane|XDMG}"
 										],
 										[
-											"91\u201393",
+											"95\u201396",
 											"{@item Walloping Ammunition|XDMG}"
 										],
 										[
-											"94\u201396",
+											"97\u201398",
 											"{@item Wand of Conducting|XDMG}"
 										],
 										[
-											"97\u201300",
+											"99\u201300",
 											"{@item Wand of Pyrotechnics|XDMG}"
 										]
 									],
@@ -30883,163 +30910,183 @@
 										],
 										[
 											"05\u201306",
-											"{@item Bag of Holding|XDMG}"
+											"{@item Arrow of Returning|XDMG}"
 										],
 										[
 											"07\u201308",
-											"{@item Boots of Elvenkind|XDMG}"
+											"{@item Bag of Holding|XDMG}"
 										],
 										[
 											"09\u201310",
-											"{@item Boots of Striding and Springing|XDMG}"
+											"{@item Boots of Elvenkind|XDMG}"
 										],
 										[
 											"11\u201312",
-											"{@item Boots of the Winterlands|XDMG}"
+											"{@item Boots of Striding and Springing|XDMG}"
 										],
 										[
 											"13\u201314",
-											"{@item Broom of Flying|XDMG}"
+											"{@item Boots of the Winterlands|XDMG}"
 										],
 										[
 											"15\u201316",
-											"{@item Cap of Water Breathing|XDMG}"
+											"{@item Broom of Flying|XDMG}"
 										],
 										[
 											"17\u201318",
-											"{@item Cloak of Elvenkind|XDMG}"
+											"{@item Cap of Water Breathing|XDMG}"
 										],
 										[
 											"19\u201320",
-											"{@item Cloak of Protection|XDMG}"
+											"{@item Cloak of Elvenkind|XDMG}"
 										],
 										[
 											"21\u201322",
+											"{@item Cloak of Protection|XDMG}"
+										],
+										[
+											"23\u201324",
 											"{@item Cloak of the Manta Ray|XDMG}"
 										],
 										[
-											"23\u201325",
-											"Cold Iron, such as {@item Cold Iron Shavings|XDMG}, {@item Cold Iron Spike|XDMG|Cold Iron Spike, 1 Count}, or {@item Cold Iron Spikes|XDMG|Cold Iron Spike, 10 Count}"
+											"25\u201326",
+											"{@item Cold Iron Shavings|XDMG}"
 										],
 										[
-											"26\u201327",
+											"27\u201328",
+											"Individual {@item Cold Iron Spike|XDMG} or {@item Cold Iron Spikes|XDMG|10 Pack}"
+										],
+										[
+											"29\u201330",
 											"{@item Decanter of Endless Water|XDMG}"
 										],
 										[
-											"28",
+											"31\u201332",
 											"{@item Driftglobe|XDMG}"
 										],
 										[
-											"29\u201331",
-											"{@item Dust of Disappearance|XDMG}"
+											"33\u201334",
+											"Dust of {@item Dust of Disappearance|XDMG|Disappearance} or {@item Dust of Dryness|XDMG|Dryness}"
 										],
 										[
-											"32\u201334",
-											"{@item Dust of Dryness|XDMG}"
-										],
-										[
-											"35",
+											"35\u201336",
 											"{@item Dust of Sneezing and Choking|XDMG}"
 										],
 										[
-											"36\u201338",
+											"37\u201338",
 											"{@item Enspelled Weapon|XDMG} ({@item Enspelled Weapon (Cantrip)|XDMG|cantrip} or {@item Enspelled Weapon (Level 1)|XDMG|level 1} spell)"
 										],
 										[
-											"39",
+											"39\u201340",
+											"{@item Explorer's Machete|XDMG}"
+										],
+										[
+											"41\u201342",
 											"{@item Eyes of Minute Seeing|XDMG}"
 										],
 										[
-											"40\u201342",
+											"43\u201344",
 											"{@item Eyes of the Eagle|XDMG}"
 										],
 										[
-											"43",
+											"45\u201346",
+											"{@item Fairy Dust|XDMG}"
+										],
+										[
+											"47\u201348",
 											"{@item Gloves of Missile Snaring|XDMG}"
 										],
 										[
-											"44\u201346",
+											"49\u201350",
 											"{@item Gloves of Swimming and Climbing|XDMG}"
 										],
 										[
-											"47\u201349",
+											"51\u201352",
 											"{@item Gloves of Thievery|XDMG}"
 										],
 										[
-											"50\u201352",
+											"53\u201354",
 											"{@item Goggles of Night|XDMG}"
 										],
 										[
-											"53",
+											"55\u201356",
 											"{@item Hag Eye|XDMG}"
 										],
 										[
-											"54\u201356",
+											"57\u201358",
 											"{@item Helm of Comprehending Languages|XDMG}"
 										],
 										[
-											"57",
+											"59\u201360",
 											"{@item Immovable Rod|XDMG}"
 										],
 										[
-											"58\u201360",
+											"61\u201362",
 											"{@item Instrument of the Bards|XDMG} ({@item Instrument of the Bards, Doss Lute|XDMG|Doss lute}, {@item Instrument of the Bards, Fochlucan Bandore|XDMG|Fochlucan bandore}, or {@item Instrument of the Bards, Mac-Fuirmidh Cittern|XDMG|Mac-Fuirmidh cittern})"
 										],
 										[
-											"61\u201363",
+											"63\u201364",
 											"{@item Lantern of Revealing|XDMG}"
 										],
 										[
-											"64\u201366",
+											"65\u201366",
 											"{@item Nature's Mantle|XDMG}"
 										],
 										[
-											"67\u201369",
+											"67\u201368",
 											"{@item Oil of Slipperiness|XDMG}"
 										],
 										[
-											"70\u201372",
+											"69\u201370",
 											"{@item Pipes of Haunting|XDMG}"
 										],
 										[
-											"73\u201375",
+											"71\u201372",
 											"{@item Pipes of the Sewers|XDMG}"
 										],
 										[
-											"76\u201378",
+											"73\u201374",
 											"{@item Potion of Growth|XDMG}"
 										],
 										[
-											"79\u201380",
+											"75\u201376",
 											"{@item Potion of Greater Healing|XDMG|Potion of Healing (greater)}"
 										],
 										[
-											"81\u201382",
+											"77\u201378",
 											"{@item Potion of Water Breathing|XDMG}"
 										],
 										[
-											"83\u201384",
+											"79\u201380",
 											"{@item Quaal's Feather Token|XDMG} ({@item Quaal's Feather Token, Anchor|XDMG|anchor}, {@item Quaal's Feather Token, Fan|XDMG|fan}, or {@item Quaal's Feather Token, Tree|XDMG|tree})"
 										],
 										[
+											"81\u201382",
+											"Ring of {@item Ring of Jumping|XDMG|Jumping} or {@item Ring of Swimming|XDMG|Swimming}"
+										],
+										[
+											"83\u201384",
+											"Ring of {@item Ring of Shadows|XDMG|Shadows} or {@item Ring of Warmth|XDMG|Warmth}"
+										],
+										[
 											"85\u201386",
-											"{@item Ring of Jumping|XDMG}"
-										],
-										[
-											"87\u201388",
-											"{@item Ring of Swimming|XDMG}"
-										],
-										[
-											"89\u201390",
-											"{@item Ring of Warmth|XDMG}"
-										],
-										[
-											"91\u201392",
 											"{@item Robe of Useful Items|XDMG}"
 										],
 										[
-											"93\u201394",
+											"87\u201388",
 											"{@item Rope of Climbing|XDMG}"
+										],
+										[
+											"89\u201390",
+											"{@item Shadow Ink|XDMG}"
+										],
+										[
+											"91\u201392",
+											"{@item Shields of Corvids|XDMG}"
+										],
+										[
+											"93\u201394",
+											"{@item Sketchy Quill|XDMG|Sketchy} or {@item Speedy Quill|XDMG|Speedy} Quill"
 										],
 										[
 											"95\u201396",
@@ -31101,11 +31148,7 @@
 											"{@item Chime of Opening|XDMG}"
 										],
 										[
-											"25\u201326",
-											"{@item Cold Iron Ammunition|XDMG} or {@item Cold Iron Weapon|XDMG}"
-										],
-										[
-											"27\u201328",
+											"25\u201328",
 											"{@item Dimensional Shackles|XDMG}"
 										],
 										[
@@ -31158,11 +31201,11 @@
 										],
 										[
 											"77\u201380",
-											"{@item Ring of Evasion|XDMG}"
+											"{@item Quill of the Dead|XDMG}"
 										],
 										[
 											"81\u201384",
-											"{@item Ring of Free Action|XDMG}"
+											"Ring of {@item Ring of Evasion|XDMG|Evasion} or {@item Ring of Free Action|XDMG|Free Action}"
 										],
 										[
 											"85\u201388",
@@ -31204,15 +31247,15 @@
 									],
 									"rows": [
 										[
-											"01\u201307",
+											"01\u201305",
 											"{@item +3 Ammunition|XDMG|Ammunition, +3}"
 										],
 										[
-											"08\u201314",
+											"06\u201311",
 											"{@item Bag of Devouring|XDMG}"
 										],
 										[
-											"15\u201321",
+											"12\u201321",
 											"{@item Carpet of Flying|XDMG}"
 										],
 										[
@@ -31220,47 +31263,51 @@
 											"{@item Enspelled Weapon|XDMG} ({@item Enspelled Weapon (Level 4)|XDMG|level 4} or {@item Enspelled Weapon (Level 5)|XDMG|5} spell)"
 										],
 										[
-											"28\u201333",
+											"28\u201332",
 											"{@item Horseshoes of a Zephyr|XDMG}"
 										],
 										[
-											"34\u201340",
+											"33\u201338",
 											"{@item Instrument of the Bards, Anstruth Harp|XDMG|Instrument of the Bards (Anstruth harp)}"
 										],
 										[
-											"41\u201347",
+											"39\u201344",
 											"{@item Ioun Stone|XDMG} ({@item Ioun Stone, Agility|XDMG|agility})"
 										],
 										[
-											"48\u201353",
+											"45\u201350",
 											"{@item Lute of Thunderous Thumping|XDMG}"
 										],
 										[
-											"54\u201360",
+											"51\u201356",
 											"{@item Manual of Quickness of Action|XDMG}"
 										],
 										[
-											"61\u201367",
+											"57\u201362",
 											"{@item Nolzur's Marvelous Pigments|XDMG}"
 										],
 										[
-											"68\u201373",
+											"63\u201368",
 											"{@item Potion of Flying|XDMG}"
 										],
 										[
-											"74\u201379",
+											"69\u201373",
 											"{@item Potion of Supreme Healing|XDMG|Potion of Healing (supreme)}"
 										],
 										[
-											"80\u201386",
+											"74\u201379",
 											"{@item Potion of Speed|XDMG}"
 										],
 										[
-											"87\u201393",
+											"80\u201389",
+											"{@item Raven's Slumber|XDMG}"
+										],
+										[
+											"90\u201395",
 											"{@item Tome of Leadership and Influence|XDMG}"
 										],
 										[
-											"94\u201300",
+											"96\u201300",
 											"{@item +3 Wild Staff|XDMG|Wild Staff, +3}"
 										]
 									],
@@ -31287,27 +31334,27 @@
 									],
 									"rows": [
 										[
-											"01\u201317",
+											"01\u201320",
 											"{@item Enspelled Weapon|XDMG} (level 6, 7, or 8 spell)"
 										],
 										[
-											"18\u201334",
+											"21\u201335",
 											"{@item Instrument of the Bards|XDMG} ({@item Instrument of the Bards, Ollamh Harp|XDMG|Ollamh harp})"
 										],
 										[
-											"35\u201354",
+											"36\u201355",
 											"{@item Sovereign Glue|XDMG}"
 										],
 										[
-											"55\u201370",
+											"56\u201370",
 											"{@item Sphere of Annihilation|XDMG}"
 										],
 										[
-											"71\u201383",
+											"71\u201390",
 											"{@item Talisman of the Sphere|XDMG}"
 										],
 										[
-											"84\u201300",
+											"91\u201300",
 											"{@item Universal Solvent|XDMG}"
 										]
 									],
@@ -31342,32 +31389,36 @@
 									],
 									"rows": [
 										[
-											"01\u201308",
+											"01\u201310",
 											"{@item Ear Horn of Hearing|XDMG}"
 										],
 										[
-											"09\u201328",
+											"11\u201320",
 											"{@item Potion of Healing|XDMG}"
 										],
 										[
-											"29\u201336",
+											"21\u201330",
 											"{@item Pot of Awakening|XDMG}"
 										],
 										[
-											"37\u201344",
+											"31\u201340",
 											"{@item Ruby of the War Mage|XDMG}"
 										],
 										[
-											"45\u201352",
+											"41\u201350",
 											"{@item Shield of Expression|XDMG}"
 										],
 										[
-											"53\u201360",
+											"51\u201360",
 											"{@item Smoldering Armor|XDMG}"
 										],
 										[
-											"61\u201380",
-											"{@item Spell Scroll|XDMG} ({@item Spell Scroll (Cantrip)|XDMG|cantrip} or {@item Spell Scroll (Level 1)|XDMG|level 1} spell)"
+											"61\u201370",
+											"{@item Spell Scroll|XDMG} ({@item Spell Scroll (Cantrip)|XDMG|cantrip})"
+										],
+										[
+											"71\u201380",
+											"{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 1)|XDMG|level 1} spell)"
 										],
 										[
 											"81\u201390",
@@ -31402,63 +31453,75 @@
 									"rows": [
 										[
 											"01\u201305",
-											"{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Cantrip)|XDMG|cantrip} or {@item Enspelled Staff (Level 1)|XDMG|level 1} spell)"
+											"{@item +1 Armor|XDMG|Armor, +1}"
 										],
 										[
 											"06\u201310",
-											"{@item Keoghtom's Ointment|XDMG}"
+											"{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Cantrip)|XDMG|cantrip})"
 										],
 										[
 											"11\u201315",
-											"{@item Mariner's Armor|XDMG}"
+											"{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Level 1)|XDMG|level 1} spell)"
 										],
 										[
 											"16\u201320",
-											"{@item Nature's Mantle|XDMG}"
+											"{@item Keoghtom's Ointment|XDMG}"
 										],
 										[
 											"21\u201325",
-											"{@item Pearl of Power|XDMG}"
+											"{@item Mariner's Armor|XDMG}"
 										],
 										[
 											"26\u201330",
-											"{@item Periapt of Health|XDMG}"
+											"{@item +1 Moon Sickle|XDMG|Moon Sickle, +1}"
 										],
 										[
 											"31\u201335",
-											"{@item Periapt of Wound Closure|XDMG}"
+											"{@item Nature's Mantle|XDMG}"
 										],
 										[
 											"36\u201340",
+											"{@item Pearl of Power|XDMG}"
+										],
+										[
+											"41\u201345",
+											"{@item Periapt of Health|XDMG}"
+										],
+										[
+											"46\u201350",
+											"{@item Periapt of Wound Closure|XDMG}"
+										],
+										[
+											"51\u201355",
 											"{@item Potion of Animal Friendship|XDMG}"
 										],
 										[
-											"41\u201355",
+											"56\u201360",
 											"{@item Potion of Greater Healing|XDMG|Potion of Healing (greater)}"
 										],
 										[
-											"56\u201360",
+											"61\u201365",
 											"{@item Potion of Resistance|XDMG}"
 										],
 										[
-											"61\u201365",
+											"66\u201370",
 											"{@item Ring of Water Walking|XDMG}"
 										],
 										[
-											"66\u201370",
+											"71\u201375",
 											"{@item Sending Stones|XDMG}"
 										],
 										[
-											"71\u201380",
-											"{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 2)|XDMG|level 2} or {@item Spell Scroll (Level 3)|XDMG|level 3} spell)"
+											"76\u201380",
+											"{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 2)|XDMG|level 2} spell)"
 										],
 										[
 											"81\u201385",
-											"{@item Staff of the Adder|XDMG}"
+											"{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 3)|XDMG|level 3} spell)"
 										],
 										[
 											"86\u201390",
-											"{@item Staff of the Python|XDMG}"
+											"Staff of the {@item Staff of the Adder|XDMG|Adder} or {@item Staff of the Python|XDMG|Python}"
 										],
 										[
 											"91\u201395",
@@ -31492,119 +31555,99 @@
 									],
 									"rows": [
 										[
-											"01\u201303",
+											"01\u201304",
 											"{@item Amulet of Health|XDMG}"
 										],
 										[
-											"04\u201307",
-											"{@item +1 Armor|XDMG|Armor, +1}"
+											"05\u201308",
+											"{@item +2 Armor|XDMG|Armor, +2}"
 										],
 										[
-											"08\u201309",
+											"09\u201312",
 											"{@item Bowl of Commanding Water Elementals|XDMG}"
 										],
 										[
-											"10\u201311",
+											"13\u201316",
 											"{@item Brazier of Commanding Fire Elementals|XDMG}"
 										],
 										[
-											"12\u201313",
+											"17\u201320",
 											"{@item Censer of Controlling Air Elementals|XDMG}"
 										],
 										[
-											"14\u201316",
+											"21\u201324",
 											"{@item Elixir of Health|XDMG}"
 										],
 										[
-											"17\u201319",
+											"25\u201328",
 											"{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Level 2)|XDMG|level 2} or {@item Enspelled Staff (Level 3)|XDMG|3} spell)"
 										],
 										[
-											"20\u201322",
+											"29\u201332",
 											"{@item Horn of Blasting|XDMG}"
 										],
 										[
-											"23\u201325",
+											"33\u201336",
 											"{@item Horn of Valhalla|XDMG} ({@item Horn of Valhalla, Brass|XDMG|brass} or {@item Horn of Valhalla, Silver|XDMG|silver})"
 										],
 										[
-											"26\u201328",
+											"37\u201340",
 											"{@item Ioun Stone|XDMG} ({@item Ioun Stone, Reserve|XDMG|reserve} or {@item Ioun Stone, Sustenance|XDMG|sustenance})"
 										],
 										[
-											"29\u201331",
-											"{@item Mace of Disruption|XDMG}"
+											"41\u201344",
+											"Mace of {@item Mace of Disruption|XDMG|Disruption}, {@item Mace of Smiting|XDMG|Smiting}, or {@item Mace of Terror|XDMG|Terror}"
 										],
 										[
-											"32\u201334",
-											"{@item Mace of Smiting|XDMG}"
+											"45\u201348",
+											"{@item +2 Moon Sickle|XDMG|Moon Sickle, +2}"
 										],
 										[
-											"35\u201337",
-											"{@item Mace of Terror|XDMG}"
-										],
-										[
-											"38\u201340",
+											"49\u201352",
 											"{@item Necklace of Prayer Beads|XDMG}"
 										],
 										[
-											"41\u201343",
+											"53\u201356",
 											"{@item Periapt of Proof against Poison|XDMG}"
 										],
 										[
-											"44\u201351",
+											"57\u201360",
 											"{@item Potion of Superior Healing|XDMG|Potion of Healing (superior)}"
 										],
 										[
-											"52\u201354",
-											"{@item Ring of Animal Influence|XDMG}"
+											"61\u201364",
+											"Ring of {@item Ring of Animal Influence|XDMG|Animal Influence}, {@item Ring of Resistance|XDMG|Resistance}, or {@item Ring of Spell Storing|XDMG|Spell Storing}"
 										],
 										[
-											"55\u201358",
-											"{@item Ring of Resistance|XDMG}"
-										],
-										[
-											"59\u201361",
-											"{@item Ring of Spell Storing|XDMG}"
-										],
-										[
-											"62\u201365",
+											"65\u201368",
 											"{@item Scroll of Protection|XDMG}"
 										],
 										[
-											"66\u201373",
+											"69\u201372",
 											"{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 4)|XDMG|level 4} or {@item Spell Scroll (Level 5)|XDMG|level 5} spell)"
 										],
 										[
-											"74\u201376",
+											"73\u201376",
 											"{@item Staff of Charming|XDMG}"
 										],
 										[
-											"77\u201379",
-											"{@item Staff of Healing|XDMG}"
+											"77\u201380",
+											"Staff of {@item Staff of Healing|XDMG|Healing} or {@item Staff of Withering|XDMG|Withering}"
 										],
 										[
-											"80\u201382",
-											"{@item Staff of Swarming Insects|XDMG}"
+											"81\u201384",
+											"Staff of {@item Staff of Swarming Insects|XDMG|Swarming Insects} or {@item Staff of the Woodlands|XDMG|the Woodlands}"
 										],
 										[
-											"83\u201385",
-											"{@item Staff of the Woodlands|XDMG}"
-										],
-										[
-											"86\u201388",
-											"{@item Staff of Withering|XDMG}"
-										],
-										[
-											"89\u201390",
+											"85\u201388",
 											"{@item Stone of Controlling Earth Elementals|XDMG}"
 										],
 										[
-											"91\u201393",
+											"89\u201392",
 											"{@item Tentacle Rod|XDMG}"
 										],
 										[
-											"94\u201396",
+											"93\u201396",
 											"{@item Wand of Paralysis|XDMG}"
 										],
 										[
@@ -31636,7 +31679,7 @@
 									"rows": [
 										[
 											"01\u201305",
-											"{@item +2 Armor|XDMG|Armor, +2}"
+											"{@item +3 Armor|XDMG|Armor, +3}"
 										],
 										[
 											"06\u201310",
@@ -31648,34 +31691,42 @@
 										],
 										[
 											"16\u201320",
-											"{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Level 4)|XDMG|level 4} or {@item Enspelled Staff (Level 5)|XDMG|5} spell)"
+											"{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Level 4)|XDMG|level 4} spell)"
 										],
 										[
 											"21\u201325",
-											"{@item Horn of Valhalla, Bronze|XDMG|Horn of Valhalla (bronze)}"
+											"{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Level 5)|XDMG|5} spell)"
 										],
 										[
 											"26\u201330",
-											"{@item Ioun Stone|XDMG} ({@item Ioun Stone, Insight|XDMG|insight})"
+											"{@item Horn of Valhalla, Bronze|XDMG|Horn of Valhalla (bronze)}"
 										],
 										[
 											"31\u201335",
+											"{@item Ioun Stone|XDMG} ({@item Ioun Stone, Insight|XDMG|insight})"
+										],
+										[
+											"36\u201340",
 											"{@item Manual of Bodily Health|XDMG}"
 										],
 										[
-											"36\u201343",
+											"41\u201345",
+											"{@item +3 Moon Sickle|XDMG|Moon Sickle, +3}"
+										],
+										[
+											"46\u201350",
 											"{@item Potion of Supreme Healing|XDMG|Potion of Healing (supreme)}"
 										],
 										[
-											"44\u201350",
+											"51\u201355",
 											"{@item Potion of Vitality|XDMG}"
 										],
 										[
-											"51\u201355",
+											"56\u201360",
 											"{@item Rod of Alertness|XDMG}"
 										],
 										[
-											"56\u201365",
+											"61\u201365",
 											"{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 6)|XDMG|level 6}, {@item Spell Scroll (Level 7)|XDMG|level 7}, or {@item Spell Scroll (Level 8)|XDMG|level 8} spell)"
 										],
 										[
@@ -31730,39 +31781,35 @@
 									],
 									"rows": [
 										[
-											"01\u201308",
+											"01\u201310",
 											"{@item Armor of Invulnerability|XDMG}"
 										],
 										[
-											"09\u201318",
-											"{@item +3 Armor|XDMG|Armor, +3}"
-										],
-										[
-											"19\u201327",
+											"11\u201320",
 											"{@item Enspelled Staff|XDMG} (level 6, 7, or 8 spell)"
 										],
 										[
-											"28\u201336",
+											"21\u201330",
 											"{@item Holy Avenger|XDMG}"
 										],
 										[
-											"37\u201345",
+											"31\u201340",
 											"{@item Horn of Valhalla, Iron|XDMG|Horn of Valhalla (iron)}"
 										],
 										[
-											"46\u201354",
+											"41\u201350",
 											"{@item Rod of Resurrection|XDMG}"
 										],
 										[
-											"55\u201363",
+											"51\u201360",
 											"{@item Scarab of Protection|XDMG}"
 										],
 										[
-											"64\u201372",
+											"61\u201370",
 											"{@item Scroll of Titan Summoning|XDMG}"
 										],
 										[
-											"73\u201380",
+											"71\u201380",
 											"{@item Spell Scroll|XDMG} ({@item Spell Scroll (Level 9)|XDMG|level 9} spell)"
 										],
 										[
