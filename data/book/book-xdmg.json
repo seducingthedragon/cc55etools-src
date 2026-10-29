@@ -30136,12 +30136,8 @@
 											"{@item Shield of Expression|XDMG}"
 										],
 										[
-											"51\u201355",
-											"{@item Silvered Ammunition|XDMG}"
-										],
-										[
-											"56\u201360",
-											"{@item Silvered Weapon|XDMG}"
+											"51\u201360",
+											"Silvered {@item Silvered Ammunition|XDMG|Ammunition} or {@item Silvered Weapon|XDMG|Weapon}"
 										],
 										[
 											"61\u201370",
@@ -30184,23 +30180,23 @@
 									"rows": [
 										[
 											"01\u201304",
-											"{@item Adamantine Ammunition|XDMG}"
-										],
-										[
-											"05\u201308",
-											"{@item Adamantine Armor|XDMG}"
-										],
-										[
-											"09\u201312",
-											"{@item Adamantine Weapon|XDMG}"
-										],
-										[
-											"13\u201316",
 											"{@item +1 Ammunition|XDMG|Ammunition, +1}"
 										],
 										[
+											"05\u201308",
+											"{@item +1 Armor|XDMG|Armor, +1}"
+										],
+										[
+											"09\u201312",
+											"Arrow of {@item Arrow of Faerie Fire|XDMG|Faerie Fire} or {@item Arrow of Returning|XDMG|Returning}"
+										],
+										[
+											"13\u201316",
+											"{@item Bow of Accuracy|XDMG} or {@item Bracers of Archery|XDMG}"
+										],
+										[
 											"17\u201320",
-											"{@item Bracers of Archery|XDMG}"
+											"{@item +1 Dragonkin Weapon|XDMG|Dragonkin Weapon, +1}"
 										],
 										[
 											"21\u201324",
@@ -30212,51 +30208,51 @@
 										],
 										[
 											"29\u201332",
-											"{@item Gauntlets of Ogre Power|XDMG}"
+											"{@item Funeral Marchers|XDMG}"
 										],
 										[
 											"33\u201336",
-											"{@item +1 Hunter's Bracers|XDMG|Hunter's Bracers, +1}"
+											"{@item Gauntlets of Ogre Power|XDMG}"
 										],
 										[
 											"37\u201340",
-											"{@item Javelin of Lightning|XDMG}"
+											"+1 Druid and/or Ranger Spellcasting Focus: {@item +1 Hunter's Bracers|XDMG|Hunter's Bracers}, {@item +1 Moon Sickle|XDMG|Moon Sickle}, or {@item +1 Wild Staff|XDMG|Wild Staff}"
 										],
 										[
 											"41\u201344",
-											"{@item Mariner's Armor|XDMG}"
+											"{@item Javelin of Lightning|XDMG}"
 										],
 										[
 											"45\u201348",
-											"{@item Mithral Armor|XDMG}"
+											"Armor: {@item Mariner's Armor|XDMG|Mariner's} or {@item Mithral Armor|XDMG|Mithral}"
 										],
 										[
 											"49\u201352",
-											"{@item +1 Moon Sickle|XDMG|Moon Sickle, +1}"
+											"Potion of {@item Potion of Hill Giant Strength|XDMG|Hill Giant Strength} or {@item Potion of Pugilism|XDMG|Pugilism}"
 										],
 										[
 											"53\u201356",
-											"{@item Potion of Hill Giant Strength|XDMG|Potion of Giant Strength (hill)}"
+											"Quiver of {@item Quiver of Arrow Storing|XDMG|Arrow Storing} or {@item Quiver of EhlEhlonna}"
 										],
 										[
 											"57\u201360",
-											"{@item Potion of Pugilism|XDMG}"
+											"{@item Ring of Volley|XDMG}"
 										],
 										[
 											"61\u201364",
-											"{@item Quiver of Ehlonna|XDMG}"
-										],
-										[
-											"65\u201368",
 											"{@item Saddle of the Cavalier|XDMG}"
 										],
 										[
-											"69\u201372",
+											"65\u201368",
 											"{@item Sentinel Shield|XDMG}"
 										],
 										[
-											"73\u201376",
+											"69\u201372",
 											"{@item +1 Shield|XDMG|Shield, +1}"
+										],
+										[
+											"73\u201376",
+											"+1 Collars: {@item +1 Spiked Collar|XDMG|Spiked} or {@item +1 Studded Collar|XDMG|Studded}"
 										],
 										[
 											"77\u201380",
@@ -30268,15 +30264,15 @@
 										],
 										[
 											"85\u201388",
-											"{@item +1 Weapon|XDMG|Weapon, +1}"
+											"{@item Vine Weapon|XDMG}"
 										],
 										[
 											"89\u201392",
-											"{@item Weapon of Warning|XDMG}"
+											"{@item +1 Weapon|XDMG|Weapon, +1}"
 										],
 										[
 											"93\u201396",
-											"{@item +1 Wild Staff|XDMG|Wild Staff, +1}"
+											"{@item Weapon of Warning|XDMG}"
 										],
 										[
 											"97\u201300",
@@ -30306,159 +30302,163 @@
 									],
 									"rows": [
 										[
-											"01\u201303",
+											"01\u201302",
+											"Adamantine {@item Adamantine Ammunition|XDMG|Ammunition}, {@item Adamantine Armor|XDMG|Armor}, or {@item Adamantine Weapon|XDMG|Weapon}"
+										],
+										[
+											"03\u201304",
 											"{@item +2 Ammunition|XDMG|Ammunition, +2}"
 										],
 										[
-											"04\u201306",
-											"{@item +1 Armor|XDMG|Armor, +1}"
+											"05\u201306",
+											"{@item +2 Armor|XDMG|Armor, +2}"
 										],
 										[
-											"07\u201309",
+											"07\u201310",
 											"{@item Armor of Resistance|XDMG}"
 										],
 										[
-											"10\u201312",
+											"11\u201312",
 											"{@item Armor of Vulnerability|XDMG}"
 										],
 										[
-											"13\u201315",
+											"13\u201314",
 											"{@item Arrow-Catching Shield|XDMG}"
 										],
 										[
-											"16\u201318",
+											"15\u201316",
 											"{@item Belt of Hill Giant Strength|XDMG|Belt of Giant Strength (hill)}"
 										],
 										[
-											"19\u201321",
+											"17\u201318",
 											"{@item Berserker Axe|XDMG}"
 										],
 										[
-											"22\u201324",
+											"19\u201320",
+											"Cold Iron {@item Cold Iron Ammunition|XDMG|Ammunition}, {@item Cold Iron Armor|XDMG|Armor}, or {@item Cold Iron Weapon|XDMG|Weapon}"
+										],
+										[
+											"21\u201322",
 											"{@item Daern's Instant Fortress|XDMG}"
 										],
 										[
-											"25\u201327",
+											"23\u201326",
 											"{@item Dagger of Venom|XDMG}"
 										],
 										[
-											"28\u201330",
+											"27\u201328",
 											"{@item Dragon Slayer|XDMG}"
 										],
 										[
-											"31\u201332",
+											"29\u201330",
+											"{@item +2 Dragonkin Weapon|XDMG|Dragonkin Weapon, +2}"
+										],
+										[
+											"31\u201334",
 											"{@item Elven Chain|XDMG}"
 										],
 										[
-											"33\u201334",
+											"35\u201336",
 											"{@item Enspelled Armor|XDMG} ({@item Enspelled Armor (Level 2)|XDMG|level 2} or {@item Enspelled Armor (Level 3)|XDMG|3} spell)"
 										],
 										[
-											"35\u201336",
+											"37\u201338",
 											"{@item Enspelled Weapon|XDMG} ({@item Enspelled Weapon (Level 2)|XDMG|level 2} or {@item Enspelled Weapon (Level 3)|XDMG|3} spell)"
 										],
 										[
-											"37\u201338",
+											"39\u201342",
 											"{@item Flame Tongue|XDMG}"
 										],
 										[
-											"39\u201340",
+											"43\u201344",
 											"{@item Giant Slayer|XDMG}"
 										],
 										[
-											"41\u201342",
+											"45\u201348",
 											"{@item Horn of Blasting|XDMG}"
 										],
 										[
-											"43\u201344",
+											"49\u201350",
 											"{@item Horn of Valhalla|XDMG} ({@item Horn of Valhalla, Brass|XDMG|brass} or {@item Horn of Valhalla, Silver|XDMG|silver})"
 										],
 										[
-											"45\u201346",
-											"{@item +2 Hunter's Bracers|XDMG|Hunter's Bracers, +2}"
-										],
-										[
-											"47\u201349",
-											"{@item Ioun Stone|XDMG} ({@item Ioun Stone, Protection|XDMG|protection})"
-										],
-										[
-											"50\u201352",
-											"{@item Mace of Disruption|XDMG}"
-										],
-										[
-											"53\u201354",
-											"{@item Mace of Smiting|XDMG}"
+											"51\u201354",
+											"+2 Druid and/or Ranger Spellcasting Focus:{@item +2 Hunter's Bracers|XDMG|Hunter's Bracers}, {@item +2 Moon Sickle|XDMG|Moon Sickle}, or {@item +2 Wild Staff|XDMG|Wild Staff}"
 										],
 										[
 											"55\u201356",
+											"{@item Ioun Stone|XDMG} ({@item Ioun Stone, Protection|XDMG|protection})"
+										],
+										[
+											"57\u201358",
+											"{@item Mace of Disruption|XDMG}"
+										],
+										[
+											"59\u201360",
+											"{@item Mace of Smiting|XDMG}"
+										],
+										[
+											"61\u201362",
 											"{@item Mace of Terror|XDMG}"
 										],
 										[
-											"57\u201359",
-											"{@item +2 Moon Sickle|XDMG|Moon Sickle, +2}"
+											"63\u201366",
+											"Potion of Giant Strength: {@item Potion of Fire Giant Strength|XDMG|fire}, {@item Potion of Frost Giant Strength|XDMG|frost}, or {@item Potion of Stone Giant Strength|XDMG|stone}"
 										],
 										[
-											"60\u201361",
-											"{@item Potion of Fire Giant Strength|XDMG|Potion of Giant Strength (fire)}"
-										],
-										[
-											"62\u201363",
-											"{@item Potion of Giant Strength|XDMG} ({@item Potion of Frost Giant Strength|XDMG|frost} or {@item Potion of Stone Giant Strength|XDMG|stone})"
-										],
-										[
-											"64\u201365",
+											"67\u201370",
 											"{@item Potion of Heroism|XDMG}"
 										],
 										[
-											"66\u201367",
+											"71\u201372",
 											"{@item Potion of Invulnerability|XDMG}"
 										],
 										[
-											"68\u201369",
+											"73\u201376",
 											"{@item Ring of Protection|XDMG}"
 										],
 										[
-											"70\u201371",
+											"77\u201378",
 											"{@item Ring of the Ram|XDMG}"
 										],
 										[
-											"72\u201373",
+											"79\u201380",
 											"{@item +2 Shield|XDMG|Shield, +2}"
 										],
 										[
-											"74\u201376",
+											"81\u201382",
 											"{@item Shield of Missile Attraction|XDMG}"
 										],
 										[
-											"77\u201379",
+											"83\u201384",
+											"+2 Collars: {@item +2 Spiked Collar|XDMG|Spiked} or {@item +2 Studded Collar|XDMG|Studded}"
+										],
+										[
+											"85\u201386",
 											"{@item Sun Blade|XDMG}"
 										],
 										[
-											"80\u201382",
+											"87\u201388",
 											"{@item Sword of Life Stealing|XDMG}"
 										],
 										[
-											"83\u201385",
+											"89\u201390",
 											"{@item Sword of Wounding|XDMG}"
 										],
 										[
-											"86\u201388",
-											"{@item Tentacle Rod|XDMG}"
+											"91\u201392",
+											"{@item TentacleRod|XDMG}"
 										],
 										[
-											"89\u201391",
+											"93\u201394",
 											"{@item Vicious Weapon|XDMG}"
 										],
 										[
-											"92\u201394",
+											"95\u201398",
 											"{@item +2 Weapon|XDMG|Weapon, +2}"
 										],
 										[
-											"95\u201397",
-											"{@item +2 Wild Staff|XDMG|Wild Staff, +2}"
-										],
-										[
-											"98\u201300",
+											"99\u201300",
 											"{@item +2 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power, +2}"
 										]
 									],
@@ -30485,147 +30485,103 @@
 									],
 									"rows": [
 										[
-											"01\u201303",
-											"{@item +3 Ammunition|XDMG|Ammunition, +3}"
+											"01\u201304",
+											"{@item +3 Ammunition|XDMG|} or {@item Ammunition of Slaying|XDMG}"
 										],
 										[
-											"04\u201306",
-											"{@item Ammunition of Slaying|XDMG}"
+											"05\u201308",
+											"{@item Animated Shield|XDMG}, {@item Shield of the Cavalier|XDMG}, or {@item Spellguard Shield|XDMG}"
 										],
 										[
-											"07\u201309",
-											"{@item Animated Shield|XDMG}"
+											"09\u201312",
+											"{@item +3 Armor|XDMG|Armor, +3}"
 										],
 										[
-											"10\u201312",
-											"{@item +2 Armor|XDMG|Armor, +2}"
+											"13\u201316",
+											"Belt of Giant Strength: {@item Belt of Fire Giant Strength|XDMG|fire}, {@item Belt of Frost Giant Strength|XDMG|frost}, or {@item Belt of Stone Giant Strength|XDMG|stone}"
 										],
 										[
-											"13\u201315",
-											"{@item Belt of Fire Giant Strength|XDMG|Belt of Giant Strength (fire)}"
+											"17\u201320",
+											"{@item Dancing Sword|XDMG}, {@item Scimitar of Speed|XDMG}, or {@item Sword of Sharpness|XDMG}"
 										],
 										[
-											"16\u201318",
-											"{@item Belt of Giant Strength|XDMG} ({@item Belt of Frost Giant Strength|XDMG|frost} or {@item Belt of Stone Giant Strength|XDMG|stone})"
+											"21\u201324",
+											"{@item Demon Armor|XDMG} or {@item Dragon Scale Mail|XDMG}"
 										],
 										[
-											"19\u201320",
-											"{@item Dancing Sword|XDMG}"
+											"25\u201328",
+											"{@item +3 Dragonkin Weapon|XDMG|Dragonkin Weapon, +3}"
 										],
 										[
-											"21\u201323",
-											"{@item Demon Armor|XDMG}"
+											"29\u201332",
+											"{@item Dwarven Plate|XDMG} or {@item Dwarven Thrower|XDMG}"
 										],
 										[
-											"24\u201326",
-											"{@item Dragon Scale Mail|XDMG}"
+											"33\u201336",
+											"{@item Energy Bow|XDMG} or {@item Oathbow|XDMG}"
 										],
 										[
-											"27\u201328",
-											"{@item Dwarven Plate|XDMG}"
-										],
-										[
-											"29\u201330",
-											"{@item Dwarven Thrower|XDMG}"
-										],
-										[
-											"31\u201332",
-											"{@item Energy Bow|XDMG}"
-										],
-										[
-											"33\u201334",
+											"37\u201340",
 											"{@item Enspelled Armor|XDMG} ({@item Enspelled Armor (Level 4)|XDMG|level 4} or {@item Enspelled Armor (Level 5)|XDMG|5} spell)"
 										],
 										[
-											"35\u201336",
+											"41\u201344",
 											"{@item Enspelled Weapon|XDMG} ({@item Enspelled Weapon (Level 4)|XDMG|level 4} or {@item Enspelled Weapon (Level 5)|XDMG|5} spell)"
 										],
 										[
-											"37\u201339",
+											"45\u201348",
 											"{@item Executioner's Axe|XDMG}"
 										],
 										[
-											"40\u201342",
-											"{@item Frost Brand|XDMG}"
+											"49\u201352",
+											"{@item Frost Brand|XDMG} or {@item Nine Lives Stealer|XDMG}"
 										],
 										[
-											"43\u201345",
+											"53\u201356",
 											"{@item Horn of Valhalla, Bronze|XDMG|Horn of Valhalla (bronze)}"
 										],
 										[
-											"46\u201349",
-											"{@item +3 Hunter's Bracers|XDMG|Hunter's Bracers, +3}"
+											"57\u201360",
+											"+3 Druid and/or Ranger Spellcasting Focus: {@item +3 Hunter's Bracers|XDMG|Hunter's Bracers}, {@item +3 Moon Sickle|XDMG|Moon Sickle}, or {@item +3 Wild Staff|XDMG|Wild Staff}"
 										],
 										[
-											"50\u201352",
+											"51\u201364",
 											"{@item Ioun Stone|XDMG} ({@item Ioun Stone, Strength|XDMG|strength})"
 										],
 										[
-											"53\u201355",
+											"65\u201368",
 											"{@item Lute of Thunderous Thumping|XDMG}"
 										],
 										[
-											"56\u201359",
+											"69\u201372",
 											"{@item Manual of Gainful Exercise|XDMG}"
 										],
 										[
-											"60\u201363",
-											"{@item +3 Moon Sickle|XDMG|Moon Sickle, +3}"
-										],
-										[
-											"64\u201365",
-											"{@item Nine Lives Stealer|XDMG}"
-										],
-										[
-											"66\u201367",
-											"{@item Oathbow|XDMG}"
-										],
-										[
-											"68\u201369",
+											"73\u201376",
 											"{@item Oil of Sharpness|XDMG}"
 										],
 										[
-											"70\u201371",
+											"77\u201380",
 											"{@item Potion of Cloud Giant Strength|XDMG|Potion of Giant Strength (cloud)}"
 										],
 										[
-											"72\u201373",
-											"{@item Quarterstaff of the Acrobat|XDMG}"
+											"81\u201384",
+											"{@item Quarterstaff of the Acrobat|XDMG} or {@item Thunderous Greatclub|XDMG}"
 										],
 										[
-											"74\u201376",
-											"{@item Scimitar of Speed|XDMG}"
-										],
-										[
-											"77\u201379",
+											"85\u201388",
 											"{@item +3 Shield|XDMG|Shield, +3}"
 										],
 										[
-											"80\u201382",
-											"{@item Shield of the Cavalier|XDMG}"
+											"89\u201392",
+											"+3 Collars: {@item +3 Spiked Collar|XDMG|Spiked} or {@item +3 Studded Collar|XDMG|Studded}"
 										],
 										[
-											"83\u201385",
-											"{@item Spellguard Shield|XDMG}"
-										],
-										[
-											"86\u201388",
-											"{@item Sword of Sharpness|XDMG}"
-										],
-										[
-											"89\u201391",
-											"{@item Thunderous Greatclub|XDMG}"
-										],
-										[
-											"92\u201394",
+											"93\u201396",
 											"{@item +3 Weapon|XDMG|Weapon, +3}"
 										],
 										[
-											"95\u201397",
-											"{@item +3 Wild Staff|XDMG|Wild Staff, +3}"
-										],
-										[
-											"98\u201300",
+											"97\u201300",
 											"{@item +3 Wraps of Unarmed Power|XDMG|Wraps of Unarmed Power, +3}"
 										]
 									],
@@ -30652,75 +30608,75 @@
 									],
 									"rows": [
 										[
-											"01\u201306",
+											"01–10",
 											"{@item +3 Armor|XDMG|Armor, +3}"
 										],
 										[
-											"07\u201312",
+											"11–15",
 											"{@item Armor of Invulnerability|XDMG}"
 										],
 										[
-											"13\u201318",
+											"16–20",
 											"{@item Belt of Cloud Giant Strength|XDMG|Belt of Giant Strength (cloud)}"
 										],
 										[
-											"19\u201321",
+											"21–25",
 											"{@item Belt of Storm Giant Strength|XDMG|Belt of Giant Strength (storm)}"
 										],
 										[
-											"22\u201327",
+											"26–30",
 											"{@item Defender|XDMG}"
 										],
 										[
-											"28\u201333",
+											"31–35",
 											"{@item Efreeti Chain|XDMG}"
 										],
 										[
-											"34\u201339",
+											"36–40",
 											"{@item Enspelled Armor|XDMG} (level 6, 7, or 8 spell)"
 										],
 										[
-											"40\u201345",
+											"41–45",
 											"{@item Enspelled Weapon|XDMG} (level 6, 7, or 8 spell)"
 										],
 										[
-											"46\u201351",
+											"46–50",
 											"{@item Hammer of Thunderbolts|XDMG}"
 										],
 										[
-											"52\u201356",
+											"51–55",
 											"{@item Holy Avenger|XDMG}"
 										],
 										[
-											"57\u201362",
+											"56–60",
 											"{@item Horn of Valhalla, Iron|XDMG|Horn of Valhalla (iron)}"
 										],
 										[
-											"63\u201368",
+											"61–65",
 											"{@item Luck Blade|XDMG}"
 										],
 										[
-											"69\u201372",
+											"66–70",
 											"{@item Moonblade|XDMG}"
 										],
 										[
-											"73\u201378",
+											"71–75",
 											"{@item Plate Armor of Etherealness|XDMG}"
 										],
 										[
-											"79\u201387",
+											"76–85",
 											"{@item Potion of Storm Giant Strength|XDMG|Potion of Giant Strength (storm)}"
 										],
 										[
-											"88\u201390",
+											"86–90",
 											"{@item Rod of Lordly Might|XDMG}"
 										],
 										[
-											"91\u201395",
+											"91–95",
 											"{@item Sword of Answering|XDMG}"
 										],
 										[
-											"96\u201300",
+											"96–00",
 											"{@item Vorpal Sword|XDMG}"
 										]
 									],
