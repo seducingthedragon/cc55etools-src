@@ -16453,150 +16453,384 @@
 			"wondrous": true,
 			"entries": [
 				"This box contains a set of cards. A full deck has 34 cards: 32 depicting specific creatures and two with a mirrored surface. A deck found as treasure is usually missing {@dice 1d20 - 1} cards.",
-				"The magic of the deck functions only if its cards are drawn at random. You can take a {@action Magic|XPHB} action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of yourself. An illusion of a creature, determined by rolling on the Deck of Illusions table, forms over the thrown card and remains until dispelled. The illusory creature created by the card looks and behaves like a real creature of its kind, except that it can do no harm. While you are within 120 feet of the illusory creature and can see it, you can take a {@action Magic|XPHB} action to move it anywhere within 30 feet of its card.",
+				"The magic of the deck functions only if its cards are drawn at random. You can take a {@action Magic|XPHB} action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of yourself. An illusion of a creature, determined by rolling on the Deck of Illusions table, forms over the thrown card and remains until dispelled. You can choose to roll {@dice 1d100} or draw a card from a physical card deck to determine the illusory creature. The illusory creature created by the card looks and behaves like a real creature of its kind, except that it can do no harm. While you are within 120 feet of the illusory creature and can see it, you can take a {@action Magic|XPHB} action to move it anywhere within 30 feet of its card.",
 				"Any physical interaction with the illusory creature reveals it to be false, because objects pass through it. A creature that takes a {@action Study|XPHB} action to visually inspect the illusory creature identifies it as an illusion with a successful {@dc 15} Intelligence ({@skill Investigation|XPHB}) check. The illusion lasts until its card is moved or the illusion is dispelled (using a {@spell Dispel Magic|XPHB} spell or a similar effect). When the illusion ends, the image on its card disappears, and that card can't be used again.",
 				{
 					"type": "table",
 					"caption": "Deck of Illusions",
 					"colStyles": [
 						"col-2 text-center",
-						"col-10"
+						"col-4 text-center",
+						"col-6 text-center"
 					],
 					"colLabels": [
 						"1d100",
+						"{@dice 1d34|Playing Card}",
 						"Illusion"
 					],
 					"rows": [
 						[
 							"01-03",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								},
+								"entry": "Ace of hearts"
+							},
 							"{@creature Adult Red Dragon|XMM}"
 						],
 						[
 							"04-06",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 10
+								},
+								"entry": "King of diamonds"
+							},
 							"{@creature Archmage|XMM}"
 						],
 						[
 							"07-09",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 12
+								},
+								"entry": "Jack of diamonds"
+							},
 							"{@creature Assassin|XMM}"
 						],
 						[
 							"10-12",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 16
+								},
+								"entry": "Two of diamonds"
+							},
 							"{@creature Bandit Captain|XMM}"
 						],
 						[
 							"13-15",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 9
+								},
+								"entry": "Ace of diamonds"
+							},
 							"{@creature Beholder|XMM}"
 						],
 						[
 							"16-18",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 28
+								},
+								"entry": "Jack of clubs"
+							},
 							"{@creature Berserker|XMM}"
 						],
 						[
 							"19-21",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 7
+								},
+								"entry": "Eight of hearts"
+							},
 							"{@creature Bugbear Warrior|XMM}"
 						],
 						[
 							"22-24",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								},
+								"entry": "Ten of hearts"
+							},
 							"{@creature Cloud Giant|XMM}"
 						],
 						[
 							"25-27",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								},
+								"entry": "Jack of hearts"
+							},
 							"{@creature Druid|XMM}"
 						],
 						[
 							"28-30",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 27
+								},
+								"entry": "Queen of clubs"
+							},
 							"{@creature Erinyes|XMM}"
 						],
 						[
 							"31-33",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								},
+								"entry": "Nine of hearts"
+							},
 							"{@creature Ettin|XMM}"
 						],
 						[
 							"34-36",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 13
+								},
+								"entry": "Ten of diamonds"
+							},
 							"{@creature Fire Giant|XMM}"
 						],
 						[
 							"37-39",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 21
+								},
+								"entry": "Ten of spades"
+							},
 							"{@creature Frost Giant|XMM}"
 						],
 						[
 							"40-42",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 15
+								},
+								"entry": "Eight of diamonds"
+							},
 							"{@creature Gnoll Warrior|XMM}"
 						],
 						[
 							"43-45",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 24
+								},
+								"entry": "Two of spades"
+							},
 							"{@creature Goblin Warrior|XMM}"
 						],
 						[
 							"46-48",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 26
+								},
+								"entry": "King of clubs"
+							},
 							"{@creature Guardian Naga|XMM}"
 						],
 						[
 							"49-51",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 29
+								},
+								"entry": "Ten of clubs"
+							},
 							"{@creature Hill Giant|XMM}"
 						],
 						[
 							"52-54",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 23
+								},
+								"entry": "Eight of spades"
+							},
 							"{@creature Hobgoblin Warrior|XMM}"
 						],
 						[
 							"55-57",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 18
+								},
+								"entry": "King of spades"
+							},
 							"{@creature Incubus|XMM}"
 						],
 						[
 							"58-60",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 25
+								},
+								"entry": "Ace of clubs"
+							},
 							"{@creature Iron Golem|XMM}"
 						],
 						[
 							"61-63",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								},
+								"entry": "King of hearts"
+							},
 							"{@creature Knight|XMM}"
 						],
 						[
 							"64-66",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 32
+								},
+								"entry": "Two of clubs"
+							},
 							"{@creature Kobold Warrior|XMM}"
 						],
 						[
 							"67-69",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 17
+								},
+								"entry": "Ace of spades"
+							},
 							"{@creature Lich|XMM}"
 						],
 						[
 							"70-72",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 19
+								},
+								"entry": "Queen of spades"
+							},
 							"{@creature Medusa|XMM}"
 						],
 						[
 							"73-75",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 11
+								},
+								"entry": "Queen of diamonds"
+							},
 							"{@creature Night Hag|XMM}"
 						],
 						[
 							"76-78",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 30
+								},
+								"entry": "Nine of clubs"
+							},
 							"{@creature Ogre|XMM}"
 						],
 						[
 							"79-81",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 14
+								},
+								"entry": "Nine of diamonds"
+							},
 							"{@creature Oni|XMM}"
 						],
 						[
 							"82-84",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 8
+								},
+								"entry": "Two of hearts"
+							},
 							"{@creature Priest|XMM}"
 						],
 						[
 							"85-87",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								},
+								"entry": "Queen of hearts"
+							},
 							"{@creature Succubus|XMM}"
 						],
 						[
 							"88-90",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 22
+								},
+								"entry": "Nine of spades"
+							},
 							"{@creature Troll|XMM}"
 						],
 						[
 							"91-93",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 20
+								},
+								"entry": "Jack of spades"
+							},
 							"{@creature Warrior Veteran|XMM}"
 						],
 						[
 							"94-96",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 31
+								},
+								"entry": "Eight of clubs"
+							},
 							"{@creature Wyvern|XMM}"
 						],
 						[
 							"97-00",
+							{
+								"type": "cell",
+								"roll": {
+									"min": 33,
+									"max": 34
+								},
+								"entry": "jokers (2)"
+							},
 							"The card drawer"
 						]
 					]
