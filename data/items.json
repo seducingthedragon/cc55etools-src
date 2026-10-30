@@ -159,8 +159,8 @@
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
 			"entries": [
-				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +1 bonus to attack and damage rolls, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells.",
-				"During the minute after combat or anytime after firing ammunition from a ranged weapon, you can use a {@action Magic|XPHB|Magic Action} to summon all of your expended ammunition back to you within 60 feet."
+				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While attuned to these bracers, you gain a +1 bonus to attack and damage rolls, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your Ranger spells. In addition, while worn, they can be used as a {@variantrule Spellcasting Focus|XPHB} for your Ranger spells.",
+				"You can use a {@action Magic|XPHB|Magic Action} to summon all of your expended ammunition back to you."
 			],
 			"lootTables": [
 				"Armanents - Uncommon|XDMG"
@@ -233,8 +233,8 @@
 				"Druid"
 			],
 			"entries": [
-				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +1 bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid spells. In addition, you can use the sickle as a spellcasting focus for your druid spells.",
-				"When you Wild Shape, you gain additional {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4+1}."
+				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +1 bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your Druid spells. In addition, you can use the sickle as a {@variantrule Spellcasting Focus} for your Druid spells.",
+				"When you Wild Shape, you gain additional {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4 + 1}."
 			],
 			"lootTables": [
 				"Armanents - Uncommon|XDMG",
@@ -310,9 +310,18 @@
 			"weight": 2,
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
-				"While holding this rod, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your {@filter Warlock spells|spells|class=Warlock}.",
-				"In addition, you can regain one spell slot as a {@action Magic|XPHB} action while holding the rod. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+				"While holding this rod, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your Warlock spells.",
+				{
+					"type": "entries",
+					"name": "Once per Long Rest",
+					"entries": [
+						"In addition, you can regain one spell slot as a {@action Magic|XPHB} action while holding the rod. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
 			],
 			"lootTables": [
 				"Arcana - Uncommon|XDMG"
@@ -442,7 +451,7 @@
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
 			"entries": [
-				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +1 bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your {@class Druid|XPHB} and {@class Ranger|XPHB} spells. In addition, you can use this staff as a {@variantrule Spellcasting Focus|XPHB} for your {@class Druid|XPHB} and {@class Ranger|XPHB} spells.",
+				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +1 bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your Druid or Ranger spells. In addition, you can use this staff as a {@variantrule Spellcasting Focus|XPHB} for your Druid or Ranger spells.",
 				"When you cast a spell that restores hit points, you can roll {@dice 1d6} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
 			],
 			"lootTables": [
@@ -635,8 +644,8 @@
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
 			"entries": [
-				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +2 bonus to attack and damage rolls, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells.",
-				"During the minute after combat or anytime after firing ammunition from a ranged weapon, you can use a {@action Magic|XPHB|Magic Action} to summon all of your expended ammunition back to you within 60 feet."
+				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While attuned to these bracers, you gain a +2 bonus to attack and damage rolls, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your Ranger spells. In addition, while worn, they can be used as a {@variantrule Spellcasting Focus|XPHB} for your Ranger spells.",
+				"You can use a {@action Magic|XPHB|Magic Action} to summon all of your expended ammunition back to you."
 			],
 			"lootTables": [
 				"Armanents - Rare|XDMG"
@@ -651,7 +660,7 @@
 			],
 			"baseItem": "sickle|PHB",
 			"type": "M",
-			"type": "SCF",
+			"typeAlt": "SCF",
 			"rarity": "rare",
 			"reqAttune": "by a druid",
 			"reqAttuneTags": [
@@ -705,8 +714,8 @@
 				"Druid"
 			],
 			"entries": [
-				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +2 bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your druid spells. In addition, you can use the sickle as a spellcasting focus for your druid spells.",
-				"When you Wild Shape, you gain additional {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4+2}."
+				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +2 bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your Druid spells. In addition, you can use the sickle as a {@variantrule Spellcasting Focus} for your Druid spells.",
+				"When you Wild Shape, you gain additional {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4 + 1}."
 			],
 			"lootTables": [
 				"Armanents - Rare|XDMG",
@@ -781,9 +790,18 @@
 			"weight": 2,
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
-				"While holding this rod, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your {@filter Warlock spells|spells|class=Warlock}.",
-				"In addition, you can regain one spell slot as a {@action Magic|XPHB} action while holding the rod. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+				"While holding this rod, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your Warlock spells.",
+				{
+					"type": "entries",
+					"name": "Once per Long Rest",
+					"entries": [
+						"In addition, you can regain one spell slot as a {@action Magic|XPHB} action while holding the rod. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
 			],
 			"lootTables": [
 				"Arcana - Rare|XDMG"
@@ -904,7 +922,7 @@
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
 			"entries": [
-				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +2 bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your {@class Druid|XPHB} and {@class Ranger|XPHB} spells. In addition, you can use this staff as a {@variantrule Spellcasting Focus|XPHB} for your {@class Druid|XPHB} and {@class Ranger|XPHB} spells.",
+				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +2 bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your Druid or Ranger spells. In addition, you can use this staff as a {@variantrule Spellcasting Focus|XPHB} for your Druid or Ranger spells.",
 				"When you cast a spell that restores hit points, you can roll {@dice 2d6} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
 			],
 			"lootTables": [
@@ -1097,8 +1115,8 @@
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
 			"entries": [
-				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While wearing these bracers, you gain a +3 bonus to attack and damage rolls, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, while worn, they can be used as a spellcasting focus for your ranger spells.",
-				"During the minute after combat or anytime after firing ammunition from a ranged weapon, you can use a {@action Magic|XPHB|Magic Action} to summon all of your expended ammunition back to you within 60 feet."
+				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While attuned to these bracers, you gain a +3 bonus to attack and damage rolls, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your Ranger spells. In addition, while worn, they can be used as a {@variantrule Spellcasting Focus|XPHB} for your Ranger spells.",
+				"You can use a {@action Magic|XPHB|Magic Action} to summon all of your expended ammunition back to you."
 			],
 			"lootTables": [
 				"Armanents - Very Rare|XDMG"
@@ -1113,7 +1131,7 @@
 			],
 			"baseItem": "sickle|PHB",
 			"type": "M",
-			"type": "SCF",
+			"typeAlt": "SCF",
 			"rarity": "very rare",
 			"reqAttune": "by a druid",
 			"reqAttuneTags": [
@@ -1167,8 +1185,8 @@
 				"Druid"
 			],
 			"entries": [
-				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +3 bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your druid spells. In addition, you can use the sickle as a spellcasting focus for your druid spells.",
-				"When you Wild Shape, you gain additional {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4+3}."
+				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +3 bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your Druid spells. In addition, you can use the sickle as a {@variantrule Spellcasting Focus} for your Druid spells.",
+				"When you Wild Shape, you gain additional {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4 + 1}."
 			],
 			"lootTables": [
 				"Armanents - Very Rare|XDMG",
@@ -1239,9 +1257,18 @@
 			"weight": 2,
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
-				"While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your {@filter Warlock spells|spells|class=Warlock}.",
-				"In addition, you can regain one spell slot as a {@action Magic|XPHB} action while holding the rod. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+				"While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your Warlock spells.",
+				{
+					"type": "entries",
+					"name": "Once per Long Rest",
+					"entries": [
+						"In addition, you can regain one spell slot as a {@action Magic|XPHB} action while holding the rod. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
 			],
 			"lootTables": [
 				"Arcana - Very Rare|XDMG"
@@ -1359,7 +1386,7 @@
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
 			"entries": [
-				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +3 bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your {@class Druid|XPHB} and {@class Ranger|XPHB} spells. In addition, you can use this staff as a {@variantrule Spellcasting Focus|XPHB} for your {@class Druid|XPHB} and {@class Ranger|XPHB} spells.",
+				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a +3 bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your Druid or Ranger spells. In addition, you can use this staff as a {@variantrule Spellcasting Focus|XPHB} for your Druid or Ranger spells.",
 				"When you cast a spell that restores hit points, you can roll {@dice 3d6} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
 			],
 			"lootTables": [
@@ -3558,7 +3585,8 @@
 					"type": "entries",
 					"name": "Metal Shell",
 					"entries": [
-						"You can take a {@action Magic|XPHB} action to give yourself {@variantrule Immunity|XPHB} to Bludgeoning, Piercing, and Slashing damage for 10 minutes or until you are no longer wearing the armor. Once this property is used, it can't be used again until the next dawn."
+						"You can take a {@action Magic|XPHB} action to give yourself {@variantrule Immunity|XPHB} to Bludgeoning, Piercing, and Slashing damage for 10 minutes or until you are no longer wearing the armor.",
+						"Once this property is used, it can't be used again until the next dawn."
 					]
 				}
 			],
@@ -3718,9 +3746,26 @@
 			"baseItem": "arrow|xphb",
 			"type": "A|XPHB",
 			"rarity": "uncommon",
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4}",
+			"charges": 4,
 			"entries": [
 				"When this arrow hits a target, each creature within a 20-foot cube centered on your hit target, must make a {@dc 15} Dexterity {@variantrule Saving Throw|XPHB} or fall under the effects of a {@spell Faerie Fire|XPHB} spell, no concentration required. Your initial target takes magical weapon damage and the effects last for 12 rounds.",
-				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
+				{
+					"type": "entries",
+					"name": "Regaining Charges",
+					"entries": [
+						"This arrow has 4 charges and it regains {@dice 1d4} charges at dawn. If this expends its last charge, it will become nonmagical until the following day."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ranged Weapons",
+					"entries": [
+						"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects.",
+						"If you choose to use both, this ammunition will become nonmagical when the ammunition hits the target. Additionally, it has a {@chance 25} chance of disintigrating on impact."
+					]
+				}
 			],
 			"lootTables": [
 				"Armaments - Uncommon|XDMG"
@@ -3736,7 +3781,14 @@
 			"bonusWeapon": "+1",
 			"entries": [
 				"Once shot, this +1 arrow will return to the archer's quiver if it misses its target.",
-				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
+				{
+					"type": "entries",
+					"name": "Ranged Weapons",
+					"entries": [
+						"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects.",
+						"If you choose to use both, this ammunition will become nonmagical when the ammunition hits the target. Additionally, it has a {@chance 25} chance of disintigrating on impact."
+					]
+				}
 			],
 			"lootTables": [
 				"Armaments - Uncommon|XDMG",
@@ -5069,11 +5121,19 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"recharge": "dawn",
+			"rechargeAmount": 3,
+			"charges": 3,
 			"entries": [
 				"This bag made from gray cloth appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.",
 				"You can take a {@action Magic|XPHB} action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling on the table below. See the {@book Monster Manual|XMM} for the creature's stat block. The creature vanishes at the next dawn or when it is reduced to 0 {@variantrule Hit Points|XPHB}.",
 				"The creature is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies, and it acts immediately after you on your {@variantrule Initiative|XPHB} count. You can take a {@variantrule Bonus Action|XPHB} to command how the creature moves and what action it takes on its next turn, such as attacking an enemy. In the absence of such orders, the creature acts in a fashion appropriate to its nature.",
-				"Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.",
+				{
+					"type": "entries",
+					"name": "3 Per Dawn",
+					"entries": [
+						"Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn."
+					]
+				},
 				{
 					"type": "table",
 					"colStyles": [
@@ -5203,11 +5263,19 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"recharge": "dawn",
+			"rechargeAmount": 3,
+			"charges": 3,
 			"entries": [
 				"This bag made from rust cloth appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.",
 				"You can take a {@action Magic|XPHB} action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling on the table below. See the {@book Monster Manual|XMM} for the creature's stat block. The creature vanishes at the next dawn or when it is reduced to 0 {@variantrule Hit Points|XPHB}.",
 				"The creature is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies, and it acts immediately after you on your {@variantrule Initiative|XPHB} count. You can take a {@variantrule Bonus Action|XPHB} to command how the creature moves and what action it takes on its next turn, such as attacking an enemy. In the absence of such orders, the creature acts in a fashion appropriate to its nature.",
-				"Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.",
+				{
+					"type": "entries",
+					"name": "3 Per Dawn",
+					"entries": [
+						"Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn."
+					]
+				},
 				{
 					"type": "table",
 					"colStyles": [
@@ -5336,11 +5404,19 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"recharge": "dawn",
+			"rechargeAmount": 3,
+			"charges": 3,
 			"entries": [
 				"This bag made from tan cloth appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.",
 				"You can take a {@action Magic|XPHB} action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling on the table below. See the {@book Monster Manual|XMM} for the creature's stat block. The creature vanishes at the next dawn or when it is reduced to 0 {@variantrule Hit Points|XPHB}.",
 				"The creature is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies, and it acts immediately after you on your {@variantrule Initiative|XPHB} count. You can take a {@variantrule Bonus Action|XPHB} to command how the creature moves and what action it takes on its next turn, such as attacking an enemy. In the absence of such orders, the creature acts in a fashion appropriate to its nature.",
-				"Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.",
+				{
+					"type": "entries",
+					"name": "3 Per Dawn",
+					"entries": [
+						"Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn."
+					]
+				},
 				{
 					"type": "table",
 					"colStyles": [
@@ -61515,6 +61591,7 @@
 			"bonusWeapon": "+2",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"The sling bullets come in a pouch, which contains {@dice 1d4 + 4} bullets. Roll on the Magic Sling Bullets table for each bullet to determine its magical property.",
 				"You have a +2 bonus to attack and damage rolls made with each of these bullets. If a bullet misses its target, the bullet teleports back into the pouch. On a hit, that piece of ammunition cannot be used until dawn.",
@@ -80532,8 +80609,14 @@
 			"rarity": "varies",
 			"type": "GV|XDMG",
 			"entries": [
-				"These weapons are made of a scaly metal that radiates draconic elements. You have a specified bonus to attack rolls and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Dragonborn Breath Weapon trait on a hit. In addition, while attuned to the weapon, you have a specified bonus to your Breath Weapon's save DC.",
-				"The color of the weapon's metal changes to reflect your own natural colors as a Dragonborn once you attune to it."
+				"These weapons are made of a scaly metal that radiates draconic elements. Once you attune to it, the color of the weapon's metal changes to reflect your Dragonborn scales. You gain a specified bonus to attack rolls and damage rolls made with this magic weapon and a specified bonus to your Breath Weapon's save DC.",
+				{
+					"type": "entries",
+					"name": "Charges and Regaining",
+					"entries": [
+						"This weapon has a number of charges based on its variant. You can expend 1 charge to deal an additional {@damage 1d6} damage of the same type as your Dragonborn Breath Weapon trait. This weapon regains charges at dawn."
+					]
+				}
 			],
 			"items": [
 				"+1 Dragonkin Weapon|XDMG",
@@ -81600,7 +81683,7 @@
 			"source": "XDMG",
 			"page": 270,
 			"type": "SCF|XPHB",
-			"type": "GV|XDMG",
+			"typeAlt": "GV|XDMG",
 			"rarity": "varies",
 			"reqAttune": "by a ranger",
 			"reqAttuneTags": [
@@ -81613,6 +81696,10 @@
 				"Ranger"
 			],
 			"wondrous": true,
+			"entries": [
+				"This pair of bracers are magical Archery bracers, often used by powerful hunters, rangers, and primeval wardens. While attuned to these bracers, you gain a specified bonus to attack and damage rolls, and you gain a specified bonus to spell attack rolls and the saving throw DCs of your Ranger spells. In addition, while worn, they can be used as a {@variantrule Spellcasting Focus|XPHB} for your Ranger spells.",
+				"You can use a {@action Magic|XPHB|Magic Action} to summon all of your expended ammunition back to you."
+			],
 			"items": [
 				"+1 Hunter's Bracers|XDMG",
 				"+2 Hunter's Bracers|XDMG",
@@ -82266,6 +82353,10 @@
 			],
 			"dmg1": "1d4",
 			"dmgType": "S",
+			"entries": [
+				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a specified bonus to attack and damage rolls made with it, and you gain a specified bonus to spell attack rolls and the saving throw DCs of your Druid spells. In addition, you can use the sickle as a {@variantrule Spellcasting Focus} for your Druid spells.",
+				"When you Wild Shape, you gain additional {@variantrule Temporary Hit Points|XPHB} equal to {@dice 1d4+1}."
+			],
 			"items": [
 				"+1 Moon Sickle|XDMG",
 				"+2 Moon Sickle|XDMG",
@@ -83253,8 +83344,14 @@
 			],
 			"weight": 2,
 			"entries": [
-				"While holding this rod, you gain a specified bonus to spell attack rolls and to the saving throw DCs of your {@filter Warlock spells|spells|class=Warlock}.",
-				"In addition, you can regain one spell slot as a {@action Magic|XPHB} action while holding the rod. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+				"While holding this rod, you gain a specified bonus to spell attack rolls and to the saving throw DCs of your Warlock spells.",
+				{
+					"type": "entries",
+					"name": "Once per Long Rest",
+					"entries": [
+						"In addition, you can regain one spell slot as a {@action Magic|XPHB} action while holding the rod. You can't use this property again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
 			],
 			"items": [
 				"+1 Rod of the Pact Keeper|XDMG",
@@ -84319,7 +84416,7 @@
 			"dmgType": "B",
 			"dmg2": "1d8",
 			"entries": [
-				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a specified bonus to attack and damage rolls made with it, and you gain a specified bonus to spell attack rolls and the saving throw DCs of your {@class Druid|XPHB} and {@class Ranger|XPHB} spells. In addition, you can use this staff as a {@variantrule Spellcasting Focus|XPHB} for your {@class Druid|XPHB} and {@class Ranger|XPHB} spells.",
+				"This wooden staff is imbued with deep primal magics. While holding this magic weapon, you gain a specified bonus to attack and damage rolls made with it, and you gain a specified bonus to spell attack rolls and the saving throw DCs of your Druid or Ranger spells. In addition, you can use this staff as a {@variantrule Spellcasting Focus|XPHB} for your Druid or Ranger spells.",
 				"When you cast a spell that restores hit points, you can roll a specified number of {@dice d6|d6's} and add the number rolled to the amount of hit points restored, provided you are holding the staff."
 			],
 			"items": [

@@ -60,9 +60,16 @@
 			],
 			"ammo": true,
 			"entries": [
+				"This ammunition is typically found or sold in quantities of ten or twenty pieces. Ten pieces of this ammunition are equivalent in value to a potion of the same rarity {@note ({@table Magic Item Values by Rarity; Magic Item Rarities and Values|XDMG|200 GP})}.",
 				"You have a +1 bonus to attack and damage rolls made with this piece of magic ammunition.",
-				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact.",
-				"This ammunition is typically found or sold in quantities of ten or twenty pieces. Ten pieces of this ammunition are equivalent in value to a potion of the same rarity {@note ({@table Magic Item Values by Rarity; Magic Item Rarities and Values|XDMG|200 GP})}."
+				{
+					"type": "entries",
+					"name": "Ranged Weapons",
+					"entries": [
+						"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects.",
+						"If you choose to use both, this ammunition will become nonmagical when the ammunition hits the target. Additionally, it has a {@chance 25} chance of disintigrating on impact."
+					]
+				}
 			],
 			"inherits": {
 				"namePrefix": "+1 ",
@@ -74,7 +81,14 @@
 				"bonusWeapon": "+1",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition.",
-					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
+					{
+						"type": "entries",
+						"name": "Ranged Weapons",
+						"entries": [
+							"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects.",
+							"If you choose to use both, this ammunition will become nonmagical when the ammunition hits the target. Additionally, it has a {@chance 25} chance of disintigrating on impact."
+						]
+					}
 				],
 				"lootTables": [
 					"Armaments - Uncommon|XDMG",
@@ -169,9 +183,18 @@
 					}
 				],
 				"bonusWeapon": "+1",
+				"recharge": "dawn",
+				"rechargeAmount": "{@dice 1d4 + 1}",
+				"charge": 5,
 				"entries": [
-					"These weapons are made of a scaly metal that radiates draconic elements. You have a {=bonusWeapon} bonus to attack rolls and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Dragonborn Breath Weapon trait on a hit. In addition, while attuned to the weapon, you have a +1 bonus to your Breath Weapon's save DC.",
-					"The color of the weapon's metal changes to reflect your own natural colors as a Dragonborn once you attune to it."
+					"These weapons are made of a scaly metal that radiates draconic elements. Once you attune to it, the color of the weapon's metal changes to reflect your Dragonborn scales. You gain a {=bonusWeapon} bonus to attack rolls and damage rolls made with this magic weapon and a +1 bonus to your Breath Weapon's save DC.",
+					{
+						"type": "entries",
+						"name": "Charges and Regaining",
+						"entries": [
+							"This weapon has 5 charges. You can expend 1 charge to deal an additional {@damage 1d6} damage of the same type as your Dragonborn Breath Weapon trait. This weapon regains {@dice 1d4 + 1} charges at dawn."
+						]
+					}
 				],
 				"lootTables": [
 					"Armaments - Uncommon|XDMG"
@@ -383,9 +406,16 @@
 			],
 			"ammo": true,
 			"entries": [
+				"This ammunition is typically found or sold in quantities of ten or twenty pieces. Ten pieces of this ammunition are equivalent in value to a potion of the same rarity {@note ({@table Magic Item Values by Rarity; Magic Item Rarities and Values|XDMG|2,000 GP})}.",
 				"You have a +2 bonus to attack and damage rolls made with this piece of magic ammunition.",
-				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact.",
-				"This ammunition is typically found or sold in quantities of ten or twenty pieces. Ten pieces of this ammunition are equivalent in value to a potion of the same rarity {@note ({@table Magic Item Values by Rarity; Magic Item Rarities and Values|XDMG|2,000 GP})}."
+				{
+					"type": "entries",
+					"name": "Ranged Weapons",
+					"entries": [
+						"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects.",
+						"If you choose to use both, this ammunition will become nonmagical when the ammunition hits the target. Additionally, it has a {@chance 25} chance of disintigrating on impact."
+					]
+				}
 			],
 			"inherits": {
 				"namePrefix": "+2 ",
@@ -397,7 +427,14 @@
 				"bonusWeapon": "+2",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition.",
-					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
+					{
+						"type": "entries",
+						"name": "Ranged Weapons",
+						"entries": [
+							"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects.",
+							"If you choose to use both, this ammunition will become nonmagical when the ammunition hits the target. Additionally, it has a {@chance 25} chance of disintigrating on impact."
+						]
+					}
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG",
@@ -491,9 +528,18 @@
 					}
 				],
 				"bonusWeapon": "+2",
+				"recharge": "dawn",
+				"rechargeAmount": "{@dice 1d5 + 1}",
+				"charge": 6,
 				"entries": [
-					"These weapons are made of a scaly metal that radiates draconic elements. You have a {=bonusWeapon} bonus to attack rolls and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Dragonborn Breath Weapon trait on a hit. In addition, while attuned to the weapon, you have a +2 bonus to your Breath Weapon's save DC.",
-					"The color of the weapon's metal changes to reflect your own natural colors as a Dragonborn once you attune to it."
+					"These weapons are made of a scaly metal that radiates draconic elements. Once you attune to it, the color of the weapon's metal changes to reflect your Dragonborn scales. You gain a {=bonusWeapon} bonus to attack rolls and damage rolls made with this magic weapon and a +2 bonus to your Breath Weapon's save DC.",
+					{
+						"type": "entries",
+						"name": "Charges and Regaining",
+						"entries": [
+							"This weapon has 6 charges. You can expend 1 charge to deal an additional {@damage 1d6} damage of the same type as your Dragonborn Breath Weapon trait. This weapon regains {@dice 1d5 + 1} charges at dawn."
+						]
+					}
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG"
@@ -697,9 +743,16 @@
 			],
 			"ammo": true,
 			"entries": [
+				"This ammunition is typically found or sold in quantities of ten or twenty pieces. Ten pieces of this ammunition are equivalent in value to a potion of the same rarity {@note ({@table Magic Item Values by Rarity; Magic Item Rarities and Values|XDMG|20,000 GP})}.",
 				"You have a +3 bonus to attack and damage rolls made with this piece of magic ammunition.",
-				"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact.",
-				"This ammunition is typically found or sold in quantities of ten or twenty pieces. Ten pieces of this ammunition are equivalent in value to a potion of the same rarity {@note ({@table Magic Item Values by Rarity; Magic Item Rarities and Values|XDMG|20,000 GP})}."
+				{
+					"type": "entries",
+					"name": "Ranged Weapons",
+					"entries": [
+						"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects.",
+						"If you choose to use both, this ammunition will become nonmagical when the ammunition hits the target. Additionally, it has a {@chance 25} chance of disintigrating on impact."
+					]
+				}
 			],
 			"inherits": {
 				"namePrefix": "+3 ",
@@ -711,7 +764,14 @@
 				"bonusWeapon": "+3",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition.",
-					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
+					{
+						"type": "entries",
+						"name": "Ranged Weapons",
+						"entries": [
+							"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects.",
+							"If you choose to use both, this ammunition will become nonmagical when the ammunition hits the target. Additionally, it has a {@chance 25} chance of disintigrating on impact."
+						]
+					}
 				],
 				"lootTables": [
 					"Armaments - Very Rare|XDMG",
@@ -798,9 +858,18 @@
 					}
 				],
 				"bonusWeapon": "+3",
+				"recharge": "dawn",
+				"rechargeAmount": "{@dice 1d6 + 1}",
+				"charge": 7,
 				"entries": [
-					"These weapons are made of a scaly metal that radiates draconic elements. You have a {=bonusWeapon} bonus to attack rolls and damage rolls made with this magic weapon, and it deals an extra {@damage 1d6} damage of the same type as your Dragonborn Breath Weapon trait on a hit. In addition, while attuned to the weapon, you have a +3 bonus to your Breath Weapon's save DC.",
-					"The color of the weapon's metal changes to reflect your own natural colors as a Dragonborn once you attune to it."
+					"These weapons are made of a scaly metal that radiates draconic elements. Once you attune to it, the color of the weapon's metal changes to reflect your Dragonborn scales. You gain a {=bonusWeapon} bonus to attack rolls and damage rolls made with this magic weapon and a +3 bonus to your Breath Weapon's save DC.",
+					{
+						"type": "entries",
+						"name": "Charges and Regaining",
+						"entries": [
+							"This weapon has 7 charges. You can expend 1 charge to deal an additional {@damage 1d6} damage of the same type as your Dragonborn Breath Weapon trait. This weapon regains {@dice 1d6 + 1} charges at dawn."
+						]
+					}
 				],
 				"lootTables": [
 					"Armaments - Very Rare|XDMG"
@@ -1221,8 +1290,22 @@
 				"basicRules2024": true,
 				"rarity": "very rare",
 				"entries": [
-					"This magic ammunition is meant to slay creatures of a particular type, which the DM chooses or determines randomly by rolling on the table below. If a creature of that type takes damage from the ammunition, the creature makes a {@dc 17} Constitution saving throw, taking an extra {@damage 6d10} Force damage on a failed save or half as much extra damage on a successful one. Once this piece of ammunition deals its extra damage, it cannot be used as a magical piece of ammunition until the following dawn.",
-					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact.",
+					"This magic ammunition is meant to slay creatures of a particular type, which the DM chooses or determines randomly by rolling on the table below. If a creature of that type takes damage from the ammunition, the creature makes a {@dc 17} Constitution {@variantrule Saving Throw|XPHB}, taking an extra {@damage 6d10} Force damage on a failed save or half as much extra damage on a successful one.",
+					{
+						"type": "entries",
+						"name": "Once per Dawn",
+						"entries": [
+							"Once this piece of ammunition deals its extra damage, it cannot be used as a magical piece of ammunition until the following dawn."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Ranged Weapons",
+						"entries": [
+							"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects.",
+							"If you choose to use both, this ammunition will become nonmagical when the ammunition hits the target. Additionally, it has a {@chance 25} chance of disintigrating on impact."
+						]
+					},
 					{
 						"type": "table",
 						"colStyles": [
@@ -3370,8 +3453,22 @@
 				"page": 118,
 				"rarity": "uncommon",
 				"entries": [
-					"When a target takes damage from this magical piece of ammunition, any ongoing spell of level 3 or lower on the target ends. Once this ammunition dispells a spell, it cannot be used as a piece of magical ammunition until the following dawn.",
-					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
+					"When a target takes damage from this magical piece of ammunition, any ongoing spell of level 3 or lower on the target ends.",
+					{
+						"type": "entries",
+						"name": "Once per Dawn",
+						"entries": [
+							"Once this ammunition dispells a spell, it cannot be used as a piece of magical ammunition until the following dawn."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Ranged Weapons",
+						"entries": [
+							"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects.",
+							"If you choose to use both, this ammunition will become nonmagical when the ammunition hits the target. Additionally, it has a {@chance 25} chance of disintigrating on impact."
+						]
+					}
 				]
 			}
 		},
@@ -4861,8 +4958,22 @@
 				"page": 119,
 				"rarity": "uncommon",
 				"entries": [
-					"If this piece of magic ammunition hits a creature and deals damage, the target makes a {@dc 13} Charisma saving throw. On a failed save, the target can't take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn, as it sputters and rages impotently. After this piece impacts a target's reaction, it cannot be used as a piece of magical ammunition until the following dawn.",
-					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
+					"If this piece of magic ammunition hits a creature and deals damage, the target makes a {@dc 13} Charisma saving throw. On a failed save, the target can't take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn, as it sputters and rages impotently.",
+					{
+						"type": "entries",
+						"name": "Once per Dawn",
+						"entries": [
+							"If a target makes the save, you can use this piece of ammunition again once its back in your possession. After this piece impacts a target's reaction, it cannot be used as a piece of magical ammunition until the following dawn."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Ranged Weapons",
+						"entries": [
+							"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects.",
+							"If you choose to use both, this ammunition will become nonmagical when the ammunition hits the target. Additionally, it has a {@chance 25} chance of disintigrating on impact."
+						]
+					}
 				]
 			}
 		},
