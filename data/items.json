@@ -141,7 +141,7 @@
 		{
 			"name": "+1 Hunter's Bracers",
 			"source": "XDMG",
-			"page": 270,
+			"page": 271,
 			"type": "SCF|XPHB",
 			"rarity": "uncommon",
 			"reqAttune": "by a ranger",
@@ -336,7 +336,7 @@
 		{
 			"name": "+1 Studded Collar",
 			"source": "XDMG",
-			"page": 312,
+			"page": 313,
 			"rarity": "uncommon",
 			"wondrous": true,
 			"bonusAc": "+1",
@@ -617,7 +617,7 @@
 		{
 			"name": "+2 Hunter's Bracers",
 			"source": "XDMG",
-			"page": 270,
+			"page": 271,
 			"type": "SCF|XPHB",
 			"rarity": "rare",
 			"reqAttune": "by a ranger",
@@ -807,7 +807,7 @@
 		{
 			"name": "+2 Studded Collar",
 			"source": "XDMG",
-			"page": 312,
+			"page": 313,
 			"rarity": "rare",
 			"wondrous": true,
 			"bonusAc": "+2",
@@ -1079,7 +1079,7 @@
 		{
 			"name": "+3 Hunter's Bracers",
 			"source": "XDMG",
-			"page": 270,
+			"page": 271,
 			"type": "SCF|XPHB",
 			"rarity": "very rare",
 			"reqAttune": "by a ranger",
@@ -1265,7 +1265,7 @@
 		{
 			"name": "+3 Studded Collar",
 			"source": "XDMG",
-			"page": 312,
+			"page": 313,
 			"rarity": "very rare",
 			"wondrous": true,
 			"bonusAc": "+3",
@@ -33407,7 +33407,7 @@
 		{
 			"name": "Immovable Rod",
 			"source": "XDMG",
-			"page": 270,
+			"page": 271,
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "RD|XDMG",
@@ -47109,7 +47109,7 @@
 		{
 			"name": "Pot of Awakening",
 			"source": "XDMG",
-			"page": 289,
+			"page": 287,
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
@@ -48174,7 +48174,7 @@
 		{
 			"name": "Potion of Greater Healing",
 			"source": "XDMG",
-			"page": 288,
+			"page": 289,
 			"srd52": true,
 			"basicRules2024": true,
 			"referenceSources": [
@@ -48369,7 +48369,7 @@
 		{
 			"name": "Potion of Healing",
 			"source": "XDMG",
-			"page": 288,
+			"page": 289,
 			"srd52": true,
 			"basicRules2024": true,
 			"otherSources": [
@@ -49439,7 +49439,7 @@
 		{
 			"name": "Potion of Superior Healing",
 			"source": "XDMG",
-			"page": 288,
+			"page": 289,
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "P|XPHB",
@@ -49493,7 +49493,7 @@
 		{
 			"name": "Potion of Supreme Healing",
 			"source": "XDMG",
-			"page": 288,
+			"page": 289,
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "P|XPHB",
@@ -51399,6 +51399,7 @@
 			"wondrous": true,
 			"recharge": "dawn",
 			"rechargeAmount": 1,
+			"charge": 1,
 			"entries": [
 				"This quill is made with a black feather from a crow or raven. When you place a piece of {@item Parchment|XPHB} over a gravestone or a corpse, you can use a {@action Magic|XPHB|Magic Action} to speak its command word, casting {@spell Speak with Dead|XPHB}. When you cast this spell in this way, the spell is altered in the following ways.",
 				{
@@ -56033,7 +56034,7 @@
 		{
 			"name": "Rod of Resurrection",
 			"source": "XDMG",
-			"page": 301,
+			"page": 300,
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "RD|XDMG",
@@ -56109,7 +56110,7 @@
 		{
 			"name": "Rod of Rulership",
 			"source": "XDMG",
-			"page": 301,
+			"page": 300,
 			"srd52": true,
 			"basicRules2024": true,
 			"referenceSources": [
@@ -56151,7 +56152,7 @@
 		{
 			"name": "Rod of Security",
 			"source": "XDMG",
-			"page": 301,
+			"page": 300,
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "RD|XDMG",
@@ -66483,7 +66484,7 @@
 		{
 			"name": "Staff of Withering",
 			"source": "XDMG",
-			"page": 312,
+			"page": 311,
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "M|XPHB",
@@ -67457,7 +67458,7 @@
 		{
 			"name": "Sun Blade",
 			"source": "XDMG",
-			"page": 312,
+			"page": 313,
 			"srd52": true,
 			"basicRules2024": true,
 			"baseItem": "longsword|xphb",
@@ -68909,7 +68910,8 @@
 			"rarity": "common",
 			"wondrous": true,
 			"recharge": "dawn",
-			"rechargeAmount": 3,
+			"rechargeAmount": "all",
+			"charges": 3,
 			"entries": [
 				"This golden stein is decorated with dancing dwarves and grain patterns.",
 				"When you make a {@action Magic|XPHB|Magic Action} to speak the command word while grasping the handle, the tankard fills with three pints of rich dwarven ale. This tankard has three charges and regains all expended charges at dawn."
@@ -75882,7 +75884,7 @@
 		{
 			"name": "Wand of Secrets",
 			"source": "XDMG",
-			"page": 322,
+			"page": 321,
 			"srd52": true,
 			"basicRules2024": true,
 			"referenceSources": [
@@ -76754,7 +76756,7 @@
 		{
 			"name": "Wave",
 			"source": "XDMG",
-			"page": 323,
+			"page": 322,
 			"baseItem": "trident|xphb",
 			"type": "M|XPHB",
 			"rarity": "artifact",
@@ -76960,7 +76962,7 @@
 		{
 			"name": "Well of Many Worlds",
 			"source": "XDMG",
-			"page": 324,
+			"page": 323,
 			"srd52": true,
 			"basicRules2024": true,
 			"rarity": "legendary",
@@ -77164,7 +77166,7 @@
 		{
 			"name": "Whelm",
 			"source": "XDMG",
-			"page": 324,
+			"page": 323,
 			"baseItem": "warhammer|xphb",
 			"type": "M|XPHB",
 			"rarity": "artifact",
@@ -77768,7 +77770,7 @@
 		{
 			"name": "Wind Fan",
 			"source": "XDMG",
-			"page": 325,
+			"page": 324,
 			"srd52": true,
 			"basicRules2024": true,
 			"rarity": "uncommon",
@@ -77913,7 +77915,7 @@
 		{
 			"name": "Winged Boots",
 			"source": "XDMG",
-			"page": 325,
+			"page": 324,
 			"srd52": true,
 			"basicRules2024": true,
 			"rarity": "uncommon",
@@ -79235,7 +79237,7 @@
 		{
 			"name": "Armor of Resistance",
 			"source": "XDMG",
-			"page": 231,
+			"page": 230,
 			"srd52": true,
 			"basicRules2024": true,
 			"referenceSources": [
@@ -79465,6 +79467,7 @@
 			"referenceSources": [
 				"DrDe-BD"
 			],
+			"type": "GV|XDMG",
 			"rarity": "uncommon",
 			"wondrous": true,
 			"recharge": "dawn",
@@ -79501,9 +79504,10 @@
 		{
 			"name": "Belt of Giant Strength",
 			"source": "XDMG",
-			"page": 236,
+			"page": 235,
 			"srd52": true,
 			"basicRules2024": true,
+			"type": "GV|XDMG",
 			"rarity": "varies",
 			"reqAttune": true,
 			"wondrous": true,
@@ -79753,6 +79757,7 @@
 			"page": 242,
 			"srd52": true,
 			"basicRules2024": true,
+			"type": "GV|XDMG",
 			"rarity": "very rare",
 			"wondrous": true,
 			"entries": [
@@ -79976,11 +79981,12 @@
 		{
 			"name": "Dragon Scale Mail",
 			"source": "XDMG",
-			"page": 254,
+			"page": 253,
 			"srd52": true,
 			"basicRules2024": true,
 			"baseItem": "scale mail|xphb",
 			"type": "MA|XPHB",
+			"typeAlt": "GV|XDMG",
 			"rarity": "very rare",
 			"reqAttune": true,
 			"weight": 45,
@@ -80132,7 +80138,7 @@
 		{
 			"name": "Dragonkin Weapon",
 			"source": "XDMG",
-			"page": 254,
+			"page": 253,
 			"rarity": "varies",
 			"type": "GV|XDMG",
 			"entries": [
@@ -80143,6 +80149,11 @@
 				"+1 Dragonkin Weapon|XDMG",
 				"+2 Dragonkin Weapon|XDMG",
 				"+3 Dragonkin Weapon|XDMG"
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG",
+				"Armaments - Rare|XDMG",
+				"Armaments - Very Rare|XDMG"
 			]
 		},
 		{
@@ -80231,6 +80242,7 @@
 			"referenceSources": [
 				"DrDe-BtS"
 			],
+			"type": "GV|XDMG",
 			"rarity": "uncommon",
 			"wondrous": true,
 			"items": [
@@ -80277,6 +80289,7 @@
 			"source": "XDMG",
 			"page": 258,
 			"type": "M|XPHB",
+			"typeAlt": "GV|XDMG",
 			"rarity": "varies",
 			"reqAttune": "by a Spellcaster",
 			"reqAttuneTags": [
@@ -80810,6 +80823,7 @@
 			"page": 261,
 			"srd52": true,
 			"basicRules2024": true,
+			"type": "GV|XDMG",
 			"rarity": "varies",
 			"wondrous": true,
 			"hasRefs": true,
@@ -81132,6 +81146,7 @@
 			"page": 270,
 			"srd52": true,
 			"basicRules2024": true,
+			"type": "GV|XDMG",
 			"rarity": "varies",
 			"wondrous": true,
 			"hasRefs": true,
@@ -81212,6 +81227,11 @@
 				"+1 Hunter's Bracers|XDMG",
 				"+2 Hunter's Bracers|XDMG",
 				"+3 Hunter's Bracers|XDMG"
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG",
+				"Armaments - Rare|XDMG",
+				"Armaments - Very Rare|XDMG"
 			]
 		},
 		{
@@ -81384,6 +81404,7 @@
 			"source": "XDMG",
 			"page": 272,
 			"rarity": "varies",
+			"type": "GV|XDMG",
 			"reqAttune": "by a bard",
 			"reqAttuneTags": [
 				{
@@ -81474,6 +81495,7 @@
 			"page": 273,
 			"srd52": true,
 			"basicRules2024": true,
+			"type": "GV|XDMG",
 			"rarity": "varies",
 			"reqAttune": true,
 			"wondrous": true,
@@ -81729,9 +81751,10 @@
 		{
 			"name": "Manual of Golems",
 			"source": "XDMG",
-			"page": 277,
+			"page": 276,
 			"srd52": true,
 			"basicRules2024": true,
+			"type": "GV|XDMG",
 			"rarity": "very rare",
 			"wondrous": true,
 			"weight": 5,
@@ -81835,7 +81858,7 @@
 		{
 			"name": "Moon Sickle",
 			"source": "XDMG",
-			"page": 279,
+			"page": 278,
 			"baseItem": "sickle|XPHB",
 			"type": "M|XDMG",
 			"typeAlt": "GV|XDMG",
@@ -81857,6 +81880,14 @@
 				"+1 Moon Sickle|XDMG",
 				"+2 Moon Sickle|XDMG",
 				"+3 Moon Sickle|XDMG"
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG",
+				"Relics - Uncommon|XDMG",
+				"Armaments - Rare|XDMG",
+				"Relics - Rare|XDMG",
+				"Armaments - Very Rare|XDMG",
+				"Relics - Very Rare|XDMG"
 			]
 		},
 		{
@@ -82083,13 +82114,14 @@
 		{
 			"name": "Potion of Giant Strength",
 			"source": "XDMG",
-			"page": 288,
+			"page": 287,
 			"srd52": true,
 			"basicRules2024": true,
 			"referenceSources": [
 				"DrDe-DaS"
 			],
 			"type": "P|XPHB",
+			"typeAlt": "GV|XDMG",
 			"rarity": "varies",
 			"weight": 0.5,
 			"entries": [
@@ -82232,10 +82264,11 @@
 		{
 			"name": "Potion of Resistance",
 			"source": "XDMG",
-			"page": 289,
+			"page": 288,
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "P|XPHB",
+			"typeAlt": "GV|XDMG",
 			"rarity": "uncommon",
 			"weight": 0.5,
 			"entries": [
@@ -82341,6 +82374,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "P|XPHB",
+			"typeAlt": "GV|XDMG",
 			"rarity": "varies",
 			"weight": 0.5,
 			"items": [
@@ -82447,6 +82481,7 @@
 			"page": 290,
 			"srd52": "Feather Token",
 			"basicRules2024": true,
+			"type": "GV|XDMG",
 			"rarity": "varies",
 			"wondrous": true,
 			"entries": [
@@ -82560,6 +82595,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "RG|XDMG",
+			"typeAlt": "GV|XDMG",
 			"rarity": "legendary",
 			"reqAttune": true,
 			"recharge": "dawn",
@@ -82674,10 +82710,11 @@
 		{
 			"name": "Ring of Resistance",
 			"source": "XDMG",
-			"page": 294,
+			"page": 293,
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "RG|XDMG",
+			"typeAlt": "GV|XDMG",
 			"rarity": "rare",
 			"entries": [
 				"You have {@variantrule Resistance|XPHB} to one damage type while wearing this ring. The gemstone in the ring indicates the type, which the DM chooses or determines randomly by rolling on the following table.",
@@ -82814,7 +82851,7 @@
 		{
 			"name": "Rod of the Pact Keeper",
 			"source": "XDMG",
-			"page": 301,
+			"page": 300,
 			"type": "RD|XDMG",
 			"typeAlt": "GV|XDMG",
 			"rarity": "varies",
@@ -83015,6 +83052,7 @@
 			"source": "XDMG",
 			"page": 302,
 			"type": "SC|XPHB",
+			"typeAlt": "GV|XDMG",
 			"rarity": "rare",
 			"entries": [
 				"Each Scroll of Protection works against creatures of a specific creature type chosen by the DM or determined by rolling on the following table.",
@@ -83121,6 +83159,7 @@
 			"source": "XDMG",
 			"page": 303,
 			"type": "SC|XPHB",
+			"typeAlt": "GV|XDMG",
 			"rarity": "legendary",
 			"entries": [
 				"When you take a {@action Magic|XPHB} action to read this scroll, a particular titan named in the scroll appears in an unoccupied space on the ground or in water that you can see within 1 mile of yourself. The DM picks a suitable titan or determines it randomly by rolling on the table below.",
@@ -83436,6 +83475,7 @@
 				"FRAiF"
 			],
 			"type": "SC|XPHB",
+			"typeAlt": "GV|XDMG",
 			"rarity": "varies",
 			"items": [
 				"Spell Scroll (Cantrip)|XDMG",
@@ -83476,7 +83516,7 @@
 		{
 			"name": "Spiked Collar",
 			"source": "XDMG",
-			"page": 306,
+			"page": 305,
 			"rarity": "varies",
 			"type": "GV|XDMG",
 			"wondrous": true,
@@ -83488,6 +83528,11 @@
 				"+1 Spiked Collar|XDMG",
 				"+2 Spiked Collar|XDMG",
 				"+3 Spiked Collar|XDMG"
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG",
+				"Armaments - Rare|XDMG",
+				"Armaments - Very Rare|XDMG"
 			]
 		},
 		{
@@ -83573,6 +83618,11 @@
 				"+1 Studded Collar|XDMG",
 				"+2 Studded Collar|XDMG",
 				"+3 Studded Collar|XDMG"
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG",
+				"Armaments - Rare|XDMG",
+				"Armaments - Very Rare|XDMG"
 			]
 		},
 		{
@@ -83812,7 +83862,7 @@
 		{
 			"name": "Wand of the War Mage",
 			"source": "XDMG",
-			"page": 322,
+			"page": 321,
 			"srd52": true,
 			"type": "WD|XDMG",
 			"typeAlt": "GV|XDMG",
@@ -83856,7 +83906,7 @@
 		{
 			"name": "Wild Staff",
 			"source": "XDMG",
-			"page": 325,
+			"page": 324,
 			"baseItem": "wooden staff|XPHB",
 			"type": "M|XDMG",
 			"typeAlt": "GV|XDMG",
@@ -83886,6 +83936,14 @@
 				"+1 Wild Staff|XDMG",
 				"+2 Wild Staff|XDMG",
 				"+3 Wild Staff|XDMG"
+			],
+			"lootTables": [
+				"Armaments - Uncommon|XDMG",
+				"Implements - Uncommon|XDMG",
+				"Armaments - Rare|XDMG",
+				"Implements - Rare|XDMG",
+				"Armaments - Very Rare|XDMG",
+				"Implements - Very Rare|XDMG"
 			]
 		},
 		{
@@ -83916,7 +83974,7 @@
 		{
 			"name": "Wraps of Unarmed Power",
 			"source": "XDMG",
-			"page": 325,
+			"page": 324,
 			"type": "GV|XDMG",
 			"rarity": "varies",
 			"wondrous": true,

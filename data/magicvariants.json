@@ -296,7 +296,7 @@
 			"inherits": {
 				"namePrefix": "+1 ",
 				"source": "XDMG",
-				"page": 324,
+				"page": 323,
 				"srd52": true,
 				"basicRules2024": true,
 				"rarity": "uncommon",
@@ -610,7 +610,7 @@
 			"inherits": {
 				"namePrefix": "+2 ",
 				"source": "XDMG",
-				"page": 324,
+				"page": 323,
 				"srd52": true,
 				"basicRules2024": true,
 				"rarity": "rare",
@@ -910,7 +910,7 @@
 			"inherits": {
 				"namePrefix": "+3 ",
 				"source": "XDMG",
-				"page": 324,
+				"page": 323,
 				"srd52": true,
 				"basicRules2024": true,
 				"rarity": "very rare",
@@ -1220,8 +1220,6 @@
 				"srd52": true,
 				"basicRules2024": true,
 				"rarity": "very rare",
-				"recharge": "dawn",
-				"rechargeAmount": 1,
 				"entries": [
 					"This magic ammunition is meant to slay creatures of a particular type, which the DM chooses or determines randomly by rolling on the table below. If a creature of that type takes damage from the ammunition, the creature makes a {@dc 17} Constitution saving throw, taking an extra {@damage 6d10} Force damage on a failed save or half as much extra damage on a successful one. Once this piece of ammunition deals its extra damage, it cannot be used as a magical piece of ammunition until the following dawn.",
 					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact.",
@@ -3371,8 +3369,6 @@
 				"source": "AU",
 				"page": 118,
 				"rarity": "uncommon",
-				"recharge": "dawn",
-				"rechargeAmount": 1,
 				"entries": [
 					"When a target takes damage from this magical piece of ammunition, any ongoing spell of level 3 or lower on the target ends. Once this ammunition dispells a spell, it cannot be used as a piece of magical ammunition until the following dawn.",
 					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
@@ -4864,8 +4860,6 @@
 				"source": "AU",
 				"page": 119,
 				"rarity": "uncommon",
-				"recharge": "dawn",
-				"rechargeAmount": 1,
 				"entries": [
 					"If this piece of magic ammunition hits a creature and deals damage, the target makes a {@dc 13} Charisma saving throw. On a failed save, the target can't take {@variantrule Reaction|XPHB|Reactions} until the start of its next turn, as it sputters and rages impotently. After this piece impacts a target's reaction, it cannot be used as a piece of magical ammunition until the following dawn.",
 					"This magical ammunition is fired from mundane ranged weapons. If you use a magical weapon, you must choose between the weapon's effects or the ammunition's effects. If you choose to use both, on a hit, this ammunition will become nonmagical and has a {@chance 25} chance of disintigrating on impact."
@@ -5736,7 +5730,7 @@
 			"inherits": {
 				"namePrefix": "Mithral ",
 				"source": "XDMG",
-				"page": 279,
+				"page": 278,
 				"srd52": true,
 				"basicRules2024": true,
 				"rarity": "uncommon",
@@ -5853,7 +5847,7 @@
 			"inherits": {
 				"namePrefix": "Moon-Touched ",
 				"source": "XDMG",
-				"page": 280,
+				"page": 279,
 				"rarity": "common",
 				"entries": [
 					"In {@variantrule Darkness|XPHB}, the unsheathed blade of this weapon sheds moonlight, creating {@variantrule Bright Light|XPHB} in a 15-foot radius and {@variantrule Dim Light|XPHB} for an additional 15 feet."
@@ -6788,10 +6782,12 @@
 			"inherits": {
 				"nameSuffix": " of Corvids",
 				"source": "XDMG",
-				"page": 303,
+				"page": 304,
+				"type": "S|XPHB",
 				"rarity": "uncommon",
 				"recharge": "dawn",
 				"rechargeAmount": 1,
+				"charges": 1,
 				"entries": [
 					"While holding this shield, you can speak its command work to summon a {@creature Swarm of Ravens|XMM} as a {@action Magic|XPHB|Magic Action}. For up to 12 hours, these birds will scout terrain, warn you of enemies, and keep watch while you sleep. They do not engage in combat on your behalf and flee if attacked or threatened. After the duration, the shield cannot summon another swarm until the next day.",
 					"In addition, while holding the shield, you gain the ability to speak with crows, ravens, and other corvids."
@@ -8030,8 +8026,6 @@
 				"page": 318,
 				"rarity": "uncommon",
 				"bonusWeapon": "+1",
-				"recharge": "dawn",
-				"rechargeAmount": 1,
 				"entries": [
 					"Tightly braided living vines have been rooted to the end of a branch to make this magic weapon. This +1 weapon can be targeted by the {@spell Shillelagh|XPHB} spell and it gains an additional 10 feet to its reach or range, gaining {@variantrule Proficiency|XPHB} in this weapon if you do not already have it. If you are a {@class Druid|XPHB} or {@class Ranger|XPHB}, this weapon has gains an additional 20 feet to its reach or range, instead of 10 feet.",
 					{
@@ -8346,7 +8340,7 @@
 			"inherits": {
 				"nameSuffix": " of Warning",
 				"source": "XDMG",
-				"page": 324,
+				"page": 323,
 				"srd52": true,
 				"rarity": "uncommon",
 				"reqAttune": true,
