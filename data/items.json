@@ -2078,6 +2078,9 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 12,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. The jug sloshes when it is shaken, even if the jug is empty.",
 				"You can take a {@action Magic|XPHB} action and name one liquid from the Alchemy Jug Liquids table to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as a {@action Utilize|XPHB} action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.",
@@ -2158,6 +2161,9 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 12,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.",
 				"You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.",
@@ -2223,6 +2229,9 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 12,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.",
 				"You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.",
@@ -3439,13 +3448,17 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"grantsProficiency": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"Hundreds of pages of illustrations, tables, and diagrams about a wide variety of monsters fill this magical tome.",
 				{
 					"type": "entries",
 					"name": "Charm Monster",
 					"entries": [
-						"While holding the book, you can cast the {@spell Charm Monster|XPHB} spell (spell save {@dc 15}) from it. The target has {@variantrule Disadvantage|XPHB} on the saving throw against this spell if it isn't a Humanoid. You can't cast this spell again in this way until the next dawn."
+						"While holding the book, you can cast the {@spell Charm Monster|XPHB} spell (spell save {@dc 15}) from it. The target has {@variantrule Disadvantage|XPHB} on the saving throw against this spell if it isn't a Humanoid.",
+						"You can't cast this spell again in this way until the next dawn."
 					]
 				},
 				{
@@ -3575,6 +3588,9 @@
 			"type": "HA|XPHB",
 			"rarity": "legendary",
 			"reqAttune": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"weight": 65,
 			"ac": 18,
 			"strength": "15",
@@ -4820,7 +4836,9 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"rarity": "rare",
+			"weight": 0.5,
 			"wondrous": true,
+			"charges": "{@dice 3d4}",
 			"entries": [
 				"This heavy cloth bag contains {@dice 3d4} dry beans when found. The bag weighs half a pound regardless of how many beans it contains and becomes a nonmagical item when it no longer contains any beans.",
 				"If you dump one or more beans out of the bag, they explode in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on them. All the dumped beans are destroyed in the explosion, and each creature in the {@variantrule Sphere [Area of Effect]|XPHB|Sphere}, including you, makes a {@dc 15} Dexterity saving throw, taking {@damage 5d4} Force damage on a failed save or half as much damage on a successful one.",
@@ -6733,38 +6751,48 @@
 						{
 							"type": "item",
 							"name": "Dwarvish",
-							"entries": [
-								"You know Dwarvish."
-							]
+							"entry": "You know Dwarvish."
 						},
 						{
 							"type": "item",
 							"name": "Friend of Dwarvenkind",
-							"entries": [
-								"You have {@variantrule Advantage|XPHB} on Charisma ({@skill Persuasion|XPHB}) checks made to interact with dwarves and duergar."
-							]
+							"entry": "You have {@variantrule Advantage|XPHB} on Charisma ({@skill Persuasion|XPHB}) checks made to interact with dwarves and duergar."
 						},
 						{
 							"type": "item",
 							"name": "Toughness",
-							"entries": [
-								"Your Constitution increases by 2, to a maximum of 20."
-							]
-						},
-						"In addition, while attuned to the belt, you have a {@chance 50} chance each day at dawn of growing a full beard if you can grow one, or a thicker beard if you already have one.",
-						"If you aren't a dwarf or duergar, you gain the following additional benefits while wearing the belt:",
-						{
-							"type": "item",
-							"name": "Darkvision",
-							"entries": [
-								"You have {@sense Darkvision|XPHB} with a range of 60 feet."
-							]
+							"entry": "Your Constitution increases by 2, to a maximum of 20."
 						},
 						{
 							"type": "item",
-							"name": "Resilience",
-							"entries": [
-								"You have {@variantrule Resistance|XPHB} to Poison damage. You also have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition Poisoned|XPHB} condition."
+							"name": "Beard?",
+							"entry": "In addition, while attuned to the belt, you have a {@chance 50} chance each day at dawn of growing a full beard if you can grow one, or a thicker beard if you already have one."
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Not a Dwarf or Duergar?",
+					"entries": [
+						"If you aren't a Dwarf or Duergar, you gain the following additional benefits while wearing the belt:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Darkvision",
+									"entries": [
+										"You have {@sense Darkvision|XPHB} with a range of 60 feet. If you already have {@sense Darkvision|XPHB}, your range extends by an additional 60 feet."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Resilience",
+									"entries": [
+										"You have {@variantrule Resistance|XPHB} to Poison damage. You also have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition Poisoned|XPHB} condition."
+									]
+								}
 							]
 						}
 					]
@@ -7261,6 +7289,9 @@
 			"weight": 45,
 			"ac": 14,
 			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"stealth": true,
 			"hasRefs": true,
 			"entries": [
@@ -8023,7 +8054,8 @@
 					"name": "Blemished",
 					"entries": [
 						"The idol is made of tarnished bronze, with minor dings and dents scattered over its surface.",
-						"You can cast the {@spell Augury|XPHB} spell from the idol. The idol speaks the omen aloud in response. Once the idol has been used to cast this spell, it can't be used to cast this spell again until the next dawn."
+						"You can cast the {@spell Augury|XPHB} spell from the idol. The idol speaks the omen aloud in response.",
+						"Once the idol has been used to cast this spell, it can't be used to cast this spell again until the next dawn."
 					]
 				}
 			],
@@ -8428,6 +8460,9 @@
 			"weight": 45,
 			"ac": 14,
 			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"stealth": true,
 			"hasRefs": true,
 			"entries": [
@@ -9655,10 +9690,14 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"entries": [
-				"While this bowl is filled with water and you are within 5 feet of it, you can take a {@action Magic|XPHB} action to summon a {@creature Water Elemental|XMM}. The elemental appears in an unoccupied space as close to the bowl as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your {@variantrule Initiative|XPHB} count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a {@variantrule Bonus Action|XPHB}. The bowl can't be used this way again until the next dawn.",
-				"The bowl is about 1 foot in diameter and half as deep. It holds about 3 gallons."
+				"The bowl is about 1 foot in diameter and half as deep. It holds about 3 gallons.",
+				"While this bowl is filled with water and you are within 5 feet of it, you can take a {@action Magic|XPHB} action to summon a {@creature Water Elemental|XMM}. The elemental appears in an unoccupied space as close to the bowl as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your {@variantrule Initiative|XPHB} count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a {@variantrule Bonus Action|XPHB}.",
+				"The bowl can't be used this way again until the next dawn."
 			],
 			"lootTables": [
 				"Arcana - Rare|XDMG",
@@ -9925,6 +9964,9 @@
 			"weight": 45,
 			"ac": 14,
 			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"stealth": true,
 			"hasRefs": true,
 			"entries": [
@@ -9991,9 +10033,13 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"entries": [
-				"While you are within 5 feet of this brazier, you can take a {@action Magic|XPHB} action to summon a {@creature Fire Elemental|XMM}. The elemental appears in an unoccupied space as close to the brazier as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your {@variantrule Initiative|XPHB} count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a {@variantrule Bonus Action|XPHB}. The brazier can't be used this way again until the next dawn."
+				"While you are within 5 feet of this brazier, you can take a {@action Magic|XPHB} action to summon a {@creature Fire Elemental|XMM}. The elemental appears in an unoccupied space as close to the brazier as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your {@variantrule Initiative|XPHB} count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a {@variantrule Bonus Action|XPHB}.",
+				"The brazier can't be used this way again until the next dawn."
 			],
 			"lootTables": [
 				"Arcana - Rare|XDMG",
@@ -10233,6 +10279,9 @@
 			"weight": 45,
 			"ac": 14,
 			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"stealth": true,
 			"hasRefs": true,
 			"entries": [
@@ -11422,9 +11471,13 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"entries": [
-				"This cape smells faintly of brimstone. While wearing it, you can use it to cast {@spell Dimension Door|XPHB} as a {@action Magic|XPHB} action. This property can't be used again until the next dawn.",
+				"This cape smells faintly of brimstone. While wearing it, you can use it to cast {@spell Dimension Door|XPHB} as a {@action Magic|XPHB} action.",
+				"This property can't be used again until the next dawn.",
 				"When you teleport with that spell, you leave behind a cloud of smoke. The space you left is {@variantrule Lightly Obscured|XPHB} by that smoke until the end of your next turn."
 			],
 			"attachedSpells": {
@@ -11998,9 +12051,13 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"entries": [
-				"While gently swinging this censer, you can take a {@action Magic|XPHB} action to summon an {@creature Air Elemental|XMM}. The elemental appears in an unoccupied space as close to the censer as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your {@variantrule Initiative|XPHB} count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a {@variantrule Bonus Action|XPHB}. The censer can't be used this way again until the next dawn."
+				"While gently swinging this censer, you can take a {@action Magic|XPHB} action to summon an {@creature Air Elemental|XMM}. The elemental appears in an unoccupied space as close to the censer as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your {@variantrule Initiative|XPHB} count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a {@variantrule Bonus Action|XPHB}.",
+				"The censer can't be used this way again until the next dawn."
 			],
 			"lootTables": [
 				"Arcana - Rare|XDMG",
@@ -12610,9 +12667,13 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"rarity": "uncommon",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"entries": [
-				"While wearing this circlet, you can cast {@spell Scorching Ray|XPHB} with it ({@hit 5} to hit). The circlet can't cast this spell again until the next dawn."
+				"While wearing this circlet, you can cast {@spell Scorching Ray|XPHB} with it ({@hit 5} to hit).",
+				"The circlet can't cast this spell again until the next dawn."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -12838,6 +12899,9 @@
 			],
 			"rarity": "very rare",
 			"reqAttune": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"modifySpeed": {
 				"equal": {
@@ -12871,7 +12935,8 @@
 					"type": "entries",
 					"name": "Web",
 					"entries": [
-						"You can cast {@spell Web|XPHB} (save {@dc 13}). The web created by the spell fills twice its normal area. Once used, this property can't be used again until the next dawn."
+						"You can cast {@spell Web|XPHB} (save {@dc 13}). The web created by the spell fills twice its normal area.",
+						"Once used, this property can't be used again until the next dawn."
 					]
 				}
 			],
@@ -13230,10 +13295,20 @@
 			"basicRules2024": true,
 			"rarity": "rare",
 			"reqAttune": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"entries": [
 				"While wearing this cloak, you have {@variantrule Advantage|XPHB} on Dexterity ({@skill Stealth|XPHB}) checks. In an area of {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}, you can grip the edges of the cloak and use it to gain a {@variantrule Fly Speed|XPHB} of 40 feet. If you ever fail to grip the cloak's edges while flying in this way, or if you are no longer in {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}, you lose this {@variantrule Fly Speed|XPHB}.",
-				"While wearing the cloak in an area of {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}, you can cast {@spell Polymorph|XPHB} on yourself, shape-shifting into a {@creature Bat|XMM}. While in that form, you retain your Intelligence, Wisdom, and Charisma scores. The cloak can't be used this way again until the next dawn."
+				{
+					"type": "entries",
+					"name": "Polymorph",
+					"entries": [
+						"While wearing the cloak in an area of {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}, you can cast {@spell Polymorph|XPHB} on yourself, shape-shifting into a {@creature Bat|XMM}. While in that form, you retain your Intelligence, Wisdom, and Charisma scores.",
+						"The cloak can't be used this way again until the next dawn."
+					]
+				}
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce"
@@ -13325,10 +13400,12 @@
 			"rarity": "common",
 			"wondrous": true,
 			"recharge": "dawn",
+			"rechargeAmount": 1,
 			"charges": 1,
 			"entries": [
 				"This copper amulet contains tiny interlocking gears and is powered by magic from Mechanus, a plane of clockwork predictability. Faint ticking and whirring noises emanate from within.",
-				"When you make an attack roll while wearing the amulet, you can forgo rolling the {@dice d20} to get a 10 on the die. Once used, this property can't be used again until the next dawn."
+				"When you make an attack roll while wearing the amulet, you can forgo rolling the {@dice d20} to get a 10 on the die.",
+				"Once used, this property can't be used again until the next dawn."
 			],
 			"lootTables": [
 				"Implements - Common|XDMG"
@@ -13916,6 +13993,9 @@
 			"weight": 45,
 			"ac": 14,
 			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"stealth": true,
 			"hasRefs": true,
 			"entries": [
@@ -14843,10 +14923,14 @@
 			"source": "AUD",
 			"rarity": "legendary",
 			"reqAttune": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"entries": [
 				"Black-and-scarlet clouds of ominous magic swirl inside this crystal orb. While touching the orb, you can cast {@spell Hex|XPHB} or {@spell Scrying|XPHB} (save {@dc 17}) with it.",
-				"In addition, when a creature you can see within 60 feet succeeds on a {@variantrule D20 Test|XPHB}, you can take a {@variantrule Reaction|XPHB} to turn the roll into a 1. Once used, this property can't be used again until the next dawn."
+				"In addition, when a creature you can see within 60 feet succeeds on a {@variantrule D20 Test|XPHB}, you can take a {@variantrule Reaction|XPHB} to turn the roll into a 1.",
+				"Once used, this property can't be used again until the next dawn."
 			],
 			"attachedSpells": {
 				"will": [
@@ -14897,11 +14981,15 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"rarity": "legendary",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": true,
 			"wondrous": true,
 			"weight": 3,
 			"entries": [
-				"While touching this crystal orb, you can cast {@spell Scrying|XPHB} (save {@dc 17}) with it. In addition, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also cast {@spell Suggestion|XPHB} (save {@dc 17}) through the sensor on one of those creatures. You don't need to concentrate on this {@spell Suggestion|XPHB} to maintain it during its duration, but it ends if {@spell Scrying|XPHB} ends. You can't cast {@spell Suggestion|XPHB} in this way again until the next dawn."
+				"While touching this crystal orb, you can cast {@spell Scrying|XPHB} (save {@dc 17}) with it. In addition, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also cast {@spell Suggestion|XPHB} (save {@dc 17}) through the sensor on one of those creatures. You don't need to concentrate on this {@spell Suggestion|XPHB} to maintain it during its duration, but it ends if {@spell Scrying|XPHB} ends.",
+				"You can't cast {@spell Suggestion|XPHB} in this way again until the next dawn."
 			],
 			"attachedSpells": {
 				"will": [
@@ -15206,6 +15294,9 @@
 				"DrDe-TFV"
 			],
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"entries": [
 				"This Tiny cube looks like a jack-in-the-box. When you wind its crank as a {@action Magic|XPHB} action, a merry tune emits from the box, the lid pops open, a creature appears in the nearest unoccupied space, and the lid closes. The lid can't otherwise be opened.",
@@ -15584,9 +15675,13 @@
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"bonusWeapon": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.",
-				"You can take a {@variantrule Bonus Action|XPHB} to magically coat the blade with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a {@dc 15} Constitution saving throw or take {@damage 2d10} Poison damage and have the {@condition Poisoned|XPHB} condition for 1 minute. The weapon can't be used this way again until the next dawn."
+				"You can take a {@variantrule Bonus Action|XPHB} to magically coat the blade with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a {@dc 15} Constitution saving throw or take {@damage 2d10} Poison damage and have the {@condition Poisoned|XPHB} condition for 1 minute.",
+				"The weapon can't be used this way again until the next dawn."
 			],
 			"classFeatures": [
 				"replicate magic item|artificer|efa|2|efa"
@@ -21015,24 +21110,24 @@
 			"entries": [
 				"This staff can be wielded as a magic {@item Quarterstaff|XPHB} that grants a +1 bonus to attack rolls and damage rolls made with it. It also has the following additional properties. Once one of these properties is used, that property can't be used again until the next dawn.",
 				{
-					"type": "entries",
-					"name": "Calm Emotions",
-					"entries": [
-						"You can cast the {@spell Calm Emotions|XPHB} spell (save {@dc 15}) from the staff."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Dissuading Aura",
-					"entries": [
-						"As a {@action Magic|XPHB} action while holding the staff, you can create a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} of mental unrest originating from you that lasts for 1 minute. Whenever the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} enters the space of a creature you can see and whenever a creature you can see enters the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} or ends its turn there, you can force that creature to make a {@dc 15} Wisdom saving throw. On a failed save, the creature has the {@condition Frightened|XPHB} condition until the start of its next turn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Repel",
-					"entries": [
-						"When a creature enters a space within 5 feet of you, you can take a {@variantrule Reaction|XPHB} to create a shock wave of force. Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you must succeed on a {@dc 15} Strength saving throw or be pushed up to 30 feet straight away from you."
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Calm Emotions",
+							"entry": "You can cast the {@spell Calm Emotions|XPHB} spell (save {@dc 15}) from the staff."
+						},
+						{
+							"type": "item",
+							"name": "Dissuading Aura",
+							"entry": "As a {@action Magic|XPHB} action while holding the staff, you can create a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} of mental unrest originating from you that lasts for 1 minute. Whenever the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} enters the space of a creature you can see and whenever a creature you can see enters the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} or ends its turn there, you can force that creature to make a {@dc 15} Wisdom saving throw. On a failed save, the creature has the {@condition Frightened|XPHB} condition until the start of its next turn."
+						},
+						{
+							"type": "item",
+							"name": "Repel",
+							"entry": "When a creature enters a space within 5 feet of you, you can take a {@variantrule Reaction|XPHB} to create a shock wave of force. Each creature of your choice in a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you must succeed on a {@dc 15} Strength saving throw or be pushed up to 30 feet straight away from you."
+						}
 					]
 				}
 			],
@@ -21738,7 +21833,8 @@
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
-				"This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can command it to emanate light equivalent to that of the {@spell Light|XPHB} or {@spell Daylight|XPHB} spell (your choice). Once used, the Daylight effect can't be used again until the next dawn.",
+				"This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can command it to emanate light equivalent to that of the {@spell Light|XPHB} or {@spell Daylight|XPHB} spell (your choice).",
+				"Once used, the Daylight effect can't be used again until the next dawn.",
 				"You can issue another command as a {@action Magic|XPHB} action to make the illuminated globe rise into the air and float no more than 5 feet off the ground. The globe hovers in this way until you or another creature grasps it. If you move more than 60 feet from the hovering globe, it follows you until it is within 60 feet of you. It takes the shortest route to do so. If prevented from moving, the globe sinks gently to the ground and becomes inactive, and its light winks out."
 			],
 			"attachedSpells": {
@@ -27247,9 +27343,13 @@
 			"name": "Fork of Eddy Summoning",
 			"source": "NF",
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"entries": [
-				"This Tiny tuning fork crackles with harmless, multicolored magical energy. As a {@action Magic|XPHB} action, you can tap the fork against any object to summon an {@creature Eldritch Eddy|NF} (see appendix B). The eddy appears in an unoccupied space as close to you as possible. The eddy is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies, and it obeys your commands. If you fail to command it, the eddy defends itself against attackers but takes no other actions. It takes its turn immediately after you on your {@variantrule Initiative|XPHB} count. The eddy disappears after 1 hour, when it dies, or when you dismiss it as a {@variantrule Bonus Action|XPHB}. The fork can't be used this way again until the next dawn."
+				"This Tiny tuning fork crackles with harmless, multicolored magical energy. As a {@action Magic|XPHB} action, you can tap the fork against any object to summon an {@creature Eldritch Eddy|NF} (see appendix B). The eddy appears in an unoccupied space as close to you as possible. The eddy is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies, and it obeys your commands. If you fail to command it, the eddy defends itself against attackers but takes no other actions. It takes its turn immediately after you on your {@variantrule Initiative|XPHB} count. The eddy disappears after 1 hour, when it dies, or when you dismiss it as a {@variantrule Bonus Action|XPHB}.",
+				"The fork can't be used this way again until the next dawn."
 			]
 		},
 		{
@@ -28679,6 +28779,9 @@
 			"weight": 45,
 			"ac": 14,
 			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"stealth": true,
 			"hasRefs": true,
 			"entries": [
@@ -29050,6 +29153,9 @@
 			"dmg1": "1d4",
 			"dmgType": "S",
 			"bonusWeapon": "+2",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon. When you hit a creature with it, the target takes an extra {@damage 2d8} Necrotic damage.",
 				{
@@ -29267,6 +29373,9 @@
 			"weight": 45,
 			"ac": 14,
 			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"stealth": true,
 			"hasRefs": true,
 			"entries": [
@@ -31405,17 +31514,16 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"While wearing this helm, you have telepathy with a range of 30 feet, and you can cast {@spell Detect Thoughts|XPHB} or {@spell Suggestion|XPHB} (save {@dc 13}) from the helm. Once either spell is cast from the helm, that spell can't be cast from it again until the next dawn."
+				"While wearing this helm, you have telepathy with a range of 30 feet, and you can cast {@spell Detect Thoughts|XPHB} or {@spell Suggestion|XPHB} (save {@dc 13}) from the helm.",
+				"Once either spell is cast from the helm, that spell can't be cast from it again until the next dawn."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce"
 			],
 			"attachedSpells": {
-				"will": [
-					"detect thoughts|xphb"
-				],
 				"daily": {
 					"1e": [
+						"detect thoughts|xphb",
 						"suggestion|xphb"
 					]
 				}
@@ -35776,6 +35884,9 @@
 			"srd52": "Iron Bands",
 			"basicRules2024": true,
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
@@ -36660,13 +36771,17 @@
 			"range": "30/120",
 			"dmg1": "1d6",
 			"dmgType": "P",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"Each time you make an attack roll with this magic weapon and hit, you can have it deal Lightning damage instead of Piercing damage.",
 				{
 					"type": "entries",
 					"name": "Lightning Bolt",
 					"entries": [
-						"When you throw this weapon at a target no farther than 120 feet from you, you can forgo making a ranged attack roll and instead turn the weapon into a bolt of lightning. This bolt forms a 5-foot-wide {@variantrule Line [Area of Effect]|XPHB|Line} between you and the target. The target and each other creature in the {@variantrule Line [Area of Effect]|XPHB|Line} (excluding you) makes a {@dc 13} Dexterity saving throw, taking {@damage 4d6} Lightning damage on a failed save or half as much damage on a successful one. Immediately after dealing this damage, the weapon reappears in your hand. This property can't be used again until the next dawn."
+						"When you throw this weapon at a target no farther than 120 feet from you, you can forgo making a ranged attack roll and instead turn the weapon into a bolt of lightning. This bolt forms a 5-foot-wide {@variantrule Line [Area of Effect]|XPHB|Line} between you and the target. The target and each other creature in the {@variantrule Line [Area of Effect]|XPHB|Line} (excluding you) makes a {@dc 13} Dexterity saving throw, taking {@damage 4d6} Lightning damage on a failed save or half as much damage on a successful one. Immediately after dealing this damage, the weapon reappears in your hand.",
+						"This property can't be used again until the next dawn."
 					]
 				}
 			],
@@ -39884,11 +39999,15 @@
 			"source": "AU",
 			"page": 120,
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"entries": [
 				"As a {@action Magic|XPHB} action while wearing this bracelet, you can target a Large or smaller creature within 5 feet of yourself that has the {@condition Grappled|XPHB} or {@condition Incapacitated|XPHB} condition. The target must succeed on a {@dc 15} Dexterity saving throw or become magically bound to you by a spectral chain and manacle that spring from the bracelet.",
 				"While bound in this way, the creature has the {@condition Restrained|XPHB} condition. When you move, the creature moves with you.",
-				"A creature remains bound for 8 hours or until you release it (no action required). If the manacle takes damage from a {@spell Disintegrate|XPHB} spell, it is destroyed; nothing else can break or harm it. Once the manacle has bound a creature, it can't be used again this way until the next dawn."
+				"A creature remains bound for 8 hours or until you release it (no action required). If the manacle takes damage from a {@spell Disintegrate|XPHB} spell, it is destroyed; nothing else can break or harm it.",
+				"Once the manacle has bound a creature, it can't be used again this way until the next dawn."
 			]
 		},
 		{
@@ -42574,6 +42693,9 @@
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"bonusWeapon": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.",
 				{
@@ -42587,7 +42709,8 @@
 					"type": "entries",
 					"name": "Named Target",
 					"entries": [
-						"When you hit a creature with an attack roll using this weapon, you can say or sign the target's name clearly and emphatically to turn the hit into a {@variantrule Critical Hit|XPHB}. Once this property is used, it can't be used again until the next dawn."
+						"When you hit a creature with an attack roll using this weapon, you can say or sign the target's name clearly and emphatically to turn the hit into a {@variantrule Critical Hit|XPHB}.",
+						"Once this property is used, it can't be used again until the next dawn."
 					]
 				}
 			]
@@ -43145,6 +43268,9 @@
 			"source": "AU",
 			"page": 120,
 			"rarity": "uncommon",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": "by a Spellcaster",
 			"reqAttuneTags": [
 				{
@@ -43158,7 +43284,8 @@
 					"type": "entries",
 					"name": "Familiar",
 					"entries": [
-						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it. Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
+						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it.",
+						"Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
 					]
 				},
 				{
@@ -43185,6 +43312,9 @@
 			"source": "AU",
 			"page": 120,
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": "by a Spellcaster",
 			"reqAttuneTags": [
 				{
@@ -43198,7 +43328,8 @@
 					"type": "entries",
 					"name": "Familiar",
 					"entries": [
-						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it. Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
+						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it.",
+						"Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
 					]
 				},
 				{
@@ -43225,6 +43356,9 @@
 			"source": "AU",
 			"page": 120,
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": "by a Spellcaster",
 			"reqAttuneTags": [
 				{
@@ -43238,7 +43372,8 @@
 					"type": "entries",
 					"name": "Familiar",
 					"entries": [
-						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it. Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
+						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it.",
+						"Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
 					]
 				},
 				{
@@ -43265,6 +43400,9 @@
 			"source": "AU",
 			"page": 120,
 			"rarity": "very rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": "by a Spellcaster",
 			"reqAttuneTags": [
 				{
@@ -43278,7 +43416,8 @@
 					"type": "entries",
 					"name": "Familiar",
 					"entries": [
-						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it. Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
+						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it.",
+						"Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
 					]
 				},
 				{
@@ -43305,6 +43444,9 @@
 			"source": "AU",
 			"page": 120,
 			"rarity": "legendary",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": "by a Spellcaster",
 			"reqAttuneTags": [
 				{
@@ -43318,7 +43460,8 @@
 					"type": "entries",
 					"name": "Familiar",
 					"entries": [
-						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it. Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
+						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it.",
+						"Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
 					]
 				},
 				{
@@ -44979,6 +45122,9 @@
 			"source": "AU",
 			"page": 121,
 			"rarity": "uncommon",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": "by a Sorcerer",
 			"reqAttuneTags": [
 				{
@@ -44995,7 +45141,8 @@
 					"type": "entries",
 					"name": "Sorcerous Reservoir",
 					"entries": [
-						"While holding this orb, you can take a {@action Magic|XPHB} action to regain up to 2 expended Sorcery Points. Once this property is used, it can't be used again until the next dawn."
+						"While holding this orb, you can take a {@action Magic|XPHB} action to regain up to 2 expended Sorcery Points.",
+						"Once this property is used, it can't be used again until the next dawn."
 					]
 				},
 				{
@@ -45980,6 +46127,9 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"rarity": "uncommon",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": "by a spellcaster",
 			"reqAttuneTags": [
 				{
@@ -45988,7 +46138,8 @@
 			],
 			"wondrous": true,
 			"entries": [
-				"While this pearl is on your person, you can take a {@action Magic|XPHB} action to regain one expended spell slot of level 3 or lower. Once you use the pearl, it can't be used again until the next dawn."
+				"While this pearl is on your person, you can take a {@action Magic|XPHB} action to regain one expended spell slot of level 3 or lower.",
+				"Once you use the pearl, it can't be used again until the next dawn."
 			],
 			"lootTables": [
 				"Arcana - Uncommon|XDMG",
@@ -46225,12 +46376,22 @@
 				"WttHC"
 			],
 			"rarity": "uncommon",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": true,
 			"wondrous": true,
 			"weight": 1,
 			"entries": [
-				"While wearing this pendant, you can take a {@action Magic|XPHB} action to regain {@dice 2d4 + 2} {@variantrule Hit Points|XPHB}. Once used, this property can't be used again until the next dawn.",
-				"In addition, you have {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Poisoned|XPHB} condition while you wear this pendant."
+				"You have {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Poisoned|XPHB} condition while you wear this pendant.",
+				{
+					"type": "entries",
+					"name": "Healing",
+					"entries": [
+						"While wearing this pendant, you can take a {@action Magic|XPHB} action to regain {@dice 2d4 + 2} {@variantrule Hit Points|XPHB}.",
+						"Once used, this property can't be used again until the next dawn."
+					]
+				}
 			],
 			"lootTables": [
 				"Arcana - Uncommon|XDMG",
@@ -46658,10 +46819,14 @@
 			"name": "Pipes of Pestilence",
 			"source": "WttHC",
 			"rarity": "uncommon",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"If you play these pipes as a {@action Magic|XPHB} action, you summon one {@creature Swarm of Corrupted Rats|WttHC} in an unoccupied space within 60 feet of yourself. The swarm is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies for as long as you continue to play the pipes each round as a {@action Magic|XPHB} action. While {@variantrule Friendly [Attitude]|XPHB|Friendly}, the swarm is under your control, obeys your commands, and takes no action other than to defend itself if you issue it no commands. Once your control ends, the swarm vanishes, and the pipes can't be used again until the next dawn."
+				"If you play these pipes as a {@action Magic|XPHB} action, you summon one {@creature Swarm of Corrupted Rats|WttHC} in an unoccupied space within 60 feet of yourself. The swarm is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies for as long as you continue to play the pipes each round as a {@action Magic|XPHB} action. While {@variantrule Friendly [Attitude]|XPHB|Friendly}, the swarm is under your control, obeys your commands, and takes no action other than to defend itself if you issue it no commands.",
+				"Once your control ends, the swarm vanishes, and the pipes can't be used again until the next dawn."
 			],
 			"hasFluffImages": true
 		},
@@ -47151,6 +47316,9 @@
 			"source": "WttHC",
 			"type": "M|XPHB",
 			"rarity": "uncommon",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": true,
 			"weaponCategory": "simple",
 			"property": [
@@ -47165,7 +47333,8 @@
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"entries": [
-				"You can take a {@variantrule Bonus Action|XPHB} to magically coat the blade of this Dagger with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitution saving throw or take {@damage 2d8} Poison damage and have the {@condition Poisoned|XPHB} condition for 1 minute. This {@variantrule Bonus Action|XPHB} can't be used again this way until the next dawn."
+				"You can take a {@variantrule Bonus Action|XPHB} to magically coat the blade of this Dagger with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 13 Constitution saving throw or take {@damage 2d8} Poison damage and have the {@condition Poisoned|XPHB} condition for 1 minute.",
+				"This {@variantrule Bonus Action|XPHB} can't be used again this way until the next dawn."
 			],
 			"hasFluffImages": true
 		},
@@ -52493,6 +52662,9 @@
 			"weight": 45,
 			"ac": 14,
 			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"stealth": true,
 			"hasRefs": true,
 			"entries": [
@@ -53066,8 +53238,12 @@
 			"source": "AUD",
 			"type": "RG|XDMG",
 			"rarity": "uncommon",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
-				"While wearing this simple metal band, you gain a +5 bonus to Wisdom ({@skill Insight|XPHB}) checks. In addition, you can cast {@spell Zone of Truth|XPHB} (save {@dc 13}) from the ring. You can't cast {@spell Zone of Truth|XPHB} in this way again until the next dawn."
+				"While wearing this simple metal band, you gain a +5 bonus to Wisdom ({@skill Insight|XPHB}) checks. In addition, you can cast {@spell Zone of Truth|XPHB} (save {@dc 13}) from the ring.",
+				"You can't cast {@spell Zone of Truth|XPHB} in this way again until the next dawn."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -56175,6 +56351,9 @@
 			"basicRules2024": true,
 			"type": "RD|XDMG",
 			"rarity": "very rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": true,
 			"weight": 2,
 			"bonusAc": "+1",
@@ -56209,7 +56388,8 @@
 					"name": "Protective Aura",
 					"entries": [
 						"As a {@action Magic|XPHB} action, you can plant the haft end of the rod in the ground, whereupon the rod's head sheds {@variantrule Bright Light|XPHB} in a 60-foot radius and {@variantrule Dim Light|XPHB} for an additional 60 feet. While in that {@variantrule Bright Light|XPHB}, you and your allies gain a +1 bonus to {@variantrule Armor Class|XPHB} and saving throws and can sense the location of any {@condition Invisible|XPHB} creature that is also in the {@variantrule Bright Light|XPHB}.",
-						"The rod's head stops glowing and the effect ends after 10 minutes or when a creature takes a {@action Magic|XPHB} action to pull the rod from the ground. Once used, this property can't be used again until the next dawn."
+						"The rod's head stops glowing and the effect ends after 10 minutes or when a creature takes a {@action Magic|XPHB} action to pull the rod from the ground.",
+						"Once used, this property can't be used again until the next dawn."
 					]
 				}
 			],
@@ -56360,7 +56540,7 @@
 			"weight": 2,
 			"bonusWeapon": "+3",
 			"entries": [
-				"This rod has a flanged head, and it functions as a magic Mace that grants a +3 bonus to attack rolls and damage rolls made with it. The rod has properties associated with six different buttons that are set in a row along the haft. It has three other properties as well, detailed below.",
+				"This rod has a flanged head, and it functions as a magic Mace that grants a +3 bonus to attack rolls and damage rolls made with it. The rod has properties associated with six different buttons that are set in a row along the haft, detailed below.",
 				{
 					"type": "entries",
 					"name": "Buttons",
@@ -56418,23 +56598,30 @@
 				},
 				{
 					"type": "entries",
-					"name": "Drain Life",
+					"name": "Additional Properties",
 					"entries": [
-						"When you hit a creature with a melee attack using the rod, you can force the target to make a {@dc 17} Constitution saving throw. On a failed save, the target takes an extra {@damage 4d6} Necrotic damage, and you regain a number of {@variantrule Hit Points|XPHB} equal to half that Necrotic damage. Once used, this property can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Paralyze",
-					"entries": [
-						"When you hit a creature with a melee attack using the rod, you can force the target to make a {@dc 17} Constitution saving throw. On a failed save, the target has the {@condition Paralyzed|XPHB} condition for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on a success. Once used, this property can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Terrify",
-					"entries": [
-						"While holding the rod, you can take a {@action Magic|XPHB} action to force each creature you can see within 30 feet of yourself to make a {@dc 17} Wisdom saving throw. On a failed save, a target has the {@condition Frightened|XPHB} condition for 1 minute. A {@condition Frightened|XPHB} target repeats the save at the end of each of its turns, ending the effect on itself on a success. Once used, this property can't be used again until the next dawn."
+						"In addition to the 6 buttons, it has three other properties as well, detailed below. Once one of the following properties is used, that property cannot be used again until the next dawn.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Drain Life",
+									"entry": "When you hit a creature with a melee attack using the rod, you can force the target to make a {@dc 17} Constitution saving throw. On a failed save, the target takes an extra {@damage 4d6} Necrotic damage, and you regain a number of {@variantrule Hit Points|XPHB} equal to half that Necrotic damage."
+								},
+								{
+									"type": "item",
+									"name": "Paralyze",
+									"entry": "When you hit a creature with a melee attack using the rod, you can force the target to make a {@dc 17} Constitution saving throw. On a failed save, the target has the {@condition Paralyzed|XPHB} condition for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on a success."
+								},
+								{
+									"type": "item",
+									"name": "Terrify",
+									"entry": "While holding the rod, you can take a {@action Magic|XPHB} action to force each creature you can see within 30 feet of yourself to make a {@dc 17} Wisdom saving throw. On a failed save, a target has the {@condition Frightened|XPHB} condition for 1 minute. A {@condition Frightened|XPHB} target repeats the save at the end of each of its turns, ending the effect on itself on a success."
+								}
+							]
+						}
 					]
 				}
 			],
@@ -56584,10 +56771,14 @@
 			],
 			"type": "RD|XDMG",
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": true,
 			"weight": 2,
 			"entries": [
-				"You can take a {@action Magic|XPHB} action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of yourself. Each target must succeed on a {@dc 15} Wisdom saving throw or have the {@condition Charmed|XPHB} condition for 8 hours. While {@condition Charmed|XPHB} in this way, the creature regards you as its trusted leader. If harmed by you or your allies or commanded to do something contrary to its nature, a target ceases to be {@condition Charmed|XPHB} in this way. Once used, this property can't be used again until the next dawn."
+				"You can take a {@action Magic|XPHB} action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of yourself. Each target must succeed on a {@dc 15} Wisdom saving throw or have the {@condition Charmed|XPHB} condition for 8 hours. While {@condition Charmed|XPHB} in this way, the creature regards you as its trusted leader. If harmed by you or your allies or commanded to do something contrary to its nature, a target ceases to be {@condition Charmed|XPHB} in this way.",
+				"Once used, this property can't be used again until the next dawn."
 			],
 			"lootTables": [
 				"Arcana - Rare|XDMG"
@@ -58294,6 +58485,9 @@
 			"source": "AU",
 			"page": 122,
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
@@ -58309,7 +58503,8 @@
 					"type": "entries",
 					"name": "Single-Minded Focus",
 					"entries": [
-						"When you fail a Constitution saving throw to maintain {@status Concentration|XPHB}, you can take a {@variantrule Reaction|XPHB} to succeed instead. Once you use this property, it can't be used again until the next dawn."
+						"When you fail a Constitution saving throw to maintain {@status Concentration|XPHB}, you can take a {@variantrule Reaction|XPHB} to succeed instead.",
+						"Once you use this property, it can't be used again until the next dawn."
 					]
 				}
 			]
@@ -59230,11 +59425,15 @@
 			"source": "AU",
 			"page": 122,
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
 				"This circlet allows the wearer to wipe from their memory any knowledge of a specific deed or time in their life, making it useful for those who fear mages plumbing their minds with magic.",
-				"While wearing this circlet, you can take a {@action Magic|XPHB} action to specify a trigger such as \"after I leave this temple\" or \"when I cast the {@spell Animate Dead|XPHB} spell.\" For the next 24 hours, if that trigger occurs, the circlet erases your memories of everything from the time you chose the trigger until the trigger occurred. No magic short of a {@spell Wish|XPHB} spell can restore your memory of this time. Once you use this property, you can't use it again until the next dawn."
+				"While wearing this circlet, you can take a {@action Magic|XPHB} action to specify a trigger such as \"after I leave this temple\" or \"when I cast the {@spell Animate Dead|XPHB} spell.\" For the next 24 hours, if that trigger occurs, the circlet erases your memories of everything from the time you chose the trigger until the trigger occurred. No magic short of a {@spell Wish|XPHB} spell can restore your memory of this time.",
+				"Once you use this property, you can't use it again until the next dawn."
 			],
 			"hasFluffImages": true
 		},
@@ -60450,6 +60649,9 @@
 			"baseItem": "shield|xphb",
 			"type": "S|XPHB",
 			"rarity": "very rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": true,
 			"weight": 6,
 			"ac": 2,
@@ -60468,7 +60670,8 @@
 					"type": "entries",
 					"name": "Protective Field",
 					"entries": [
-						"As a {@variantrule Reaction|XPHB}, when you or an ally you can see within 5 feet of you is targeted by an attack or makes a saving throw against an area of effect, you can use the Shield to create an immobile 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. When the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} appears, any creatures or objects not fully contained within it are pushed into the nearest unoccupied spaces outside it. The attack or area of effect that triggered the {@variantrule Reaction|XPHB} has no effect on creatures and objects inside the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, which lasts as long as you maintain {@status Concentration|XPHB}, up to 1 minute. Nothing can pass into or out of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. A creature or object inside the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} can't be damaged by attacks or effects originating from outside, nor can a creature inside the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} damage anything outside it. Once this property is used, it can't be used again until the next dawn."
+						"As a {@variantrule Reaction|XPHB}, when you or an ally you can see within 5 feet of you is targeted by an attack or makes a saving throw against an area of effect, you can use the Shield to create an immobile 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. When the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} appears, any creatures or objects not fully contained within it are pushed into the nearest unoccupied spaces outside it. The attack or area of effect that triggered the {@variantrule Reaction|XPHB} has no effect on creatures and objects inside the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, which lasts as long as you maintain {@status Concentration|XPHB}, up to 1 minute. Nothing can pass into or out of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. A creature or object inside the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} can't be damaged by attacks or effects originating from outside, nor can a creature inside the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} damage anything outside it.",
+						"Once this property is used, it can't be used again until the next dawn."
 					]
 				}
 			],
@@ -61127,6 +61330,9 @@
 			"weight": 45,
 			"ac": 14,
 			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"stealth": true,
 			"hasRefs": true,
 			"entries": [
@@ -62500,6 +62706,9 @@
 			"source": "AU",
 			"page": 123,
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": "by a Spellcaster",
 			"reqAttuneTags": [
 				{
@@ -62509,13 +62718,6 @@
 			"wondrous": true,
 			"entries": [
 				"This withered hand or talon is attached to a leather cord that can be worn like a necklace or bracelet. You gain the following benefits while wearing the trophy.",
-				{
-					"type": "entries",
-					"name": "Dispelling Touch",
-					"entries": [
-						"When you hit a creature with a melee spell attack, you can activate the trophy to cast the {@spell Dispel Magic|XPHB} spell as part of that attack, targeting the hit creature. Once this property has been used, it can't be used again until the next dawn."
-					]
-				},
 				{
 					"type": "entries",
 					"name": "Helping Hand",
@@ -62528,6 +62730,14 @@
 					"name": "Mage Hand",
 					"entries": [
 						"You can cast the {@spell Mage Hand|XPHB} cantrip from the trophy."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dispelling Touch",
+					"entries": [
+						"When you hit a creature with a melee spell attack, you can activate the trophy to cast the {@spell Dispel Magic|XPHB} spell as part of that attack, targeting the hit creature.",
+						"Once this property has been used, it can't be used again until the next dawn."
 					]
 				}
 			],
@@ -63383,6 +63593,9 @@
 			"page": 112,
 			"type": "RG|XDMG",
 			"rarity": "uncommon",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": "by a spellcaster",
 			"reqAttuneTags": [
 				{
@@ -63390,7 +63603,8 @@
 				}
 			],
 			"entries": [
-				"While wearing this ring, you can recover one expended spell slot as a {@variantrule Bonus Action|XPHB}. The recovered slot can be of level 3 or lower. Once used, the ring can't be used again until the next dawn."
+				"While wearing this ring, you can recover one expended spell slot as a {@variantrule Bonus Action|XPHB}. The recovered slot can be of level 3 or lower.",
+				"Once used, the ring can't be used again until the next dawn."
 			],
 			"classFeatures": [
 				"replicate magic item|artificer|efa|2|efa"
@@ -63870,6 +64084,9 @@
 			"baseItem": "shield|xphb",
 			"type": "S|XPHB",
 			"rarity": "uncommon",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": true,
 			"weight": 6,
 			"ac": 2,
@@ -63886,7 +64103,8 @@
 					"type": "entries",
 					"name": "Spike Salvo",
 					"entries": [
-						"As a {@action Magic|XPHB} action, you can cause spikes to erupt from the Shield in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Each creature in the {@variantrule Cone [Area of Effect]|XPHB|Cone} makes a DC 13 Dexterity saving throw, taking {@damage 3d6} Piercing damage on a failed save or half as much damage on a successful one. Once this property is used, it can't be used again until the next dawn."
+						"As a {@action Magic|XPHB} action, you can cause spikes to erupt from the Shield in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. Each creature in the {@variantrule Cone [Area of Effect]|XPHB|Cone} makes a DC 13 Dexterity saving throw, taking {@damage 3d6} Piercing damage on a failed save or half as much damage on a successful one.",
+						"Once this property is used, it can't be used again until the next dawn."
 					]
 				}
 			],
@@ -66503,6 +66721,9 @@
 				"necrotic"
 			],
 			"rarity": "legendary",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": true,
 			"weight": 4,
 			"weaponCategory": "simple",
@@ -66523,7 +66744,7 @@
 					"type": "entries",
 					"name": "Aura of Haunted Power",
 					"entries": [
-						"As a {@action Magic|XPHB} action while holding the {@item staff|XPHB}, you can cause it to radiate supernatural power that fills a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. Creatures of your choice in this {@variantrule Emanation [Area of Effect]|XPHB|Emanation} (including yourself) gain the following benefits:",
+						"As a {@action Magic|XPHB} action while holding the {@item staff|XPHB}, you can cause it to radiate supernatural power that fills a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. The {@variantrule Emanation [Area of Effect]|XPHB|Emanation} lasts for 1 hour or until you end it (no action required). Creatures of your choice in this {@variantrule Emanation [Area of Effect]|XPHB|Emanation} (including yourself) gain the following benefits:",
 						{
 							"type": "list",
 							"items": [
@@ -66540,7 +66761,7 @@
 							],
 							"style": "list-hang-notitle"
 						},
-						"The {@variantrule Emanation [Area of Effect]|XPHB|Emanation} lasts for 1 hour or until you end it (no action required). Once used, this property can't be used again until the next dawn."
+						"Once used, this property can't be used again until the next dawn."
 					]
 				},
 				{
@@ -67320,9 +67541,13 @@
 				"DrDe-FWtVC"
 			],
 			"rarity": "rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"entries": [
-				"While touching this 5-pound stone to the ground, you can take a {@action Magic|XPHB} action to summon an {@creature Earth Elemental|XMM}. The elemental appears in an unoccupied space you choose within 30 feet of yourself, obeys your commands, and takes its turn immediately after you on your {@variantrule Initiative|XPHB} count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a {@variantrule Bonus Action|XPHB}. The stone can't be used this way again until the next dawn."
+				"While touching this 5-pound stone to the ground, you can take a {@action Magic|XPHB} action to summon an {@creature Earth Elemental|XMM}. The elemental appears in an unoccupied space you choose within 30 feet of yourself, obeys your commands, and takes its turn immediately after you on your {@variantrule Initiative|XPHB} count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a {@variantrule Bonus Action|XPHB}.",
+				"The stone can't be used this way again until the next dawn."
 			],
 			"lootTables": [
 				"Arcana - Rare|XDMG",
@@ -71126,6 +71351,9 @@
 			"baseItem": "greatclub|xphb",
 			"type": "M|XPHB",
 			"rarity": "very rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": true,
 			"weight": 10,
 			"weaponCategory": "simple",
@@ -71151,7 +71379,8 @@
 					"type": "entries",
 					"name": "Earthquake",
 					"entries": [
-						"As a {@action Magic|XPHB} action, you can strike the weapon against the ground to create an intense seismic disturbance in a 50-foot-radius circle centered on the point of impact. Structures in contact with the ground in that area take 50 Bludgeoning damage, and each creature on the ground in that area must succeed on a {@dc 20} Dexterity saving throw or have the {@condition Prone|XPHB} condition. If that creature is also {@status Concentration|XPHB|Concentrating}, it must succeed on a {@dc 20} Constitution saving throw or its {@status Concentration|XPHB} is broken. In addition, you can cause a 30-foot-deep, 10-foot-wide fissure to open up on the ground anywhere in the area. Any creature on a spot where the fissure opens must make a {@dc 20} Dexterity saving throw, falling into the fissure on a failed save or moving with the fissure's edge on a successful one. Any structure on a spot where the fissure opens collapses into the fissure. Once you use this property, it can't be used again until the next dawn."
+						"As a {@action Magic|XPHB} action, you can strike the weapon against the ground to create an intense seismic disturbance in a 50-foot-radius circle centered on the point of impact. Structures in contact with the ground in that area take 50 Bludgeoning damage, and each creature on the ground in that area must succeed on a {@dc 20} Dexterity saving throw or have the {@condition Prone|XPHB} condition. If that creature is also {@status Concentration|XPHB|Concentrating}, it must succeed on a {@dc 20} Constitution saving throw or its {@status Concentration|XPHB} is broken. In addition, you can cause a 30-foot-deep, 10-foot-wide fissure to open up on the ground anywhere in the area. Any creature on a spot where the fissure opens must make a {@dc 20} Dexterity saving throw, falling into the fissure on a failed save or moving with the fissure's edge on a successful one. Any structure on a spot where the fissure opens collapses into the fissure.",
+						"Once you use this property, it can't be used again until the next dawn."
 					]
 				}
 			],
@@ -71600,6 +71829,9 @@
 			"type": "SCF|XPHB",
 			"scfType": "arcane",
 			"rarity": "legendary",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"reqAttune": "by a wizard",
 			"reqAttuneTags": [
 				{
@@ -71613,9 +71845,16 @@
 			],
 			"entries": [
 				"This book has a desiccated tongue pinned to its front cover. Five of these tomes exist, and it's unknown which one is the original. The tongue on the first Tome of the Stilled Tongue belonged to a treacherous former servant of the lich {@book Vecna|XDMG|8|Vecna}. The tongues pinned to the covers of the four copies came from other spellcasters who crossed Vecna. The first few pages of each tome are filled with indecipherable scrawls. The remaining pages are blank.",
-				"While attuned to this item, you can use it as a Spellbook and an Arcane Focus. In addition, while holding the tome, you can take a {@variantrule Bonus Action|XPHB} to cast a spell you have written in this tome, without expending a spell slot or using any Verbal or Somatic components. Once used, this property of the tome can't be used again until the next dawn.",
 				"Only you can remove the tongue from the book's cover. If you do so, all spells written in the book are permanently erased.",
-				"Vecna watches anyone using this tome and can write cryptic messages in it. These messages typically fade away after they are read."
+				"Vecna watches anyone using this tome and can write cryptic messages in it. These messages typically fade away after they are read.",
+				{
+					"type": "entries",
+					"name": "Bonus Action Casting",
+					"entries": [
+						"While attuned to this item, you can use it as a Spellbook and an Arcane Focus. In addition, while holding the tome, you can take a {@variantrule Bonus Action|XPHB} to cast a spell you have written in this tome, without expending a spell slot or using any Verbal or Somatic components.",
+						"Once used, this property of the tome can't be used again until the next dawn."
+					]
+				}
 			],
 			"lootTables": [
 				"Arcana - Legendary|XDMG"
@@ -77969,6 +78208,9 @@
 			"weight": 45,
 			"ac": 14,
 			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"stealth": true,
 			"hasRefs": true,
 			"entries": [
@@ -78711,9 +78953,13 @@
 			"source": "AU",
 			"page": 125,
 			"rarity": "very rare",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"entries": [
-				"When this 3-inch-diameter metal ball is activated as a {@action Magic|XPHB} action, it moves at a rapid speed, bouncing off walls and defying any attempts to capture it. The ball remains active for 1 minute or until you deactivate it by using a command word while within 30 feet of it (no action required). Once the ball is used, it can't be used again until the next dawn.",
+				"When this 3-inch-diameter metal ball is activated as a {@action Magic|XPHB} action, it moves at a rapid speed, bouncing off walls and defying any attempts to capture it. The ball remains active for 1 minute or until you deactivate it by using a command word while within 30 feet of it (no action required).",
+				"Once the ball is used, it can't be used again until the next dawn.",
 				"When you activate the ball and at the beginning of each of your turns while the ball is active, each creature in the area makes a Dexterity saving throw, taking Bludgeoning damage on a failed save. The save DC and amount of damage dealt depend on the approximate size of the area in which the ball is active, as shown on the following table.",
 				"A nonmagical object that isn't being worn or carried also takes the damage if it is in the area. In confined areas larger than a 100-foot {@variantrule Cube [Area of Effect]|XPHB|Cube}, the amount of damage caused by the ball is negligible. If the ball is activated in an unconfined area, it flies off in a random direction at a rate of 300 feet per round.",
 				{
@@ -80459,6 +80705,9 @@
 			"weight": 45,
 			"ac": 14,
 			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"stealth": true,
 			"items": [
 				"Black Dragon Scale Mail|XDMG",

@@ -5609,14 +5609,16 @@
 						"type": "entries",
 						"name": "Luck",
 						"entries": [
-							"If the weapon is on your person, you can call on its luck (no action required) to reroll one failed {@variantrule D20 Test|XPHB} if you don't have the {@condition Incapacitated|XPHB} condition. You must use the second roll. Once used, this property can't be used again until the next dawn."
+							"If the weapon is on your person, you can call on its luck (no action required) to reroll one failed {@variantrule D20 Test|XPHB} if you don't have the {@condition Incapacitated|XPHB} condition. You must use the second roll.",
+							"Once used, this property can't be used again until the next dawn."
 						]
 					},
 					{
 						"type": "entries",
 						"name": "Wish",
 						"entries": [
-							"The weapon has {@dice 1d3} charges. While holding it, you can expend 1 charge and cast {@spell Wish|XPHB} from it. Once used, this property can't be used again until the next dawn. The weapon loses this property if it has no charges."
+							"The weapon has {@dice 1d3} charges. While holding it, you can expend 1 charge and cast {@spell Wish|XPHB} from it.",
+							"Once used, this property can't be used again until the next dawn. The weapon loses this property if it has no charges."
 						]
 					}
 				],
@@ -5687,9 +5689,13 @@
 				"source": "XDMG",
 				"page": 278,
 				"rarity": "uncommon",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"entries": [
-					"While wearing this armor, you have a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}. In addition, if you start your turn underwater with 0 {@variantrule Hit Points|XPHB}, you immediately regain {@dice 1d4} {@variantrule Hit Points|XPHB}. The armor can't heal anyone again until the next dawn.",
-					"The armor is decorated with fish and shell motifs."
+					"The armor is decorated with fish and shell motifs.",
+					"While wearing this armor, you have a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}. In addition, if you start your turn underwater with 0 {@variantrule Hit Points|XPHB}, you immediately regain {@dice 1d4} {@variantrule Hit Points|XPHB}.",
+					"The armor can't heal anyone again until the next dawn."
 				],
 				"lootTables": [
 					"Armaments - Uncommon|XDMG",
@@ -6471,7 +6477,8 @@
 			],
 			"entries": [
 				"{@note * This generic variant has the same name and source as the item {@item Plate Armor of Etherealness|XDMG}}.",
-				"While you're wearing this armor, you can take a {@action Magic|XPHB} action and use a command word to gain the effect of the {@spell Etherealness|XPHB} spell. The spell ends immediately if you remove the armor or take a {@action Magic|XPHB} action to repeat the command word. This property of the armor can't be used again until the next dawn."
+				"While you're wearing this armor, you can take a {@action Magic|XPHB} action and use a command word to gain the effect of the {@spell Etherealness|XPHB} spell. The spell ends immediately if you remove the armor or take a {@action Magic|XPHB} action to repeat the command word.",
+				"This property of the armor can't be used again until the next dawn."
 			],
 			"inherits": {
 				"nameSuffix": " of Etherealness",
@@ -6481,8 +6488,12 @@
 				"basicRules2024": true,
 				"rarity": "legendary",
 				"reqAttune": true,
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"entries": [
-					"While you're wearing this armor, you can take a {@action Magic|XPHB} action and use a command word to gain the effect of the {@spell Etherealness|XPHB} spell. The spell ends immediately if you remove the armor or take a {@action Magic|XPHB} action to repeat the command word. This property of the armor can't be used again until the next dawn."
+					"While you're wearing this armor, you can take a {@action Magic|XPHB} action and use a command word to gain the effect of the {@spell Etherealness|XPHB} spell. The spell ends immediately if you remove the armor or take a {@action Magic|XPHB} action to repeat the command word.",
+					"This property of the armor can't be used again until the next dawn."
 				],
 				"attachedSpells": {
 					"daily": {
@@ -7172,6 +7183,9 @@
 						"spellcasting": true
 					}
 				],
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"entries": [
 					"Channels bearing arcane runes intersect across this armor, which is favored by spellcasting Thayan knights.",
 					{
@@ -7185,7 +7199,8 @@
 						"type": "entries",
 						"name": "Resurgent Power",
 						"entries": [
-							"When you finish a {@variantrule Short Rest|XPHB} while wearing this armor, you can choose a number of expended spell slots to recover. The spell slots' levels must have a combined total equal to 3 or less. For example, you can recover one level 3 spell slot or three level 1 spell slots. Once used, this property can't be used again until the next dawn."
+							"When you finish a {@variantrule Short Rest|XPHB} while wearing this armor, you can choose a number of expended spell slots to recover. The spell slots' levels must have a combined total equal to 3 or less. For example, you can recover one level 3 spell slot or three level 1 spell slots.",
+							"Once used, this property can't be used again until the next dawn."
 						]
 					}
 				]
@@ -7816,13 +7831,17 @@
 				"page": 314,
 				"rarity": "common",
 				"reqAttune": true,
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"entries": [
 					"While this weapon is on your person, you understand the non-written communication of all Fey, and they understand yours.",
 					{
 						"type": "entries",
 						"name": "Secret Message",
 						"entries": [
-							"As a {@action Magic|XPHB} action, you can use the weapon to cast {@spell Message|XPHB}. Once this property is used, it can't be used again until the next dawn."
+							"As a {@action Magic|XPHB} action, you can use the weapon to cast {@spell Message|XPHB}.",
+							"Once this property is used, it can't be used again until the next dawn."
 						]
 					}
 				],
@@ -7888,7 +7907,8 @@
 						"type": "entries",
 						"name": "Resurgent Warrior",
 						"entries": [
-							"If you're reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright while holding this sword, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead. Once used, this property can't be used again until the next dawn."
+							"If you're reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright while holding this sword, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead.",
+							"Once used, this property can't be used again until the next dawn."
 						]
 					}
 				],
@@ -7922,6 +7942,9 @@
 				"rarity": "very rare",
 				"reqAttune": true,
 				"bonusAc": "+1",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"entries": [
 					"You gain a {=bonusAc} bonus to {@variantrule Armor Class|XPHB} while wearing this armor. The armor is enchanted to look like a scholarly or priestly robe.",
 					{
@@ -7936,8 +7959,8 @@
 						"name": "Grasping Tendrils",
 						"entries": [
 							"As a {@action Magic|XPHB} action, you can activate the armor, causing the hems of its sleeves and body to extend into ribbonlike tendrils.",
-							"As a {@variantrule Bonus Action|XPHB} while the armor is active, you can force each creature of your choice in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you to make a {@dc 15} Strength saving throw. On a failed save, a creature has the {@condition Grappled|XPHB} condition (escape {@dc 15}) and is pulled up to 20 feet straight toward you.",
-							"The armor remains active for 1 minute or until you take another {@action Magic|XPHB} action to deactivate it. Once you activate the armor, it can't be activated again until the next dawn."
+							"As a {@variantrule Bonus Action|XPHB} while the armor is active, you can force each creature of your choice in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you to make a {@dc 15} Strength saving throw. On a failed save, a creature has the {@condition Grappled|XPHB} condition (escape {@dc 15}) and is pulled up to 20 feet straight toward you. The armor remains active for 1 minute or until you take another {@action Magic|XPHB} action to deactivate it.",
+							"Once you activate the armor, it can't be activated again until the next dawn."
 						]
 					}
 				]
