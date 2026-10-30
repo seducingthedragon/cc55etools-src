@@ -626,8 +626,8 @@
 					"caption": "Deck of Illusions",
 					"colStyles": [
 						"col-2 text-center",
-						"col-4 text-center",
-						"col-6 text-center"
+						"col-2-5",
+						"col-7-5"
 					],
 					"colLabels": [
 						"1d100",
@@ -2331,7 +2331,7 @@
 				"height": 1123
 			},
 			"entries": [
-				"Usually found in a box or pouch, this deck contains a number of cards made of ivory or vellum. Most (75 percent) of these decks have thirteen cards, but some have twenty-two. Use the appropriate column of the Deck of Many Things table when randomly determining cards drawn from the deck.",
+				"Usually found in a box or pouch, this deck contains a number of cards made of ivory or vellum. Most (75 percent) of these decks have thirteen cards, but some have twenty-two. Use the appropriate column of the Deck of Many Things table when randomly determining cards drawn from the deck. You can also use physical cards to draw from, which is also listed below in the table.",
 				"Before you draw a card, you must declare how many cards you intend to draw and then draw them randomly. Any cards drawn in excess of this number have no effect. Otherwise, as soon as you draw a card from the deck, its magic takes effect. You must draw each card no more than 1 hour after the previous draw. If you fail to draw the chosen number, the remaining number of cards fly from the deck on their own and take effect all at once.",
 				"Once a card is drawn, it disappears. Unless the card is the Fool or Jester, the card reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, reroll on the table if that card comes up again.)",
 				{
@@ -2339,99 +2339,255 @@
 					"caption": "Deck of Many Things",
 					"colStyles": [
 						"col-2 text-center",
-						"col-10"
+						"col-2-5",
+						"col-7-5"
 					],
 					"colLabels": [
-						"1d100",
+						"{@dice 1d100}",
+						"{@dice 1d22|Playing Card}",
 						"Card"
 					],
 					"rows": [
 						[
 							"01-05",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 20
+								},
+								"entry": "Two of spades"
+							},
 							"Balance"
 						],
 						[
 							"06-10",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								},
+								"entry": "Two of diamonds"
+							},
 							"Comet"
 						],
 						[
 							"11-14",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 16
+								},
+								"entry": "Ace of spades"
+							},
 							"Donjon"
 						],
 						[
 							"15-18",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 18
+								},
+								"entry": "Queen of spades"
+							},
 							"Euryale"
 						],
 						[
 							"19-23",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								},
+								"entry": "Ace of hearts"
+							},
 							"Fates"
 						],
 						[
 							"24-27",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 13
+								},
+								"entry": "Queen of clubs"
+							},
 							"Flames"
 						],
 						[
 							"28-31",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 21
+								},
+								"entry": "Joker {@i ({@sup TM})}"
+							},
 							"Fool"
 						],
 						[
 							"32-36",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 10
+								},
+								"entry": "Two of hearts"
+							},
 							"Gem"
 						],
 						[
 							"37-41",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 22
+								},
+								"entry": "Joker {@i (no {@sup TM})}"
+							},
 							"Jester"
 						],
 						[
 							"42-46",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 8
+								},
+								"entry": "Queen of hearts"
+							},
 							"Key"
 						],
 						[
 							"47-51",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 9
+								},
+								"entry": "Jack of hearts"
+							},
 							"Knight"
 						],
 						[
 							"52-56",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								},
+								"entry": "Queen of diamonds"
+							},
 							"Moon"
 						],
 						[
 							"57-60",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 15
+								},
+								"entry": "Two of clubs"
+							},
 							"Puzzle"
 						],
 						[
 							"61-64",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 19
+								},
+								"entry": "Jack of spades"
+							},
 							"Rogue"
 						],
 						[
 							"65-68",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 17
+								},
+								"entry": "King of spades"
+							},
 							"Ruin"
 						],
 						[
 							"69-73",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								},
+								"entry": "Ace of diamonds"
+							},
 							"Sage"
 						],
 						[
 							"74-77",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 14
+								},
+								"entry": "Jack of clubs"
+							},
 							"Skull"
 						],
 						[
 							"78-82",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								},
+								"entry": "Jack of diamonds"
+							},
 							"Star"
 						],
 						[
 							"83-87",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								},
+								"entry": "King of diamonds"
+							},
 							"Sun"
 						],
 						[
 							"88-91",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 11
+								},
+								"entry": "Ace of clubs"
+							},
 							"Talons"
 						],
 						[
 							"92-96",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 7
+								},
+								"entry": "King of hearts"
+							},
 							"Throne"
 						],
 						[
 							"97-00",
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 12
+								},
+								"entry": "King of clubs"
+							},
 							"Void"
 						]
 					]
@@ -2673,63 +2829,156 @@
 							"caption": "Deck of Many Things",
 							"colStyles": [
 								"col-2 text-center",
-								"col-10"
+								"col-2-5",
+								"col-7-5"
 							],
 							"colLabels": [
-								"1d100",
+								"{@dice 1d100}",
+								"{@dice 1d13|Playing Card}",
 								"Card"
 							],
 							"rows": [
 								[
 									"01-08",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 11
+										},
+										"entry": "Queen of spades"
+									},
 									"Euryale"
 								],
 								[
 									"09-16",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 8
+										},
+										"entry": "Queen of clubs"
+									},
 									"Flames"
 								],
 								[
 									"17-24",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 13
+										},
+										"entry": "Joker {@i (no {@sup TM})}"
+									},
 									"Jester"
 								],
 								[
 									"25-32",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 5
+										},
+										"entry": "Queen of hearts"
+									},
 									"Key"
 								],
 								[
 									"33-40",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 6
+										},
+										"entry": "Jack of hearts"
+									},
 									"Knight"
 								],
 								[
 									"41-48",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 2
+										},
+										"entry": "Queen of diamonds"
+									},
 									"Moon"
 								],
 								[
 									"49-56",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 12
+										},
+										"entry": "Jack of spades"
+									},
 									"Rogue"
 								],
 								[
 									"57-64",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 10
+										},
+										"entry": "King of spades"
+									},
 									"Ruin"
 								],
 								[
 									"65-72",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 9
+										},
+										"entry": "Jack of clubs"
+									},
 									"Skull"
 								],
 								[
 									"73-80",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 3
+										},
+										"entry": "Jack of diamonds"
+									},
 									"Star"
 								],
 								[
 									"81-88",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 1
+										},
+										"entry": "King of diamonds"
+									},
 									"Sun"
 								],
 								[
 									"89-96",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 4
+										},
+										"entry": "King of hearts"
+									},
 									"Throne"
 								],
 								[
 									"97-00",
+									{
+										"type": "cell",
+										"roll": {
+											"exact": 7
+										},
+										"entry": "King of clubs"
+									},
 									"Void"
 								]
 							]
