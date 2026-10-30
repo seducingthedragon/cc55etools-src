@@ -6907,6 +6907,38 @@
 													"{@item +3 Armor|XDMG}"
 												],
 												[
+													"{@item +1 Dragonkin Weapon|XDMG}",
+													"{@item +2 Dragonkin Weapon|XDMG}"
+												],
+												[
+													"{@item +2 Dragonkin Weapon|XDMG}",
+													"{@item +3 Dragonkin Weapon|XDMG}"
+												],
+												[
+													"{@item +1 Hunter's Bracers|XDMG}",
+													"{@item +2 Hunter's Bracers|XDMG}"
+												],
+												[
+													"{@item +2 Hunter's Bracers|XDMG}",
+													"{@item +3 Hunter's Bracers|XDMG}"
+												],
+												[
+													"{@item +1 Moon Sickle|XDMG}",
+													"{@item +2 Moon Sickle|XDMG}"
+												],
+												[
+													"{@item +2 Moon Sickle|XDMG}",
+													"{@item +3 Moon Sickle|XDMG}"
+												],
+												[
+													"{@item +1 Rod of the Pact Keeper|XDMG}",
+													"{@item +2 Rod of the Pact Keeper|XDMG}"
+												],
+												[
+													"{@item +2 Rod of the Pact Keeper|XDMG}",
+													"{@item +3 Rod of the Pact Keeper|XDMG}"
+												],
+												[
 													"{@item +1 Shield|XDMG}",
 													"{@item +2 Shield|XDMG}"
 												],
@@ -6915,12 +6947,20 @@
 													"{@item +3 Shield|XDMG}"
 												],
 												[
-													"{@item +1 Rod of the Pact Keeper|XDMG|Rod of the Pact Keeper (Uncommon)}",
-													"{@item +2 Rod of the Pact Keeper|XDMG|Rod of the Pact Keeper (Rare)}"
+													"{@item +1 Spiked Collar|XDMG}",
+													"{@item +2 Spiked Collar|XDMG}"
 												],
 												[
-													"{@item +2 Rod of the Pact Keeper|XDMG|Rod of the Pact Keeper (Rare)}",
-													"{@item +3 Rod of the Pact Keeper|XDMG|Rod of the Pact Keeper (Very Rare)}"
+													"{@item +2 Spiked Collar|XDMG}",
+													"{@item +3 Spiked Collar|XDMG}"
+												],
+												[
+													"{@item +1 Studded Collar|XDMG}",
+													"{@item +2 Studded Collar|XDMG}"
+												],
+												[
+													"{@item +2 Studded Collar|XDMG}",
+													"{@item +3 Studded Collar|XDMG}"
 												],
 												[
 													"{@item +1 Wand of the War Mage|XDMG}",
@@ -6937,6 +6977,30 @@
 												[
 													"{@item +2 Weapon|XDMG}",
 													"{@item +3 Weapon|XDMG}"
+												],
+												[
+													"{@item +1 Wild Staff|XDMG}",
+													"{@item +2 Wild Staff|XDMG}"
+												],
+												[
+													"{@item +2 Wild Staff|XDMG}",
+													"{@item +3 Wild Staff|XDMG}"
+												],
+												[
+													"{@item +1 Wraps of Unarmed Power|XDMG}",
+													"{@item +2 Wraps of Unarmed Power|XDMG}"
+												],
+												[
+													"{@item +2 Wraps of Unarmed Power|XDMG}",
+													"{@item +3 Wraps of Unarmed Power|XDMG}"
+												],
+												[
+													"Any Other +1 Variant Item",
+													"Its Related +2 Variant Item"
+												],
+												[
+													"Any Other +2 Variant Item",
+													"Its Related +3 Variant Item"
 												]
 											]
 										}
