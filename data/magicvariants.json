@@ -8194,14 +8194,7 @@
 				"rarity": "uncommon",
 				"bonusWeapon": "+1",
 				"entries": [
-					"Tightly braided living vines have been rooted to the end of a branch to make this magic weapon. This +1 weapon can be targeted by the {@spell Shillelagh|XPHB} spell and it gains an additional 10 feet to its reach or range, gaining {@variantrule Proficiency|XPHB} in this weapon if you do not already have it. If you are a {@class Druid|XPHB} or {@class Ranger|XPHB}, this weapon has gains an additional 20 feet to its reach or range, instead of 10 feet.",
-					{
-						"type": "entries",
-						"name": "Drag",
-						"entries": [
-							"When you hit a Large or smaller target with the whip, you can choose to pull it up to 10 feet towards you, or 20 feet if you're a {@class Druid|XPHB} or {@class Ranger|XPHB}. You can only use this property once per dawn, unless you're a druid, who can use this benefit a number of times equal to their {@variantrule Proficiency|XPHB|Proficiency Bonus} per dawn."
-						]
-					}
+					"Tightly braided living vines have been rooted to the end of a branch to make this magic weapon. This +1 weapon can be targeted by the {@spell Shillelagh|XPHB} spell and it gains an additional 10 feet to its reach or range, gaining {@variantrule Proficiency|XPHB} in this weapon if you do not already have it."
 				],
 				"lootTables": [
 					"Armaments - Uncommon|XDMG"

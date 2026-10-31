@@ -6972,7 +6972,7 @@
 				"Shield|XPHB",
 				"Topple|XPHB"
 			],
-			"dmg1": "1d8",
+			"dmg1": "1d6",
 			"dmgType": "S",
 			"whip": true,
 			"weapon": true,
