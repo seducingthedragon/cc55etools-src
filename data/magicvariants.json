@@ -3286,6 +3286,49 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Dao Chain",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"name": "Chain Mail",
+					"source": "XPHB"
+				},
+				{
+					"name": "Chain Shirt",
+					"source": "XPHB"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Dao ",
+				"source": "XDMG",
+				"page": 264,
+				"basicRules2024": true,
+				"resistance": [
+					"bludgeoning",
+					"piercing",
+					"slashing"
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"grantsLanguage": true,
+				"bonusAc": "+3",
+				"entries": [
+					"While attuned to this armor, you know Primordial. While wearing this armor, you gain a {=bonusAc} bonus to {@variantrule Armor Class|XPHB} and the following benefits.",
+					{
+						"type": "list",
+						"items": [
+							"You have {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage",
+							"You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throws|XPHB} to avoid the {@condition Petrified|XPHB} condition"
+						]
+					},
+					"In addition, moving across non-magical difficult terrain does not cost you extra movement and you don't disturb the material as you move through."
+				],
+				"lootTables": [
+					"Armaments - Legendary|XDMG"
+				]
+			}
+		},
+		{
 			"name": "Dazzling Weapon",
 			"type": "GV|XDMG",
 			"requires": [
@@ -3532,6 +3575,48 @@
 							"If you choose to use both, this ammunition will become nonmagical when the ammunition hits the target. Additionally, it has a {@chance 25} chance of disintigrating on impact."
 						]
 					}
+				]
+			}
+		},
+		{
+			"name": "Djinni Chain",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"name": "Chain Mail",
+					"source": "XPHB"
+				},
+				{
+					"name": "Chain Shirt",
+					"source": "XPHB"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Djinni ",
+				"source": "XDMG",
+				"page": 264,
+				"basicRules2024": true,
+				"immune": [
+					"lightning",
+					"thunder"
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"grantsLanguage": true,
+				"bonusAc": "+3",
+				"entries": [
+					"While attuned to this armor, you know Primordial. While wearing this armor, you gain a {=bonusAc} bonus to {@variantrule Armor Class|XPHB} and the following benefits.",
+					{
+						"type": "list",
+						"items": [
+							"You have {@variantrule Immunity|XPHB} to {@variantrule Damage Types|XPHB|Lightning and Thunder} damage",
+							"You can take the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}"
+						]
+					},
+					"In addition, any time you fall more than 10 feet, you are under the effects of the {@spell Feather Fall|XPHB} spell."
+				],
+				"lootTables": [
+					"Armaments - Legendary|XDMG"
 				]
 			}
 		},
@@ -3865,7 +3950,7 @@
 			"inherits": {
 				"namePrefix": "Efreeti ",
 				"source": "XDMG",
-				"page": 257,
+				"page": 264,
 				"basicRules2024": true,
 				"immune": [
 					"fire"
@@ -3874,8 +3959,21 @@
 				"reqAttune": true,
 				"grantsLanguage": true,
 				"bonusAc": "+3",
+				"modifySpeed": {
+					"bonus": {
+						"*": 10
+					}
+				},
 				"entries": [
-					"While wearing this armor, you gain a {=bonusAc} bonus to {@variantrule Armor Class|XPHB}, you have {@variantrule Immunity|XPHB} to Fire damage, and you know Primordial. In addition, you can stand on and move across molten rock as if it were solid ground."
+					"While attuned to this armor, you know Primordial. While wearing this armor, you gain a {=bonusAc} bonus to {@variantrule Armor Class|XPHB} and following benefits.",
+					{
+						"type": "list",
+						"items": [
+							"You have {@variantrule Immunity|XPHB} to Fire damage",
+							"Your movement speed increases by 10 feet"
+						]
+					},
+					"In addition, you can stand on and move across molten rock as if it were solid ground."
 				],
 				"lootTables": [
 					"Armaments - Legendary|XDMG"
@@ -5719,6 +5817,53 @@
 				]
 			},
 			"hasFluffImages": true
+		},
+		{
+			"name": "Marid Chain",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"name": "Chain Mail",
+					"source": "XPHB"
+				},
+				{
+					"name": "Chain Shirt",
+					"source": "XPHB"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Marid ",
+				"source": "XDMG",
+				"page": 264,
+				"basicRules2024": true,
+				"resist": [
+					"acid",
+					"cold"
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"grantsLanguage": true,
+				"bonusAc": "+3",
+				"modifySpeed": {
+					"equal": {
+						"swim": "walk"
+					}
+				},
+				"entries": [
+					"While attuned to this armor, you know Primordial. While wearing this armor, you gain a {=bonusAc} bonus to {@variantrule Armor Class|XPHB} and following benefits.",
+					{
+						"type": "list",
+						"items": [
+							"You have {@variantrule Resistance|XPHB} to {@variantrule Damage Types|XPHB|Acid and Cold} damage",
+							"You gain a swim speed equal to your walking speed."
+						]
+					},
+					"In addition, you are always under the effects of a {@spell Water Walk|XPHB} spell, however, you cannot use this benefit to walk across molten rock."
+				],
+				"lootTables": [
+					"Armaments - Legendary|XDMG"
+				]
+			}
 		},
 		{
 			"name": "Mariner's Armor",

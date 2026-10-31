@@ -26421,7 +26421,6 @@
 								"{@item Dwarven Thrower|XDMG}",
 								"{@item Ear Horn of Hearing|XDMG}",
 								"{@item Earring of Message|XDMG}",
-								"{@item Efreeti Bottle|XDMG}",
 								"{@item Efreeti Chain|XDMG}",
 								"{@item Elemental Gem|XDMG}",
 								"{@item Elixir of Health|XDMG}",
@@ -26448,6 +26447,8 @@
 								"{@item Gauntlets of Ogre Power|XDMG}",
 								"{@item Gem of Brightness|XDMG}",
 								"{@item Gem of Seeing|XDMG}",
+								"{@item Genie Bottle|XDMG}",
+								"{@item Genie Chain|XDMG}",
 								"{@item Giant Slayer|XDMG}",
 								"{@item Glamoured Studded Leather|XDMG}",
 								"{@item Gloves of Missile Snaring|XDMG}",
@@ -26562,11 +26563,11 @@
 								"{@item Quiver of Ehlonna|XDMG}",
 								"{@item Raven's Slumber|XDMG}",
 								"{@item Ring of Animal Influence|XDMG}",
-								"{@item Ring of Djinni Summoning|XDMG}",
 								"{@item Ring of Elemental Command|XDMG}",
 								"{@item Ring of Evasion|XDMG}",
 								"{@item Ring of Feather Falling|XDMG}",
 								"{@item Ring of Free Action|XDMG}",
+								"{@item Ring of Genie Summoning|XDMG}",
 								"{@item Ring of Invisibility|XDMG}",
 								"{@item Ring of Jumping|XDMG}",
 								"{@item Ring of Mind Shielding|XDMG}",
@@ -27375,12 +27376,6 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Efreeti Bottle",
-									"tag": "item",
-									"source": "XDMG"
-								},
-								{
-									"type": "statblock",
 									"name": "Efreeti Chain",
 									"tag": "item",
 									"source": "XDMG"
@@ -27553,6 +27548,18 @@
 								{
 									"type": "statblock",
 									"name": "Gem of Seeing",
+									"tag": "item",
+									"source": "XDMG"
+								},
+								{
+									"type": "statblock",
+									"name": "Genie Bottle",
+									"tag": "item",
+									"source": "XDMG"
+								},
+								{
+									"type": "statblock",
+									"name": "Genie Chain",
 									"tag": "item",
 									"source": "XDMG"
 								},
@@ -28319,12 +28326,6 @@
 								},
 								{
 									"type": "statblock",
-									"name": "Ring of Djinni Summoning",
-									"tag": "item",
-									"source": "XDMG"
-								},
-								{
-									"type": "statblock",
 									"name": "Ring of Elemental Command",
 									"tag": "item",
 									"source": "XDMG"
@@ -28344,6 +28345,12 @@
 								{
 									"type": "statblock",
 									"name": "Ring of Free Action",
+									"tag": "item",
+									"source": "XDMG"
+								},
+								{
+									"type": "statblock",
+									"name": "Ring of Genie Summoning",
 									"tag": "item",
 									"source": "XDMG"
 								},
@@ -29847,15 +29854,15 @@
 										],
 										[
 											"17\u201318",
-											"{@item Efreeti Bottle|XDMG}"
-										],
-										[
-											"19\u201320",
 											"{@item Enspelled Staff|XDMG} ({@item Enspelled Staff (Level 4)|XDMG|level 4} or {@item Enspelled Staff (Level 5)|XDMG|5} spell)"
 										],
 										[
-											"21\u201324",
+											"19\u201320",
 											"{@item Figurine of Wondrous Power, Obsidian Steed|XDMG|Figurine of Wondrous Power (obsidian steed)}"
+										],
+										[
+											"21\u201324",
+											"{@item Genie Bottle|XDMG}: ({@item Dao Bottle|XDMG|Dao}, {@item Djinni Bottle|XDMG|Djinni}, {@item Efreeti Bottle|XDMG|Efreeti}, or {@item Marid Bottle|XDMG|Marid})"
 										],
 										[
 											"25\u201326",
@@ -30046,7 +30053,7 @@
 										],
 										[
 											"45\u201348",
-											"Ring of {@item Ring of Djinni Summoning|XDMG|Djinni Summoning} or {@item Ring of Elemental Command|XDMG|Elemental Command} ({@item Ring of Elemental Command (Air)|XDMG|air}, {@item Ring of Elemental Command (Earth)|XDMG|earth}, {@item Ring of Elemental Command (Fire)|XDMG|fire}, or {@item Ring of Elemental Command (Water)|XDMG|water})"
+											"{@item Ring of Genie Summoning|XDMG} ({@item Ring of Dao Summoning|XDMG|Dao}, {@item Ring of Djinni Summoning|XDMG|Djinni}, {@item Ring of Efreeti Summoning|XDMG|Efreeti}, {@item Ring of Marid Summoning|XDMG|Marid}) or {@item Ring of Elemental Command|XDMG} ({@item Ring of Elemental Command (Air)|XDMG|air}, {@item Ring of Elemental Command (Earth)|XDMG|earth}, {@item Ring of Elemental Command (Fire)|XDMG|fire}, or {@item Ring of Elemental Command (Water)|XDMG|water})"
 										],
 										[
 											"49\u201352",
@@ -30645,15 +30652,15 @@
 										],
 										[
 											"31–35",
-											"{@item Efreeti Chain|XDMG}"
-										],
-										[
-											"36–40",
 											"{@item Enspelled Armor|XDMG} (level 6, 7, or 8 spell)"
 										],
 										[
-											"41–45",
+											"36–40",
 											"{@item Enspelled Weapon|XDMG} (level 6, 7, or 8 spell)"
+										],
+										[
+											"41–45",
+											"{@item Genie Chain|XDMG}: {@item Dao Chain|XDMG|Dao}, {@item Djinni Chain|XDMG|Djinni}, {@item Efreeti Chain|XDMG|Efreeti}, {@item Marid Chain|XDMG|Marid}"
 										],
 										[
 											"46–50",

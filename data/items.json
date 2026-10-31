@@ -15795,6 +15795,54 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Dao Bottle",
+			"source": "XDMG",
+			"page": 264,
+			"srd52": true,
+			"basicRules2024": true,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"When you take a {@action Magic|XPHB} action to remove the stopper of this painted brass bottle, a cloud of thick smoke flows out of it. At the end of your turn, the smoke disappears with a flash of harmless dirt, and a {@creature Dao|XMM} appears in an unoccupied space within 30 feet of you.",
+				"The first time the bottle is opened, the DM rolls on the following table to determine what happens.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"1d10",
+						"Effect"
+					],
+					"rows": [
+						[
+							"1",
+							"The {@creature Dao|XMM} attacks you. After fighting for 5 rounds, the Dao disappears, and the bottle loses its magic."
+						],
+						[
+							"2-9",
+							"The {@creature Dao|XMM} understands your languages and obeys your commands for 1 hour, after which it returns to the bottle, and a new stopper contains it. The stopper can't be removed for 24 hours. The next two times the bottle is opened, the same effect occurs. If the bottle is opened a fourth time, the Dao escapes and disappears, and the bottle loses its magic."
+						],
+						[
+							"10",
+							"The {@creature Dao|XMM} understands your languages and can cast {@spell Wish|XPHB} once for you. It disappears when it grants the wish or after 1 hour, and the bottle loses its magic."
+						]
+					]
+				}
+			],
+			"attachedSpells": {
+				"limited": {
+					"1": [
+						"wish|xphb"
+					]
+				}
+			},
+			"lootTables": [
+				"Arcana - Very Rare|XDMG"
+			]
+		},
+		{
 			"name": "Daoud's Wondrous Lanthorn",
 			"source": "QftIS",
 			"page": 190,
@@ -21117,6 +21165,54 @@
 			}
 		},
 		{
+			"name": "Djinni Bottle",
+			"source": "XDMG",
+			"page": 264,
+			"srd52": true,
+			"basicRules2024": true,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"When you take a {@action Magic|XPHB} action to remove the stopper of this painted brass bottle, a cloud of thick smoke flows out of it. At the end of your turn, the smoke disappears with a gust of wind, and a {@creature Djinni|XMM} appears in an unoccupied space within 30 feet of you.",
+				"The first time the bottle is opened, the DM rolls on the following table to determine what happens.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"1d10",
+						"Effect"
+					],
+					"rows": [
+						[
+							"1",
+							"The {@creature Djinni|XMM} attacks you. After fighting for 5 rounds, the Djinni disappears, and the bottle loses its magic."
+						],
+						[
+							"2-9",
+							"The {@creature Djinni|XMM} understands your languages and obeys your commands for 1 hour, after which it returns to the bottle, and a new stopper contains it. The stopper can't be removed for 24 hours. The next two times the bottle is opened, the same effect occurs. If the bottle is opened a fourth time, the Djinni escapes and disappears, and the bottle loses its magic."
+						],
+						[
+							"10",
+							"The {@creature Djinni|XMM} understands your languages and can cast {@spell Wish|XPHB} once for you. It disappears when it grants the wish or after 1 hour, and the bottle loses its magic."
+						]
+					]
+				}
+			],
+			"attachedSpells": {
+				"limited": {
+					"1": [
+						"wish|xphb"
+					]
+				}
+			},
+			"lootTables": [
+				"Arcana - Very Rare|XDMG"
+			]
+		},
+		{
 			"name": "Docent",
 			"source": "ERLW",
 			"page": 276,
@@ -22744,7 +22840,7 @@
 		{
 			"name": "Efreeti Bottle",
 			"source": "XDMG",
-			"page": 256,
+			"page": 264,
 			"srd52": true,
 			"basicRules2024": true,
 			"referenceSources": [
@@ -22783,7 +22879,7 @@
 			],
 			"attachedSpells": {
 				"limited": {
-					"3": [
+					"1": [
 						"wish|xphb"
 					]
 				}
@@ -40653,6 +40749,57 @@
 			"value": 750000
 		},
 		{
+			"name": "Marid Bottle",
+			"source": "XDMG",
+			"page": 264,
+			"srd52": true,
+			"basicRules2024": true,
+			"referenceSources": [
+				"DrDe-DotSC"
+			],
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"When you take a {@action Magic|XPHB} action to remove the stopper of this painted brass bottle, a cloud of thick smoke flows out of it. At the end of your turn, the smoke disappears with a flash of harmless mist, and a {@creature Marid|XMM} appears in an unoccupied space within 30 feet of you.",
+				"The first time the bottle is opened, the DM rolls on the following table to determine what happens.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"1d10",
+						"Effect"
+					],
+					"rows": [
+						[
+							"1",
+							"The {@creature Marid|XMM} attacks you. After fighting for 5 rounds, the Marid disappears, and the bottle loses its magic."
+						],
+						[
+							"2-9",
+							"The {@creature Marid|XMM} understands your languages and obeys your commands for 1 hour, after which it returns to the bottle, and a new stopper contains it. The stopper can't be removed for 24 hours. The next two times the bottle is opened, the same effect occurs. If the bottle is opened a fourth time, the Marid escapes and disappears, and the bottle loses its magic."
+						],
+						[
+							"10",
+							"The {@creature Marid|XMM} understands your languages and can cast {@spell Wish|XPHB} once for you. It disappears when it grants the wish or after 1 hour, and the bottle loses its magic."
+						]
+					]
+				}
+			],
+			"attachedSpells": {
+				"limited": {
+					"1": [
+						"wish|xphb"
+					]
+				}
+			},
+			"lootTables": [
+				"Arcana - Very Rare|XDMG"
+			]
+		},
+		{
 			"name": "Martialist's Quarterstaff",
 			"source": "AU",
 			"page": 120,
@@ -53280,6 +53427,25 @@
 			}
 		},
 		{
+			"name": "Ring of Dao Summoning",
+			"source": "XDMG",
+			"page": 293,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "RG|XDMG",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"entries": [
+				"While wearing this ring, you can take a {@action Magic|XPHB} action to summon a particular {@creature Dao|XMM} from the Elemental Plane of Earth. The Dao appears in an unoccupied space you choose within 120 feet of yourself. It remains as long as you maintain {@status Concentration|XPHB}, to a maximum of 1 hour, or until it drops to 0 {@variantrule Hit Points|XPHB}.",
+				"While summoned, the Dao is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies, and it obeys your commands. If you fail to command it, the Dao defends itself against attackers but takes no other actions.",
+				"After the Dao departs, it can't be summoned again for 24 hours, and the ring becomes nonmagical if the Dao dies.",
+				"Rings of Dao Summoning are often created by the dao they summon and given to mortals as gifts of friendship or tokens of esteem."
+			],
+			"lootTables": [
+				"Arcana - Legendary|XDMG"
+			]
+		},
+		{
 			"name": "Ring of Dedicated Focus",
 			"source": "AU",
 			"page": 122,
@@ -53318,7 +53484,7 @@
 		{
 			"name": "Ring of Djinni Summoning",
 			"source": "XDMG",
-			"page": 292,
+			"page": 293,
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "RG|XDMG",
@@ -53328,7 +53494,7 @@
 				"While wearing this ring, you can take a {@action Magic|XPHB} action to summon a particular {@creature Djinni|XMM} from the Elemental Plane of Air. The djinni appears in an unoccupied space you choose within 120 feet of yourself. It remains as long as you maintain {@status Concentration|XPHB}, to a maximum of 1 hour, or until it drops to 0 {@variantrule Hit Points|XPHB}.",
 				"While summoned, the djinni is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies, and it obeys your commands. If you fail to command it, the djinni defends itself against attackers but takes no other actions.",
 				"After the djinni departs, it can't be summoned again for 24 hours, and the ring becomes nonmagical if the djinni dies.",
-				"Rings of Djinni Summoning are often created by the djinn they summon and given to mortals as gifts of friendship or tokens of esteem."
+				"Rings of Djinni Summoning are often created by the djinni they summon and given to mortals as gifts of friendship or tokens of esteem."
 			],
 			"lootTables": [
 				"Arcana - Legendary|XDMG"
@@ -53384,6 +53550,25 @@
 			},
 			"lootTables": [
 				"Magic Item Table I"
+			]
+		},
+		{
+			"name": "Ring of Efreeti Summoning",
+			"source": "XDMG",
+			"page": 293,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "RG|XDMG",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"entries": [
+				"While wearing this ring, you can take a {@action Magic|XPHB} action to summon a particular {@creature Efreeti|XMM} from the Elemental Plane of Fire. The djinni appears in an unoccupied space you choose within 120 feet of yourself. It remains as long as you maintain {@status Concentration|XPHB}, to a maximum of 1 hour, or until it drops to 0 {@variantrule Hit Points|XPHB}.",
+				"While summoned, the Efreeti is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies, and it obeys your commands. If you fail to command it, the Efreeti defends itself against attackers but takes no other actions.",
+				"After the Efreeti departs, it can't be summoned again for 24 hours, and the ring becomes nonmagical if the Efreeti dies.",
+				"Rings of Efreeti Summoning are often created by the efreeti they summon and given to mortals as gifts of friendship or tokens of esteem."
+			],
+			"lootTables": [
+				"Arcana - Legendary|XDMG"
 			]
 		},
 		{
@@ -54171,6 +54356,25 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Ring of Resistance|XDMG}"
+			]
+		},
+		{
+			"name": "Ring of Marid Summoning",
+			"source": "XDMG",
+			"page": 293,
+			"srd52": true,
+			"basicRules2024": true,
+			"type": "RG|XDMG",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"entries": [
+				"While wearing this ring, you can take a {@action Magic|XPHB} action to summon a particular {@creature Marid|XMM} from the Elemental Plane of Water. The Marid appears in an unoccupied space you choose within 120 feet of yourself. It remains as long as you maintain {@status Concentration|XPHB}, to a maximum of 1 hour, or until it drops to 0 {@variantrule Hit Points|XPHB}.",
+				"While summoned, the Marid is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies, and it obeys your commands. If you fail to command it, the Marid defends itself against attackers but takes no other actions.",
+				"After the Marid departs, it can't be summoned again for 24 hours, and the ring becomes nonmagical if the Marid dies.",
+				"Rings of Marid Summoning are often created by the marid they summon and given to mortals as gifts of friendship or tokens of esteem."
+			],
+			"lootTables": [
+				"Arcana - Legendary|XDMG"
 			]
 		},
 		{
@@ -81592,6 +81796,124 @@
 			]
 		},
 		{
+			"name": "Genie Bottle",
+			"source": "XDMG",
+			"page": 264,
+			"rarity": "very rare",
+			"type": "GV|XDMG",
+			"wondrous": true,
+			"entries": [
+				"When you take a {@action Magic|XPHB} action to remove the stopper of this painted brass bottle, a cloud of thick smoke flows out of it. At the end of your turn, the smoke disappears with a flash, and a {@filter genie|bestiary|type=elemental|tag=genie} appears in an unoccupied space within 30 feet of you.",
+				"The first time the bottle is opened, the DM rolls on the following table to determine what happens.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"1d10",
+						"Effect"
+					],
+					"rows": [
+						[
+							"1",
+							"The genie attacks you. After fighting for 5 rounds, the genie disappears, and the bottle loses its magic."
+						],
+						[
+							"2-9",
+							"The genie understands your languages and obeys your commands for 1 hour, after which it returns to the bottle, and a new stopper contains it. The stopper can't be removed for 24 hours. The next two times the bottle is opened, the same effect occurs. If the bottle is opened a fourth time, the genie escapes and disappears, and the bottle loses its magic."
+						],
+						[
+							"10",
+							"The genie understands your languages and can cast {@spell Wish|XPHB} once for you. It disappears when it grants the wish or after 1 hour, and the bottle loses its magic."
+						]
+					]
+				}
+			],
+			"attachedSpells": {
+				"limited": {
+					"1": [
+						"wish|xphb"
+					]
+				}
+			},
+			"items": [
+				"Dao Bottle|XDMG",
+				"Djinni Bottle|XDMG",
+				"Efreeti Bottle|XDMG",
+				"Marid Bottle|XDMG"
+			],
+			"lootTables": [
+				"Arcana - Very Rare|XDMG"
+			]
+		},
+		{
+			"name": "Genie Chain",
+			"source": "XDMG",
+			"page": 264,
+			"rarity": "legendary",
+			"type": "GV|XDMG",
+			"reqAttune": true,
+			"grantsLanguage": true,
+			"bonusAc": "+3",
+			"wondrous": true,
+			"entries": [
+				"While attuned to this armor, you know Primordial. While wearing this armor, you gain a +3 bonus to {@variantrule Armor Class|XPHB}, and the following benefits, based on what type of Genie Chain you are wearing.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-1-5",
+						"col-3-5",
+						"col-3-5",
+						"col-3-5"
+					],
+					"colLabels": [
+						"Genie",
+						"Resistance or Immunity",
+						"Buff",
+						"Movement"
+					],
+					"rows": [
+						[
+							"{@item Dao Chain|XDMG|Dao}",
+							"{@variantrule Resistance|XPHB|(R)} Bludgeoning, Piercing, Slashing",
+							"Adv. against {@condition Petrified|XPHB|Petrification}",
+							"Ignore Non-Magical Difficult Terrrain without disturbing material"
+						],
+						[
+							"{@item Djinni Chain|XDMG|Djinni}",
+							"{@variantrule Immunity|XPHB|(I)} Lightning, Thunder",
+							"Bonus Action Dash",
+							"Automatic {@spell Feather Fall|XPHB} if falling for more than 10 feet"
+						],
+						[
+							"{@item Efreeti Chain|XDMG|Efreeti}",
+							"{@variantrule Immunity|XPHB|(I)} Fire",
+							"+10 Movement Speed",
+							"Walk across molten rock as if solid ground"
+						],
+						[
+							"{@item Marid Chain|XDMG|Marid}",
+							"{@variantrule Resistance|XPHB|(R)} Acid, Cold",
+							"Swim Speed equal to Walk Speed",
+							"Always under effects of {@spell Water Walk|XPHB}, excluding molten rock"
+						]
+					]
+				}
+			],
+			"items": [
+				"Dao Chain|XDMG",
+				"Djinni Chain|XDMG",
+				"Efreeti Chain|XDMG",
+				"Marid Chain|XDMG"
+			],
+			"itemsHidden": true,
+			"lootTables": [
+				"Armaments - Legendary|XDMG"
+			]
+		},
+		{
 			"name": "Gloves and Gauntlets",
 			"source": "XPHB",
 			"page": 219,
@@ -83330,6 +83652,29 @@
 				"Ring of Elemental Command (Earth)|XDMG",
 				"Ring of Elemental Command (Fire)|XDMG",
 				"Ring of Elemental Command (Water)|XDMG"
+			]
+		},
+		{
+			"name": "Ring of Genie Summoning",
+			"source": "XDMG",
+			"page": 293,
+			"rarity": "legendary",
+			"type": "GV|XDMG",
+			"wondrous": true,
+			"entries": [
+				"While wearing this ring, you can take a {@action Magic|XPHB} action to summon a particular {@filter Genie|bestiary|type=elemental|tag=genie} from the Elemental Plane of its specific origins. The Genie appears in an unoccupied space you choose within 120 feet of yourself. It remains as long as you maintain {@status Concentration|XPHB}, to a maximum of 1 hour, or until it drops to 0 {@variantrule Hit Points|XPHB}.",
+				"While summoned, the Genie is {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies, and it obeys your commands. If you fail to command it, the Genie defends itself against attackers but takes no other actions.",
+				"After the Genie departs, it can't be summoned again for 24 hours, and the ring becomes nonmagical if the Genie dies.",
+				"Rings of Genie Summoning are often created by the genie they summon and given to mortals as gifts of friendship or tokens of esteem."
+			],
+			"items": [
+				"Ring of Dao Summoning|XDMG",
+				"Ring of Djinni Summoning|XDMG",
+				"Ring of Efreeti Summoning|XDMG",
+				"Ring of Marid Summoning|XDMG"
+			],
+			"lootTables": [
+				"Arcana - Legendary|XDMG"
 			]
 		},
 		{
