@@ -248,6 +248,29 @@
 			"ammoType": "energy cell|xdmg"
 		},
 		{
+			"name": "Armored Gloves",
+			"group": [
+				"Gloves and Gauntlets"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"entries": [
+				"A pair of Armored Gloves has thickened and hardened knuckles. While you can wear these while wielding weapons and a shield, you may experience challenges with {@itemProperty F|XPHB|Finesse} weapons. They must be worn as a pair and with any set of armor in order to gain the following benefit.",
+				{
+					"type": "entries",
+					"name": "Strike Attack Bonus",
+					"entries": [
+						"When you make an {@action Attack|XPHB|Unarmed Strike Attack} while wearing these gloves, you gain a +2 damage bonus on a hit."
+					]
+				}
+			]
+		},
+		{
 			"name": "Arrow",
 			"source": "PHB",
 			"page": 150,
@@ -2636,6 +2659,7 @@
 			],
 			"dmg1": "1d8",
 			"dmgType": "B",
+			"mace": true,
 			"weapon": true,
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -3027,6 +3051,21 @@
 				}
 			],
 			"hasFluff": true
+		},
+		{
+			"name": "Great Helm",
+			"group": [
+				"Helms"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"weight": 5,
+			"value": 5000,
+			"entries": [
+				"A Great Helm is a full-head covering metal helmet that often has a visor, however it may not always be moveable. This helmet is worn with Heavy metal armor, requiring training in such in order to wear it properly. Even as a mundane helmet, it grants a +2 bonus to {@variantrule Saving Throw|XPHB|Saving Throws} from {@variantrule Area of Effect|XPHB} spells, however, you make {@skill Perception|XPHB} checks with {@variantrule Disadvantage|XPHB}."
+			]
 		},
 		{
 			"name": "Greataxe",
@@ -4358,6 +4397,22 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Leather Bracers",
+			"group": [
+				"Bracers"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"weight": 1,
+			"value": 50,
+			"entries": [
+				"These simple Leather Bracers can be extremely helpful when worn. They must be worn as a pair and is often worn with Light Armor or any other fabric-based armor. If you have {@variantrule Armor Training|XPHB}, you can use a Parry reaction when you are targeted with an attack that deals Bludgeoning damage. If the attack hits, this reaction will reduce the damage dealt by 2."
+			]
+		},
+		{
 			"name": "Leatherworker's Tools",
 			"source": "PHB",
 			"page": 154,
@@ -5157,6 +5212,22 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Metal Bracers",
+			"group": [
+				"Bracers"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1000,
+			"entries": [
+				"Metal Bracers are similar to Leather Bracers, in their base form, however, they are often heavier and more costly to make and obtain. They must be worn as a pair and is often worn with Medium to Heavy metal-base armor. If you have {@variantrule Armor Training|XPHB} with either of these types of armor and are not wielding a {@item Shield|XPHB}, you can use a Parry reaction when you are targeted with an attack that deals Slashing damage. If the attack hits, this reaction will reduce the damage dealt by 2."
+			]
+		},
+		{
 			"name": "Modern Bullet",
 			"source": "DMG",
 			"page": 268,
@@ -5191,6 +5262,25 @@
 			],
 			"miscTags": [
 				"CNS"
+			]
+		},
+		{
+			"name": "Morion Helmet",
+			"alias": [
+				"Kettle Helmet"
+			],
+			"group": [
+				"Helms"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"rarity": "none",
+			"type": "AP|XPHB",
+			"value": 100,
+			"weight": 2,
+			"entries": [
+				"A Morion Helmet, also known as a Kettle Helmet, is a metal helm hat that covers only the top, back, and forehead of the head, without any face coverings. Some have leather chinstraps and some have coverings for ears. This helmet can be worn with any armor type, however it is most commonly worn with Medium metal armor. This helmet can be used as an improvised weapon, dealing 2 Bludgeoning damage on a hit."
 			]
 		},
 		{
@@ -5459,6 +5549,7 @@
 			"dmg1": "1d4",
 			"dmgType": "B",
 			"dmg2": "1d4",
+			"club": true,
 			"weapon": true,
 			"entries": [
 				{
@@ -6114,6 +6205,23 @@
 			"value": 500,
 			"entries": [
 				"Primal Bracers are Archery Bracers that can be used as a {@variantrule Spellcasting Focus|XPHB} for {@class Ranger|XPHB|Rangers}. There are various runes stitched into them, in order to allow them to be used as a {@variantrule Spellcasting Focus|XPHB} and more are added after a Ranger joins their conclave."
+			]
+		},
+		{
+			"name": "Primeval Helm",
+			"group": [
+				"Helms"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 50,
+			"entries": [
+				"A Primeval Helm is a helmet commonly used by Druids, however it is often worn by nomadic warriors and those often with Natural Armor, are unarmored, or in Light armor. While this helm does not need to be paired with an armor set, being armored in some way is necessary in order to be able to maneuver and cast spells without it impeding such actions.",
+				"It is often crafted out of wood, bone, leather, or other hides. Sometimes it may even be the skull of a larger creature. This helm is considered \"cheap\" compared to other helms, however it is often considered the cost of materials used to craft it. Buying one already made is often more expensive. While wearing this helm, you gain a +1 bonus to {@skill Intimidation|XPHB} checks."
 			]
 		},
 		{
@@ -7749,6 +7857,22 @@
 			]
 		},
 		{
+			"name": "Spiked Gauntlets",
+			"group": [
+				"Gloves and Gauntlets"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"edition": "one",
+			"type": "AP|XPHB",
+			"rarity": "none",
+			"weight": 5,
+			"value": 2000,
+			"entries": [
+				"Spiked Gauntlets are metal gauntlets with various sharp and pointed edges. They are always worn as a pair and are worn with any Medium or Heavy metal armor. While wearing this gauntlets, any {@variantrule Unarmed Attack|XPHB} option you utilize that engages your hands, deals 2 Slashing damage on a hit or failed saving throw."
+			]
+		},
+		{
 			"name": "Spiked Net",
 			"source": "XPHB",
 			"page": 215,
@@ -9117,6 +9241,21 @@
 					"name": "Ammunition",
 					"entries": [
 						"Firearm Bullets are destroyed upon use in a modern firearm. Futuristic firearms use Energy Cells that become depleted but could possibly be recharged with the proper equipment, at the GM's discretion."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AP",
+			"source": "XDMG",
+			"page": 217,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Ammo Provided",
+					"entries": [
+						"If a magic weapon has this property, it means that the weapon will produce its own ammunition, without needing any piece loaded in. It will usually maintain its range from its base item, or will list its range within the item's description."
 					]
 				}
 			]

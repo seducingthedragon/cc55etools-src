@@ -166,7 +166,11 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"weapon": true
+					"type": "M|XPHB"
+				},
+				{
+					"type": "R|XPHB",
+					"property": "T|XPHB"
 				}
 			],
 			"inherits": {
@@ -313,7 +317,13 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"weapon": true
+					"weaponCategory": "simple"
+				},
+				{
+					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -511,7 +521,11 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"weapon": true
+					"type": "M|XPHB"
+				},
+				{
+					"type": "R|XPHB",
+					"property": "T|XPHB"
 				}
 			],
 			"inherits": {
@@ -650,7 +664,13 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"weapon": true
+					"weaponCategory": "simple"
+				},
+				{
+					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -841,7 +861,11 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"weapon": true
+					"type": "M|XPHB"
+				},
+				{
+					"type": "R|XPHB",
+					"property": "T|XPHB"
 				}
 			],
 			"inherits": {
@@ -973,7 +997,13 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"weapon": true
+					"weaponCategory": "simple"
+				},
+				{
+					"weaponCategory": "martial"
+				},
+				{
+					"weaponCategory": "specialized"
 				}
 			],
 			"inherits": {
@@ -1279,6 +1309,10 @@
 				},
 				{
 					"type": "AF|XDMG"
+				},
+				{
+					"name": "Halfling Skiprocks",
+					"source": "XPHB"
 				}
 			],
 			"ammo": true,
@@ -1429,26 +1463,21 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Greatsword",
-					"source": "XPHB"
+					"rapier": true
 				},
 				{
-					"name": "Longsword",
-					"source": "XPHB"
+					"spear": true
 				},
 				{
-					"name": "Rapier",
-					"source": "XPHB"
-				},
-				{
-					"name": "Scimitar",
-					"source": "XPHB"
-				},
-				{
-					"name": "Shortsword",
-					"source": "XPHB"
+					"sword": true
 				}
 			],
+			"excludes": {
+				"name": [
+					"Hoopak",
+					"Javelin"
+				]
+			},
 			"inherits": {
 				"namePrefix": "Aquatic Wave-Swept ",
 				"source": "AU",
@@ -1465,7 +1494,7 @@
 					}
 				},
 				"entries": [
-					"This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt.",
+					"This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt or embossed into its haft.",
 					{
 						"type": "entries",
 						"name": "Barnacled",
@@ -2452,6 +2481,27 @@
 			}
 		},
 		{
+			"name": "Armor Parts of Gleaming",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "AP|XPHB"
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Gleaming",
+				"source": "XDMG",
+				"page": 230,
+				"rarity": "common",
+				"entries": [
+					"This armor part never gets dirty."
+				],
+				"lootTables": [
+					"Armaments - Common|XDMG"
+				]
+			}
+		},
+		{
 			"name": "Arrow of Slaying (*)",
 			"edition": "classic",
 			"type": "GV|DMG",
@@ -2519,26 +2569,21 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Greatsword",
-					"source": "XPHB"
+					"rapier": true
 				},
 				{
-					"name": "Longsword",
-					"source": "XPHB"
+					"spear": true
 				},
 				{
-					"name": "Rapier",
-					"source": "XPHB"
-				},
-				{
-					"name": "Scimitar",
-					"source": "XPHB"
-				},
-				{
-					"name": "Shortsword",
-					"source": "XPHB"
+					"sword": true
 				}
 			],
+			"excludes": {
+				"name": [
+					"Hoopak",
+					"Javelin"
+				]
+			},
 			"inherits": {
 				"namePrefix": "Ascendant Wave-Swept ",
 				"source": "AU",
@@ -2556,7 +2601,7 @@
 					}
 				},
 				"entries": [
-					"This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt.",
+					"This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt or embossed into its haft.",
 					{
 						"type": "entries",
 						"name": "Barnacled",
@@ -2623,26 +2668,21 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Greatsword",
-					"source": "XPHB"
+					"rapier": true
 				},
 				{
-					"name": "Longsword",
-					"source": "XPHB"
+					"spear": true
 				},
 				{
-					"name": "Rapier",
-					"source": "XPHB"
-				},
-				{
-					"name": "Scimitar",
-					"source": "XPHB"
-				},
-				{
-					"name": "Shortsword",
-					"source": "XPHB"
+					"sword": true
 				}
 			],
+			"excludes": {
+				"name": [
+					"Hoopak",
+					"Javelin"
+				]
+			},
 			"inherits": {
 				"namePrefix": "Barnacled Wave-Swept ",
 				"source": "AU",
@@ -2654,7 +2694,7 @@
 				],
 				"bonusWeapon": "+1",
 				"entries": [
-					"This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt.",
+					"This weapon is covered in oceanic motifs, from wavelike etchings on its blade to stylized sea monsters embroidered onto its leather hilt or embossed into its haft.",
 					{
 						"type": "entries",
 						"name": "Barnacled",
@@ -2723,12 +2763,7 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Battleaxe",
-					"source": "XPHB"
-				},
-				{
-					"name": "Greataxe",
-					"source": "XPHB"
+					"axe": true
 				},
 				{
 					"name": "Halberd",
@@ -2833,7 +2868,6 @@
 					"type": "AF|XDMG"
 				}
 			],
-			"ammo": true,
 			"inherits": {
 				"namePrefix": "Bloodseeker ",
 				"source": "XDMG",
@@ -2841,6 +2875,25 @@
 				"rarity": "very rare",
 				"entries": [
 					"Ranged attack rolls made with this ammunition have {@variantrule Advantage|XPHB} against any creature that doesn't have all its {@variantrule Hit Points|XPHB}."
+				]
+			}
+		},
+		{
+			"name": "Bloodseeking Weapon",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "R|XPHB",
+					"property": "T|XPHB"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Bloodseeking ",
+				"source": "XDMG",
+				"page": 237,
+				"rarity": "very rare",
+				"entries": [
+					"Ranged attack rolls made with this ranged {@itemProperty T|XPHB|Thrown} weapon have {@variantrule Advantage|XPHB} against any creature that doesn't have all its {@variantrule Hit Points|XPHB}."
 				]
 			}
 		},
@@ -3030,12 +3083,6 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"type": "A"
-				},
-				{
-					"type": "AF|DMG"
-				},
-				{
 					"type": "A|XPHB"
 				},
 				{
@@ -3049,7 +3096,7 @@
 			"inherits": {
 				"namePrefix": "Cold Iron ",
 				"source": "XDMG",
-				"page": 246,
+				"page": 245,
 				"rarity": "rare",
 				"entries": [
 					"This ammunition is made of Cold Iron, a magical material that is poisonous to Fey creatures. Whenever this weapon hits a Fey creature, the target must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 15}). On a failed save, the target is {@condition Poisoned|XPHB} and takes bonus damage equal to {@damage 2d6} Poison damage. On a success, the target takes half the damage amount only."
@@ -3076,7 +3123,7 @@
 			"inherits": {
 				"namePrefix": "Cold Iron ",
 				"source": "XDMG",
-				"page": 246,
+				"page": 245,
 				"rarity": "rare",
 				"entries": [
 					"This armor is made of Cold Iron, a magical material that protects the wearer against fey magic. While wearing it, you have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against the spells and other magical effects of fey creatures, as well as planar effects caused by the Feywild. Additionally, if you are targetted with an {@variantrule Unarmed Attack|XPHB} by a Fey creature, the attacker must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 15}) if their bareskin touches your armor. On a failed save, the attacker takes {@damage 1d6} Poison damage."
@@ -3103,7 +3150,7 @@
 			"inherits": {
 				"namePrefix": "Cold Iron ",
 				"source": "XDMG",
-				"page": 246,
+				"page": 245,
 				"rarity": "rare",
 				"entries": [
 					"This weapon is made of Cold Iron, a magical material that is poisonous to Fey creatures. Whenever this weapon hits a Fey creature, the target must make a Constitution {@variantrule Saving Throw|XPHB} ({@dc 15}). On a failed save, the target is {@condition Poisoned|XPHB} and takes bonus damage equal to {@damage 2d6} Poison damage. On a success, the target takes half the damage amount only."
@@ -3202,6 +3249,12 @@
 			"name": "Dancing Sword",
 			"type": "GV|XDMG",
 			"requires": [
+				{
+					"dagger": true
+				},
+				{
+					"rapier": true
+				},
 				{
 					"sword": true
 				}
@@ -3444,6 +3497,10 @@
 				},
 				{
 					"type": "AF|XDMG"
+				},
+				{
+					"name": "Halfling Skiprocks",
+					"source": "XPHB"
 				}
 			],
 			"ammo": true,
@@ -3753,11 +3810,19 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
+					"name": "Breastplate",
+					"source": "XPHB"
+				},
+				{
 					"name": "Half Plate Armor",
 					"source": "XPHB"
 				},
 				{
 					"name": "Plate Armor",
+					"source": "XPHB"
+				},
+				{
+					"name": "Segmented Plate Armor",
 					"source": "XPHB"
 				}
 			],
@@ -3788,6 +3853,10 @@
 				},
 				{
 					"name": "Chain Shirt",
+					"source": "XPHB"
+				},
+				{
+					"name": "Ring Mail",
 					"source": "XPHB"
 				}
 			],
@@ -3823,6 +3892,10 @@
 				{
 					"name": "Chain Shirt",
 					"source": "XPHB"
+				},
+				{
+					"name": "Ring Mail",
+					"source": "XPHB"
 				}
 			],
 			"inherits": {
@@ -3849,14 +3922,13 @@
 		{
 			"name": "Energy Bow",
 			"type": "GV|XDMG",
+			"typeAlt": "R|XPHB",
+			"property": [
+				"AP|XDMG"
+			],
 			"requires": [
 				{
-					"name": "Longbow",
-					"source": "XPHB"
-				},
-				{
-					"name": "Shortbow",
-					"source": "XPHB"
+					"bow": true
 				}
 			],
 			"inherits": {
@@ -4456,21 +4528,13 @@
 		{
 			"name": "Executioner's Axe",
 			"type": "GV|XDMG",
+			"typeAlt": "M|XPHB",
 			"requires": [
 				{
-					"name": "Battleaxe",
-					"source": "XPHB"
-				},
-				{
-					"name": "Greataxe",
-					"source": "XPHB"
+					"axe": true
 				},
 				{
 					"name": "Halberd",
-					"source": "XPHB"
-				},
-				{
-					"name": "Handaxe",
 					"source": "XPHB"
 				}
 			],
@@ -4723,28 +4787,13 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Glaive",
-					"source": "XPHB"
+					"glaive": true
 				},
 				{
-					"name": "Greatsword",
-					"source": "XPHB"
+					"rapier": true
 				},
 				{
-					"name": "Longsword",
-					"source": "XPHB"
-				},
-				{
-					"name": "Rapier",
-					"source": "XPHB"
-				},
-				{
-					"name": "Scimitar",
-					"source": "XPHB"
-				},
-				{
-					"name": "Shortsword",
-					"source": "XPHB"
+					"sword": true
 				}
 			],
 			"inherits": {
@@ -4949,6 +4998,10 @@
 				},
 				{
 					"type": "AF|XDMG"
+				},
+				{
+					"name": "Halfling Skiprocks",
+					"source": "XPHB"
 				}
 			],
 			"ammo": true,
@@ -4982,12 +5035,7 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Maul",
-					"source": "XPHB"
-				},
-				{
-					"name": "Warhammer",
-					"source": "XPHB"
+					"hammer": true
 				}
 			],
 			"inherits": {
@@ -5564,31 +5612,20 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Glaive",
-					"source": "XPHB"
+					"glaive": true
 				},
 				{
-					"name": "Greatsword",
-					"source": "XPHB"
+					"rapier": true
 				},
 				{
-					"name": "Longsword",
-					"source": "XPHB"
+					"sword": true
 				},
 				{
-					"name": "Rapier",
-					"source": "XPHB"
-				},
-				{
-					"name": "Scimitar",
+					"name": "Scythe",
 					"source": "XPHB"
 				},
 				{
 					"name": "Sickle",
-					"source": "XPHB"
-				},
-				{
-					"name": "Shortsword",
 					"source": "XPHB"
 				}
 			],
@@ -5693,9 +5730,15 @@
 				"rechargeAmount": 1,
 				"charges": 1,
 				"entries": [
-					"The armor is decorated with fish and shell motifs.",
-					"While wearing this armor, you have a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}. In addition, if you start your turn underwater with 0 {@variantrule Hit Points|XPHB}, you immediately regain {@dice 1d4} {@variantrule Hit Points|XPHB}.",
-					"The armor can't heal anyone again until the next dawn."
+					"The armor is decorated with fish and shell motifs. While wearing this armor, you have a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}.",
+					{
+						"type": "entries",
+						"name": "Underwater Healing",
+						"entries": [
+							"In addition, if you start your turn underwater with 0 {@variantrule Hit Points|XPHB}, you immediately regain {@dice 1d4} {@variantrule Hit Points|XPHB}.",
+							"The armor can't heal anyone again until the next dawn."
+						]
+					}
 				],
 				"lootTables": [
 					"Armaments - Uncommon|XDMG",
@@ -5958,6 +6001,9 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
+					"rapier": true
+				},
+				{
 					"sword": true
 				}
 			],
@@ -5986,6 +6032,9 @@
 			"name": "Moonblade",
 			"type": "GV|XDMG",
 			"requires": [
+				{
+					"type": "CElf|XPHB"
+				},
 				{
 					"name": "Greatsword",
 					"source": "XPHB"
@@ -6171,12 +6220,7 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Longbow",
-					"source": "XPHB"
-				},
-				{
-					"name": "Shortbow",
-					"source": "XPHB"
+					"bow": true
 				}
 			],
 			"inherits": {
@@ -6473,12 +6517,22 @@
 				{
 					"name": "Plate Armor",
 					"source": "XPHB"
+				},
+				{
+					"name": "Segmented Plate Armor",
+					"source": "XPHB"
 				}
 			],
 			"entries": [
 				"{@note * This generic variant has the same name and source as the item {@item Plate Armor of Etherealness|XDMG}}.",
-				"While you're wearing this armor, you can take a {@action Magic|XPHB} action and use a command word to gain the effect of the {@spell Etherealness|XPHB} spell. The spell ends immediately if you remove the armor or take a {@action Magic|XPHB} action to repeat the command word.",
-				"This property of the armor can't be used again until the next dawn."
+				{
+					"type": "entries",
+					"name": "Etherealness",
+					"entries": [
+						"While you're wearing this armor, you can take a {@action Magic|XPHB} action and use a command word to gain the effect of the {@spell Etherealness|XPHB} spell. The spell ends immediately if you remove the armor or take a {@action Magic|XPHB} action to repeat the command word.",
+					"This property of the armor can't be used again until the next dawn."
+					]
+				}
 			],
 			"inherits": {
 				"nameSuffix": " of Etherealness",
@@ -6492,8 +6546,14 @@
 				"rechargeAmount": 1,
 				"charges": 1,
 				"entries": [
-					"While you're wearing this armor, you can take a {@action Magic|XPHB} action and use a command word to gain the effect of the {@spell Etherealness|XPHB} spell. The spell ends immediately if you remove the armor or take a {@action Magic|XPHB} action to repeat the command word.",
-					"This property of the armor can't be used again until the next dawn."
+					{
+						"type": "entries",
+						"name": "Etherealness",
+						"entries": [
+							"While you're wearing this armor, you can take a {@action Magic|XPHB} action and use a command word to gain the effect of the {@spell Etherealness|XPHB} spell. The spell ends immediately if you remove the armor or take a {@action Magic|XPHB} action to repeat the command word.",
+							"This property of the armor can't be used again until the next dawn."
+						]
+					}
 				],
 				"attachedSpells": {
 					"daily": {
@@ -7103,6 +7163,9 @@
 				},
 				{
 					"type": "HA|XPHB"
+				},
+				{
+					"type": "AP|XPHB"
 				}
 			],
 			"inherits": {
@@ -7124,27 +7187,20 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Heavy Crossbow",
+					"bow": true
+				},
+				{
+					"crossbow": true
+				},
+				{
+					"firearm": true
+				},
+				{
+					"name": "Sling",
 					"source": "XPHB"
 				},
 				{
-					"name": "Light Crossbow",
-					"source": "XPHB"
-				},
-				{
-					"name": "Longbow",
-					"source": "XPHB"
-				},
-				{
-					"name": "Musket",
-					"source": "XPHB"
-				},
-				{
-					"name": "Pistol",
-					"source": "XPHB"
-				},
-				{
-					"name": "Shortbow",
+					"name": "Slingshot",
 					"source": "XPHB"
 				}
 			],
@@ -7442,28 +7498,13 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Glaive",
-					"source": "XPHB"
+					"glaive": true
 				},
 				{
-					"name": "Greatsword",
-					"source": "XPHB"
+					"rapier": true
 				},
 				{
-					"name": "Longsword",
-					"source": "XPHB"
-				},
-				{
-					"name": "Rapier",
-					"source": "XPHB"
-				},
-				{
-					"name": "Scimitar",
-					"source": "XPHB"
-				},
-				{
-					"name": "Shortsword",
-					"source": "XPHB"
+					"sword": true
 				}
 			],
 			"inherits": {
@@ -7567,20 +7608,10 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Glaive",
-					"source": "XPHB"
+					"glaive": true
 				},
 				{
-					"name": "Greatsword",
-					"source": "XPHB"
-				},
-				{
-					"name": "Longsword",
-					"source": "XPHB"
-				},
-				{
-					"name": "Scimitar",
-					"source": "XPHB"
+					"sword": true
 				}
 			],
 			"inherits": {
@@ -7673,28 +7704,13 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Glaive",
-					"source": "XPHB"
+					"glaive": true
 				},
 				{
-					"name": "Greatsword",
-					"source": "XPHB"
+					"rapier": true
 				},
 				{
-					"name": "Longsword",
-					"source": "XPHB"
-				},
-				{
-					"name": "Rapier",
-					"source": "XPHB"
-				},
-				{
-					"name": "Scimitar",
-					"source": "XPHB"
-				},
-				{
-					"name": "Shortsword",
-					"source": "XPHB"
+					"sword": true
 				}
 			],
 			"inherits": {
@@ -7756,28 +7772,13 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Glaive",
-					"source": "XPHB"
+					"glaive": true
 				},
 				{
-					"name": "Greatsword",
-					"source": "XPHB"
+					"rapier": true
 				},
 				{
-					"name": "Longsword",
-					"source": "XPHB"
-				},
-				{
-					"name": "Rapier",
-					"source": "XPHB"
-				},
-				{
-					"name": "Scimitar",
-					"source": "XPHB"
-				},
-				{
-					"name": "Shortsword",
-					"source": "XPHB"
+					"sword": true
 				}
 			],
 			"inherits": {
@@ -7801,27 +7802,26 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Dagger",
-					"source": "XPHB"
+					"dagger": true
 				},
 				{
-					"name": "Rapier",
-					"source": "XPHB"
+					"rapier": true
 				},
 				{
-					"name": "Scimitar",
-					"source": "XPHB"
+					"spear": true
 				},
 				{
-					"name": "Shortsword",
-					"source": "XPHB"
+					"sword": true
+				},
+				{
+					"type": "CElf|XPHB"
 				},
 				{
 					"name": "Sickle",
 					"source": "XPHB"
 				},
 				{
-					"name": "Spear",
+					"name": "Scythe",
 					"source": "XPHB"
 				}
 			],
@@ -7831,9 +7831,6 @@
 				"page": 314,
 				"rarity": "common",
 				"reqAttune": true,
-				"recharge": "dawn",
-				"rechargeAmount": 1,
-				"charges": 1,
 				"entries": [
 					"While this weapon is on your person, you understand the non-written communication of all Fey, and they understand yours.",
 					{
@@ -7864,16 +7861,7 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Greatsword",
-					"source": "XPHB"
-				},
-				{
-					"name": "Longsword",
-					"source": "XPHB"
-				},
-				{
-					"name": "Scimitar",
-					"source": "XPHB"
+					"sword": true
 				}
 			],
 			"inherits": {
@@ -7942,9 +7930,6 @@
 				"rarity": "very rare",
 				"reqAttune": true,
 				"bonusAc": "+1",
-				"recharge": "dawn",
-				"rechargeAmount": 1,
-				"charges": 1,
 				"entries": [
 					"You gain a {=bonusAc} bonus to {@variantrule Armor Class|XPHB} while wearing this armor. The armor is enchanted to look like a scholarly or priestly robe.",
 					{
@@ -8215,20 +8200,10 @@
 			"type": "GV|XDMG",
 			"requires": [
 				{
-					"name": "Glaive",
-					"source": "XPHB"
+					"glaive": true
 				},
 				{
-					"name": "Greatsword",
-					"source": "XPHB"
-				},
-				{
-					"name": "Longsword",
-					"source": "XPHB"
-				},
-				{
-					"name": "Scimitar",
-					"source": "XPHB"
+					"sword": true
 				}
 			],
 			"inherits": {
@@ -8317,7 +8292,6 @@
 					"type": "AF|XDMG"
 				}
 			],
-			"ammo": true,
 			"inherits": {
 				"namePrefix": "Walloping ",
 				"source": "XDMG",

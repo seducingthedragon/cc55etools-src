@@ -24931,6 +24931,15 @@
 											"entries": [
 												"If a magic weapon has the {@itemProperty AF|XDMG|Ammunition} property, ammunition fired from it is considered magical for the purpose of any rule that cares whether a weapon is magical or not. Additionally, firing a magical piece of ammunition from a magical weapon, may or may not gain the benefits of both, per your perview."
 											]
+										},
+										{
+											"type": "entries",
+											"name": "Ammo Provided",
+											"page": 217,
+											"id": "460",
+											"entries": [
+												"If a magic weapon has the {@itemProperty AP|XDMG|Ammo Provided} property, it means that the weapon will produce its own ammunition, without needing any piece loaded in. It will usually maintain its range from its base item, or will list its range within the item's description."
+											]
 										}
 									]
 								},
