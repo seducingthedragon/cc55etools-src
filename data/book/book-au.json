@@ -6328,6 +6328,11 @@
 								],
 								[
 									"Rare",
+									"{@item Magic Gem|AU}",
+									"No"
+								],
+								[
+									"Rare",
 									"{@item Namer's Needle|AU}",
 									"No"
 								],
@@ -6539,6 +6544,12 @@
 						{
 							"type": "statblock",
 							"name": "Magewright's Gloves",
+							"tag": "item",
+							"source": "AU"
+						},
+						{
+							"type": "statblock",
+							"name": "Magic Gem",
 							"tag": "item",
 							"source": "AU"
 						},

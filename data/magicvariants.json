@@ -2488,6 +2488,12 @@
 					"type": "AP|XPHB"
 				}
 			],
+			"excludes": {
+				"name": [
+					"Primal Bracers",
+					"Primeval Helm"
+				]
+			},
 			"inherits": {
 				"nameSuffix": " of Gleaming",
 				"source": "XDMG",
@@ -3854,10 +3860,6 @@
 				{
 					"name": "Chain Shirt",
 					"source": "XPHB"
-				},
-				{
-					"name": "Ring Mail",
-					"source": "XPHB"
 				}
 			],
 			"inherits": {
@@ -3891,10 +3893,6 @@
 				},
 				{
 					"name": "Chain Shirt",
-					"source": "XPHB"
-				},
-				{
-					"name": "Ring Mail",
 					"source": "XPHB"
 				}
 			],
@@ -5455,6 +5453,56 @@
 				"entries": [
 					"An imbued wood focus is a rod, staff, or wand cut from a tree infused with extraplanar energy. If you're a spellcaster, you can use this item as a spellcasting focus.",
 					"When you cast a damage-dealing spell using this item as your spellcasting focus, you gain a +1 bonus to one psychic damage roll of the spell."
+				]
+			}
+		},
+		{
+			"name": "Instrument of Illusions",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "INS|XPHB"
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Illusions",
+				"source": "XDMG",
+				"page": 271,
+				"rarity": "common",
+				"wondrous": true,
+				"entries": [
+					"While you are playing this {@item musical instrument|XPHB}, you can take a {@action Magic|XPHB} action to create harmless, illusory visual effects within a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the instrument. If you are a Bard, the size of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} increases to 15 feet. Sample visual effects include luminous musical notes, a spectral dancer, butterflies, and gently falling snow. The magical effects have neither substance nor sound, and they are obviously illusory. The effects end when you stop playing."
+				],
+				"lootTables": [
+					"Arcana - Common|XDMG",
+					"Implements - Common|XDMG"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Instrument of Scribing",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"type": "INS|XPHB"
+				}
+			],
+			"inherits": {
+				"nameSuffix": " of Scribing",
+				"source": "XDMG",
+				"page": 271,
+				"rarity": "common",
+				"wondrous": true,
+				"recharge": "dawn",
+				"rechargeAmount": 3,
+				"charges": 3,
+				"entries": [
+					"This {@item musical instrument|XPHB} has 3 charges and regains all expended charges daily at dawn. While you are playing it, you can take a {@action Magic|XPHB} action to expend 1 charge and write a magical message on a nonmagical object or surface that you can see within 30 feet of yourself. The message can be up to six words long and is written in a language you know. If you are a Bard, you can scribe an additional seven words and make the message glow faintly, allowing it to be seen in nonmagical {@variantrule Darkness|XPHB}. Casting the {@spell Dispel Magic|XPHB} spell on the message erases it. Otherwise, the message fades away after 24 hours."
+				],
+				"lootTables": [
+					"Arcana - Common|XDMG",
+					"Implements - Common|XDMG"
 				]
 			}
 		},

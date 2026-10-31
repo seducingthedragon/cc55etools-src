@@ -15258,6 +15258,11 @@
 							"statblock": true
 						},
 						{
+							"header": "Magic Gem",
+							"depth": 1,
+							"statblock": true
+						},
+						{
 							"header": "Martialist's Quarterstaff",
 							"depth": 1,
 							"statblock": true

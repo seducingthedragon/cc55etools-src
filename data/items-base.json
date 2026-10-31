@@ -4689,6 +4689,21 @@
 			"ammoType": "crossbow bolt|phb"
 		},
 		{
+			"name": "Locking Gauntlet",
+			"group": [
+				"Gloves and Gauntlets"
+			],
+			"source": "XPHB",
+			"page": 219,
+			"type": "APS|XPHB",
+			"rarity": "none",
+			"weight": 5,
+			"value": 5000,
+			"entries": [
+				"A Locking Gauntlet is a metal gauntlet that, while sold as a pair, comes with one Locking Gauntlet and one plain metal gauntlet. A Locking Gauntlet, lets you use an {@variantrule Action|XPHB} to \"lock\" a weapon's hilt to it, making it difficult for you to be disarmed. It also takes an {@variantrule Action|XPHB} to release the weapon from this gauntlet's grasp. While a weapon is locked, any DC made to be disarmed increases by 3."
+			]
+		},
+		{
 			"name": "Longbow",
 			"source": "PHB",
 			"page": 149,
@@ -10974,6 +10989,14 @@
 				"When you take a {@action Magic|XPHB} action to toss an {@i Ioun Stone} into the air, the stone orbits your head at a distance of {@dice 1d3} feet, conferring its benefit to you while doing so. You can have up to three {@i Ioun Stones} orbiting your head at the same time.",
 				"Each {@i Ioun Stone} orbiting your head is considered to be an object you are wearing. The orbiting stone avoids contact with other creatures and objects, adjusting its orbit to avoid collisions and thwarting all attempts by other creatures to attack or snatch it.",
 				"As a {@action Utilize|XPHB} action, you can seize and stow any number of {@i Ioun Stones} orbiting your head. If your {@variantrule Attunement|XPHB} to an Ioun Stone ends while it's orbiting your head, the stone falls as though you had dropped it."
+			]
+		},
+		{
+			"name": "Magic Gem",
+			"source": "AU",
+			"entriesTemplate": [
+				"These Magic Gems are treasured gems that have been imbued with magical properties tied to a specific school of magic. They can be used as a {@variantrule Spellcasting Focus|XPHB} for its related school of magic spells, regardless of who is casting it, and they can be used as other forms of material components for other magic-related purposes, such as crafting scrolls, items, rituals, etc.",
+				"This specific gem is a {{item.detail1}} and it is tied to the magic school of {{item.detail2}}."
 			]
 		},
 		{

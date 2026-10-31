@@ -34351,21 +34351,6 @@
 		},
 		{
 			"name": "Instrument of Illusions",
-			"source": "XDMG",
-			"page": 271,
-			"rarity": "common",
-			"wondrous": true,
-			"entries": [
-				"While you are playing this {@item musical instrument|XPHB}, you can take a {@action Magic|XPHB} action to create harmless, illusory visual effects within a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the instrument. If you are a Bard, the size of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} increases to 15 feet. Sample visual effects include luminous musical notes, a spectral dancer, butterflies, and gently falling snow. The magical effects have neither substance nor sound, and they are obviously illusory. The effects end when you stop playing."
-			],
-			"lootTables": [
-				"Arcana - Common|XDMG",
-				"Implements - Common|XDMG"
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Instrument of Illusions",
 			"source": "XGE",
 			"page": 137,
 			"referenceSources": [
@@ -34381,23 +34366,6 @@
 			"wondrous": true,
 			"entries": [
 				"While you are playing this musical instrument, you can create harmless, illusory visual effects within a 5-foot-radius sphere centered on the instrument. If you are a bard, the radius increases to 15 feet. Sample visual effects include luminous musical notes, a spectral dancer, butterflies, and gently falling snow. The magical effects have neither substance nor sound, and they are obviously illusory. The effects end when you stop playing."
-			]
-		},
-		{
-			"name": "Instrument of Scribing",
-			"source": "XDMG",
-			"page": 271,
-			"rarity": "common",
-			"wondrous": true,
-			"recharge": "dawn",
-			"rechargeAmount": 3,
-			"charges": 3,
-			"entries": [
-				"This {@item musical instrument|XPHB} has 3 charges and regains all expended charges daily at dawn. While you are playing it, you can take a {@action Magic|XPHB} action to expend 1 charge and write a magical message on a nonmagical object or surface that you can see within 30 feet of yourself. The message can be up to six words long and is written in a language you know. If you are a Bard, you can scribe an additional seven words and make the message glow faintly, allowing it to be seen in nonmagical {@variantrule Darkness|XPHB}. Casting the {@spell Dispel Magic|XPHB} spell on the message erases it. Otherwise, the message fades away after 24 hours."
-			],
-			"lootTables": [
-				"Arcana - Common|XDMG",
-				"Implements - Common|XDMG"
 			]
 		},
 		{
@@ -38798,21 +38766,6 @@
 			]
 		},
 		{
-			"name": "Locking Gauntlet",
-			"group": [
-				"Gloves and Gauntlets"
-			],
-			"source": "XPHB",
-			"page": 219,
-			"type": "APS|XPHB",
-			"rarity": "none",
-			"weight": 5,
-			"value": 5000,
-			"entries": [
-				"A Locking Gauntlet is a metal gauntlet that, while sold as a pair, comes with one Locking Gauntlet and one plain metal gauntlet. A Locking Gauntlet, lets you use an {@variantrule Action|XPHB} to \"lock\" a weapon's hilt to it, making it difficult for you to be disarmed. It also takes an {@variantrule Action|XPHB} to release the weapon from this gauntlet's grasp. While a weapon is locked, any DC made to be disarmed increases by 3."
-			]
-		},
-		{
 			"name": "Locking Spellbook",
 			"source": "FRHoF",
 			"page": 132,
@@ -39982,6 +39935,123 @@
 			"wondrous": true,
 			"entries": [
 				"While you wear these gloves, you work as efficiently as two characters when determining how much time it takes to craft nonmagical items using any of the following tools: {@item Alchemist's Supplies|XPHB}, {@item Brewer's Supplies|XPHB}, {@item Calligrapher's Supplies|XPHB}, {@item Cartographer's Tools|XPHB}, {@item Glassblower's Tools|XPHB}, or {@item Jeweler's Tools|XPHB}."
+			]
+		},
+		{
+			"name": "Magic Gem (Amber)",
+			"source": "AU",
+			"page": 120,
+			"rarity": "rare",
+			"wondrous": true,
+			"detail1": "Amber",
+			"detail2": "Abjuration",
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Magic Gem|AU}"
+			]
+		},
+		{
+			"name": "Magic Gem (Blue Sapphire)",
+			"source": "AU",
+			"page": 120,
+			"rarity": "rare",
+			"wondrous": true,
+			"detail1": "Blue Sapphire",
+			"detail2": "Divination",
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Magic Gem|AU}"
+			]
+		},
+		{
+			"name": "Magic Gem (Moonstone)",
+			"source": "AU",
+			"page": 120,
+			"rarity": "rare",
+			"wondrous": true,
+			"detail1": "Moonstone",
+			"detail2": "Illusion",
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Magic Gem|AU}"
+			]
+		},
+		{
+			"name": "Magic Gem (Obsidian)",
+			"source": "AU",
+			"page": 120,
+			"rarity": "rare",
+			"wondrous": true,
+			"detail1": "Obsidian",
+			"detail2": "Necromancy",
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Magic Gem|AU}"
+			]
+		},
+		{
+			"name": "Magic Gem (Opal)",
+			"source": "AU",
+			"page": 120,
+			"rarity": "rare",
+			"wondrous": true,
+			"detail1": "Opal",
+			"detail2": "Transmutation",
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Magic Gem|AU}"
+			]
+		},
+		{
+			"name": "Magic Gem (Peridot)",
+			"source": "AU",
+			"page": 120,
+			"rarity": "rare",
+			"wondrous": true,
+			"detail1": "Peridot",
+			"detail2": "Conjuration",
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Magic Gem|AU}"
+			]
+		},
+		{
+			"name": "Magic Gem (Quartz)",
+			"source": "AU",
+			"page": 120,
+			"rarity": "rare",
+			"wondrous": true,
+			"detail1": "Quartz",
+			"detail2": "all. This gem is not tied to a specific school of magic",
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Magic Gem|AU}"
+			]
+		},
+		{
+			"name": "Magic Gem (Ruby)",
+			"source": "AU",
+			"page": 120,
+			"rarity": "rare",
+			"wondrous": true,
+			"detail1": "Ruby",
+			"detail2": "Evocation",
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Magic Gem|AU}"
+			]
+		},
+		{
+			"name": "Magic Gem (Spinel)",
+			"source": "AU",
+			"page": 120,
+			"rarity": "rare",
+			"wondrous": true,
+			"detail1": "Spinel",
+			"detail2": "Enchantment",
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Magic Gem|AU}"
 			]
 		},
 		{
@@ -82353,6 +82423,25 @@
 				"Mace of the Black Crown (Exalted)|EGW"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Magic Gem",
+			"source": "AU",
+			"page": 120,
+			"rarity": "rare",
+			"type": "GV|XDMG",
+			"wondrous": true,
+			"items": [
+				"Magic Gem (Amber)|AU",
+				"Magic Gem (Blue Sapphire)|AU",
+				"Magic Gem (Moonstone)|AU",
+				"Magic Gem (Obsidian)|AU",
+				"Magic Gem (Opal)|AU",
+				"Magic Gem (Peridot)|AU",
+				"Magic Gem (Quartz)|AU",
+				"Magic Gem (Ruby)|AU",
+				"Magic Gem (Spinel)|AU"
+			]
 		},
 		{
 			"name": "Manual of Golems",
