@@ -348,7 +348,7 @@
 				"While holding this {@item drum|PHB}, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your bard spells and can be used as your spellcasting focus.",
 				{
 					"type": "entries",
-					"name": "Once per Dawn Regaining Inspiration",
+					"name": "Regaining Inspiration: Once per Dawn",
 					"entries": [
 						"As an action, you can play the {@item drum|PHB} to regain one use of your Bardic Inspiration feature.",
 						"This property of the {@item drum|PHB} can't be used again until the next dawn."
@@ -939,7 +939,7 @@
 				"While holding this {@item drum|PHB}, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your bard spells and can be used as your spellcasting focus.",
 				{
 					"type": "entries",
-					"name": "Once per Dawn Regaining Inspiration",
+					"name": "Regaining Inspiration: Once per Dawn",
 					"entries": [
 						"As an action, you can play the {@item drum|PHB} to regain one use of your Bardic Inspiration feature.",
 						"This property of the {@item drum|PHB} can't be used again until the next dawn."
@@ -1520,7 +1520,7 @@
 				"While holding this {@item drum|PHB}, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your bard spells and can be used as your spellcasting focus.",
 				{
 					"type": "entries",
-					"name": "Once per Dawn Regaining Inspiration",
+					"name": "Regaining Inspiration: Once per Dawn",
 					"entries": [
 						"As an action, you can play the {@item drum|PHB} to regain one use of your Bardic Inspiration feature.",
 						"This property of the {@item drum|PHB} can't be used again until the next dawn."
@@ -40601,7 +40601,8 @@
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This magic weapon has 3 charges and regains {@dice 1d3} expended charges daily at dawn. While holding the weapon, you can take a {@action Magic|XPHB} action and expend 1 charge to release a wave of terror from it. Each creature of your choice within 30 feet of you must succeed on a {@dc 15} Wisdom saving throw or have the {@condition Frightened|XPHB} condition for 1 minute. While {@condition Frightened|XPHB} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't make {@action Opportunity Attack|XPHB|Opportunity Attacks}. For its action, it can use only the {@action Dash|XPHB} action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can take the {@action Dodge|XPHB} action. At the end of each of its turns, a creature repeats the save, ending the effect on itself on a success."
+				"This magic weapon has 3 charges and regains {@dice 1d3} expended charges daily at dawn.",
+				"While holding the weapon, you can take a {@action Magic|XPHB} action and expend 1 charge to release a wave of terror from it. Each creature of your choice within 30 feet of you must succeed on a {@dc 15} Wisdom saving throw or have the {@condition Frightened|XPHB} condition for 1 minute. While {@condition Frightened|XPHB} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't make {@action Opportunity Attack|XPHB|Opportunity Attacks}. For its action, it can use only the {@action Dash|XPHB} action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can take the {@action Dodge|XPHB} action. At the end of each of its turns, a creature repeats the save, ending the effect on itself on a success."
 			],
 			"lootTables": [
 				"Armaments - Rare|XDMG",
@@ -40822,8 +40823,7 @@
 			"charges": 1,
 			"wondrous": true,
 			"entries": [
-				"As a {@action Magic|XPHB} action while wearing this bracelet, you can target a Large or smaller creature within 5 feet of yourself that has the {@condition Grappled|XPHB} or {@condition Incapacitated|XPHB} condition. The target must succeed on a {@dc 15} Dexterity saving throw or become magically bound to you by a spectral chain and manacle that spring from the bracelet.",
-				"While bound in this way, the creature has the {@condition Restrained|XPHB} condition. When you move, the creature moves with you.",
+				"As a {@action Magic|XPHB} action while wearing this bracelet, you can target a Large or smaller creature within 5 feet of yourself that has the {@condition Grappled|XPHB} or {@condition Incapacitated|XPHB} condition. The target must succeed on a {@dc 15} Dexterity saving throw or become magically bound to you by a spectral chain and manacle that spring from the bracelet. While bound in this way, the creature has the {@condition Restrained|XPHB} condition. When you move, the creature moves with you.",
 				"A creature remains bound for 8 hours or until you release it (no action required). If the manacle takes damage from a {@spell Disintegrate|XPHB} spell, it is destroyed; nothing else can break or harm it.",
 				"Once the manacle has bound a creature, it can't be used again this way until the next dawn."
 			]
@@ -40833,8 +40833,12 @@
 			"source": "NF",
 			"rarity": "rare",
 			"wondrous": true,
+			"recharge": "special",
+			"rechargeAmount": 1,
+			"charge": 1,
 			"entries": [
-				"While holding this brass handbell, you can take a {@action Magic|XPHB} action to ring it and summon a {@creature Terran Magen|NF} (see appendix B). The magen appears in an unoccupied space you choose within 30 feet of yourself, understands your languages, obeys your commands, and takes its turn immediately after you on your {@variantrule Initiative|XPHB} count. The magen disappears after 1 hour, when it dies, or when you dismiss it as a {@variantrule Bonus Action|XPHB}. The bell can't be used this way again for {@dice 1d6} days.",
+				"While holding this brass handbell, you can take a {@action Magic|XPHB} action to ring it and summon a {@creature Terran Magen|NF} (see appendix B). The magen appears in an unoccupied space you choose within 30 feet of yourself, understands your languages, obeys your commands, and takes its turn immediately after you on your {@variantrule Initiative|XPHB} count. The magen disappears after 1 hour, when it dies, or when you dismiss it as a {@variantrule Bonus Action|XPHB}.",
+				"The bell can't be used this way again for {@dice 1d6} days.",
 				{
 					"type": "entries",
 					"name": "Berserk Magen",
@@ -41488,10 +41492,11 @@
 						"mode": "appendArr",
 						"items": {
 							"type": "entries",
-							"name": "Many",
+							"name": "Many: Once per Dawn",
 							"entries": [
 								"Overlapping ornamental keyholes adorn the weapon's hilt in a dizzying pattern. Your bonus to attack rolls and damage rolls made with this magic weapon increases to +3. When you transform the weapon, you can now also transform it into a {@item Battleaxe|XPHB}, {@item Longsword|XPHB}, {@item Rapier|XPHB}, {@item Scimitar|XPHB}, or {@item Warhammer|XPHB}.",
-								"Additionally, when you miss with an attack roll using this weapon, you can reroll the attack, potentially turning the miss into a hit. You must use the second roll. Once used, this property can't be used again until the next dawn."
+								"Additionally, when you miss with an attack roll using this weapon, you can reroll the attack, potentially turning the miss into a hit. You must use the second roll.",
+								"Once used, this property can't be used again until the next dawn."
 							]
 						}
 					}
@@ -41649,21 +41654,21 @@
 				"This magic {@item Quarterstaff|XPHB} has 4 charges and regains {@dice 1d4} expended charges daily at dawn. It has the following additional properties.",
 				{
 					"type": "entries",
-					"name": "Searing Smite",
+					"name": "Searing Smite (2 Charges)",
 					"entries": [
 						"You can expend 2 charges to cast the {@spell Searing Smite|XPHB} spell ({@dc 13})."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Throw",
+					"name": "Throw (1 Charge)",
 					"entries": [
 						"When you take the {@action Attack|XPHB} action, you can expend 1 charge to imbue the staff with magical velocity. Until the end of your next turn, the staff gains the {@itemProperty T|XPHB|Thrown} property, with a normal range of 20 feet and a long range of 60 feet, and immediately after you make a ranged attack with the weapon, it flies back to your hand."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Trip",
+					"name": "Trip (1 Charge)",
 					"entries": [
 						"When you make a melee attack with this weapon, you can expend 1 charge to give yourself {@variantrule Advantage|XPHB} on the attack roll. If the attack hits, the target makes a {@dc 13} Strength saving throw. On a failed save, the target has the {@condition Prone|XPHB} condition."
 					]
@@ -42198,7 +42203,14 @@
 			"rechargeAmount": "{@dice 1d4}",
 			"charges": 5,
 			"entries": [
-				"The medallion has 5 charges. While wearing it, you can expend 1 charge to cast {@spell Detect Thoughts|XPHB} (save {@dc 13}) from it. The medallion regains {@dice 1d4} expended charges daily at dawn."
+				"The medallion has 5 charges. While wearing it, you can expend 1 charge to cast {@spell Detect Thoughts|XPHB} (save {@dc 13}) from it.",
+				{
+					"type": "entries",
+					"name": "Regaining Charges",
+					"entries": [
+						"The medallion regains {@dice 1d4} expended charges daily at dawn."
+					]
+				}
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce"
@@ -43610,9 +43622,10 @@
 			"source": "NF",
 			"rarity": "common",
 			"wondrous": true,
+			"charges": 3,
 			"entries": [
-				"Three small, crystal beads made from a decommissioned mythallar are strung on this leather bracelet. As a {@action Magic|XPHB} action, you can pluck one bead from the bracelet to gain {@variantrule Advantage|XPHB} on Strength ({@skill Athletics|XPHB}) checks for 1 minute.",
-				"A bead disappears immediately after it's plucked. Once all three beads have been plucked, the bracelet loses its magic."
+				"Three small, crystal beads made from a decommissioned mythallar are strung on this leather bracelet. As a {@action Magic|XPHB} action, you can pluck one bead from the bracelet to gain {@variantrule Advantage|XPHB} on Strength ({@skill Athletics|XPHB}) checks for 1 minute. A bead disappears immediately after it's plucked.",
+				"Once all three beads have been plucked, the bracelet loses its magic."
 			]
 		},
 		{
@@ -43665,7 +43678,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Named Target",
+					"name": "Named Target: Once per Dawn",
 					"entries": [
 						"When you hit a creature with an attack roll using this weapon, you can say or sign the target's name clearly and emphatically to turn the hit into a {@variantrule Critical Hit|XPHB}.",
 						"Once this property is used, it can't be used again until the next dawn."
@@ -44158,7 +44171,8 @@
 			"weight": 1,
 			"entries": [
 				"This necklace has {@dice 1d4 + 2} magic beads made from aquamarine, black pearl, or topaz. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.",
-				"Six types of magic beads exist. The DM decides the type of each bead on the necklace or determines it randomly by rolling on the table below. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a {@variantrule Bonus Action|XPHB} (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.",
+				"Six types of magic beads exist. The DM decides the type of each bead on the necklace or determines it randomly by rolling on the table below. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a {@variantrule Bonus Action|XPHB} (using your spell save DC if a save is necessary).",
+				"Once a magic bead's spell is cast, that bead can't be used again until the next dawn.",
 				{
 					"type": "table",
 					"colStyles": [
@@ -44228,6 +44242,8 @@
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
+			"detail1": "azurite",
+			"detail2": "{@creature Giant Octopus|XMM}",
 			"reqAttune": "by a Spellcaster",
 			"reqAttuneTags": [
 				{
@@ -44235,25 +44251,9 @@
 				}
 			],
 			"wondrous": true,
+			"hasRefs": true,
 			"entries": [
-				"This bejeweled necklace is set with azurite and comes with a matching charm that can be worn by your familiar.",
-				{
-					"type": "entries",
-					"name": "Familiar",
-					"entries": [
-						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it.",
-						"Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Beast Transformation",
-					"entries": [
-						"While your familiar is within 60 feet of you, you can take a {@action Magic|XPHB} action to activate the necklace. Your familiar shape-shifts into a {@creature Giant Octopus|XMM} for 10 minutes.",
-						"While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, {@variantrule Hit Points|XPHB}, and {@variantrule Hit Point Dice|XPHB}. Equipment the familiar is wearing or carrying doesn't change size or shape to match the Beast form, and any equipment that the Beast form can't wear or carry falls to the ground.",
-						"Your familiar gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the {@variantrule Hit Points|XPHB} of the Beast form. These {@variantrule Temporary Hit Points|XPHB} vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no {@variantrule Temporary Hit Points|XPHB} left."
-					]
-				}
+				"{#itemEntry Necklace of the Beastly Familiar|AU}"
 			],
 			"attachedSpells": {
 				"daily": {
@@ -44272,6 +44272,8 @@
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
+			"detail1": "chrysoprase",
+			"detail2": "{@creature Giant Scorpion|XMM}",
 			"reqAttune": "by a Spellcaster",
 			"reqAttuneTags": [
 				{
@@ -44279,25 +44281,9 @@
 				}
 			],
 			"wondrous": true,
+			"hasRefs": true,
 			"entries": [
-				"This bejeweled necklace is set with chrysoprase and comes with a matching charm that can be worn by your familiar.",
-				{
-					"type": "entries",
-					"name": "Familiar",
-					"entries": [
-						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it.",
-						"Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Beast Transformation",
-					"entries": [
-						"While your familiar is within 60 feet of you, you can take a {@action Magic|XPHB} action to activate the necklace. Your familiar shape-shifts into a {@creature Giant Scorpion|XMM} for 10 minutes.",
-						"While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, {@variantrule Hit Points|XPHB}, and {@variantrule Hit Point Dice|XPHB}. Equipment the familiar is wearing or carrying doesn't change size or shape to match the Beast form, and any equipment that the Beast form can't wear or carry falls to the ground.",
-						"Your familiar gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the {@variantrule Hit Points|XPHB} of the Beast form. These {@variantrule Temporary Hit Points|XPHB} vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no {@variantrule Temporary Hit Points|XPHB} left."
-					]
-				}
+				"{#itemEntry Necklace of the Beastly Familiar|AU}"
 			],
 			"attachedSpells": {
 				"daily": {
@@ -44316,6 +44302,8 @@
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
+			"detail1": "zircon",
+			"detail2": "{@creature Hippopotamus|XMM}",
 			"reqAttune": "by a Spellcaster",
 			"reqAttuneTags": [
 				{
@@ -44323,25 +44311,9 @@
 				}
 			],
 			"wondrous": true,
+			"hasRefs": true,
 			"entries": [
-				"This bejeweled necklace is set with zircon and comes with a matching charm that can be worn by your familiar.",
-				{
-					"type": "entries",
-					"name": "Familiar",
-					"entries": [
-						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it.",
-						"Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Beast Transformation",
-					"entries": [
-						"While your familiar is within 60 feet of you, you can take a {@action Magic|XPHB} action to activate the necklace. Your familiar shape-shifts into a {@creature Hippopotamus|XMM} for 10 minutes.",
-						"While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, {@variantrule Hit Points|XPHB}, and {@variantrule Hit Point Dice|XPHB}. Equipment the familiar is wearing or carrying doesn't change size or shape to match the Beast form, and any equipment that the Beast form can't wear or carry falls to the ground.",
-						"Your familiar gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the {@variantrule Hit Points|XPHB} of the Beast form. These {@variantrule Temporary Hit Points|XPHB} vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no {@variantrule Temporary Hit Points|XPHB} left."
-					]
-				}
+				"{#itemEntry Necklace of the Beastly Familiar|AU}"
 			],
 			"attachedSpells": {
 				"daily": {
@@ -44360,6 +44332,8 @@
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
+			"detail1": "topaz",
+			"deetail2": "{@creature Mammoth|XMM}",
 			"reqAttune": "by a Spellcaster",
 			"reqAttuneTags": [
 				{
@@ -44367,25 +44341,9 @@
 				}
 			],
 			"wondrous": true,
+			"hasRefs": true,
 			"entries": [
-				"This bejeweled necklace is set with topaz and comes with a matching charm that can be worn by your familiar.",
-				{
-					"type": "entries",
-					"name": "Familiar",
-					"entries": [
-						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it.",
-						"Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Beast Transformation",
-					"entries": [
-						"While your familiar is within 60 feet of you, you can take a {@action Magic|XPHB} action to activate the necklace. Your familiar shape-shifts into a {@creature Mammoth|XMM} for 10 minutes.",
-						"While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, {@variantrule Hit Points|XPHB}, and {@variantrule Hit Point Dice|XPHB}. Equipment the familiar is wearing or carrying doesn't change size or shape to match the Beast form, and any equipment that the Beast form can't wear or carry falls to the ground.",
-						"Your familiar gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the {@variantrule Hit Points|XPHB} of the Beast form. These {@variantrule Temporary Hit Points|XPHB} vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no {@variantrule Temporary Hit Points|XPHB} left."
-					]
-				}
+				"{#itemEntry Necklace of the Beastly Familiar|AU}"
 			],
 			"attachedSpells": {
 				"daily": {
@@ -44404,6 +44362,8 @@
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
+			"detail1": "fire opal",
+			"detail2": "{@creature Tyrannosaurus Rex|XMM}",
 			"reqAttune": "by a Spellcaster",
 			"reqAttuneTags": [
 				{
@@ -44411,25 +44371,9 @@
 				}
 			],
 			"wondrous": true,
+			"hasRefs": true,
 			"entries": [
-				"This bejeweled necklace is set with fire opal and comes with a matching charm that can be worn by your familiar.",
-				{
-					"type": "entries",
-					"name": "Familiar",
-					"entries": [
-						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it.",
-						"Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Beast Transformation",
-					"entries": [
-						"While your familiar is within 60 feet of you, you can take a {@action Magic|XPHB} action to activate the necklace. Your familiar shape-shifts into a {@creature Tyrannosaurus Rex|XMM} for 10 minutes.",
-						"While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, {@variantrule Hit Points|XPHB}, and {@variantrule Hit Point Dice|XPHB}. Equipment the familiar is wearing or carrying doesn't change size or shape to match the Beast form, and any equipment that the Beast form can't wear or carry falls to the ground.",
-						"Your familiar gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the {@variantrule Hit Points|XPHB} of the Beast form. These {@variantrule Temporary Hit Points|XPHB} vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no {@variantrule Temporary Hit Points|XPHB} left."
-					]
-				}
+				"{#itemEntry Necklace of the Beastly Familiar|AU}"
 			],
 			"attachedSpells": {
 				"daily": {
@@ -45765,8 +45709,12 @@
 		},
 		{
 			"name": "Orb of Direction",
+			"group": [
+				"Arcane Focus"
+			],
 			"source": "XDMG",
 			"page": 283,
+			"type": "SCF|XPHB",
 			"scfType": "arcane",
 			"rarity": "common",
 			"wondrous": true,
@@ -47368,7 +47316,7 @@
 				"You have {@variantrule Advantage|XPHB} on saving throws to avoid or end the {@condition Poisoned|XPHB} condition while you wear this pendant.",
 				{
 					"type": "entries",
-					"name": "Healing",
+					"name": "Healing: Once per Dawn",
 					"entries": [
 						"While wearing this pendant, you can take a {@action Magic|XPHB} action to regain {@dice 2d4 + 2} {@variantrule Hit Points|XPHB}.",
 						"Once used, this property can't be used again until the next dawn."
@@ -47419,6 +47367,9 @@
 			"basicRules2024": true,
 			"immune": [
 				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
 			],
 			"rarity": "rare",
 			"reqAttune": true,
@@ -47477,9 +47428,9 @@
 				"While wearing this pendant, you gain the following benefits.",
 				{
 					"type": "entries",
-					"name": "Life Preservation",
+					"name": "Life Preservation: Once per Hour",
 					"entries": [
-						"Whenever you make a {@variantrule Death Saving Throw|XPHB}, you can change a roll of 9 or lower to a 10, turning a failed save into a successful one."
+						"Whenever you make a {@variantrule Death Saving Throw|XPHB}, you can change a roll of 9 or lower to a 10, turning a failed save into a successful one. Once you used this benefit, you must wait 1 hour before you can use it again."
 					]
 				},
 				{
@@ -47784,7 +47735,8 @@
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"These pipes have 3 charges and regain {@dice 1d3} expended charges daily at dawn. You can take a {@action Magic|XPHB} action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature of your choice within 30 feet of you must succeed on a {@dc 15} Wisdom saving throw or have the {@condition Frightened|XPHB} condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these pipes for 24 hours."
+				"These pipes have 3 charges and regain {@dice 1d3} expended charges daily at dawn.",
+				"You can take a {@action Magic|XPHB} action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature of your choice within 30 feet of you must succeed on a {@dc 15} Wisdom saving throw or have the {@condition Frightened|XPHB} condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these pipes for 24 hours."
 			],
 			"classFeatures": [
 				"replicate magic item|artificer|efa|2|efa"
@@ -47860,8 +47812,14 @@
 			"charges": 3,
 			"entries": [
 				"While these pipes are on your person, ordinary {@creature rat|XMM|rats} and {@creature giant rat|XMM|giant rats} are {@variantrule Indifferent [Attitude]|XPHB|Indifferent} toward you and won't attack you unless you threaten or harm them.",
-				"The pipes have 3 charges and regain {@dice 1d3} expended charges daily at dawn. If you play the pipes as a {@action Magic|XPHB} action, you can take a {@variantrule Bonus Action|XPHB} to expend 1 to 3 charges, calling forth one {@creature Swarm of Rats|XMM} with each expended charge if enough rats are within half a mile of you to be called in this fashion (as determined by the DM). If there aren't enough rats to form a swarm, the charge is wasted. Called swarms move toward the music by the shortest available route but aren't under your control otherwise.",
-				"Whenever a Swarm of Rats that isn't under another creature's control comes within 30 feet of you while you are playing the pipes, the swarm makes a {@dc 15} Wisdom saving throw. On a successful save, the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours. On a failed save, the swarm is swayed by the pipes' music and becomes {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies for as long as you continue to play the pipes each round as a {@action Magic|XPHB} action. A {@variantrule Friendly [Attitude]|XPHB|Friendly} swarm obeys your commands. If you issue no commands to a {@variantrule Friendly [Attitude]|XPHB|Friendly} swarm, it defends itself but otherwise takes no actions. If a {@variantrule Friendly [Attitude]|XPHB|Friendly} swarm starts its turn more than 30 feet away from you, your control over that swarm ends, and the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours."
+				{
+					"type": "entries",
+					"name": "Charges",
+					"entries": [
+						"The pipes have 3 charges and regain {@dice 1d3} expended charges daily at dawn. If you play the pipes as a {@action Magic|XPHB} action, you can take a {@variantrule Bonus Action|XPHB} to expend 1 to 3 charges, calling forth one {@creature Swarm of Rats|XMM} with each expended charge if enough rats are within half a mile of you to be called in this fashion (as determined by the DM). If there aren't enough rats to form a swarm, the charge is wasted. Called swarms move toward the music by the shortest available route but aren't under your control otherwise.",
+						"Whenever a Swarm of Rats that isn't under another creature's control comes within 30 feet of you while you are playing the pipes, the swarm makes a {@dc 15} Wisdom saving throw. On a successful save, the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours. On a failed save, the swarm is swayed by the pipes' music and becomes {@variantrule Friendly [Attitude]|XPHB|Friendly} to you and your allies for as long as you continue to play the pipes each round as a {@action Magic|XPHB} action. A {@variantrule Friendly [Attitude]|XPHB|Friendly} swarm obeys your commands. If you issue no commands to a {@variantrule Friendly [Attitude]|XPHB|Friendly} swarm, it defends itself but otherwise takes no actions. If a {@variantrule Friendly [Attitude]|XPHB|Friendly} swarm starts its turn more than 30 feet away from you, your control over that swarm ends, and the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours."
+					]
+				}
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce"
@@ -48043,12 +48001,18 @@
 			"entries": [
 				"The pages of this book are bound in fiend hide, and its cover is embossed with a diagram of the Great Wheel of the multiverse. When found, the book contains the following spells: {@spell banishment}, {@spell find familiar}, {@spell gate}, {@spell magic circle}, {@spell planar binding}, and {@spell summon elemental|TCE}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
-				"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
-					"type": "list",
-					"items": [
-						"If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the conjuration school.",
-						"When you cast a conjuration spell that summons or creates one creature, you can expend 1 charge to grant that creature advantage on attack rolls for 1 minute."
+					"type": "entries",
+					"name": "Charges",
+					"entries": [
+						"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
+						{
+							"type": "list",
+							"items": [
+								"{@i (1 Charge.)} If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the conjuration school.",
+								"{@i (1 Charge.)} When you cast a conjuration spell that summons or creates one creature, you can expend 1 charge to grant that creature advantage on attack rolls for 1 minute."
+							]
+						}
 					]
 				}
 			],
@@ -48110,12 +48074,15 @@
 			"ac": 18,
 			"strength": "15",
 			"stealth": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
+				"Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.",
 				"This gleaming set of silver-and-gold plate armor never tarnishes.",
 				"While wearing this armor, you can use a bonus action to summon the spirit of a warrior to your aid. The spirit's corporeal form manifests in an unoccupied space of your choice within 30 feet of you, and it uses the {@creature knight} stat block. The spirit disappears when it drops to 0 hit points or after 1 minute, whichever comes first.",
 				"The spirit is an ally to you and your companions. In combat, the spirit shares your initiative count but takes its turn immediately after yours. The spirit obeys your commands (no action required by you); if you don't issue any commands, the spirit takes the {@action Dodge} action and uses its movement to avoid danger.",
-				"Once this bonus action is used, it can't be used again until the next dawn.",
-				"Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."
+				"Once this bonus action is used, it can't be used again until the next dawn."
 			]
 		},
 		{
@@ -48218,29 +48185,31 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"bonusAc": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 3,
+			"charges": 3,
 			"entries": [
 				"This scarf is made of sturdy cloth and covered in platinum-colored scales.",
-				"As an action, you can pull a scale from the scarf and speak a command word. When you do so, choose one of the following effects:",
+				"As an action, you can pull a scale from the scarf and speak a command word. You can pull a total of 3 scales off of this scarf, and then you are unable to remove any more until the next dawn, when all missing scales grow back. If you do not speak a command word, it will disappear after 1 minute as is considered expended. When you speak a command word, choose one of the following effects:",
 				{
 					"type": "entries",
-					"name": "Breath of Life",
+					"name": "Breath of Life (1 Scale)",
 					"entries": [
 						"The scale disappears, and you or a creature you touch regains {@dice 10d4} hit points."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Platinum Shield",
+					"name": "Platinum Shield (1 Scale)",
 					"entries": [
 						"For 1 hour or until you dismiss it (no action required), the scale becomes a {@item +1 shield}, which you or another creature can use. A creature wielding the shield has immunity to radiant damage."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Radiant Hammer",
+					"name": "Radiant Hammer (1 Scale)",
 					"entries": [
-						"For 1 hour or until you dismiss it (no action required), the scale becomes a magic {@item light hammer|phb}, which you or another creature can use. The weapon deals {@damage 2d4} radiant damage, instead of the bludgeoning damage normal for a light hammer. It deals an extra {@damage 2d4} radiant damage to chromatic dragons.",
-						"Once three scales have been pulled from the scarf, no more scales can be removed until the next dawn, when all the missing scales grow back. If you pull off a scale but don't speak a command word, it disappears after 1 minute."
+						"For 1 hour or until you dismiss it (no action required), the scale becomes a magic {@item light hammer|phb}, which you or another creature can use. This magic weapon grants proficiency even if you or another creature does not have it. The weapon deals {@damage 2d4} radiant damage, instead of the bludgeoning damage normal for a light hammer. It deals an extra {@damage 2d4} radiant damage to chromatic dragons."
 					]
 				}
 			]
@@ -52067,12 +52036,18 @@
 			"entries": [
 				"This leather-bound spellbook is reinforced with iron and silver fittings and an iron lock ({@dc 20} to open). As an action, you can touch the book's cover and cause it to lock as if you cast {@spell arcane lock} on it. When found, the book contains the following spells: {@spell arcane lock}, {@spell dispel magic}, {@spell globe of invulnerability}, {@spell glyph of warding}, {@spell Mordenkainen's private sanctum}, {@spell protection from evil and good||protection from evil}, and {@spell symbol}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
-				"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
-					"type": "list",
-					"items": [
-						"If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the abjuration school.",
-						"When you cast an abjuration spell, you can expend 1 charge to grant a creature you can see within 30 feet of you {@dice 2d10} temporary hit points."
+					"type": "entries",
+					"name": "Charges",
+					"entries": [
+						"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
+						{
+							"type": "list",
+							"items": [
+								"{@i (1 Charge.)} If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the abjuration school.",
+								"{@i (1 Charge.)} When you cast an abjuration spell, you can expend 1 charge to grant a creature you can see within 30 feet of you {@dice 2d10} temporary hit points."
+							]
+						}
 					]
 				}
 			],
@@ -52824,6 +52799,9 @@
 			"dmg2": "1d8",
 			"bonusWeapon": "+2",
 			"bonusAc": "+5",
+			"recharge": "restShort",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"staff": true,
 			"entries": [
 				"You have a +2 bonus to attack rolls and damage rolls made with this magic weapon.",
@@ -52839,9 +52817,10 @@
 				},
 				{
 					"type": "entries",
-					"name": "Attack Deflection (Quarterstaff Form Only)",
+					"name": "Attack Deflection (Quarterstaff Form Only): Once per Rest",
 					"entries": [
-						"When you are hit by an attack while holding the weapon, you can take a {@variantrule Reaction|XPHB} to twirl the weapon around you, gaining a +5 bonus to your {@variantrule Armor Class|XPHB} against the triggering attack, potentially causing the attack to miss you. You can't use this property again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+						"When you are hit by an attack while holding the weapon, you can take a {@variantrule Reaction|XPHB} to twirl the weapon around you, gaining a +5 bonus to your {@variantrule Armor Class|XPHB} against the triggering attack, potentially causing the attack to miss you.",
+						"You can't use this property again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
 					]
 				},
 				{
@@ -53054,7 +53033,8 @@
 						"There is no limit on how long the corpse has been dead, as long as there are still physical remenants of their previous body remaining"
 					]
 				},
-				"When you write down a question with this quill, the quill will fly out of your hand to write down the corpse's response on the same sheet of {@item Parchment|XPHB}. Once used, this property of the quill can't be used again until the next dawn."
+				"When you write down a question with this quill, the quill will fly out of your hand to write down the corpse's response on the same sheet of {@item Parchment|XPHB}.",
+				"Once used, this property of the quill can't be used again until the next dawn."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -53894,9 +53874,12 @@
 			],
 			"wondrous": true,
 			"bonusSpellSaveDc": "+2",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
-				"While holding this concertina, you gain a +2 bonus to the saving throw DC of your bard spells.",
-				"As an action, you can use the concertina to cast {@spell Otto's irresistible dance} from the item. This property of the concertina can't be used again until the next dawn."
+				"While holding this concertina, you gain a +2 bonus to the saving throw DC of your bard spells. As an action, you can use the concertina to cast {@spell Otto's irresistible dance} from the item.",
+				"This property of the concertina can't be used again until the next dawn."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -54497,30 +54480,14 @@
 					"fly": "walk"
 				}
 			},
+			"detail1": "(air)",
+			"detail2": "Air",
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d4 + 1}",
 			"charges": 5,
+			"hasRefs": true,
 			"entries": [
-				"The Ring of Elemental Command (air) is linked to the Elemental Plane of Air. Every Ring of Elemental Command has the following two properties:",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Elemental Bane",
-							"entries": [
-								"While wearing the ring, you have {@variantrule Advantage|XPHB} on attack rolls against Elementals and they have {@variantrule Disadvantage|XPHB} on attack rolls against you."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Elemental Compulsion",
-							"entries": [
-								"While wearing the ring, you can take a {@action Magic|XPHB} action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a {@dc 18} Wisdom saving throw. On a failed save, the Elemental has the {@condition Charmed|XPHB} condition until the start your next turn, and you determine what it does with its move and action on its next turn."
-							]
-						}
-					]
-				},
+				"{#itemEntry Ring of Elemental Command|XDMG}",
 				{
 					"type": "entries",
 					"name": "Elemental Focus",
@@ -54534,7 +54501,7 @@
 									"type": "item",
 									"name": "Air",
 									"entries": [
-										"You know Auran, you have {@variantrule Resistance|XPHB} to Lightning damage, and you have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB} and can hover."
+										"You know Auran, you have {@variantrule Resistance|XPHB} to Lightning damage, and you have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB} and can hover. You can also cast {@spell Feather Fall|XPHB} at will."
 									]
 								}
 							]
@@ -54543,17 +54510,25 @@
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting",
+					"name": "Spellcasting (Charges)",
 					"entries": [
-						"The ring has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list: {@spell Chain Lightning|XPHB} (3 charges), {@spell Feather Fall|XPHB} (0 charges), {@spell Gust of Wind|XPHB} (2 charges), {@spell Wind Wall|XPHB} (1 charge)"
+						"The ring has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list:",
+						{
+							"type": "list",
+							"items": [
+								"{@spell Chain Lightning|XPHB} (3 charges)",
+								"{@spell Gust of Wind|XPHB} (2 charges)",
+								"{@spell Wind Wall|XPHB} (1 charge)"
+							]
+						}
 					]
 				}
 			],
 			"attachedSpells": {
+				"will": [
+					"feather fall|xphb"
+				],
 				"charges": {
-					"0": [
-						"feather fall|xphb"
-					],
 					"1": [
 						"wind wall|xphb"
 					],
@@ -54580,33 +54555,17 @@
 			"resist": [
 				"acid"
 			],
+			"detail1": "(earth)",
+			"detail2": "Earth",
 			"rarity": "legendary",
 			"reqAttune": true,
 			"grantsLanguage": true,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d4 + 1}",
 			"charges": 5,
+			"hasRefs": true,
 			"entries": [
-				"The Ring of Elemental Command (earth) is linked to the Elemental Plane of Earth. Every Ring of Elemental Command has the following two properties:",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Elemental Bane",
-							"entries": [
-								"While wearing the ring, you have {@variantrule Advantage|XPHB} on attack rolls against Elementals and they have {@variantrule Disadvantage|XPHB} on attack rolls against you."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Elemental Compulsion",
-							"entries": [
-								"While wearing the ring, you can take a {@action Magic|XPHB} action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a {@dc 18} Wisdom saving throw. On a failed save, the Elemental has the {@condition Charmed|XPHB} condition until the start your next turn, and you determine what it does with its move and action on its next turn."
-							]
-						}
-					]
-				},
+				"{#itemEntry Ring of Elemental Command|XDMG}",
 				{
 					"type": "entries",
 					"name": "Elemental Focus",
@@ -54629,9 +54588,18 @@
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting",
+					"name": "Spellcasting (Charges)",
 					"entries": [
-						"The ring has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list: {@spell Earthquake|XPHB} (5 charges), {@spell Stone Shape|XPHB} (2 charges), {@spell Stoneskin|XPHB} (3 charges), {@spell Wall of Stone|XPHB} (3 charges)"
+						"The ring has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list:",
+						{
+							"type": "list",
+							"items": [
+								"{@spell Earthquake|XPHB} (5 charges)",
+								"{@spell Stone Shape|XPHB} (2 charges)",
+								"{@spell Stoneskin|XPHB} (3 charges)",
+								"{@spell Wall of Stone|XPHB} (3 charges)"
+							]
+						}
 					]
 				}
 			],
@@ -54666,33 +54634,17 @@
 			"resist": [
 				"fire"
 			],
+			"detail1": "(fire)",
+			"detail2": "Fire",
 			"rarity": "legendary",
 			"reqAttune": true,
 			"grantsLanguage": true,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d4 + 1}",
 			"charges": 5,
+			"hasRefs": true,
 			"entries": [
-				"The Ring of Elemental Command (fire) is linked to the Elemental Plane of Fire. Every Ring of Elemental Command has the following two properties:",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Elemental Bane",
-							"entries": [
-								"While wearing the ring, you have {@variantrule Advantage|XPHB} on attack rolls against Elementals and they have {@variantrule Disadvantage|XPHB} on attack rolls against you."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Elemental Compulsion",
-							"entries": [
-								"While wearing the ring, you can take a {@action Magic|XPHB} action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a {@dc 18} Wisdom saving throw. On a failed save, the Elemental has the {@condition Charmed|XPHB} condition until the start your next turn, and you determine what it does with its move and action on its next turn."
-							]
-						}
-					]
-				},
+				"{#itemEntry Ring of Elemental Command|XDMG}",
 				{
 					"type": "entries",
 					"name": "Elemental Focus",
@@ -54715,9 +54667,18 @@
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting",
+					"name": "Spellcasting (Charges)",
 					"entries": [
-						"The ring has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list: {@spell Burning Hands|XPHB} (1 charge), {@spell Fireball|XPHB} (2 charges), {@spell Fire Storm|XPHB} (4 charges), {@spell Wall of Fire|XPHB} (3 charges)"
+						"The ring has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list:",
+						{
+							"type": "list",
+							"items": [
+								"{@spell Burning Hands|XPHB} (1 charge)",
+								"{@spell Fireball|XPHB} (2 charges)",
+								"{@spell Fire Storm|XPHB} (4 charges)",
+								"{@spell Wall of Fire|XPHB} (3 charges)"
+							]
+						}
 					]
 				}
 			],
@@ -54748,33 +54709,17 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "RG|XDMG",
+			"detail1": "(water)",
+			"detail2": "Water",
 			"rarity": "legendary",
 			"reqAttune": true,
 			"grantsLanguage": true,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d4 + 1}",
 			"charges": 5,
+			"hasRefs": true,
 			"entries": [
-				"The Ring of Elemental Command (water) is linked to the Elemental Plane of Water. Every Ring of Elemental Command has the following two properties:",
-				{
-					"type": "list",
-					"items": [
-						{
-							"type": "item",
-							"name": "Elemental Bane",
-							"entries": [
-								"While wearing the ring, you have {@variantrule Advantage|XPHB} on attack rolls against Elementals and they have {@variantrule Disadvantage|XPHB} on attack rolls against you."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Elemental Compulsion",
-							"entries": [
-								"While wearing the ring, you can take a {@action Magic|XPHB} action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a {@dc 18} Wisdom saving throw. On a failed save, the Elemental has the {@condition Charmed|XPHB} condition until the start your next turn, and you determine what it does with its move and action on its next turn."
-							]
-						}
-					]
-				},
+				"{#itemEntry Ring of Elemental Command|XDMG}",
 				{
 					"type": "entries",
 					"name": "Elemental Focus",
@@ -54797,9 +54742,19 @@
 				},
 				{
 					"type": "entries",
-					"name": "Spellcasting",
+					"name": "Spellcasting (Charges)",
 					"entries": [
-						"The ring has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list: {@spell Create or Destroy Water|XPHB} (1 charge), {@spell Ice Storm|XPHB} (2 charges), {@spell Tsunami|XPHB} (5 charges), {@spell Wall of Ice|XPHB} (3 charges), {@spell Water Walk|XPHB} (2 charges)"
+						"The ring has 5 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While wearing the ring, you can cast a spell from it. A spell cast from the ring has a save DC of 18. Choose the spell from the following list:",
+						{
+							"type": "list",
+							"item": [
+								"{@spell Create or Destroy Water|XPHB} (1 charge)",
+								"{@spell Ice Storm|XPHB} (2 charges)",
+								"{@spell Tsunami|XPHB} (5 charges)",
+								"{@spell Wall of Ice|XPHB} (3 charges)",
+								"{@spell Water Walk|XPHB} (2 charges)"
+							]
+						}
 					]
 				}
 			],
@@ -54869,7 +54824,8 @@
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. When you fail a Dexterity saving throw while wearing the ring, you can take a {@variantrule Reaction|XPHB} to expend 1 charge to succeed on that save instead."
+				"This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn.",
+				"When you fail a Dexterity saving throw while wearing the ring, you can take a {@variantrule Reaction|XPHB} to expend 1 charge to succeed on that save instead."
 			],
 			"lootTables": [
 				"Implements - Rare|XDMG"
@@ -55403,7 +55359,8 @@
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This band of iron resembles a skull and is cold to the touch. It has 3 charges and regains {@dice 1d3} expended charges daily at dawn. As an action while wearing the ring, you can expend 1 of its charges to cast the {@spell fog cloud} spell from it, with the following changes: the cloud is centered on you when it first appears, and the spell lasts for 1 minute (no {@status concentration} required)."
+				"This band of iron resembles a skull and is cold to the touch.",
+				"It has 3 charges and regains {@dice 1d3} expended charges daily at dawn. As an action while wearing the ring, you can expend 1 of its charges to cast the {@spell fog cloud} spell from it, with the following changes: the cloud is centered on you when it first appears, and the spell lasts for 1 minute (no {@status concentration} required)."
 			],
 			"attachedSpells": {
 				"charges": {
@@ -55805,14 +55762,14 @@
 				"The ring has 6 charges and regains {@dice 1d6} expended charges daily at dawn. You can expend its charges to use the properties below.",
 				{
 					"type": "entries",
-					"name": "Faerie Fire",
+					"name": "Faerie Fire (1 Charge)",
 					"entries": [
 						"You can expend 1 charge to cast {@spell Faerie Fire|XPHB} from the ring."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Lightning Spheres",
+					"name": "Lightning Spheres (2 Charges)",
 					"entries": [
 						"You can expend 2 charges as a {@action Magic|XPHB} action to create up to four 3-foot-diameter spheres of lightning.",
 						"Each sphere appears in an unoccupied space you can see within 120 feet of yourself. The spheres last as long as you maintain {@status Concentration|XPHB}, up to 1 minute. Each sphere sheds {@variantrule Dim Light|XPHB} in a 30-foot radius.",
@@ -55850,7 +55807,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Shooting Stars",
+					"name": "Shooting Stars (Varies)",
 					"entries": [
 						"You can expend 1 to 3 charges as a {@action Magic|XPHB} action. For every charge you expend, you launch a glowing mote of light from the ring at a point you can see within 60 feet of yourself. Each creature in a 15-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} originating from that point is showered in sparks and makes a {@dc 15} Dexterity saving throw, taking {@damage 5d4} Radiant damage on a failed save or half as much damage on a successful one."
 					]
@@ -56078,7 +56035,8 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"entries": [
-				"If you die while wearing this gray crystal ring, you vanish and reappear in an unoccupied space within 5 feet of the space you left (or the nearest unoccupied space). You have a number of hit points equal to {@dice 3d6} + your Constitution modifier. If your hit point maximum is lower than the number of hit points you regain, your hit point maximum rises to a similar amount. If you have any levels of {@condition exhaustion}, reduce your level of {@condition exhaustion} by 1. Once the ring is used, it turns to dust and is destroyed."
+				"If you die while wearing this gray crystal ring, you vanish and reappear in an unoccupied space within 5 feet of the space you left (or the nearest unoccupied space). You have a number of hit points equal to {@dice 3d6} + your Constitution modifier. If your hit point maximum is lower than the number of hit points you regain, your hit point maximum rises to a similar amount. If you have any levels of {@condition exhaustion}, reduce your level of {@condition exhaustion} by 1.",
+				"Once the ring is used, it turns to dust and is destroyed."
 			]
 		},
 		{
@@ -56089,7 +56047,8 @@
 			"rarity": "legendary",
 			"reqAttune": true,
 			"entries": [
-				"You gain the ability to channel energy from allies to cast spells, even if you normally can't. When an ally within 60 feet of you casts a spell that you normally can't cast and that requires 10 gp or fewer in material components, you may use a reaction to cast that spell. When cast in this way, the spell is cast using your ally's spellcasting ability, spell save DC, and spell attack bonus, as needed. You decide this cloned spell's target, as specified in the spell's description, and the spell originates from you. After you use this ability, your ally can't cast this spell again until they finish a long rest."
+				"You gain the ability to channel energy from allies to cast spells, even if you normally can't. When an ally within 60 feet of you casts a spell that you normally can't cast and that requires 10 gp or fewer in material components, you may use a reaction to cast that spell. When cast in this way, the spell is cast using your ally's spellcasting ability, spell save DC, and spell attack bonus, as needed. You decide this cloned spell's target, as specified in the spell's description, and the spell originates from you.",
+				"After you use this ability, your ally can't cast this spell again until they finish a long rest."
 			]
 		},
 		{
@@ -56152,7 +56111,8 @@
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This ring has 3 charges and regains {@dice 1d3} expended charges daily at dawn. While wearing the ring, you can take a {@action Magic|XPHB} action to expend 1 to 3 charges to make a ranged spell attack against one creature you can see within 60 feet of yourself. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes {@damage 2d10} Force damage and is pushed 5 feet away from you.",
+				"This ring has 3 charges and regains {@dice 1d3} expended charges daily at dawn.",
+				"While wearing the ring, you can take a {@action Magic|XPHB} action to expend 1 to 3 charges to make a ranged spell attack against one creature you can see within 60 feet of yourself. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes {@damage 2d10} Force damage and is pushed 5 feet away from you.",
 				"Alternatively, you can expend 1 to 3 of the ring's charges as a {@action Magic|XPHB} action to try to break a nonmagical object you can see within 60 feet of yourself that isn't being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend."
 			],
 			"classFeatures": [
@@ -56278,7 +56238,9 @@
 			"rechargeAmount": 3,
 			"charges": 3,
 			"entries": [
-				"This ring has 3 charges. While wearing this ring, when you're damaged, you may use a reaction to expend a charge and transfer that damage to a random creature (which could include an ally) within 60 feet. All charges are restored when you finish a long rest."
+				"This ring has 3 charges.",
+				"While wearing this ring, when you're damaged, you may use a reaction to expend a charge and transfer that damage to a random creature (which could include an ally) within 60 feet.",
+				"All charges are restored when you finish a long rest."
 			]
 		},
 		{
@@ -56641,23 +56603,29 @@
 			"charges": 1,
 			"entries": [
 				"This gold coin has a creature embossed on each side. The two depicted creatures must be famous rivals or enemies of each other. For example, a Rival Coin might show {@book Iggwilv|XDMG|8|Iggwilv} on one side and {@book Mordenkainen|XDMG|8|Mordenkainen} on the other, or {@book Venger|XDMG|8|Venger} on one side and {@book Tiamat|XDMG|8|Tiamat} on the other. One of these figures is on the \"heads\" side of the coin, the other on the \"tails\" side.",
-				"The coin has 1 charge and regains its expended charge daily at dawn. You can take a {@action Magic|XPHB} action to toss the coin, expending its charge. Roll any die to determine whether the coin comes up heads (on an even number) or tails (on an odd number). The roll also determines the effect:",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
+					"type": "entries",
+					"name": "Charges",
+					"entries": [
+						"The coin has 1 charge and regains its expended charge daily at dawn. You can take a {@action Magic|XPHB} action to toss the coin, expending its charge. Roll any die to determine whether the coin comes up heads (on an even number) or tails (on an odd number). The roll also determines the effect:",
 						{
-							"type": "item",
-							"name": "Heads",
-							"entries": [
-								"Target one creature you can see within 60 feet of yourself. The target makes a {@dc 13} Wisdom saving throw. On a failed save, the target takes {@damage 2d4} Psychic damage and has {@variantrule Disadvantage|XPHB} on the next attack roll it makes before the end of its next turn. On a successful save, the target takes half as much damage only."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Tails",
-							"entries": [
-								"You take {@damage 1d4} Psychic damage."
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Heads",
+									"entries": [
+										"Target one creature you can see within 60 feet of yourself. The target makes a {@dc 13} Wisdom saving throw. On a failed save, the target takes {@damage 2d4} Psychic damage and has {@variantrule Disadvantage|XPHB} on the next attack roll it makes before the end of its next turn. On a successful save, the target takes half as much damage only."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Tails",
+									"entries": [
+										"You take {@damage 1d4} Psychic damage."
+									]
+								}
 							]
 						}
 					]
@@ -56809,7 +56777,8 @@
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This robe has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While you wear it, you can take a {@action Magic|XPHB} action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds {@variantrule Bright Light|XPHB} in a 30-foot radius and {@variantrule Dim Light|XPHB} for an additional 30 feet, and creatures that can see you have {@variantrule Disadvantage|XPHB} on attack rolls against you. Any creature in the {@variantrule Bright Light|XPHB} that can see you when the robe's power is activated must succeed on a {@dc 15} Wisdom saving throw or have the {@condition Stunned|XPHB} condition until the effect ends."
+				"This robe has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn.",
+				"While you wear it, you can take a {@action Magic|XPHB} action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds {@variantrule Bright Light|XPHB} in a 30-foot radius and {@variantrule Dim Light|XPHB} for an additional 30 feet, and creatures that can see you have {@variantrule Disadvantage|XPHB} on attack rolls against you. Any creature in the {@variantrule Bright Light|XPHB} that can see you when the robe's power is activated must succeed on a {@dc 15} Wisdom saving throw or have the {@condition Stunned|XPHB} condition until the effect ends."
 			],
 			"light": [
 				{
@@ -56879,12 +56848,20 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"bonusSavingThrow": "+1",
+			"recharge": "dusk",
 			"rechargeAmount": "{@dice 1d6}",
 			"charges": 6,
 			"entries": [
 				"This black or dark-blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.",
-				"Six stars, located on the robe's upper-front portion, are particularly large. While wearing this robe, you can take a {@action Magic|XPHB} action to remove one of the stars and expend it to cast the level 5 version of {@spell Magic Missile|XPHB}. Daily at dusk, {@dice 1d6} removed stars reappear on the robe.",
-				"While you wear the robe, you can take a {@action Magic|XPHB} action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you take a {@action Magic|XPHB} action to return to the plane you were on. You reappear in the last space you occupied or, if that space is occupied, the nearest unoccupied space."
+				"While you wear the robe, you can take a {@action Magic|XPHB} action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you take a {@action Magic|XPHB} action to return to the plane you were on. You reappear in the last space you occupied or, if that space is occupied, the nearest unoccupied space.",
+				{
+					"type": "entries",
+					"name": "Star Charges",
+					"entries": [
+						"Six stars, located on the robe's upper-front portion, are particularly large. While wearing this robe, you can take a {@action Magic|XPHB} action to remove one of the stars and expend it to cast the level 5 version of {@spell Magic Missile|XPHB}.",
+						"Daily at dusk, {@dice 1d6} removed stars reappear on the robe."
+					]
+				}
 			],
 			"attachedSpells": {
 				"charges": {
@@ -57460,7 +57437,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Protective Aura",
+					"name": "Protective Aura: Once per Dawn",
 					"entries": [
 						"As a {@action Magic|XPHB} action, you can plant the haft end of the rod in the ground, whereupon the rod's head sheds {@variantrule Bright Light|XPHB} in a 60-foot radius and {@variantrule Dim Light|XPHB} for an additional 60 feet. While in that {@variantrule Bright Light|XPHB}, you and your allies gain a +1 bonus to {@variantrule Armor Class|XPHB} and saving throws and can sense the location of any {@condition Invisible|XPHB} creature that is also in the {@variantrule Bright Light|XPHB}.",
 						"The rod's head stops glowing and the effect ends after 10 minutes or when a creature takes a {@action Magic|XPHB} action to pull the rod from the ground.",
@@ -57518,14 +57495,14 @@
 						},
 						{
 							"type": "item",
-							"name": "Searing Rebuke",
+							"name": "Searing Rebuke: Once per Dawn",
 							"entries": [
 								"You can cast the {@spell Hellish Rebuke} spell as a 4th-level spell (save {@dc 16}) from the rod. Once you use the rod to cast the spell, the rod can't cast the spell again until the next dawn."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Surge of Brimstone",
+							"name": "Surge of Brimstone: Once per Dawn",
 							"entries": [
 								"Whenever you cast a spell that deals fire or necrotic damage, you can use the rod to deal the maximum damage instead of rolling. Once this property is used, it can't be used again until the next dawn."
 							]
@@ -57682,17 +57659,17 @@
 							"items": [
 								{
 									"type": "item",
-									"name": "Drain Life",
+									"name": "Drain Life: Once per Dawn",
 									"entry": "When you hit a creature with a melee attack using the rod, you can force the target to make a {@dc 17} Constitution saving throw. On a failed save, the target takes an extra {@damage 4d6} Necrotic damage, and you regain a number of {@variantrule Hit Points|XPHB} equal to half that Necrotic damage."
 								},
 								{
 									"type": "item",
-									"name": "Paralyze",
+									"name": "Paralyze: Once per Dawn",
 									"entry": "When you hit a creature with a melee attack using the rod, you can force the target to make a {@dc 17} Constitution saving throw. On a failed save, the target has the {@condition Paralyzed|XPHB} condition for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on a success."
 								},
 								{
 									"type": "item",
-									"name": "Terrify",
+									"name": "Terrify: Once per Dawn",
 									"entry": "While holding the rod, you can take a {@action Magic|XPHB} action to force each creature you can see within 30 feet of yourself to make a {@dc 17} Wisdom saving throw. On a failed save, a target has the {@condition Frightened|XPHB} condition for 1 minute. A {@condition Frightened|XPHB} target repeats the save at the end of each of its turns, ending the effect on itself on a success."
 								}
 							]
@@ -57889,11 +57866,14 @@
 			"basicRules2024": true,
 			"type": "RD|XDMG",
 			"rarity": "very rare",
+			"recharge": "special",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"weight": 2,
 			"entries": [
 				"While holding this rod, you can take a {@action Magic|XPHB} action to activate it. The rod then instantly transports you and up to 199 other willing creatures you can see to a demiplane. You choose the form the demiplane takes. It could be a tranquil garden, a cheery tavern, an immense palace, a tropical island, a fantastic carnival, or whatever else you can imagine. Regardless of its nature, the demiplane contains enough water and food to sustain its visitors, and the demiplane's environment can't harm its occupants. Everything else that can be interacted with there can exist only there. For example, a flower picked from a garden there disappears if it is taken outside the demiplane.",
-				"For each hour spent in the demiplane, a visitor regains {@variantrule Hit Points|XPHB} as if it had spent 1 {@variantrule Hit Point Dice|XPHB|Hit Point Die}. Also, creatures don't age while there, although time passes normally. Visitors can remain there for up to 200 days divided by the number of creatures present (round down).",
-				"When the time runs out or you take a {@action Magic|XPHB} action to end the effect, all visitors reappear in the location they occupied when you activated the rod or an unoccupied space nearest that location. Once used, this property can't be used again until 10 days have passed."
+				"For each hour spent in the demiplane, a visitor regains {@variantrule Hit Points|XPHB} as if it had spent 1 {@variantrule Hit Point Dice|XPHB|Hit Point Die}. Also, creatures don't age while there, although time passes normally. Visitors can remain there for up to 200 days divided by the number of creatures present (round down). When the time runs out or you take a {@action Magic|XPHB} action to end the effect, all visitors reappear in the location they occupied when you activated the rod or an unoccupied space nearest that location.",
+				"Once used, this property can't be used again until 10 days have passed."
 			],
 			"lootTables": [
 				"Arcana - Very Rare|XDMG"
@@ -58068,6 +58048,9 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"This dark, hooded mantle of thick cloth is infused with secretive and deceptive magic. While wearing it, you gain the following benefits:",
 				{
@@ -58090,7 +58073,7 @@
 						},
 						{
 							"type": "item",
-							"name": "Willful Enmity",
+							"name": "Willful Enmity: Once per Dawn",
 							"entries": [
 								"You can cast the {@spell Antagonize|BMT} spell (save {@dc 15}) from the mantle. Once the mantle has cast the spell, it can't cast the spell again until the next dawn."
 							]
@@ -58520,9 +58503,9 @@
 			"charges": 3,
 			"focus": true,
 			"entries": [
-				"While you are holding this gem, you can use it as a spellcasting focus for your spells.",
-				"The gem has 3 charges and regains all expended charges daily at dawn. When you cast a spell while holding this gem, you can expend up to 3 charges to ignore the spell's material components with a gold piece cost, up to 500 gp per charge expended.",
-				"When you finish a long rest, choose a spell from any class list. The spell you choose must be of a level you can cast. You know the chosen spell and can cast it with your spell slots of the appropriate level until the end of your next long rest."
+				"The gem has 3 charges and regains all expended charges daily at dawn.",
+				"When you cast a spell while holding this gem, you can expend up to 3 charges to ignore the spell's material components with a gold piece cost, up to 500 gp per charge expended. When you finish a long rest, choose a spell from any class list. The spell you choose must be of a level you can cast. You know the chosen spell and can cast it with your spell slots of the appropriate level until the end of your next long rest.",
+				"While you are holding this gem, you can use it as a spellcasting focus for your spells."
 			]
 		},
 		{
@@ -58818,9 +58801,13 @@
 			"dmg1": "1d8",
 			"dmgType": "B",
 			"bonusWeapon": "+1",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"This ash-gray flail is cold to the touch. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and it deals double damage to objects and structures.",
-				"Additionally, when you hit a creature with this weapon, you can force the creature to make a {@dc 15} Constitution saving throw. On a failed save, the creature has the poisoned condition for 1 minute. The poisoned creature takes {@damage 2d4} necrotic damage at the start of each of its turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once this property is used in this way, it can't be used again until the next dawn."
+				"Additionally, when you hit a creature with this weapon, you can force the creature to make a {@dc 15} Constitution saving throw. On a failed save, the creature has the poisoned condition for 1 minute. The poisoned creature takes {@damage 2d4} necrotic damage at the start of each of its turns. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+				"Once this property is used in this way, it can't be used again until the next dawn."
 			]
 		},
 		{
@@ -59357,9 +59344,13 @@
 			"reqAttune": true,
 			"weight": 6,
 			"ac": 2,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"This crystalline blue shield is fashioned from a sapphire dragon's scale and is created to aid in rooting out the influence of Aberrations. While wielding the shield, you have resistance to psychic and thunder damage. Also, when you take damage from a creature that is within 5 feet of you, you can use your reaction to deal {@damage 2d6} thunder damage to that creature.",
-				"As an action, you can use the shield to help you locate Aberrations until the end of your next turn. If any Aberrations are within 1 mile of you, the shield emits a low humming tone for a moment, and you know the direction of all Aberrations within that range. Once this property is used, it can't be used again until the next dawn."
+				"As an action, you can use the shield to help you locate Aberrations until the end of your next turn. If any Aberrations are within 1 mile of you, the shield emits a low humming tone for a moment, and you know the direction of all Aberrations within that range.",
+				"Once this property is used, it can't be used again until the next dawn."
 			]
 		},
 		{
@@ -59501,7 +59492,8 @@
 					"type": "entries",
 					"name": "Preservation",
 					"entries": [
-						"The scarab has 12 charges. If you fail a saving throw against a Necromancy spell or a harmful effect originating from an Undead, you can take a {@variantrule Reaction|XPHB} to expend 1 charge and turn the failed save into a successful one. The scarab crumbles into powder and is destroyed when its last charge is expended."
+						"The scarab has 12 charges. If you fail a saving throw against a Necromancy spell or a harmful effect originating from an Undead, you can take a {@variantrule Reaction|XPHB} to expend 1 charge and turn the failed save into a successful one.",
+						"The scarab crumbles into powder and is destroyed when its last charge is expended."
 					]
 				},
 				{
@@ -59572,7 +59564,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Single-Minded Focus",
+					"name": "Single-Minded Focus: Once per Dawn",
 					"entries": [
 						"When you fail a Constitution saving throw to maintain {@status Concentration|XPHB}, you can take a {@variantrule Reaction|XPHB} to succeed instead.",
 						"Once you use this property, it can't be used again until the next dawn."
@@ -60767,6 +60759,9 @@
 			],
 			"rarity": "uncommon",
 			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"Sending Stones come in pairs, with each stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can cast {@spell Sending|XPHB} from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone, and you don't cast the spell.",
 				"Once Sending is cast using either stone, the stones can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical."
@@ -61681,6 +61676,9 @@
 			"reqAttune": true,
 			"weight": 6,
 			"ac": 2,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"Modeled after the formidable spiked tower shields wielded by some fire giants, this iron shield emanates a constant warmth.",
 				"You can use a bonus action to activate the shield, causing glowing lava to flow through the shield's grooves for 1 minute. While the shield is active, you gain the following benefits:",
@@ -61700,7 +61698,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Shield Bash",
+					"name": "Shield Bash: Once per Dawn",
 					"entries": [
 						"When you take the {@action Attack} action on your turn, you can replace one of your attacks with a shield bash, targeting one creature you can see within 5 feet of yourself. The target must make a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier). On a failed save, the target takes {@damage 3d6} bludgeoning damage plus {@damage 3d6} fire damage and is knocked prone. On a successful save, the target takes half as much damage only. You can use Shield Bash only once per turn.",
 						"Once the shield has been activated, it can't be activated again until the next dawn."
@@ -61745,7 +61743,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Protective Field",
+					"name": "Protective Field: Once per Dawn",
 					"entries": [
 						"As a {@variantrule Reaction|XPHB}, when you or an ally you can see within 5 feet of you is targeted by an attack or makes a saving throw against an area of effect, you can use the Shield to create an immobile 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. When the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} appears, any creatures or objects not fully contained within it are pushed into the nearest unoccupied spaces outside it. The attack or area of effect that triggered the {@variantrule Reaction|XPHB} has no effect on creatures and objects inside the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}, which lasts as long as you maintain {@status Concentration|XPHB}, up to 1 minute. Nothing can pass into or out of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}. A creature or object inside the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} can't be damaged by attacks or effects originating from outside, nor can a creature inside the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} damage anything outside it.",
 						"Once this property is used, it can't be used again until the next dawn."
@@ -61975,7 +61973,13 @@
 			"charges": 3,
 			"entries": [
 				"Each of these black leg guards is decorated with a motif of monstrous skulls screaming in terror.",
-				"The greaves have 3 charges. While wearing these greaves, you can use a bonus action to expend 1 charge to increase your walking speed by 30 feet, and you have advantage on Dexterity saving throws. These effects last for 1 minute. The greaves regain {@dice 1d3} expended charges daily at dawn.",
+				{
+					"type": "entries",
+					"name": "Charges",
+					"entries": [
+						"The greaves have 3 charges. While wearing these greaves, you can use a bonus action to expend 1 charge to increase your walking speed by 30 feet, and you have advantage on Dexterity saving throws. These effects last for 1 minute. The greaves regain {@dice 1d3} expended charges daily at dawn."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Curse",
@@ -62726,9 +62730,12 @@
 			"rarity": "very rare",
 			"reqAttune": true,
 			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
-				"While wearing this skull-shaped helm, you have resistance to cold, poison, and necrotic damage.",
-				"Additionally, while wearing the helm, you can cast {@spell Spirit of Death|BMT} from it without requiring material components. Once you use the helm to cast the spell, the helm can't cast this spell again until the next dawn."
+				"While wearing this skull-shaped helm, you have resistance to cold, poison, and necrotic damage. Additionally, while wearing the helm, you can cast {@spell Spirit of Death|BMT} from it without requiring material components.",
+				"Once you use the helm to cast the spell, the helm can't cast this spell again until the next dawn."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -63821,7 +63828,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Dispelling Touch",
+					"name": "Dispelling Touch: Once per Dawn",
 					"entries": [
 						"When you hit a creature with a melee spell attack, you can activate the trophy to cast the {@spell Dispel Magic|XPHB} spell as part of that attack, targeting the hit creature.",
 						"Once this property has been used, it can't be used again until the next dawn."
@@ -65192,35 +65199,41 @@
 			"rechargeAmount": "{@dice 1d6}",
 			"charges": 6,
 			"entries": [
-				"This wand is shaped like a drop spindle wrapped in red thread. The wand has 6 charges that can be used for the following properties:",
+				"This wand is shaped like a drop spindle wrapped in red thread.",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
+					"type": "entries",
+					"name": "Charges",
+					"entries": [
+						"The wand has 6 charges, regains {@dice 1d6} expended charges daily at dawn, and those charges can be used for the following properties:",
 						{
-							"type": "item",
-							"name": "Battle Foreknowledge",
-							"entries": [
-								"When you roll initiative, you can expend 1 charge to add or subtract your proficiency bonus from the total roll."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Doom Foretold",
-							"entries": [
-								"As an action, you can expend 2 charges to target a creature within 30 feet of yourself and invoke that creature's doom. While the target is on the same plane of existence as you, you can sense the direction to its location, and you know the direction of its movement if it's in motion. Additionally, once per turn when you deal damage to the doomed creature, you can roll {@dice 1d6} and add the number rolled to the damage roll. These benefits persist for 1 hour or until you target another creature with this effect."
-							]
-						},
-						{
-							"type": "item",
-							"name": "Twist of Fate",
-							"entries": [
-								"When a creature within 60 feet of you makes a saving throw or an attack roll, you can use your reaction to expend 3 charges and alter the outcome, turning a failed saving throw into a successful one, a missed attack roll into a hit, or vice versa."
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Battle Foreknowledge (1 Charge)",
+									"entries": [
+										"When you roll initiative, you can expend 1 charge to add or subtract your proficiency bonus from the total roll."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Doom Foretold (2 Charges)",
+									"entries": [
+										"As an action, you can expend 2 charges to target a creature within 30 feet of yourself and invoke that creature's doom. While the target is on the same plane of existence as you, you can sense the direction to its location, and you know the direction of its movement if it's in motion. Additionally, once per turn when you deal damage to the doomed creature, you can roll {@dice 1d6} and add the number rolled to the damage roll. These benefits persist for 1 hour or until you target another creature with this effect."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Twist of Fate (3 Charges)",
+									"entries": [
+										"When a creature within 60 feet of you makes a saving throw or an attack roll, you can use your reaction to expend 3 charges and alter the outcome, turning a failed saving throw into a successful one, a missed attack roll into a hit, or vice versa."
+									]
+								}
 							]
 						}
 					]
-				},
-				"The wand regains {@dice 1d6} expended charges daily at dawn."
+				}
 			],
 			"hasFluffImages": true
 		},
@@ -65260,7 +65273,13 @@
 			"charges": 3,
 			"entries": [
 				"This ornate wooden board has the letters of the Common alphabet printed on one side, alongside the words \"Yes\" and \"No\" and symbols representing \"Weal\" and \"Woe.\" The board comes with a heart-shaped, wooden planchette. This planchette must be resting on the lettered side of the board for the board's magic to function.",
-				"This board has 3 charges and regains 1 expended charge daily at dawn. While touching the planchette, you can take 1 minute to cast one of the spells on the table below. The table indicates how many charges you must expend to cast the spell. As you cast the spell, you call on the spirits of the dead to help guide the planchette across the board's surface, answering your questions by pointing to the letters or words on the board.",
+				{
+					"type": "entries",
+					"name": "Charges",
+					"entries": [
+						"This board has 3 charges and regains 1 expended charge daily at dawn. While touching the planchette, you can take 1 minute to cast one of the spells on the table below. The table indicates how many charges you must expend to cast the spell. As you cast the spell, you call on the spirits of the dead to help guide the planchette across the board's surface, answering your questions by pointing to the letters or words on the board."
+					]
+				},
 				{
 					"type": "table",
 					"colStyles": [
@@ -65615,7 +65634,14 @@
 			"charges": 10,
 			"staff": true,
 			"entries": [
-				"This wooden staff is decorated with bird carvings. It has 10 charges. While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge from the staff and cause it to create one of the following sounds, which can be heard out to 120 feet: a finch's chirp, a raven's caw, a duck's quack, a chicken's cluck, a goose's honk, a loon's call, a turkey's gobble, a seagull's cry, an owl's hoot, or an eagle's shriek.",
+				"This wooden staff is decorated with bird carvings.",
+				{
+					"type": "entries",
+					"name": "Charges",
+					"entries": [
+						"It has 10 charges. While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge from the staff and cause it to create one of the following sounds, which can be heard out to 120 feet: a finch's chirp, a raven's caw, a duck's quack, a chicken's cluck, a goose's honk, a loon's call, a turkey's gobble, a seagull's cry, an owl's hoot, or an eagle's shriek."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -65773,21 +65799,21 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "Cast Spell",
+							"name": "Cast Spell (1 Charge)",
 							"entries": [
 								"You can expend 1 of the staff's charges to cast {@spell Charm Person|XPHB}, {@spell Command|XPHB}, or {@spell Comprehend Languages|XPHB} from it using your spell save DC."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Reflect Enchantment",
+							"name": "Reflect Enchantment (1 Charge)",
 							"entries": [
 								"If you succeed on a saving throw against an Enchantment spell that targets only you, you can take a {@variantrule Reaction|XPHB} to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Resist Enchantment",
+							"name": "Resist Enchantment: Once per Dawn",
 							"entries": [
 								"If you fail a saving throw against an Enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn."
 							]
@@ -66105,7 +66131,7 @@
 				"You have {@variantrule Resistance|XPHB} to Fire damage while you hold this staff.",
 				{
 					"type": "entries",
-					"name": "Spells",
+					"name": "Spells (Charges)",
 					"entries": [
 						"The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.",
 						{
@@ -66184,7 +66210,8 @@
 			"charges": 10,
 			"staff": true,
 			"entries": [
-				"This wooden staff has 10 charges. While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge from the staff and cause a flower to sprout from a patch of earth or soil within 5 feet of yourself, or from the staff itself. Unless you choose a specific kind of flower, the staff creates a mild-scented daisy. The flower is harmless and nonmagical, and it grows or withers as a normal flower would.",
+				"This wooden staff has 10 charges.",
+				"While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge from the staff and cause a flower to sprout from a patch of earth or soil within 5 feet of yourself, or from the staff itself. Unless you choose a specific kind of flower, the staff creates a mild-scented daisy. The flower is harmless and nonmagical, and it grows or withers as a normal flower would.",
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -66342,7 +66369,7 @@
 				"You have {@variantrule Resistance|XPHB} to Cold damage while you hold this staff.",
 				{
 					"type": "entries",
-					"name": "Spells",
+					"name": "Spells (Charges)",
 					"entries": [
 						"The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.",
 						{
@@ -66496,7 +66523,8 @@
 			"charges": 10,
 			"staff": true,
 			"entries": [
-				"This staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spellcasting ability modifier. The table indicates how many charges you must expend to cast the spell.",
+				"This staff has 10 charges.",
+				"While holding the staff, you can cast one of the spells on the following table from it, using your spellcasting ability modifier. The table indicates how many charges you must expend to cast the spell.",
 				{
 					"type": "table",
 					"colStyles": [
@@ -66714,12 +66742,12 @@
 			"charges": 20,
 			"staff": true,
 			"entries": [
-				"This staff has 20 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While holding it, you gain a +2 bonus to {@variantrule Armor Class|XPHB}, saving throws, and spell attack rolls.",
+				"This staff can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While holding it, you gain a +2 bonus to {@variantrule Armor Class|XPHB}, saving throws, and spell attack rolls.",
 				{
 					"type": "entries",
-					"name": "Spells",
+					"name": "Spells (Charges)",
 					"entries": [
-						"While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.",
+						"This staff has 20 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.",
 						{
 							"type": "table",
 							"colStyles": [
@@ -67056,38 +67084,42 @@
 			"charges": 10,
 			"staff": true,
 			"entries": [
-				"This staff has 10 charges.",
+				"This staff has 10 charges that can be used for the following:",
 				{
-					"type": "entries",
-					"name": "Insect Cloud",
-					"entries": [
-						"While holding the staff, you can take a {@action Magic|XPHB} action and expend 1 charge to cause a swarm of harmless flying insects to fill a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. The insects remain for 10 minutes, making the area {@variantrule Heavily Obscured|XPHB} for creatures other than you. A strong wind (like that created by {@spell Gust of Wind|XPHB}) disperses the swarm and ends the effect."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spells",
-					"entries": [
-						"While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC and spell attack modifier. The table indicates how many charges you must expend to cast the spell.",
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
 						{
-							"type": "table",
-							"colStyles": [
-								"col-10",
-								"col-2 text-center"
-							],
-							"colLabels": [
-								"Spell",
-								"Charge Cost"
-							],
-							"rows": [
-								[
-									"{@spell Giant Insect|XPHB}",
-									"4"
-								],
-								[
-									"{@spell Insect Plague|XPHB}",
-									"5"
-								]
+							"type": "item",
+							"name": "Insect Cloud (1 Charge)",
+							"entry": "While holding the staff, you can take a {@action Magic|XPHB} action and expend 1 charge to cause a swarm of harmless flying insects to fill a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. The insects remain for 10 minutes, making the area {@variantrule Heavily Obscured|XPHB} for creatures other than you. A strong wind (like that created by {@spell Gust of Wind|XPHB}) disperses the swarm and ends the effect."
+						},
+						{
+							"type": "item",
+							"name": "Spells (Varies)",
+							"entries": [
+								"While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC and spell attack modifier. The table indicates how many charges you must expend to cast the spell.",
+								{
+									"type": "table",
+									"colStyles": [
+										"col-8",
+										"col-4 text-center"
+									],
+									"colLabels": [
+										"Spell",
+										"Charge Cost"
+									],
+									"rows": [
+										[
+											"{@spell Giant Insect|XPHB}",
+											"4"
+										],
+										[
+											"{@spell Insect Plague|XPHB}",
+											"5"
+										]
+									]
+								}
 							]
 						}
 					]
@@ -67317,7 +67349,13 @@
 			"staff": true,
 			"entries": [
 				"This staff can be wielded as a magic {@item Quarterstaff|XPHB} that grants a +1 bonus to attack rolls and damage rolls made with it.",
-				"The staff has 3 charges. While holding the staff, you can expend 1 charge to cast either {@spell Maze|XPHB} (save {@dc 18}) or {@spell Teleport|XPHB} from it. When the staff has no more charges remaining, it loses its magic and becomes a nonmagical {@item Quarterstaff|XPHB}.",
+				{
+					"type": "entries",
+					"name": "Charges",
+					"entries": [
+						"The staff has 3 charges. While holding the staff, you can expend 1 charge to cast either {@spell Maze|XPHB} (save {@dc 18}) or {@spell Teleport|XPHB} from it. When the staff has no more charges remaining, it loses its magic and becomes a nonmagical {@item Quarterstaff|XPHB}."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Curse",
@@ -67509,104 +67547,87 @@
 			"entries": [
 				"This staff has 50 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.",
 				{
-					"type": "entries",
-					"name": "Spell Absorption",
-					"entries": [
-						"While holding the staff, you have {@variantrule Advantage|XPHB} on saving throws against spells. In addition, you can take a {@variantrule Reaction|XPHB} when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the staff's total number of charges above 50, the staff explodes as if you activated its Retributive Strike (see below)."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spells",
-					"entries": [
-						"While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.",
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
 						{
-							"type": "table",
-							"colStyles": [
-								"col-10",
-								"col-2 text-center"
-							],
-							"colLabels": [
-								"Spell",
-								"Charge Cost"
-							],
-							"rows": [
-								[
-									"{@spell Arcane Lock|XPHB}",
-									"0"
-								],
-								[
-									"{@spell Conjure Elemental|XPHB}",
-									"7"
-								],
-								[
-									"{@spell Detect Magic|XPHB}",
-									"0"
-								],
-								[
-									"{@spell Dispel Magic|XPHB}",
-									"3"
-								],
-								[
-									"{@spell Enlarge/Reduce|XPHB}",
-									"0"
-								],
-								[
-									"{@spell Fireball|XPHB} (level 7 version)",
-									"7"
-								],
-								[
-									"{@spell Flaming Sphere|XPHB}",
-									"2"
-								],
-								[
-									"{@spell Ice Storm|XPHB}",
-									"4"
-								],
-								[
-									"{@spell Invisibility|XPHB}",
-									"2"
-								],
-								[
-									"{@spell Knock|XPHB}",
-									"2"
-								],
-								[
-									"{@spell Light|XPHB}",
-									"0"
-								],
-								[
-									"{@spell Lightning Bolt|XPHB} (level 7 version)",
-									"7"
-								],
-								[
-									"{@spell Mage Hand|XPHB}",
-									"0"
-								],
-								[
-									"{@spell Passwall|XPHB}",
-									"5"
-								],
-								[
-									"{@spell Plane Shift|XPHB}",
-									"7"
-								],
-								[
-									"{@spell Protection from Evil and Good|XPHB}",
-									"0"
-								],
-								[
-									"{@spell Telekinesis|XPHB}",
-									"5"
-								],
-								[
-									"{@spell Wall of Fire|XPHB}",
-									"4"
-								],
-								[
-									"{@spell Web|XPHB}",
-									"2"
-								]
+							"type": "item",
+							"name": "Spell Absorption",
+							"entries": [
+								"While holding the staff, you have {@variantrule Advantage|XPHB} on saving throws against spells. In addition, you can take a {@variantrule Reaction|XPHB} when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the staff's total number of charges above 50, the staff explodes as if you activated its Retributive Strike (see below)."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Spells (Varies)",
+							"entries": [
+								"While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.",
+								{
+									"type": "table",
+									"colStyles": [
+										"col-8",
+										"col-4 text-center"
+									],
+									"colLabels": [
+										"Spell",
+										"Charge Cost"
+									],
+									"rows": [
+										[
+											"{@spell Conjure Elemental|XPHB}",
+											"7"
+										],
+										[
+											"{@spell Dispel Magic|XPHB}",
+											"3"
+										],
+										[
+											"{@spell Fireball|XPHB} (level 7 version)",
+											"7"
+										],
+										[
+											"{@spell Flaming Sphere|XPHB}",
+											"2"
+										],
+										[
+											"{@spell Ice Storm|XPHB}",
+											"4"
+										],
+										[
+											"{@spell Invisibility|XPHB}",
+											"2"
+										],
+										[
+											"{@spell Knock|XPHB}",
+											"2"
+										],
+										[
+											"{@spell Lightning Bolt|XPHB} (level 7 version)",
+											"7"
+										],
+										[
+											"{@spell Passwall|XPHB}",
+											"5"
+										],
+										[
+											"{@spell Plane Shift|XPHB}",
+											"7"
+										],
+										[
+											"{@spell Telekinesis|XPHB}",
+											"5"
+										],
+										[
+											"{@spell Wall of Fire|XPHB}",
+											"4"
+										],
+										[
+											"{@spell Web|XPHB}",
+											"2"
+										]
+									]
+								},
+								"Additionally, you gain the following spells that you can cast at-will as they do not require a charge to cast: {@spell Arcane Lock|XPHB}, {@spell Detect Magic|XPHB}, {@spell Enlarge/Reduce|XPHB}, {@spell Light|XPHB}, {@spell Mage Hand|XPHB}, and {@spell Protection from Evil and Good|XPHB}."
 							]
 						}
 					]
@@ -67627,15 +67648,15 @@
 				}
 			],
 			"attachedSpells": {
+				"will": [
+					"arcane lock|xphb",
+					"detect magic|xphb",
+					"enlarge/reduce|xphb",
+					"light|xphb",
+					"mage hand|xphb",
+					"protection from evil and good|xphb"
+				],
 				"charges": {
-					"0": [
-						"arcane lock|xphb",
-						"detect magic|xphb",
-						"enlarge/reduce|xphb",
-						"light|xphb",
-						"mage hand|xphb",
-						"protection from evil and good|xphb"
-					],
 					"2": [
 						"flaming sphere|xphb",
 						"invisibility|xphb",
@@ -67816,7 +67837,7 @@
 				"This weathered bone {@item staff|XPHB} is topped with a skull and decorated with vertebrae. It can be wielded as a magic {@item Quarterstaff|XPHB} that grants a +3 bonus to attack rolls and damage rolls made with it. While holding the {@item staff|XPHB}, you have {@variantrule Resistance|XPHB} to Necrotic damage.",
 				{
 					"type": "entries",
-					"name": "Aura of Haunted Power",
+					"name": "Aura of Haunted Power: Once per Dawn",
 					"entries": [
 						"As a {@action Magic|XPHB} action while holding the {@item staff|XPHB}, you can cause it to radiate supernatural power that fills a 30-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. The {@variantrule Emanation [Area of Effect]|XPHB|Emanation} lasts for 1 hour or until you end it (no action required). Creatures of your choice in this {@variantrule Emanation [Area of Effect]|XPHB|Emanation} (including yourself) gain the following benefits:",
 						{
@@ -67968,64 +67989,77 @@
 			"charges": 6,
 			"staff": true,
 			"entries": [
-				"This staff has 6 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.",
+				"This staff can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.",
 				{
 					"type": "entries",
-					"name": "Spells",
+					"name": "Charges",
 					"entries": [
-						"While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.",
+						"This staff has 6 charges and can be used for the following properties:",
 						{
-							"type": "table",
-							"colStyles": [
-								"col-10",
-								"col-2 text-center"
-							],
-							"colLabels": [
-								"Spell",
-								"Charge Cost"
-							],
-							"rows": [
-								[
-									"{@spell Animal Friendship|XPHB}",
-									"1"
-								],
-								[
-									"{@spell Awaken|XPHB}",
-									"5"
-								],
-								[
-									"{@spell Barkskin|XPHB}",
-									"2"
-								],
-								[
-									"{@spell Locate Animals or Plants|XPHB}",
-									"2"
-								],
-								[
-									"{@spell Pass without Trace|XPHB}",
-									"2"
-								],
-								[
-									"{@spell Speak with Animals|XPHB}",
-									"1"
-								],
-								[
-									"{@spell Speak with Plants|XPHB}",
-									"3"
-								],
-								[
-									"{@spell Wall of Thorns|XPHB}",
-									"6"
-								]
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Spells (Varies)",
+									"entries": [
+										"While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-8",
+												"col-4 text-center"
+											],
+											"colLabels": [
+												"Spell",
+												"Charge Cost"
+											],
+											"rows": [
+												[
+													"{@spell Animal Friendship|XPHB}",
+													"1"
+												],
+												[
+													"{@spell Awaken|XPHB}",
+													"5"
+												],
+												[
+													"{@spell Barkskin|XPHB}",
+													"2"
+												],
+												[
+													"{@spell Locate Animals or Plants|XPHB}",
+													"2"
+												],
+												[
+													"{@spell Pass without Trace|XPHB}",
+													"2"
+												],
+												[
+													"{@spell Speak with Animals|XPHB}",
+													"1"
+												],
+												[
+													"{@spell Speak with Plants|XPHB}",
+													"3"
+												],
+												[
+													"{@spell Wall of Thorns|XPHB}",
+													"6"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "item",
+									"name": "Tree Form (1 Charge)",
+									"entries": [
+										"You can take a {@action Magic|XPHB} action to plant one end of the staff in earth in an unoccupied space and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of Transmutation magic that can be discerned with the {@spell Detect Magic|XPHB} spell. While touching the tree and using a {@action Magic|XPHB} action, you return the staff to its normal form. Any creature in the tree falls when the tree reverts to a staff."
+									]
+								}
 							]
 						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tree Form",
-					"entries": [
-						"You can take a {@action Magic|XPHB} action to plant one end of the staff in earth in an unoccupied space and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of Transmutation magic that can be discerned with the {@spell Detect Magic|XPHB} spell. While touching the tree and using a {@action Magic|XPHB} action, you return the staff to its normal form. Any creature in the tree falls when the tree reverts to a staff."
 					]
 				},
 				{
@@ -68153,40 +68187,53 @@
 			"bonusWeapon": "+2",
 			"staff": true,
 			"entries": [
-				"This staff can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. It also has the following additional properties. Once one of these properties is used, it can't be used again until the next dawn.",
+				"This staff can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it.",
 				{
 					"type": "entries",
-					"name": "Lightning",
+					"name": "Each Property Once per Dawn",
 					"entries": [
-						"When you hit with a melee attack using the staff, you can cause the target to take an extra {@damage 2d6} Lightning damage (no action required)."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Thunder",
-					"entries": [
-						"When you hit with a melee attack using the staff, you can cause the staff to emit a crack of thunder audible out to 300 feet (no action required). The target you hit must succeed on a {@dc 17} Constitution saving throw or have the {@condition Stunned|XPHB} condition until the end of your next turn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Thunder and Lightning",
-					"entries": [
-						"Immediately after you hit with a melee attack using the staff, you can take a {@variantrule Bonus Action|XPHB} to use the Lightning and Thunder properties (see above) at the same time. Doing so doesn't expend the daily use of those properties, only the use of this one."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Lightning Strike",
-					"entries": [
-						"You can take a {@action Magic|XPHB} action to cause a bolt of lightning to leap from the staff's tip in a {@variantrule Line [Area of Effect]|XPHB|Line} that is 5 feet wide and 120 feet long. Each creature in that {@variantrule Line [Area of Effect]|XPHB|Line} makes a {@dc 17} Dexterity saving throw, taking {@damage 9d6} Lightning damage on a failed save or half as much damage on a successful one."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Thunderclap",
-					"entries": [
-						"You can take a {@action Magic|XPHB} action to cause the staff to produce a thunderclap audible out to 600 feet. Every creature within a 60-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you makes a {@dc 17} Constitution saving throw. On a failed save, a creature takes {@damage 2d6} Thunder damage and has the {@condition Deafened|XPHB} condition for 1 minute. On a successful save, a creature takes half as much damage only."
+						"This staff has the following additional properties. Once one of these properties is used, that property can't be used again until the next dawn.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Lightning",
+									"entries": [
+										"When you hit with a melee attack using the staff, you can cause the target to take an extra {@damage 2d6} Lightning damage (no action required)."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Thunder",
+									"entries": [
+										"When you hit with a melee attack using the staff, you can cause the staff to emit a crack of thunder audible out to 300 feet (no action required). The target you hit must succeed on a {@dc 17} Constitution saving throw or have the {@condition Stunned|XPHB} condition until the end of your next turn."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Thunder and Lightning",
+									"entries": [
+										"Immediately after you hit with a melee attack using the staff, you can take a {@variantrule Bonus Action|XPHB} to use the Lightning and Thunder properties (see above) at the same time. Doing so doesn't expend the daily use of those properties, only the use of this one."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Lightning Strike",
+									"entries": [
+										"You can take a {@action Magic|XPHB} action to cause a bolt of lightning to leap from the staff's tip in a {@variantrule Line [Area of Effect]|XPHB|Line} that is 5 feet wide and 120 feet long. Each creature in that {@variantrule Line [Area of Effect]|XPHB|Line} makes a {@dc 17} Dexterity saving throw, taking {@damage 9d6} Lightning damage on a failed save or half as much damage on a successful one."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Thunderclap",
+									"entries": [
+										"You can take a {@action Magic|XPHB} action to cause the staff to produce a thunderclap audible out to 600 feet. Every creature within a 60-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you makes a {@dc 17} Constitution saving throw. On a failed save, a creature takes {@damage 2d6} Thunder damage and has the {@condition Deafened|XPHB} condition for 1 minute. On a successful save, a creature takes half as much damage only."
+									]
+								}
+							]
+						}
 					]
 				}
 			],
@@ -68955,14 +69002,14 @@
 					"items": [
 						{
 							"type": "item",
-							"name": "Meld into Stone",
+							"name": "Meld into Stone: Once per Dawn",
 							"entries": [
 								"You can cast the {@spell Meld into Stone} spell from this war pick. Once this property is used, it can't be used again until the next dawn."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Petrification",
+							"name": "Petrification (Charges)",
 							"entries": [
 								"The war pick has {@dice 1d6 + 1} charges. If you score a critical hit against a creature that has fewer than 100 hit points, you can expend 1 charge from the war pick to have that creature make a {@dc 15} Constitution saving throw. On a failed save, the creature has the petrified condition for 8 hours. When the war pick has no charges remaining, it loses this property."
 							]
@@ -69349,11 +69396,14 @@
 			"dmg2": "1d8",
 			"bonusWeapon": "+1",
 			"staff": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"Veins of sunstone run through this wooden staff. This staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it. When you hit with an attack roll using this staff, the target takes an extra {@damage 1d8} fire damage.",
 				{
 					"type": "entries",
-					"name": "Solar Focus",
+					"name": "Solar Focus: Once per Dawn",
 					"entries": [
 						"You can use the staff as a spellcasting focus. While holding the staff, you can reroll a number of damage dice up to your proficiency bonus when you use a spell slot to cast a spell that deals fire or radiant damage. You must use the new rolls. Once this property is used, it can't be used again until the next dawn."
 					]
@@ -70474,7 +70524,8 @@
 					"type": "entries",
 					"name": "Pure Rebuke",
 					"entries": [
-						"The talisman has 7 charges. While wearing or holding the talisman, you can take a {@action Magic|XPHB} action to expend 1 charge and target one creature you can see on the ground within 120 feet of yourself. A flaming fissure opens under the target, and the target makes a {@dc 20} Dexterity saving throw. If the target is a Fiend or an Undead, it has {@variantrule Disadvantage|XPHB} on the save. On a failed save, the target falls into the fissure and is destroyed, leaving no remains. On a successful save, the target isn't cast into the fissure but takes {@damage 4d6} Psychic damage from the ordeal. In either case, the fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman disperses into motes of golden light and is destroyed."
+						"The talisman has 7 charges.",
+						"While wearing or holding the talisman, you can take a {@action Magic|XPHB} action to expend 1 charge and target one creature you can see on the ground within 120 feet of yourself. A flaming fissure opens under the target, and the target makes a {@dc 20} Dexterity saving throw. If the target is a Fiend or an Undead, it has {@variantrule Disadvantage|XPHB} on the save. On a failed save, the target falls into the fissure and is destroyed, leaving no remains. On a successful save, the target isn't cast into the fissure but takes {@damage 4d6} Psychic damage from the ordeal. In either case, the fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman disperses into motes of golden light and is destroyed."
 					]
 				}
 			],
@@ -70590,7 +70641,8 @@
 					"type": "entries",
 					"name": "Ultimate End",
 					"entries": [
-						"The talisman has 6 charges. While wearing or holding the talisman, you can take a {@action Magic|XPHB} action to expend 1 charge and target one creature you can see on the ground within 120 feet of yourself. A flaming fissure opens under the target, and the target makes a {@dc 20} Dexterity saving throw. If the target is a Celestial, it has {@variantrule Disadvantage|XPHB} on the save. On a failed save, the target falls into the fissure and is destroyed, leaving no remains. On a successful save, the target isn't cast into the fissure but takes {@damage 4d6} Psychic damage from the ordeal. In either case, the fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed."
+						"The talisman has 6 charges.",
+						"While wearing or holding the talisman, you can take a {@action Magic|XPHB} action to expend 1 charge and target one creature you can see on the ground within 120 feet of yourself. A flaming fissure opens under the target, and the target makes a {@dc 20} Dexterity saving throw. If the target is a Celestial, it has {@variantrule Disadvantage|XPHB} on the save. On a failed save, the target falls into the fissure and is destroyed, leaving no remains. On a successful save, the target isn't cast into the fissure but takes {@damage 4d6} Psychic damage from the ordeal. In either case, the fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed."
 					]
 				}
 			],
@@ -70711,11 +70763,12 @@
 			"rarity": "common",
 			"wondrous": true,
 			"recharge": "dawn",
-			"rechargeAmount": "all",
+			"rechargeAmount": "3",
 			"charges": 3,
 			"entries": [
 				"This golden stein is decorated with dancing dwarves and grain patterns.",
-				"When you make a {@action Magic|XPHB|Magic Action} to speak the command word while grasping the handle, the tankard fills with three pints of rich dwarven ale. This tankard has three charges and regains all expended charges at dawn."
+				"When you make a {@action Magic|XPHB|Magic Action} to speak the command word while grasping the handle, the tankard fills with three pints of rich dwarven ale.",
+				"This tankard has 3 charges and regains all expended charges at dawn."
 			],
 			"lootTables": [
 				"Arcana - Common|XDMG",
@@ -72493,7 +72546,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Earthquake",
+					"name": "Earthquake: Once per Dawn",
 					"entries": [
 						"As a {@action Magic|XPHB} action, you can strike the weapon against the ground to create an intense seismic disturbance in a 50-foot-radius circle centered on the point of impact. Structures in contact with the ground in that area take 50 Bludgeoning damage, and each creature on the ground in that area must succeed on a {@dc 20} Dexterity saving throw or have the {@condition Prone|XPHB} condition. If that creature is also {@status Concentration|XPHB|Concentrating}, it must succeed on a {@dc 20} Constitution saving throw or its {@status Concentration|XPHB} is broken. In addition, you can cause a 30-foot-deep, 10-foot-wide fissure to open up on the ground anywhere in the area. Any creature on a spot where the fissure opens must make a {@dc 20} Dexterity saving throw, falling into the fissure on a failed save or moving with the fissure's edge on a successful one. Any structure on a spot where the fissure opens collapses into the fissure.",
 						"Once you use this property, it can't be used again until the next dawn."
@@ -72968,7 +73021,7 @@
 				"Vecna watches anyone using this tome and can write cryptic messages in it. These messages typically fade away after they are read.",
 				{
 					"type": "entries",
-					"name": "Bonus Action Casting",
+					"name": "Bonus Action Casting: Once per Dawn",
 					"entries": [
 						"While attuned to this item, you can use it as a Spellbook and an Arcane Focus. In addition, while holding the tome, you can take a {@variantrule Bonus Action|XPHB} to cast a spell you have written in this tome, without expending a spell slot or using any Verbal or Somatic components.",
 						"Once used, this property of the tome can't be used again until the next dawn."
@@ -73066,10 +73119,13 @@
 			"dmg1": "2d6",
 			"dmgType": "N",
 			"firearm": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"This magic ranged weapon resembles a {@item musket|DMG}, but in lieu of any ammunition, it holds a glowing yellow scale from a topaz dragon in its heart.",
-				"The weapon has a normal range of 100 feet and a long range of 300 feet, and it has the two-handed property. It deals {@damage 2d6} necrotic damage on a hit. If this damage reduces a creature or object to 0 hit points, the target is reduced to dust. A creature reduced to dust can be restored to life only by a {@spell true resurrection} or {@spell wish} spell.",
-				"While the weapon is on your person, you can use an action to cast the {@spell disintegrate} spell (save {@dc 18}). Once this property is used, it can't be used again until the next dawn."
+				"The weapon has a normal range of 100 feet and a long range of 300 feet, and it has the two-handed property. It deals {@damage 2d6} necrotic damage on a hit. If this damage reduces a creature or object to 0 hit points, the target is reduced to dust. A creature reduced to dust can be restored to life only by a {@spell true resurrection} or {@spell wish} spell. While the weapon is on your person, you can use an action to cast the {@spell disintegrate} spell (save {@dc 18}).",
+				"Once this property is used, it can't be used again until the next dawn."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -73322,8 +73378,12 @@
 			"rarity": "legendary",
 			"reqAttune": true,
 			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
-				"By using a command word while holding this pearl, you can cast the {@spell Teleport|XPHB} spell from it. Once this property is used, it can't be used again until the next dawn."
+				"By using a command word while holding this pearl, you can cast the {@spell Teleport|XPHB} spell from it.",
+				"Once this property is used, it can't be used again until the next dawn."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -73417,7 +73477,8 @@
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This magic weapon has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While you carry it, you can expend 1 charge to cast {@spell Dominate Beast|XPHB} (save {@dc 15}) from it on a Beast that has a {@variantrule Swim Speed|XPHB}."
+				"This magic weapon has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn.",
+				"While you carry it, you can expend 1 charge to cast {@spell Dominate Beast|XPHB} (save {@dc 15}) from it on a Beast that has a {@variantrule Swim Speed|XPHB}."
 			],
 			"attachedSpells": {
 				"charges": {
@@ -76179,8 +76240,12 @@
 			"curse": true,
 			"weight": 13,
 			"ac": 12,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
-				"This black studded leather armor bears a red sheen. While wearing this armor, you can use a bonus action to summon a projection of yourself in an unoccupied space within 30 feet of yourself. The projection is a translucent copy of you that has immunity to all damage and conditions, and you can make attacks and cast spells with a range other than self as if standing in the projection's space. The projection disappears at the end of your turn. Once you use this bonus action, it can't be used again until the next dawn.",
+				"This black studded leather armor bears a red sheen. While wearing this armor, you can use a bonus action to summon a projection of yourself in an unoccupied space within 30 feet of yourself. The projection is a translucent copy of you that has immunity to all damage and conditions, and you can make attacks and cast spells with a range other than self as if standing in the projection's space. The projection disappears at the end of your turn.",
+				"Once you use this bonus action, it can't be used again until the next dawn.",
 				{
 					"type": "entries",
 					"name": "Curse",
@@ -76543,8 +76608,8 @@
 						{
 							"type": "table",
 							"colStyles": [
-								"col-10",
-								"col-2 text-center"
+								"col-8",
+								"col-4 text-center"
 							],
 							"colLabels": [
 								"Spell",
@@ -76596,7 +76661,8 @@
 			"rechargeAmount": 3,
 			"charges": 3,
 			"entries": [
-				"This wand has 3 charges. While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge and create orchestral music by waving it around. The music can be heard out to 120 feet and ends when you stop waving the wand.",
+				"This wand has 3 charges.",
+				"While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge and create orchestral music by waving it around. The music can be heard out to 120 feet and ends when you stop waving the wand.",
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -76674,7 +76740,8 @@
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge. For 1 minute, you know the direction of the nearest creature {@variantrule Hostile [Attitude]|XPHB|Hostile} to you within 60 feet, but not its distance from you. The wand can sense the presence of {@variantrule Hostile [Attitude]|XPHB|Hostile} creatures that are {@condition Invisible|XPHB}, ethereal, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand.",
+				"This wand has 7 charges.",
+				"While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge. For 1 minute, you know the direction of the nearest creature {@variantrule Hostile [Attitude]|XPHB|Hostile} to you within 60 feet, but not its distance from you. The wand can sense the presence of {@variantrule Hostile [Attitude]|XPHB|Hostile} creatures that are {@condition Invisible|XPHB}, ethereal, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand.",
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -76741,7 +76808,8 @@
 			"rechargeAmount": "{@dice 1d4}",
 			"charges": 4,
 			"entries": [
-				"This wand has 4 charges and regains {@dice 1d4} expended charges daily at dawn. While holding it, you can expend 1 charge to cast {@spell Enthrall|XPHB} (save {@dc 15}) from it."
+				"This wand has 4 charges and regains {@dice 1d4} expended charges daily at dawn.",
+				"While holding it, you can expend 1 charge to cast {@spell Enthrall|XPHB} (save {@dc 15}) from it."
 			],
 			"attachedSpells": {
 				"charges": {
@@ -76824,8 +76892,8 @@
 						{
 							"type": "table",
 							"colStyles": [
-								"col-10",
-								"col-2 text-center"
+								"col-8",
+								"col-4 text-center"
 							],
 							"colLabels": [
 								"Spell",
@@ -76929,7 +76997,8 @@
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast {@spell Fireball|XPHB} (save {@dc 15}) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.",
+				"This wand has 7 charges.",
+				"While holding it, you can expend no more than 3 charges to cast {@spell Fireball|XPHB} (save {@dc 15}) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.",
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -76960,7 +77029,8 @@
 			"rechargeAmount": "{@dice 1d4 + 1}",
 			"charges": 4,
 			"entries": [
-				"This wand has 4 charges and regains {@dice 1d4 + 1} expended charges daily at dawn. While holding it, you can expend 1 charge to cast the {@spell Purify Food and Drink|XPHB} spell from it."
+				"This wand has 4 charges and regains {@dice 1d4 + 1} expended charges daily at dawn.",
+				"While holding it, you can expend 1 charge to cast the {@spell Purify Food and Drink|XPHB} spell from it."
 			],
 			"attachedSpells": {
 				"charges": {
@@ -77037,7 +77107,8 @@
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast {@spell Lightning Bolt|XPHB} (save {@dc 15}) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.",
+				"This wand has 7 charges.",
+				"While holding it, you can expend no more than 3 charges to cast {@spell Lightning Bolt|XPHB} (save {@dc 15}) from it. For 1 charge, you cast the level 3 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.",
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -77114,7 +77185,8 @@
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This wand has 3 charges. While holding it, you can expend 1 charge to cast {@spell Detect Magic|XPHB} from it. The wand regains {@dice 1d3} expended charges daily at dawn."
+				"This wand has 3 charges.",
+				"While holding it, you can expend 1 charge to cast {@spell Detect Magic|XPHB} from it. The wand regains {@dice 1d3} expended charges daily at dawn."
 			],
 			"classFeatures": [
 				"replicate magic item|artificer|efa|2|efa"
@@ -77196,7 +77268,8 @@
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can expend no more than 3 charges to cast {@spell Magic Missile|XPHB} from it. For 1 charge, you cast the level 1 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.",
+				"This wand has 7 charges.",
+				"While holding it, you can expend no more than 3 charges to cast {@spell Magic Missile|XPHB} from it. For 1 charge, you cast the level 1 version of the spell. You can increase the spell's level by 1 for each additional charge you expend.",
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -77542,7 +77615,8 @@
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of yourself. The target must succeed on a {@dc 15} Constitution saving throw or have the {@condition Paralyzed|XPHB} condition for 1 minute. At the end of each of the target's turns, it repeats the save, ending the effect on itself on a success.",
+				"This wand has 7 charges.",
+				"While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of yourself. The target must succeed on a {@dc 15} Constitution saving throw or have the {@condition Paralyzed|XPHB} condition for 1 minute. At the end of each of the target's turns, it repeats the save, ending the effect on itself on a success.",
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -77617,7 +77691,8 @@
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can expend 1 charge to cast {@spell Polymorph|XPHB} (save {@dc 15}) from it.",
+				"This wand has 7 charges.",
+				"While holding it, you can expend 1 charge to cast {@spell Polymorph|XPHB} (save {@dc 15}) from it.",
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -77649,7 +77724,8 @@
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge and create a harmless burst of multicolored light at a point you can see up to 120 feet away. The burst of light is accompanied by a crackling noise that can be heard up to 300 feet away. The light is as bright as a torch flame but lasts only a second.",
+				"This wand has 7 charges.",
+				"While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge and create a harmless burst of multicolored light at a point you can see up to 120 feet away. The burst of light is accompanied by a crackling noise that can be heard up to 300 feet away. The light is as bright as a torch flame but lasts only a second.",
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -77700,8 +77776,15 @@
 			"rechargeAmount": 3,
 			"charges": 3,
 			"entries": [
-				"This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a humanoid you can see within 30 feet of you. The target must succeed on a {@dc 10} Charisma saving throw or be forced to scowl for 1 minute.",
-				"The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand transforms into a {@item wand of smiles|xge}."
+				"This wand has 3 charges.",
+				"While holding it, you can use an action to expend 1 of its charges and target a humanoid you can see within 30 feet of you. The target must succeed on a {@dc 10} Charisma saving throw or be forced to scowl for 1 minute.",
+				{
+					"type": "entries",
+					"name": "Regaining Charges",
+					"entries": [
+						"The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand transforms into a {@item wand of smiles|xge}."
+					]
+				}
 			]
 		},
 		{
@@ -77761,7 +77844,8 @@
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This wand has 3 charges and regains {@dice 1d3} expended charges daily at dawn. While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge, and if a secret door or trap is within 60 feet of you, the wand pulses and points at the one nearest to you."
+				"This wand has 3 charges and regains {@dice 1d3} expended charges daily at dawn.",
+				"While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge, and if a secret door or trap is within 60 feet of you, the wand pulses and points at the one nearest to you."
 			],
 			"classFeatures": [
 				"replicate magic item|artificer|efa|2|efa"
@@ -77786,7 +77870,8 @@
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can cast one of the spells on the following table from it. The table indicates how many charges you must expend to cast the spell.",
+				"This wand has 7 charges.",
+				"While holding it, you can cast one of the spells on the following table from it. The table indicates how many charges you must expend to cast the spell.",
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -77797,8 +77882,8 @@
 				{
 					"type": "table",
 					"colStyles": [
-						"col-10",
-						"col-2 text-center"
+						"col-8",
+						"col-4 text-center"
 					],
 					"colLabels": [
 						"Spell",
@@ -77842,8 +77927,15 @@
 			"rechargeAmount": 3,
 			"charges": 3,
 			"entries": [
-				"This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a humanoid you can see within 30 feet of you. The target must succeed on a {@dc 10} Charisma saving throw or be forced to smile for 1 minute.",
-				"The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand transforms into a {@item wand of scowls|xge}."
+				"This wand has 3 charges.",
+				"While holding it, you can use an action to expend 1 of its charges and target a humanoid you can see within 30 feet of you. The target must succeed on a {@dc 10} Charisma saving throw or be forced to smile for 1 minute.",
+				{
+					"type": "entries",
+					"name": "Regaining Charges",
+					"entries": [
+						"The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand transforms into a {@item wand of scowls|xge}."
+					]
+				}
 			]
 		},
 		{
@@ -77856,7 +77948,8 @@
 			"rechargeAmount": "{@dice 1d10}",
 			"charges": 10,
 			"entries": [
-				"This wand has 10 charges. While holding it, you can take a {@action Magic|XPHB} action to expend up to 3 charges to spray a wave of sharp, spectral teeth in the direction you point it. Each creature in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} makes a {@dc 15} Dexterity saving throw. Roll a number of d8s equal to the number of charges expended. On a failed save, a creature takes Piercing damage equal to the total rolled and has the {@condition Poisoned|XPHB} condition until the start of your next turn; on a successful save, a creature takes half as much damage only.",
+				"This wand has 10 charges.",
+				"While holding it, you can take a {@action Magic|XPHB} action to expend up to 3 charges to spray a wave of sharp, spectral teeth in the direction you point it. Each creature in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} makes a {@dc 15} Dexterity saving throw. Roll a number of d8s equal to the number of charges expended. On a failed save, a creature takes Piercing damage equal to the total rolled and has the {@condition Poisoned|XPHB} condition until the start of your next turn; on a successful save, a creature takes half as much damage only.",
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -77945,7 +78038,8 @@
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can expend 1 charge to cast {@spell Web|XPHB} (save {@dc 13}) from it.",
+				"This wand has 7 charges.",
+				"While holding it, you can expend 1 charge to cast {@spell Web|XPHB} (save {@dc 13}) from it.",
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -78190,7 +78284,8 @@
 			"rechargeAmount": "{@dice 1d6 + 1}",
 			"charges": 7,
 			"entries": [
-				"This wand has 7 charges. While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge while choosing a point within 120 feet of yourself. That location becomes the point of origin of a spell or other magical effect determined by rolling on the Wand of Wonder Effects table. Spells cast from the wand have a save DC of 15. If a spell's maximum range is normally less than 120 feet, it becomes 120 feet when cast from the wand. If an effect has multiple possible subjects, the DM determines randomly which among them are affected.",
+				"This wand has 7 charges.",
+				"While holding it, you can take a {@action Magic|XPHB} action to expend 1 charge while choosing a point within 120 feet of yourself. That location becomes the point of origin of a spell or other magical effect determined by rolling on the Wand of Wonder Effects table. Spells cast from the wand have a save DC of 15. If a spell's maximum range is normally less than 120 feet, it becomes 120 feet when cast from the wand. If an effect has multiple possible subjects, the DM determines randomly which among them are affected.",
 				{
 					"type": "entries",
 					"name": "Regaining Charges",
@@ -78203,8 +78298,8 @@
 					"caption": "Wand of Wonder Effects",
 					"srd52": true,
 					"colStyles": [
-						"col-2 text-center",
-						"col-10"
+						"col-3 text-center",
+						"col-9"
 					],
 					"colLabels": [
 						"1d100",
@@ -78725,9 +78820,10 @@
 				"This pair of boots is made of durable cloth, with the journey rune stitched in golden thread above each heel. While you are wearing this item, your walking speed increases by 10 feet, and you have advantage on Wisdom ({@skill Survival}) checks.",
 				{
 					"type": "entries",
-					"name": "Invoking the Runes",
+					"name": "Invoking the Runes: Once per Dawn",
 					"entries": [
-						"As a bonus action, you can invoke the boots' runes to cast the {@spell expeditious retreat} spell with them. Once the runes have been invoked, they can't be invoked again until the next dawn."
+						"As a bonus action, you can invoke the boots' runes to cast the {@spell expeditious retreat} spell with them.",
+						"Once the runes have been invoked, they can't be invoked again until the next dawn."
 					]
 				}
 			],
@@ -78833,6 +78929,9 @@
 			"basicRules2024": true,
 			"rarity": "legendary",
 			"wondrous": true,
+			"recharge": "special",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.",
 				"You can take a {@action Magic|XPHB} action to unfold the Well of Many Worlds and place it on a solid surface, whereupon it forms a two-way, 6-foot-diameter, circular portal to another world or plane of existence. Each time the item opens a portal, the DM decides where it leads. The portal remains open until a creature within 5 feet of it takes a {@action Magic|XPHB} action to close it by taking hold of the edges of the cloth and folding it up.",
@@ -79799,7 +79898,8 @@
 			"rechargeAmount": "{@dice 1d4}",
 			"charges": 4,
 			"entries": [
-				"These boots have 4 charges and regain {@dice 1d4} expended charges daily at dawn. While wearing the boots, you can take a {@action Magic|XPHB} action to expend 1 charge, gaining a {@variantrule Fly Speed|XPHB} of 30 feet for 1 hour. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land."
+				"These boots have 4 charges and regain {@dice 1d4} expended charges daily at dawn.",
+				"While wearing the boots, you can take a {@action Magic|XPHB} action to expend 1 charge, gaining a {@variantrule Fly Speed|XPHB} of 30 feet for 1 hour. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land."
 			],
 			"optionalfeatures": [
 				"replicate magic item|tce"
@@ -79853,8 +79953,12 @@
 					"fly": 60
 				}
 			},
+			"recharge": "special",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
-				"While wearing this cloak, you can take a {@action Magic|XPHB} action to turn the cloak into a pair of wings on your back. The wings lasts for 1 hour or until you end the effect early as a {@action Magic|XPHB} action. The wings give you a {@variantrule Fly Speed|XPHB} of 60 feet. If you are aloft when the wings disappear, you fall. When the wings disappear, you can't use them again for {@dice 1d12} hours."
+				"While wearing this cloak, you can take a {@action Magic|XPHB} action to turn the cloak into a pair of wings on your back. The wings lasts for 1 hour or until you end the effect early as a {@action Magic|XPHB} action. The wings give you a {@variantrule Fly Speed|XPHB} of 60 feet. If you are aloft when the wings disappear, you fall.",
+				"When the wings disappear, you can't use them again for {@dice 1d12} hours."
 			],
 			"lootTables": [
 				"Arcana - Rare|XDMG"
@@ -80377,7 +80481,7 @@
 				"While you are wearing these gauntlets, your unarmed strike deals an additional {@damage 1d6} force damage on a hit. Additionally, whenever you finish a long rest, choose one of the following damage types: acid, cold, fire, lightning, or poison. You have resistance to the chosen damage type until you finish another long rest.",
 				{
 					"type": "entries",
-					"name": "Invoking the Runes",
+					"name": "Invoking the Runes: Once per Dawn",
 					"entries": [
 						"As a bonus action, you can invoke the gauntlets' runes and summon two enormous spectral fists that envelop the gauntlets and mimic your hand motions. The fists can also launch themselves to strike distant opponents, returning immediately to your space after they hit or miss.",
 						"The fists last for 1 minute or until you are incapacitated. While the spectral fists are active, unarmed strikes you make on your turn have a reach of 30 feet, and when you hit a creature with an opportunity attack made with your unarmed strike, the creature must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength modifier) or have the prone condition.",
@@ -84677,7 +84781,7 @@
 				"While holding this {@item drum|PHB}, you gain a specified bonus to spell attack rolls and to the saving throw DCs of your bard spells and can be used as your spellcasting focus.",
 				{
 					"type": "entries",
-					"name": "Once per Dawn Regaining Inspiration",
+					"name": "Regaining Inspiration: Once per Dawn",
 					"entries": [
 						"As an action, you can play the {@item drum|PHB} to regain one use of your Bardic Inspiration feature.",
 						"This property of the {@item drum|PHB} can't be used again until the next dawn."

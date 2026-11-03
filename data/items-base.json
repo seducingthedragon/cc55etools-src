@@ -11004,7 +11004,31 @@
 			"source": "AU",
 			"entriesTemplate": [
 				"These Magic Gems are treasured gems that have been imbued with magical properties tied to a specific school of magic. They can be used as a {@variantrule Spellcasting Focus|XPHB} for its related school of magic spells, regardless of who is casting it, and they can be used as other forms of material components for other magic-related purposes, such as crafting scrolls, items, rituals, etc.",
-				"This specific gem is a {{item.detail1}} and it is tied to the magic school of {{item.detail2}}."
+				"The most common way these gems are used are for spell-storing. You can expend a spell slot to cast a spell on it that matches its school of magic and it will retain the effects, allowing you to cast that spell from it at a later time. The spell must have a casting time no longer than an {@variantrule Action|XPHB} and cannot be a {@status Concentration|XPHB} spell.",
+				"This specific gem is {{item.detail1}} and it is tied to the magic school of {{item.detail2}}."
+			]
+		},
+		{
+			"name": "Necklace of the Beastly Familiar",
+			"source": "AU",
+			"entriesTemplate": [
+				"This bejeweled necklace is set with {{item.detail1}} and comes with a matching charm that can be worn by your familiar.",
+				{
+					"type": "entries",
+					"name": "Familiar: Once per Dawn",
+					"entries": [
+						"While wearing this necklace, you can cast the {@spell Find Familiar|XPHB} spell from it. Once the necklace has been used to cast this spell, it can't be used to cast it again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Beast Transformation",
+					"entries": [
+						"While your familiar is within 60 feet of you, you can take a {@action Magic|XPHB} action to activate the necklace. Your familiar shape-shifts into a {{item.detail2}} for 10 minutes.",
+						"While your familiar is transformed, its stat block is replaced by the stat block of the Beast form, but it retains its alignment, personality, creature type, {@variantrule Hit Points|XPHB}, and {@variantrule Hit Point Dice|XPHB}. Equipment the familiar is wearing or carrying doesn't change size or shape to match the Beast form, and any equipment that the Beast form can't wear or carry falls to the ground.",
+						"Your familiar gains a number of {@variantrule Temporary Hit Points|XPHB} equal to the {@variantrule Hit Points|XPHB} of the Beast form. These {@variantrule Temporary Hit Points|XPHB} vanish if any remain when the transformation ends. The transformation ends early on your familiar if it has no {@variantrule Temporary Hit Points|XPHB} left."
+					]
+				}
 			]
 		},
 		{
@@ -11019,6 +11043,32 @@
 			"source": "XDMG",
 			"entriesTemplate": [
 				"When you drink this potion, you have {@variantrule Resistance|XPHB} to {{getFullImmRes item.resist}} damage for 1 hour."
+			]
+		},
+		{
+			"name": "Ring of Elemental Command",
+			"source": "XDMG",
+			"entriesTemplate": [
+				"The Ring of Elemental Command {{item.detail1}} is linked to the Elemental Plane of {{item.detail2}}. Every Ring of Elemental Command has the following two properties:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "item",
+							"name": "Elemental Bane",
+							"entries": [
+								"While wearing the ring, you have {@variantrule Advantage|XPHB} on attack rolls against Elementals and they have {@variantrule Disadvantage|XPHB} on attack rolls against you."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Elemental Compulsion",
+							"entries": [
+								"While wearing the ring, you can take a {@action Magic|XPHB} action to try to compel an Elemental you see within 60 feet of yourself. The Elemental makes a {@dc 18} Wisdom saving throw. On a failed save, the Elemental has the {@condition Charmed|XPHB} condition until the start your next turn, and you determine what it does with its move and action on its next turn."
+							]
+						}
+					]
+				}
 			]
 		},
 		{

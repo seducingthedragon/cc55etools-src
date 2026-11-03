@@ -6212,7 +6212,7 @@
 					"The armor is decorated with fish and shell motifs. While wearing this armor, you have a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}.",
 					{
 						"type": "entries",
-						"name": "Underwater Healing",
+						"name": "Underwater Healing: Once per Dawn",
 						"entries": [
 							"In addition, if you start your turn underwater with 0 {@variantrule Hit Points|XPHB}, you immediately regain {@dice 1d4} {@variantrule Hit Points|XPHB}.",
 							"The armor can't heal anyone again until the next dawn."
@@ -6679,12 +6679,23 @@
 				"bonusWeapon": "+2",
 				"charges": "{@dice 1d8 + 1}",
 				"entries": [
-					"You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.",
+					"You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon. The weapon has {@dice 1d8 + 1} charges. ",
 					{
 						"type": "entries",
-						"name": "Life Stealing",
+						"name": "Life Stealing (1 Charge)",
 						"entries": [
-							"The weapon has {@dice 1d8 + 1} charges. When you attack a creature that has fewer than 100 {@variantrule Hit Points|XPHB} with this weapon and roll a 20 on the {@dice d20} for the attack roll, the creature must succeed on a {@dc 15} Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property."
+							"When you attack a creature that has fewer than 100 {@variantrule Hit Points|XPHB} with this weapon and roll a 20 on the {@dice d20} for the attack roll, the creature must succeed on a {@dc 15} Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain.",
+							{
+								"type": "list",
+								"style": "list-hang-notitle",
+								"items": [
+									{
+										"type": "item",
+										"name": "No Regaining Charges",
+										"entry": "When the weapon has no charges remaining, it loses this Life Stealing property."
+									}
+								]
+							}
 						]
 					}
 				],
@@ -7006,10 +7017,10 @@
 				"{@note * This generic variant has the same name and source as the item {@item Plate Armor of Etherealness|XDMG}}.",
 				{
 					"type": "entries",
-					"name": "Etherealness",
+					"name": "Etherealness: Once per Dawn",
 					"entries": [
 						"While you're wearing this armor, you can take a {@action Magic|XPHB} action and use a command word to gain the effect of the {@spell Etherealness|XPHB} spell. The spell ends immediately if you remove the armor or take a {@action Magic|XPHB} action to repeat the command word.",
-					"This property of the armor can't be used again until the next dawn."
+						"This property of the armor can't be used again until the next dawn."
 					]
 				}
 			],
@@ -7027,7 +7038,7 @@
 				"entries": [
 					{
 						"type": "entries",
-						"name": "Etherealness",
+						"name": "Etherealness: Once per Dawn",
 						"entries": [
 							"While you're wearing this armor, you can take a {@action Magic|XPHB} action and use a command word to gain the effect of the {@spell Etherealness|XPHB} spell. The spell ends immediately if you remove the armor or take a {@action Magic|XPHB} action to repeat the command word.",
 							"This property of the armor can't be used again until the next dawn."
@@ -7738,7 +7749,7 @@
 					},
 					{
 						"type": "entries",
-						"name": "Resurgent Power",
+						"name": "Resurgent Power: Once per Dawn",
 						"entries": [
 							"When you finish a {@variantrule Short Rest|XPHB} while wearing this armor, you can choose a number of expended spell slots to recover. The spell slots' levels must have a combined total equal to 3 or less. For example, you can recover one level 3 spell slot or three level 1 spell slots.",
 							"Once used, this property can't be used again until the next dawn."
@@ -7765,7 +7776,8 @@
 				"rechargeAmount": "{@dice 1d3}",
 				"charges": 3,
 				"entries": [
-					"This crossbow is crafted from blackened wood, and its limbs bear pearl inlays depicting constellations. You ignore the loading property with this crossbow. If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target. The crossbow has 3 charges and regains {@dice 1d3} expended charges daily at dawn.",
+					"This crossbow is crafted from blackened wood, and its limbs bear pearl inlays depicting constellations. You ignore the loading property with this crossbow. If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target.",
+					"The crossbow has 3 charges and regains {@dice 1d3} expended charges daily at dawn.",
 					{
 						"type": "entries",
 						"name": "Constellations",
@@ -8144,9 +8156,13 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"bonusWeapon": "+3",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"entries": [
 					"You gain a {=bonusWeapon} bonus to attack and damage rolls made with this magic sword.",
-					"This sword can tear the fabric of reality, creating a temporary rift between planes. You can use your action to choose a different plane of existence from the one you're on and slice through an unoccupied space within 5 feet of yourself, creating a rift to that other plane. The rift can be up to 10 feet high and 10 feet wide, and it lasts for 1 minute. Once this property is used, it can't be used again until the next dawn.",
+					"This sword can tear the fabric of reality, creating a temporary rift between planes. You can use your action to choose a different plane of existence from the one you're on and slice through an unoccupied space within 5 feet of yourself, creating a rift to that other plane. The rift can be up to 10 feet high and 10 feet wide, and it lasts for 1 minute.",
+					"Once this property is used, it can't be used again until the next dawn.",
 					"You can specify a target destination, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second layer of the Nine Hells, and the rift opens in or near that destination (DM's discretion). If you are trying to reach the City of Brass, for example, the rift might appear on the Street of Steel, before the Gate of Ashes, or facing the city from across the Sea of Fire, at the DM's discretion.",
 					"Anything that enters the rift is instantly transported to the other plane, appearing in the unoccupied space nearest to the rift."
 				]
@@ -8328,11 +8344,14 @@
 				"page": 314,
 				"rarity": "common",
 				"reqAttune": true,
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"entries": [
 					"While this weapon is on your person, you understand the non-written communication of all Fey, and they understand yours.",
 					{
 						"type": "entries",
-						"name": "Secret Message",
+						"name": "Secret Message: Once per Dawn",
 						"entries": [
 							"As a {@action Magic|XPHB} action, you can use the weapon to cast {@spell Message|XPHB}.",
 							"Once this property is used, it can't be used again until the next dawn."
@@ -8390,7 +8409,7 @@
 					},
 					{
 						"type": "entries",
-						"name": "Resurgent Warrior",
+						"name": "Resurgent Warrior: Once per Dawn",
 						"entries": [
 							"If you're reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright while holding this sword, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead.",
 							"Once used, this property can't be used again until the next dawn."
@@ -8427,6 +8446,9 @@
 				"rarity": "very rare",
 				"reqAttune": true,
 				"bonusAc": "+1",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"entries": [
 					"You gain a {=bonusAc} bonus to {@variantrule Armor Class|XPHB} while wearing this armor. The armor is enchanted to look like a scholarly or priestly robe.",
 					{
@@ -8438,7 +8460,7 @@
 					},
 					{
 						"type": "entries",
-						"name": "Grasping Tendrils",
+						"name": "Grasping Tendrils: Once per Dawn",
 						"entries": [
 							"As a {@action Magic|XPHB} action, you can activate the armor, causing the hems of its sleeves and body to extend into ribbonlike tendrils.",
 							"As a {@variantrule Bonus Action|XPHB} while the armor is active, you can force each creature of your choice in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you to make a {@dc 15} Strength saving throw. On a failed save, a creature has the {@condition Grappled|XPHB} condition (escape {@dc 15}) and is pulled up to 20 feet straight toward you. The armor remains active for 1 minute or until you take another {@action Magic|XPHB} action to deactivate it.",
@@ -8883,8 +8905,17 @@
 						"type": "entries",
 						"name": "Spellcasting",
 						"entries": [
-							"The weapon has 5 charges. You can use a bonus action and expend 1 or more of its charges to cast one of the following spells (save {@dc 16}): {@spell Command} (1 charge), {@spell Zone of Truth} (2 charges), {@spell Compulsion} (4 charges), {@spell Banishment} (4 charges), or {@spell Dominate Person} (5 charges).",
-							"The weapon regains {@dice 1d4} expended charges daily at dawn."
+							"The weapon has 5 charges and regains {@dice 1d4} expended charges daily at dawn. You can use a bonus action and expend 1 or more of its charges to cast one of the following spells (save {@dc 16}):",
+							{
+								"type": "list",
+								"items": [
+									"{@spell Command} (1 charge)",
+									"{@spell Zone of Truth} (2 charges)",
+									"{@spell Compulsion} (4 charges)",
+									"{@spell Banishment} (4 charges)",
+									"{@spell Dominate Person} (5 charges)"
+								]
+							}
 						]
 					}
 				],
@@ -9039,7 +9070,7 @@
 					"While wearing this armor, you have advantage on Dexterity ({@skill Acrobatics}) checks and Dexterity saving throws as your movements are bolstered by gentle currents of wind.",
 					{
 						"type": "entries",
-						"name": "Invoking the Rune",
+						"name": "Invoking the Rune: Once per Dawn",
 						"entries": [
 							"As an action, you can invoke the armor's rune to cast the {@spell wind wall} spell (save {@dc 15}) with it. Once the rune has been invoked, it can't be invoked again until the next dawn."
 						]
