@@ -3431,7 +3431,13 @@
 				"charges": 4,
 				"entries": [
 					"This magic weapon grants a {=bonusWeapon} bonus to attack and damage rolls made with it. While holding it, you can take a {@variantrule Bonus Action|XPHB} to cause it to shed {@variantrule Bright Light|XPHB} in a 30-foot radius and {@variantrule Dim Light|XPHB} for an additional 30 feet. You can extinguish the light as a {@variantrule Bonus Action|XPHB}.",
-					"The weapon has 4 charges. You can take a {@variantrule Reaction|XPHB} immediately after being hit by an attack roll to expend 1 of the weapon's charges and force the attacker to make a DC 15 Constitution saving throw. On a failed save, the attacker has the {@condition Blinded|XPHB} condition until the end of its next turn. The weapon regains {@dice 1d4} expended charges daily at dawn."
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The weapon has 4 charges. You can take a {@variantrule Reaction|XPHB} immediately after being hit by an attack roll to expend 1 of the weapon's charges and force the attacker to make a DC 15 Constitution saving throw. On a failed save, the attacker has the {@condition Blinded|XPHB} condition until the end of its next turn. The weapon regains {@dice 1d4} expended charges daily at dawn."
+						]
+					}
 				],
 				"light": [
 					{
@@ -5425,8 +5431,14 @@
 				"charges": 5,
 				"entries": [
 					"You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.",
-					"The weapon has 5 charges. You can expend 1 charge and make a ranged attack with the weapon, hurling it as if it had {@itemProperty T|XPHB|Thrown} with a normal range of 20 feet and a long range of 60 feet.",
-					"If the attack hits, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a {@dc 17} Constitution saving throw or have the {@condition Stunned|XPHB} condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains {@dice 1d4 + 1} expended charges daily at dawn.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The weapon has 5 charges. You can expend 1 charge and make a ranged attack with the weapon, hurling it as if it had {@itemProperty T|XPHB|Thrown} with a normal range of 20 feet and a long range of 60 feet.",
+							"If the attack hits, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a {@dc 17} Constitution saving throw or have the {@condition Stunned|XPHB} condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains {@dice 1d4 + 1} expended charges daily at dawn."
+						]
+					},
 					{
 						"type": "entries",
 						"name": "Giant's Bane",
@@ -6064,7 +6076,7 @@
 					"You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. While the weapon is on your person, you also gain a {=bonusSavingThrow} bonus to saving throws.",
 					{
 						"type": "entries",
-						"name": "Luck",
+						"name": "Luck: Once per Dawn",
 						"entries": [
 							"If the weapon is on your person, you can call on its luck (no action required) to reroll one failed {@variantrule D20 Test|XPHB} if you don't have the {@condition Incapacitated|XPHB} condition. You must use the second roll.",
 							"Once used, this property can't be used again until the next dawn."
@@ -6072,7 +6084,7 @@
 					},
 					{
 						"type": "entries",
-						"name": "Wish",
+						"name": "Wish (1 Charge)",
 						"entries": [
 							"The weapon has {@dice 1d3} charges. While holding it, you can expend 1 charge and cast {@spell Wish|XPHB} from it.",
 							"Once used, this property can't be used again until the next dawn. The weapon loses this property if it has no charges."

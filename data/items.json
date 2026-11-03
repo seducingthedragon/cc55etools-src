@@ -30754,7 +30754,14 @@
 			"rechargeAmount": "{@dice 1d3}",
 			"charges": 3,
 			"entries": [
-				"This magic hammer has 3 charges. As a bonus action, you can expend 1 charge and slam this hammer on the ground, creating a 15-foot-radius circle of glowing runes centered on the point of impact. While you're inside that area, your hammer glows with matching runes, and you gain a +3 bonus to attack and damage rolls made with this hammer. The rune circle disappears after 1 minute, when you create another rune circle, or when you dismiss the rune circle as a bonus action. This hammer regains {@dice 1d3} expended charges daily at dawn."
+				"This magic hammer has 3 charges. As a bonus action, you can expend 1 charge and slam this hammer on the ground, creating a 15-foot-radius circle of glowing runes centered on the point of impact. While you're inside that area, your hammer glows with matching runes, and you gain a +3 bonus to attack and damage rolls made with this hammer. The rune circle disappears after 1 minute, when you create another rune circle, or when you dismiss the rune circle as a bonus action.",
+				{
+					"type": "entries",
+					"name": "Regaining Charges",
+					"entries": [
+						"This hammer regains {@dice 1d3} expended charges daily at dawn."
+					]
+				}
 			],
 			"hasFluffImages": true
 		},
@@ -31160,7 +31167,8 @@
 			"sentient": true,
 			"entries": [
 				"This golden harp is sculpted in the image of the god Iallanis, depicted as a young cloud giant woman. When a creature comes within 5 feet of the harp, the instrument animates and is capable of speaking, singing, and playing by itself.",
-				"Whenever you attempt to attune to the harp, you must first make either a {@dc 15} Charisma ({@skill Performance}) check or a {@dc 20} Charisma ({@skill Persuasion}) check to convince the harp that you are worthy, attuning to the harp on a success. If you fail, you can't attempt to attune to the harp again until the next dawn. Once you have successfully attuned to the harp, the harp resizes to suit you.",
+				"Whenever you attempt to attune to the harp, you must first make either a {@dc 15} Charisma ({@skill Performance}) check or a {@dc 20} Charisma ({@skill Persuasion}) check to convince the harp that you are worthy, attuning to the harp on a success.",
+				"If you fail, you can't attempt to attune to the harp again until the next dawn. Once you have successfully attuned to the harp, the harp resizes to suit you.",
 				{
 					"type": "entries",
 					"name": "Stalwart Song",
@@ -31170,14 +31178,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Feast of Plenty",
+					"name": "Feast of Plenty: Once every {@dice 1d10 + 10} Days",
 					"entries": [
 						"If you spend 10 minutes playing the harp, you can cast the {@spell heroes' feast} spell from it. Once this property is used, it can't be used again until {@dice 1d10 + 10} days have passed."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Soothing Melody",
+					"name": "Soothing Melody: 5 Times per Dawn",
 					"entries": [
 						"As an action, you can use the harp to cast the {@spell calm emotions} spell (save {@dc 19}). When the spell is cast using the harp, its duration increases to 1 hour, provided you maintain {@status concentration} on the spell. This property can be used five times, and it regains all uses at dawn."
 					]
@@ -31380,6 +31388,9 @@
 			"focus": [
 				"Wizard"
 			],
+			"recharge": "restShort",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"This pointed hat has the following properties.",
 				{
@@ -31391,7 +31402,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Unknown Spell",
+					"name": "Unknown Spell: Once per Short or Long Rest",
 					"entries": [
 						"While holding the hat, you can try to cast a level 1+ spell you don't know. The spell must be on the Wizard spell list, it must be of a level you can cast, and it can't have Material components costing more than 1,000 GP. Once you decide on the spell, you must expend a spell slot of the spell's level. Then, to determine whether you cast the spell, make an Intelligence ({@skill Arcana|XPHB}) check ({@dc 10} plus the spell's level). On a successful check, you cast the spell using its normal casting time, and you can't use this property again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. On a failed check, you fail to cast the spell and a random effect occurs instead, determined by rolling on the following table.",
 						"Any spell you cast from the hat uses your spell save DC and spell attack bonus.",
@@ -31480,7 +31491,14 @@
 			"rechargeAmount": 3,
 			"charges": 3,
 			"entries": [
-				"This hat has 3 charges. While holding the hat, you can take a {@action Magic|XPHB} action to expend 1 charge and summon your choice of a {@creature Bat|XMM}, a {@creature Frog|XMM}, or a {@creature Rat|XMM}. The summoned creature magically appears in the hat and tries to get away from you as quickly as possible. The creature is {@variantrule Indifferent [Attitude]|XPHB|Indifferent} toward you and other creatures, and it isn't under your control. It behaves as an ordinary creature of its kind and disappears after 1 hour or when it drops to 0 {@variantrule Hit Points|XPHB}. The hat regains all expended charges daily at dawn."
+				"This hat has 3 charges. While holding the hat, you can take a {@action Magic|XPHB} action to expend 1 charge and summon your choice of a {@creature Bat|XMM}, a {@creature Frog|XMM}, or a {@creature Rat|XMM}. The summoned creature magically appears in the hat and tries to get away from you as quickly as possible. The creature is {@variantrule Indifferent [Attitude]|XPHB|Indifferent} toward you and other creatures, and it isn't under your control. It behaves as an ordinary creature of its kind and disappears after 1 hour or when it drops to 0 {@variantrule Hit Points|XPHB}.",
+				{
+					"type": "entries",
+					"name": "Regaining Charges",
+					"entries": [
+						"The hat regains all expended charges daily at dawn."
+					]
+				}
 			],
 			"lootTables": [
 				"Arcana - Common|XDMG"
@@ -31801,12 +31819,18 @@
 			"entries": [
 				"This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: {@spell antipathy/sympathy}, {@spell charm person}, {@spell dominate person}, {@spell enthrall}, {@spell hypnotic pattern}, {@spell modify memory}, and {@spell suggestion}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
-				"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
-					"type": "list",
-					"items": [
-						"If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the enchantment school.",
-						"When you cast an enchantment spell, you can expend 1 charge to impose disadvantage on the first saving throw one target makes against the spell."
+					"type": "entries",
+					"name": "Charges",
+					"entries": [
+						"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
+						{
+							"type": "list",
+							"items": [
+								"{@i (1 Charge.)} If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the enchantment school.",
+								"{@i (1 Charge.)} When you cast an enchantment spell, you can expend 1 charge to impose disadvantage on the first saving throw one target makes against the spell."
+							]
+						}
 					]
 				}
 			],
@@ -32936,7 +32960,14 @@
 			"rechargeAmount": "{@dice 1d6 + 4}",
 			"charges": 10,
 			"entries": [
-				"This belt pouch appears empty and has 10 charges. While holding the pouch, you can take a {@action Magic|XPHB} action to expend 1 charge, name any nonmagical food seasoning (such as salt, pepper, saffron, or cilantro), and remove a pinch of the desired seasoning from the pouch. A pinch is enough to season a single meal. The pouch regains {@dice 1d6 + 4} expended charges daily at dawn."
+				"This belt pouch appears empty and has 10 charges. While holding the pouch, you can take a {@action Magic|XPHB} action to expend 1 charge, name any nonmagical food seasoning (such as salt, pepper, saffron, or cilantro), and remove a pinch of the desired seasoning from the pouch. A pinch is enough to season a single meal.",
+				{
+					"type": "entries",
+					"name": "Regaining Charges",
+					"entries": [
+						"The pouch regains {@dice 1d6 + 4} expended charges daily at dawn."
+					]
+				}
 			],
 			"lootTables": [
 				"Arcana - Common|XDMG",
@@ -33605,6 +33636,9 @@
 			"type": "INS|XPHB",
 			"rarity": "rare",
 			"wondrous": true,
+			"recharge": "week",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Horn of Valhalla|XDMG}",
@@ -33650,6 +33684,9 @@
 			"type": "INS|XPHB",
 			"rarity": "very rare",
 			"wondrous": true,
+			"recharge": "week",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Horn of Valhalla|XDMG}",
@@ -33698,6 +33735,9 @@
 			"type": "INS|XPHB",
 			"rarity": "legendary",
 			"wondrous": true,
+			"recharge": "week",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Horn of Valhalla|XDMG}",
@@ -33748,6 +33788,9 @@
 			"type": "INS|XPHB",
 			"rarity": "rare",
 			"wondrous": true,
+			"recharge": "week",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Horn of Valhalla|XDMG}",
@@ -34291,9 +34334,13 @@
 			"page": 61,
 			"rarity": "uncommon",
 			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"entries": [
 				"This deck of cards is decorated with geometric shapes that have a protective motif. While you're holding the deck, you can use an action to shuffle it and cause the cards to deal themselves out and transform into a shelter made of cards. The shelter can be shaped however you desire, but it must fit in a 40-foot cube centered on a point within 30 feet of you. The shelter has one door and up to four windows, and only you can open or close them. It has a floor and a roof, and it maintains a comfortable temperature inside.",
-				"The shelter has AC 15, 50 hit points, and immunity to poison and psychic damage. The shelter lasts for 24 hours, until you dismiss it as an action, or until it is reduced to 0 hit points. When the shelter's duration ends, it transforms back into a deck of cards and appears in your hand. Once the deck has transformed into a shelter, it can't be used again until the next dawn."
+				"The shelter has AC 15, 50 hit points, and immunity to poison and psychic damage. The shelter lasts for 24 hours, until you dismiss it as an action, or until it is reduced to 0 hit points. When the shelter's duration ends, it transforms back into a deck of cards and appears in your hand.",
+				"Once the deck has transformed into a shelter, it can't be used again until the next dawn."
 			]
 		},
 		{
@@ -35276,7 +35323,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Instrument of the Bards|XDMG}",
-				"You can play Anstruth Harp to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Cure Wounds|XPHB} (level 5), {@spell Ice Storm|XPHB}, and {@spell Wall of Thorns|XPHB}. Once the Anstruth Harp has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
+				"You can play Anstruth Harp to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Cure Wounds|XPHB} (level 5), {@spell Ice Storm|XPHB}, and {@spell Wall of Thorns|XPHB}.",
+				"Once the Anstruth Harp has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -35359,7 +35407,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Instrument of the Bards|XDMG}",
-				"You can play the Canaith Mandolin to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Cure Wounds|XPHB} (level 3), {@spell Dispel Magic|XPHB}, and {@spell Protection from Energy|XPHB} (Lightning damage only). Once the Canaith Mandolin has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
+				"You can play the Canaith Mandolin to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Cure Wounds|XPHB} (level 3), {@spell Dispel Magic|XPHB}, and {@spell Protection from Energy|XPHB} (Lightning damage only).",
+				"Once the Canaith Mandolin has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -35445,7 +35494,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Instrument of the Bards|XDMG}",
-				"You can play the Cli {@item Lyre|XPHB} to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Stone Shape|XPHB}, {@spell Wall of Fire|XPHB}, and {@spell Wind Wall|XPHB}. Once the Cli {@item Lyre|XPHB} has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
+				"You can play the Cli {@item Lyre|XPHB} to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Stone Shape|XPHB}, {@spell Wall of Fire|XPHB}, and {@spell Wind Wall|XPHB}.",
+				"Once the Cli {@item Lyre|XPHB} has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -35533,7 +35583,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Instrument of the Bards|XDMG}",
-				"You can play the Doss {@item Lute|XPHB} to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Animal Friendship|XPHB}, {@spell Protection from Energy|XPHB} (Fire damage only), and {@spell Protection from Poison|XPHB}. Once the Doss {@item Lute|XPHB} has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
+				"You can play the Doss {@item Lute|XPHB} to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Animal Friendship|XPHB}, {@spell Protection from Energy|XPHB} (Fire damage only), and {@spell Protection from Poison|XPHB}.",
+				"Once the Doss {@item Lute|XPHB} has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -35614,7 +35665,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Instrument of the Bards|XDMG}",
-				"You can play the Fochlucan Bandore to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Entangle|XPHB}, {@spell Faerie Fire|XPHB}, {@spell Shillelagh|XPHB}, and {@spell Speak with Animals|XPHB}. Once the Fochlucan Bandore has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
+				"You can play the Fochlucan Bandore to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Entangle|XPHB}, {@spell Faerie Fire|XPHB}, {@spell Shillelagh|XPHB}, and {@spell Speak with Animals|XPHB}.",
+				"Once the Fochlucan Bandore has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -35695,7 +35747,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Instrument of the Bards|XDMG}",
-				"You can play the Mac-Fuirmidh Cittern to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Barkskin|XPHB}, {@spell Cure Wounds|XPHB}, and {@spell Fog Cloud|XPHB}. Once the Mac-Fuirmidh Cittern has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
+				"You can play the Mac-Fuirmidh Cittern to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Barkskin|XPHB}, {@spell Cure Wounds|XPHB}, and {@spell Fog Cloud|XPHB}.",
+				"Once the Mac-Fuirmidh Cittern has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -35781,7 +35834,8 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Instrument of the Bards|XDMG}",
-				"You can play the Ollamh Harp to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Confusion|XPHB}, {@spell Control Weather|XPHB}, and {@spell Fire Storm|XPHB}. Once the Ollamh Harp has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
+				"You can play the Ollamh Harp to cast one of the following spells: {@spell Fly|XPHB}, {@spell Invisibility|XPHB}, {@spell Levitate|XPHB}, {@spell Protection from Evil and Good|XPHB}, {@spell Confusion|XPHB}, {@spell Control Weather|XPHB}, and {@spell Fire Storm|XPHB}.",
+				"Once the Ollamh Harp has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC."
 			],
 			"attachedSpells": {
 				"daily": {
@@ -37566,6 +37620,7 @@
 			"name": "Jester's Mask",
 			"source": "BMT",
 			"page": 36,
+			"type": "SCF",
 			"rarity": "legendary",
 			"reqAttune": "by a bard, sorcerer, or warlock",
 			"reqAttuneTags": [
@@ -37580,6 +37635,11 @@
 				}
 			],
 			"wondrous": true,
+			"focus": [
+				"Bard",
+				"Sorcerer",
+				"Warlock"
+			],
 			"bonusSpellAttack": "+3",
 			"bonusSpellSaveDc": "+3",
 			"entries": [
@@ -37597,14 +37657,15 @@
 						},
 						{
 							"type": "item",
-							"name": "Marvelous Escape",
+							"name": "Marvelous Escape: Once per Dawn",
 							"entries": [
-								"When a creature hits you with an attack roll, you can use your reaction to disappear in a puff of smoke and colorful sparkles. You take no damage and instead teleport, along with anything you are wearing or carrying, to an unoccupied space you can see within 30 feet of yourself. Once this reaction is used, it can't be used again until the next dawn."
+								"When a creature hits you with an attack roll, you can use your reaction to disappear in a puff of smoke and colorful sparkles. You take no damage and instead teleport, along with anything you are wearing or carrying, to an unoccupied space you can see within 30 feet of yourself.",
+								"Once this reaction is used, it can't be used again until the next dawn."
 							]
 						},
 						{
 							"type": "item",
-							"name": "Topsy-Turvy",
+							"name": "Topsy-Turvy: Once per Dawn",
 							"entries": [
 								"When you roll a 1 on a {@dice d20}, you can treat the roll as if you rolled a 20 instead. Once this property is used, it can't be used again until the next dawn."
 							]
@@ -39200,12 +39261,18 @@
 			"entries": [
 				"With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: {@spell animate dead}, {@spell circle of death}, {@spell false life}, {@spell finger of death}, {@spell speak with dead}, {@spell summon undead|TCE}, and {@spell vampiric touch}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
-				"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
 				{
-					"type": "list",
-					"items": [
-						"If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the necromancy school.",
-						"As an action, you can expend 1 charge to take on a semblance of undeath for 10 minutes. For the duration, you take on a deathly appearance, and undead creatures are indifferent to you, unless you have damaged them. You also appear undead to all outward inspection and to spells used to determine the target's status. The effect ends if you deal damage or force a creature to make a saving throw."
+					"type": "entries",
+					"name": "Charges",
+					"entries": [
+						"The book has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
+						{
+							"type": "list",
+							"items": [
+								"{@i (1 Charge.)} If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the necromancy school.",
+								"{@i (1 Charge.)} As an action, you can expend 1 charge to take on a semblance of undeath for 10 minutes. For the duration, you take on a deathly appearance, and undead creatures are indifferent to you, unless you have damaged them. You also appear undead to all outward inspection and to spells used to determine the target's status. The effect ends if you deal damage or force a creature to make a saving throw."
+							]
+						}
 					]
 				}
 			],
@@ -39662,20 +39729,30 @@
 			"entries": [
 				"This ivory longbow is inscribed with a prayer to the god Hiatea, the runes of which are entwined with gilded engravings of wheat stalks and deer antlers.",
 				"You gain a +3 bonus to attack and damage rolls made with this weapon. If you load no ammunition in the weapon, it produces its own, automatically creating one magic arrow when you pull back the string. The arrow created by the bow vanishes the instant after it hits or misses a target.",
-				"The bow has 8 charges for the following properties, which you can use while wielding the bow. The bow regains {@dice 1d4 + 1} charges daily at dawn.",
 				{
 					"type": "entries",
-					"name": "Curative Arrow",
+					"name": "Charges",
 					"entries": [
-						"When you take the {@action Attack} action using the bow, you can expend 1 charge to replace one of your attacks with a blazing arrow of curative magic, which automatically hits one creature you can see within 150 feet of you. The target can then immediately spend and roll one of its unspent Hit Dice and regain a number of hit points equal to the roll plus your Wisdom modifier (minimum of +1).",
-						"If the target has no unspent Hit Dice remaining, nothing happens. You can use a curative arrow only once per turn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spellcasting",
-					"entries": [
-						"While holding the bow, you can use an action to expend 1 or more of its charges to cast one of the following spells from it (save {@dc 18}): {@spell create food and water} (1 charge), {@spell warding bond} (2 charges), {@spell guardian of faith} (3 charges)."
+						"The bow has 8 charges for the following properties, which you can use while wielding the bow. The bow regains {@dice 1d4 + 1} charges daily at dawn.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Curative Arrow (1 Charge)",
+									"entries": [
+										"When you take the {@action Attack} action using the bow, you can expend 1 charge to replace one of your attacks with a blazing arrow of curative magic, which automatically hits one creature you can see within 150 feet of you. The target can then immediately spend and roll one of its unspent Hit Dice and regain a number of hit points equal to the roll plus your Wisdom modifier (minimum of +1).",
+										"If the target has no unspent Hit Dice remaining, nothing happens. You can use a curative arrow only once per turn."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Spellcasting (Varies)",
+									"entry": "While holding the bow, you can use an action to expend 1 or more of its charges to cast one of the following spells from it (save {@dc 18}): {@spell create food and water} (1 charge), {@spell warding bond} (2 charges), {@spell guardian of faith} (3 charges)."
+								}
+							]
+						}
 					]
 				}
 			],
