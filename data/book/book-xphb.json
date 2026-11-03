@@ -9559,7 +9559,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"{@item Seladrin Chain, Vicious|XPHB} {@i Cultural (Elven)}",
-										"{@dice 1d8} Slashing",
+										"{@dice 1d6} Slashing",
 										"{@itemProperty F|XPHB|Finesse}, {@itemProperty FL|XPHB|Flourish}, {@itemProperty L|XPHB|Light}, {@itemProperty R|XPHB|Reach}, {@itemProperty 2H|XPHB|Two-Handed}, Special",
 										"{@itemMastery Bleeder}, {@itemMastery Graze}, {@itemMastery Shield}, {@itemMastery Topple}",
 										"3 lb.",
