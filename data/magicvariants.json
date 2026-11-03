@@ -1446,8 +1446,20 @@
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
-					"While wearing this armor, you can use your reaction to give yourself advantage on a saving throw you make against a spell. Once this property is used, it can't be used again until the next dawn.",
-					"In addition, while you wear this armor, you can use it to cast {@spell Antimagic Field}, requiring no spell components. Once this property is used, it can't be used again until the next dawn."
+					{
+						"type": "entries",
+						"name": "Reaction Advantage: Once per Dawn",
+						"entries": [
+							"While wearing this armor, you can use your reaction to give yourself advantage on a saving throw you make against a spell. Once this property is used, it can't be used again until the next dawn."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Cast Spell: Once per Dawn",
+						"entries": [
+							"In addition, while you wear this armor, you can use it to cast {@spell Antimagic Field}, requiring no spell components. Once this property is used, it can't be used again until the next dawn."
+						]
+					}
 				],
 				"attachedSpells": {
 					"daily": {
@@ -1814,8 +1826,12 @@
 				"source": "BMT",
 				"page": 65,
 				"rarity": "uncommon",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"entries": [
-					"While wearing this armor, you can take a bonus action to make the armor emit poisonous spores, which fill a 10-foot-radius sphere centered on yourself. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or have the poisoned condition until the end of your next turn. Once this property is used, it can't be used again until the next dawn."
+					"While wearing this armor, you can take a bonus action to make the armor emit poisonous spores, which fill a 10-foot-radius sphere centered on yourself. Each creature in that area must succeed on a {@dc 15} Constitution saving throw or have the poisoned condition until the end of your next turn.",
+					"Once this property is used, it can't be used again until the next dawn."
 				]
 			},
 			"hasFluffImages": true
@@ -2195,15 +2211,19 @@
 				"source": "BGG",
 				"page": 111,
 				"rarity": "very rare",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"reqAttune": true,
 				"entries": [
 					"Set in the center of this armor's chest is a citrine engraved with the shield rune.",
 					"While wearing this armor, your hit point maximum increases by an amount equal to 10 + your level.",
 					{
 						"type": "entries",
-						"name": "Invoking the Rune",
+						"name": "Invoking the Rune: Once per Dawn",
 						"entries": [
-							"As an action, you can invoke the armor's rune to cast the {@spell beacon of hope} spell with it; the spell has a duration of 1 minute and doesn't require {@status concentration}. Once the rune has been invoked, it can't be invoked again until the next dawn."
+							"As an action, you can invoke the armor's rune to cast the {@spell beacon of hope} spell with it; the spell has a duration of 1 minute and doesn't require {@status concentration}.",
+							"Once the rune has been invoked, it can't be invoked again until the next dawn."
 						]
 					}
 				],
@@ -2238,11 +2258,28 @@
 				"source": "BMT",
 				"page": 65,
 				"rarity": "uncommon",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"reqAttune": true,
 				"entries": [
-					"While wearing this armor, you can use it to cast either {@spell Speak with Dead} or {@spell Animate Dead}. Once the armor has cast a spell in this way, it can't cast either spell until the next dawn.",
-					"Your soul keeps this armor together. If you die while you are attuned to the armor, the armor is destroyed."
-				]
+					"Your soul keeps this armor together. If you die while you are attuned to the armor, the armor is destroyed.",
+					{
+						"type": "entries",
+						"name": "Spells: Once per Dawn",
+						"entries": [
+							"While wearing this armor, you can use it to cast either {@spell Speak with Dead} or {@spell Animate Dead}. Once the armor has cast a spell in this way, it can't cast either spell until the next dawn."
+						]
+					}
+				],
+				"attachedSpells": {
+					"daily": {
+						"1e": [
+							"animate dead",
+							"speak with dead"
+						]
+					}
+				}
 			},
 			"hasFluffImages": true
 		},
@@ -2466,7 +2503,13 @@
 				"charges": 5,
 				"entries": [
 					"This armor has 5 charges. While you wear it, you can use a bonus action to expend 1 or more charges to cast one of the following spells from the armor, targeting yourself: {@spell Jump} (1 charge) or {@spell Levitate} (2 charges).",
-					"This armor regains {@dice 1d4 + 1} expended charges daily at dawn."
+					{
+						"type": "entries",
+						"name": "Regaining Charges",
+						"entries": [
+							"This armor regains {@dice 1d4 + 1} expended charges daily at dawn."
+						]
+					}
 				],
 				"attachedSpells": {
 					"charges": {
@@ -2564,9 +2607,28 @@
 				"bonusWeapon": "+3",
 				"entries": [
 					"This weapon is decorated with dragon heads, claws, wings, scales, or Draconic letters. When it steeps in a dragon's hoard, it absorbs the energy of the dragon's breath weapon and deals damage of that type with its special properties.",
-					"Whenever you roll a 20 on your attack roll with this weapon, each creature of your choice within 5 feet of the target takes 5 damage of the type dealt by the dragon's breath weapon.",
-					"You gain a {=bonusWeapon} bonus to attack and damage rolls made using the weapon. On a hit, the weapon deals an extra {@damage 3d6} damage of the type dealt by the dragon's breath weapon.",
-					"As an action, you can unleash a 60-foot cone of destructive energy from the weapon. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking {@damage 12d6} damage of the type dealt by the dragon's breath weapon on a failed save, or half as much damage on a successful one. Once this action is used, it can't be used again until the next dawn."
+					{
+						"type": "entries",
+						"name": "Slumbering",
+						"entries": [
+							"Whenever you roll a 20 on your attack roll with this weapon, each creature of your choice within 5 feet of the target takes 5 damage of the type dealt by the dragon's breath weapon."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Stirring",
+						"entries": [
+							"You gain a {=bonusWeapon} bonus to attack and damage rolls made using the weapon. On a hit, the weapon deals an extra {@damage 3d6} damage of the type dealt by the dragon's breath weapon."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Ascendant: Once per Dawn",
+						"entries": [
+							"As an action, you can unleash a 60-foot cone of destructive energy from the weapon. Each creature in that area must make a {@dc 18} Dexterity saving throw, taking {@damage 12d6} damage of the type dealt by the dragon's breath weapon on a failed save, or half as much damage on a successful one. Once this action is used, it can't be used again until the next dawn.",
+							"{@i This property is an upgraded version of the Wakened property within the {@item Wakened Dragon's Wrath Weapon|FTD|Wakened weapon}.}"
+						]
+					}
 				]
 			}
 		},
@@ -2918,12 +2980,15 @@
 				"rarity": "very rare",
 				"reqAttune": true,
 				"bonusWeaponDamage": "+1",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"entries": [
 					"The hilt of this sword bears a carnelian engraved with the blood rune.",
 					"You can add your Constitution modifier (minimum of {=bonusWeaponDamage}) to the damage rolls of attacks made with this weapon.",
 					{
 						"type": "entries",
-						"name": "Invoking the Rune",
+						"name": "Invoking the Rune: Once per Dawn",
 						"entries": [
 							"When you target a creature with an attack using this weapon, you can invoke the sword's rune, causing it to flare with crimson light and infusing your attack with bloodthirsty precision. You then spend and roll one of your unspent Hit Dice and add the number rolled to the attack roll. You can choose to invoke the rune after rolling the {@dice d20}.",
 							"If this attack hits, you can also spend and roll any number of your unspent Hit Dice and add the total rolled to the weapon's damage.",
@@ -3080,7 +3145,13 @@
 				"charges": 4,
 				"entries": [
 					"The outside surface and internal joints of this armor whir with interlocking gears, drawing on the orderly magic of the plane of Mechanus.",
-					"The armor has 4 charges. If you make a {@dice d20} roll while wearing this armor, you can expend 1 charge to change the number rolled to a 10. The armor regains {@dice 1d4} expended charges daily at dawn."
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The armor has 4 charges. If you make a {@dice d20} roll while wearing this armor, you can expend 1 charge to change the number rolled to a 10. The armor regains {@dice 1d4} expended charges daily at dawn."
+						]
+					}
 				]
 			}
 		},
@@ -3205,9 +3276,15 @@
 				"rechargeAmount": "{@dice 1d3}",
 				"charges": 3,
 				"entries": [
-					"This magic sword's blade is fashioned from a horn or spine from a crystal dragon. When you hit with an attack roll using this sword, the target takes an extra {@damage 1d8} radiant damage.",
-					"The sword has 3 charges and regains {@dice 1d3} expended charges daily at dawn. When you hit a creature with an attack roll using the sword, you can expend 1 charge to regain a number of hit points equal to the extra radiant damage the sword dealt.",
-					"While you're holding the sword, you can use a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet, to cause it to shed dim light in a 10-foot radius, or to douse the light."
+					"This magic sword's blade is fashioned from a horn or spine from a crystal dragon. While you're holding the sword, you can use a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet, to cause it to shed dim light in a 10-foot radius, or to douse the light.",
+					"When you hit with an attack roll using this sword, the target takes an extra {@damage 1d8} radiant damage.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The sword has 3 charges and regains {@dice 1d3} expended charges daily at dawn. When you hit a creature with an attack roll using the sword, you can expend 1 charge to regain a number of hit points equal to the extra radiant damage the sword dealt."
+						]
+					}
 				],
 				"light": [
 					{
@@ -4105,8 +4182,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this armor is a cantrip. The cantrip is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=0} school of magic. The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 13, and its attack bonus is {@hit 5}."
+					"Bound into this armor is a cantrip. The cantrip is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=0} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 13, and its attack bonus is {@hit 5}."
+						]
+					}
 				],
 				"spellScrollLevel": 0
 			}
@@ -4135,8 +4219,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this armor is a level 1 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=1} school of magic. The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 13, and its attack bonus is {@hit 5}."
+					"Bound into this armor is a level 1 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=1} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 13, and its attack bonus is {@hit 5}."
+						]
+					}
 				],
 				"spellScrollLevel": 1
 			}
@@ -4165,8 +4256,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this armor is a level 2 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=2} school of magic. The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 13, and its attack bonus is {@hit 5}."
+					"Bound into this armor is a level 2 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=2} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 13, and its attack bonus is {@hit 5}."
+						]
+					}
 				],
 				"spellScrollLevel": 2
 			}
@@ -4195,8 +4293,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this armor is a level 3 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=3} school of magic. The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 15, and its attack bonus is {@hit 7}."
+					"Bound into this armor is a level 3 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=3} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 15, and its attack bonus is {@hit 7}."
+						]
+					}
 				],
 				"spellScrollLevel": 3
 			}
@@ -4225,8 +4330,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this armor is a level 4 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=4} school of magic. The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 15, and its attack bonus is {@hit 7}."
+					"Bound into this armor is a level 4 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=4} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 15, and its attack bonus is {@hit 7}."
+						]
+					}
 				],
 				"spellScrollLevel": 4
 			}
@@ -4255,8 +4367,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this armor is a level 5 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=5} school of magic. The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 17, and its attack bonus is {@hit 9}."
+					"Bound into this armor is a level 5 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=5} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 17, and its attack bonus is {@hit 9}."
+						]
+					}
 				],
 				"spellScrollLevel": 5
 			}
@@ -4285,8 +4404,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this armor is a level 6 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=6} school of magic. The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 17, and its attack bonus is {@hit 9}."
+					"Bound into this armor is a level 6 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=5} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 17, and its attack bonus is {@hit 9}."
+						]
+					}
 				],
 				"spellScrollLevel": 6
 			}
@@ -4315,8 +4441,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this armor is a level 7 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=7} school of magic. The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 18, and its attack bonus is {@hit 10}."
+					"Bound into this armor is a level 7 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=7} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 18, and its attack bonus is {@hit 10}."
+						]
+					}
 				],
 				"spellScrollLevel": 7
 			}
@@ -4345,8 +4478,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this armor is a level 8 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=8} school of magic. The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 18, and its attack bonus is {@hit 10}."
+					"Bound into this armor is a level 8 spell. The spell is determined when the armor is created and must belong to the {@filter Abjuration or Illusion|spells|school=A;I|level=8} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The armor has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the armor, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 18, and its attack bonus is {@hit 10}."
+						]
+					}
 				],
 				"spellScrollLevel": 8
 			}
@@ -4375,8 +4515,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this weapon is a cantrip. The cantrip is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=0} school of magic. The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 13, and its attack bonus is {@hit 5}."
+					"Bound into this weapon is a cantrip. The cantrip is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=0} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the weapon, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 13, and its attack bonus is {@hit 5}."
+						]
+					}
 				],
 				"spellScrollLevel": 0
 			}
@@ -4405,8 +4552,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this weapon is a level 1 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=1} school of magic. The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 13, and its attack bonus is {@hit 5}."
+					"Bound into this weapon is a level 1 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=1} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the weapon, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 13, and its attack bonus is {@hit 5}."
+						]
+					}
 				],
 				"spellScrollLevel": 1
 			}
@@ -4435,8 +4589,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this weapon is a level 2 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=2} school of magic. The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 13, and its attack bonus is {@hit 5}."
+					"Bound into this weapon is a level 2 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=2} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the weapon, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 13, and its attack bonus is {@hit 5}."
+						]
+					}
 				],
 				"spellScrollLevel": 2
 			}
@@ -4465,8 +4626,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this weapon is a level 3 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=3} school of magic. The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 15, and its attack bonus is {@hit 7}."
+					"Bound into this weapon is a level 3 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=3} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the weapon, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 15, and its attack bonus is {@hit 7}."
+						]
+					}
 				],
 				"spellScrollLevel": 3
 			}
@@ -4495,8 +4663,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this weapon is a level 4 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=4} school of magic. The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 15, and its attack bonus is {@hit 7}."
+					"Bound into this weapon is a level 4 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=4} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the weapon, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 15, and its attack bonus is {@hit 7}."
+						]
+					}
 				],
 				"spellScrollLevel": 4
 			}
@@ -4525,8 +4700,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this weapon is a level 5 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=5} school of magic. The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 17, and its attack bonus is {@hit 9}."
+					"Bound into this weapon is a level 5 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=5} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the weapon, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 17, and its attack bonus is {@hit 9}."
+						]
+					}
 				],
 				"spellScrollLevel": 5
 			}
@@ -4555,8 +4737,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this weapon is a level 6 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=6} school of magic. The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 17, and its attack bonus is {@hit 9}."
+					"Bound into this weapon is a level 6 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=5} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the weapon, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 17, and its attack bonus is {@hit 9}."
+						]
+					}
 				],
 				"spellScrollLevel": 6
 			}
@@ -4585,8 +4774,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this weapon is a level 7 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=7} school of magic. The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 18, and its attack bonus is {@hit 10}."
+					"Bound into this weapon is a level 7 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=7} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the weapon, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 18, and its attack bonus is {@hit 10}."
+						]
+					}
 				],
 				"spellScrollLevel": 7
 			}
@@ -4615,8 +4811,15 @@
 				"rechargeAmount": "{@dice 1d6}",
 				"charges": 6,
 				"entries": [
-					"Bound into this weapon is a level 8 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=8} school of magic. The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While holding the weapon, you can expend 1 charge to cast its spell.",
-					"The spell's saving throw DC is 18, and its attack bonus is {@hit 10}."
+					"Bound into this weapon is a level 8 spell. The spell is determined when the weapon is created and must belong to the {@filter Conjuration, Divination, Evocation, Necromancy, or Transmutation|spells|school=C;D;V;N;T|level=8} school of magic.",
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"The weapon has 6 charges and regains {@dice 1d6} expended charges daily at dawn. While wearing the weapon, you can expend 1 charge to cast its spell.",
+							"The spell's saving throw DC is 18, and its attack bonus is {@hit 10}."
+						]
+					}
 				],
 				"spellScrollLevel": 8
 			}
@@ -4684,7 +4887,13 @@
 				"entries": [
 					"This colorful, flowery armor was forged in the Feywild and is infused with that plane's captivating magic.",
 					"While wearing this armor, you have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself.",
-					"This armor has 3 charges. You can use an action to expend a charge to cast the {@spell Compulsion} spell (save {@dc 15}) from this armor. The armor regains {@dice 1d3} expended charges daily at dawn."
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"This armor has 3 charges. You can use an action to expend a charge to cast the {@spell Compulsion} spell (save {@dc 15}) from this armor. The armor regains {@dice 1d3} expended charges daily at dawn."
+						]
+					}
 				],
 				"attachedSpells": {
 					"charges": {
@@ -4795,14 +5004,14 @@
 						"items": [
 							{
 								"type": "item",
-								"name": "Fool's Feint",
+								"name": "Fool's Feint: Once per Dawn",
 								"entries": [
 									"As a bonus action, you can feint, choosing a creature within 5 feet of you as your target. Until the start of your next turn, you have advantage on attack rolls against the target. Once this bonus action is used, it can't be used again until the next dawn."
 								]
 							},
 							{
 								"type": "item",
-								"name": "Misdirect",
+								"name": "Misdirect: Once per Dawn",
 								"entries": [
 									"When a creature within 60 feet of you targets you with an attack roll, you can use your reaction to require that creature to make a {@dc 15} Intelligence saving throw. On a failed save, the attack instead targets another creature of your choice that is within the attacker's reach. Once this reaction has been used, it can't be used again until the next dawn."
 								]
@@ -4900,10 +5109,20 @@
 				"basicRules2024": true,
 				"rarity": "very rare",
 				"reqAttune": true,
+				"recharge": "special",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"entries": [
 					"When you hit with an attack roll using this magic weapon, the target takes an extra {@damage 1d6} Cold damage. In addition, while you hold the weapon, you have {@variantrule Resistance|XPHB} to Fire damage.",
 					"In freezing temperatures, the weapon sheds {@variantrule Bright Light|XPHB} in a 10-foot radius and {@variantrule Dim Light|XPHB} for an additional 10 feet.",
-					"When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself. Once used, this property can't be used again for 1 hour."
+					{
+						"type": "entries",
+						"name": "Extinguishing Flames: Once per Hour",
+						"entries": [
+							"When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of yourself.",
+							"Once used, this property can't be used again for 1 hour."
+						]
+					}
 				],
 				"light": [
 					{
@@ -5032,10 +5251,14 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"bonusWeapon": "+1",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
 				"entries": [
 					"This silver-and-black bow is engraved with the phases of the moon. You gain a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
 					"When you hit with a ranged attack roll using this magic bow, the target takes an extra {@damage 1d6} radiant damage. If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it. The ammunition created by the bow vanishes the instant after it hits or misses a target.",
-					"While wielding this magic bow, you can use a bonus action to enter a semi-incorporeal state until the start of your next turn. While semi-incorporeal, you have resistance to bludgeoning, piercing, and slashing damage. Once this bonus action is used, it can't be used again until the next dawn."
+					"While wielding this magic bow, you can use a bonus action to enter a semi-incorporeal state until the start of your next turn. While semi-incorporeal, you have resistance to bludgeoning, piercing, and slashing damage.",
+					"Once this bonus action is used, it can't be used again until the next dawn."
 				]
 			}
 		},
@@ -5074,7 +5297,13 @@
 				"entries": [
 					"This intricate grayscale armor was forged in the Shadowfell and is infused with that plane's gloom.",
 					"While you're wearing this armor, you have advantage on saving throws you make to avoid or end the frightened condition on yourself.",
-					"This armor has 3 charges. You can expend a charge to cast the {@spell Calm Emotions} spell (save {@dc 15}) from the armor. This armor regains {@dice 1d3} expended charges daily at dawn."
+					{
+						"type": "entries",
+						"name": "Charges",
+						"entries": [
+							"This armor has 3 charges. You can expend a charge to cast the {@spell Calm Emotions} spell (save {@dc 15}) from the armor. This armor regains {@dice 1d3} expended charges daily at dawn."
+						]
+					}
 				],
 				"attachedSpells": {
 					"charges": {
@@ -5124,6 +5353,51 @@
 						]
 					}
 				]
+			}
+		},
+		{
+			"name": "Grave Reaper",
+			"type": "GV|XDMG",
+			"requires": [
+				{
+					"name": "Scythe",
+					"source": "XPHB"
+				},
+				{
+					"name": "Sickle",
+					"source": "XPHB"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Grave Reaper ",
+				"source": "AU",
+				"page": 119,
+				"type": "M|XPHB",
+				"rarity": "legendary",
+				"reqAttune": true,
+				"weight": 2,
+				"bonusWeapon": "+2",
+				"recharge": "dawn",
+				"rechargeAmount": 1,
+				"charges": 1,
+				"entries": [
+					"You gain a +2 bonus to attack rolls and damage rolls made with this magic weapon. When you hit a creature with it, the target takes an extra {@damage 2d8} Necrotic damage.",
+					{
+						"type": "entries",
+						"name": "Soul Lantern: Once per Dawn",
+						"entries": [
+							"While holding this weapon, you can cast the {@spell Spirit Lantern|AU} spell. When you cast the spell using the weapon, the conjured lantern can hold up to five soul fragments, and the spell's save DC is 17.",
+							"Once the weapon has been used to cast the spell, it can't be used to cast it again until the next dawn."
+						]
+					}
+				],
+				"attachedSpells": {
+					"daily": {
+						"1e": [
+							"spirit lantern|au"
+						]
+					}
+				}
 			}
 		},
 		{
@@ -7317,7 +7591,13 @@
 				"reqAttune": true,
 				"entries": [
 					"This weapon is decorated with dragon heads, claws, wings, scales, or Draconic letters. When it steeps in a dragon's hoard, it absorbs the energy of the dragon's breath weapon and deals damage of that type with its special properties.",
-					"Whenever you roll a 20 on your attack roll with this weapon, each creature of your choice within 5 feet of the target takes 5 damage of the type dealt by the dragon's breath weapon."
+					{
+						"type": "entries",
+						"name": "Slumbering",
+						"entries": [
+							"Whenever you roll a 20 on your attack roll with this weapon, each creature of your choice within 5 feet of the target takes 5 damage of the type dealt by the dragon's breath weapon."
+						]
+					}
 				]
 			}
 		},
@@ -7528,8 +7808,20 @@
 				"bonusWeapon": "+1",
 				"entries": [
 					"This weapon is decorated with dragon heads, claws, wings, scales, or Draconic letters. When it steeps in a dragon's hoard, it absorbs the energy of the dragon's breath weapon and deals damage of that type with its special properties.",
-					"Whenever you roll a 20 on your attack roll with this weapon, each creature of your choice within 5 feet of the target takes 5 damage of the type dealt by the dragon's breath weapon.",
-					"You gain a {=bonusWeapon} bonus to attack and damage rolls made using the weapon. On a hit, the weapon deals an extra {@damage 1d6} damage of the type dealt by the dragon's breath weapon."
+					{
+						"type": "entries",
+						"name": "Slumbering",
+						"entries": [
+							"Whenever you roll a 20 on your attack roll with this weapon, each creature of your choice within 5 feet of the target takes 5 damage of the type dealt by the dragon's breath weapon."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Stirring",
+						"entries": [
+							"You gain a {=bonusWeapon} bonus to attack and damage rolls made using the weapon. On a hit, the weapon deals an extra {@damage 1d6} damage of the type dealt by the dragon's breath weapon."
+						]
+					}
 				]
 			}
 		},
@@ -8428,9 +8720,27 @@
 				"bonusWeapon": "+2",
 				"entries": [
 					"This weapon is decorated with dragon heads, claws, wings, scales, or Draconic letters. When it steeps in a dragon's hoard, it absorbs the energy of the dragon's breath weapon and deals damage of that type with its special properties.",
-					"Whenever you roll a 20 on your attack roll with this weapon, each creature of your choice within 5 feet of the target takes 5 damage of the type dealt by the dragon's breath weapon.",
-					"You gain a {=bonusWeapon} bonus to attack and damage rolls made using the weapon. On a hit, the weapon deals an extra {@damage 2d6} damage of the type dealt by the dragon's breath weapon.",
-					"As an action, you can unleash a 30-foot cone of destructive energy from the weapon. Each creature in that area must make a {@dc 16} Dexterity saving throw, taking {@damage 8d6} damage of the type dealt by the dragon's breath weapon on a failed save, or half as much damage on a successful one. Once this action is used, it can't be used again until the next dawn."
+					{
+						"type": "entries",
+						"name": "Slumbering",
+						"entries": [
+							"Whenever you roll a 20 on your attack roll with this weapon, each creature of your choice within 5 feet of the target takes 5 damage of the type dealt by the dragon's breath weapon."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Stirring",
+						"entries": [
+							"You gain a {=bonusWeapon} bonus to attack and damage rolls made using the weapon. On a hit, the weapon deals an extra {@damage 2d6} damage of the type dealt by the dragon's breath weapon."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Wakened: Once per Dawn",
+						"entries": [
+							"As an action, you can unleash a 30-foot cone of destructive energy from the weapon. Each creature in that area must make a {@dc 16} Dexterity saving throw, taking {@damage 8d6} damage of the type dealt by the dragon's breath weapon on a failed save, or half as much damage on a successful one. Once this action is used, it can't be used again until the next dawn."
+						]
+					}
 				]
 			}
 		},
