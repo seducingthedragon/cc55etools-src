@@ -82501,6 +82501,18 @@
 			]
 		},
 		{
+			"name": "Class Tattoos",
+			"source": "AU",
+			"page": 155,
+			"type": "GV|XDMG",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"tattoo": true,
+			"entries": [
+				"Class Tattoos are moderate enhanced magical tattoos that are designed for each class that can be obtained as early as level 1. While these tattoos are listed as requiring {@variantrule Attunement|XPHB}, it is only required if the Class Tattoo you are getting is not your class. If you {@variantrule Multiclassing|XPHB|Multiclass}, you can have 1 Class Tattoo without attunement, however you must {@variantrule Attunement|XPHB|Attune} to any other Class Tattoos gained, even if you have 1 level in that class."
+			]
+		},
+		{
 			"name": "Crystal Ball (Legendary Version)",
 			"source": "DMG",
 			"page": 159,

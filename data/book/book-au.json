@@ -8033,7 +8033,7 @@
 											"Moderate Enhancement",
 											"+{@dice 1d6x20} GP",
 											"+{@dice 1d4+2} Hours",
-											"No"
+											"Usually No"
 										],
 										[
 											"Major Enhancement",
@@ -8078,7 +8078,7 @@
 											"type": "item",
 											"nameDot": false,
 											"name": "Regarding Magical Tattoos with a Moderate Enhancement,",
-											"entry": "pending"
+											"entry": "pending. Additionally, {@item Class Tattoos|AU} are Moderate Enhancement tattoos that require attunement if you are not part of that class. If you {@variantrule Multiclassing|XPHB|Multiclass}, you can have 1 Class Tattoo, however you must {@variantrule Attunement|XPHB|Attune} to any other Class Tattoos, even if you have a level in that class."
 										},
 										{
 											"type": "item",
@@ -8104,7 +8104,33 @@
 					"page": 157,
 					"id": "710",
 					"entries": [
-						"Pending Info and Table."
+						"What is a Minor Enhancement and how do they differ from others. Max Minor Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
+						{
+							"type": "table",
+							"caption": "Minor Enhancement Magical Tattoos",
+							"colLabels": [
+								"Tattoo",
+								"Brief Descript.",
+								"Req. Enhanced Ink Type"
+							],
+							"colStyles": [
+								"col-6",
+								"col-3",
+								"col-3"
+							],
+							"rows": [
+								[
+									"name test",
+									"descript test",
+									"ink test"
+								],
+								[
+									"name test",
+									"descript test",
+									"ink test"
+								]
+							]
+						}
 					]
 				},
 				{
@@ -8113,7 +8139,37 @@
 					"page": 155,
 					"id": "720",
 					"entries": [
-						"Pending Info and Table."
+						"What is a Moderate Enhancement and how do they differ from others. Max Moderate Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
+						{
+							"type": "table",
+							"caption": "Moderate Enhancement Magical Tattoos",
+							"colLabels": [
+								"Tattoo",
+								"Brief Descript.",
+								"Req. Enhanced Ink Type",
+								"Attunement?"
+							],
+							"colStyles": [
+								"col-4-5",
+								"col-3",
+								"col-3",
+								"col-1-5 text-center"
+							],
+							"rows": [
+								[
+									"name test",
+									"descript test",
+									"ink test",
+									"yes"
+								],
+								[
+									"name test",
+									"descript test",
+									"ink test",
+									"yes"
+								]
+							]
+						}
 					]
 				},
 				{
@@ -8122,7 +8178,37 @@
 					"page": 159,
 					"id": "730",
 					"entries": [
-						"Pending Info and Table."
+						"What is a Major Enhancement and how do they differ from others. Max Major Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
+						{
+							"type": "table",
+							"caption": "Major Enhancement Magical Tattoos",
+							"colLabels": [
+								"Tattoo",
+								"Brief Descript.",
+								"Req. Enhanced Ink Type",
+								"Attunement?"
+							],
+							"colStyles": [
+								"col-4-5",
+								"col-3",
+								"col-3",
+								"col-1-5 text-center"
+							],
+							"rows": [
+								[
+									"name test",
+									"descript test",
+									"ink test",
+									"yes"
+								],
+								[
+									"name test",
+									"descript test",
+									"ink test",
+									"yes"
+								]
+							]
+						}
 					]
 				},
 				{
@@ -8131,7 +8217,37 @@
 					"page": 160,
 					"id": "740",
 					"entries": [
-						"Pending Info and Table."
+						"What is a Massive Enhancement and how do they differ from others. Max Massive Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
+						{
+							"type": "table",
+							"caption": "Massive Enhancement Magical Tattoos",
+							"colLabels": [
+								"Tattoo",
+								"Brief Descript.",
+								"Req. Enhanced Ink Type",
+								"Attunement?"
+							],
+							"colStyles": [
+								"col-4-5",
+								"col-3",
+								"col-3",
+								"col-1-5 text-center"
+							],
+							"rows": [
+								[
+									"name test",
+									"descript test",
+									"ink test",
+									"yes"
+								],
+								[
+									"name test",
+									"descript test",
+									"ink test",
+									"yes"
+								]
+							]
+						}
 					]
 				}
 			]
