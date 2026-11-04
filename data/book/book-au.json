@@ -7736,6 +7736,204 @@
 		},
 		{
 			"type": "section",
+			"name": "Magical Tattoos",
+			"id": "700",
+			"entries": [	
+				{
+					"type": "section",
+					"name": "About Magical Tattoos",
+					"page": 151,
+					"id": "701",
+					"entries": [
+						"Tattoo magic is an incredibly old form of magic, and is a form of art utilized by many different cultures across the multiverse. The designs and function of these tattoos varies wildly between peoples, races, species, countries, continents, and planes. While not all tattoos are magical, it is a widespread practice with various styles, both in art and application.",
+						"To get a tattoo, one must find a person who is has the proper proficiencies and tools, and one must have the time and gold to spend on it. To provide tattoos, you'll need a new artisan kit and upgraded tools."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Artisan Kit and Tools",
+					"page": 151,
+					"id": "702",
+					"entries": [
+						"We have added a new Artisan Kit and other tools that can be used to upgrade the contents of this kit for those who want to provide tattoos. This new kit is the {@item Tattooist's Kit|AU} and proficiency can be gained with it through training. Currently, there is no Background that provides this proficiency but those will be upgraded soon. Additionally, other items can be obtained to upgrade this kit, listed below.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"columns": 4,
+							"items": [
+								"{@item Tattooist's Kit|AU}",
+								"{@item Tattoo Kit Upgrades|AU}",
+								"{@item Tattoo Needles, Bone|AU}",
+								"{@item Tattoo Needles, Gold|AU}",
+								"{@item Tattoo Needles, Steel|AU}",
+								"{@item Tattoo Palette, Advanced|AU}",
+								"{@item Tattoo Palette, Basic|AU}",
+								"{@item Tattoo Palette, Black|AU}",
+								"{@item Tattoo Palette, Rainbow|AU}",
+								"{@item Enchanted Sketchbook|AU}",
+								"{@item Gnomish Tattooing Machine|AU}"
+							]
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Tattooist's Kit",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Tattoo Kit Upgrades",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Tattoo Needles, Bone",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Tattoo Needles, Gold",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Tattoo Needles, Steel",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Tattoo Palette, Advanced",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Tattoo Palette, Basic",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Tattoo Palette, Black",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Tattoo Palette, Rainbow",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Enchanted Sketchbook",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Gnomish Tattooing Machine",
+							"style": "inset"
+						},
+						{
+							"type": "entries",
+							"name": "The Costs of a Tattoo",
+							"page": 152,
+							"id": "703",
+							"entries": [
+								"Getting a tattoo, either mundane or magical, costs a lot of time and gold, however, due to the variation in techniques, ink, purpose, and world, it is difficult to set a specific cost and time value. This will fall under the DM's responsibility of determining the best cost and duration.",
+								"When it comes to magical tattoos, the cost and time increases based on how enhanced the tattoo is. See the table below for an approximation on the increased resources and the use of attunement.",
+								{
+									"type": "table",
+									"caption": "Average Magical Tattoo Cost and Time Compared to Mundane Tattoos",
+									"colLabels": [
+										"Type of Magical Tattoo",
+										"Cost Increase",
+										"Time Increase",
+										"Attunement Required?"
+									],
+									"colStyles": [
+										"col-4",
+										"col-3-4 text-center",
+										"col-3-4 text-center",
+										"col-1-2 text-center"
+									],
+									"rows": [
+										[
+											"Minor Enchantment",
+											"+{@dice 1d4x10} GP",
+											"+{@dice 1d4} Hours",
+											"No"
+										],
+										[
+											"Moderate Enchantment",
+											"+{@dice 1d6x20} GP",
+											"+{@dice 1d4+2} Hours",
+											"No"
+										],
+										[
+											"Major Enchantment",
+											"+{@dice 1d8x50} GP",
+											"+{@dice 1d6+4} Hours",
+											"Varies"
+										],
+										[
+											"Massive Enchantment",
+											"+{@dice 1d10x100} GP",
+											"+{@dice 1d8+4} Hours",
+											"Yes"
+										]
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Minor Enchantments",
+					"page": 153,
+					"id": "710",
+					"entries": [
+						"Pending Info and Table."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Moderate Enchantments",
+					"page": 154,
+					"id": "720",
+					"entries": [
+						"Pending Info and Table."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Major Enchantments",
+					"page": 155,
+					"id": "730",
+					"entries": [
+						"Pending Info and Table."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Massive Enchantments",
+					"page": 156,
+					"id": "740",
+					"entries": [
+						"Pending Info and Table."
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
 			"name": "Appendix: Tomb of the Shadow Serpents",
 			"id": "32c",
 			"entries": [

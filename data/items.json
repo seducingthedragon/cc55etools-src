@@ -24303,6 +24303,20 @@
 			}
 		},
 		{
+			"name": "Enchanted Sketchbook",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
+			"source": "AU",
+			"page": 152,
+			"rarity": "common",
+			"weight": 0.5,
+			"wondrous": true,
+			"entries": [
+				"Essential for tattooists who engage in magically enchanted tattoos, an enchanted sketchbook is a tome with 100 blank magically treated vellum pages suitable for sketching tattoo designs and preserving the magic which flows through them."
+			]
+		},
+		{
 			"name": "Enchanted Three-Dragon Ante Set",
 			"source": "LLK",
 			"page": 15,
@@ -29257,6 +29271,22 @@
 					]
 				},
 				"The grenade explodes immediately if a creature places it in an extradimensional space or teleports while in possession of it. The effects of the explosion will be felt at both the origin and terminus of the teleportation, but only affecting all creatures within 30 feet of either location."
+			]
+		},
+		{
+			"name": "Gnomish Tattooing Machine",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
+			"source": "AU",
+			"page": 152,
+			"rarity": "uncommon",
+			"weight": 0.25,
+			"type": "T|XPHB",
+			"wondrous": true,
+			"entries": [
+				"A gnomish-designed contraption that speeds up the tattoo process by rapidly punching the needle into the skin and injecting the ink several times per second. With practice, this makes doing complex tattoos much faster and easier for most artists.",
+				"This tool requires {@variantrule Proficiency|XPHB} in a {@item Tattooist's Kit|AU} before being able to obtain training with this, although, some worlds may have this item as part of the {@item Tattooist's Kit|AU} instead of the tattooing chisel and hammer."
 			]
 		},
 		{
@@ -70860,6 +70890,117 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Tattoo Needles, Bone",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
+			"source": "AU",
+			"page": 152,
+			"rarity": "none",
+			"type": "OTH|XPHB",
+			"value": 50,
+			"weight": 1,
+			"entries": [
+				"This is a Pack of 50 tattoo needles.",
+				"Bone needles for tattooing have been around just as long as tattooing has. Sometimes, thorns are used instead of bone, even if sold as bone, however they are just as effective and have been around for just as long. While these are not used as often as steel, some areas may still use them exclusively.",
+				"These can be purchased to replace tattoo needles from your {@item Tattooist's Kit|AU}."
+			]
+		},
+		{
+			"name": "Tattoo Needles, Gold",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
+			"source": "AU",
+			"page": 152,
+			"rarity": "none",
+			"type": "OTH|XPHB",
+			"value": 2000,
+			"weight": 1,
+			"entries": [
+				"This is a Pack of 50 tattoo needles.",
+				"Gold needles are reported as the top tattoo needles to use. While they can be pricier, they are easier to keep and maintain sterile and the malluability of gold allows for uniquely shaped needles for various purposes. Additionally, since they can transfer magical essence better than steel, most tattoo artists who provide magically enchanted tattoos use gold tattoo needles.",	
+				"These can be purchased to replace tattoo needles from your {@item Tattooist's Kit|AU}."
+			]
+		},
+		{
+			"name": "Tattoo Needles, Steel",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
+			"source": "AU",
+			"page": 152,
+			"rarity": "none",
+			"type": "OTH|XPHB",
+			"value": 500,
+			"weight": 1,
+			"entries": [
+				"This is a Pack of 50 tattoo needles.",
+				"Steel needles became the common standard for tattoo needles shortly after metal's purpose for tools expanded. Due to improvements in sterilization, it is rare to see a tattoo artist not use steel needles.",
+				"These can be purchased to replace tattoo needles from your {@item Tattooist's Kit|AU}."
+			]
+		},
+		{
+			"name": "Tattoo Palette, Basic",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
+			"source": "AU",
+			"page": 152,
+			"rarity": "none",
+			"value": 200,
+			"weight": 0.5,
+			"type": "OTH|XPHB",
+			"entries": [
+				"This palette includes colored inks for tattoos. It has black, white, gray, and the three primary colors plus a pack of disposable mini containers to mix the colors for a wider color variety."
+			]
+		},
+		{
+			"name": "Tattoo Palette, Black",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
+			"source": "AU",
+			"page": 152,
+			"rarity": "none",
+			"value": 100,
+			"weight": 0.5,
+			"type": "OTH|XPHB",
+			"entries": [
+				"This palette is a grayscale pack that is typically labeled black, due to it having twice as many containers of black tattoo ink than white or gray, however, there are no other colored ink within this palette. There are mini containers to mix these to obtain various shades of gray."
+			]
+		},
+		{
+			"name": "Tattoo Palette, Rainbow",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
+			"source": "AU",
+			"page": 152,
+			"rarity": "none",
+			"value": 500,
+			"weight": 0.75,
+			"type": "OTH|XPHB",
+			"entries": [
+				"This palette has the following colors: black, white, gray, red, orange, yellow, green, cyan, blue, indigo, purple, and pink. It also comes with mini containers to mix these colors to get various shades of the available colors."
+			]
+		},
+		{
+			"name": "Tattoo Palette, Advanced",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
+			"source": "AU",
+			"page": 152,
+			"rarity": "none",
+			"value": 1500,
+			"weight": 1,
+			"type": "OTH|XPHB",
+			"entries": [
+				"This palette is a massive tattoo ink kit. It has all the colors from the {@item Tattoo Palette, Rainbow|AU|Rainbow} palette plus an additional 28 colors, for a total of 40 colors, which includes brown. This palette is commonly used by those who engage in hyper-realistic designs."
+			]
+		},
+		{
 			"name": "Tearulai",
 			"source": "WDMM",
 			"page": 70,
@@ -85922,6 +86063,26 @@
 			],
 			"lootTables": [
 				"Magic Item Table I"
+			]
+		},
+		{
+			"name": "Tattoo Kit Upgrades",
+			"source": "AU",
+			"page": 152,
+			"rarity": "none",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Tattoo Kit Upgrades are items that can be purchased individually to add to your {@item Tattooist's Kit|AU} for improved mundane upgrades as well as refilling used components."
+			],
+			"items": [
+				"Tattoo Needles, Bone|AU",
+				"Tattoo Needles, Gold|AU",
+				"Tattoo Needles, Steel|AU",
+				"Tattoo Palette, Advanced|AU",
+				"Tattoo Palette, Basic|AU",
+				"Tattoo Palette, Black|AU",
+				"Tattoo Palette, Rainbow|AU"
 			]
 		},
 		{

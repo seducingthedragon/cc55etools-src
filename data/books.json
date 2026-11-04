@@ -15458,6 +15458,21 @@
 					]
 				},
 				{
+					"name": "Magical Tattoos",
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 7
+					},
+					"headers": [
+						"About Magical Tattoos",
+						"Artisan Kit and Tools",
+						"Minor Enchantments",
+						"Moderate Enchantments",
+						"Major Enchantments",
+						"Massive Enchantments"
+					]
+				},
+				{
 					"name": "Appendix: Tomb of the Shadow Serpents",
 					"headers": [
 						"Key Plot Points",

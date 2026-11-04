@@ -8146,6 +8146,59 @@
 			"hasFluff": true
 		},
 		{
+			"name": "Tattooist's Kit",
+			"source": "AU",
+			"page": 151,
+			"type": "AT|XPHB",
+			"rarity": "none",
+			"weight": 5,
+			"value": 100,
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"name": "Ability:",
+							"type": "item",
+							"entries": [
+								"Dexterity"
+							]
+						},
+						{
+							"name": "Skills:",
+							"type": "item",
+							"entries": [
+								"{@skill Arcana|XPHB}, {@skill History|XPHB}, {@skill Sleight of Hand|XPHB}"
+							]
+						},
+						{
+							"name": "Utilize:",
+							"type": "item",
+							"entries": [
+								"Sketch a design ({@dc 10}), Ink skin with mundane design ({@dc 15}), or Tattoo magically enhanced design ({@dc 20})"
+							]
+						},
+						{
+							"name": "Tattoo Types:",
+							"type": "item",
+							"entries": [
+								"Mundane design.",
+								"If this kit is upgraded with other components, magically enhanced tattoo designs can be done with this kit."
+							]
+						},
+						{
+							"name": "Components:",
+							"type": "item",
+							"entries": [
+								"Tattooist's Kit may consist of ink palette, clean bowl, medical supplies, manual needled chisel and tattoo hammer, sketchbook, and 20 pack of tattoo needles, either bone or steel. Upgraded components include enhanced ink, {@item Gnomish Tattooing Machine|AU}, an {@item Enchanted Sketchbook|AU}, and {@item Tattoo Needles, Gold|AU|Gold tattoo needles}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Thelarr",
 			"alias": [
 				"Whistlecane"
