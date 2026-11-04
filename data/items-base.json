@@ -10793,6 +10793,12 @@
 			]
 		},
 		{
+			"name": "Tattoo Tools",
+			"abbreviation": "TT",
+			"source": "AU",
+			"page": 151
+		},
+		{
 			"name": "Vehicle (Land)",
 			"abbreviation": "VEH",
 			"source": "PHB",

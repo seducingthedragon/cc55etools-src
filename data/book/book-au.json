@@ -8050,6 +8050,51 @@
 									]
 								}
 							]
+						},
+						{
+							"type": "entries",
+							"name": "How Many is Too Many?",
+							"page": 156,
+							"id": "705",
+							"entries": [
+								"When it comes to the amount of tattoos a character can have, the answer varies due to a number of factors. The maximum number of tattoos is dependent on the character's size and the size of the tattoos as one has only so much surface area to decorate. With the removal of attunement from magical tattoos, that number does become a concern for DM's. While each world, character, storyteller, and timeline varies drastically, the DM has the final say, however, here are our recommended guidelines on the matter.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"nameDot": false,
+											"name": "Regarding Magical Tattoos with Enchanted Ink Only,",
+											"entry": "this number is dependent on a character's time, access to a tattooist with enchanted ink, and the depths of their pocketbook as the enchanted inks themselves do not grant any mechanical impacts."
+										},
+										{
+											"type": "item",
+											"nameDot": false,
+											"name": "Regarding Magical Tattoos with a Minor Enhancement,",
+											"entry": "pending"
+										},
+										{
+											"type": "item",
+											"nameDot": false,
+											"name": "Regarding Magical Tattoos with a Moderate Enhancement,",
+											"entry": "pending"
+										},
+										{
+											"type": "item",
+											"nameDot": false,
+											"name": "Regarding Magical Tattoos with a Major Enhancement,",
+											"entry": "the answer varies due to some of these enhancements require {@variantrule Attunement|XPHB}. The average is 3, due to this reason, however, depending on the enhancements gains, this may be as low as 1 to as high as 5."
+										},
+										{
+											"type": "item",
+											"nameDot": false,
+											"name": "Regarding Magical Tattoos with a Massive Enhancement,",
+											"entry": "the answer is 3 max, however, it should be noted that magical tattoos with a Massive Enhancement all require {@variantrule Attunement|XPHB}, therefore it will take up one of those slots."
+										}
+									]
+								}
+							]
 						}
 					]
 				},
