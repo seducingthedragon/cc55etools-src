@@ -11005,6 +11005,23 @@
 			]
 		},
 		{
+			"name": "Elemental Ink",
+			"source": "AU",
+			"entriesTemplate": [
+				"{@i Most Enchanted Inks do not require attunement, as attunement is based off of the specific enhancement type, for the tattoo itself. If the ink itself requires attunemnt, it will be noted and explained why.}",
+				"Elemental Inks are commonly found with one of the 4 primary elements: air, earth, fire, and water. Additionally, less common ones are related to one of the 4 para-elements: ash, ice, magma, and ooze.",
+				"This specific type of {@item Elemental Inks|AU|Elemental Ink} is used for magical tattoos that use a {{item.detail1}} enhancement, at the bare minimum. If they are used without a {{item.detail1}} enhancement or higher, then they are used as backgrounds with minor enhancement tattoos to give the image a sense of realism. It can be used for higher enhancements, often with other types of {@item Enchanted Inks|AU|Enchanted Ink}. {@item Enchanted Inks|AU} do not need a specific enhancement in order to be used. They can be used for their innate properties alone and can be mixed with others for a combined effect. Within the ink vial, this specific Elemental Ink is tied to the {{item.detail2}} appearance."
+			]
+		},
+		{
+			"name": "Enchanted Ink",
+			"source": "AU",
+			"entriesTemplate": [
+				"{@i Most Enchanted Inks do not require attunement, as attunement is based off of the specific enhancement type, for the tattoo itself. If the ink itself requires attunemnt, it will be noted and explained why.}",
+				"This specific type of {@item Enchanted Inks|AU|Enchanted Ink} is used for magical tattoos that use a {{item.detail1}} enhancement, at the bare minimum. It can be used for higher enhancements, often with other types of {@item Enchanted Inks|AU|Enchanted Ink}. {@item Enchanted Inks|AU} do not need a specific enhancement in order to be used. They can be used for their innate properties alone and can be mixed with others for a combined effect. Within the ink vial, this specific Enchanted Ink {{item.detail2}}"
+			]
+		},
+		{
 			"name": "Figurine of Wondrous Power",
 			"source": "XDMG",
 			"entriesTemplate": [

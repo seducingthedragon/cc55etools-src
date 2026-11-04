@@ -7751,100 +7751,259 @@
 				},
 				{
 					"type": "section",
-					"name": "Artisan Kit and Tools",
+					"name": "Tools and Costs",
 					"page": 151,
 					"id": "702",
 					"entries": [
-						"We have added a new Artisan Kit and other tools that can be used to upgrade the contents of this kit for those who want to provide tattoos. This new kit is the {@item Tattooist's Kit|AU} and proficiency can be gained with it through training. Currently, there is no Background that provides this proficiency but those will be upgraded soon. Additionally, other items can be obtained to upgrade this kit, listed below.",
+						"With the addition of Magical tattoos, a new artisan's toolkit and related tools have been added. Additionally, its important to think about the costs and resources of getting a magical tattoo as we move forward with the idea that a magical tattoo should always take up an attunement slot, nor should it be treated like a spell scroll.",
 						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"columns": 4,
-							"items": [
-								"{@item Tattooist's Kit|AU}",
-								"{@item Tattoo Kit Upgrades|AU}",
-								"{@item Tattoo Needles, Bone|AU}",
-								"{@item Tattoo Needles, Gold|AU}",
-								"{@item Tattoo Needles, Steel|AU}",
-								"{@item Tattoo Palette, Advanced|AU}",
-								"{@item Tattoo Palette, Basic|AU}",
-								"{@item Tattoo Palette, Black|AU}",
-								"{@item Tattoo Palette, Rainbow|AU}",
-								"{@item Enchanted Sketchbook|AU}",
-								"{@item Gnomish Tattooing Machine|AU}"
+							"type": "entries",
+							"name": "Artisan Kit and its Upgrades",
+							"page": 151,
+							"id": "703",
+							"entries": [
+								"We have added a new Artisan Kit and other tools that can be used to upgrade the contents of this kit for those who want to provide tattoos. This new kit is the {@item Tattooist's Kit|AU} and proficiency can be gained with it through training, detailed below. Currently, there is no Background that provides this proficiency but those will be upgraded soon. All related items are detailed below.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"columns": 2,
+									"items": [
+										"{@item Tattooist's Kit|AU}",
+										"{@item Tattoo Kit Upgrades|AU}",
+										"{@item Tattoo Needles|AU}",
+										"{@item Tattoo Palettes|AU}",
+										"{@item Alternative Tattoo Palettes|AU}",
+										"{@item Enchanted Inks|AU}",
+										"{@item Elemental Inks|AU}",
+										"{@item Alternative Enchanted Inks|AU}",
+										"{@item Enchanted Sketchbook|AU}",
+										"{@item Gnomish Tattooing Machine|AU}"
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Tattooist's Kit",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Tattoo Kit Upgrades",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Tattoo Needles",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Tattoo Needles, Bone",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Tattoo Needles, Gold",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Tattoo Needles, Steel",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Tattoo Palettes",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Tattoo Palette, Advanced",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Tattoo Palette, Basic",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Tattoo Palette, Black",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Tattoo Palette, Rainbow",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Alternative Tattoo Palettes",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Enchanted Inks",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Elemental Inks",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Dancing Ink",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Glowing Ink",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Invisible Ink",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Metal-Lic Ink",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Prismatic Ink",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Stardust Ink",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Elemental Ink, Air",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Elemental Ink, Earth",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Elemental Ink, Fire",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Elemental Ink, Water",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Elemental Ink, Ash",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Elemental Ink, Ice",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Elemental Ink, Magma",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Elemental Ink, Ooze",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Alternative Enchanted Inks",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Enchanted Sketchbook",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Gnomish Tattooing Machine",
+									"source": "AU",
+									"style": "narrow"
+								}
 							]
 						},
 						{
-							"type": "statblock",
-							"tag": "item",
-							"name": "Tattooist's Kit",
-							"style": "inset"
-						},
-						{
-							"type": "statblock",
-							"tag": "item",
-							"name": "Tattoo Kit Upgrades",
-							"style": "inset"
-						},
-						{
-							"type": "statblock",
-							"tag": "item",
-							"name": "Tattoo Needles, Bone",
-							"style": "inset"
-						},
-						{
-							"type": "statblock",
-							"tag": "item",
-							"name": "Tattoo Needles, Gold",
-							"style": "inset"
-						},
-						{
-							"type": "statblock",
-							"tag": "item",
-							"name": "Tattoo Needles, Steel",
-							"style": "inset"
-						},
-						{
-							"type": "statblock",
-							"tag": "item",
-							"name": "Tattoo Palette, Advanced",
-							"style": "inset"
-						},
-						{
-							"type": "statblock",
-							"tag": "item",
-							"name": "Tattoo Palette, Basic",
-							"style": "inset"
-						},
-						{
-							"type": "statblock",
-							"tag": "item",
-							"name": "Tattoo Palette, Black",
-							"style": "inset"
-						},
-						{
-							"type": "statblock",
-							"tag": "item",
-							"name": "Tattoo Palette, Rainbow",
-							"style": "inset"
-						},
-						{
-							"type": "statblock",
-							"tag": "item",
-							"name": "Enchanted Sketchbook",
-							"style": "inset"
-						},
-						{
-							"type": "statblock",
-							"tag": "item",
-							"name": "Gnomish Tattooing Machine",
-							"style": "inset"
-						},
-						{
 							"type": "entries",
-							"name": "The Costs of a Tattoo",
-							"page": 152,
-							"id": "703",
+							"name": "The Costs of a Magical Tattoo",
+							"page": 156,
+							"id": "704",
 							"entries": [
 								"Getting a tattoo, either mundane or magical, costs a lot of time and gold, however, due to the variation in techniques, ink, purpose, and world, it is difficult to set a specific cost and time value. This will fall under the DM's responsibility of determining the best cost and duration.",
 								"When it comes to magical tattoos, the cost and time increases based on how enhanced the tattoo is. See the table below for an approximation on the increased resources and the use of attunement.",
@@ -7865,25 +8024,25 @@
 									],
 									"rows": [
 										[
-											"Minor Enchantment",
+											"Minor Enhancement",
 											"+{@dice 1d4x10} GP",
 											"+{@dice 1d4} Hours",
 											"No"
 										],
 										[
-											"Moderate Enchantment",
+											"Moderate Enhancement",
 											"+{@dice 1d6x20} GP",
 											"+{@dice 1d4+2} Hours",
 											"No"
 										],
 										[
-											"Major Enchantment",
+											"Major Enhancement",
 											"+{@dice 1d8x50} GP",
 											"+{@dice 1d6+4} Hours",
 											"Varies"
 										],
 										[
-											"Massive Enchantment",
+											"Massive Enhancement",
 											"+{@dice 1d10x100} GP",
 											"+{@dice 1d8+4} Hours",
 											"Yes"
@@ -7896,8 +8055,8 @@
 				},
 				{
 					"type": "section",
-					"name": "Minor Enchantments",
-					"page": 153,
+					"name": "Minor Enhancement",
+					"page": 157,
 					"id": "710",
 					"entries": [
 						"Pending Info and Table."
@@ -7905,8 +8064,8 @@
 				},
 				{
 					"type": "section",
-					"name": "Moderate Enchantments",
-					"page": 154,
+					"name": "Moderate Enhancement",
+					"page": 155,
 					"id": "720",
 					"entries": [
 						"Pending Info and Table."
@@ -7914,8 +8073,8 @@
 				},
 				{
 					"type": "section",
-					"name": "Major Enchantments",
-					"page": 155,
+					"name": "Major Enhancement",
+					"page": 159,
 					"id": "730",
 					"entries": [
 						"Pending Info and Table."
@@ -7923,8 +8082,8 @@
 				},
 				{
 					"type": "section",
-					"name": "Massive Enchantments",
-					"page": 156,
+					"name": "Massive Enhancement",
+					"page": 160,
 					"id": "740",
 					"entries": [
 						"Pending Info and Table."

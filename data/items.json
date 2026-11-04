@@ -2707,6 +2707,77 @@
 			]
 		},
 		{
+			"name": "Alternative Enchanted Inks",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
+			"source": "AU",
+			"type": "GV|XDMG",
+			"page": 152,
+			"rarity": "varies",
+			"wondrous": true,
+			"entries": [
+				"Standard Enchanted Tattoo Ink of any type are primarily used for the practice of tattooing on skin, however, not all people have skin. Alternative Enchanted Inks are enchanted inks made for the tattooing of any individual whose outer layer isn't a leather-like skin. The form these enchanted inks come in can vary between various creatures and are extremely common in those communities. Beastfolks' palettes may resemble a highly saturated permanent hair dye that may have the potential of penetrating the skin through absorbtion. Thri-keen, Dragonborn, and other reptile-like individuals may have their palettes resemble permanent body paint. Plasmoids palettes may resemble a form of colored burning of their outer layer in order for the design to be permanent in their shapeshifting form.",
+				"The following Enchanted Inks can be reformed to fit this purpose. Work with your DM to determine how tattooing your non-skin community works best.",
+				{
+					"type": "list",
+					"items": [
+						"{@item Enchanted Inks|AU}",
+						{
+							"type": "list",
+							"items": [
+								"{@item Enchanted Ink|AU}",
+								"{@item Dancing Ink|AU}",
+								"{@item Glowing Ink|AU}",
+								"{@item Invisibile Ink|AU}",
+								"{@item Metal-Lic Ink|AU}",
+								"{@item Prismatic Ink|AU}",
+								"{@item Stardust Ink|AU}"
+							]
+						},
+						"{@item Elemental Inks|AU}",
+						{
+							"type": "list",
+							"items": [
+								"{@item Elemental Ink, Air|AU}",
+								"{@item Elemental Ink, Earth|AU}",
+								"{@item Elemental Ink, Fire|AU}",
+								"{@item Elemental Ink, Water|AU}",
+								"{@item Elemental Ink, Ash|AU}",
+								"{@item Elemental Ink, Ice|AU}",
+								"{@item Elemental Ink, Magma|AU}",
+								"{@item Elemental Ink, Ooze|AU}"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Alternative Tattoo Palettes",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
+			"source": "AU",
+			"page": 153,
+			"type": "GV|XDMG",
+			"rarity": "none",
+			"wondrous": true,
+			"entries": [
+				"Standard Tattoo Palettes of any group are primarily used for the standard practice of tattooing on skin, however, not all people have skin. Alternative Tattoo Palettes are palettes made for the tattooing of any individual whose outer layer isn't a leather-like skin. The form these palettes come in can vary between various creatures and are extremely common in those communities. Beastfolks' palettes may resemble a highly saturated permanent hair dye that may have the potential of penetrating the skin through absorbtion. Thri-keen, Dragonborn, and other reptile-like individuals may have their palettes resemble permanent body paint. Plasmoids palettes may resemble a form of colored burning of their outer layer in order for the design to be permanent in their shapeshifting form.",
+				"The following Tattoo Palettes can be reformed to fit this purpose. Work with your DM to determine how tattooing your non-skin community works best.",
+				{
+					"type": "list",
+					"items": [
+						"{@item Tattoo Palette, Black|AU}",
+						"{@item Tattoo Palette, Basic|AU}",
+						"{@item Tattoo Palette, Rainbow|AU}",
+						"{@item Tattoo Palette, Advanced|AU}"
+					]
+				}
+			]
+		},
+		{
 			"name": "Amber",
 			"source": "DMG",
 			"page": 134,
@@ -16180,6 +16251,31 @@
 			]
 		},
 		{
+			"name": "Dancing Ink",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 153,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"detail1": "minor",
+			"detail2": "can be seen moving within, even while on a flat non-moving surface.",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Ink|AU}",
+				"Dancing Ink can be made in all standard tattoo ink colors. Additionally, the image tattooed with this ink will dance when music is present and will become more animated if the tattooed individual is also enjoying the music. Regardless of how it dances, it will not leave tatted spot.",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
+			]
+		},
+		{
 			"name": "Dancing Monkey Fruit",
 			"source": "ToA",
 			"page": 205,
@@ -23915,6 +24011,206 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Elemental Ink, Air",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 154,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"detail1": "moderate",
+			"detail2": "air element and has a liquid pale-color smokey",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Elemental Ink|AU}",
+				"While this ink can be found in all standard tattoo ink colors, white, light grays, light yellows, and light blues are the most common colors for this. Similarly to {@item Elemental Ink, Ash|AU}, this ink makes the lines wane and wave like wind without any additional enhancements.",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Ink, Ash",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 155,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"detail1": "moderate",
+			"detail2": "ash para-element and has a dark smokey liquid with black soot-like speckled",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Elemental Ink|AU}",
+				"While this ink can be found in all standard tattoo ink colors, black, dark grays, browns, and dark reds are the most common colors for this. Similarly to {@item Elemental Ink, Air|AU}, this ink makes the lines wane and wave like wind, with included flowing specks of ash-like details, without any additional enhancements.",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Ink, Earth",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 154,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"detail1": "moderate",
+			"detail2": "earth element and has a \"textured mud\"",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Elemental Ink|AU}",
+				"While this ink can be found in all standard tattoo ink colors, grays and browns are the most common colors for this. Without any enhancements, this ink makes all rocks, dirt, and earth-related material hyper realistic and detailed.",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Ink, Fire",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 154,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"detail1": "moderate",
+			"detail2": "fire element and has a swirling liquid fire-like",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Elemental Ink|AU}",
+				"While this ink can be found in all standard tattoo ink colors, reds, oranges, and yellows are the most common colors for this. Additionally, this ink does not give off any actual light nor does it give off any heat. It can animate the image to flicker and move when hit with wind, but it will not \"blow out\".",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Ink, Ice",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 155,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"detail1": "moderate",
+			"detail2": "ice para-element and has a pale-blue crystal-like textured",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Elemental Ink|AU}",
+				"While this ink can be found in all standard tattoo colors, whites and pale light blues are the most common colors for this. Without any enhancements, tattoos that use this ink have a foggy blurred appearance, as if frozen in ice.",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Ink, Magma",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 155,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"detail1": "moderate",
+			"detail2": "magma para-element and has a multi-color thick yet flowing.",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Elemental Ink|AU}",
+				"While this ink can be found in all standard tattoo colors, reds, yellows, oranges, black, and dark grays are the most common colors for this. This ink does not give off any actual light and no heat. Similarly to the {@item Elemental Ink, Ooze|AU}, it gives the image a slow flowing animated trait, while fully opaque and the sense it is partially solid within its liquid state.",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Ink, Ooze",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 155,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"detail1": "moderate",
+			"detail2": "ooze para-element and has a semi-transparent, bubbling, and viscious",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Elemental Ink|AU}",
+				"While this ink can be found in all standard tattoo colors, black, greens, grays, and purples are the most common colors for this. Similarly to the {@item Elemental Ink, Magma|AU}, it gives the image a slow flowing animated trait, while being partially transparent, and prone to bubbles.",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Ink, Water",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 154,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"detail1": "moderate",
+			"detail2": "water element and has a semi-transparent quality and low viscosity in.",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Elemental Ink|AU}",
+				"While this ink can be found in all standard tattoo colors, blues, teals, some geens, and dark purples are the most common colors for this. When used for a tattoo without any additional enhancement, it can animate the water design with a steady current, or appears with waves and splashes, dependent on the design itself.",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
+			]
+		},
+		{
 			"name": "Elephant",
 			"source": "PHB",
 			"page": 157,
@@ -24303,12 +24599,30 @@
 			}
 		},
 		{
+			"name": "Enchanted Ink",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 153,
+			"rarity": "common",
+			"weight": 0.5,
+			"detail1": "minor",
+			"detail2": "comes in various colors with a magically neutral aura.",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Ink|AU}",
+				"This is a basic magical ink, considered to be generic compared to other magical inks, which allows the tattooist to use it as part of all tattoo enhancements. It can even be used to replicate the base properties of other {@item Enchanted Inks|AU}, however, it does not give the full power as those specialized magical inks. It is the cheapest of all the magical inks, which is what makes this one so popular amongst those who provide magically enchanted tattoos."
+			]
+		},
+		{
 			"name": "Enchanted Sketchbook",
 			"group": [
 				"Tattoo Kit Upgrades"
 			],
 			"source": "AU",
-			"page": 152,
+			"page": 155,
 			"rarity": "common",
 			"weight": 0.5,
 			"wondrous": true,
@@ -29208,6 +29522,31 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Glowing Ink",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 153,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"detail1": "minor",
+			"detail2": "appears like a standard vial of tattoo ink with a faint glowing aura.",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Ink|AU}",
+				"While this ink can be found in all standard tattoo colors, white, pastels, and very saturated colors are most common for this. When a tattoo with this ink is in {@variantrule Bright Light|XPHB}, it appears as if it were a scar, dulled, or a basic tattoo, depending on the colors used. When you move to {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB} and the tattoo is exposed, it glows, either like neon or has a glowing boarder for the darker colors. This ink does not give off any actual light that would allow you or anyone nearby to improve their vision, however that tattoo can be seen at some great distances while in {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB} when exposed.",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
+			]
+		},
+		{
 			"name": "Glowrune Pigment",
 			"source": "BGG",
 			"page": 112,
@@ -29279,7 +29618,7 @@
 				"Tattoo Kit Upgrades"
 			],
 			"source": "AU",
-			"page": 152,
+			"page": 155,
 			"rarity": "uncommon",
 			"weight": 0.25,
 			"type": "T|XPHB",
@@ -35886,6 +36225,39 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Invisible Ink",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 153,
+			"rarity": "rare",
+			"weight": 0.5,
+			"detail1": "major",
+			"detail2": "appears as very heavy black ink.",
+			"reqAttune": "optional",
+			"reqAttuneAlt": "proficiency with a Tattooist's Kit",
+			"reqAttuneAltTags": [
+				{
+					"toolProficiency": "tattooist's kit|au"
+				}
+			],
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Ink|AU}",
+				"Due to the nature of this ink, it primarily comes in black, however, certain dealmakers may have their preference of color and can get their hands on a custom ink color. When a tattoo with this ink is first applied, it is very visible. As the area is healing, the tattoo will slowly fade from visibility. A {@spell Detect Magic|XPHB} spell can detect its presence as an illusion effect but not what it is. Those with Truesight and those who are attuned to a vial of this ink will be able to see the tattoo. Additionally, being attuned to this ink allows you to see the tattoo through articles of clothing as well, which is important in order to know who must not be tattooed by this ink again.",
+				"This ink does not require attunement in order to work, however those who use this ink to seal pacts are required to be attuned to this ink in order for the deal to supercede any other deals potentially made by the tattooed individual.",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
+			]
+		},
+		{
 			"name": "Ioun Stone of Vitality",
 			"source": "IMR",
 			"page": 94,
@@ -42319,6 +42691,31 @@
 			"value": 20,
 			"entries": [
 				"This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."
+			]
+		},
+		{
+			"name": "Metal-lic Ink",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 153,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"detail1": "moderate",
+			"detail2": "has colors with a metallic appearance.",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Ink|AU}",
+				"While this ink can be found in all standard tattoo colors, grays, slate, golden yellows, and browns are the most common colors for this. Metal-lic Ink, also known as Metallic Ink, are ink colors that are not only metallic in appearance, but are used for metal-related enchantments. Without any special enhancements, this ink is primarily used for aesthetic purposes.",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
 			]
 		},
 		{
@@ -51876,6 +52273,31 @@
 			],
 			"miscTags": [
 				"TT"
+			]
+		},
+		{
+			"name": "Prismatic Ink",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 154,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"detail1": "minor",
+			"detail2": "has an iridescent tint to its various colors",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Ink|AU}",
+				"While this ink can be found in all standard tattoo colors, whites, grays, and pastels are the most common colors for this. Prismatic Inks are often tied to specific transformation or alteration enchantments. Without any additional enhancements, this ink is primarily used for aesthetic purposes.",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
 			]
 		},
 		{
@@ -68478,6 +68900,31 @@
 			]
 		},
 		{
+			"name": "Stardust Ink",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 154,
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"detail1": "minor",
+			"detail2": "appears like regular colors with white, silvery, and golden sparkles.",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Ink|AU}",
+				"While this ink can be found in all standard tattoo colors, black and dark colors are the most common for this, in order to let the stardusk truly glitter. Without any additional enhancements, this ink is primarily used for aesthetic purposes.",
+				"The tattoo enhancements that require the use of this specific ink are:",
+				{
+					"type": "list",
+					"items": [
+						"pending enchantments"
+					]
+				}
+			]
+		},
+		{
 			"name": "Statuette of Augury",
 			"source": "PaBTSO",
 			"page": 62,
@@ -70892,7 +71339,7 @@
 		{
 			"name": "Tattoo Needles, Bone",
 			"group": [
-				"Tattoo Kit Upgrades"
+				"Tattoo Needles"
 			],
 			"source": "AU",
 			"page": 152,
@@ -70909,7 +71356,7 @@
 		{
 			"name": "Tattoo Needles, Gold",
 			"group": [
-				"Tattoo Kit Upgrades"
+				"Tattoo Needles"
 			],
 			"source": "AU",
 			"page": 152,
@@ -70926,7 +71373,7 @@
 		{
 			"name": "Tattoo Needles, Steel",
 			"group": [
-				"Tattoo Kit Upgrades"
+				"Tattoo Needles"
 			],
 			"source": "AU",
 			"page": 152,
@@ -70943,10 +71390,10 @@
 		{
 			"name": "Tattoo Palette, Basic",
 			"group": [
-				"Tattoo Kit Upgrades"
+				"Tattoo Palettes"
 			],
 			"source": "AU",
-			"page": 152,
+			"page": 153,
 			"rarity": "none",
 			"value": 200,
 			"weight": 0.5,
@@ -70958,10 +71405,10 @@
 		{
 			"name": "Tattoo Palette, Black",
 			"group": [
-				"Tattoo Kit Upgrades"
+				"Tattoo Palettes"
 			],
 			"source": "AU",
-			"page": 152,
+			"page": 153,
 			"rarity": "none",
 			"value": 100,
 			"weight": 0.5,
@@ -70973,10 +71420,10 @@
 		{
 			"name": "Tattoo Palette, Rainbow",
 			"group": [
-				"Tattoo Kit Upgrades"
+				"Tattoo Palettes"
 			],
 			"source": "AU",
-			"page": 152,
+			"page": 153,
 			"rarity": "none",
 			"value": 500,
 			"weight": 0.75,
@@ -70988,10 +71435,10 @@
 		{
 			"name": "Tattoo Palette, Advanced",
 			"group": [
-				"Tattoo Kit Upgrades"
+				"Tattoo Palettes"
 			],
 			"source": "AU",
-			"page": 152,
+			"page": 153,
 			"rarity": "none",
 			"value": 1500,
 			"weight": 1,
@@ -82446,6 +82893,55 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Elemental Inks",
+			"group": [
+				"Enchanted Inks"
+			],
+			"source": "AU",
+			"page": 154,
+			"rarity": "varies",
+			"type": "GV|XDMG",
+			"weight": 0.5,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"Elemental Inks (a type of {@item Enchanted Inks|AU|Enchanted Ink}) are commonly found in 4 elemental-related types: air, earth, fire, and water. Additionally, rarer ones are related to the Para-Elemental Planes: ash, ice, magma, and ooze. They are primarily used for backgrounds within minor enchanted tattoos to give the scene a feeling of realism."
+			],
+			"items": [
+				"Elemental Ink, Air|AU",
+				"Elemental Ink, Ash|AU",
+				"Elemental Ink, Earth|AU",
+				"Elemental Ink, Fire|AU",
+				"Elemental Ink, Ice|AU",
+				"Elemental Ink, Magma|AU",
+				"Elemental Ink, Ooze|AU",
+				"Elemental Ink, Water|AU"
+			]
+		},
+		{
+			"name": "Enchanted Inks",
+			"source": "AU",
+			"page": 153,
+			"type": "GV|XDMG",
+			"rarity": "varies",
+			"weight": 0.5,
+			"wondrous": true,
+			"entries": [
+				"{@note This generic variant has similar name and the same source as the item {@item Enchanted Ink|AU}}.",
+				"These various magical inks are used for magical tattoos for a variety of enhancements. The general rule is the higher the enhancement, the rarer the ink."
+			],
+			"items": [
+				"Enchanted Ink|AU",
+				"Dancing Ink|AU",
+				"Elemental Inks|AU",
+				"Glowing Ink|AU",
+				"Invisible Ink|AU",
+				"Metal-lic Ink|AU",
+				"Prismatic Ink|AU",
+				"Stardust Ink|AU"
+			]
+		},
+		{
 			"name": "Enspelled Armor",
 			"source": "XDMG",
 			"page": 258,
@@ -86069,6 +86565,7 @@
 			"name": "Tattoo Kit Upgrades",
 			"source": "AU",
 			"page": 152,
+			"type": "GV|XDMG",
 			"rarity": "none",
 			"reqAttune": true,
 			"wondrous": true,
@@ -86076,9 +86573,45 @@
 				"Tattoo Kit Upgrades are items that can be purchased individually to add to your {@item Tattooist's Kit|AU} for improved mundane upgrades as well as refilling used components."
 			],
 			"items": [
+				"Tattoo Needles|AU",
+				"Tattoo Palettes|AU"
+			]
+		},
+		{
+			"name": "Tattoo Needles",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
+			"source": "AU",
+			"type": "GV|XDMG",
+			"page": 152,
+			"rarity": "none",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Tattoo Needles is a subgroup of Tattoo Kit Upgrades that can be purchased separately to add to your {@item Tattooist's Kit|AU}."
+			],
+			"items": [
 				"Tattoo Needles, Bone|AU",
 				"Tattoo Needles, Gold|AU",
-				"Tattoo Needles, Steel|AU",
+				"Tattoo Needles, Steel|AU"
+			]
+		},
+		{
+			"name": "Tattoo Palettes",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
+			"source": "AU",
+			"type": "GV|XDMG",
+			"page": 153,
+			"rarity": "none",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Tattoo Palettes is a subgroup of Tattoo Kit Upgrades that can be purchased separately to add to your {@item Tattooist's Kit|AU}."
+			],
+			"items": [
 				"Tattoo Palette, Advanced|AU",
 				"Tattoo Palette, Basic|AU",
 				"Tattoo Palette, Black|AU",

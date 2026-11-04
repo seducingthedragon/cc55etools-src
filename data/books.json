@@ -15465,11 +15465,19 @@
 					},
 					"headers": [
 						"About Magical Tattoos",
-						"Artisan Kit and Tools",
-						"Minor Enchantments",
-						"Moderate Enchantments",
-						"Major Enchantments",
-						"Massive Enchantments"
+						"Tools and Costs",
+						{
+							"header": "Artisan Kit and its Upgrades",
+							"depth": 1
+						},
+						{
+							"header": "The Costs of a Magical Tattoo",
+							"depth": 1
+						},
+						"Minor Enhancement",
+						"Moderate Enhancement",
+						"Major Enhancement",
+						"Massive Enhancement"
 					]
 				},
 				{
