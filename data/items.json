@@ -7523,6 +7523,44 @@
 			]
 		},
 		{
+			"name": "Big Flashlight Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"reqAttune": "optional",
+			"detail1": "Moderately",
+			"detail2": "{@item Glowing Ink|AU} and {@item Stardust Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: Yes}",
+				"You gain the following benefits with this tattoo.",
+				{
+					"type": "entries",
+					"name": "Light Spell",
+					"entries": [
+						"You know the {@spell Light|XPHB} cantrip. When you cast this spell, you can cast it from your tattoo using its 20-foot Sphere or with in a 45-foot {@variantrule Bright Light|XPHB} {@variantrule Cone [Area of Effect]|XPHB|Cone} from this tattoo. While using the Cone shape, {@variantrule Dim Light|XPHB} extends an additional 10 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Attunement Caveat",
+					"entries": [
+						"If the {@spell Light|XPHB} cantrip is part of your class's spell list, this tattoo {@b {@i does not}} require {@variantrule Attunement|XPHB} from you. If the {@spell Light|XPHB} cantrip is not part of your class's spell list or you are not a Spellcaster, this tattoo {@b {@i does}} require {@variantrule Attunement|XPHB} from you."
+					]
+				}
+			],
+			"additionalSpells": {
+				"will": [
+					"light|xphb"
+				]
+			}
+		},
+		{
 			"name": "Bigby's Beneficent Bracelet",
 			"source": "BGG",
 			"page": 111,
@@ -16260,7 +16298,7 @@
 			"rarity": "uncommon",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "minor",
+			"detail1": "Minimally",
 			"detail2": "can be seen moving within, even while on a flat non-moving surface.",
 			"wondrous": true,
 			"hasRefs": true,
@@ -24021,7 +24059,7 @@
 			"rarity": "uncommon",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "moderate",
+			"detail1": "Moderately",
 			"detail2": "air element and has a liquid pale-color smokey",
 			"wondrous": true,
 			"hasRefs": true,
@@ -24047,7 +24085,7 @@
 			"rarity": "uncommon",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "moderate",
+			"detail1": "Moderately",
 			"detail2": "ash para-element and has a dark smokey liquid with black soot-like speckled",
 			"wondrous": true,
 			"hasRefs": true,
@@ -24073,7 +24111,7 @@
 			"rarity": "uncommon",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "moderate",
+			"detail1": "Moderately",
 			"detail2": "earth element and has a \"textured mud\"",
 			"wondrous": true,
 			"hasRefs": true,
@@ -24099,7 +24137,7 @@
 			"rarity": "uncommon",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "moderate",
+			"detail1": "Moderately",
 			"detail2": "fire element and has a swirling liquid fire-like",
 			"wondrous": true,
 			"hasRefs": true,
@@ -24125,7 +24163,7 @@
 			"rarity": "uncommon",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "moderate",
+			"detail1": "Moderately",
 			"detail2": "ice para-element and has a pale-blue crystal-like textured",
 			"wondrous": true,
 			"hasRefs": true,
@@ -24151,7 +24189,7 @@
 			"rarity": "uncommon",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "moderate",
+			"detail1": "Moderately",
 			"detail2": "magma para-element and has a multi-color thick yet flowing.",
 			"wondrous": true,
 			"hasRefs": true,
@@ -24177,7 +24215,7 @@
 			"rarity": "uncommon",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "moderate",
+			"detail1": "Moderately",
 			"detail2": "ooze para-element and has a semi-transparent, bubbling, and viscious",
 			"wondrous": true,
 			"hasRefs": true,
@@ -24203,7 +24241,7 @@
 			"rarity": "uncommon",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "moderate",
+			"detail1": "Moderately",
 			"detail2": "water element and has a semi-transparent quality and low viscosity in.",
 			"wondrous": true,
 			"hasRefs": true,
@@ -24617,7 +24655,7 @@
 			"rarity": "common",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "minor",
+			"detail1": "Minimally",
 			"detail2": "comes in various colors with a magically neutral aura.",
 			"wondrous": true,
 			"hasRefs": true,
@@ -27943,6 +27981,41 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Flashlight Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"detail1": "Minimally",
+			"detail2": "{@item Glowing Ink|AU}",
+			"tattoo": true,
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: Yes}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"You can cast the {@spell Light|XPHB} from your tattoo once per long rest. When you do so, you can use a 30-foot {@variantrule Cone [Area of Effect]|XPHB} of {@variantrule Bright Light|XPHB} instead of the 20-foot Sphere. Additionally, the Cone has {@variantrule Dim Light|XPHB} out to an additional 15 feet."
+					]
+				}
+			],
+			"additionalSpells": {
+				"daily": {
+					"1e": [
+						"light|xphb"
+					]
+				}
+			}
+		},
+		{
 			"name": "Flask",
 			"source": "PHB",
 			"page": 153,
@@ -29542,7 +29615,7 @@
 			"rarity": "uncommon",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "minor",
+			"detail1": "Minimally",
 			"detail2": "appears like a standard vial of tattoo ink with a faint glowing aura.",
 			"wondrous": true,
 			"hasRefs": true,
@@ -31477,6 +31550,38 @@
 			"type": "$A|XDMG",
 			"rarity": "none",
 			"value": 2500
+		},
+		{
+			"name": "Hands-Off Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"detail1": "Minimally",
+			"detail2": "{@item Dancing Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: Yes}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Pinch 'em",
+					"entries": [
+						"While this tattoo is visible, if someone you do not like touches you on or nearby the tattoo, the tattoo will pinch them. Not hard enough to deal any damage, but hopefully hard enough to get their hands off of you."
+					]
+				},
+				{
+					"type": "insetReadaloud",
+					"name": "Multiple Hands-Off Tattoos",
+					"entries": [
+						"While it is common that most enhanced tattoos are only done once on a person, this tattoo is known to be tatted on person multiple times. This occurs when the individual works in an industry that requires \"upclose interactions\" that may not be pleasant and sometimes, a customer forgets that they may be in a Hands-Off type of space or may not want to be touched there. When that's the case, this tattoo is often done in the areas where that individual does not want any unwarrented interactions."
+					]
+				}
+			]
 		},
 		{
 			"name": "Harbor Moon",
@@ -36247,7 +36352,7 @@
 			"rarity": "rare",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "major",
+			"detail1": "Majorly",
 			"detail2": "appears as very heavy black ink.",
 			"reqAttune": "optional",
 			"reqAttuneAlt": "proficiency with a Tattooist's Kit",
@@ -42717,7 +42822,7 @@
 			"rarity": "uncommon",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "moderate",
+			"detail1": "Moderately",
 			"detail2": "has colors with a metallic appearance.",
 			"wondrous": true,
 			"hasRefs": true,
@@ -52301,7 +52406,7 @@
 			"rarity": "uncommon",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "minor",
+			"detail1": "Minimally",
 			"detail2": "has an iridescent tint to its various colors",
 			"wondrous": true,
 			"hasRefs": true,
@@ -53469,6 +53574,64 @@
 					"zone of truth|xphb"
 				]
 			}
+		},
+		{
+			"name": "Quick Healing Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"detail1": "Moderately",
+			"detail2": "{@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and {@item Stardust Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No.}",
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Bonus Healing",
+					"entries": [
+						"Whenever an ally targets you with a magical effect that heals you, you gain additional {@variantrule Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Auto HP on a Short Rest",
+					"entries": [
+						"Whenever you take a {@variantrule Short Rest|XPHB}, you automatically regain a number of {@variantrule Hit Points|XPHB} equal to your player level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Quick Visitation Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"detail1": "Minimally",
+			"detail2": "{@item Dancing Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No.}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Moving Tattoo",
+					"entries": [
+						"While Dancing Ink is known to cause tattoos to move and grove to the beat, this is always done in place. With this enhancement, the tattoo can move to another part of your body for 1 minute, on your mental command. At the end of 1 minute, the tattoo will remain there for 1 hour before it can move again. At the end of a {@variantrule Long Rest|XPHB}, the tattoo will be back at its original location."
+					]
+				}
+			]
 		},
 		{
 			"name": "Quill of Studiousness",
@@ -59318,6 +59481,31 @@
 			],
 			"miscTags": [
 				"CNS"
+			]
+		},
+		{
+			"name": "S-O-S Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"detail1": "Minimally",
+			"detail2": "{@item Glowing Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: Necessary.}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "SOS Signaling",
+					"entries": [
+						"On your mental command, this tattoo will flash its glow in a coded pattern signalling for SOS {@ie. morse code}. While the tattoo does not need to be visible for this effect to occur, no one will see it if it is covered."
+					]
+				}
 			]
 		},
 		{
@@ -68926,7 +69114,7 @@
 			"rarity": "uncommon",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "minor",
+			"detail1": "Minimally",
 			"detail2": "appears like regular colors with white, silvery, and golden sparkles.",
 			"wondrous": true,
 			"hasRefs": true,
@@ -69724,6 +69912,31 @@
 				{
 					"bright": 10,
 					"dim": 20
+				}
+			]
+		},
+		{
+			"name": "Strobe Tattoo",
+			"group": [
+				" Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"detail1": "Minimally",
+			"detail2": "{@item Glowing Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: Necessary}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Party Lights",
+					"entries": [
+						"If you have multiple parts of your tattoo utilizing the {@item Glowing Ink|AU}, you can flash different parts of them to the pattern of the music you are listening to, providing a party-like strobe effect. While it does not have to be visible for this tattoo to do this, it's only fun if it is."
+					]
 				}
 			]
 		},
@@ -79921,6 +80134,36 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Whistling Message Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"detail1": "Minimally",
+			"detail2": "{@item Dancing Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: Yes}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Cast Message",
+					"entries": [
+						"You know the {@spell Message|XPHB} cantrip, however when you cast it at a target within range, the only message you can send is a whistle. Additionally, the tattoo itself must be visible and in the direction of the target, even if the target of your spell cannot see the tattoo."
+					]
+				}
+			],
+			"attachedSpells": {
+				"will": [
+					"message|xphb"
+				]
+			}
+		},
+		{
 			"name": "Whistle-Stick",
 			"source": "OGA",
 			"page": 4,
@@ -84725,6 +84968,34 @@
 				"Mind Crystal (Subtle)|PaBTSO"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Minimally Enhanced Tattoo",
+			"source": "AU",
+			"page": 157,
+			"rarity": "varies",
+			"tattoo": true,
+			"wondrous": true,
+			"items": [
+				"Flashlight Tattoo|AU",
+				"Hands-Off Tattoo|AU",
+				"Quick Visitation Tattoo|AU",
+				"S-O-S Tattoo|AU",
+				"Strobe Tattoo|AU",
+				"Whistling Message Tattoo|AU"
+			]
+		},
+		{
+			"name": "Moderately Enhanced Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "varies",
+			"tattoo": true,
+			"wondrous": true,
+			"items": [
+				"Big Flashlight Tattoo|AU",
+				"Quick Healing Tattoo|AU"
+			]
 		},
 		{
 			"name": "Moon Sickle",

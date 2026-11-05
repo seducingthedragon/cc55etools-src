@@ -8100,72 +8100,113 @@
 				},
 				{
 					"type": "section",
-					"name": "Minor Enhancement",
+					"name": "Minor Enhancements",
 					"page": 157,
 					"id": "710",
 					"entries": [
 						"What is a Minor Enhancement and how do they differ from others. Max Minor Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
+						"Below is a table with all of the tattoos that are considered to be a {@item Minimally Enhanced Tattoo|AU}, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",
 						{
 							"type": "table",
-							"caption": "Minor Enhancement Magical Tattoos",
-							"colLabels": [
-								"Tattoo",
-								"Brief Descript.",
-								"Req. Enhanced Ink Type"
-							],
-							"colStyles": [
-								"col-6",
-								"col-3",
-								"col-3"
-							],
-							"rows": [
-								[
-									"name test",
-									"descript test",
-									"ink test"
-								],
-								[
-									"name test",
-									"descript test",
-									"ink test"
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "section",
-					"name": "Moderate Enhancement",
-					"page": 155,
-					"id": "720",
-					"entries": [
-						"What is a Moderate Enhancement and how do they differ from others. Max Moderate Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
-						{
-							"type": "table",
-							"caption": "Moderate Enhancement Magical Tattoos",
+							"caption": "Minimally Enhanced Magical Tattoos",
 							"colLabels": [
 								"Tattoo",
 								"Brief Descript.",
 								"Req. Enhanced Ink Type",
+								"Visibility?"
+							],
+							"colStyles": [
+								"col-2",
+								"col-4",
+								"col-3",
+								"col-3 text-center"
+							],
+							"rows": [
+								[
+									"{@item Flashlight Tattoo|AU|Flashlight}",
+									"Cast {@spell Light} once per {@variantrule Long Rest|XPHB} in a 30-foot {@variantrule Bright Light|XPHB} {@variantrule Cone [Area of Effect]|XPHB|Cone}",
+									"{@item Glowing Ink|AU}",
+									"Yes"
+								],
+								[
+									"{@item Hands-Off Tattoo|AU|Hands-Off}",
+									"Pinch an Unliked Individual when Touched",
+									"{@item Dancing Ink|AU}",
+									"Yes"
+								],
+								[
+									"{@item Quick Visitation Tatoo|AU|Quick Visitation}",
+									"Will move for 1 minute to another body part",
+									"{@item Dancing Ink|AU}",
+									"No"
+								],
+								[
+									"{@item S-O-S Tattoo|AU|S-O-S}",
+									"Flash SOS in a visual light code {@i i.e. morse code}",
+									"{@item Glowing Ink|AU}",
+									"Necessary"
+								],
+								[
+									"{@item Strobe Tattoo|AU|Strobe}",
+									"If multicolored, will flash in random rotation to surrounding music",
+									"{@item Glowing Ink|AU}",
+									"Yes"
+								],
+								[
+									"{@item Whistling Message|AU|Whistling Message}",
+									"Cast {@spell Message|XPHB} to target in range, but the message is a whistle only.",
+									"{@item Dancing Ink|AU}",
+									"Yes"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Moderate Enhancements",
+					"page": 158,
+					"id": "720",
+					"entries": [
+						"What is a Moderate Enhancement and how do they differ from others. Max Moderate Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
+						"Below is a table with all of the tattoos that are considered to be a {@item Moderately Enhanced Tattoo|AU}, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",
+						{
+							"type": "table",
+							"caption": "Moderately Enhanced Magical Tattoos",
+							"colLabels": [
+								"Tattoo",
+								"Brief Descript.",
+								"Req. Enhanced Ink Type",
+								"Visibility?",
 								"Attunement?"
 							],
 							"colStyles": [
-								"col-4-5",
+								"col-2",
+								"col-4",
 								"col-3",
-								"col-3",
+								"col-1-5 text-center",
 								"col-1-5 text-center"
 							],
 							"rows": [
 								[
-									"name test",
-									"descript test",
-									"ink test",
-									"yes"
+									"{@item Big Flashlight|AU|Big Flashlight}",
+									"Know {@spell Light|XPHB} Cantrip, cast in sphere or a 45-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}",
+									"{@item Glowing Ink|AU} and {@item Stardust Ink|XPHB}",
+									"Yes",
+									"Dependent"
+								],
+								[
+									"{@item Quick Healer Tattoo|AU|Quick Healer}",
+									"Regaining {@variantrule Hit Points|XPHB} on a {@variantrule Short Rest|XPHB}, Bonus {@variantrule Hit Points|XPHB} through magical healing.",
+									"{@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and {@item Stardust Ink|AU}",
+									"No",
+									"Yes"
 								],
 								[
 									"name test",
 									"descript test",
 									"ink test",
+									"no",
 									"yes"
 								]
 							]
@@ -8174,24 +8215,27 @@
 				},
 				{
 					"type": "section",
-					"name": "Major Enhancement",
+					"name": "Major Enhancements",
 					"page": 159,
 					"id": "730",
 					"entries": [
 						"What is a Major Enhancement and how do they differ from others. Max Major Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
+						"Below is a table with all of the tattoos that are considered to be a Majorly Enhanced Tattoo, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",
 						{
 							"type": "table",
-							"caption": "Major Enhancement Magical Tattoos",
+							"caption": "Majorly Enhanced Magical Tattoos",
 							"colLabels": [
 								"Tattoo",
 								"Brief Descript.",
 								"Req. Enhanced Ink Type",
+								"Visibility?",
 								"Attunement?"
 							],
 							"colStyles": [
-								"col-4-5",
+								"col-2",
+								"col-4",
 								"col-3",
-								"col-3",
+								"col-1-5 text-center",
 								"col-1-5 text-center"
 							],
 							"rows": [
@@ -8199,12 +8243,14 @@
 									"name test",
 									"descript test",
 									"ink test",
+									"no",
 									"yes"
 								],
 								[
 									"name test",
 									"descript test",
 									"ink test",
+									"yes",
 									"yes"
 								]
 							]
@@ -8213,24 +8259,27 @@
 				},
 				{
 					"type": "section",
-					"name": "Massive Enhancement",
+					"name": "Massive Enhancements",
 					"page": 160,
 					"id": "740",
 					"entries": [
 						"What is a Massive Enhancement and how do they differ from others. Max Massive Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
+						"Below is a table with all of the tattoos that are considered to be a Massively Enhanced Tattoo, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",
 						{
 							"type": "table",
-							"caption": "Massive Enhancement Magical Tattoos",
+							"caption": "Massively Enhanced Magical Tattoos",
 							"colLabels": [
 								"Tattoo",
 								"Brief Descript.",
 								"Req. Enhanced Ink Type",
+								"Visibility?",
 								"Attunement?"
 							],
 							"colStyles": [
-								"col-4-5",
+								"col-2",
+								"col-4",
 								"col-3",
-								"col-3",
+								"col-1-5 text-center",
 								"col-1-5 text-center"
 							],
 							"rows": [
@@ -8238,12 +8287,14 @@
 									"name test",
 									"descript test",
 									"ink test",
+									"yes",
 									"yes"
 								],
 								[
 									"name test",
 									"descript test",
 									"ink test",
+									"no",
 									"yes"
 								]
 							]
