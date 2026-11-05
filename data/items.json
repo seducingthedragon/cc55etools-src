@@ -2707,6 +2707,39 @@
 			]
 		},
 		{
+			"name": "Alter Self Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"detail1": "Moderately",
+			"detail2": "{@item Prismatic Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Cast Alter Self",
+					"entries": [
+						"You gain the ability to cast Alter Self once per dawn using the Appearance Only option."
+					]
+				}
+			],
+			"additionalSpells": {
+				"daily": {
+					"1e": [
+						"alter self|xphb"
+					]
+				}
+			}
+		},
+		{
 			"name": "Alternative Enchanted Inks",
 			"group": [
 				"Tattoo Kit Upgrades"
@@ -2762,14 +2795,13 @@
 			"page": 153,
 			"type": "GV|XDMG",
 			"rarity": "none",
-			"wondrous": true,
 			"entries": [
 				"Standard Tattoo Palettes of any group are primarily used for the standard practice of tattooing on skin, however, not all people have skin. Alternative Tattoo Palettes are palettes made for the tattooing of any individual whose outer layer isn't a leather-like skin. The form these palettes come in can vary between various creatures and are extremely common in those communities. Beastfolks' palettes may resemble a highly saturated permanent hair dye that may have the potential of penetrating the skin through absorbtion. Thri-keen, Dragonborn, and other reptile-like individuals may have their palettes resemble permanent body paint. Plasmoids palettes may resemble a form of colored burning of their outer layer in order for the design to be permanent in their shapeshifting form.",
 				"The following Tattoo Palettes can be reformed to fit this purpose. Work with your DM to determine how tattooing your non-skin community works best.",
 				{
 					"type": "list",
 					"items": [
-						"{@item Tattoo Palette, Black|AU}",
+						"{@item Tattoo Palette, Grayscale|AU}",
 						"{@item Tattoo Palette, Basic|AU}",
 						"{@item Tattoo Palette, Rainbow|AU}",
 						"{@item Tattoo Palette, Advanced|AU}"
@@ -12800,6 +12832,31 @@
 			]
 		},
 		{
+			"name": "Charming Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"detail1": "Minimally",
+			"detail2": "{@item Prismatic Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: Yes}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Improved Persuasion",
+					"entries": [
+						"You gain a +1 bonus to your Charisma ({@skill Persuasion|XPHB}) checks."
+					]
+				}
+			]
+		},
+		{
 			"name": "Charred Wand of Magic Missiles",
 			"source": "WDH",
 			"page": 77,
@@ -16672,6 +16729,31 @@
 					"items": [
 						"You can use the amulet as a spellcasting focus for your warlock spells.",
 						"You can try to cast a cantrip that you don't know. The cantrip must be on the warlock spell list, and you must make a {@dc 10} Intelligence ({@skill Arcana}) check. If the check succeeds, you cast the spell. If the check fails, so does the spell, and the action used to cast the spell is wasted. In either case, you can't use this property again until you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Darkvision Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "common",
+			"detail1": "Minimally",
+			"detail2": "{@item Stardust Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"If you do not already have {@senses Darkvision|XPHB}, you gain this sense up to 30 feet. If you already have {@senses Darkvision|XPHB}, you gain an additional 15 feet."
 					]
 				}
 			]
@@ -30296,6 +30378,53 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Goodnight Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"reqAttune": "optional",
+			"detail1": "Moderately",
+			"detail2": "{@item Stardust Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: Yes}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Good Night Sleep Tight",
+					"entries": [
+						"You know the {@spell Sleep|XPHB} spell and can cast it at one target, who can see your tattoo, without {@status Concentration|XPHB} or expending a spell slot.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "If Not Attuned",
+									"entry": "If you choose not to Attune to this tattoo, you can only cast {@spell Sleep|XPHB} in this way, once per {@variantrule Long Rest|XPHB}."
+								},
+								{
+									"type": "item",
+									"name": "If Attuned",
+									"entry": "If you choose to Attune to this tattoo, you can cast {@spell Sleep|XPHB} in this way, a number of times equal to half of your {@variantrule Proficiency|XPHB|Proficiency Bonus} (round down) per {@variantrule Long Rest|XPHB}."
+								}
+							]
+						}
+					]
+				}
+			],
+			"additionalSpells": {
+				"other": [
+					"sleep|xphb"
+				]
+			}
+		},
+		{
 			"name": "Goose Egg Trinket",
 			"source": "BGG",
 			"page": 150,
@@ -36343,35 +36472,81 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Intuitive Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"detail1": "Minimally",
+			"detail2": "{@item Stardust Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: Yes}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Insightful",
+					"entries": [
+						"You gain a +1 bonus on your Wisdom ({@skill Insight|XPHB}) checks."
+					]
+				}
+			]
+		},
+		{
 			"name": "Invisible Ink",
 			"group": [
 				"Enchanted Inks"
 			],
 			"source": "AU",
 			"page": 153,
-			"rarity": "rare",
+			"rarity": "very rare",
 			"type": "TT|AU",
 			"weight": 0.5,
-			"detail1": "Majorly",
-			"detail2": "appears as very heavy black ink.",
-			"reqAttune": "optional",
-			"reqAttuneAlt": "proficiency with a Tattooist's Kit",
-			"reqAttuneAltTags": [
-				{
-					"toolProficiency": "tattooist's kit|au"
-				}
-			],
+			"reqAttune": "by those proficient in a Tattooist's Kit",
 			"wondrous": true,
-			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enchanted Ink|AU}",
-				"Due to the nature of this ink, it primarily comes in black, however, certain dealmakers may have their preference of color and can get their hands on a custom ink color. When a tattoo with this ink is first applied, it is very visible. As the area is healing, the tattoo will slowly fade from visibility. A {@spell Detect Magic|XPHB} spell can detect its presence as an illusion effect but not what it is. Those with Truesight and those who are attuned to a vial of this ink will be able to see the tattoo. Additionally, being attuned to this ink allows you to see the tattoo through articles of clothing as well, which is important in order to know who must not be tattooed by this ink again.",
-				"This ink does not require attunement in order to work, however those who use this ink to seal pacts are required to be attuned to this ink in order for the deal to supercede any other deals potentially made by the tattooed individual.",
-				"The tattoo enhancements that require the use of this specific ink are:",
+				"Compared to all other {@item Enchanted Inks|AU}, this one is the most unique. It is the only ink that requires the tattooer to be attuned to the ink in order to use it. This is because this ink has only one purpose, and that is validating the one true pact of the tattooed.",
 				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
+					"type": "entries",
+					"name": "Warlock Pacts",
+					"entries": [
+						"When a creature makes a deal with a powerful entity as a Warlock, they are often marked in one way or another as proof of this deal. Additionally, sometimes an entity will mark a creature for their own purposes, regardless of that creature's present deals. And sometimes, a creature will make deals with anyone and have them fight over their soul while they walk away free. This has led to this ink being used by extremely power and jealous entities who expect their deals to be honored above all else."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "This Ink's Properties",
+					"entries": [
+						"This ink comes in a deep rich black color, and can easily be confused for standard writing ink on first glance and this tattoo ink is meant to replicate that, due to the idea of signing a deal. This ink can come in different colors, however it is primarily up to the entity the deal is being made for, if they want a specialized color. The color is present for the tattooing process, in order for the tattooing deal maker to see what they are doing. As the area heals, the ink fades to near invisibility."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Who can See the Tattoo?",
+					"entries": [
+						"Creatures who can see through magical illusion, such as those with {@sense Truesight|XPHB} can see the tattoo clearly in its original color. Additionally, those who are attuned to one bottle of this type of ink can see the tattoo, and they can see it through clothing. This is important for them in order to know who should not be tattooed again by the ink.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Two+ Tattooed Deals",
+									"entry": "What would happen if a creature has more than one invisible tattooed deals? That's up to the DM."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "insetReadaloud",
+					"name": "Unknown Tattoo",
+					"entries": [
+						"Sometimes, a creature may not even know they have a tattoo with this ink..."
 					]
 				}
 			]
@@ -41656,6 +41831,38 @@
 			]
 		},
 		{
+			"name": "Manipulate Icon Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"detail1": "Minimally",
+			"detail2": "{@item Prismatic Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: Necessary}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Minor Illusion",
+					"entries": [
+						"Once per {@variantrule Long Rest|XPHB}, you can cast {@spell Minor Illusion|XPHB} on your tattoo, using both the sound and image effects. While your tattoo does not need to be visible for this to occur, it is presumed necessary for it to be effective."
+					]
+				}
+			],
+			"additionalSpells": {
+				"daily": {
+					"1e": [
+						"minor illusion|xphb"
+					]
+				}
+			}
+		},
+		{
 			"name": "Mantle of Spell Resistance",
 			"source": "DMG",
 			"page": 180,
@@ -45149,6 +45356,31 @@
 					"animate dead"
 				]
 			}
+		},
+		{
+			"name": "Night Sky Reflection Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"detail1": "Minimally",
+			"detail2": "{@item Stardust Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Star Mirror",
+					"entries": [
+						"As long as you are not underground, at nighttime, your tattoo will glitter and twinkle in a pattern that matches the stars above."
+					]
+				}
+			]
 		},
 		{
 			"name": "Nightbringer",
@@ -61083,6 +61315,32 @@
 			]
 		},
 		{
+			"name": "Second Guessing Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"detail1": "Minimally",
+			"detail2": "{@item Prismatic Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: Yes}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Did you Really Use Magic?",
+					"entries": [
+						"When you use a spell or an effect that {@condition Charmed|XPHB|Charms} a target and that effect allows the target to know that they were being magically influenced onced the effect is over, you can choose to have the target repeat the previous {@variantrule Saving Throw|XPHB} related in order for the target to truly know if they were being magically influenced.",
+						"Once a target fails this second {@variantrule Saving Throw|XPHB}, you can't use this benefit again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Secondhand Steal Trinket",
 			"source": "BMT",
 			"page": 108,
@@ -71634,7 +71892,7 @@
 			]
 		},
 		{
-			"name": "Tattoo Palette, Black",
+			"name": "Tattoo Palette, Grayscale",
 			"group": [
 				"Tattoo Palettes"
 			],
@@ -71645,7 +71903,7 @@
 			"weight": 0.5,
 			"type": "TT|AU",
 			"entries": [
-				"This palette is a grayscale pack that is typically labeled black, due to it having twice as many containers of black tattoo ink than white or gray, however, there are no other colored ink within this palette. There are mini containers to mix these to obtain various shades of gray."
+				"This palette is a grayscale pack that typically has twice as many containers of black tattoo ink than white or gray, however, there are no other colored ink within this palette. There are mini containers to mix these to obtain various shades of gray."
 			]
 		},
 		{
@@ -71660,7 +71918,7 @@
 			"weight": 0.75,
 			"type": "TT|AU",
 			"entries": [
-				"This palette has the following colors: black, white, gray, red, orange, yellow, green, cyan, blue, indigo, purple, and pink. It also comes with mini containers to mix these colors to get various shades of the available colors."
+				"This palette has the following colors: black, white, gray, red, orange, yellow, green, cyan, blue, indigo, purple, and magenta. It also comes with mini containers to mix these colors to get various shades of the available colors."
 			]
 		},
 		{
@@ -84977,10 +85235,16 @@
 			"tattoo": true,
 			"wondrous": true,
 			"items": [
+				"Charming Tattoo|AU",
+				"Darkvision Tattoo|AU",
 				"Flashlight Tattoo|AU",
 				"Hands-Off Tattoo|AU",
+				"Intuitive Tattoo|AU",
+				"Manipulate Icon Tattoo|AU",
+				"Night Sky Reflection Tattoo|AU",
 				"Quick Visitation Tattoo|AU",
 				"S-O-S Tattoo|AU",
+				"Second Guessing Tattoo|AU",
 				"Strobe Tattoo|AU",
 				"Whistling Message Tattoo|AU"
 			]
@@ -84993,7 +85257,9 @@
 			"tattoo": true,
 			"wondrous": true,
 			"items": [
+				"Alter Self Tattoo|AU",
 				"Big Flashlight Tattoo|AU",
+				"Goodnight Tattoo|AU",
 				"Quick Healing Tattoo|AU"
 			]
 		},
@@ -86920,7 +87186,7 @@
 			"items": [
 				"Tattoo Palette, Advanced|AU",
 				"Tattoo Palette, Basic|AU",
-				"Tattoo Palette, Black|AU",
+				"Tattoo Palette, Grayscale|AU",
 				"Tattoo Palette, Rainbow|AU"
 			]
 		},

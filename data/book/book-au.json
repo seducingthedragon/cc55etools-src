@@ -7737,8 +7737,9 @@
 		{
 			"type": "section",
 			"name": "Magical Tattoos",
+			"page": 151,
 			"id": "700",
-			"entries": [	
+			"entries": [
 				{
 					"type": "section",
 					"name": "About Magical Tattoos",
@@ -7746,21 +7747,27 @@
 					"id": "701",
 					"entries": [
 						"Tattoo magic is an incredibly old form of magic, and is a form of art utilized by many different cultures across the multiverse. The designs and function of these tattoos varies wildly between peoples, races, species, countries, continents, and planes. While not all tattoos are magical, it is a widespread practice with various styles, both in art and application.",
-						"To get a tattoo, one must find a person who is has the proper proficiencies and tools, and one must have the time and gold to spend on it. To provide tattoos, you'll need a new artisan kit and upgraded tools."
+						"With this update to magical tattoos, this chapter discusses tools, the new Artisan's Toolkit, costs, toolkit upgrades, and the tattoo effects themselves. The biggest change is the reduction of attunement. Magically tattoos will still require {@variantrule Attunement|XPHB}, but only for higher level enhancements and specific situations. Due to this, attuning to a magical tattoo works slightly different.",
+						{
+							"type": "statblock",
+							"tag": "variantrule",
+							"source": "AU",
+							"name": "Attunement: Tattoos"
+						}
 					]
 				},
 				{
 					"type": "section",
 					"name": "Tools and Costs",
 					"page": 151,
-					"id": "702",
+					"id": "703",
 					"entries": [
 						"With the addition of Magical tattoos, a new artisan's toolkit and related tools have been added. Additionally, its important to think about the costs and resources of getting a magical tattoo as we move forward with the idea that a magical tattoo should always take up an attunement slot, nor should it be treated like a spell scroll.",
 						{
 							"type": "entries",
 							"name": "Artisan Kit and its Upgrades",
 							"page": 151,
-							"id": "703",
+							"id": "704",
 							"entries": [
 								"We have added a new Artisan Kit and other tools that can be used to upgrade the contents of this kit for those who want to provide tattoos. This new kit is the {@item Tattooist's Kit|AU} and proficiency can be gained with it through training, detailed below. Currently, there is no Background that provides this proficiency but those will be upgraded soon. All related items are detailed below.",
 								{
@@ -7811,14 +7818,14 @@
 								{
 									"type": "statblock",
 									"tag": "item",
-									"name": "Tattoo Needles, Gold",
+									"name": "Tattoo Needles, Steel",
 									"source": "AU",
 									"style": "narrow"
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"name": "Tattoo Needles, Steel",
+									"name": "Tattoo Needles, Gold",
 									"source": "AU",
 									"style": "narrow"
 								},
@@ -7832,7 +7839,7 @@
 								{
 									"type": "statblock",
 									"tag": "item",
-									"name": "Tattoo Palette, Advanced",
+									"name": "Tattoo Palette, Grayscale",
 									"source": "AU",
 									"style": "narrow"
 								},
@@ -7846,14 +7853,14 @@
 								{
 									"type": "statblock",
 									"tag": "item",
-									"name": "Tattoo Palette, Black",
+									"name": "Tattoo Palette, Rainbow",
 									"source": "AU",
 									"style": "narrow"
 								},
 								{
 									"type": "statblock",
 									"tag": "item",
-									"name": "Tattoo Palette, Rainbow",
+									"name": "Tattoo Palette, Advanced",
 									"source": "AU",
 									"style": "narrow"
 								},
@@ -7868,13 +7875,6 @@
 									"type": "statblock",
 									"tag": "item",
 									"name": "Enchanted Inks",
-									"source": "AU",
-									"style": "narrow"
-								},
-								{
-									"type": "statblock",
-									"tag": "item",
-									"name": "Elemental Inks",
 									"source": "AU",
 									"style": "narrow"
 								},
@@ -7917,6 +7917,13 @@
 									"type": "statblock",
 									"tag": "item",
 									"name": "Stardust Ink",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Elemental Inks",
 									"source": "AU",
 									"style": "narrow"
 								},
@@ -8003,7 +8010,7 @@
 							"type": "entries",
 							"name": "The Costs of a Magical Tattoo",
 							"page": 156,
-							"id": "704",
+							"id": "705",
 							"entries": [
 								"Getting a tattoo, either mundane or magical, costs a lot of time and gold, however, due to the variation in techniques, ink, purpose, and world, it is difficult to set a specific cost and time value. This will fall under the DM's responsibility of determining the best cost and duration.",
 								"When it comes to magical tattoos, the cost and time increases based on how enhanced the tattoo is. See the table below for an approximation on the increased resources and the use of attunement.",
@@ -8024,29 +8031,90 @@
 									],
 									"rows": [
 										[
-											"Minor Enhancement",
+											"Minimally Enhanced",
 											"+{@dice 1d4x10} GP",
 											"+{@dice 1d4} Hours",
 											"No"
 										],
 										[
-											"Moderate Enhancement",
+											"Moderately Enhanced",
 											"+{@dice 1d6x20} GP",
 											"+{@dice 1d4+2} Hours",
 											"Usually No"
 										],
 										[
-											"Major Enhancement",
+											"Majorly Enhanced",
 											"+{@dice 1d8x50} GP",
 											"+{@dice 1d6+4} Hours",
 											"Varies"
 										],
 										[
-											"Massive Enhancement",
+											"Massively Enhanced",
 											"+{@dice 1d10x100} GP",
 											"+{@dice 1d8+4} Hours",
 											"Yes"
 										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Combining Enhancements",
+									"page": 156,
+									"id": "706",
+									"entries": [
+										"More often than not, people may want even more customization with there tattoos, including the combining of enhancements. This is possible, however, mixing enhancements will increase their level category, which will increase the cost and time it takes to get the tattoo done, and increases the chances that the tattoo will require attunement. See the table below for this break-down. Reminder that these guidelines are just that, guidelines. How the act of combining enhancements primarily depends on the specific enhancements themselves as each category may not necessarily have the exact same mechanical impact as one another, even if similar.",
+										{
+											"type": "table",
+											"caption": "Impacts of Combining Enhancements",
+											"colLabels": [
+												"Enhancement Combination",
+												"New Enhancement Category",
+												"Chance for Required Attunement"
+											],
+											"colStyles": [
+												"col-4",
+												"col-4 text-center",
+												"col-4 text-center"
+											],
+											"rows": [
+												[
+													"2-3 Minimal Enhancements",
+													"Moderately Enhanced Tattoo",
+													"{@chance 30}"
+												],
+												[
+													"3-4 Minimal Enhancements",
+													"Majorly Enhanced Tattoo",
+													"{@chance 65}"
+												],
+												[
+													"4-5 Minimal Enhancements",
+													"Massively Enhanced Tattoo",
+													"{@chance 100}"
+												],
+												[
+													"2-3 Moderate Enhancements",
+													"Majorly Enhanced Tattoo",
+													"{@chance 55}"
+												],
+												[
+													"3-4 Moderate Enhancements",
+													"Massively Enhanced Tattoo",
+													"{@chance 100}"
+												],
+												[
+													"2 Major Enhancements",
+													"Massively Enhanced Tattoo",
+													"{@chance 100}"
+												],
+												[
+													"2 or more Different Enhancement Categories",
+													"DM Dependent",
+													"DM Dependent"
+												]
+											]
+										},
+										"Additionally, you cannot combine two Massive Enhancements with each other for one tattoo, and combining any one enhancement (major or lower) with a Massive Enhancement will always end up a Massively Enhanced Tattoo."
 									]
 								}
 							]
@@ -8055,7 +8123,7 @@
 							"type": "entries",
 							"name": "How Many is Too Many?",
 							"page": 156,
-							"id": "705",
+							"id": "707",
 							"entries": [
 								"When it comes to the amount of tattoos a character can have, the answer varies due to a number of factors. The maximum number of tattoos is dependent on the character's size and the size of the tattoos as one has only so much surface area to decorate. With the removal of attunement from magical tattoos, that number does become a concern for DM's. While each world, character, storyteller, and timeline varies drastically, the DM has the final say, however, here are our recommended guidelines on the matter.",
 								{
@@ -8100,9 +8168,9 @@
 				},
 				{
 					"type": "section",
-					"name": "Minor Enhancements",
+					"name": "Minimally Enhanced Tattoos",
 					"page": 157,
-					"id": "710",
+					"id": "70a",
 					"entries": [
 						"What is a Minor Enhancement and how do they differ from others. Max Minor Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
 						"Below is a table with all of the tattoos that are considered to be a {@item Minimally Enhanced Tattoo|AU}, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",
@@ -8123,6 +8191,18 @@
 							],
 							"rows": [
 								[
+									"{@item Charming Tattoo|AU|Charming}",
+									"Bonus to {@skill Persuasion|XPHB} Checks (+1)",
+									"{@item Prismatic Ink|AU}",
+									"Yes"
+								],
+								[
+									"{@item Darkvision Tattoo|AU|Darkvision}",
+									"Gain {@sense Darkvision|XPHB} out to 30 feet, or gain an additional 15 feet of {@sense Darkvision|XPHB} if you already have it",
+									"{@item Stardust Ink|AU}",
+									"No"
+								],
+								[
 									"{@item Flashlight Tattoo|AU|Flashlight}",
 									"Cast {@spell Light} once per {@variantrule Long Rest|XPHB} in a 30-foot {@variantrule Bright Light|XPHB} {@variantrule Cone [Area of Effect]|XPHB|Cone}",
 									"{@item Glowing Ink|AU}",
@@ -8135,7 +8215,25 @@
 									"Yes"
 								],
 								[
-									"{@item Quick Visitation Tatoo|AU|Quick Visitation}",
+									"{@item Intuitive Tattoo|AU|Intuitive}",
+									"Bonus to {@skill Insight|XPHB} Checks (+1)",
+									"{@item Stardust Ink|AU}",
+									"Yes"
+								],
+								[
+									"{@item Manipulate Icon Tattoo|AU|Manipulate Icon}",
+									"1/LR Cast {@spell Minor Illusion|XPHB} with Sound and Image on Tattoo",
+									"{@item Prismatic Ink|AU}",
+									"Necessary"
+								],
+								[
+									"{@item Night Sky Reflection Tattoo|AU|Night Sky Reflection}",
+									"While not underground, glittering pattern will match the present stars in the night sky",
+									"{@item Stardust Ink|AU}",
+									"No"
+								],
+								[
+									"{@item Quick Visitation Tattoo|AU|Quick Visitation}",
 									"Will move for 1 minute to another body part",
 									"{@item Dancing Ink|AU}",
 									"No"
@@ -8147,13 +8245,19 @@
 									"Necessary"
 								],
 								[
+									"{@item Second Guessing Tattoo|AU|Second Guessing}",
+									"Targets of any {@condition Charm|XPHB} related effect makes a second Wisdom {@variantrule Saving Throw|XPHB} to determine if Magically Influenced",
+									"{@item Prismatic Ink|AU}",
+									"Yes"
+								],
+								[
 									"{@item Strobe Tattoo|AU|Strobe}",
 									"If multicolored, will flash in random rotation to surrounding music",
 									"{@item Glowing Ink|AU}",
 									"Yes"
 								],
 								[
-									"{@item Whistling Message|AU|Whistling Message}",
+									"{@item Whistling Message Tattoo|AU|Whistling Message}",
 									"Cast {@spell Message|XPHB} to target in range, but the message is a whistle only.",
 									"{@item Dancing Ink|AU}",
 									"Yes"
@@ -8164,9 +8268,9 @@
 				},
 				{
 					"type": "section",
-					"name": "Moderate Enhancements",
+					"name": "Moderately Enhanced Tattoos",
 					"page": 158,
-					"id": "720",
+					"id": "70b",
 					"entries": [
 						"What is a Moderate Enhancement and how do they differ from others. Max Moderate Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
 						"Below is a table with all of the tattoos that are considered to be a {@item Moderately Enhanced Tattoo|AU}, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",
@@ -8189,11 +8293,25 @@
 							],
 							"rows": [
 								[
-									"{@item Big Flashlight|AU|Big Flashlight}",
+									"{@item Alter Self Tattoo|AU|Alter Self}",
+									"Cast {@spell Alter Self|XPHB} once per dawn using the Appearance Only option",
+									"{@item Prismatic Ink|AU}",
+									"No",
+									"Yes"
+								],
+								[
+									"{@item Big Flashlight Tattoo|AU|Big Flashlight}",
 									"Know {@spell Light|XPHB} Cantrip, cast in sphere or a 45-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}",
 									"{@item Glowing Ink|AU} and {@item Stardust Ink|XPHB}",
 									"Yes",
 									"Dependent"
+								],
+								[
+									"{@item Goodnight Tattoo|AU|Goodnight}",
+									"Cast {@spell Sleep|XPHB} against a target who can see your tattoo without {@status Concentration|XPHB}, frequency based on {@variantrule Attunement|XPHB} status",
+									"{@item Stardust Ink|AU}",
+									"Yes",
+									"Optional"
 								],
 								[
 									"{@item Quick Healer Tattoo|AU|Quick Healer}",
@@ -8215,9 +8333,9 @@
 				},
 				{
 					"type": "section",
-					"name": "Major Enhancements",
+					"name": "Majorly Enhanced Tattoos",
 					"page": 159,
-					"id": "730",
+					"id": "70c",
 					"entries": [
 						"What is a Major Enhancement and how do they differ from others. Max Major Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
 						"Below is a table with all of the tattoos that are considered to be a Majorly Enhanced Tattoo, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",
@@ -8259,9 +8377,9 @@
 				},
 				{
 					"type": "section",
-					"name": "Massive Enhancements",
+					"name": "Massively Enhanced Tattoos",
 					"page": 160,
-					"id": "740",
+					"id": "70d",
 					"entries": [
 						"What is a Massive Enhancement and how do they differ from others. Max Massive Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
 						"Below is a table with all of the tattoos that are considered to be a Massively Enhanced Tattoo, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",

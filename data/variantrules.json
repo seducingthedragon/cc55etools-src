@@ -348,6 +348,15 @@
 			]
 		},
 		{
+			"name": "Attunement: Tattoos",
+			"source": "AU",
+			"page": 151,
+			"ruleType": "O",
+			"entries": [
+				"When attuning to a magical tattoo, you only have one opportunity to do so, unlike with any other magical item. If you choose to, or required to, attune to a magical tattoo, you must do so during the tattooing process or risk losing out on all of its intended effects for the base enchanted ink property only. This is because the act of getting the tattoo is part of the act of connecting with its magic and having that ingrained within you. If you miss out on that intention, that magic is unable to connect with you and you lose the ability to attune to it at a later time."
+			]
+		},
+		{
 			"name": "Automatic Success",
 			"source": "DMG",
 			"page": 239,
