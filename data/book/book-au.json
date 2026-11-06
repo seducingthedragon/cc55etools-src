@@ -8293,6 +8293,13 @@
 							],
 							"rows": [
 								[
+									"{@item Adaman-Tot Tattoo|AU|Adaman-Tot}",
+									"Gain +2 Bonus on Strength or Constitution {@variantrule Saving Throw|XPHB|Saving Throws} (choose when tattooed), and you are 5 pounds heavier",
+									"{@item Metal-Lic Ink|AU}",
+									"No",
+									"No"
+								],
+								[
 									"{@item Alter Self Tattoo|AU|Alter Self}",
 									"Cast {@spell Alter Self|XPHB} once per dawn using the Appearance Only option",
 									"{@item Prismatic Ink|AU}",
@@ -8307,11 +8314,25 @@
 									"Dependent"
 								],
 								[
+									"{@item Chilly Ironed Tattoo|AU|Chilly Ironed}",
+									"Gain +2 Bonus on {@variantrule Saving Throws|AU} against being {@condition Charmed|XPHB} by Fey creatures.",
+									"{@item Metal-Lic Ink|AU}",
+									"No",
+									"No"
+								],
+								[
 									"{@item Goodnight Tattoo|AU|Goodnight}",
 									"Cast {@spell Sleep|XPHB} against a target who can see your tattoo without {@status Concentration|XPHB}, frequency based on {@variantrule Attunement|XPHB} status",
 									"{@item Stardust Ink|AU}",
 									"Yes",
 									"Optional"
+								],
+								[
+									"{@item Mithra-Lite Tattoo|AU|Mithra-Lite}",
+									"Gain +1 Bonus on Dexterity ({@skill Acrobatics|XPHB}) checks and Dexterity {@variantrule Saving Throw|XPHB}, and you are two pounds lighter",
+									"{@item Metal-Lic Ink|AU}",
+									"No",
+									"No"
 								],
 								[
 									"{@item Quick Healer Tattoo|AU|Quick Healer}",
@@ -8321,11 +8342,11 @@
 									"Yes"
 								],
 								[
-									"name test",
-									"descript test",
-									"ink test",
-									"no",
-									"yes"
+									"{@item Quick Silvered Tattoo|AU|Quick Silvered}",
+									"Gain +2 Bonus on {@variantrule Saving Throws|AU} against transformation effects from Shapechangers",
+									"{@item Metal-Lic Ink|AU}",
+									"No",
+									"No"
 								]
 							]
 						}
@@ -8338,7 +8359,7 @@
 					"id": "70c",
 					"entries": [
 						"What is a Major Enhancement and how do they differ from others. Max Major Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
-						"Below is a table with all of the tattoos that are considered to be a Majorly Enhanced Tattoo, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",
+						"Below is a table with all of the tattoos that are considered to be a {@item Majorly Enhanced Tattoo|AU}, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",
 						{
 							"type": "table",
 							"caption": "Majorly Enhanced Magical Tattoos",
@@ -8358,18 +8379,32 @@
 							],
 							"rows": [
 								[
-									"name test",
-									"descript test",
-									"ink test",
-									"no",
-									"yes"
+									"{@item Adamantined Tattoo|AU|Adamantined}",
+									"Gain a Damage Threshold of 5, Gain +2 Bonus on Strength and Constitution {@variantrule Saving Throw|XPHB|Saving Throws}, and you are 10 pounds heavier",
+									"{@item Metal-Lic Ink|AU}",
+									"No",
+									"No"
 								],
 								[
-									"name test",
-									"descript test",
-									"ink test",
-									"yes",
-									"yes"
+									"{@item Cold Ironed Tattoo|AU|Cold Ironed}",
+									"{@variantrule Advantage|XPHB} on Saving Throws against being {@condition Charmed|XPHB} from Fey creatures, plus 1/Day reaction to Auto-succeed Saving Throw when failed.",
+									"{@item Metal-Lic Ink|AU}",
+									"No",
+									"Yes"
+								],
+								[
+									"{@item Mithralled Tattoo|AU|Mithralled}",
+									"Gain +2 Bonus on all Dexterity ({@skill Acrobatics|XPHB}) checks and Dexterity {@variantrule Saving Throw|XPHB}, and you are 5 pounds lighter",
+									"{@item Metal-Lic Ink|AU}",
+									"No",
+									"No"
+								],
+								[
+									"{@item Silvered Tattoo|AU|Silvered}",
+									"{@variantrule Advantage|XPHB} on Saving Throws against transformation effects from Shapechanger, plus 1/Day reaction to Auto-succeed Saving Throw when failed.",
+									"{@item Metal-Lic Ink|AU}",
+									"No",
+									"Yes"
 								]
 							]
 						}

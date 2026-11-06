@@ -1913,6 +1913,39 @@
 			]
 		},
 		{
+			"name": "Adaman-Tot Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"detail1": "Moderately",
+			"detail2": "{@item Metal-Lic Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Adamantine, which is..."
+					]
+				},
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Gained Heft",
+					"entries": [
+						"You gain a +2 bonus to your Strength or Constitution {@variantrule Saving Throw|XPHB|Saving Throws} (you choose prior to tattooing process). You also weigh 5 pounds heavier than before."
+					]
+				}
+			]
+		},
+		{
 			"name": "Adamantine Bar",
 			"source": "WDH",
 			"page": 90,
@@ -1920,6 +1953,46 @@
 			"rarity": "none",
 			"weight": 10,
 			"value": 100000
+		},
+		{
+			"name": "Adamantined Tattoo",
+			"group": [
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"detail1": "Majorly",
+			"detail2": "{@item Metal-Lic Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Adamantine, which is..."
+					]
+				},
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Big Heft",
+					"entries": [
+						"You gain a +2 bonus to your Strength and Constutition {@variantrule Saving Throw|XPHB|Saving Throws} and you weight 10 pounds heavier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Damage Threshold",
+					"entries": [
+						"Due to the magical effects of Adamantine, you gain a {@variantrule Damage Threshold|XPHB} of 5."
+					]
+				}
+			]
 		},
 		{
 			"name": "Adjustable Stilts",
@@ -12993,6 +13066,39 @@
 			"value": 2
 		},
 		{
+			"name": "Chilly Ironed Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"detail1": "Moderately",
+			"detail2": "{@item Metal-Lic Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Cold Iron, which is like iron in its gray tone, leaning closer to a metallic slate gray while lacking any shine or polish."
+					]
+				},
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Saving Throw Bonus",
+					"entries": [
+						"When you are targeted with an effect that would result in you becoming {@condition Charmed|XPHB} by a Fey creature, you gain a +2 bonus on your {@variantrule Saving Throw|XPHB}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Chime of Exile",
 			"source": "VEoR",
 			"page": 46,
@@ -14241,6 +14347,43 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Absorbing Tattoo|TCE}"
+			]
+		},
+		{
+			"name": "Cold Ironed Tattoo",
+			"group": [
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": true,
+			"detail1": "Majorly",
+			"detail2": "{@item Metal-Lic Ink|AU}",
+			"tattoo": true,
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"hasRefs": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Cold Iron, which is like iron in its gray tone, leaning closer to a metallic slate gray while lacking any shine or polish."
+					]
+				},
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Saving Throw Boon",
+					"entries": [
+						"You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against being {@condition Charmed|XPHB} by Fey creatures. Additionally, if you fail, you can use your {@variantrule Reaction|XPHB} to automatically succeed. You can use this reaction once per long rest."
+					]
+				}
 			]
 		},
 		{
@@ -16753,7 +16896,7 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"If you do not already have {@senses Darkvision|XPHB}, you gain this sense up to 30 feet. If you already have {@senses Darkvision|XPHB}, you gain an additional 15 feet."
+						"If you do not already have {@sense Darkvision|XPHB}, you gain this sense up to 30 feet. If you already have {@sense Darkvision|XPHB}, you gain an additional 15 feet."
 					]
 				}
 			]
@@ -43020,7 +43163,7 @@
 			]
 		},
 		{
-			"name": "Metal-lic Ink",
+			"name": "Metal-Lic Ink",
 			"group": [
 				"Enchanted Inks"
 			],
@@ -43589,6 +43732,72 @@
 					]
 				}
 			}
+		},
+		{
+			"name": "Mithra-Light Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"detail1": "Moderately",
+			"detail2": "{@item Metal-Lic Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Mithral, which is a nearly-white radiant silvery gray, close to that of starlight."
+					]
+				},
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Dexterity Bonuses",
+					"entries": [
+						"You gain a +1 bonus on your Dexterity ({@skill Acrobatics|XPHB}) checks and Dexterity {@variantrule Saving Throw|XPHB}. You are also 5 pounds lighter."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mithralled Tattoo",
+			"group": [
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"detail1": "Majorly",
+			"detail2": "{@item Metal-Lic Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Mithral, which is a nearly-white radiant silvery gray, close to that of starlight."
+					]
+				},
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Dexterity Boon",
+					"entries": [
+						"You gain a +2 bonus on your Dexterity ({@skill Acrobatics|XPHB}) checks and Dexterity {@variantrule Saving Throw|XPHB}. You are also 10 pounds lighter."
+					]
+				}
+			]
 		},
 		{
 			"name": "Mizzium Apparatus",
@@ -53841,6 +54050,44 @@
 			]
 		},
 		{
+			"name": "Quick Silvered Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"detail1": "Moderately",
+			"detail2": "{@item Metal-Lic Ink|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Silver, which is a light metallic gray."
+					]
+				},
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Saving Throw Buff",
+					"entries": [
+						"You gain a +2 bonus on your {@variantrule Saving Throw|XPHB|Saving Throws} against being transformed against your will. This can be from a transformation spell or from the effects of a Shapechanger."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "",
+					"entries": []
+				}
+			]
+		},
+		{
 			"name": "Quick Visitation Tattoo",
 			"group": [
 				"Minimally Enhanced Tattoo"
@@ -59735,7 +59982,7 @@
 					"type": "entries",
 					"name": "SOS Signaling",
 					"entries": [
-						"On your mental command, this tattoo will flash its glow in a coded pattern signalling for SOS {@ie. morse code}. While the tattoo does not need to be visible for this effect to occur, no one will see it if it is covered."
+						"On your mental command, this tattoo will flash its glow in a coded pattern signalling for SOS {@i ie. morse code}. While the tattoo does not need to be visible for this effect to occur, no one will see it if it is covered."
 					]
 				}
 			]
@@ -63464,6 +63711,43 @@
 			"entries": [
 				"The Silverquill Primer is a magic textbook created at Strixhaven's Silverquill College. The primer has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. If you make a Charisma ({@skill Intimidation}) or a Charisma ({@skill Persuasion}) check while holding the primer, you can expend 1 charge to give yourself a {@dice 1d4} bonus to the check, immediately after you roll the {@dice d20}.",
 				"In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the bard or cleric spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma."
+			]
+		},
+		{
+			"name": "Silvered Tattoo",
+			"group": [
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": true,
+			"detail1": "Majorly",
+			"detail2": "{@item Metal-Lic Ink|AU}",
+			"tattoo": true,
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"hasRefs": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Silver, which is a light metallic gray."
+					]
+				},
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Saving Throw Boon",
+					"entries": [
+						"You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against being transformed against your will, especially from Shapechangers. Additionally, if you fail, you can use your {@variantrule Reaction|XPHB} to automatically succeed, however you can only do so once per long rest."
+					]
+				}
 			]
 		},
 		{
@@ -85096,6 +85380,20 @@
 			]
 		},
 		{
+			"name": "Majorly Enhanced Tattoo",
+			"source": "AU",
+			"page": 159,
+			"rarity": "varies",
+			"tattoo": true,
+			"wondrous": true,
+			"items": [
+				"Adamantined Tattoo|AU",
+				"Cold Ironed Tattoo|AU",
+				"Mithralled Tattoo|AU",
+				"Silvered Tattoo|AU"
+			]
+		},
+		{
 			"name": "Manual of Golems",
 			"source": "DMG",
 			"page": 180,
@@ -85257,10 +85555,14 @@
 			"tattoo": true,
 			"wondrous": true,
 			"items": [
+				"Adaman-Tot Tattoo|AU",
 				"Alter Self Tattoo|AU",
 				"Big Flashlight Tattoo|AU",
+				"Chilly Ironed Tattoo|AU",
 				"Goodnight Tattoo|AU",
-				"Quick Healing Tattoo|AU"
+				"Mithra-Lite Tattoo|AU",
+				"Quick Healing Tattoo|AU",
+				"Quick Silvered Tattoo|AU"
 			]
 		},
 		{
