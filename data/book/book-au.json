@@ -7888,6 +7888,13 @@
 								{
 									"type": "statblock",
 									"tag": "item",
+									"name": "Enchanted Ink",
+									"source": "AU",
+									"style": "narrow"
+								},
+								{
+									"type": "statblock",
+									"tag": "item",
 									"name": "Glowing Ink",
 									"source": "AU",
 									"style": "narrow"
