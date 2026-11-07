@@ -2177,6 +2177,55 @@
 			"capCargo": 1
 		},
 		{
+			"name": "Airy Tattoo",
+			"group": [
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "{@item Elemental Ink, Air|AU}",
+			"modifySpeed": {
+				"equal": {
+					"fly": "walk"
+				}
+			},
+			"resist": [
+				"lightning"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
+				{
+					"type": "entries",
+					"name": "Regardless of Attunement",
+					"entries": [
+						"You choose between one of the following benefits listed below:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} Lightning to damage.",
+								"{@b Movement Related.} You gain a Fly Speed equal to your walking speed."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "If You Attune",
+					"entries": [
+						"You gain both benefits listed above when you Attune to this tattoo."
+					]
+				}
+			]
+		},
+		{
 			"name": "Akmon, Hammer of Purphoros",
 			"source": "MOT",
 			"page": 198,
@@ -2862,7 +2911,8 @@
 		{
 			"name": "Alternative Tattoo Palettes",
 			"group": [
-				"Tattoo Kit Upgrades"
+				"Tattoo Kit Upgrades",
+				"Tattoo Palettes"
 			],
 			"source": "AU",
 			"page": 153,
@@ -4537,6 +4587,57 @@
 			]
 		},
 		{
+			"name": "Ashy Tattoo",
+			"group": [
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "either just {@item Elemental Ink, Ash|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Fire|AU|Fire}",
+			"resist": [
+				"poison"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
+				{
+					"type": "entries",
+					"name": "Regardless of Attunement",
+					"entries": [
+						"You choose between one of the following benefits listed below:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Poison damage.",
+								"{@b Movement Related.} When you fall more than 10 feet, you can cast the {@spell Feather Fall|XPHB} spell, 3 times per day, regaining all expended uses on a Long Rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "If You Attune",
+					"entries": [
+						"You gain both benefits listed above when you Attune to this tattoo."
+					]
+				}
+			],
+			"attachedSpells": {
+				"daily": {
+					"3e": [
+						"feather fall|xphb"
+					]
+				}
+			}
+		},
+		{
 			"name": "Assassin's Blood",
 			"source": "DMG",
 			"page": 258,
@@ -4703,6 +4804,41 @@
 				"word of recall"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Avalanche Tattoo",
+			"group": [
+				"Massively Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"detail1": "Massively",
+			"detail2": "either just {@item Elemental Ink, Ice|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Water|AU|Water}",
+			"resist": [
+				"cold"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Cold damage.",
+						"{@b Movement Related.} You ignore Difficult Terrain while in snow, ice, and other slippery smooth surfaces.",
+						"{@b Dash.} You can use your {@variantrule Bonus Action|XPHB} to take the {@action Dash|XPHB} action.",
+						"{@b Grappled Advantage.} You have {@variantrule Advantage|XPHB} on checks and Saving Throws relating to not being {@condition Grappled|XPHB}.",
+						"{@b Bane.} You are {@variantrule Vulnerable|XPHB} to Fire damage."
+					]
+				}
+			]
 		},
 		{
 			"name": "Axe Beak",
@@ -14633,6 +14769,62 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Control Heat Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"detail1": "Moderately",
+			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Fire|AU|Fire}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Magma|AU|Magma}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Control Flames",
+					"entries": [
+						"You know the {@spell Control Flames|XGE} cantrip and you gain an additional use with this spell based on which {@item Elemental Inks|AU|Elemental Ink} you choose for this tattoo.",
+						{
+							"type": "table",
+							"caption": "Added Control FLames Benefit per Ink Type",
+							"colLabels": [
+								"Elemental Ink Type",
+								"Bonus Benefit with Cantrip"
+							],
+							"colStyles": [
+								"col-2-5 text-center",
+								"col-9-5"
+							],
+							"rows": [
+								[
+									"{@item Elemental Ink, Fire|AU|Fire}",
+									"You can grab the nonmagical flame from its source and carry the flames in your hands without anything else fueling it."
+								],
+								[
+									"{@item Elemental Ink, Ash|AU|Ash}",
+									"You can target the smoke and embers from nonmagical flames with the spell"
+								],
+								[
+									"{@item Elemental Ink, Magma|AU|Magma}",
+									"You can shape molten rock, as well as melted metals used in smithing, with this spell"
+								]
+							]
+						}
+					]
+				}
+			],
+			"attachedSpells": {
+				"will": [
+					"control flames|xge"
+				]
+			}
+		},
+		{
 			"name": "Copper",
 			"source": "PHB",
 			"page": 157,
@@ -23568,6 +23760,50 @@
 			]
 		},
 		{
+			"name": "Earthy Tattoo",
+			"group": [
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "{@item Elemental Ink, Earth|AU}",
+			"resist": [
+				"bludgeoning"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
+				{
+					"type": "entries",
+					"name": "Regardless of Attunement",
+					"entries": [
+						"You choose between one of the following benefits listed below:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Bludgeoning damage.",
+								"{@b Movement Related.} You ignore nonmagical Difficult Terrain."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "If You Attune",
+					"entries": [
+						"You gain both benefits listed above when you Attune to this tattoo."
+					]
+				}
+			]
+		},
+		{
 			"name": "Earworm",
 			"source": "ERLW",
 			"page": 277,
@@ -23930,6 +24166,116 @@
 			"value": 50
 		},
 		{
+			"name": "Elemental Aura Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "common",
+			"detail1": "Minimally",
+			"detail2": "any one of the {@item Elemental Inks|AU}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"With this tattoo, you Emanate a 10-foot aura relating to the one type of {@item Elemental Inks|AU|Elemental Ink} used. See the Table below for a breakdown of what occurs in the aura based on your choice of ink.",
+				{
+					"type": "table",
+					"caption": "Elemental Ink Type and their Aura",
+					"colLables": [
+						"Type of Ink",
+						"Aura"
+					],
+					"colStyles": [
+						"col-2-5",
+						"col-9-5"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"width": 2,
+								"entry": "{@b {@i Primary Elements}}"
+							}
+						],
+						{
+							"type": "row",
+							"style": "row-indent-first",
+							"row": [
+								"{@item Elemental Ink, Air|AU|Air}",
+								"A cooling breeze with a saturated flora scent of your choice, with your clothing and hair billowing if you choose so"
+							]
+						},
+						{
+							"type": "row",
+							"style": "row-indent-first",
+							"row": [
+								"{@item Elemental Ink, Earth|AU|Earth}",
+								"Dusty via dirt, constant sounds of rocks grinding, your skin may be rough to the touch"
+							]
+						},
+						{
+							"type": "row",
+							"style": "row-indent-first",
+							"row": [
+								"{@item Elemental Ink, Fire|AU|Fire}",
+								"Warm still air, like a dry sauna, very drying."
+							]
+						},
+						{
+							"type": "row",
+							"style": "row-indent-first",
+							"row": [
+								"{@item Elemental Ink, Water|AU|Water}",
+								"Humid and moist, and misty like a sea breeze, you may be permanently damp,"
+							]
+						},
+						[
+							{
+								"type": "cell",
+								"width": 2,
+								"entry": "{@b {@i Para-Elements}}"
+							}
+						],
+						{
+							"type": "row",
+							"style": "row-indent-first",
+							"row": [
+								"{@item Elemental Ink, Ash|AU|Ash}",
+								"Smokey with light gray fog clouds of ash specks but not opaque enough to be considered Lightly Obscured, may trigger coughing fits that don't bother you"
+							]
+						},
+						{
+							"type": "row",
+							"style": "row-indent-first",
+							"row": [
+								"{@item Elemental Ink, Ice|AU|Ice}",
+								"Cold sharp breeze that causes a light crystalizing effect on watery dew, and maybe some cold noses that can't smell"
+							]
+						},
+						{
+							"type": "row",
+							"style": "row-indent-first",
+							"row": [
+								"{@item Elemental Ink, Magma|AU|Magma}",
+								"Burning hot air that is felt an additional 10 feet farther than other auras, which causes creatures and objects to feel as though they are melting to a crisp, which you are not bothered by"
+							]
+						},
+						{
+							"type": "row",
+							"style": "row-indent-first",
+							"row": [
+								"{@item Elemental Ink, Ooze|AU|Ooze}",
+								"Putrid odor like decaying rot, humid air that is sticky yet very moist, others feel sickly but you are not impacted by this"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Elemental Essence Shard",
 			"source": "TCE",
 			"page": 127,
@@ -24277,7 +24623,8 @@
 		{
 			"name": "Elemental Ink, Air",
 			"group": [
-				"Enchanted Inks"
+				"Enchanted Inks",
+				"Elemental Inks"
 			],
 			"source": "AU",
 			"page": 154,
@@ -24303,7 +24650,8 @@
 		{
 			"name": "Elemental Ink, Ash",
 			"group": [
-				"Enchanted Inks"
+				"Enchanted Inks",
+				"Elemental Inks"
 			],
 			"source": "AU",
 			"page": 155,
@@ -24329,7 +24677,8 @@
 		{
 			"name": "Elemental Ink, Earth",
 			"group": [
-				"Enchanted Inks"
+				"Enchanted Inks",
+				"Elemental Inks"
 			],
 			"source": "AU",
 			"page": 154,
@@ -24355,7 +24704,8 @@
 		{
 			"name": "Elemental Ink, Fire",
 			"group": [
-				"Enchanted Inks"
+				"Enchanted Inks",
+				"Elemental Inks"
 			],
 			"source": "AU",
 			"page": 154,
@@ -24381,7 +24731,8 @@
 		{
 			"name": "Elemental Ink, Ice",
 			"group": [
-				"Enchanted Inks"
+				"Enchanted Inks",
+				"Elemental Inks"
 			],
 			"source": "AU",
 			"page": 155,
@@ -24407,7 +24758,8 @@
 		{
 			"name": "Elemental Ink, Magma",
 			"group": [
-				"Enchanted Inks"
+				"Enchanted Inks",
+				"Elemental Inks"
 			],
 			"source": "AU",
 			"page": 155,
@@ -24433,7 +24785,8 @@
 		{
 			"name": "Elemental Ink, Ooze",
 			"group": [
-				"Enchanted Inks"
+				"Enchanted Inks",
+				"Elemental Inks"
 			],
 			"source": "AU",
 			"page": 155,
@@ -24459,7 +24812,8 @@
 		{
 			"name": "Elemental Ink, Water",
 			"group": [
-				"Enchanted Inks"
+				"Enchanted Inks",
+				"Elemental Inks"
 			],
 			"source": "AU",
 			"page": 154,
@@ -27309,6 +27663,55 @@
 			"capCargo": 100
 		},
 		{
+			"name": "Fiery Tattoo",
+			"group": [
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "{@item Elemental Ink, Fire|AU}",
+			"modifySpeed": {
+				"bonus": {
+					"*": "5"
+				}
+			},
+			"resist": [
+				"fire"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
+				{
+					"type": "entries",
+					"name": "Regardless of Attunement",
+					"entries": [
+						"You choose between one of the following benefits listed below:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Fire damage.",
+								"{@b Movement Related.} Your movement speed increases by 5 feet."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "If You Attune",
+					"entries": [
+						"You gain both benefits listed above when you Attune to this tattoo."
+					]
+				}
+			]
+		},
+		{
 			"name": "Figurine of Wondrous Power, Bronze Griffon",
 			"source": "DMG",
 			"page": 169,
@@ -28986,6 +29389,49 @@
 					],
 					"2": [
 						"misty step"
+					]
+				}
+			}
+		},
+		{
+			"name": "Galewinds Tattoo",
+			"group": [
+				"Massively Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"detail1": "Massively",
+			"detail2": "{@item Elemental Ink, Air|AU}",
+			"modifySpeed": {
+				"static": {
+					"fly": "60"
+				}
+			},
+			"resist": [
+				"lightning"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Lightning damage.",
+						"{@b Movement Related.} You have a Fly Speed of 60 feet.",
+						"{@b Semi-Breathless.} You can hold your breath for up to 1 hour without gaining any Suffocation hazards, as long as you were prepared.",
+						"{@b Levitate.} You can cast {@spell Levitate|XPHB} on objects without {@status Concentration|XPHB} five times per {@variantrule Long Rest|XPHB}."
+					]
+				}
+			],
+			"attachedSpells":{
+				"daily": {
+					"5e": [
+						"levitate|xphb"
 					]
 				}
 			}
@@ -30900,6 +31346,43 @@
 			"entries": [
 				"{#itemEntry Grenade|XDMG}"
 			]
+		},
+		{
+			"name": "Grime Tattoo",
+			"group": [
+				"Massively Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"detail1": "Massively",
+			"detail2": "either just {@item Elemental Ink, Ooze|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Water|AU|Water}",
+			"resist": [
+				"acid"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Acid damage.",
+						"{@b Movement Related.} You are always under the effects of {@spell Water Walk|XPHB}, however you can only cross over quicksand, sewage, mud, and other non-solid surface that is not primarily water or lava.",
+						"{@b Not Sickly.} You have {@variantrule Advantage|XPHB} on any D20 roll against Diseases.",
+						"{@b Not Restricted.} You have {@variantrule Advantage|XPHB} on Saving Throws against being {@condition Restrained|XPHB}.",
+						"{@b Bane.} Standing up from {@condition Prone|XPHB} uses your entire movement speed."
+					]
+				}
+			],
+			"attachedSpells": {
+				"will": [
+					"water walk|xphb"
+				]
+			}
 		},
 		{
 			"name": "Grimoire Infinitus (Awakened)",
@@ -35305,6 +35788,50 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Icey Tattoo",
+			"group": [
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "either just {@item Elemental Ink, Ice|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Water|AU|Water}",
+			"resist": [
+				"cold"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
+				{
+					"type": "entries",
+					"name": "Regardless of Attunement",
+					"entries": [
+						"You choose between one of the following benefits listed below:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Cold damage.",
+								"{@b Movement Related.} You ignore Difficult Terrain while in snow, ice, and other slippery smooth surfaces."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "If You Attune",
+					"entries": [
+						"You gain both benefits listed above when you Attune to this tattoo."
+					]
+				}
+			]
+		},
+		{
 			"name": "Icon of Ravenloft",
 			"source": "CoS",
 			"page": 222,
@@ -35688,6 +36215,45 @@
 				"A rider binds a {@creature nightmare} to its service with infernal tack, which consists of a bridle, bit, reins, saddle, and stirrups, along with spurs that are worn by the rider. A nightmare equipped with infernal tack must serve whoever wears the spurs until the wearer dies or the tack is removed.",
 				"You can use an action to call a nightmare equipped with infernal tack by clashing the spurs together or scraping them through blood. The nightmare appears at the start of your next turn, within 20 feet of you. It acts as your ally and takes its turn on your initiative count. It remains for 1 day, until you or it dies, or until you dismiss it as an action. If the nightmare dies, it reforms in the Nine Hells within 24 hours, after which you can summon it again.",
 				"The tack doesn't conjure a nightmare; one must first be subdued so the tack can be placed on it. No nightmare accepts this forced servitude willingly, but some eventually form strong loyalties to their masters and become true partners in evil."
+			]
+		},
+		{
+			"name": "Inferno Tattoo",
+			"group": [
+				"Massively Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"detail1": "Massively",
+			"detail2": "{@item Elemental Ink, Fire|AU}",
+			"modifySpeed": {
+				"bonus": {
+					"*": "5"
+				},
+				"equal": {
+					"climb": "walk"
+				}
+			},
+			"resist": [
+				"fire"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Fire damage.",
+						"{@b Movement Related.} Your movement speed increases by 5 feet.",
+						"{@b Non-Magical Immunity.} You are {@variantrule Immunity|XPHB|Immune} to damage from non-magical Fire.",
+						"{@b Climbing.} You gain a climb speed equal to your walking speed."
+					]
+				}
 			]
 		},
 		{
@@ -44035,6 +44601,106 @@
 			]
 		},
 		{
+			"name": "Mold Land Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"detail1": "Moderately",
+			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Earth|AU|Earth}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Ooze|AU|Ooze}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Mold Earth",
+					"entries": [
+						"You know the {@spell Mold Earth|XGE} cantrip and you gain an additional use with this spell based on which {@item Elemental Inks|AU|Elemental Ink} you choose for this tattoo.",
+						{
+							"type": "table",
+							"caption": "Added Mold Earth Benefit per Ink Type",
+							"colLabels": [
+								"Elemental Ink Type",
+								"Bonus Benefit with Cantrip"
+							],
+							"colStyles": [
+								"col-2-5 text-center",
+								"col-9-5"
+							],
+							"rows": [
+								[
+									"{@item Elemental Ink, Earth|AU|Earth}",
+									"You can shape loose rocks to form gauntlets and helms on your person, lasting through a number of hits equal to your {@variantrule Proficiency|XPHB} Bonus before crumbling apart."
+								],
+								[
+									"{@item Elemental Ink, Ash|AU|Ash}",
+									"You can target the small fragments of ash, dirt, and dust in smoke with this spell to shape it into a solid object, or vice versa (taking a solid rock and crumbling it into dust)."
+								],
+								[
+									"{@item Elemental Ink, Ooze|AU|Ooze}",
+									"You can target a space of mud, ooze, quick sand, or any other partially solid semi-permeable ground with this spell and dry it out in order to solidify for 1 hour, before it reverts to its previous state."
+								]
+							]
+						}
+					]
+				}
+			],
+			"attachedSpells": {
+				"will": [
+					"mold earth|xge"
+				]
+			}
+		},
+		{
+			"name": "Molten Tattoo",
+			"group": [
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "either just {@item Elemental Ink, Magma|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Fire|AU|Fire}",
+			"resist": [
+				"fire"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
+				{
+					"type": "entries",
+					"name": "Regardless of Attunement",
+					"entries": [
+						"You choose between one of the following benefits listed below:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Fire damage.",
+								"{@b Movement Related.} You ignore Difficult Terrain as you walk on the surface molten rock as if it were solid."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "If You Attune",
+					"entries": [
+						"You gain both benefits listed above when you Attune to this tattoo."
+					]
+				}
+			]
+		},
+		{
 			"name": "Monster Camouflage",
 			"source": "FRHoF",
 			"page": 132,
@@ -46479,6 +47145,57 @@
 			]
 		},
 		{
+			"name": "Oozy Tattoo",
+			"group": [
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "either just {@item Elemental Ink, Ooze|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Water|AU|Water}",
+			"resist": [
+				"acid"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
+				{
+					"type": "entries",
+					"name": "Regardless of Attunement",
+					"entries": [
+						"You choose between one of the following benefits listed below:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Acid damage.",
+								"{@b Movement Related.} You can cast {@spell Water Walk|XPHB} targeting yourself, however you can only cross over quicksand, sewage, mud, and other non-solid surface that is not primarily water or lava. You can cast this spell three times and regain all expended uses on a Long Rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "If You Attune",
+					"entries": [
+						"You gain both benefits listed above when you Attune to this tattoo."
+					]
+				}
+			],
+			"attachedSpells": {
+				"daily": {
+					"3e": [
+						"water walk|xphb"
+					]
+				}
+			}
+		},
+		{
 			"name": "Opal",
 			"source": "DMG",
 			"page": 134,
@@ -47881,6 +48598,36 @@
 				"Paper birds usually come in small, flat boxes containing {@dice 1d6 + 3} sheets of the parchment."
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Para-Elementalism Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"detail1": "Moderately",
+			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Ash|AU|Ash}, {@item Elemental Ink, Ice|AU|Ice}, {@item Elemental Ink, Magma|AU|Magma}, or {@item Elemental Ink, Ooze|AU|Ooze}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Elementalism",
+					"entries": [
+						"You know the {@spell Elementalism|XPHB} cantrip, however, you can only use the Sculpt Elements effect on any elemental-like natural object and phenomena."
+					]
+				}
+			],
+			"attachedSpells": {
+				"will": [
+					"elementalism|xphb"
+				]
+			}
 		},
 		{
 			"name": "Paralysis Pistol",
@@ -61533,6 +62280,62 @@
 			]
 		},
 		{
+			"name": "Sculpt Water Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"detail1": "Moderately",
+			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Water|AU|Water}, {@item Elemental Ink, Ice|AU|Ice}, or {@item Elemental Ink, Ooze|AU|Ooze}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Shape Water",
+					"entries": [
+						"You know the {@spell Shape Water|XGE} cantrip and you gain an additional use with this spell based on which {@item Elemental Inks|AU|Elemental Ink} you choose for this tattoo.",
+						{
+							"type": "table",
+							"caption": "Added Shape Water Benefit per Ink Type",
+							"colLabels": [
+								"Elemental Ink Type",
+								"Bonus Benefit with Cantrip"
+							],
+							"colStyles": [
+								"col-2-5 text-center",
+								"col-9-5"
+							],
+							"rows": [
+								[
+									"{@item Elemental Ink, Water|AU|Water}",
+									"You can summon the dew or condensation from nearby surfaces to you in order to shape into a larger object of floating water."
+								],
+								[
+									"{@item Elemental Ink, Ice|AU|Ice}",
+									"You can target the moisture in the air with this spell to crystalize into snowflakes or a flurry of snow, and using the freezing effect has an extended duration, lasting as long as the conditions it is in allows it to stay frozen."
+								],
+								[
+									"{@item Elemental Ink, Ooze|AU|Ooze}",
+									"You can target a space in the ground that's solidified by a lot of smaller pieces (such as compacted sand, solid yet lose dirt and gravel, etc) with this spell and make it partially liquified for 1 hour (creating quicksand, deep mud puddle, etc)."
+								]
+							]
+						}
+					]
+				}
+			],
+			"attachedSpells": {
+				"will": [
+					"shape water|xge"
+				]
+			}
+		},
+		{
 			"name": "Sealing Wax",
 			"source": "PHB",
 			"page": 150,
@@ -64304,6 +65107,43 @@
 			"type": "$A|DMG",
 			"rarity": "none",
 			"value": 2500
+		},
+		{
+			"name": "Smog Tattoo",
+			"group": [
+				"Massively Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"detail1": "Massively",
+			"detail2": "either just {@item Elemental Ink, Ash|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Fire|AU|Fire}",
+			"resist": [
+				"poison"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Poison damage.",
+						"{@b Movement Related.} When you fall more than 10 feet, you are automatically under the effects of a {@spell Feather Fall|XPHB} spell.",
+						"{@b Difficult to Poison.} You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against being {@condition Poisoned|XPHB}.",
+						"{@b Sight through Obscurity.} You can see through a {@variantrule Lightly Obscured|XPHB} area as if it were clear and through a {@variantrule Heavily Obscured|XPHB} area as if it were {@variantrule Lightly Obscured|XPHB}.",
+						"{@b Bane.} The Sight Through Obscurity benefit only works in {@variantrule Bright Light|XPHB} areas, unless you have {@sense Darkvision|XPHB}."
+					]
+				}
+			],
+			"attachedSpells": {
+				"will": [
+					"feather fall|xphb"
+				]
+			}
 		},
 		{
 			"name": "Smoke Grenade",
@@ -72112,6 +72952,7 @@
 		{
 			"name": "Tattoo Needles, Bone",
 			"group": [
+				"Tattoo Kit Upgrades",
 				"Tattoo Needles"
 			],
 			"source": "AU",
@@ -72129,6 +72970,7 @@
 		{
 			"name": "Tattoo Needles, Gold",
 			"group": [
+				"Tattoo Kit Upgrades",
 				"Tattoo Needles"
 			],
 			"source": "AU",
@@ -72146,6 +72988,7 @@
 		{
 			"name": "Tattoo Needles, Steel",
 			"group": [
+				"Tattoo Kit Upgrades",
 				"Tattoo Needles"
 			],
 			"source": "AU",
@@ -72163,6 +73006,7 @@
 		{
 			"name": "Tattoo Palette, Basic",
 			"group": [
+				"Tattoo Kit Upgrades",
 				"Tattoo Palettes"
 			],
 			"source": "AU",
@@ -72178,6 +73022,7 @@
 		{
 			"name": "Tattoo Palette, Grayscale",
 			"group": [
+				"Tattoo Kit Upgrades",
 				"Tattoo Palettes"
 			],
 			"source": "AU",
@@ -72193,6 +73038,7 @@
 		{
 			"name": "Tattoo Palette, Rainbow",
 			"group": [
+				"Tattoo Kit Upgrades",
 				"Tattoo Palettes"
 			],
 			"source": "AU",
@@ -72208,6 +73054,7 @@
 		{
 			"name": "Tattoo Palette, Advanced",
 			"group": [
+				"Tattoo Kit Upgrades",
 				"Tattoo Palettes"
 			],
 			"source": "AU",
@@ -72288,6 +73135,44 @@
 					]
 				}
 			}
+		},
+		{
+			"name": "Techtonic Tattoo",
+			"group": [
+				"Massively Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"detail1": "Massively",
+			"detail2": "{@item Elemental Ink, Earth|AU}",
+			"modifySpeed": {
+				"equal": {
+					"burrow": "walk"
+				}
+			},
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage.",
+						"{@b Movement Related.} You ignore nonmagical Difficult Terrain.",
+						"{@b Burrowing.} You gain a Burrow speed equal to your walking speed.",
+						"{@b Grounded.} You have {@variantrule Advantage|XPHB} on Saving Throws against being moved against your will or knocked {@condition Prone|XPHB}."
+					]
+				}
+			]
 		},
 		{
 			"name": "Teeth of Dahlver-Nar",
@@ -77617,6 +78502,44 @@
 			]
 		},
 		{
+			"name": "Volcanic Tattoo",
+			"group": [
+				"Massively Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"detail1": "Massively",
+			"detail2": "either just {@item Elemental Ink, Magma|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Fire|AU|Fire}",
+			"modifySpeed": {
+				"bonus": {
+					"*": "-5"
+				}
+			},
+			"resist": [
+				"bludgeoning",
+				"fire"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Bludgeoning and Fire damage.",
+						"{@b Movement Related.} You ignore Difficult Terrain.",
+						"{@b Lava Walk.} You can walk on the surface of molten rock as if it were solid.",
+						"{@b Hot Hazards.} You ignore heat-related hazards.",
+						"{@b Bane.} Your movement speed is reduced by 5 feet, cannot gain any temporary increases to your movement speed through magical effects, nor can you benefit from any effect that grants the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Voting Kit",
 			"source": "AI",
 			"page": 22,
@@ -80020,6 +80943,55 @@
 			}
 		},
 		{
+			"name": "Watery Tattoo",
+			"group": [
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "{@item Elemental Ink, Water|AU}",
+			"modifySpeed": {
+				"equal": {
+					"swim": "walk"
+				}
+			},
+			"resist": [
+				"thunder"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
+				{
+					"type": "entries",
+					"name": "Regardless of Attunement",
+					"entries": [
+						"You choose between one of the following benefits listed below:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Thunder damage.",
+								"{@b Movement Related.} You gain a Swim Speed equal to you walking speed."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "If You Attune",
+					"entries": [
+						"You gain both benefits listed above when you Attune to this tattoo."
+					]
+				}
+			]
+		},
+		{
 			"name": "Wave",
 			"source": "DMG",
 			"page": 218,
@@ -80583,6 +81555,63 @@
 			"rarity": "none",
 			"weight": 1,
 			"value": 1
+		},
+		{
+			"name": "Whirlpool Tattoo",
+			"group": [
+				"Massively Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"detail1": "Massively",
+			"detail2": "{@item Elemental Ink, Water|AU}",
+			"modifySpeed": {
+				"static": {
+					"swim": "40"
+				}
+			},
+			"resist": [
+				"thunder"
+			],
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
+				{
+					"type": "entries",
+					"name": "Regardless of Attunement",
+					"entries": [
+						"You choose between one of the following benefits listed below:",
+						{
+							"type": "list",
+							"style": "list-decimal",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Thunder damage.",
+								"{@b Movement Related.} You gain a Swim Speed equal to you walking speed."
+							]
+						}
+					]
+				},
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Thunder damage.",
+						"{@b Movement Related.} You gain a Swim Speed equal to 40 feet.",
+						"{@b Amphibious.} You can breathe underwater.",
+						"{@b Water Walk.} You can cast {@spell Water Walk|XPHB} on yourself at-will."
+					]
+				}
+			],
+			"attachedSpells": {
+				"will": [
+					"water walk|xphb"
+				]
+			}
 		},
 		{
 			"name": "Whisper Jar",
@@ -81237,6 +82266,62 @@
 				}
 			},
 			"hasFluffImages": true
+		},
+		{
+			"name": "Windy Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"detail1": "Moderately",
+			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Ice|AU|Ice}",
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Gust",
+					"entries": [
+						"You know the {@spell Gust|XGE} cantrip and you gain an additional use with this spell based on which {@item Elemental Inks|AU|Elemental Ink} you choose for this tattoo.",
+						{
+							"type": "table",
+							"caption": "Added Gust Benefit per Ink Type",
+							"colLabels": [
+								"Elemental Ink Type",
+								"Bonus Benefit with Cantrip"
+							],
+							"colStyles": [
+								"col-2-5 text-center",
+								"col-9-5"
+							],
+							"rows": [
+								[
+									"{@item Elemental Ink, Air|AU|Air}",
+									"You can turn the air at such speeds around a creature to cause a deafening effect."
+								],
+								[
+									"{@item Elemental Ink, Ash|AU|Ash}",
+									"You can target a Lightly Obscured cloud of smoke, ash, confetti, or anything else floating in the breeze to increase its flurry in order to become a space that is Heavily Obscured, up to 1 hour unless blown away."
+								],
+								[
+									"{@item Elemental Ink, Ice|AU|Ice}",
+									"When you cast this spell, you can drop the temperate of the air down that it causes liquids to begin freezing when hit by this gust of wind."
+								]
+							]
+						}
+					]
+				}
+			],
+			"attachedSpells": {
+				"will": [
+					"gust|xge"
+				]
+			}
 		},
 		{
 			"name": "Winged Boots",
@@ -83736,6 +84821,9 @@
 		},
 		{
 			"name": "Enchanted Inks",
+			"group": [
+				"Tattoo Kit Upgrades"
+			],
 			"source": "AU",
 			"page": 153,
 			"type": "GV|XDMG",
@@ -85384,13 +86472,21 @@
 			"source": "AU",
 			"page": 159,
 			"rarity": "varies",
+			"type": "GV|XDMG",
 			"tattoo": true,
-			"wondrous": true,
 			"items": [
 				"Adamantined Tattoo|AU",
+				"Airy Tattoo|AU",
+				"Ashy Tattoo|AU",
 				"Cold Ironed Tattoo|AU",
+				"Earthy Tattoo|AU",
+				"Fiery Tattoo|AU",
+				"Icey Tattoo|AU",
 				"Mithralled Tattoo|AU",
-				"Silvered Tattoo|AU"
+				"Molten Tattoo|AU",
+				"Oozy Tattoo|AU",
+				"Silvered Tattoo|AU",
+				"Watery Tattoo|AU"
 			]
 		},
 		{
@@ -85484,6 +86580,24 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Massively Enhanced Tattoo",
+			"source": "AU",
+			"page": 160,
+			"rarity": "varies",
+			"type": "GV|XDMG",
+			"tattoo": true,
+			"items": [
+				"Avalanched Tattoo|AU",
+				"Galewinds Tattoo|AU",
+				"Grime Tattoo|AU",
+				"Inferno Tattoo|AU",
+				"Smog Tattoo|AU",
+				"Techtonic Tattoo|AU",
+				"Volcanic Tattoo|AU",
+				"Whirlpool Tattoo|AU"
+			]
+		},
+		{
 			"name": "Mechanical Wonder",
 			"source": "FRAiF",
 			"page": 245,
@@ -85530,11 +86644,12 @@
 			"source": "AU",
 			"page": 157,
 			"rarity": "varies",
+			"type": "GV|XDMG",
 			"tattoo": true,
-			"wondrous": true,
 			"items": [
 				"Charming Tattoo|AU",
 				"Darkvision Tattoo|AU",
+				"Elemental Aura Tattoo|AU",
 				"Flashlight Tattoo|AU",
 				"Hands-Off Tattoo|AU",
 				"Intuitive Tattoo|AU",
@@ -85552,17 +86667,22 @@
 			"source": "AU",
 			"page": 158,
 			"rarity": "varies",
+			"type": "GV|XDMG",
 			"tattoo": true,
-			"wondrous": true,
 			"items": [
 				"Adaman-Tot Tattoo|AU",
 				"Alter Self Tattoo|AU",
 				"Big Flashlight Tattoo|AU",
 				"Chilly Ironed Tattoo|AU",
+				"Control Heat Tattoo|AU",
 				"Goodnight Tattoo|AU",
 				"Mithra-Lite Tattoo|AU",
+				"Mold Land Tattoo|AU",
+				"Para-Elementalism Tattoo|AU",
 				"Quick Healing Tattoo|AU",
-				"Quick Silvered Tattoo|AU"
+				"Quick Silvered Tattoo|AU",
+				"Sculpt Water Tattoo|AU",
+				"Windy Tattoo|AU"
 			]
 		},
 		{
