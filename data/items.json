@@ -3009,7 +3009,7 @@
 								"{@item Enchanted Ink|AU}",
 								"{@item Dancing Ink|AU}",
 								"{@item Glowing Ink|AU}",
-								"{@item Invisibile Ink|AU}",
+								"{@item Invisible Ink|AU}",
 								"{@item Metal-Lic Ink|AU}",
 								"{@item Prismatic Ink|AU}",
 								"{@item Stardust Ink|AU}"
@@ -34982,6 +34982,67 @@
 			}
 		},
 		{
+			"name": "Hidden Quill Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"reqAttune": "optional",
+			"detail1": "Moderately",
+			"detail2": "{@item Enchanted Ink|AU} and 1 of the following inks: {@item Stardust Ink|AU} or {@item Invisible Ink|AU}",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Forever Quill - {@item Quill Tattoo|AU}",
+					"entries": [
+						"This tattoo turns your tattooed finger into a {@item Quill of Studiousness|AU}. The color of the tattoo ink determines the color of the quill ink written with.",
+						"When created with {@item Stardust Ink|AU} or {@item Invisible Ink|AU}, you can use a {@action Magic|XPHB} action to touch a single piece of parchment or paper and say a creature's name. Anything you write on this paper with this tattooed quill finger will become {@condition Invisible|XPHB} once the the paper is filled or you confirmed your writing is completed, which ever comes first. Only you and the named creature will be able to see what's written for 24 hours, at which, all of the ink will fade and vanish.",
+						"{@b Without Attunement,} you can only use this benefit once per dawn.",
+						"{@b With Attunement,} this frequency increases to three times per dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: Back of hand ending no more than 1 knuckle away from finger tip."
+								],
+								[
+									"Minimal Size Required",
+									"Small"
+								],
+								[
+									"Visibility Required",
+									"Yes"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Hide of the Feral Guardian (Awakened)",
 			"source": "EGW",
 			"_copy": {
@@ -36765,6 +36826,9 @@
 			"name": "Illuminator's Tattoo",
 			"source": "TCE",
 			"page": 129,
+			"reprintedAs": [
+				"Hidden Quill Tattoo|AU"
+			],
 			"rarity": "common",
 			"reqAttune": true,
 			"wondrous": true,
@@ -56193,6 +56257,63 @@
 			]
 		},
 		{
+			"name": "Quill Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "common",
+			"detail1": "Minimally",
+			"detail2": "{@item Enchanted Ink|AU}",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Forever Quill",
+					"entries": [
+						"This tattoo turns your tattooed finger into a {@item Quill of Studiousness|AU}. The color of the tattoo ink determines the color of the quill ink written with. This tattoo can be enhanced with other {@item Enchanted Inks|AU} in order to add aesthetics to the written ink."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: Back of hand ending no more than 1 knuckle away from finger tip."
+								],
+								[
+									"Minimal Size Required",
+									"Small"
+								],
+								[
+									"Visibility Required",
+									"Yes"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Quiver",
 			"source": "PHB",
 			"page": 153,
@@ -56416,6 +56537,64 @@
 			"value": 100,
 			"entries": [
 				"A rain catcher is a simple contraption consisting of a 5-foot-square leather tarp and a wooden frame with legs. When the tarp is stretched across the wooden frame, it forms a basin that can catch 2 gallons of drinking water per inch of rainfall and hold up to 8 gallons. The tarp and wooden frame fold up for easy transport."
+			]
+		},
+		{
+			"name": "Rainbow Quill Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"detail1": "Moderately",
+			"detail2": "{@item Enchanted Ink|AU} and {@item Prismatic Ink|AU}",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Forever Quill - {@item Quill Tattoo|AU}",
+					"entries": [
+						"This tattoo turns your tattooed finger into a {@item Quill of Studiousness|AU}. The color of the tattoo ink determines the color of the quill ink written with.",
+						"When created with {@item Prismatic Ink|AU}, it allows you to the ability to control the color of the written ink, allowing you to write with any ink color imaginable."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: Back of hand ending no more than 1 knuckle away from finger tip."
+								],
+								[
+									"Minimal Size Required",
+									"Small"
+								],
+								[
+									"Visibility Required",
+									"Yes"
+								]
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -88494,6 +88673,7 @@
 				"Manipulate Icon Tattoo|AU",
 				"Night Sky Reflection Tattoo|AU",
 				"Quick Visitation Tattoo|AU",
+				"Quill Tattoo|AU",
 				"S-O-S Tattoo|AU",
 				"Second Guessing Tattoo|AU",
 				"Strobe Tattoo|AU",
@@ -88549,12 +88729,14 @@
 				"Chilly Ironed Tattoo|AU",
 				"Control Heat Tattoo|AU",
 				"Goodnight Tattoo|AU",
+				"Hidden Quill Tattoo|AU",
 				"Lightly Armored Tattoo|AU",
 				"Mithra-Lite Tattoo|AU",
 				"Mold Land Tattoo|AU",
 				"Para-Elementalism Tattoo|AU",
 				"Quick Healing Tattoo|AU",
 				"Quick Silvered Tattoo|AU",
+				"Rainbow Quill Tattoo|AU",
 				"Sculpt Water Tattoo|AU",
 				"Windy Tattoo|AU"
 			]

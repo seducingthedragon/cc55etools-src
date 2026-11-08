@@ -8252,6 +8252,12 @@
 									"No"
 								],
 								[
+									"{@item Quill Tattoo|AU|Quill}",
+									"Turns your index finger into a {@item Quill of Studiousness|XDMG}",
+									"{@item Enchanted Ink|AU}",
+									"Yes"
+								],
+								[
 									"{@item S-O-S Tattoo|AU|S-O-S}",
 									"Flash SOS in a visual light code {@i i.e. morse code}",
 									"{@item Glowing Ink|AU}",
@@ -8348,6 +8354,13 @@
 									"Optional"
 								],
 								[
+									"{@item Hidden Quill Tattoo|AU|Hidden Quill}",
+									"Turns your index finger into a {@item Quill of Studiousness|XDMG} and grants ability to write 1 invisible note per day",
+									"{@item Enchanted Ink|AU} and either {@item Stardust Ink|AU} or {@item Invisible Ink|AU}",
+									"Yes",
+									"Optional"
+								],
+								[
 									"{@item Lightly Armored Tattoo|AU|Lightly Armored}",
 									"Unarmored AC is 13 without Attunement or 12 plus your DEX Mod with Attunement, can use shield and keep benefit",
 									"{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
@@ -8387,6 +8400,13 @@
 									"Gain +2 Bonus on {@variantrule Saving Throws|AU} against transformation effects from Shapechangers",
 									"{@item Metal-Lic Ink|AU}",
 									"No",
+									"No"
+								],
+								[
+									"{@item Rainbow Quill Tattoo|AU|Rainbow Quill}",
+									"Turns your index finger into a {@item Quill of Studiousness|XDMG}, allowing you to change the color of the ink written with on your mental command.",
+									"{@item Enchanted Ink|AU} and {@item Prismatic Ink|AU}",
+									"Yes",
 									"No"
 								],
 								[
