@@ -8348,7 +8348,7 @@
 									"Optional"
 								],
 								[
-									"Lightly Armored Tattoo",
+									"{@item Lightly Armored Tattoo|AU|Lightly Armored}",
 									"Unarmored AC is 13 without Attunement or 12 plus your DEX Mod with Attunement, can use shield and keep benefit",
 									"{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
 									"No",
@@ -8448,7 +8448,7 @@
 									"Optional"
 								],
 								[
-									"Moderately Armored Tattoo",
+									"{@item Moderately Armored Tattoo|AU|Moderately Armored}",
 									"Unarmored AC is 15 plus your DEX Mod (max 2), can use shield and keep benefit",
 									"{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
 									"No",
@@ -8576,7 +8576,7 @@
 									"Yes"
 								],
 								[
-									"Heavily Armored Tattoo",
+									"{@item Heavily Armored Tattoo|AU|Heavily Armored}",
 									"Unarmored AC is 18, can use shield and keep benefit",
 									"{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
 									"No",

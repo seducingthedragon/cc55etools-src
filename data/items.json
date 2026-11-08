@@ -1935,13 +1935,44 @@
 					]
 				},
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Gained Heft",
 					"entries": [
 						"You gain a +2 bonus to your Strength or Constitution {@variantrule Saving Throw|XPHB|Saving Throws} (you choose prior to tattooing process). You also weigh 5 pounds heavier than before."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"No"
+								],
+								[
+									"Minimal Size Required",
+									"Small"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -1978,8 +2009,6 @@
 					]
 				},
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Big Heft",
@@ -1992,6 +2021,39 @@
 					"name": "Damage Threshold",
 					"entries": [
 						"Due to the magical effects of Adamantine, you gain a {@variantrule Damage Threshold|XPHB} of 5."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -2202,13 +2264,11 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
 				{
 					"type": "entries",
-					"name": "Regardless of Attunement",
+					"name": "Damage Resistance or Movement",
 					"entries": [
-						"You choose between one of the following benefits listed below:",
+						"{@b Without Attunement,} you choose between one of the following benefits listed below:",
 						{
 							"type": "list",
 							"style": "list-decimal",
@@ -2216,14 +2276,41 @@
 								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} Lightning to damage.",
 								"{@b Movement Related.} You gain a Fly Speed equal to your walking speed."
 							]
-						}
+						},
+						"{@b If you Attune to this tattoo,} you gain both benefits listed above."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "If You Attune",
+					"name": "Tattoo Stats",
 					"entries": [
-						"You gain both benefits listed above when you Attune to this tattoo."
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: List/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -2844,16 +2931,50 @@
 			"detail2": "{@item Prismatic Ink|AU}",
 			"tattoo": true,
 			"wondrous": true,
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Cast Alter Self",
 					"entries": [
-						"You gain the ability to cast Alter Self once per dawn using the Appearance Only option."
+						"You gain the ability to cast {@spell Alter Self|XPHB} using the Appearance Only option without expending a spell slot and without {@status Concentration|XPHB}, once per dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: List/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			],
@@ -4609,13 +4730,11 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
 				{
 					"type": "entries",
-					"name": "Regardless of Attunement",
+					"name": "Damage Resistance or Movement Boost",
 					"entries": [
-						"You choose between one of the following benefits listed below:",
+						"{@b Without Attunement,} you choose between one of the following benefits listed below:",
 						{
 							"type": "list",
 							"style": "list-decimal",
@@ -4623,14 +4742,48 @@
 								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Poison damage.",
 								"{@b Movement Related.} When you fall more than 10 feet, you can cast the {@spell Feather Fall|XPHB} spell, 3 times per day, regaining all expended uses on a Long Rest."
 							]
-						}
+						},
+						"{@b If you Attune to this tattoo,} you gain both benefits listed above."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "If You Attune",
 					"entries": [
-						"You gain both benefits listed above when you Attune to this tattoo."
+						
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: List/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			],
@@ -4832,16 +4985,54 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Cold damage.",
-						"{@b Movement Related.} You ignore Difficult Terrain while in snow, ice, and other slippery smooth surfaces.",
-						"{@b Dash.} You can use your {@variantrule Bonus Action|XPHB} to take the {@action Dash|XPHB} action.",
-						"{@b Grappled Advantage.} You have {@variantrule Advantage|XPHB} on checks and Saving Throws relating to not being {@condition Grappled|XPHB}.",
-						"{@b Bane.} You are {@variantrule Vulnerable|XPHB} to Fire damage."
+					"type": "entries",
+					"name": "Ice Related Benefits",
+					"entries":[
+						"You gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Cold damage.",
+								"{@b Movement Related.} You ignore Difficult Terrain while in snow, ice, and other slippery smooth surfaces.",
+								"{@b Dash.} You can use your {@variantrule Bonus Action|XPHB} to take the {@action Dash|XPHB} action.",
+								"{@b Grappled Advantage.} You have {@variantrule Advantage|XPHB} on checks and Saving Throws relating to not being {@condition Grappled|XPHB}.",
+								"{@b Bane.} You are {@variantrule Vulnerable|XPHB} to Fire damage."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -7794,20 +7985,55 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: Yes}",
-				"You gain the following benefits with this tattoo.",
 				{
 					"type": "entries",
 					"name": "Light Spell",
 					"entries": [
-						"You know the {@spell Light|XPHB} cantrip. When you cast this spell, you can cast it from your tattoo using its 20-foot Sphere or with in a 45-foot {@variantrule Bright Light|XPHB} {@variantrule Cone [Area of Effect]|XPHB|Cone} from this tattoo. While using the Cone shape, {@variantrule Dim Light|XPHB} extends an additional 10 feet."
+						"You know the {@spell Light|XPHB} cantrip. When you cast this spell, you can cast it from your tattoo using its 20-foot Sphere or with in a 45-foot {@variantrule Bright Light|XPHB} {@variantrule Cone [Area of Effect]|XPHB|Cone} from this tattoo. While using the Cone shape, {@variantrule Dim Light|XPHB} extends an additional 10 feet.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Attunement Caveat",
+									"entry": "If the {@spell Light|XPHB} cantrip is part of your class's spell list, this tattoo {@b {@i does not}} require {@variantrule Attunement|XPHB} from you. If the {@spell Light|XPHB} cantrip is not part of your class's spell list or you are not a Spellcaster, this tattoo {@b {@i does}} require {@variantrule Attunement|XPHB} from you."
+								}
+							]
+						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Attunement Caveat",
+					"name": "Tattoo Stats",
 					"entries": [
-						"If the {@spell Light|XPHB} cantrip is part of your class's spell list, this tattoo {@b {@i does not}} require {@variantrule Attunement|XPHB} from you. If the {@spell Light|XPHB} cantrip is not part of your class's spell list or you are not a Spellcaster, this tattoo {@b {@i does}} require {@variantrule Attunement|XPHB} from you."
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"Yes"
+								]
+							]
+						}
 					]
 				}
 			],
@@ -13071,13 +13297,44 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: Yes}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Improved Persuasion",
 					"entries": [
 						"You gain a +1 bonus to your Charisma ({@skill Persuasion|XPHB}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"Yes"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -13241,13 +13498,44 @@
 					]
 				},
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Saving Throw Bonus",
 					"entries": [
 						"When you are targeted with an effect that would result in you becoming {@condition Charmed|XPHB} by a Fey creature, you gain a +2 bonus on your {@variantrule Saving Throw|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -14530,13 +14818,44 @@
 					]
 				},
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Saving Throw Boon",
 					"entries": [
 						"You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against being {@condition Charmed|XPHB} by Fey creatures. Additionally, if you fail, you can use your {@variantrule Reaction|XPHB} to automatically succeed. You can use this reaction once per long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -14802,8 +15121,6 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Control Flames",
@@ -14832,6 +15149,39 @@
 								[
 									"{@item Elemental Ink, Magma|AU|Magma}",
 									"You can shape molten rock, as well as melted metals used in smithing, with this spell"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
 								]
 							]
 						}
@@ -17103,13 +17453,44 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
 						"If you do not already have {@sense Darkvision|XPHB}, you gain this sense up to 30 feet. If you already have {@sense Darkvision|XPHB}, you gain an additional 15 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -23799,13 +24180,11 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
 				{
 					"type": "entries",
-					"name": "Regardless of Attunement",
+					"name": "Damage Resistance or Movement Boost",
 					"entries": [
-						"You choose between one of the following benefits listed below:",
+						"{@b Without Attunement to this tattoo,} you choose between one of the following benefits listed below:",
 						{
 							"type": "list",
 							"style": "list-decimal",
@@ -23813,14 +24192,41 @@
 								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Bludgeoning damage.",
 								"{@b Movement Related.} You ignore nonmagical Difficult Terrain."
 							]
-						}
+						},
+						"{@b If you Attune to this tattoo,} you gain both benefits listed above."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "If You Attune",
+					"name": "Tattoo Stats",
 					"entries": [
-						"You gain both benefits listed above when you Attune to this tattoo."
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -24203,95 +24609,134 @@
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
 				"{@i Required Visibility: No}",
-				"With this tattoo, you Emanate a 10-foot aura relating to the one type of {@item Elemental Inks|AU|Elemental Ink} used. See the Table below for a breakdown of what occurs in the aura based on your choice of ink.",
 				{
-					"type": "table",
-					"caption": "Elemental Ink Type and their Aura",
-					"colLables": [
-						"Type of Ink",
-						"Aura"
-					],
-					"colStyles": [
-						"col-2-5",
-						"col-9-5"
-					],
-					"rows": [
-						[
-							{
-								"type": "cell",
-								"width": 2,
-								"entry": "{@b {@i Primary Elements}}"
-							}
-						],
+					"type": "entries",
+					"name": "Elemental Aura",
+					"entries": [
+						"With this tattoo, you Emanate a 10-foot aura relating to the one type of {@item Elemental Inks|AU|Elemental Ink} used. See the Table below for a breakdown of what occurs in the aura based on your choice of ink.",
 						{
-							"type": "row",
-							"style": "row-indent-first",
-							"row": [
-								"{@item Elemental Ink, Air|AU|Air}",
-								"A cooling breeze with a saturated flora scent of your choice, with your clothing and hair billowing if you choose so"
+							"type": "table",
+							"caption": "Elemental Ink Type and their Aura",
+							"colLables": [
+								"Type of Ink",
+								"Aura"
+							],
+							"colStyles": [
+								"col-2-5",
+								"col-9-5"
+							],
+							"rows": [
+								[
+									{
+										"type": "cell",
+										"width": 2,
+										"entry": "{@b {@i Primary Elements}}"
+									}
+								],
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Elemental Ink, Air|AU|Air}",
+										"A cooling breeze with a saturated flora scent of your choice, with your clothing and hair billowing if you choose so"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Elemental Ink, Earth|AU|Earth}",
+										"Dusty via dirt, constant sounds of rocks grinding, your skin may be rough to the touch"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Elemental Ink, Fire|AU|Fire}",
+										"Warm still air, like a dry sauna, very drying."
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Elemental Ink, Water|AU|Water}",
+										"Humid and moist, and misty like a sea breeze, you may be permanently damp,"
+									]
+								},
+								[
+									{
+										"type": "cell",
+										"width": 2,
+										"entry": "{@b {@i Para-Elements}}"
+									}
+								],
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Elemental Ink, Ash|AU|Ash}",
+										"Smokey with light gray fog clouds of ash specks but not opaque enough to be considered Lightly Obscured, may trigger coughing fits that don't bother you"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Elemental Ink, Ice|AU|Ice}",
+										"Cold sharp breeze that causes a light crystalizing effect on watery dew, and maybe some cold noses that can't smell"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Elemental Ink, Magma|AU|Magma}",
+										"Burning hot air that is felt an additional 10 feet farther than other auras, which causes creatures and objects to feel as though they are melting to a crisp, which you are not bothered by"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"{@item Elemental Ink, Ooze|AU|Ooze}",
+										"Putrid odor like decaying rot, humid air that is sticky yet very moist, others feel sickly but you are not impacted by this"
+									]
+								}
 							]
-						},
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
 						{
-							"type": "row",
-							"style": "row-indent-first",
-							"row": [
-								"{@item Elemental Ink, Earth|AU|Earth}",
-								"Dusty via dirt, constant sounds of rocks grinding, your skin may be rough to the touch"
-							]
-						},
-						{
-							"type": "row",
-							"style": "row-indent-first",
-							"row": [
-								"{@item Elemental Ink, Fire|AU|Fire}",
-								"Warm still air, like a dry sauna, very drying."
-							]
-						},
-						{
-							"type": "row",
-							"style": "row-indent-first",
-							"row": [
-								"{@item Elemental Ink, Water|AU|Water}",
-								"Humid and moist, and misty like a sea breeze, you may be permanently damp,"
-							]
-						},
-						[
-							{
-								"type": "cell",
-								"width": 2,
-								"entry": "{@b {@i Para-Elements}}"
-							}
-						],
-						{
-							"type": "row",
-							"style": "row-indent-first",
-							"row": [
-								"{@item Elemental Ink, Ash|AU|Ash}",
-								"Smokey with light gray fog clouds of ash specks but not opaque enough to be considered Lightly Obscured, may trigger coughing fits that don't bother you"
-							]
-						},
-						{
-							"type": "row",
-							"style": "row-indent-first",
-							"row": [
-								"{@item Elemental Ink, Ice|AU|Ice}",
-								"Cold sharp breeze that causes a light crystalizing effect on watery dew, and maybe some cold noses that can't smell"
-							]
-						},
-						{
-							"type": "row",
-							"style": "row-indent-first",
-							"row": [
-								"{@item Elemental Ink, Magma|AU|Magma}",
-								"Burning hot air that is felt an additional 10 feet farther than other auras, which causes creatures and objects to feel as though they are melting to a crisp, which you are not bothered by"
-							]
-						},
-						{
-							"type": "row",
-							"style": "row-indent-first",
-							"row": [
-								"{@item Elemental Ink, Ooze|AU|Ooze}",
-								"Putrid odor like decaying rot, humid air that is sticky yet very moist, others feel sickly but you are not impacted by this"
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
 							]
 						}
 					]
@@ -27709,13 +28154,11 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
 				{
 					"type": "entries",
-					"name": "Regardless of Attunement",
+					"name": "Damage Resistance or Movement Boost",
 					"entries": [
-						"You choose between one of the following benefits listed below:",
+						"{@b Without attuning to this tattoo,} you choose between one of the following benefits listed below:",
 						{
 							"type": "list",
 							"style": "list-decimal",
@@ -27723,14 +28166,41 @@
 								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Fire damage.",
 								"{@b Movement Related.} Your movement speed increases by 5 feet."
 							]
-						}
+						},
+						"{@b If you attune to this tattoo,} you gain both benefits listed above."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "If You Attune",
+					"name": "Tattoo Stats",
 					"entries": [
-						"You gain both benefits listed above when you Attune to this tattoo."
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -28650,13 +29120,44 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: Yes}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Light",
 					"entries": [
 						"You can cast the {@spell Light|XPHB} from your tattoo once per long rest. When you do so, you can use a 30-foot {@variantrule Cone [Area of Effect]|XPHB} of {@variantrule Bright Light|XPHB} instead of the 20-foot Sphere. Additionally, the Cone has {@variantrule Dim Light|XPHB} out to an additional 15 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"Yes"
+								]
+							]
+						}
 					]
 				}
 			],
@@ -29442,15 +29943,53 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Lightning damage.",
-						"{@b Movement Related.} You have a Fly Speed of 60 feet.",
-						"{@b Semi-Breathless.} You can hold your breath for up to 1 hour without gaining any Suffocation hazards, as long as you were prepared.",
-						"{@b Levitate.} You can cast {@spell Levitate|XPHB} on objects without {@status Concentration|XPHB} five times per {@variantrule Long Rest|XPHB}."
+					"type": "entries",
+					"name": "Air Benefits",
+					"entries": [
+						"You gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Lightning damage.",
+								"{@b Movement Related.} You have a Fly Speed of 60 feet.",
+								"{@b Semi-Breathless.} You can hold your breath for up to 1 hour without gaining any Suffocation hazards, as long as you were prepared.",
+								"{@b Levitate.} You can cast {@spell Levitate|XPHB} on objects without {@status Concentration|XPHB} five times per {@variantrule Long Rest|XPHB}."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			],
@@ -31008,8 +31547,6 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: Yes}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Good Night Sleep Tight",
@@ -31029,6 +31566,39 @@
 									"name": "If Attuned",
 									"entry": "If you choose to Attune to this tattoo, you can cast {@spell Sleep|XPHB} in this way, a number of times equal to half of your {@variantrule Proficiency|XPHB|Proficiency Bonus} (round down) per {@variantrule Long Rest|XPHB}."
 								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"Yes"
+								]
 							]
 						}
 					]
@@ -31393,16 +31963,54 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Acid damage.",
-						"{@b Movement Related.} You are always under the effects of {@spell Water Walk|XPHB}, however you can only cross over quicksand, sewage, mud, and other non-solid surface that is not primarily water or lava.",
-						"{@b Not Sickly.} You have {@variantrule Advantage|XPHB} on any D20 roll against Diseases.",
-						"{@b Not Restricted.} You have {@variantrule Advantage|XPHB} on Saving Throws against being {@condition Restrained|XPHB}.",
-						"{@b Bane.} Standing up from {@condition Prone|XPHB} uses your entire movement speed."
+					"type": "entries",
+					"name": "Ooze Benefits",
+					"entries": [
+						"While attuned to this tattoo, you gain the following benefits.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Acid damage.",
+								"{@b Movement Related.} You are always under the effects of {@spell Water Walk|XPHB}, however you can only cross over quicksand, sewage, mud, and other non-solid surface that is not primarily water or lava.",
+								"{@b Not Sickly.} You have {@variantrule Advantage|XPHB} on any D20 roll against Diseases.",
+								"{@b Not Restricted.} You have {@variantrule Advantage|XPHB} on Saving Throws against being {@condition Restrained|XPHB}.",
+								"{@b Bane.} Standing up from {@condition Prone|XPHB} uses your entire movement speed."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			],
@@ -32349,8 +32957,6 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: Yes}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Pinch 'em",
@@ -32359,10 +32965,36 @@
 					]
 				},
 				{
-					"type": "insetReadaloud",
-					"name": "Multiple Hands-Off Tattoos",
+					"type": "entries",
+					"name": "Tattoo Stats",
 					"entries": [
-						"While it is common that most enhanced tattoos are only done once on a person, this tattoo is known to be tatted on person multiple times. This occurs when the individual works in an industry that requires \"upclose interactions\" that may not be pleasant and sometimes, a customer forgets that they may be in a Hands-Off type of space or may not want to be touched there. When that's the case, this tattoo is often done in the areas where that individual does not want any unwarrented interactions."
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"Yes"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -33140,19 +33772,49 @@
 			"reqAttune": true,
 			"detail1": "Massively",
 			"detail2": "{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
-			"ac": 18,
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Unarmored Protection",
 					"entries": [
 						"When you are not wearing any armor, your {@variantrule Armor Class|XPHB} is 18. You can use a {@item Shield|XPHB} and still maintain this benefit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: Chest, Chest and Stomach, Back, or Both Upperarms plus Shoulders"
+								],
+								[
+									"Minimal Size Required",
+									"Medium"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -35864,13 +36526,11 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
 				{
 					"type": "entries",
-					"name": "Regardless of Attunement",
+					"name": "Damage Resistance or Movement Boost",
 					"entries": [
-						"You choose between one of the following benefits listed below:",
+						"{@b Without attunement to this tattoo,} you choose between one of the following benefits listed below:",
 						{
 							"type": "list",
 							"style": "list-decimal",
@@ -35878,14 +36538,41 @@
 								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Cold damage.",
 								"{@b Movement Related.} You ignore Difficult Terrain while in snow, ice, and other slippery smooth surfaces."
 							]
-						}
+						},
+						"{@b If you attune to this tattoo,} you gain both benefits listed above."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "If You Attune",
+					"name": "Tattoo Stats",
 					"entries": [
-						"You gain both benefits listed above when you Attune to this tattoo."
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -36303,15 +36990,53 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Fire damage.",
-						"{@b Movement Related.} Your movement speed increases by 5 feet.",
-						"{@b Non-Magical Immunity.} You are {@variantrule Immunity|XPHB|Immune} to damage from non-magical Fire.",
-						"{@b Climbing.} You gain a climb speed equal to your walking speed."
+					"type": "entries",
+					"name": "Fire Benefits",
+					"entries": [
+						"While attuned to this tattoo, you gain the following benefits.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Fire damage.",
+								"{@b Movement Related.} Your movement speed increases by 5 feet.",
+								"{@b Non-Magical Immunity.} You are {@variantrule Immunity|XPHB|Immune} to damage from non-magical Fire.",
+								"{@b Climbing.} You gain a climb speed equal to your walking speed."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -37255,13 +37980,44 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: Yes}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Insightful",
 					"entries": [
 						"You gain a +1 bonus on your Wisdom ({@skill Insight|XPHB}) checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"Yes"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -40841,14 +41597,11 @@
 			"reqAttune": "optional",
 			"detail1": "Moderately",
 			"detail2": "{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
-			"ac": 13,
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Unarmored Protection",
@@ -40868,6 +41621,39 @@
 									"name": "Attuned AC",
 									"entry": "With Attunement, your unarmored AC is 12 plus your Dexterity Modifier."
 								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: Chest, Chest and Stomach, Back, or Both Upperarms plus Shoulders"
+								],
+								[
+									"Minimal Size Required",
+									"Medium"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
 							]
 						}
 					]
@@ -42660,13 +43446,44 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: Necessary}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Minor Illusion",
 					"entries": [
 						"Once per {@variantrule Long Rest|XPHB}, you can cast {@spell Minor Illusion|XPHB} on your tattoo, using both the sound and image effects. While your tattoo does not need to be visible for this to occur, it is presumed necessary for it to be effective."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"Necessary"
+								]
+							]
+						}
 					]
 				}
 			],
@@ -44429,13 +45246,44 @@
 					]
 				},
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Dexterity Bonuses",
 					"entries": [
 						"You gain a +1 bonus on your Dexterity ({@skill Acrobatics|XPHB}) checks and Dexterity {@variantrule Saving Throw|XPHB}. You are also 5 pounds lighter."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -44463,13 +45311,44 @@
 					]
 				},
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Dexterity Boon",
 					"entries": [
 						"You gain a +2 bonus on your Dexterity ({@skill Acrobatics|XPHB}) checks and Dexterity {@variantrule Saving Throw|XPHB}. You are also 10 pounds lighter."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -44721,20 +45600,49 @@
 			"reqAttune": true,
 			"detail1": "Majorly",
 			"detail2": "{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
-			"ac": 15,
-			"dexterityMax": 2,
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Unarmored Protection",
 					"entries": [
 						"Your {@variantrule Armor Class|XPHB} without wearing any armor is 15 plus your Dexterity Modifier (max 2). You can use a shield and stil maintain this benefit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: Chest, Chest and Stomach, Back, or Both Upperarms plus Shoulders"
+								],
+								[
+									"Minimal Size Required",
+									"Medium"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -44754,8 +45662,6 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Mold Earth",
@@ -44788,6 +45694,39 @@
 							]
 						}
 					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
 				}
 			],
 			"attachedSpells": {
@@ -44815,13 +45754,11 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
 				{
 					"type": "entries",
 					"name": "Regardless of Attunement",
 					"entries": [
-						"You choose between one of the following benefits listed below:",
+						"{@b Without attunement to this tattoo,} you choose between one of the following benefits listed below:",
 						{
 							"type": "list",
 							"style": "list-decimal",
@@ -44829,14 +45766,41 @@
 								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Fire damage.",
 								"{@b Movement Related.} You ignore Difficult Terrain as you walk on the surface molten rock as if it were solid."
 							]
-						}
+						},
+						"{@b If you attune to this tattoo,} you gain both benefits listed above."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "If You Attune",
+					"name": "Tattoo Stats",
 					"entries": [
-						"You gain both benefits listed above when you Attune to this tattoo."
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -46388,13 +47352,44 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Star Mirror",
 					"entries": [
 						"As long as you are not underground, at nighttime, your tattoo will glitter and twinkle in a pattern that matches the stars above."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"Necessary"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -47305,13 +48300,11 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
 				{
 					"type": "entries",
-					"name": "Regardless of Attunement",
+					"name": "Damage Resistance or Movement Boost",
 					"entries": [
-						"You choose between one of the following benefits listed below:",
+						"{@b Without attunement to this tattoo,} you choose between one of the following benefits listed below:",
 						{
 							"type": "list",
 							"style": "list-decimal",
@@ -47319,14 +48312,41 @@
 								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Acid damage.",
 								"{@b Movement Related.} You can cast {@spell Water Walk|XPHB} targeting yourself, however you can only cross over quicksand, sewage, mud, and other non-solid surface that is not primarily water or lava. You can cast this spell three times and regain all expended uses on a Long Rest."
 							]
-						}
+						},
+						"{@b If you attune to this tattoo,} you gain both benefits listed above."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "If You Attune",
+					"name": "Tattoo Stats",
 					"entries": [
-						"You gain both benefits listed above when you Attune to this tattoo."
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"Yes/No/Necessary: Will work without it but won't have expected effect without it"
+								]
+							]
+						}
 					]
 				}
 			],
@@ -48757,13 +49777,44 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Elementalism",
 					"entries": [
 						"You know the {@spell Elementalism|XPHB} cantrip, however, you can only use the Sculpt Elements effect on any elemental-like natural object and phenomena."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			],
@@ -54923,8 +55974,6 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No.}",
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Bonus Healing",
@@ -54937,6 +55986,39 @@
 					"name": "Auto HP on a Short Rest",
 					"entries": [
 						"Whenever you take a {@variantrule Short Rest|XPHB}, you automatically regain a number of {@variantrule Hit Points|XPHB} equal to your player level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -54964,8 +56046,6 @@
 					]
 				},
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Saving Throw Buff",
@@ -54975,8 +56055,36 @@
 				},
 				{
 					"type": "entries",
-					"name": "",
-					"entries": []
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
 				}
 			]
 		},
@@ -54995,13 +56103,44 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No.}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Moving Tattoo",
 					"entries": [
 						"While Dancing Ink is known to cause tattoos to move and grove to the beat, this is always done in place. With this enhancement, the tattoo can move to another part of your body for 1 minute, on your mental command. At the end of 1 minute, the tattoo will remain there for 1 hour before it can move again. At the end of a {@variantrule Long Rest|XPHB}, the tattoo will be back at its original location."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -60871,13 +62010,44 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: Necessary.}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "SOS Signaling",
 					"entries": [
 						"On your mental command, this tattoo will flash its glow in a coded pattern signalling for SOS {@i ie. morse code}. While the tattoo does not need to be visible for this effect to occur, no one will see it if it is covered."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"Necessary"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -62442,8 +63612,6 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Shape Water",
@@ -62472,6 +63640,39 @@
 								[
 									"{@item Elemental Ink, Ooze|AU|Ooze}",
 									"You can target a space in the ground that's solidified by a lot of smaller pieces (such as compacted sand, solid yet lose dirt and gravel, etc) with this spell and make it partially liquified for 1 hour (creating quicksand, deep mud puddle, etc)."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
 								]
 							]
 						}
@@ -62528,14 +63729,45 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: Yes}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Did you Really Use Magic?",
 					"entries": [
 						"When you use a spell or an effect that {@condition Charmed|XPHB|Charms} a target and that effect allows the target to know that they were being magically influenced onced the effect is over, you can choose to have the target repeat the previous {@variantrule Saving Throw|XPHB} related in order for the target to truly know if they were being magically influenced.",
 						"Once a target fails this second {@variantrule Saving Throw|XPHB}, you can't use this benefit again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"Yes"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -64693,13 +65925,44 @@
 					]
 				},
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Saving Throw Boon",
 					"entries": [
 						"You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against being transformed against your will, especially from Shapechangers. Additionally, if you fail, you can use your {@variantrule Reaction|XPHB} to automatically succeed, however you can only do so once per long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -65278,16 +66541,54 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Poison damage.",
-						"{@b Movement Related.} When you fall more than 10 feet, you are automatically under the effects of a {@spell Feather Fall|XPHB} spell.",
-						"{@b Difficult to Poison.} You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against being {@condition Poisoned|XPHB}.",
-						"{@b Sight through Obscurity.} You can see through a {@variantrule Lightly Obscured|XPHB} area as if it were clear and through a {@variantrule Heavily Obscured|XPHB} area as if it were {@variantrule Lightly Obscured|XPHB}.",
-						"{@b Bane.} The Sight Through Obscurity benefit only works in {@variantrule Bright Light|XPHB} areas, unless you have {@sense Darkvision|XPHB}."
+					"type": "entries",
+					"name": "Ash Benefits",
+					"entries": [
+						"While attuned to this tattoo, you gain the following benefits.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Poison damage.",
+								"{@b Movement Related.} When you fall more than 10 feet, you are automatically under the effects of a {@spell Feather Fall|XPHB} spell.",
+								"{@b Difficult to Poison.} You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against being {@condition Poisoned|XPHB}.",
+								"{@b Sight through Obscurity.} You can see through a {@variantrule Lightly Obscured|XPHB} area as if it were clear and through a {@variantrule Heavily Obscured|XPHB} area as if it were {@variantrule Lightly Obscured|XPHB}.",
+								"{@b Bane.} The Sight Through Obscurity benefit only works in {@variantrule Bright Light|XPHB} areas, unless you have {@sense Darkvision|XPHB}."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			],
@@ -71464,13 +72765,44 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: Necessary}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Party Lights",
 					"entries": [
 						"If you have multiple parts of your tattoo utilizing the {@item Glowing Ink|AU}, you can flash different parts of them to the pattern of the music you are listening to, providing a party-like strobe effect. While it does not have to be visible for this tattoo to do this, it's only fun if it is."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"Necessary"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -73315,15 +74647,53 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage.",
-						"{@b Movement Related.} You ignore nonmagical Difficult Terrain.",
-						"{@b Burrowing.} You gain a Burrow speed equal to your walking speed.",
-						"{@b Grounded.} You have {@variantrule Advantage|XPHB} on Saving Throws against being moved against your will or knocked {@condition Prone|XPHB}."
+					"type": "entries",
+					"name": "Earth Benefits",
+					"entries": [
+						"While attuned to this tattoo, you gain the following benefits.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage.",
+								"{@b Movement Related.} You ignore nonmagical Difficult Terrain.",
+								"{@b Burrowing.} You gain a Burrow speed equal to your walking speed.",
+								"{@b Grounded.} You have {@variantrule Advantage|XPHB} on Saving Throws against being moved against your will or knocked {@condition Prone|XPHB}."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -78680,16 +80050,54 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Bludgeoning and Fire damage.",
-						"{@b Movement Related.} You ignore Difficult Terrain.",
-						"{@b Lava Walk.} You can walk on the surface of molten rock as if it were solid.",
-						"{@b Hot Hazards.} You ignore heat-related hazards.",
-						"{@b Bane.} Your movement speed is reduced by 5 feet, cannot gain any temporary increases to your movement speed through magical effects, nor can you benefit from any effect that grants the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+					"type": "entries",
+					"name": "Magma Benefits",
+					"entries": [
+						"While attuned to this tattoo, you gain the following benefits.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Bludgeoning and Fire damage.",
+								"{@b Movement Related.} You ignore Difficult Terrain.",
+								"{@b Lava Walk.} You can walk on the surface of molten rock as if it were solid.",
+								"{@b Hot Hazards.} You ignore heat-related hazards.",
+								"{@b Bane.} Your movement speed is reduced by 5 feet, cannot gain any temporary increases to your movement speed through magical effects, nor can you benefit from any effect that grants the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -81121,13 +82529,11 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
 				{
 					"type": "entries",
-					"name": "Regardless of Attunement",
+					"name": "Damage Resistance or Movement Boost",
 					"entries": [
-						"You choose between one of the following benefits listed below:",
+						"{@b Without attunement to this tattoo,} you choose between one of the following benefits listed below:",
 						{
 							"type": "list",
 							"style": "list-decimal",
@@ -81135,7 +82541,8 @@
 								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Thunder damage.",
 								"{@b Movement Related.} You gain a Swim Speed equal to you walking speed."
 							]
-						}
+						},
+						"{@b If you attune to this tattoo,} you gain both benefits listed above."
 					]
 				},
 				{
@@ -81143,6 +82550,39 @@
 					"name": "If You Attune",
 					"entries": [
 						"You gain both benefits listed above when you Attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			]
@@ -81736,31 +83176,53 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"This tattoo grants a boost regardless of your attunement to it, however you get more when you do.",
 				{
 					"type": "entries",
-					"name": "Regardless of Attunement",
+					"name": "Water Benefits",
 					"entries": [
-						"You choose between one of the following benefits listed below:",
+						"While attuned to this tattoo, you gain the following benefits.",
 						{
 							"type": "list",
-							"style": "list-decimal",
 							"items": [
 								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Thunder damage.",
-								"{@b Movement Related.} You gain a Swim Speed equal to you walking speed."
+								"{@b Movement Related.} You gain a Swim Speed equal to 40 feet.",
+								"{@b Amphibious.} You can breathe underwater.",
+								"{@b Water Walk.} You can cast {@spell Water Walk|XPHB} on yourself at-will."
 							]
 						}
 					]
 				},
-				"While attuned to this tattoo, you gain the following benefits.",
 				{
-					"type": "list",
-					"items": [
-						"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Thunder damage.",
-						"{@b Movement Related.} You gain a Swim Speed equal to 40 feet.",
-						"{@b Amphibious.} You can breathe underwater.",
-						"{@b Water Walk.} You can cast {@spell Water Walk|XPHB} on yourself at-will."
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
 					]
 				}
 			],
@@ -81876,13 +83338,44 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: Yes}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Cast Message",
 					"entries": [
 						"You know the {@spell Message|XPHB} cantrip, however when you cast it at a target within range, the only message you can send is a whistle. Additionally, the tattoo itself must be visible and in the direction of the target, even if the target of your spell cannot see the tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"Yes"
+								]
+							]
+						}
 					]
 				}
 			],
@@ -82440,8 +83933,6 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
-				"You gain the following benefits.",
 				{
 					"type": "entries",
 					"name": "Gust",
@@ -82470,6 +83961,39 @@
 								[
 									"{@item Elemental Ink, Ice|AU|Ice}",
 									"When you cast this spell, you can drop the temperate of the air down that it causes liquids to begin freezing when hit by this gust of wind."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats PENDING",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
+								],
+								[
+									"Visibility Required",
+									"No"
 								]
 							]
 						}
@@ -84016,6 +85540,41 @@
 			"type": "GV|XDMG",
 			"rarity": "varies",
 			"tattoo": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: Chest, Chest and Stomach, Back, or Both Upperarms plus Shoulders"
+								],
+								[
+									"Minimal Size Required",
+									"Medium"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			],
 			"items": [
 				"Lightly Armored Tattoo|AU",
 				"Moderately Armored Tattoo|AU",
@@ -86646,6 +88205,41 @@
 			"rarity": "varies",
 			"type": "GV|XDMG",
 			"tattoo": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Varies"
+								],
+								[
+									"Minimal Size Required",
+									"Large"
+								],
+								[
+									"Visibility Required",
+									"Varies"
+								]
+							]
+						}
+					]
+				}
+			],
 			"items": [
 				"Adamantined Tattoo|AU",
 				"Airy Tattoo|AU",
@@ -86759,6 +88353,41 @@
 			"rarity": "varies",
 			"type": "GV|XDMG",
 			"tattoo": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Varies"
+								],
+								[
+									"Minimal Size Required",
+									"Extra Large or Full Body Part"
+								],
+								[
+									"Visibility Required",
+									"Varies"
+								]
+							]
+						}
+					]
+				}
+			],
 			"items": [
 				"Avalanched Tattoo|AU",
 				"Galewinds Tattoo|AU",
@@ -86820,6 +88449,41 @@
 			"rarity": "varies",
 			"type": "GV|XDMG",
 			"tattoo": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Varies"
+								],
+								[
+									"Minimal Size Required",
+									"Tiny"
+								],
+								[
+									"Visibility Required",
+									"Varies"
+								]
+							]
+						}
+					]
+				}
+			],
 			"items": [
 				"Charming Tattoo|AU",
 				"Darkvision Tattoo|AU",
@@ -86843,6 +88507,41 @@
 			"rarity": "varies",
 			"type": "GV|XDMG",
 			"tattoo": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Varies"
+								],
+								[
+									"Minimal Size Required",
+									"Small"
+								],
+								[
+									"Visibility Required",
+									"Varies"
+								]
+							]
+						}
+					]
+				}
+			],
 			"items": [
 				"Adaman-Tot Tattoo|AU",
 				"Alter Self Tattoo|AU",
