@@ -8348,6 +8348,13 @@
 									"Optional"
 								],
 								[
+									"Lightly Armored Tattoo",
+									"Unarmored AC is 13 without Attunement or 12 plus your DEX Mod with Attunement, can use shield and keep benefit",
+									"{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
+									"No",
+									"Optional"
+								],
+								[
 									"{@item Mithra-Lite Tattoo|AU|Mithra-Lite}",
 									"Gain +1 Bonus on Dexterity ({@skill Acrobatics|XPHB}) checks and Dexterity {@variantrule Saving Throw|XPHB}, and you are two pounds lighter",
 									"{@item Metal-Lic Ink|AU}",
@@ -8439,6 +8446,13 @@
 									"{@item Elemental Ink, Air|AU}",
 									"No",
 									"Optional"
+								],
+								[
+									"Moderately Armored Tattoo",
+									"Unarmored AC is 15 plus your DEX Mod (max 2), can use shield and keep benefit",
+									"{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
+									"No",
+									"Yes"
 								],
 								[
 									"{@item Ashy Tattoo|AU|Ashy}",
@@ -8558,6 +8572,13 @@
 									"{@item Grime Tattoo|AU|Grime}",
 									"Resistant to Acid Damage, advantage on Saving Throws against Diseases, are always under the effects of {@spell Water Walk|XPHB} for any non-solid surface with exceptions, and you have advantage against being Restrained, however, you spend all of your movement speed getting up from prone.",
 									"Only {@item Elemental Ink, Ooze|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Water|AU|Water}",
+									"No",
+									"Yes"
+								],
+								[
+									"Heavily Armored Tattoo",
+									"Unarmored AC is 18, can use shield and keep benefit",
+									"{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
 									"No",
 									"Yes"
 								],
