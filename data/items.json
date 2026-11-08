@@ -6678,6 +6678,9 @@
 			"name": "Barrier Tattoo (Large)",
 			"source": "TCE",
 			"page": 122,
+			"reprintedAs": [
+				"Heavily Armored Tattoo|AU"
+			],
 			"rarity": "very rare",
 			"reqAttune": true,
 			"wondrous": true,
@@ -6705,6 +6708,9 @@
 			"name": "Barrier Tattoo (Medium)",
 			"source": "TCE",
 			"page": 122,
+			"reprintedAs": [
+				"Moderately Armored Tattoo|AU"
+			],
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
@@ -6732,6 +6738,9 @@
 			"name": "Barrier Tattoo (Small)",
 			"source": "TCE",
 			"page": 122,
+			"reprintedAs": [
+				"Lightly Armored Tattoo|AU"
+			],
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
