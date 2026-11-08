@@ -1923,6 +1923,7 @@
 			"detail1": "Moderately",
 			"detail2": "{@item Metal-Lic Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				{
@@ -1965,6 +1966,7 @@
 			"detail1": "Majorly",
 			"detail2": "{@item Metal-Lic Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				{
@@ -2196,6 +2198,7 @@
 				"lightning"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -2840,6 +2843,7 @@
 			"detail1": "Moderately",
 			"detail2": "{@item Prismatic Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -4601,6 +4605,7 @@
 				"poison"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -4823,6 +4828,7 @@
 				"fire"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -7784,6 +7790,7 @@
 			"detail1": "Moderately",
 			"detail2": "{@item Glowing Ink|AU} and {@item Stardust Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -13060,6 +13067,7 @@
 			"detail1": "Minimally",
 			"detail2": "{@item Prismatic Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -13221,6 +13229,7 @@
 			"detail1": "Moderately",
 			"detail2": "{@item Metal-Lic Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				{
@@ -14506,6 +14515,7 @@
 			"detail1": "Majorly",
 			"detail2": "{@item Metal-Lic Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"recharge": "restLong",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -14788,6 +14798,7 @@
 			"detail1": "Moderately",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Fire|AU|Fire}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Magma|AU|Magma}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -17088,6 +17099,7 @@
 			"detail1": "Minimally",
 			"detail2": "{@item Stardust Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -23783,6 +23795,7 @@
 				"bludgeoning"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -24185,6 +24198,7 @@
 			"detail1": "Minimally",
 			"detail2": "any one of the {@item Elemental Inks|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -27691,6 +27705,7 @@
 				"fire"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -28628,6 +28643,7 @@
 			"detail1": "Minimally",
 			"detail2": "{@item Glowing Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"recharge": "restLong",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -29422,6 +29438,7 @@
 				"lightning"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -30987,6 +31004,7 @@
 			"detail1": "Moderately",
 			"detail2": "{@item Stardust Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -31371,6 +31389,7 @@
 				"acid"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -32326,6 +32345,7 @@
 			"detail1": "Minimally",
 			"detail2": "{@item Dancing Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -33111,6 +33131,7 @@
 		{
 			"name": "Heavily Armored Tattoo",
 			"group": [
+				"Armored Tattoos",
 				"Massively Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -33121,6 +33142,7 @@
 			"detail2": "{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
 			"ac": 18,
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -35838,6 +35860,7 @@
 				"cold"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -36276,6 +36299,7 @@
 				"fire"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -37227,6 +37251,7 @@
 			"detail1": "Minimally",
 			"detail2": "{@item Stardust Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -40807,6 +40832,7 @@
 		{
 			"name": "Lightly Armored Tattoo",
 			"group": [
+				"Armored Tattoos",
 				"Moderately Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -40817,6 +40843,7 @@
 			"detail2": "{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
 			"ac": 13,
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -42629,6 +42656,7 @@
 			"detail1": "Minimally",
 			"detail2": "{@item Prismatic Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -44389,6 +44417,7 @@
 			"detail1": "Moderately",
 			"detail2": "{@item Metal-Lic Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				{
@@ -44422,6 +44451,7 @@
 			"detail1": "Majorly",
 			"detail2": "{@item Metal-Lic Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				{
@@ -44682,6 +44712,7 @@
 		{
 			"name": "Moderately Armored Tattoo",
 			"group": [
+				"Armored Tattoos",
 				"Majorly Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -44693,6 +44724,7 @@
 			"ac": 15,
 			"dexterityMax": 2,
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -44718,6 +44750,7 @@
 			"detail1": "Moderately",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Earth|AU|Earth}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Ooze|AU|Ooze}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -44778,6 +44811,7 @@
 				"fire"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -46350,6 +46384,7 @@
 			"detail1": "Minimally",
 			"detail2": "{@item Stardust Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -47266,6 +47301,7 @@
 				"acid"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -48717,6 +48753,7 @@
 			"detail1": "Moderately",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Ash|AU|Ash}, {@item Elemental Ink, Ice|AU|Ice}, {@item Elemental Ink, Magma|AU|Magma}, or {@item Elemental Ink, Ooze|AU|Ooze}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -54882,6 +54919,7 @@
 			"detail1": "Moderately",
 			"detail2": "{@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and {@item Stardust Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -54914,6 +54952,7 @@
 			"detail1": "Moderately",
 			"detail2": "{@item Metal-Lic Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				{
@@ -54952,6 +54991,7 @@
 			"detail1": "Minimally",
 			"detail2": "{@item Dancing Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -60827,6 +60867,7 @@
 			"detail1": "Minimally",
 			"detail2": "{@item Glowing Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -62397,6 +62438,7 @@
 			"detail1": "Moderately",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Water|AU|Water}, {@item Elemental Ink, Ice|AU|Ice}, or {@item Elemental Ink, Ooze|AU|Ooze}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -62482,6 +62524,7 @@
 			"detail1": "Minimally",
 			"detail2": "{@item Prismatic Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -64635,6 +64678,7 @@
 			"detail1": "Majorly",
 			"detail2": "{@item Metal-Lic Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"recharge": "restLong",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -65230,6 +65274,7 @@
 				"poison"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -71407,7 +71452,7 @@
 		{
 			"name": "Strobe Tattoo",
 			"group": [
-				" Enhanced Tattoo"
+				"Minimally Enhanced Tattoo"
 			],
 			"source": "AU",
 			"page": 157,
@@ -71415,6 +71460,7 @@
 			"detail1": "Minimally",
 			"detail2": "{@item Glowing Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -73265,6 +73311,7 @@
 				"slashing"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -78629,6 +78676,7 @@
 				"fire"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -81069,6 +81117,7 @@
 				"thunder"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -81683,6 +81732,7 @@
 				"thunder"
 			],
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -81822,6 +81872,7 @@
 			"detail1": "Minimally",
 			"detail2": "{@item Dancing Ink|AU}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
@@ -82385,6 +82436,7 @@
 			"detail1": "Moderately",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Ice|AU|Ice}",
 			"tattoo": true,
+			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enhanced Tattoo|AU}",
