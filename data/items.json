@@ -33100,6 +33100,33 @@
 			]
 		},
 		{
+			"name": "Heavily Armored Tattoo",
+			"group": [
+				"Massively Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"detail1": "Massively",
+			"detail2": "{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
+			"ac": 18,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Unarmored Protection",
+					"entries": [
+						"When you are not wearing any armor, your {@variantrule Armor Class|XPHB} is 18. You can use a {@item Shield|XPHB} and still maintain this benefit."
+					]
+				}
+			]
+		},
+		{
 			"name": "Heliacal Wand of Celestial Prowess",
 			"source": "AU",
 			"page": 133,
@@ -40769,6 +40796,49 @@
 			]
 		},
 		{
+			"name": "Lightly Armored Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Moderately",
+			"detail2": "{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
+			"ac": 13,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Unarmored Protection",
+					"entries": [
+						"Your {@variantrule Armor Class|XPHB} while not wearing armor in increased, however the amount is dependent on whether or not you are attuned to this tattoo. The benefit lasts even with the use of a shield.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Not Attuned AC",
+									"entry": "Without Attunement, your unarmored AC is a flat 13."
+								},
+								{
+									"type": "item",
+									"name": "Attuned AC",
+									"entry": "With Attunement, your unarmored AC is 12 plus your Dexterity Modifier."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Lightning Absorbing Tattoo",
 			"source": "TCE",
 			"page": 119,
@@ -44596,6 +44666,34 @@
 					"name": "Mizzium Bombard",
 					"entries": [
 						"You can expend 3 charges as an action to launch a hail of molten projectiles in a 20-foot-radius, 40-foot-high cylinder centered on a point you can see within 60 feet of you. Each creature in the area must make a {@dc 15} Dexterity saving throw. A creature takes {@damage 5d8} fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			]
+		},
+		{
+			"name": "Moderately Armored Tattoo",
+			"group": [
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": true,
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
+			"ac": 15,
+			"dexterityMax": 2,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				"{@i Required Visibility: No}",
+				"While attuned to this tattoo, you gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Unarmored Protection",
+					"entries": [
+						"Your {@variantrule Armor Class|XPHB} without wearing any armor is 15 plus your Dexterity Modifier (max 2). You can use a shield and stil maintain this benefit."
 					]
 				}
 			]
@@ -83851,6 +83949,19 @@
 			]
 		},
 		{
+			"name": "Armored Tattoos",
+			"source": "AU",
+			"page": 156,
+			"type": "GV|XDMG",
+			"rarity": "varies",
+			"tattoo": true,
+			"items": [
+				"Lightly Armored Tattoo|AU",
+				"Moderately Armored Tattoo|AU",
+				"Heavily Armored Tattoo|AU"
+			]
+		},
+		{
 			"name": "Artisan's Tools",
 			"source": "PHB",
 			"page": 154,
@@ -86483,6 +86594,7 @@
 				"Fiery Tattoo|AU",
 				"Icey Tattoo|AU",
 				"Mithralled Tattoo|AU",
+				"Moderately Armored Tattoo|AU",
 				"Molten Tattoo|AU",
 				"Oozy Tattoo|AU",
 				"Silvered Tattoo|AU",
@@ -86590,6 +86702,7 @@
 				"Avalanched Tattoo|AU",
 				"Galewinds Tattoo|AU",
 				"Grime Tattoo|AU",
+				"Heavily Armored Tattoo|AU",
 				"Inferno Tattoo|AU",
 				"Smog Tattoo|AU",
 				"Techtonic Tattoo|AU",
@@ -86676,6 +86789,7 @@
 				"Chilly Ironed Tattoo|AU",
 				"Control Heat Tattoo|AU",
 				"Goodnight Tattoo|AU",
+				"Lightly Armored Tattoo|AU",
 				"Mithra-Lite Tattoo|AU",
 				"Mold Land Tattoo|AU",
 				"Para-Elementalism Tattoo|AU",
