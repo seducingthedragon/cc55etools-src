@@ -8240,6 +8240,12 @@
 									"Necessary"
 								],
 								[
+									"{@item Masquerade Tattoo|AU|Masquerade Icon}",
+									"Cast {@spell Disguise Self|XPHB} at will, targetting only the tattoo",
+									"{@item Dancing Ink|AU} and {@item Prismatic Ink|AU}",
+									"Necessary"
+								],
+								[
 									"{@item Night Sky Reflection Tattoo|AU|Night Sky Reflection}",
 									"While not underground, glittering pattern will match the present stars in the night sky",
 									"{@item Stardust Ink|AU}",

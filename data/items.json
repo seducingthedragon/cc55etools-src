@@ -44192,8 +44192,73 @@
 		},
 		{
 			"name": "Masquerade Tattoo",
+			"group": [
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "common",
+			"detail1": "Minimally",
+			"detail2": "{@item Dancing Ink|AU} and {@item Prismatic Ink|AU}",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Disguise Self",
+					"entries": [
+						"You can cast {@spell Disguise Self|XPHB} at will, however, you can only target and disguise your tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"No, however it's a common face tattoo"
+								],
+								[
+									"Minimal Size Required",
+									"Purpose Dependent"
+								],
+								[
+									"Visibility Required",
+									"Necessary"
+								]
+							]
+						}
+					]
+				}
+			],
+			"attachedSpells": {
+				"will": [
+					"disguise self|xphb"
+				]
+			}
+		},
+		{
+			"name": "Masquerade Tattoo",
 			"source": "TCE",
 			"page": 131,
+			"reprintedAs": [
+				"Masquerade Tattoo|AU"
+			],
 			"rarity": "common",
 			"reqAttune": true,
 			"wondrous": true,
@@ -88671,6 +88736,7 @@
 				"Hands-Off Tattoo|AU",
 				"Intuitive Tattoo|AU",
 				"Manipulate Icon Tattoo|AU",
+				"Masquerade Tattoo|AU",
 				"Night Sky Reflection Tattoo|AU",
 				"Quick Visitation Tattoo|AU",
 				"Quill Tattoo|AU",
