@@ -30560,8 +30560,80 @@
 		},
 		{
 			"name": "Ghost Step Tattoo",
+			"group": [
+				"Massively Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"detail1": "Massively",
+			"detail2": "{@item Invisible Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 3,
+			"charges": 3,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Charges",
+					"entries": [
+						"This tattoo has 3 charges and regains all expended charges at dawn. As a {@action Magic|XPHB} action, you can expend 1 charge to become partially incorporal for 1 minute and gain the following benefits.",
+						{
+							"type": "list",
+							"items": [
+								"You have resistance to bludgeoning, piercing, and slashing damage. Additionally all other damage types are reduced by {@dice 1d6+1}.",
+								"You can't be {@condition grappled} or {@condition restrained}.",
+								"You can move through creatures and solid objects as if they were {@quickref difficult terrain||3}. If you end your turn in a solid object, you take {@damage 1d10} force damage. If the effect ends while you are inside a solid object, you instead are shunted to the nearest unoccupied space, and you take {@damage 1d10} force damage for every 5 feet traveled."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"No"
+								],
+								[
+									"Minimal Size Required",
+									"Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ghost Step Tattoo",
 			"source": "TCE",
 			"page": 128,
+			"reprintedAs": [
+				"Ghost Step Tattoo|AU"
+			],
 			"conditionImmune": [
 				"grappled",
 				"restrained"
@@ -41650,8 +41722,76 @@
 		},
 		{
 			"name": "Lifewell Tattoo",
+			"group": [
+				"Massively Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"detail1": "Massively",
+			"detail2": "{@item Dancing Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
+			"resist": [
+				"necrotic"
+			],
+			"recharge": "restShort",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Resistance and Returning",
+					"entries": [
+						"You have damage resistance to Necrotic damage.",
+						"Additionally, once per short or long rest, when you drop to 0 Hit Points and are not killed outright, you can use your reaction to have 1 hit point instead. If you do not have a reaction available to you, you instead gain Advantage on your following Death Saving Throw."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: Chest area"
+								],
+								[
+									"Minimal Size Required",
+									"Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lifewell Tattoo",
 			"source": "TCE",
 			"page": 129,
+			"reprintedAs": [
+				"Lifewell Tattoo|AU"
+			],
 			"resist": [
 				"necrotic"
 			],
@@ -88860,9 +89000,11 @@
 			"items": [
 				"Avalanched Tattoo|AU",
 				"Galewinds Tattoo|AU",
+				"Ghost Step Tattoo|AU",
 				"Grime Tattoo|AU",
 				"Heavily Armored Tattoo|AU",
 				"Inferno Tattoo|AU",
+				"Lifewell Tattoo|AU",
 				"Smog Tattoo|AU",
 				"Techtonic Tattoo|AU",
 				"Volcanic Tattoo|AU",

@@ -8654,6 +8654,13 @@
 									"Yes"
 								],
 								[
+									"{@item Ghost Step Tattoo|AU|Ghost Step}",
+									"3 Charges per Dawn to become incorporal for 1 minute with benefits",
+									"{@item Invisible Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
+									"No",
+									"Yes"
+								],
+								[
 									"{@item Grime Tattoo|AU|Grime}",
 									"Resistant to Acid Damage, advantage on Saving Throws against Diseases, are always under the effects of {@spell Water Walk|XPHB} for any non-solid surface with exceptions, and you have advantage against being Restrained, however, you spend all of your movement speed getting up from prone.",
 									"Only {@item Elemental Ink, Ooze|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Water|AU|Water}",
@@ -8671,6 +8678,13 @@
 									"{@item Inferno Tattoo|AU|Inferno}",
 									"Resistant to magical Fire damage, immune to nonmagical Fire, gain a bonus to your movement equal to 5 feet, and gain a climb speed equal to your movement speed.",
 									"{@item Elemental Ink, Fire|AU}",
+									"No",
+									"Yes"
+								],
+								[
+									"{@item Lifewell Tattoo|AU|Lifewell}",
+									"Necrotic Resistance and when drop to 0 HP without being outright dead, can React to drop to 1 HP instead, once per Short or Long Rest",
+									"{@item Dancing Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
 									"No",
 									"Yes"
 								],
