@@ -8692,6 +8692,13 @@
 									"Yes"
 								],
 								[
+									"{@item Blood Fury Tattoo|AU|Blood Fury}",
+									"10 Daily Charges for extra Necrotic Damage and Advantage on Melee Atks.",
+									"{@item Elemental Ink, Ash|AU}, {@item Elemental Ink, Ooze|AU}, {@item Metal-Lic Ink|AU}, and your choice between {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
+									"No",
+									"Yes"
+								],
+								[
 									"{@item Galewinds Tattoo|AU|Galewinds}",
 									"Resistant to Lightning Damage, gain Fly Speed of 60 feet, can hold your breath up to 1 hour without triggering any suffocation hazard as long as you are not surprised, and cast {@spell Levitate|XPHB} without concentration targeting objects 5 times, regaining all uses on a long rest.",
 									"{@item Elemental Ink, Air|AU}",

@@ -9153,8 +9153,79 @@
 		},
 		{
 			"name": "Blood Fury Tattoo",
+			"group": [
+				"Massively Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"detail1": "Massively",
+			"detail2": "{@item Elemental Ink, Ash|AU}, {@item Elemental Ink, Ooze|AU}, {@item Metal-Lic Ink|AU}, and your choice between {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
+			"wondrous": true,
+			"tattoo": true,
+			"recharge": "dawn",
+			"rechargeAmount": 10,
+			"charges": 10,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Bloodthirsty Strikes",
+					"entries": [
+						"The tattoo has 10 charges, and it regains all expended charges daily at dawn. While this tattoo is on your skin, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"{@i (1 Charge.)} When you hit a creature with a weapon attack, you can expend a charge to deal an extra {@damage 4d6} necrotic damage to the target, and you regain a number of hit points equal to the necrotic damage dealt.",
+								"{@i (1 Charge.)} When a creature you can see damages you, you can expend a charge and use your reaction to make a melee attack against that creature, with advantage on your attack roll."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Maybe"
+								],
+								[
+									"Minimal Size Required",
+									"Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Blood Fury Tattoo",
 			"source": "TCE",
 			"page": 122,
+			"reprintedAs": [
+				"Blood Fury Tattoo|AU"
+			],
 			"rarity": "legendary",
 			"reqAttune": true,
 			"wondrous": true,
@@ -89561,6 +89632,7 @@
 			],
 			"items": [
 				"Avalanched Tattoo|AU",
+				"Blood Fury Tattoo|AU",
 				"Galewinds Tattoo|AU",
 				"Ghost Step Tattoo|AU",
 				"Grime Tattoo|AU",
