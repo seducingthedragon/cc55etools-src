@@ -8123,6 +8123,51 @@
 										},
 										"Additionally, you cannot combine two Massive Enhancements with each other for one tattoo, and combining any one enhancement (major or lower) with a Massive Enhancement will always end up a Massively Enhanced Tattoo."
 									]
+								},
+								{
+									"type": "entries",
+									"name": "Tattoo Types",
+									"page": 156,
+									"id": "707",
+									"entries": [
+										"Aside from the tattoos being classified as how enhanced it is, there are other ways that tattoos are grouped. Based off of these groupings, the tattoos may have different guidelines or rules compared to other categories.",
+										{
+											"type": "table",
+											"caption": "Tattoo Groups",
+											"colLabels": [
+												"Group Name",
+												"Attunement Rules",
+												"Additional Guidelines"
+											],
+											"colStyles": [
+												"col-2",
+												"col-4",
+												"col-6"
+											],
+											"rows": [
+												[
+													"{@item Absorpting Tattoos|AU}",
+													"Resistance does not require Attunement, however extra benefit requires it",
+													"Cannot have more than 3 of these tattoos, regardless of attunement or not. Any Elemental Tattoo that is considered to be a Majorly Enhanced Tattoo with resistance counts towards these 3."
+												],
+												[
+													"{@item Class Tattoos|AU}",
+													"No Attunement if its your Class, Required if not your class",
+													"If you Multi-class, you only get 1 Class Tattoo without attunement, the next one will require attunement even if it is one of your classes."
+												],
+												[
+													"{@item Elemental Tattoos|AU}",
+													"Attunement based on Enhancement level",
+													"No more than 2 Majorly Enhanced Tattoos or 1 Massively Enhanced Tattoo"
+												],
+												[
+													"{@item Enspelled Tattoos|AU}",
+													"Not Required for 1 Free Casting per Dawn, with Attunement increases based on spell level, max 4 times per dawn",
+													"Regardless of attunement and regardless of level, cannot have more than 3"
+												]
+											]
+										}
+									]
 								}
 							]
 						},
@@ -8130,7 +8175,7 @@
 							"type": "entries",
 							"name": "How Many is Too Many?",
 							"page": 156,
-							"id": "707",
+							"id": "708",
 							"entries": [
 								"When it comes to the amount of tattoos a character can have, the answer varies due to a number of factors. The maximum number of tattoos is dependent on the character's size and the size of the tattoos as one has only so much surface area to decorate. With the removal of attunement from magical tattoos, that number does become a concern for DM's. While each world, character, storyteller, and timeline varies drastically, the DM has the final say, however, here are our recommended guidelines on the matter.",
 								{

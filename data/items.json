@@ -2243,6 +2243,7 @@
 		{
 			"name": "Airy Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Majorly Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -4714,6 +4715,7 @@
 		{
 			"name": "Ashy Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Majorly Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -4966,6 +4968,7 @@
 		{
 			"name": "Avalanche Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Massively Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -15109,6 +15112,7 @@
 		{
 			"name": "Control Heat Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Moderately Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -24164,6 +24168,7 @@
 		{
 			"name": "Earthy Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Majorly Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -24596,6 +24601,7 @@
 		{
 			"name": "Elemental Aura Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Minimally Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -28133,6 +28139,7 @@
 		{
 			"name": "Fiery Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Majorly Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -29922,6 +29929,7 @@
 		{
 			"name": "Galewinds Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Massively Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -31947,6 +31955,7 @@
 		{
 			"name": "Grime Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Massively Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -36571,6 +36580,7 @@
 		{
 			"name": "Icey Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Majorly Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -37030,6 +37040,7 @@
 		{
 			"name": "Inferno Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Massively Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -45779,6 +45790,7 @@
 		{
 			"name": "Mold Land Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Moderately Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -45867,6 +45879,7 @@
 		{
 			"name": "Molten Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Majorly Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -48413,6 +48426,7 @@
 		{
 			"name": "Oozy Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Majorly Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -49894,6 +49908,7 @@
 		{
 			"name": "Para-Elementalism Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Moderately Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -63844,6 +63859,7 @@
 		{
 			"name": "Sculpt Water Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Moderately Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -66769,6 +66785,7 @@
 		{
 			"name": "Smog Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Massively Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -74868,6 +74885,7 @@
 		{
 			"name": "Techtonic Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Massively Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -80272,6 +80290,7 @@
 		{
 			"name": "Volcanic Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Massively Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -82752,6 +82771,7 @@
 		{
 			"name": "Watery Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Majorly Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -83399,6 +83419,7 @@
 		{
 			"name": "Whirlpool Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Massively Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -84165,6 +84186,7 @@
 		{
 			"name": "Windy Tattoo",
 			"group": [
+				"Elemental Tattoos",
 				"Moderately Enhanced Tattoo"
 			],
 			"source": "AU",
@@ -85290,9 +85312,32 @@
 	],
 	"itemGroup": [
 		{
+			"name": "Absorbing Tattoos",
+			"source": "AU",
+			"page": 156,
+			"rarity": "varies",
+			"reqAttune": "optional",
+			"type": "GV|XDMG",
+			"tattoo": true,
+			"entries": [
+				"These tattoos provide you with a Damage Resistance based on its type, regardless of attunement status.",
+				{
+					"type": "entries",
+					"name": "Immunity Once per Dawn with Attunement",
+					"entries": [
+						"When you are Attuned to this tatto, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, and you regain a number of hit points equal to half the damage you would have taken. The {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain hit points from the triggering instance.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				}
+			]
+		},
+		{
 			"name": "Absorbing Tattoo",
 			"source": "TCE",
 			"page": 119,
+			"reprintedAs": [
+				"Absorbing Tattoos|AU"
+			],
 			"rarity": "very rare",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
@@ -86795,6 +86840,41 @@
 			]
 		},
 		{
+			"name": "Elemental Tattoos",
+			"source": "AU",
+			"page": 156,
+			"type": "GV|XDMG",
+			"rarity": "varies",
+			"tattoo": true,
+			"entries": [
+				"Elemental Tattoos are Enhanced Tattooes that use specific {@item Elemental Inks|AU} to gain effects and benefits relating to that element in question."
+			],
+			"items": [
+				"Elemental Aura Tattoo|AU",
+				"Control Heat Tattoo|AU",
+				"Mold Land Tattoo|AU",
+				"Para-Elementalism Tattoo|AU",
+				"Sculpt Water Tattoo|AU",
+				"Windy Tattoo|AU",
+				"Airy Tattoo|AU",
+				"Ashy Tattoo|AU",
+				"Earthy Tattoo|AU",
+				"Fiery Tattoo|AU",
+				"Icey Tattoo|AU",
+				"Molten Tattoo|AU",
+				"Oozy Tattoo|AU",
+				"Watery Tattoo|AU",
+				"Avalanche Tattoo|AU",
+				"Galewinds Tattoo|AU",
+				"Grime Tattoo|AU",
+				"Inferno Tattoo|AU",
+				"Smog Tattoo|AU",
+				"Techtonic Tattoo|AU",
+				"Volcanic Tattoo|AU",
+				"Whirlpool Tattoo|AU"
+			]
+		},
+		{
 			"name": "Enchanted Inks",
 			"group": [
 				"Tattoo Kit Upgrades"
@@ -86897,6 +86977,18 @@
 				"Relics - Rare|XDMG",
 				"Relics - Very Rare|XDMG",
 				"Relics - Legendary|XDMG"
+			]
+		},
+		{
+			"name": "Enspelled Tattoos",
+			"source": "AU",
+			"page": 156,
+			"rarity": "varies",
+			"type": "GV|XDMG",
+			"reqAttune": "varies",
+			"tattoo": true,
+			"entries": [
+				"These tattoos are tied to a specific spell based on level. Without attunement, you can cast the spell once per dawn. With Attunement, the frequency increases to a specified amount, related on the spells level, however no more than 4 times per dawn at max. Based on the spell's level, it'll have a set Spell Save DC and Spell Attack Bonus, that will default to your choosen ability if attuned."
 			]
 		},
 		{
@@ -90508,6 +90600,9 @@
 			"name": "Spellwrought Tattoo",
 			"source": "TCE",
 			"page": 135,
+			"reprintedAs": [
+				"Enspelled Tattoos|AU"
+			],
 			"rarity": "varies",
 			"wondrous": true,
 			"tattoo": true,
