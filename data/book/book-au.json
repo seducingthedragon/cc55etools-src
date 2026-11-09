@@ -8151,6 +8151,11 @@
 													"Cannot have more than 3 of these tattoos, regardless of attunement or not. Any Elemental Tattoo that is considered to be a Majorly Enhanced Tattoo with resistance counts towards these 3."
 												],
 												[
+													"{@item Branded Tattoos|AU}",
+													"No Attunement if obtain by someone from that plane, have your lineage to that plane, or while in that plane. Otherwise, it requires attunement.",
+													"Can only have 1 Branded Tattoo, regardless of attunement."
+												],
+												[
 													"{@item Class Tattoos|AU}",
 													"No Attunement if its your Class, Required if not your class",
 													"If you Multi-class, you only get 1 Class Tattoo without attunement, the next one will require attunement even if it is one of your classes."

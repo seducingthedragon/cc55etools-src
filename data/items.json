@@ -86491,6 +86491,18 @@
 			]
 		},
 		{
+			"name": "Branded Tattoos",
+			"source": "AU",
+			"page": 156,
+			"rarity": "varies",
+			"reqAttune": "optional",
+			"type": "GV|XDMG",
+			"tattoo": true,
+			"entries": [
+				"These tattoos provide you with benefits relating to the specific plane you are branded with."
+			]
+		},
+		{
 			"name": "Breastplate of the Tyrant",
 			"source": "AU",
 			"page": 132,
