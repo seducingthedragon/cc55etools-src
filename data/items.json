@@ -24560,6 +24560,9 @@
 			"name": "Eldritch Claw Tattoo",
 			"source": "TCE",
 			"page": 126,
+			"reprintedAs": [
+				"Magical Strike Tattoo|AU"
+			],
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
@@ -43409,6 +43412,74 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Magic Gem|AU}"
+			]
+		},
+		{
+			"name": "Magical Strike Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"reqAttune": "optional",
+			"detail1": "Moderately",
+			"detail2": "{@item Enchanted Ink|AU} and {@item Stardust Ink|AU}",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Magical Damage",
+					"entries": [
+						"Without attunement, your {@variantrule Unarmed Attack|XPHB|Unarmed Attacks} are considered magical for the purposes of overcoming resistances.",
+						"With Attunement, you can overcharge your attacks as a {@variantrule Bonus Action|XPHB} gaining the following effects for 1 minute.",
+						{
+							"type": "list",
+							"items": [
+								"Your Unarmed Strike deals Force damage instead of Bludgeoning",
+								"You gain an additional 5 feet to your reach",
+								"Your save DC for the Grapple and Shove effects increase by 1"
+							]
+						},
+						"Once you overcharge your attacks in this way, you can't do so again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: Fists, Hands, and/or Fingers"
+								],
+								[
+									"Minimal Size Required",
+									"Medium"
+								],
+								[
+									"Visibility Required",
+									"Yes"
+								]
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -88952,6 +89023,7 @@
 				"Goodnight Tattoo|AU",
 				"Hidden Quill Tattoo|AU",
 				"Lightly Armored Tattoo|AU",
+				"Magical Strike Tattoo|AU",
 				"Mithra-Lite Tattoo|AU",
 				"Mold Land Tattoo|AU",
 				"Para-Elementalism Tattoo|AU",

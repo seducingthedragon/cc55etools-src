@@ -8426,6 +8426,13 @@
 									"Optional"
 								],
 								[
+									"{@item Magical Strike Tattoo|AU|Magical Strike}",
+									"Unarmed Strike Attacks are considered magical for the purposes of overcoming Resistances, with bonus benefit if Attuned",
+									"{@item Enchanted Ink|AU} and {@item Stardust Ink|XPHB}",
+									"Yes",
+									"Optional"
+								],
+								[
 									"{@item Mithra-Lite Tattoo|AU|Mithra-Lite}",
 									"Gain +1 Bonus on Dexterity ({@skill Acrobatics|XPHB}) checks and Dexterity {@variantrule Saving Throw|XPHB}, and you are two pounds lighter",
 									"{@item Metal-Lic Ink|AU}",
