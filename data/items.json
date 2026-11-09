@@ -14685,9 +14685,71 @@
 			"value": 300
 		},
 		{
+			"name": "Coiled Tattoo",
+			"group": [
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"reqAttune": "optional",
+			"detail1": "Moderately",
+			"detail2": "{@item Dancing Ink|AU} and {@item Prismatic Ink|AU}",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Unarmed Attack",
+					"entries": [
+						"With this tattoo, regardless of attunement, you can use a {@action Magic|XPHB} action to cause the tattoo to extrude from you as an additional limb, to target a creature you can see within 15 feet of you with an {@action Attack|XPHB|Unarmed Strike Attack} using your Constitution as your attack and damage ability. On a hit, this attack deals {@damage 1d6} Bludgeoning damage and it is considered to be magical. You can make this attack once per dawn.",
+						"{@b With Attunement}, you can target a creature with any {@variantrule Unarmed Attack|XPHB|Unarmed Attack Effects}. If you target the creature with a {@action Grapple [Unarmed Attack]|XPHB|Grapple} or {@action Shove [Unarmed Attack]|XPHB|Shove} attack, the creature must succeed on a Strength saving throw ({@dc 8} plus your Constitution Modifier and Proficiency Bonus) or take {@damage 3d6} force damage and be {@condition Grappled|XPHB}, pushed 10 feet away, or knocked {@condition Prone|XPHB} by you, based on your related effect. With Attunement, you can attack with this tattooed limb once per short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium"
+								],
+								[
+									"Visibility Required",
+									"Yes"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Coiling Grasp Tattoo",
 			"source": "TCE",
 			"page": 123,
+			"reprintedAs": [
+				"Coiled Tattoo|AU"
+			],
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
@@ -88885,6 +88947,7 @@
 				"Alter Self Tattoo|AU",
 				"Big Flashlight Tattoo|AU",
 				"Chilly Ironed Tattoo|AU",
+				"Coiled Tattoo|AU",
 				"Control Heat Tattoo|AU",
 				"Goodnight Tattoo|AU",
 				"Hidden Quill Tattoo|AU",

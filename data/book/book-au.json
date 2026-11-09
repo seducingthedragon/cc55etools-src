@@ -8391,6 +8391,13 @@
 									"No"
 								],
 								[
+									"{@item Coiled Tattoo|AU|Coiled}",
+									"Becomes additional limb for an {@variantrule Unarmed Attack|XPHB} once per dawn or per rest, attunement dependent",
+									"{@item Dancing Ink|AU} and {@item Prismatic Ink|AU}",
+									"Yes",
+									"Optional"
+								],
+								[
 									"{@item Control Heat Tattoo|AU|Control Heat}",
 									"You know the {@spell Control Flames|XGE} Cantrip and gain additional usage based on what type of Elemental Ink used. Plus option for the ink's related Elemental Aura effect.",
 									"1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Fire|AU|Fire}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Magma|AU|Magma}",
