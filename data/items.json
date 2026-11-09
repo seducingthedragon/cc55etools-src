@@ -26216,6 +26216,528 @@
 			"spellScrollLevel": 8
 		},
 		{
+			"name": "Enspelled Tattoo (1st Level)",
+			"group": [
+				"Enspelled Tattoos",
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "common",
+			"reqAttune": "optional",
+			"detail1": "Minimally",
+			"detail2": "{@item Enchanted Ink|AU} and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"wondrous": true,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Cast a Spell",
+					"entries": [
+						"Regardless of attunement status, this tattoo allows you to cast one choosen spell of this level without requiring material components, once per dawn. The spell must be choosen prior to the tattooing process as its essense must be infused within the ink. Additionally, the choosen spell must meet the following restrictions:",
+						{
+							"type": "list",
+							"items": [
+								"Must have a Casting Time of Action, Bonus Action, or Reaction",
+								"Cannot require {@status Concentration|XPHB}",
+								"Cannot have a Duration of \"Until Dispelled\""
+							]
+						},
+						"The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Optional Attunement",
+					"entries": [
+						"If you choose to attune to this tattoo, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You can cast this spell without a spell slot or material components ___ times per dawn",
+								"If you have access to spell slots, you can use your own spell slots to cast this spell following standard spellcasting rules",
+								"If you choose a spell that does not follow any one of the above restrictions, you must attune to the tattoo"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Relates to Attached Spell, otherwise No"
+								],
+								[
+									"Minimal Size Required",
+									"Based on Spell Level"
+								],
+								[
+									"Visibility Required",
+									"Spell Dependent, otherwise No"
+								]
+							]
+						}
+					]
+				}
+			],
+			"spellScrollLevel": 1
+		},
+		{
+			"name": "Enspelled Tattoo (2nd Level)",
+			"group": [
+				"Enspelled Tattoos",
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"reqAttune": "optional",
+			"detail1": "Moderately",
+			"detail2": "{@item Enchanted Ink|AU} with {@item Prismatic Ink|AU} and/or {@item Stardust Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"wondrous": true,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Cast a Spell",
+					"entries": [
+						"Regardless of attunement status, this tattoo allows you to cast one choosen spell of this level without requiring material components, once per dawn. The spell must be choosen prior to the tattooing process as its essense must be infused within the ink. Additionally, the choosen spell must meet the following restrictions:",
+						{
+							"type": "list",
+							"items": [
+								"Must have a Casting Time of Action, Bonus Action, or Reaction",
+								"Cannot require {@status Concentration|XPHB}",
+								"Cannot have a Duration of \"Until Dispelled\""
+							]
+						},
+						"The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Optional Attunement",
+					"entries": [
+						"If you choose to attune to this tattoo, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You can cast this spell without a spell slot or material components 3 times per dawn",
+								"If you have access to spell slots, you can use your own spell slots to cast this spell following standard spellcasting rules",
+								"If you choose a spell that does not follow any one of the above restrictions, you must attune to the tattoo"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Relates to Attached Spell, otherwise No"
+								],
+								[
+									"Minimal Size Required",
+									"Based on Spell Level"
+								],
+								[
+									"Visibility Required",
+									"Spell Dependent, otherwise No"
+								]
+							]
+						}
+					]
+				}
+			],
+			"spellScrollLevel": 2
+		},
+		{
+			"name": "Enspelled Tattoo (3rd Level)",
+			"group": [
+				"Enspelled Tattoos",
+				"Moderately Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"reqAttune": "optional",
+			"detail1": "Moderately",
+			"detail2": "{@item Enchanted Ink|AU} with {@item Prismatic Ink|AU} and/or {@item Stardust Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"wondrous": true,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Cast a Spell",
+					"entries": [
+						"Regardless of attunement status, this tattoo allows you to cast one choosen spell of this level without requiring material components, once per dawn. The spell must be choosen prior to the tattooing process as its essense must be infused within the ink. Additionally, the choosen spell must meet the following restrictions:",
+						{
+							"type": "list",
+							"items": [
+								"Must have a Casting Time of Action, Bonus Action, or Reaction",
+								"Cannot require {@status Concentration|XPHB}",
+								"Cannot have a Duration of \"Until Dispelled\""
+							]
+						},
+						"The Ability modifier for this spell is +4; the Save DC is 15 and the attack bonus is +7."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Optional Attunement",
+					"entries": [
+						"If you choose to attune to this tattoo, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You can cast this spell without a spell slot or material components 3 times per dawn",
+								"If you have access to spell slots, you can use your own spell slots to cast this spell following standard spellcasting rules",
+								"If you choose a spell that does not follow any one of the above restrictions, you must attune to the tattoo"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Relates to Attached Spell, otherwise No"
+								],
+								[
+									"Minimal Size Required",
+									"Based on Spell Level"
+								],
+								[
+									"Visibility Required",
+									"Spell Dependent, otherwise No"
+								]
+							]
+						}
+					]
+				}
+			],
+			"spellScrollLevel": 3
+		},
+		{
+			"name": "Enspelled Tattoo (4th Level)",
+			"group": [
+				"Enspelled Tattoos",
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"wondrous": true,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Cast a Spell",
+					"entries": [
+						"Regardless of attunement status, this tattoo allows you to cast one choosen spell of this level without requiring material components, once per dawn. The spell must be choosen prior to the tattooing process as its essense must be infused within the ink. Additionally, the choosen spell must meet the following restrictions:",
+						{
+							"type": "list",
+							"items": [
+								"Must have a Casting Time of Action, Bonus Action, or Reaction",
+								"Cannot require {@status Concentration|XPHB}",
+								"Cannot have a Duration of \"Until Dispelled\""
+							]
+						},
+						"The Ability modifier for this spell is +4; the Save DC is 15 and the attack bonus is +7."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Optional Attunement",
+					"entries": [
+						"If you choose to attune to this tattoo, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You can cast this spell without a spell slot or material components twice per dawn",
+								"If you have access to spell slots, you can use your own spell slots to cast this spell following standard spellcasting rules",
+								"If you choose a spell that does not follow any one of the above restrictions, you must attune to the tattoo"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Relates to Attached Spell, otherwise No"
+								],
+								[
+									"Minimal Size Required",
+									"Based on Spell Level"
+								],
+								[
+									"Visibility Required",
+									"Spell Dependent, otherwise No"
+								]
+							]
+						}
+					]
+				}
+			],
+			"spellScrollLevel": 4
+		},
+		{
+			"name": "Enspelled Tattoo (5th Level)",
+			"group": [
+				"Enspelled Tattoos",
+				"Majorly Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"wondrous": true,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Cast a Spell",
+					"entries": [
+						"Regardless of attunement status, this tattoo allows you to cast one choosen spell of this level without requiring material components, once per dawn. The spell must be choosen prior to the tattooing process as its essense must be infused within the ink. Additionally, the choosen spell must meet the following restrictions:",
+						{
+							"type": "list",
+							"items": [
+								"Must have a Casting Time of Action, Bonus Action, or Reaction",
+								"Cannot require {@status Concentration|XPHB}",
+								"Cannot have a Duration of \"Until Dispelled\""
+							]
+						},
+						"The Ability modifier for this spell is +5; the Save DC is 17 and the attack bonus is +9."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Optional Attunement",
+					"entries": [
+						"If you choose to attune to this tattoo, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You can cast this spell without a spell slot or material components twice per dawn",
+								"If you have access to spell slots, you can use your own spell slots to cast this spell following standard spellcasting rules",
+								"If you choose a spell that does not follow any one of the above restrictions, you must attune to the tattoo"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Relates to Attached Spell, otherwise No"
+								],
+								[
+									"Minimal Size Required",
+									"Based on Spell Level"
+								],
+								[
+									"Visibility Required",
+									"Spell Dependent, otherwise No"
+								]
+							]
+						}
+					]
+				}
+			],
+			"spellScrollLevel": 5
+		},
+		{
+			"name": "Enspelled Tattoo (Cantrip)",
+			"group": [
+				"Enspelled Tattoos",
+				"Minimally Enhanced Tattoo"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "common",
+			"reqAttune": "optional",
+			"detail1": "Minimally",
+			"detail2": "{@item Enchanted Ink|AU} and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"wondrous": true,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Cast a Spell",
+					"entries": [
+						"Regardless of attunement status, this tattoo allows you to cast one choosen cantrip without requiring material components, once per dawn. The spell must be choosen prior to the tattooing process as its essense must be infused within the ink. Additionally, the choosen spell must meet the following restrictions:",
+						{
+							"type": "list",
+							"items": [
+								"Must have a Casting Time of Action, Bonus Action, or Reaction",
+								"Cannot require {@status Concentration|XPHB}",
+								"Cannot have a Duration of \"Until Dispelled\""
+							]
+						},
+						"The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Optional Attunement",
+					"entries": [
+						"If you choose to attune to this tattoo, you gain the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You can cast this cantrip at will, however, if it has Material Components, you can only cast without those components once per dawn.",
+								"If you have access to spell slots, you can use your own spell slots to cast this spell following standard spellcasting rules",
+								"If you choose a spell that does not follow any one of the above restrictions, you must attune to the tattoo"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Relates to Attached Spell, otherwise No"
+								],
+								[
+									"Minimal Size Required",
+									"Based on Spell Level"
+								],
+								[
+									"Visibility Required",
+									"Spell Dependent, otherwise No"
+								]
+							]
+						}
+					]
+				}
+			],
+			"spellScrollLevel": 0
+		},
+		{
 			"name": "Entertainer's Pack",
 			"source": "PHB",
 			"page": 151,
@@ -68876,6 +69398,9 @@
 			"name": "Spellwrought Tattoo (1st Level)",
 			"source": "TCE",
 			"page": 135,
+			"reprintedAs": [
+                "Enspelled Tattoo (1st Level)|AU"
+			],
 			"rarity": "common",
 			"wondrous": true,
 			"tattoo": true,
@@ -68891,6 +69416,9 @@
 			"name": "Spellwrought Tattoo (2nd Level)",
 			"source": "TCE",
 			"page": 135,
+			"reprintedAs": [
+                "Enspelled Tattoo (2nd Level)|AU"
+			],
 			"rarity": "uncommon",
 			"wondrous": true,
 			"tattoo": true,
@@ -68906,6 +69434,9 @@
 			"name": "Spellwrought Tattoo (3rd Level)",
 			"source": "TCE",
 			"page": 135,
+			"reprintedAs": [
+                "Enspelled Tattoo (3rd Level)|AU"
+			],
 			"rarity": "uncommon",
 			"wondrous": true,
 			"tattoo": true,
@@ -68921,6 +69452,9 @@
 			"name": "Spellwrought Tattoo (4th Level)",
 			"source": "TCE",
 			"page": 135,
+			"reprintedAs": [
+                "Enspelled Tattoo (4th Level)|AU"
+			],
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
@@ -68936,6 +69470,9 @@
 			"name": "Spellwrought Tattoo (5th Level)",
 			"source": "TCE",
 			"page": 135,
+			"reprintedAs": [
+                "Enspelled Tattoo (5th Level)|AU"
+			],
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
@@ -68951,6 +69488,9 @@
 			"name": "Spellwrought Tattoo (Cantrip)",
 			"source": "TCE",
 			"page": 135,
+			"reprintedAs": [
+                "Enspelled Tattoo (Cantrip)|AU"
+			],
 			"rarity": "common",
 			"wondrous": true,
 			"tattoo": true,
@@ -87274,6 +87814,14 @@
 			"tattoo": true,
 			"entries": [
 				"These tattoos are tied to a specific spell based on level. Without attunement, you can cast the spell once per dawn. With Attunement, the frequency increases to a specified amount, related on the spells level, however no more than 4 times per dawn at max. Based on the spell's level, it'll have a set Spell Save DC and Spell Attack Bonus, that will default to your choosen ability if attuned."
+			],
+			"items": [
+				"Enspelled Tattoo (Cantrip)|AU",
+				"Enspelled Tattoo (1st Level)|AU",
+				"Enspelled Tattoo (2nd Level)|AU",
+				"Enspelled Tattoo (3rd Level)|AU",
+				"Enspelled Tattoo (4th Level)|AU",
+				"Enspelled Tattoo (5th Level)|AU"
 			]
 		},
 		{
@@ -88867,6 +89415,8 @@
 				"Ashy Tattoo|AU",
 				"Cold Ironed Tattoo|AU",
 				"Earthy Tattoo|AU",
+				"Enspelled Tattoo (4th Level)|AU",
+				"Enspelled Tattoo (5th Level)|AU",
 				"Fiery Tattoo|AU",
 				"Icey Tattoo|AU",
 				"Mithralled Tattoo|AU",
@@ -89111,6 +89661,8 @@
 				"Charming Tattoo|AU",
 				"Darkvision Tattoo|AU",
 				"Elemental Aura Tattoo|AU",
+				"Enspelled Tattoo (1st Level)|AU",
+				"Enspelled Tattoo (Cantrip)|AU",
 				"Flashlight Tattoo|AU",
 				"Hands-Off Tattoo|AU",
 				"Intuitive Tattoo|AU",
@@ -89174,6 +89726,8 @@
 				"Chilly Ironed Tattoo|AU",
 				"Coiled Tattoo|AU",
 				"Control Heat Tattoo|AU",
+				"Enspelled Tattoo (2nd Level)|AU",
+				"Enspelled Tattoo (3rd Level)|AU",
 				"Goodnight Tattoo|AU",
 				"Hidden Quill Tattoo|AU",
 				"Lightly Armored Tattoo|AU",

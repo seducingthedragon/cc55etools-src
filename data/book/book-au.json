@@ -8266,6 +8266,18 @@
 									"No"
 								],
 								[
+									"{@item Enspelled Tattoo (1st Level)|AU|Enspelled (1st Level)}",
+									"Cast its spell with no material components once per day, bonus benefits if attuned (optional)",
+									"{@item Enchanted Ink|AU} and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
+									"Dependent"
+								],
+								[
+									"{@item Enspelled Tattoo (Cantrip)|AU|Enspelled (Cantrip)}",
+									"Cast its spell with no material components once per day, bonus benefits if attuned (optional)",
+									"{@item Enchanted Ink|AU} and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
+									"Dependent"
+								],
+								[
 									"{@item Flashlight Tattoo|AU|Flashlight}",
 									"Cast {@spell Light} once per {@variantrule Long Rest|XPHB} in a 30-foot {@variantrule Bright Light|XPHB} {@variantrule Cone [Area of Effect]|XPHB|Cone}",
 									"{@item Glowing Ink|AU}",
@@ -8400,6 +8412,20 @@
 									"Becomes additional limb for an {@variantrule Unarmed Attack|XPHB} once per dawn or per rest, attunement dependent",
 									"{@item Dancing Ink|AU} and {@item Prismatic Ink|AU}",
 									"Yes",
+									"Optional"
+								],
+								[
+									"{@item Enspelled Tattoo (2nd Level)|AU|Enspelled (2nd Level)}",
+									"Cast its spell with no material components once per day, bonus benefits if attuned",
+									"{@item Enchanted Ink|AU} with {@item Prismatic Ink|AU} and/or {@item Stardust Ink|AU}",
+									"Dependent",
+									"Optional"
+								],
+								[
+									"{@item Enspelled Tattoo (3rd Level)|AU|Enspelled (3rd Level)}",
+									"Cast its spell with no material components once per day, bonus benefits if attuned",
+									"{@item Enchanted Ink|AU} with {@item Prismatic Ink|AU} and/or {@item Stardust Ink|AU}",
+									"Dependent",
 									"Optional"
 								],
 								[
@@ -8563,6 +8589,20 @@
 									"Without Attunement, you choose between a related damage resistance (bludgeoning) or a movement speed benefit (ignoring nonmagical difficult terrain). With Attunement, you gain both.",
 									"{@item Elemental Ink, Earth|AU}",
 									"No",
+									"Optional"
+								],
+								[
+									"{@item Enspelled Tattoo (4th Level)|AU|Enspelled (4th Level)}",
+									"Cast its spell with no material components once per day, bonus benefits if attuned",
+									"{@item Enchanted Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
+									"Dependent",
+									"Optional"
+								],
+								[
+									"{@item Enspelled Tattoo (5th Level)|AU|Enspelled (5th Level)}",
+									"Cast its spell with no material components once per day, bonus benefits if attuned",
+									"{@item Enchanted Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
+									"Dependent",
 									"Optional"
 								],
 								[
