@@ -8401,9 +8401,9 @@
 									"Dependent"
 								],
 								[
-									"Bludgeoned Absorbing Tattoo",
+									"{@item Bludgeoned Absorbing Tattoo|AU|Bludgeoned Absorbing}",
 									"Bludgeoning Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"{@item Enchanted Ink|AU|Brown Enchanted Ink} plus {@item Elemental Ink, Earth|AU} and {@item Metal-Lic Ink|AU|Bronze Metal-Lic Ink}",
 									"No",
 									"Optional"
 								],
@@ -8492,9 +8492,9 @@
 									"No"
 								],
 								[
-									"Pierced Absorbing Tattoo",
+									"{@item Pierced Absorbing Tattoo|AU|Pierced Absorbing}",
 									"Piercing Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"{@item Enchanted Ink|AU|Dark Gray Enchanted Ink} plus {@item Metal-Lic Ink|AU|Brass Metal-Lic Ink} and {@item Stardust Ink|AU}",
 									"No",
 									"Optional"
 								],
@@ -8527,9 +8527,9 @@
 									"No"
 								],
 								[
-									"Slashed Absorbing Tattoo",
+									"{@item Slashed Absorbing Tattoo|AU|Slashed Absorbing}",
 									"Slashing Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"{@item Enchanted Ink|AU|Light Gray Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Metal-Lic Ink|AU|Silver Metal-Lic Ink}",
 									"No",
 									"Optional"
 								],
@@ -8571,9 +8571,9 @@
 							],
 							"rows": [
 								[
-									"Acid Absorbing Tattoo",
+									"{@item Acid Absorbing Tattoo|AU|Acid Absorbing}",
 									"Acid Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"{@item Enchanted Ink|AU|Lime Enchanted Ink} plus {@item Elemental Ink, Ooze|AU} and {@item Glowing Ink|AU}",
 									"No",
 									"Optional"
 								],
@@ -8606,9 +8606,9 @@
 									"Optional"
 								],
 								[
-									"Cold Absorbing Tattoo",
+									"{@item Cold Absorbing Tattoo|AU|Cold Absorbing}",
 									"Cold Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"{@item Enchanted Ink|AU|Cyan Enchanted Ink} plus {@item Elemental Ink, Ice|AU} and {@item Stardust Ink|AU}",
 									"No",
 									"Optional"
 								],
@@ -8648,9 +8648,9 @@
 									"Optional"
 								],
 								[
-									"Fire Absorbing Tattoo",
+									"{@item Fire Absorbing Tattoo|AU|Fire Absorbing}",
 									"Fire Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"{@item Enchanted Ink|AU|Red Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Elemental Ink, Fire|AU}",
 									"No",
 									"Optional"
 								],
@@ -8662,9 +8662,9 @@
 									"Optional"
 								],
 								[
-									"Lightning Absorbing Tattoo",
+									"{@item Lightning Absorbing Tattoo|AU|Lightning Absorbing}",
 									"Lightning Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"{@item Enchanted Ink|AU|Yellow Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Stardust Ink|AU}",
 									"No",
 									"Optional"
 								],
@@ -8683,9 +8683,9 @@
 									"Optional"
 								],
 								[
-									"Necrotic Absorbing Tattoo",
+									"{@item Necrotic Absorbing Tattoo|AU|Necrotic Absorbing}",
 									"Necrotic Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"{@item Enchanted Ink|AU|Black Enchanted Ink} plus {@item Elemental Inks|AU} {@item Elemental Ink, Ash|AU|Ash} and {@item Elemental Ink, Ooze|AU|Ooze}, and {@item Metal-Lic Ink|AU}",
 									"No",
 									"Yes"
 								],
@@ -8697,23 +8697,23 @@
 									"Optional"
 								],
 								[
-									"Poison Absorbing Tattoo",
+									"{@item Poison Absorbing Tattoo|AU|Poison Absorbing}",
 									"Poison Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"{@item Enchanted Ink|AU|Olive Enchanted Ink} plus {@item Elemental Ink, Ash|AU} and {@item Glowing Ink|AU}",
 									"No",
 									"Optional"
 								],
 								[
-									"Psychic Absorbing Tattoo",
+									"{@item Psychic Absorbing Tattoo|AU|Psychic Absorbing}",
 									"Psychic Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"{@item Enchanted Ink|AU|Pink Enchanted Ink} plus {@item Dancing Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
 									"No",
 									"Yes"
 								],
 								[
-									"Radiant Absorbing Tattoo",
+									"{@item Radiant Absorbing Tattoo|AU|Radiant Absorbing}",
 									"Radiant Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"{@item Enchanted Ink|AU|White Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Metal-Lic Ink|AU|Gold Metal-Lic Ink}, and {@item Stardust Ink|AU}",
 									"No",
 									"Yes"
 								],
@@ -8725,9 +8725,9 @@
 									"Yes"
 								],
 								[
-									"Thunder Absorbing Tattoo",
+									"{@item Thunder Absorbing Tattoo|AU|Thunder Absorbing}",
 									"Thunder Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"{@item Enchanted Ink|AU|Indigo Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Prismatic Ink|AU}",
 									"No",
 									"Optional"
 								],
@@ -8783,9 +8783,9 @@
 									"Yes"
 								],
 								[
-									"Force Absorbing Tattoo",
+									"{@item Force Absorbing Tattoo|AU|Force Absorbing}",
 									"Force Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"{@item Enchanted Ink|AU|Magenta Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Invisible Ink|AU}, and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
 									"No",
 									"Yes"
 								],

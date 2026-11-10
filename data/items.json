@@ -1894,8 +1894,93 @@
 		},
 		{
 			"name": "Acid Absorbing Tattoo",
+			"group": [
+				"Absorbing Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"resist": [
+				"acid"
+			],
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|Lime Enchanted Ink} plus {@item Elemental Ink, Ooze|AU} and {@item Glowing Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Acid"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Immunity: Attunement Required",
+					"entries": [
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium through Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Acid Absorbing Tattoo",
 			"source": "TCE",
 			"page": 119,
+			"reprintedAs": [
+				"Acid Absorbing Tattoo|AU"
+			],
 			"resist": [
 				"acid"
 			],
@@ -9413,6 +9498,88 @@
 			]
 		},
 		{
+			"name": "Bludgeoned Absorbing Tattoo",
+			"group": [
+				"Absorbing Tattoos",
+				"Moderately Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"reqAttune": "optional",
+			"resist": [
+				"bludgeoning"
+			],
+			"detail1": "Moderately",
+			"detail2": "{@item Enchanted Ink|AU|Brown Enchanted Ink} plus {@item Elemental Ink, Earth|AU} and {@item Metal-Lic Ink|AU|Bronze Metal-Lic Ink}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Bludgeoning"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Immunity: Attunement Required",
+					"entries": [
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium through Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Blue Chromatic Rose",
 			"source": "WBtW",
 			"page": 208,
@@ -14909,8 +15076,93 @@
 		},
 		{
 			"name": "Cold Absorbing Tattoo",
+			"group": [
+				"Absorbing Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"resist": [
+				"cold"
+			],
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|Cyan Enchanted Ink} plus {@item Elemental Ink, Ice|AU} and {@item Stardust Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Cold"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Immunity: Attunement Required",
+					"entries": [
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium through Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cold Absorbing Tattoo",
 			"source": "TCE",
 			"page": 119,
+			"reprintedAs": [
+				"Cold Absorbing Tattoo|AU"
+			],
 			"resist": [
 				"cold"
 			],
@@ -29624,8 +29876,93 @@
 		},
 		{
 			"name": "Fire Absorbing Tattoo",
+			"group": [
+				"Absorbing Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"resist": [
+				"fire"
+			],
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|Red Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Elemental Ink, Fire|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Fire"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Immunity: Attunement Required",
+					"entries": [
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium through Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fire Absorbing Tattoo",
 			"source": "TCE",
 			"page": 119,
+			"reprintedAs": [
+				"Fire Absorbing Tattoo|AU"
+			],
 			"resist": [
 				"fire"
 			],
@@ -30209,8 +30546,93 @@
 		},
 		{
 			"name": "Force Absorbing Tattoo",
+			"group": [
+				"Absorbing Tattoos",
+				"Massively Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"resist": [
+				"force"
+			],
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|Magenta Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Invisible Ink|AU}, and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Force"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Immunity: Attunement Required",
+					"entries": [
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium through Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Force Absorbing Tattoo",
 			"source": "TCE",
 			"page": 119,
+			"reprintedAs": [
+				"Force Absorbing Tattoo|AU"
+			],
 			"resist": [
 				"force"
 			],
@@ -42535,8 +42957,93 @@
 		},
 		{
 			"name": "Lightning Absorbing Tattoo",
+			"group": [
+				"Absorbing Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"resist": [
+				"lightning"
+			],
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|Yellow Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Stardust Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Lightning"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Immunity: Attunement Required",
+					"entries": [
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium through Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lightning Absorbing Tattoo",
 			"source": "TCE",
 			"page": 119,
+			"reprintedAs": [
+				"Lightning Absorbing Tattoo|AU"
+			],
 			"resist": [
 				"lightning"
 			],
@@ -48147,8 +48654,93 @@
 		},
 		{
 			"name": "Necrotic Absorbing Tattoo",
+			"group": [
+				"Absorbing Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": true,
+			"resist": [
+				"necrotic"
+			],
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|Black Enchanted Ink} plus {@item Elemental Inks|AU} {@item Elemental Ink, Ash|AU|Ash} and {@item Elemental Ink, Ooze|AU|Ooze}, and {@item Metal-Lic Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Necrotic"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Immunity: Attunement Required",
+					"entries": [
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium through Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Necrotic Absorbing Tattoo",
 			"source": "TCE",
 			"page": 119,
+			"reprintedAs": [
+				"Necrotic Absorbing Tattoo|AU"
+			],
 			"resist": [
 				"necrotic"
 			],
@@ -51541,6 +52133,88 @@
 			]
 		},
 		{
+			"name": "Pierced Absorbing Tattoo",
+			"group": [
+				"Absorbing Tattoos",
+				"Moderately Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"reqAttune": "optional",
+			"resist": [
+				"pierced"
+			],
+			"detail1": "Moderately",
+			"detail2": "{@item Enchanted Ink|AU|Dark Gray Enchanted Ink} plus {@item Metal-Lic Ink|AU|Brass Metal-Lic Ink} and {@item Stardust Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Piercing"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Immunity: Attunement Required",
+					"entries": [
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium through Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Piercer",
 			"source": "AI",
 			"page": 121,
@@ -52191,8 +52865,93 @@
 		},
 		{
 			"name": "Poison Absorbing Tattoo",
+			"group": [
+				"Absorbing Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"resist": [
+				"poison"
+			],
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|Olive Enchanted Ink} plus {@item Elemental Ink, Ash|AU} and {@item Glowing Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Poison"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Immunity: Attunement Required",
+					"entries": [
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium through Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Poison Absorbing Tattoo",
 			"source": "TCE",
 			"page": 119,
+			"reprintedAs": [
+				"Poison Absorbing Tattoo|AU"
+			],
 			"resist": [
 				"poison"
 			],
@@ -56138,8 +56897,93 @@
 		},
 		{
 			"name": "Psychic Absorbing Tattoo",
+			"group": [
+				"Absorbing Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": true,
+			"detail1": "Majorly",
+			"resist": [
+				"psychic"
+			],
+			"detail2": "{@item Enchanted Ink|AU|Pink Enchanted Ink} plus {@item Dancing Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Psychic"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Immunity: Attunement Required",
+					"entries": [
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium through Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Psychic Absorbing Tattoo",
 			"source": "TCE",
 			"page": 119,
+			"reprintedAs": [
+				"Psychic Absorbing Tattoo|AU"
+			],
 			"resist": [
 				"psychic"
 			],
@@ -57455,8 +58299,93 @@
 		},
 		{
 			"name": "Radiant Absorbing Tattoo",
+			"group": [
+				"Absorbing Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": true,
+			"resist": [
+				"radiant"
+			],
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|White Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Metal-Lic Ink|AU|Gold Metal-Lic Ink}, and {@item Stardust Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Radiant"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Immunity: Attunement Required",
+					"entries": [
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium through Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Radiant Absorbing Tattoo",
 			"source": "TCE",
 			"page": 119,
+			"reprintedAs": [
+				"Radiant Absorbing Tattoo|AU"
+			],
 			"resist": [
 				"radiant"
 			],
@@ -67335,6 +68264,88 @@
 			"capCargo": 10,
 			"travelCost": 200,
 			"shippingCost": 100
+		},
+		{
+			"name": "Slashed Absorbing Tattoo",
+			"group": [
+				"Absorbing Tattoos",
+				"Moderately Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"reqAttune": "optional",
+			"resist": [
+				"slashing"
+			],
+			"detail1": "Moderately",
+			"detail2": "{@item Enchanted Ink|AU|Light Gray Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Metal-Lic Ink|AU|Silver Metal-Lic Ink}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Slashing"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Immunity: Attunement Required",
+					"entries": [
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium through Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"name": "Sled",
@@ -77368,8 +78379,93 @@
 		},
 		{
 			"name": "Thunder Absorbing Tattoo",
+			"group": [
+				"Absorbing Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"resist": [
+				"thunder"
+			],
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|Indigo Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Prismatic Ink|AU}",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Thunder"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temporary Immunity: Attunement Required",
+					"entries": [
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
+						"Once this reaction is used, it can't be used again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"Yes: list places/No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium through Extra Large"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Thunder Absorbing Tattoo",
 			"source": "TCE",
 			"page": 119,
+			"reprintedAs": [
+				"Thunder Absorbing Tattoo|AU"
+			],
 			"resist": [
 				"thunder"
 			],
@@ -86222,6 +87318,21 @@
 						"Once this reaction is used, it can't be used again until the next dawn."
 					]
 				}
+			],
+			"items": [
+				"Acid Absorbing Tattoo|AU",
+				"Bludgeoned Absorbing Tattoo|AU",
+				"Cold Absorbing Tattoo|AU",
+				"Fire Absorbing Tattoo|AU",
+				"Force Absorbing Tattoo|AU",
+				"Lightning Absorbing Tattoo|AU",
+				"Necrotic Absorbing Tattoo|AU",
+				"Pierced Absorbing Tattoo|AU",
+				"Poison Absorbing Tattoo|AU",
+				"Psychic Absorbing Tattoo|AU",
+				"Radiant Absorbing Tattoo|AU",
+				"Slashed Absorbing Tattoo|AU",
+				"Thunder Absorbing Tattoo|AU"
 			]
 		},
 		{
@@ -89490,20 +90601,30 @@
 				}
 			],
 			"items": [
+				"Acid Absorbing Tattoo|AU",
 				"Adamantined Tattoo|AU",
 				"Airy Tattoo|AU",
 				"Ashy Tattoo|AU",
+				"Cold Absorbing Tattoo|AU",
 				"Cold Ironed Tattoo|AU",
 				"Earthy Tattoo|AU",
 				"Enspelled Tattoo (4th Level)|AU",
 				"Enspelled Tattoo (5th Level)|AU",
 				"Fiery Tattoo|AU",
+				"Fire Absorbing Tattoo|AU",
+				"Force Absorbing Tattoo|AU",
 				"Icey Tattoo|AU",
+				"Lightning Absorbing Tattoo|AU",
 				"Mithralled Tattoo|AU",
 				"Moderately Armored Tattoo|AU",
 				"Molten Tattoo|AU",
+				"Necrotic Absorbing Tattoo|AU",
 				"Oozy Tattoo|AU",
+				"Poison Absorbing Tattoo|AU",
+				"Psychic Absorbing Tattoo|AU",
+				"Radiant Absorbing Tattoo|AU",
 				"Silvered Tattoo|AU",
+				"Thunder Absorbing Tattoo|AU",
 				"Watery Tattoo|AU"
 			]
 		},
@@ -89642,6 +90763,7 @@
 			"items": [
 				"Avalanched Tattoo|AU",
 				"Blood Fury Tattoo|AU",
+				"Force Absorbing Tattoo|AU",
 				"Galewinds Tattoo|AU",
 				"Ghost Step Tattoo|AU",
 				"Grime Tattoo|AU",
@@ -89804,6 +90926,7 @@
 				"Adaman-Tot Tattoo|AU",
 				"Alter Self Tattoo|AU",
 				"Big Flashlight Tattoo|AU",
+				"Bludgeoned Absorbing Tattoo|AU",
 				"Chilly Ironed Tattoo|AU",
 				"Coiled Tattoo|AU",
 				"Control Heat Tattoo|AU",
@@ -89816,10 +90939,12 @@
 				"Mithra-Lite Tattoo|AU",
 				"Mold Land Tattoo|AU",
 				"Para-Elementalism Tattoo|AU",
+				"Pierced Absorbing Tattoo|AU",
 				"Quick Healing Tattoo|AU",
 				"Quick Silvered Tattoo|AU",
 				"Rainbow Quill Tattoo|AU",
 				"Sculpt Water Tattoo|AU",
+				"Slashed Absorbing Tattoo|AU",
 				"Windy Tattoo|AU"
 			]
 		},
