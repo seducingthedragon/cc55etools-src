@@ -86207,9 +86207,18 @@
 				"These tattoos provide you with a Damage Resistance based on its type, regardless of attunement status.",
 				{
 					"type": "entries",
-					"name": "Immunity Once per Dawn with Attunement",
+					"name": "Temporary Immunity: Attunement Required",
 					"entries": [
-						"When you are Attuned to this tatto, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, and you regain a number of hit points equal to half the damage you would have taken. The {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain hit points from the triggering instance.",
+						"If you are attuned to this tattoo, you gain access to this benefit.",
+						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
+						{
+							"type": "list",
+							"items": [
+								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
+								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
+							]
+						},
+						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
 						"Once this reaction is used, it can't be used again until the next dawn."
 					]
 				}

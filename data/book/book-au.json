@@ -8146,7 +8146,7 @@
 											],
 											"rows": [
 												[
-													"{@item Absorpting Tattoos|AU}",
+													"{@item Absorbing Tattoos|AU}",
 													"Resistance does not require Attunement, however extra benefit requires it",
 													"Cannot have more than 3 of these tattoos, regardless of attunement or not. Any Elemental Tattoo that is considered to be a Majorly Enhanced Tattoo with resistance counts towards these 3."
 												],
@@ -8401,6 +8401,13 @@
 									"Dependent"
 								],
 								[
+									"Bludgeoned Absorbing Tattoo",
+									"Bludgeoning Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
+									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"No",
+									"Optional"
+								],
+								[
 									"{@item Chilly Ironed Tattoo|AU|Chilly Ironed}",
 									"Gain +2 Bonus on {@variantrule Saving Throws|AU} against being {@condition Charmed|XPHB} by Fey creatures.",
 									"{@item Metal-Lic Ink|AU}",
@@ -8485,6 +8492,13 @@
 									"No"
 								],
 								[
+									"Pierced Absorbing Tattoo",
+									"Piercing Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
+									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"No",
+									"Optional"
+								],
+								[
 									"{@item Quick Healer Tattoo|AU|Quick Healer}",
 									"Regaining {@variantrule Hit Points|XPHB} on a {@variantrule Short Rest|XPHB}, Bonus {@variantrule Hit Points|XPHB} through magical healing.",
 									"{@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and {@item Stardust Ink|AU}",
@@ -8511,6 +8525,13 @@
 									"1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Water|AU|Water}, {@item Elemental Ink, Ice|AU|Ice}, or {@item Elemental Ink, Ooze|AU|Ooze}",
 									"No",
 									"No"
+								],
+								[
+									"Slashed Absorbing Tattoo",
+									"Slashing Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
+									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"No",
+									"Optional"
 								],
 								[
 									"{@item Windy Tattoo|AU|Windy}",
@@ -8550,6 +8571,13 @@
 							],
 							"rows": [
 								[
+									"Acid Absorbing Tattoo",
+									"Acid Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
+									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"No",
+									"Optional"
+								],
+								[
 									"{@item Adamantined Tattoo|AU|Adamantined}",
 									"Gain a Damage Threshold of 5, Gain +2 Bonus on Strength and Constitution {@variantrule Saving Throw|XPHB|Saving Throws}, and you are 10 pounds heavier",
 									"{@item Metal-Lic Ink|AU}",
@@ -8574,6 +8602,13 @@
 									"{@item Ashy Tattoo|AU|Ashy}",
 									"Without Attunement, you choose between a related damage resistance (poison) or a movement speed benefit (floating fall). With Attunement, you gain both.",
 									"Only {@item Elemental Ink, Ash|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Fire|AU|Fire}",
+									"No",
+									"Optional"
+								],
+								[
+									"Cold Absorbing Tattoo",
+									"Cold Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
+									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
 									"No",
 									"Optional"
 								],
@@ -8613,9 +8648,23 @@
 									"Optional"
 								],
 								[
+									"Fire Absorbing Tattoo",
+									"Fire Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
+									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"No",
+									"Optional"
+								],
+								[
 									"{@item Icey Tattoo|AU|Icey}",
 									"Without Attunement, you choose between a related damage resistance (cold) or a movement speed benefit (ignore Difficult Terrain with snow, ice, or other slippery surfaces). With Attunement, you gain both.",
 									"Only {@item Elemental Ink, Ice|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Water|AU|Water}",
+									"No",
+									"Optional"
+								],
+								[
+									"Lightning Absorbing Tattoo",
+									"Lightning Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
+									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
 									"No",
 									"Optional"
 								],
@@ -8634,6 +8683,13 @@
 									"Optional"
 								],
 								[
+									"Necrotic Absorbing Tattoo",
+									"Necrotic Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
+									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"No",
+									"Yes"
+								],
+								[
 									"{@item Oozy Tattoo|AU|Oozy}",
 									"Without Attunement, you choose between a related damage resistance (acid) or a movement speed benefit (Water Walk). With Attunement, you gain both.",
 									"Only {@item Elemental Ink, Ooze|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Water|AU|Water}",
@@ -8641,11 +8697,39 @@
 									"Optional"
 								],
 								[
+									"Poison Absorbing Tattoo",
+									"Poison Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
+									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"No",
+									"Optional"
+								],
+								[
+									"Psychic Absorbing Tattoo",
+									"Psychic Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
+									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"No",
+									"Yes"
+								],
+								[
+									"Radiant Absorbing Tattoo",
+									"Radiant Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
+									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"No",
+									"Yes"
+								],
+								[
 									"{@item Silvered Tattoo|AU|Silvered}",
 									"{@variantrule Advantage|XPHB} on Saving Throws against transformation effects from Shapechanger, plus 1/Day reaction to Auto-succeed Saving Throw when failed.",
 									"{@item Metal-Lic Ink|AU}",
 									"No",
 									"Yes"
+								],
+								[
+									"Thunder Absorbing Tattoo",
+									"Thunder Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
+									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
+									"No",
+									"Optional"
 								],
 								[
 									"{@item Watery Tattoo|AU|Watery}",
@@ -8695,6 +8779,13 @@
 									"{@item Blood Fury Tattoo|AU|Blood Fury}",
 									"10 Daily Charges for extra Necrotic Damage and Advantage on Melee Atks.",
 									"{@item Elemental Ink, Ash|AU}, {@item Elemental Ink, Ooze|AU}, {@item Metal-Lic Ink|AU}, and your choice between {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
+									"No",
+									"Yes"
+								],
+								[
+									"Force Absorbing Tattoo",
+									"Force Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
+									"{@item Enchanted Ink|AU|COLOR Enchanted Ink} plus {@item Ink|AU}",
 									"No",
 									"Yes"
 								],
