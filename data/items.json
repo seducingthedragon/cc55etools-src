@@ -25405,20 +25405,12 @@
 			"rarity": "uncommon",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Moderately",
+			"detail1": "white, light grays, light yellows, and light blues",
 			"detail2": "air element and has a liquid pale-color smokey",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Elemental Ink|AU}",
-				"While this ink can be found in all standard tattoo ink colors, white, light grays, light yellows, and light blues are the most common colors for this. Similarly to {@item Elemental Ink, Ash|AU}, this ink makes the lines wane and wave like wind without any additional enhancements.",
-				"The tattoo enhancements that require the use of this specific ink are:",
-				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
-					]
-				}
+				"{#itemEntry Elemental Ink|AU}"
 			]
 		},
 		{
@@ -25432,20 +25424,12 @@
 			"rarity": "uncommon",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Moderately",
+			"detail1": "black, dark grays, browns, and dark reds",
 			"detail2": "ash para-element and has a dark smokey liquid with black soot-like speckled",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Elemental Ink|AU}",
-				"While this ink can be found in all standard tattoo ink colors, black, dark grays, browns, and dark reds are the most common colors for this. Similarly to {@item Elemental Ink, Air|AU}, this ink makes the lines wane and wave like wind, with included flowing specks of ash-like details, without any additional enhancements.",
-				"The tattoo enhancements that require the use of this specific ink are:",
-				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
-					]
-				}
+				"{#itemEntry Elemental Ink|AU}"
 			]
 		},
 		{
@@ -25459,20 +25443,12 @@
 			"rarity": "uncommon",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Moderately",
+			"detail1": "grays and browns",
 			"detail2": "earth element and has a \"textured mud\"",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Elemental Ink|AU}",
-				"While this ink can be found in all standard tattoo ink colors, grays and browns are the most common colors for this. Without any enhancements, this ink makes all rocks, dirt, and earth-related material hyper realistic and detailed.",
-				"The tattoo enhancements that require the use of this specific ink are:",
-				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
-					]
-				}
+				"{#itemEntry Elemental Ink|AU}"
 			]
 		},
 		{
@@ -25486,20 +25462,12 @@
 			"rarity": "uncommon",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Moderately",
+			"detail1": "reds, oranges, and yellows",
 			"detail2": "fire element and has a swirling liquid fire-like",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Elemental Ink|AU}",
-				"While this ink can be found in all standard tattoo ink colors, reds, oranges, and yellows are the most common colors for this. Additionally, this ink does not give off any actual light nor does it give off any heat. It can animate the image to flicker and move when hit with wind, but it will not \"blow out\".",
-				"The tattoo enhancements that require the use of this specific ink are:",
-				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
-					]
-				}
+				"{#itemEntry Elemental Ink|AU}"
 			]
 		},
 		{
@@ -25513,20 +25481,12 @@
 			"rarity": "uncommon",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Moderately",
+			"detail1": "whites and pale light blues",
 			"detail2": "ice para-element and has a pale-blue crystal-like textured",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Elemental Ink|AU}",
-				"While this ink can be found in all standard tattoo colors, whites and pale light blues are the most common colors for this. Without any enhancements, tattoos that use this ink have a foggy blurred appearance, as if frozen in ice.",
-				"The tattoo enhancements that require the use of this specific ink are:",
-				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
-					]
-				}
+				"{#itemEntry Elemental Ink|AU}"
 			]
 		},
 		{
@@ -25540,20 +25500,12 @@
 			"rarity": "uncommon",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Moderately",
+			"detail1": "reds, yellows, oranges, black, and dark grays",
 			"detail2": "magma para-element and has a multi-color thick yet flowing.",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Elemental Ink|AU}",
-				"While this ink can be found in all standard tattoo colors, reds, yellows, oranges, black, and dark grays are the most common colors for this. This ink does not give off any actual light and no heat. Similarly to the {@item Elemental Ink, Ooze|AU}, it gives the image a slow flowing animated trait, while fully opaque and the sense it is partially solid within its liquid state.",
-				"The tattoo enhancements that require the use of this specific ink are:",
-				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
-					]
-				}
+				"{#itemEntry Elemental Ink|AU}"
 			]
 		},
 		{
@@ -25567,20 +25519,12 @@
 			"rarity": "uncommon",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Moderately",
+			"detail1": "black, greens, grays, and purples",
 			"detail2": "ooze para-element and has a semi-transparent, bubbling, and viscious",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Elemental Ink|AU}",
-				"While this ink can be found in all standard tattoo colors, black, greens, grays, and purples are the most common colors for this. Similarly to the {@item Elemental Ink, Magma|AU}, it gives the image a slow flowing animated trait, while being partially transparent, and prone to bubbles.",
-				"The tattoo enhancements that require the use of this specific ink are:",
-				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
-					]
-				}
+				"{#itemEntry Elemental Ink|AU}"
 			]
 		},
 		{
@@ -25594,20 +25538,12 @@
 			"rarity": "uncommon",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Moderately",
+			"detail1": "blues, teals, some geens, and dark purples",
 			"detail2": "water element and has a semi-transparent quality and low viscosity in.",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Elemental Ink|AU}",
-				"While this ink can be found in all standard tattoo colors, blues, teals, some geens, and dark purples are the most common colors for this. When used for a tattoo without any additional enhancement, it can animate the water design with a steady current, or appears with waves and splashes, dependent on the design itself.",
-				"The tattoo enhancements that require the use of this specific ink are:",
-				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
-					]
-				}
+				"{#itemEntry Elemental Ink|AU}"
 			]
 		},
 		{
