@@ -9329,6 +9329,22 @@
 			]
 		},
 		{
+			"abbreviation": "AT2",
+			"source": "AU",
+			"page": 151,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Absorbing Tattoo",
+					"entries": [
+						"This magical tattoo does not require Attunement, however, it is required to gain access to its added benefit.",
+						"Regardless of Attunement Status, you can have a maximum of 3 Absorbing Tattoos. If a 4th one is attempted, you will either lose access to the benefits of the oldest Absorbing Tattoo you have or gain no benefits from the newest one."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "B",
 			"source": "XPHB",
 			"page": 213,
@@ -10959,6 +10975,31 @@
 		}
 	],
 	"itemEntry": [
+		{
+			"name": "Absorbing Tattoo",
+			"source": "AU",
+			"entriesTemplate": [
+				"You have {@variantrule Resistance|XPHB} to {{item.resist}} damage, regardless of {@variantrule Attunement|XPHB} status.",
+				{
+					"type": "entries",
+					"name": "Attunement Required Benefit",
+					"entries": [
+						"You gain the following benefit only if you Attune to this tattoo at the time of the tattooing process.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Damage Absorption: Once per Dawn",
+									"entry": "When you take {{item.resist}} damage, you can use your {@variantrule Reaction|XPHB} to gain {@variantrule Immunity|XPHB} against that instance of the damage, and then immediately regain {@variantrule Hit Points|XPHB} equal to at least half that that damage amount up to all of that damage amount. If you choose to not to absorb all of the {{item.resist}} damage as HP, you can deal bonus {{item.resist}} damage equal to the remainding amount on your next {@action Attack|XPHB} roll that hits. Once this reaction is used, it can't be used again until the next dawn."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
 		{
 			"name": "Absorbing Tattoo",
 			"source": "TCE",

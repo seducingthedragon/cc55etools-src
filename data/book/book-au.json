@@ -8146,9 +8146,9 @@
 											],
 											"rows": [
 												[
-													"{@item Absorbing Tattoos|AU}",
+													"{@itemProperty AT2|AU|Absorbing Tattoo}",
 													"Resistance does not require Attunement, however extra benefit requires it",
-													"Cannot have more than 3 of these tattoos, regardless of attunement or not. Any Elemental Tattoo that is considered to be a Majorly Enhanced Tattoo with resistance counts towards these 3."
+													"Cannot have more than 3 of these tattoos, regardless of attunement or not."
 												],
 												[
 													"{@item Branded Tattoos|AU}",

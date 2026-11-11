@@ -1905,8 +1905,9 @@
 			"resist": [
 				"acid"
 			],
-			"detail1": "Majorly",
-			"detail2": "{@item Enchanted Ink|AU|Lime Enchanted Ink} plus {@item Elemental Ink, Ooze|AU} and {@item Glowing Ink|AU}",
+			"property": [
+				"AT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -1914,34 +1915,10 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Absorbing Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Acid"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -1952,21 +1929,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Yes: list places/No"
+									"Specified Placement?",
+									"No"
 								],
 								[
-									"Minimal Size Required",
+									"Minimal Size?",
 									"Medium through Extra Large"
 								],
 								[
-									"Visibility Required",
+									"Required Visibility",
 									"No"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU|Lime Enchanted Ink} plus {@item Elemental Ink, Ooze|AU} and {@item Glowing Ink|AU}"
 								]
 							]
 						}
@@ -9654,8 +9635,9 @@
 			"resist": [
 				"bludgeoning"
 			],
-			"detail1": "Moderately",
-			"detail2": "{@item Enchanted Ink|AU|Brown Enchanted Ink} plus {@item Elemental Ink, Earth|AU} and {@item Metal-Lic Ink|AU|Bronze Metal-Lic Ink}",
+			"property": [
+				"AT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -9663,34 +9645,10 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Absorbing Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Bludgeoning"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -9701,21 +9659,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Yes: list places/No"
+									"Specified Placement?",
+									"No"
 								],
 								[
-									"Minimal Size Required",
+									"Minimal Size?",
 									"Medium through Extra Large"
 								],
 								[
-									"Visibility Required",
+									"Required Visibility",
 									"No"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU|Brown Enchanted Ink} plus {@item Elemental Ink, Earth|AU} and {@item Metal-Lic Ink|AU|Bronze Metal-Lic Ink}"
 								]
 							]
 						}
@@ -15365,8 +15327,9 @@
 			"resist": [
 				"cold"
 			],
-			"detail1": "Majorly",
-			"detail2": "{@item Enchanted Ink|AU|Cyan Enchanted Ink} plus {@item Elemental Ink, Ice|AU} and {@item Stardust Ink|AU}",
+			"property": [
+				"AT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -15374,34 +15337,10 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Absorbing Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Cold"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -15412,21 +15351,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Yes: list places/No"
+									"Specified Placement?",
+									"No"
 								],
 								[
-									"Minimal Size Required",
+									"Minimal Size?",
 									"Medium through Extra Large"
 								],
 								[
-									"Visibility Required",
+									"Required Visibility",
 									"No"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU|Cyan Enchanted Ink} plus {@item Elemental Ink, Ice|AU} and {@item Stardust Ink|AU}"
 								]
 							]
 						}
@@ -30385,8 +30328,9 @@
 			"resist": [
 				"fire"
 			],
-			"detail1": "Majorly",
-			"detail2": "{@item Enchanted Ink|AU|Red Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Elemental Ink, Fire|AU}",
+			"property": [
+				"AT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -30394,34 +30338,10 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Absorbing Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Fire"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -30432,21 +30352,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Yes: list places/No"
+									"Specified Placement?",
+									"No"
 								],
 								[
-									"Minimal Size Required",
+									"Minimal Size?",
 									"Medium through Extra Large"
 								],
 								[
-									"Visibility Required",
+									"Required Visibility",
 									"No"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU|Red Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Elemental Ink, Fire|AU}"
 								]
 							]
 						}
@@ -31055,8 +30979,9 @@
 			"resist": [
 				"force"
 			],
-			"detail1": "Majorly",
-			"detail2": "{@item Enchanted Ink|AU|Magenta Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Invisible Ink|AU}, and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
+			"property": [
+				"AT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -31064,34 +30989,10 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Absorbing Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Force"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -31102,21 +31003,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Yes: list places/No"
+									"Specified Placement?",
+									"No"
 								],
 								[
-									"Minimal Size Required",
+									"Minimal Size?",
 									"Medium through Extra Large"
 								],
 								[
-									"Visibility Required",
+									"Required Visibility",
 									"No"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU|Magenta Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Invisible Ink|AU}, and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}"
 								]
 							]
 						}
@@ -43638,8 +43543,9 @@
 			"resist": [
 				"lightning"
 			],
-			"detail1": "Majorly",
-			"detail2": "{@item Enchanted Ink|AU|Yellow Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Stardust Ink|AU}",
+			"property": [
+				"AT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -43647,34 +43553,10 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Absorbing Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Lightning"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -43685,21 +43567,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Yes: list places/No"
+									"Specified Placement?",
+									"No"
 								],
 								[
-									"Minimal Size Required",
+									"Minimal Size?",
 									"Medium through Extra Large"
 								],
 								[
-									"Visibility Required",
+									"Required Visibility",
 									"No"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU|Yellow Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Stardust Ink|AU}"
 								]
 							]
 						}
@@ -49383,8 +49269,9 @@
 			"resist": [
 				"necrotic"
 			],
-			"detail1": "Majorly",
-			"detail2": "{@item Enchanted Ink|AU|Black Enchanted Ink} plus {@item Elemental Inks|AU} {@item Elemental Ink, Ash|AU|Ash} and {@item Elemental Ink, Ooze|AU|Ooze}, and {@item Metal-Lic Ink|AU}",
+			"property": [
+				"AT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -49392,34 +49279,10 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Absorbing Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Necrotic"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -49430,21 +49293,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Yes: list places/No"
+									"Specified Placement?",
+									"No"
 								],
 								[
-									"Minimal Size Required",
+									"Minimal Size?",
 									"Medium through Extra Large"
 								],
 								[
-									"Visibility Required",
+									"Required Visibility",
 									"No"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU|Black Enchanted Ink} plus {@item Elemental Inks|AU} {@item Elemental Ink, Ash|AU|Ash} and {@item Elemental Ink, Ooze|AU|Ooze}, and {@item Metal-Lic Ink|AU}"
 								]
 							]
 						}
@@ -52996,8 +52863,9 @@
 			"resist": [
 				"pierced"
 			],
-			"detail1": "Moderately",
-			"detail2": "{@item Enchanted Ink|AU|Dark Gray Enchanted Ink} plus {@item Metal-Lic Ink|AU|Brass Metal-Lic Ink} and {@item Stardust Ink|AU}",
+			"property": [
+				"AT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -53005,34 +52873,10 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Absorbing Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Piercing"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -53043,21 +52887,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Yes: list places/No"
+									"Specified Placement?",
+									"No"
 								],
 								[
-									"Minimal Size Required",
+									"Minimal Size?",
 									"Medium through Extra Large"
 								],
 								[
-									"Visibility Required",
+									"Required Visibility",
 									"No"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU|Dark Gray Enchanted Ink} plus {@item Metal-Lic Ink|AU|Brass Metal-Lic Ink} and {@item Stardust Ink|AU}"
 								]
 							]
 						}
@@ -53727,8 +53575,9 @@
 			"resist": [
 				"poison"
 			],
-			"detail1": "Majorly",
-			"detail2": "{@item Enchanted Ink|AU|Olive Enchanted Ink} plus {@item Elemental Ink, Ash|AU} and {@item Glowing Ink|AU}",
+			"property": [
+				"AT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -53736,34 +53585,10 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Absorbing Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Poison"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -53774,21 +53599,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Yes: list places/No"
+									"Specified Placement?",
+									"No"
 								],
 								[
-									"Minimal Size Required",
+									"Minimal Size?",
 									"Medium through Extra Large"
 								],
 								[
-									"Visibility Required",
+									"Required Visibility",
 									"No"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU|Olive Enchanted Ink} plus {@item Elemental Ink, Ash|AU} and {@item Glowing Ink|AU}"
 								]
 							]
 						}
@@ -57756,11 +57585,12 @@
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": true,
-			"detail1": "Majorly",
 			"resist": [
 				"psychic"
 			],
-			"detail2": "{@item Enchanted Ink|AU|Pink Enchanted Ink} plus {@item Dancing Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
+			"property": [
+				"AT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -57768,34 +57598,10 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Absorbing Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Psychic"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -57806,21 +57612,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Yes: list places/No"
+									"Specified Placement?",
+									"No"
 								],
 								[
-									"Minimal Size Required",
+									"Minimal Size?",
 									"Medium through Extra Large"
 								],
 								[
-									"Visibility Required",
+									"Required Visibility",
 									"No"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU|Pink Enchanted Ink} plus {@item Dancing Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}"
 								]
 							]
 						}
@@ -59161,8 +58971,9 @@
 			"resist": [
 				"radiant"
 			],
-			"detail1": "Majorly",
-			"detail2": "{@item Enchanted Ink|AU|White Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Metal-Lic Ink|AU|Gold Metal-Lic Ink}, and {@item Stardust Ink|AU}",
+			"property": [
+				"AT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -59170,34 +58981,10 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Absorbing Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Radiant"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -59208,21 +58995,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Yes: list places/No"
+									"Specified Placement?",
+									"No"
 								],
 								[
-									"Minimal Size Required",
+									"Minimal Size?",
 									"Medium through Extra Large"
 								],
 								[
-									"Visibility Required",
+									"Required Visibility",
 									"No"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU|White Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Metal-Lic Ink|AU|Gold Metal-Lic Ink}, and {@item Stardust Ink|AU}"
 								]
 							]
 						}
@@ -69311,8 +69102,9 @@
 			"resist": [
 				"slashing"
 			],
-			"detail1": "Moderately",
-			"detail2": "{@item Enchanted Ink|AU|Light Gray Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Metal-Lic Ink|AU|Silver Metal-Lic Ink}",
+			"property": [
+				"AT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -69320,34 +69112,10 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Absorbing Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Slashing"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -69358,21 +69126,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Yes: list places/No"
+									"Specified Placement?",
+									"No"
 								],
 								[
-									"Minimal Size Required",
+									"Minimal Size?",
 									"Medium through Extra Large"
 								],
 								[
-									"Visibility Required",
+									"Required Visibility",
 									"No"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU|Light Gray Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Metal-Lic Ink|AU|Silver Metal-Lic Ink}"
 								]
 							]
 						}
@@ -79471,8 +79243,9 @@
 			"resist": [
 				"thunder"
 			],
-			"detail1": "Majorly",
-			"detail2": "{@item Enchanted Ink|AU|Indigo Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Prismatic Ink|AU}",
+			"property": [
+				"AT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -79480,34 +79253,10 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Absorbing Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"Regardless of your attunement status to this tattoo, you have {@variantrule Resistance|XPHB} to the following damage type: Thunder"
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -79518,21 +79267,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Yes: list places/No"
+									"Specified Placement?",
+									"No"
 								],
 								[
-									"Minimal Size Required",
+									"Minimal Size?",
 									"Medium through Extra Large"
 								],
 								[
-									"Visibility Required",
+									"Required Visibility",
 									"No"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU|Indigo Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Prismatic Ink|AU}"
 								]
 							]
 						}
@@ -88476,26 +88229,6 @@
 			"reqAttune": "optional",
 			"type": "GV|XDMG",
 			"tattoo": true,
-			"entries": [
-				"These tattoos provide you with a Damage Resistance based on its type, regardless of attunement status.",
-				{
-					"type": "entries",
-					"name": "Temporary Immunity: Attunement Required",
-					"entries": [
-						"If you are attuned to this tattoo, you gain access to this benefit.",
-						"When you take a specified damage type, you can use your reaction to gain {@variantrule Immunity|XPHB} against that damage, taking none of that damage. Instead, the damage amount you would have taken you choose between the following how to absorb it.",
-						{
-							"type": "list",
-							"items": [
-								"You regain {@variantrule Hit Points|XPHB} equal to the amount of damage you should have taken",
-								"You regain {@variantrule Hit Points|XPHB} equal to half of that amount instead, allowing you to deal the remaining half of that amount as additional damage of that absorbed damage type on your next {@action Attack|XPHB} roll."
-							]
-						},
-						"This {@variantrule Immunity|XPHB} lasts until the start of your next turn, however you only gain the additional absorbing benefit from the triggering attack's damage.",
-						"Once this reaction is used, it can't be used again until the next dawn."
-					]
-				}
-			],
 			"items": [
 				"Acid Absorbing Tattoo|AU",
 				"Bludgeoned Absorbing Tattoo|AU",
@@ -89600,8 +89333,20 @@
 			"rarity": "uncommon",
 			"reqAttune": "optional",
 			"tattoo": true,
-			"entries": [
-				"Class Tattoos are Moderately Enhanced Tattoos that are designed for each class that can be obtained as early as level 1. You are required to attune to this tattoo if it is a Class not of your own. If you {@variantrule Multiclassing|XPHB|Multiclass}, you can have 1 Class Tattoo without attunement, however you must {@variantrule Attunement|XPHB|Attune} to any other Class Tattoos gained, even if you have 1 level in that class."
+			"items": [
+				"Artificer Tattoo|AU",
+				"Barbarian Tattoo|AU",
+				"Bard Tattoo|AU",
+				"Cleric Tattoo|AU",
+				"Druid Tattoo|AU",
+				"Fighter Tattoo|AU",
+				"Monk Tattoo|AU",
+				"Paladin Tattoo|AU",
+				"Ranger Tattoo|AU",
+				"Rogue Tattoo|AU",
+				"Sorcerer Tattoo|AU",
+				"Warlock Tattoo|AU",
+				"Wizard Tattoo|AU"
 			]
 		},
 		{
