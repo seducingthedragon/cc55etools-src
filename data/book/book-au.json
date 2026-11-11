@@ -8130,12 +8130,12 @@
 									"page": 156,
 									"id": "707",
 									"entries": [
-										"Aside from the tattoos being classified as how enhanced it is, there are other ways that tattoos are grouped. Based off of these groupings, the tattoos may have different guidelines or rules compared to other categories.",
+										"Aside from the tattoos being classified as how enhanced it is, there are other ways that tattoos are grouped. Based off of these properties, the tattoos may have different guidelines or rules compared to other categories.",
 										{
 											"type": "table",
-											"caption": "Tattoo Groups",
+											"caption": "Tattoo Properties",
 											"colLabels": [
-												"Group Name",
+												"Property",
 												"Attunement Rules",
 												"Additional Guidelines"
 											],
@@ -8166,7 +8166,7 @@
 													"No more than 2 Majorly Enhanced Tattoos or 1 Massively Enhanced Tattoo"
 												],
 												[
-													"{@item Enspelled Tattoos|AU}",
+													"{@itemProperty EsT2|AU|Enspelled Tattoo}",
 													"Not Required for 1 Free Casting per Dawn, with Attunement increases based on spell level, max 4 times per dawn",
 													"Regardless of attunement and regardless of level, cannot have more than 3"
 												]

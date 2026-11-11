@@ -26769,8 +26769,10 @@
 			"page": 157,
 			"rarity": "common",
 			"reqAttune": "optional",
-			"detail1": "Minimally",
-			"detail2": "{@item Enchanted Ink|AU} and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
+			"detail1": "four times per dawn",
+			"property": [
+				"EsT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -26778,41 +26780,11 @@
 			"tattoo": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"You gain a {@filter Level 1|spells|level=1|components & miscellaneous=!concentration;!reprinted|cast time=action;bonus;reaction|Duration=[&Instant;&24+ Hours]} Spell of your choice that you can cast once per dawn without any material components or expending spell slots. The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5.",
+				"{#itemEntry Enspelled Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Cast a Spell",
-					"entries": [
-						"Regardless of attunement status, this tattoo allows you to cast one choosen spell of this level without requiring material components, once per dawn. The spell must be choosen prior to the tattooing process as its essense must be infused within the ink. Additionally, the choosen spell must meet the following restrictions:",
-						{
-							"type": "list",
-							"items": [
-								"Must have a Casting Time of Action, Bonus Action, or Reaction",
-								"Cannot require {@status Concentration|XPHB}",
-								"Cannot have a Duration of \"Until Dispelled\""
-							]
-						},
-						"The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Optional Attunement",
-					"entries": [
-						"If you choose to attune to this tattoo, you gain the following benefits:",
-						{
-							"type": "list",
-							"items": [
-								"You can cast this spell without a spell slot or material components ___ times per dawn",
-								"If you have access to spell slots, you can use your own spell slots to cast this spell following standard spellcasting rules",
-								"If you choose a spell that does not follow any one of the above restrictions, you must attune to the tattoo"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -26823,21 +26795,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Relates to Attached Spell, otherwise No"
+									"Placement?",
+									"ANSWER"
 								],
 								[
-									"Minimal Size Required",
-									"Based on Spell Level"
+									"Minimal Size?",
+									"ANSWER"
 								],
 								[
-									"Visibility Required",
-									"Spell Dependent, otherwise No"
+									"Required Visibility",
+									"Yes/No/Necessary"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}"
 								]
 							]
 						}
@@ -26856,8 +26832,10 @@
 			"page": 158,
 			"rarity": "uncommon",
 			"reqAttune": "optional",
-			"detail1": "Moderately",
-			"detail2": "{@item Enchanted Ink|AU} with {@item Prismatic Ink|AU} and/or {@item Stardust Ink|AU}",
+			"detail1": "three times per dawn",
+			"property": [
+				"EsT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -26865,41 +26843,11 @@
 			"tattoo": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"You gain a {@filter Level 2|spells|level=2|components & miscellaneous=!concentration;!reprinted|cast time=action;bonus;reaction|Duration=[&Instant;&24+ Hours]} Spell of your choice that you can cast once per dawn without any material components or expending spell slots. The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5.",
+				"{#itemEntry Enspelled Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Cast a Spell",
-					"entries": [
-						"Regardless of attunement status, this tattoo allows you to cast one choosen spell of this level without requiring material components, once per dawn. The spell must be choosen prior to the tattooing process as its essense must be infused within the ink. Additionally, the choosen spell must meet the following restrictions:",
-						{
-							"type": "list",
-							"items": [
-								"Must have a Casting Time of Action, Bonus Action, or Reaction",
-								"Cannot require {@status Concentration|XPHB}",
-								"Cannot have a Duration of \"Until Dispelled\""
-							]
-						},
-						"The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Optional Attunement",
-					"entries": [
-						"If you choose to attune to this tattoo, you gain the following benefits:",
-						{
-							"type": "list",
-							"items": [
-								"You can cast this spell without a spell slot or material components 3 times per dawn",
-								"If you have access to spell slots, you can use your own spell slots to cast this spell following standard spellcasting rules",
-								"If you choose a spell that does not follow any one of the above restrictions, you must attune to the tattoo"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -26910,21 +26858,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Relates to Attached Spell, otherwise No"
+									"Placement?",
+									"ANSWER"
 								],
 								[
-									"Minimal Size Required",
-									"Based on Spell Level"
+									"Minimal Size?",
+									"ANSWER"
 								],
 								[
-									"Visibility Required",
-									"Spell Dependent, otherwise No"
+									"Required Visibility",
+									"Yes/No/Necessary"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}"
 								]
 							]
 						}
@@ -26943,8 +26895,10 @@
 			"page": 158,
 			"rarity": "uncommon",
 			"reqAttune": "optional",
-			"detail1": "Moderately",
-			"detail2": "{@item Enchanted Ink|AU} with {@item Prismatic Ink|AU} and/or {@item Stardust Ink|AU}",
+			"detail1": "three times per dawn",
+			"property": [
+				"EsT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -26952,41 +26906,11 @@
 			"tattoo": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"You gain a {@filter Level 3|spells|level=3|components & miscellaneous=!concentration;!reprinted|cast time=action;bonus;reaction|Duration=[&Instant;&24+ Hours]} Spell of your choice that you can cast once per dawn without any material components or expending spell slots. The Ability modifier for this spell is +4; the Save DC is 15 and the attack bonus is +7.",
+				"{#itemEntry Enspelled Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Cast a Spell",
-					"entries": [
-						"Regardless of attunement status, this tattoo allows you to cast one choosen spell of this level without requiring material components, once per dawn. The spell must be choosen prior to the tattooing process as its essense must be infused within the ink. Additionally, the choosen spell must meet the following restrictions:",
-						{
-							"type": "list",
-							"items": [
-								"Must have a Casting Time of Action, Bonus Action, or Reaction",
-								"Cannot require {@status Concentration|XPHB}",
-								"Cannot have a Duration of \"Until Dispelled\""
-							]
-						},
-						"The Ability modifier for this spell is +4; the Save DC is 15 and the attack bonus is +7."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Optional Attunement",
-					"entries": [
-						"If you choose to attune to this tattoo, you gain the following benefits:",
-						{
-							"type": "list",
-							"items": [
-								"You can cast this spell without a spell slot or material components 3 times per dawn",
-								"If you have access to spell slots, you can use your own spell slots to cast this spell following standard spellcasting rules",
-								"If you choose a spell that does not follow any one of the above restrictions, you must attune to the tattoo"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -26997,21 +26921,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Relates to Attached Spell, otherwise No"
+									"Placement?",
+									"ANSWER"
 								],
 								[
-									"Minimal Size Required",
-									"Based on Spell Level"
+									"Minimal Size?",
+									"ANSWER"
 								],
 								[
-									"Visibility Required",
-									"Spell Dependent, otherwise No"
+									"Required Visibility",
+									"Yes/No/Necessary"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}"
 								]
 							]
 						}
@@ -27030,8 +26958,10 @@
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": "optional",
-			"detail1": "Majorly",
-			"detail2": "{@item Enchanted Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
+			"detail1": "twice per dawn",
+			"property": [
+				"EsT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -27039,41 +26969,11 @@
 			"tattoo": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"You gain a {@filter Level 4|spells|level=4|components & miscellaneous=!concentration;!reprinted|cast time=action;bonus;reaction|Duration=[&Instant;&24+ Hours]} Spell of your choice that you can cast once per dawn without any material components or expending spell slots. The Ability modifier for this spell is +4; the Save DC is 15 and the attack bonus is +7.",
+				"{#itemEntry Enspelled Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Cast a Spell",
-					"entries": [
-						"Regardless of attunement status, this tattoo allows you to cast one choosen spell of this level without requiring material components, once per dawn. The spell must be choosen prior to the tattooing process as its essense must be infused within the ink. Additionally, the choosen spell must meet the following restrictions:",
-						{
-							"type": "list",
-							"items": [
-								"Must have a Casting Time of Action, Bonus Action, or Reaction",
-								"Cannot require {@status Concentration|XPHB}",
-								"Cannot have a Duration of \"Until Dispelled\""
-							]
-						},
-						"The Ability modifier for this spell is +4; the Save DC is 15 and the attack bonus is +7."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Optional Attunement",
-					"entries": [
-						"If you choose to attune to this tattoo, you gain the following benefits:",
-						{
-							"type": "list",
-							"items": [
-								"You can cast this spell without a spell slot or material components twice per dawn",
-								"If you have access to spell slots, you can use your own spell slots to cast this spell following standard spellcasting rules",
-								"If you choose a spell that does not follow any one of the above restrictions, you must attune to the tattoo"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -27084,21 +26984,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Relates to Attached Spell, otherwise No"
+									"Placement?",
+									"ANSWER"
 								],
 								[
-									"Minimal Size Required",
-									"Based on Spell Level"
+									"Minimal Size?",
+									"ANSWER"
 								],
 								[
-									"Visibility Required",
-									"Spell Dependent, otherwise No"
+									"Required Visibility",
+									"Yes/No/Necessary"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}"
 								]
 							]
 						}
@@ -27117,8 +27021,10 @@
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": "optional",
-			"detail1": "Majorly",
-			"detail2": "{@item Enchanted Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
+			"detail1": "twice per dawn",
+			"property": [
+				"EsT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -27126,41 +27032,11 @@
 			"tattoo": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"You gain a {@filter Level 5|spells|level=5|components & miscellaneous=!concentration;!reprinted|cast time=action;bonus;reaction|Duration=[&Instant;&24+ Hours]} Spell of your choice that you can cast once per dawn without any material components or expending spell slots. The Ability modifier for this spell is +5; the Save DC is 17 and the attack bonus is +9.",
+				"{#itemEntry Enspelled Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Cast a Spell",
-					"entries": [
-						"Regardless of attunement status, this tattoo allows you to cast one choosen spell of this level without requiring material components, once per dawn. The spell must be choosen prior to the tattooing process as its essense must be infused within the ink. Additionally, the choosen spell must meet the following restrictions:",
-						{
-							"type": "list",
-							"items": [
-								"Must have a Casting Time of Action, Bonus Action, or Reaction",
-								"Cannot require {@status Concentration|XPHB}",
-								"Cannot have a Duration of \"Until Dispelled\""
-							]
-						},
-						"The Ability modifier for this spell is +5; the Save DC is 17 and the attack bonus is +9."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Optional Attunement",
-					"entries": [
-						"If you choose to attune to this tattoo, you gain the following benefits:",
-						{
-							"type": "list",
-							"items": [
-								"You can cast this spell without a spell slot or material components twice per dawn",
-								"If you have access to spell slots, you can use your own spell slots to cast this spell following standard spellcasting rules",
-								"If you choose a spell that does not follow any one of the above restrictions, you must attune to the tattoo"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -27171,21 +27047,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Relates to Attached Spell, otherwise No"
+									"Placement?",
+									"ANSWER"
 								],
 								[
-									"Minimal Size Required",
-									"Based on Spell Level"
+									"Minimal Size?",
+									"ANSWER"
 								],
 								[
-									"Visibility Required",
-									"Spell Dependent, otherwise No"
+									"Required Visibility",
+									"Yes/No/Necessary"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}"
 								]
 							]
 						}
@@ -27204,8 +27084,10 @@
 			"page": 157,
 			"rarity": "common",
 			"reqAttune": "optional",
-			"detail1": "Minimally",
-			"detail2": "{@item Enchanted Ink|AU} and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
+			"detail1": "at will",
+			"property": [
+				"EsT2|AU"
+			],
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -27213,41 +27095,11 @@
 			"tattoo": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"You gain a {@filter Cantrip|spells|level=0|components & miscellaneous=!concentration;!reprinted|cast time=action;bonus;reaction|Duration=[&Instant;&24+ Hours]} of your choice that you can cast once per dawn without any material components or expending spell slots. The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5.",
+				"{#itemEntry Enspelled Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Cast a Spell",
-					"entries": [
-						"Regardless of attunement status, this tattoo allows you to cast one choosen cantrip without requiring material components, once per dawn. The spell must be choosen prior to the tattooing process as its essense must be infused within the ink. Additionally, the choosen spell must meet the following restrictions:",
-						{
-							"type": "list",
-							"items": [
-								"Must have a Casting Time of Action, Bonus Action, or Reaction",
-								"Cannot require {@status Concentration|XPHB}",
-								"Cannot have a Duration of \"Until Dispelled\""
-							]
-						},
-						"The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Optional Attunement",
-					"entries": [
-						"If you choose to attune to this tattoo, you gain the following benefits:",
-						{
-							"type": "list",
-							"items": [
-								"You can cast this cantrip at will, however, if it has Material Components, you can only cast without those components once per dawn.",
-								"If you have access to spell slots, you can use your own spell slots to cast this spell following standard spellcasting rules",
-								"If you choose a spell that does not follow any one of the above restrictions, you must attune to the tattoo"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating Tattoo Stats",
 					"entries": [
 						"This tattoo has the following stats:",
 						{
@@ -27258,21 +27110,25 @@
 								"Information"
 							],
 							"colStyles": [
-								"col-3 text-center",
-								"col-9"
+								"col-4",
+								"col-8"
 							],
 							"rows": [
 								[
-									"Specified Placement Required",
-									"Relates to Attached Spell, otherwise No"
+									"Placement?",
+									"ANSWER"
 								],
 								[
-									"Minimal Size Required",
-									"Based on Spell Level"
+									"Minimal Size?",
+									"ANSWER"
 								],
 								[
-									"Visibility Required",
-									"Spell Dependent, otherwise No"
+									"Required Visibility",
+									"Yes/No/Necessary"
+								],
+								[
+									"Required Inks?",
+									"{@item Enchanted Ink|AU} and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}"
 								]
 							]
 						}
@@ -89982,9 +89838,6 @@
 			"type": "GV|XDMG",
 			"reqAttune": "varies",
 			"tattoo": true,
-			"entries": [
-				"These tattoos are tied to a specific spell based on level. Without attunement, you can cast the spell once per dawn. With Attunement, the frequency increases to a specified amount, related on the spells level, however no more than 4 times per dawn at max. Based on the spell's level, it'll have a set Spell Save DC and Spell Attack Bonus, that will default to your choosen ability if attuned."
-			],
 			"items": [
 				"Enspelled Tattoo (Cantrip)|AU",
 				"Enspelled Tattoo (1st Level)|AU",
