@@ -8161,9 +8161,9 @@
 													"Max of 3 Class Tattoos regardless of Attunement status. If you Multi-class, you only get 1 of your classes Class Tattoos without Attunement."
 												],
 												[
-													"{@item Elemental Tattoos|AU}",
+													"{@itemProperty EMT2|AU|Elemental Tattoo}",
 													"Attunement based on Enhancement level",
-													"No more than 2 Majorly Enhanced Tattoos or 1 Massively Enhanced Tattoo"
+													"1 Primary Element's tattoos along with its related Para-Elements. Branded Tattoos have a higher priority, and may clash with these tattoos"
 												],
 												[
 													"{@itemProperty EsT2|AU|Enspelled Tattoo}",

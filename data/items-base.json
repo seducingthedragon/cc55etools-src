@@ -9441,6 +9441,57 @@
 			]
 		},
 		{
+			"abbreviation": "EMT2",
+			"source": "AU",
+			"page": 151,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Elemental Tattoo",
+					"entries": [
+						"These tattoos requires the use of its related {@item Elemental Inks|AU|Elemental Ink Type}. Once you have an Elemental Tattoo, even without attunement, you are bound to that primary Element type {@i (air, earth, fire, or water)} and its two para-elements. If your first Elemental Tattoo relates to one of the para-elements, your next Elemental Tattoo is limited to one of its primary elements or a para-element that shares a primary element. Use the Table below for those relations, linking the related {@item Elemental Inks|AU|Elemental Ink}.",
+						{
+							"type": "table",
+							"caption": "Primary Elements and their related Para-Elements",
+							"colLabels": [
+								"Primary",
+								"Para-1",
+								"Para-2"
+							],
+							"colStyles": [
+								"col-4 text-center",
+								"col-4 text-center",
+								"col-4 text-center"
+							],
+							"rows": [
+								[
+									"{@item Elemental Ink, Air|AU|Air}",
+									"{@item Elemental Ink, Ash|AU|Ash}",
+									"{@item Elemental Ink, Ice|AU|Ice}"
+								],
+								[
+									"{@item Elemental Ink, Earth|AU|Earth}",
+									"{@item Elemental Ink, Magma|AU|Magma}",
+									"{@item Elemental Ink, Ooze|AU|Ooze}"
+								],
+								[
+									"{@item Elemental Ink, Fire|AU|Fire}",
+									"{@item Elemental Ink, Ash|AU|Ash}",
+									"{@item Elemental Ink, Magma|AU|Magma}"
+								],
+								[
+									"{@item Elemental Ink, Water|AU|Water}",
+									"{@item Elemental Ink, Ice|AU|Ice}",
+									"{@item Elemental Ink, Ooze|AU|Ooze}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "EsT2",
 			"source": "AU",
 			"page": 151,
@@ -11091,6 +11142,50 @@
 				"{@i Most Enchanted Inks do not require attunement, as attunement is based off of the specific enhancement type, for the tattoo itself. If the ink itself requires attunement, it will be noted and explained why.}",
 				"Elemental Inks are commonly found with one of the 4 primary elements: air, earth, fire, and water. Additionally, less common ones are related to one of the 4 para-elements: ash, ice, magma, and ooze.",
 				"This specific type of {@item Elemental Inks|AU|Elemental Ink} is used for magical tattoos that are {{item.detail1}} Enhanced, at the bare minimum. If they are used without a {{item.detail1}} Enhanced Tattoo or higher, then they are often used as backgrounds with minor enhancement tattoos to give the image a sense of realism. It can be used for higher enhancements, often with other types of {@item Enchanted Inks|AU|Enchanted Ink}. {@item Enchanted Inks|AU} do not need a specific enhancement in order to be used. They can be used for their innate properties alone and can be mixed with others for a combined effect. Within the ink vial, this specific Elemental Ink is tied to the {{item.detail2}} appearance."
+			]
+		},
+		{
+			"name": "Elemental Tattoo",
+			"source": "AU",
+			"entriesTemplate": [
+				"While this tattoo has benefits and aethetic-related ties to the {{item.detail1}}, you are not branded with that specific plane's power in the way that a Branded Tattoo is. {@itemProperty BT2|AU|Branded Tattoos} with ties to an Elemental Plane takes priority. Regardless of your current attunement status or present Elemental Tattoo, once you have an Elemental Plane Branded Tattoo, you are bound to that specific primary element. You may still benefit from Elemental Tattoos that relate to that primarily element and its para-elements, however if you have any other primary Elemental Tattoo, its enchantment is destroyed, even if you were attuned to it. See the tattoo property below for a table providing information on the elemental groupings.",
+				{
+					"type": "entries",
+					"name": "Planning and Creating Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-4",
+								"col-8"
+							],
+							"rows": [
+								[
+									"Specified Placement?",
+									"No Required, however it is commonly tattooed on ones Chest"
+								],
+								[
+									"Minimal Size?",
+									"Small for Common, increased size for increased rarity"
+								],
+								[
+									"Required Visibility",
+									"No"
+								],
+								[
+									"Required Inks?",
+									"{{item.detail2}}"
+								]
+							]
+						}
+					]
+				}
 			]
 		},
 		{

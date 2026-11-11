@@ -2316,8 +2316,11 @@
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": "optional",
-			"detail1": "Majorly",
+			"detail1": "Elemental Plane of Air",
 			"detail2": "{@item Elemental Ink, Air|AU}",
+			"property": [
+				"EMT2|AU"
+			],
 			"modifySpeed": {
 				"equal": {
 					"fly": "walk"
@@ -2330,7 +2333,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Damage Resistance or Movement",
@@ -2349,35 +2352,17 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: List/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"You can only have two Rare Elemental Tattoos, each one relating to one of the 3 Elements that you are bonded to. See tattoo property on details on what those bonds are. Additionally, whether you evolve one of your Rare elemental tattoos or obtain a Very Rare Elemental Tattoo, you can only have 1 Very Rare Elemental Tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Evolving Tattoo",
+					"entries": [
+						"This tattoo can be upgraded with additions to the tattoo in order to \"evolve\" it into the following tattoo: the {@item Galewinds Tattoo|AU}. This can only be done if you are already {@variantrule Attunement|XPHB|Attuned} to this tattoo, allowing you to mechanically replace this tattoo with the other without losing an additional Attunement spot. Additionally, the time and cost is limited to only the difference between a Rare Magical Tattoo and a Very Rare Magical Tattoo.",
+						"If you are not attuned to this tattoo, then you cannot \"evolve\" this tattoo, however the option for cover ups, removal, and others are still available for the full price and full duration of a Very Rare tattoo."
 					]
 				}
 			]
@@ -4836,8 +4821,11 @@
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": "optional",
-			"detail1": "Majorly",
-			"detail2": "either just {@item Elemental Ink, Ash|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Fire|AU|Fire}",
+			"detail1": "Para-Elemental Plane of Ash",
+			"detail2": "either just {@item Elemental Ink, Ash|AU}, or 2 {@item Elemental Inks|AU} ({@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Fire|AU|Fire})",
+			"property": [
+				"EMT2|AU"
+			],
 			"resist": [
 				"poison"
 			],
@@ -4845,7 +4833,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Damage Resistance or Movement Boost",
@@ -4864,42 +4852,17 @@
 				},
 				{
 					"type": "entries",
-					"name": "If You Attune",
+					"name": "Amount Limitations",
 					"entries": [
-						
+						"You can only have two Rare Elemental Tattoos, each one relating to one of the 3 Elements that you are bonded to. See tattoo property on details on what those bonds are. Additionally, whether you evolve one of your Rare elemental tattoos or obtain a Very Rare Elemental Tattoo, you can only have 1 Very Rare Elemental Tattoo."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Evolving Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: List/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"This tattoo can be upgraded with additions to the tattoo in order to \"evolve\" it into the following tattoo: the {@item Smog Tattoo|AU}. This can only be done if you are already {@variantrule Attunement|XPHB|Attuned} to this tattoo, allowing you to mechanically replace this tattoo with the other without losing an additional Attunement spot. Additionally, the time and cost is limited to only the difference between a Rare Magical Tattoo and a Very Rare Magical Tattoo.",
+						"If you are not attuned to this tattoo, then you cannot \"evolve\" this tattoo, however the option for cover ups, removal, and others are still available for the full price and full duration of a Very Rare tattoo."
 					]
 				}
 			],
@@ -5089,8 +5052,11 @@
 			"page": 160,
 			"rarity": "very rare",
 			"reqAttune": true,
-			"detail1": "Massively",
-			"detail2": "either just {@item Elemental Ink, Ice|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Water|AU|Water}",
+			"detail1": "Para-Elemental Plane of Ice",
+			"detail2": "either just {@item Elemental Ink, Ice|AU}, or 2 {@item Elemental Inks|AU} ({@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Water|AU|Water})",
+			"property": [
+				"EMT2|AU"
+			],
 			"resist": [
 				"cold"
 			],
@@ -5101,7 +5067,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Ice Related Benefits",
@@ -5121,35 +5087,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"You can only have 1 Very Rare Elemental Tattoo, relating to one of the 3 Elements you are bonded to."
 					]
 				}
 			]
@@ -15724,13 +15664,16 @@
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
-			"detail1": "Moderately",
+			"detail1": "Elemental Plane of Fire",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Fire|AU|Fire}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Magma|AU|Magma}",
+			"property": [
+				"EMT2|AU"
+			],
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Control Flames",
@@ -15759,39 +15702,6 @@
 								[
 									"{@item Elemental Ink, Magma|AU|Magma}",
 									"You can shape molten rock, as well as melted metals used in smithing, with this spell"
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
 								]
 							]
 						}
@@ -24781,8 +24691,11 @@
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": "optional",
-			"detail1": "Majorly",
+			"detail1": "Elemental Plane of Earth",
 			"detail2": "{@item Elemental Ink, Earth|AU}",
+			"property": [
+				"EMT2|AU"
+			],
 			"resist": [
 				"bludgeoning"
 			],
@@ -24790,7 +24703,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Damage Resistance or Movement Boost",
@@ -24809,35 +24722,17 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"You can only have two Rare Elemental Tattoos, each one relating to one of the 3 Elements that you are bonded to. See tattoo property on details on what those bonds are. Additionally, whether you evolve one of your Rare elemental tattoos or obtain a Very Rare Elemental Tattoo, you can only have 1 Very Rare Elemental Tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Evolving Tattoo",
+					"entries": [
+						"This tattoo can be upgraded with additions to the tattoo in order to \"evolve\" it into the following tattoo: the {@item Techtonic Tattoo|AU}. This can only be done if you are already {@variantrule Attunement|XPHB|Attuned} to this tattoo, allowing you to mechanically replace this tattoo with the other without losing an additional Attunement spot. Additionally, the time and cost is limited to only the difference between a Rare Magical Tattoo and a Very Rare Magical Tattoo.",
+						"If you are not attuned to this tattoo, then you cannot \"evolve\" this tattoo, however the option for cover ups, removal, and others are still available for the full price and full duration of a Very Rare tattoo."
 					]
 				}
 			]
@@ -25216,19 +25111,21 @@
 			"source": "AU",
 			"page": 157,
 			"rarity": "common",
-			"detail1": "Minimally",
+			"detail1": "Inner Plane of Elemental Chaos",
 			"detail2": "any one of the {@item Elemental Inks|AU}",
+			"property": [
+				"EMT2|AU"
+			],
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
-				"{@i Required Visibility: No}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Elemental Aura",
 					"entries": [
-						"With this tattoo, you Emanate a 10-foot aura relating to the one type of {@item Elemental Inks|AU|Elemental Ink} used. See the Table below for a breakdown of what occurs in the aura based on your choice of ink.",
+						"With this tattoo, you Emanate a 10-foot aura relating to the one type of {@item Elemental Inks|AU|Elemental Ink} used. You can control if this aura is present or not, providing a mental command at will as a Free Action. See the Table below for a breakdown of what occurs in the aura based on your choice of ink.",
 						{
 							"type": "table",
 							"caption": "Elemental Ink Type and their Aura",
@@ -25319,39 +25216,6 @@
 										"Putrid odor like decaying rot, humid air that is sticky yet very moist, others feel sickly but you are not impacted by this"
 									]
 								}
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
 							]
 						}
 					]
@@ -29305,8 +29169,11 @@
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": "optional",
-			"detail1": "Majorly",
+			"detail1": "Elemental Plane of Fire",
 			"detail2": "{@item Elemental Ink, Fire|AU}",
+			"property": [
+				"EMT2|AU"
+			],
 			"modifySpeed": {
 				"bonus": {
 					"*": "5"
@@ -29319,7 +29186,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Damage Resistance or Movement Boost",
@@ -29333,40 +29200,22 @@
 								"{@b Movement Related.} Your movement speed increases by 5 feet."
 							]
 						},
-						"{@b If you attune to this tattoo,} you gain both benefits listed above."
+						"{@b If you Attune to this tattoo,} you gain both benefits listed above."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"You can only have two Rare Elemental Tattoos, each one relating to one of the 3 Elements that you are bonded to. See tattoo property on details on what those bonds are. Additionally, whether you evolve one of your Rare elemental tattoos or obtain a Very Rare Elemental Tattoo, you can only have 1 Very Rare Elemental Tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Evolving Tattoo",
+					"entries": [
+						"This tattoo can be upgraded with additions to the tattoo in order to \"evolve\" it into the following tattoo: the {@item Inferno Tattoo|AU}. This can only be done if you are already {@variantrule Attunement|XPHB|Attuned} to this tattoo, allowing you to mechanically replace this tattoo with the other without losing an additional Attunement spot. Additionally, the time and cost is limited to only the difference between a Rare Magical Tattoo and a Very Rare Magical Tattoo.",
+						"If you are not attuned to this tattoo, then you cannot \"evolve\" this tattoo, however the option for cover ups, removal, and others are still available for the full price and full duration of a Very Rare tattoo."
 					]
 				}
 			]
@@ -31275,8 +31124,11 @@
 			"page": 160,
 			"rarity": "very rare",
 			"reqAttune": true,
-			"detail1": "Massively",
+			"detail1": "Elemental Plane of Air",
 			"detail2": "{@item Elemental Ink, Air|AU}",
+			"property": [
+				"EMT2|AU"
+			],
 			"modifySpeed": {
 				"static": {
 					"fly": "60"
@@ -31289,7 +31141,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Air Benefits",
@@ -31308,35 +31160,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"You can only have 1 Very Rare Elemental Tattoo, relating to one of the 3 Elements you are bonded to."
 					]
 				}
 			],
@@ -33373,8 +33199,11 @@
 			"page": 160,
 			"rarity": "very rare",
 			"reqAttune": true,
-			"detail1": "Massively",
-			"detail2": "either just {@item Elemental Ink, Ooze|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Water|AU|Water}",
+			"detail1": "Para-Elemental Plane of Ooze",
+			"detail2": "either just {@item Elemental Ink, Ooze|AU}, or 2 {@item Elemental Inks|AU} ({@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Water|AU|Water})",
+			"property": [
+				"EMT2|AU"
+			],
 			"resist": [
 				"acid"
 			],
@@ -33382,7 +33211,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Ooze Benefits",
@@ -33402,35 +33231,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"You can only have 1 Very Rare Elemental Tattoo, relating to one of the 3 Elements you are bonded to."
 					]
 				}
 			],
@@ -38170,8 +37973,11 @@
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": "optional",
-			"detail1": "Majorly",
-			"detail2": "either just {@item Elemental Ink, Ice|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Water|AU|Water}",
+			"detail1": "Para-Elemental Plane of Ice",
+			"detail2": "either just {@item Elemental Ink, Ice|AU}, or 2 {@item Elemental Inks|AU} ({@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Water|AU|Water})",
+			"property": [
+				"EMT2|AU"
+			],
 			"resist": [
 				"cold"
 			],
@@ -38179,7 +37985,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Damage Resistance or Movement Boost",
@@ -38193,40 +37999,22 @@
 								"{@b Movement Related.} You ignore Difficult Terrain while in snow, ice, and other slippery smooth surfaces."
 							]
 						},
-						"{@b If you attune to this tattoo,} you gain both benefits listed above."
+						"{@b If you Attune to this tattoo,} you gain both benefits listed above."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"You can only have two Rare Elemental Tattoos, each one relating to one of the 3 Elements that you are bonded to. See tattoo property on details on what those bonds are. Additionally, whether you evolve one of your Rare elemental tattoos or obtain a Very Rare Elemental Tattoo, you can only have 1 Very Rare Elemental Tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Evolving Tattoo",
+					"entries": [
+						"This tattoo can be upgraded with additions to the tattoo in order to \"evolve\" it into the following tattoo: the {@item Avalanched Tattoo|AU}. This can only be done if you are already {@variantrule Attunement|XPHB|Attuned} to this tattoo, allowing you to mechanically replace this tattoo with the other without losing an additional Attunement spot. Additionally, the time and cost is limited to only the difference between a Rare Magical Tattoo and a Very Rare Magical Tattoo.",
+						"If you are not attuned to this tattoo, then you cannot \"evolve\" this tattoo, however the option for cover ups, removal, and others are still available for the full price and full duration of a Very Rare tattoo."
 					]
 				}
 			]
@@ -38630,8 +38418,11 @@
 			"page": 160,
 			"rarity": "very rare",
 			"reqAttune": true,
-			"detail1": "Massively",
+			"detail1": "Elemental Plane of Fire",
 			"detail2": "{@item Elemental Ink, Fire|AU}",
+			"property": [
+				"EMT2|AU"
+			],
 			"modifySpeed": {
 				"bonus": {
 					"*": "5"
@@ -38647,7 +38438,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Fire Benefits",
@@ -38666,35 +38457,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"You can only have 1 Very Rare Elemental Tattoo, relating to one of the 3 Elements you are bonded to."
 					]
 				}
 			]
@@ -47581,13 +47346,16 @@
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
-			"detail1": "Moderately",
+			"detail1": "Elemental Plane of Earth",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Earth|AU|Earth}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Ooze|AU|Ooze}",
+			"property": [
+				"EMT2|AU"
+			],
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Mold Earth",
@@ -47620,39 +47388,6 @@
 							]
 						}
 					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
-					]
 				}
 			],
 			"attachedSpells": {
@@ -47671,8 +47406,11 @@
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": "optional",
-			"detail1": "Majorly",
-			"detail2": "either just {@item Elemental Ink, Magma|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Fire|AU|Fire}",
+			"detail1": "Para-Elemental Plane of Magma",
+			"detail2": "either just {@item Elemental Ink, Magma|AU}, or 2 {@item Elemental Inks|AU} ({@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Fire|AU|Fire})",
+			"property": [
+				"EMT2|AU"
+			],
 			"resist": [
 				"fire"
 			],
@@ -47680,7 +47418,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Regardless of Attunement",
@@ -47694,40 +47432,22 @@
 								"{@b Movement Related.} You ignore Difficult Terrain as you walk on the surface molten rock as if it were solid."
 							]
 						},
-						"{@b If you attune to this tattoo,} you gain both benefits listed above."
+						"{@b If you Attune to this tattoo,} you gain both benefits listed above."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"You can only have two Rare Elemental Tattoos, each one relating to one of the 3 Elements that you are bonded to. See tattoo property on details on what those bonds are. Additionally, whether you evolve one of your Rare elemental tattoos or obtain a Very Rare Elemental Tattoo, you can only have 1 Very Rare Elemental Tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Evolving Tattoo",
+					"entries": [
+						"This tattoo can be upgraded with additions to the tattoo in order to \"evolve\" it into the following tattoo: the {@item Volcanic Tattoo|AU}. This can only be done if you are already {@variantrule Attunement|XPHB|Attuned} to this tattoo, allowing you to mechanically replace this tattoo with the other without losing an additional Attunement spot. Additionally, the time and cost is limited to only the difference between a Rare Magical Tattoo and a Very Rare Magical Tattoo.",
+						"If you are not attuned to this tattoo, then you cannot \"evolve\" this tattoo, however the option for cover ups, removal, and others are still available for the full price and full duration of a Very Rare tattoo."
 					]
 				}
 			]
@@ -50332,8 +50052,11 @@
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": "optional",
-			"detail1": "Majorly",
-			"detail2": "either just {@item Elemental Ink, Ooze|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Water|AU|Water}",
+			"detail1": "Para-Elemental Plane of Ooze",
+			"detail2": "either just {@item Elemental Ink, Ooze|AU}, or 2 {@item Elemental Inks|AU} ({@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Water|AU|Water})",
+			"property": [
+				"EMT2|AU"
+			],
 			"resist": [
 				"acid"
 			],
@@ -50341,7 +50064,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Damage Resistance or Movement Boost",
@@ -50355,40 +50078,22 @@
 								"{@b Movement Related.} You can cast {@spell Water Walk|XPHB} targeting yourself, however you can only cross over quicksand, sewage, mud, and other non-solid surface that is not primarily water or lava. You can cast this spell three times and regain all expended uses on a Long Rest."
 							]
 						},
-						"{@b If you attune to this tattoo,} you gain both benefits listed above."
+						"{@b If you Attune to this tattoo,} you gain both benefits listed above."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"Yes/No/Necessary: Will work without it but won't have expected effect without it"
-								]
-							]
-						}
+						"You can only have two Rare Elemental Tattoos, each one relating to one of the 3 Elements that you are bonded to. See tattoo property on details on what those bonds are. Additionally, whether you evolve one of your Rare elemental tattoos or obtain a Very Rare Elemental Tattoo, you can only have 1 Very Rare Elemental Tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Evolving Tattoo",
+					"entries": [
+						"This tattoo can be upgraded with additions to the tattoo in order to \"evolve\" it into the following tattoo: the {@item Grime Tattoo|AU}. This can only be done if you are already {@variantrule Attunement|XPHB|Attuned} to this tattoo, allowing you to mechanically replace this tattoo with the other without losing an additional Attunement spot. Additionally, the time and cost is limited to only the difference between a Rare Magical Tattoo and a Very Rare Magical Tattoo.",
+						"If you are not attuned to this tattoo, then you cannot \"evolve\" this tattoo, however the option for cover ups, removal, and others are still available for the full price and full duration of a Very Rare tattoo."
 					]
 				}
 			],
@@ -51946,51 +51651,21 @@
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
-			"detail1": "Moderately",
+			"detail1": "Inner Plane of Elemental Chaos",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Ash|AU|Ash}, {@item Elemental Ink, Ice|AU|Ice}, {@item Elemental Ink, Magma|AU|Magma}, or {@item Elemental Ink, Ooze|AU|Ooze}",
+			"property": [
+				"EMT2|AU"
+			],
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Elementalism",
 					"entries": [
 						"You know the {@spell Elementalism|XPHB} cantrip, however, you can only use the Sculpt Elements effect on any elemental-like natural object and phenomena."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
 					]
 				}
 			],
@@ -66254,13 +65929,16 @@
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
-			"detail1": "Moderately",
+			"detail1": "Elemental Plane of Water",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Water|AU|Water}, {@item Elemental Ink, Ice|AU|Ice}, or {@item Elemental Ink, Ooze|AU|Ooze}",
+			"property": [
+				"EMT2|AU"
+			],
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Shape Water",
@@ -66289,39 +65967,6 @@
 								[
 									"{@item Elemental Ink, Ooze|AU|Ooze}",
 									"You can target a space in the ground that's solidified by a lot of smaller pieces (such as compacted sand, solid yet lose dirt and gravel, etc) with this spell and make it partially liquified for 1 hour (creating quicksand, deep mud puddle, etc)."
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
 								]
 							]
 						}
@@ -69330,8 +68975,11 @@
 			"page": 160,
 			"rarity": "very rare",
 			"reqAttune": true,
-			"detail1": "Massively",
-			"detail2": "either just {@item Elemental Ink, Ash|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Fire|AU|Fire}",
+			"detail1": "Para-Elemental Plane of Ash",
+			"detail2": "either just {@item Elemental Ink, Ash|AU}, or 2 {@item Elemental Inks|AU} ({@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Fire|AU|Fire})",
+			"property": [
+				"EMT2|AU"
+			],
 			"resist": [
 				"poison"
 			],
@@ -69339,7 +68987,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Ash Benefits",
@@ -69359,35 +69007,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"You can only have 1 Very Rare Elemental Tattoo, relating to one of the 3 Elements you are bonded to."
 					]
 				}
 			],
@@ -77496,8 +77118,11 @@
 			"page": 160,
 			"rarity": "very rare",
 			"reqAttune": true,
-			"detail1": "Massively",
+			"detail1": "Elemental Plane of Earth",
 			"detail2": "{@item Elemental Ink, Earth|AU}",
+			"property": [
+				"EMT2|AU"
+			],
 			"modifySpeed": {
 				"equal": {
 					"burrow": "walk"
@@ -77512,7 +77137,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Earth Benefits",
@@ -77531,35 +77156,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"You can only have 1 Very Rare Elemental Tattoo, relating to one of the 3 Elements you are bonded to."
 					]
 				}
 			]
@@ -82967,8 +82566,11 @@
 			"page": 160,
 			"rarity": "very rare",
 			"reqAttune": true,
-			"detail1": "Massively",
-			"detail2": "either just {@item Elemental Ink, Magma|AU}, or 2 {@item Elemental Inks|AU}: {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Fire|AU|Fire}",
+			"detail1": "Para-Elemental Plane of Magma",
+			"detail2": "either just {@item Elemental Ink, Magma|AU}, or 2 {@item Elemental Inks|AU} ({@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Fire|AU|Fire})",
+			"property": [
+				"EMT2|AU"
+			],
 			"modifySpeed": {
 				"bonus": {
 					"*": "-5"
@@ -82982,7 +82584,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Magma Benefits",
@@ -83002,35 +82604,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"You can only have 1 Very Rare Elemental Tattoo, relating to one of the 3 Elements you are bonded to."
 					]
 				}
 			]
@@ -85496,8 +85072,11 @@
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": "optional",
-			"detail1": "Majorly",
+			"detail1": "Elemental Plane of Water",
 			"detail2": "{@item Elemental Ink, Water|AU}",
+			"property": [
+				"EMT2|AU"
+			],
 			"modifySpeed": {
 				"equal": {
 					"swim": "walk"
@@ -85510,7 +85089,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Damage Resistance or Movement Boost",
@@ -85524,47 +85103,22 @@
 								"{@b Movement Related.} You gain a Swim Speed equal to you walking speed."
 							]
 						},
-						"{@b If you attune to this tattoo,} you gain both benefits listed above."
+						"{@b If you Attune to this tattoo,} you gain both benefits listed above."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "If You Attune",
+					"name": "Amount Limitations",
 					"entries": [
-						"You gain both benefits listed above when you Attune to this tattoo."
+						"You can only have two Rare Elemental Tattoos, each one relating to one of the 3 Elements that you are bonded to. See tattoo property on details on what those bonds are. Additionally, whether you evolve one of your Rare elemental tattoos or obtain a Very Rare Elemental Tattoo, you can only have 1 Very Rare Elemental Tattoo."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Evolving Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"This tattoo can be upgraded with additions to the tattoo in order to \"evolve\" it into the following tattoo: the {@item Whirlpool Tattoo|AU}. This can only be done if you are already {@variantrule Attunement|XPHB|Attuned} to this tattoo, allowing you to mechanically replace this tattoo with the other without losing an additional Attunement spot. Additionally, the time and cost is limited to only the difference between a Rare Magical Tattoo and a Very Rare Magical Tattoo.",
+						"If you are not attuned to this tattoo, then you cannot \"evolve\" this tattoo, however the option for cover ups, removal, and others are still available for the full price and full duration of a Very Rare tattoo."
 					]
 				}
 			]
@@ -86144,8 +85698,11 @@
 			"page": 160,
 			"rarity": "very rare",
 			"reqAttune": true,
-			"detail1": "Massively",
+			"detail1": "Elemental Plane of Water",
 			"detail2": "{@item Elemental Ink, Water|AU}",
+			"property": [
+				"EMT2|AU"
+			],
 			"modifySpeed": {
 				"static": {
 					"swim": "40"
@@ -86158,7 +85715,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Water Benefits",
@@ -86177,35 +85734,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Amount Limitations",
 					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
+						"You can only have 1 Very Rare Elemental Tattoo, relating to one of the 3 Elements you are bonded to."
 					]
 				}
 			],
@@ -86910,13 +86441,16 @@
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
-			"detail1": "Moderately",
+			"detail1": "Elemental Plane of Air",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Ice|AU|Ice}",
+			"property": [
+				"EMT2|AU"
+			],
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Elemental Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Gust",
@@ -86945,39 +86479,6 @@
 								[
 									"{@item Elemental Ink, Ice|AU|Ice}",
 									"When you cast this spell, you can drop the temperate of the air down that it causes liquids to begin freezing when hit by this gust of wind."
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
 								]
 							]
 						}
@@ -89697,9 +89198,6 @@
 			"type": "GV|XDMG",
 			"rarity": "varies",
 			"tattoo": true,
-			"entries": [
-				"Elemental Tattoos are Enhanced Tattooes that use specific {@item Elemental Inks|AU} to gain effects and benefits relating to that element in question."
-			],
 			"items": [
 				"Elemental Aura Tattoo|AU",
 				"Control Heat Tattoo|AU",
