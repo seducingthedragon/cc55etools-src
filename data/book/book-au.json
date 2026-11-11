@@ -8156,9 +8156,9 @@
 													"Can only have 1 Branded Tattoo, regardless of attunement."
 												],
 												[
-													"{@item Class Tattoos|AU}",
+													"{@itemProperty CT2|AU|Class Tattoo}",
 													"No Attunement if its your Class, Required if not your class",
-													"If you Multi-class, you only get 1 Class Tattoo without attunement, the next one will require attunement even if it is one of your classes."
+													"Max of 3 Class Tattoos regardless of Attunement status. If you Multi-class, you only get 1 of your classes Class Tattoos without Attunement."
 												],
 												[
 													"{@item Elemental Tattoos|AU}",
@@ -8592,18 +8592,18 @@
 									"Optional"
 								],
 								[
-									"{@item Moderately Armored Tattoo|AU|Moderately Armored}",
-									"Unarmored AC is 15 plus your DEX Mod (max 2), can use shield and keep benefit",
-									"{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
 									"{@item Ashy Tattoo|AU|Ashy}",
 									"Without Attunement, you choose between a related damage resistance (poison) or a movement speed benefit (floating fall). With Attunement, you gain both.",
 									"Only {@item Elemental Ink, Ash|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Fire|AU|Fire}",
 									"No",
 									"Optional"
+								],
+								[
+									"Chaotic Branded Tattoo",
+									"Benefits from Limbo: ",
+									"{@item Enchanted Ink|AU|Purple Enchanted Ink}, {@item Invisible Ink|AU}, {@item Dancing Ink|AU}, and {@item Prismatic Ink|AU}",
+									"No",
+									"Dependent"
 								],
 								[
 									"{@item Cold Absorbing Tattoo|AU|Cold Absorbing}",
@@ -8641,6 +8641,20 @@
 									"Optional"
 								],
 								[
+									"Environment Branded Tattoo",
+									"Benefits from Elemental Chaos: ",
+									"{@item Enchanted Ink|AU}, {@item Invisible Ink|AU}, and each Primary {@item Elemental Inks|AU|Elemental Ink} ({@item Elemental Ink, Air|AU|Air}, {@item Elemental Ink, Earth|AU|Earth}, {@item Elemental Ink, Fire|AU|Fire}, and {@item Elemental Ink, Water|AU|Water})",
+									"No",
+									"Dependent"
+								],
+								[
+									"Faerie Branded Tattoo",
+									"Nenefits from Feywild: ",
+									"{@item Enchanted Ink|AU|Pink Enchanted Ink}, {@item Invisible Ink|AU}, and {@item Prismatic Ink|AU}",
+									"No",
+									"Dependent"
+								],
+								[
 									"{@item Fiery Tattoo|AU|Fiery}",
 									"Without Attunement, you choose between a related damage resistance (fire) or a movement speed benefit (increase speed by 5 feet). With Attunement, you gain both.",
 									"{@item Elemental Ink, Fire|AU}",
@@ -8653,6 +8667,20 @@
 									"{@item Enchanted Ink|AU|Red Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Elemental Ink, Fire|AU}",
 									"No",
 									"Optional"
+								],
+								[
+									"Heavenly Branded Tattoo",
+									"Benefits from the Upper Planes: ",
+									"{@item Enchanted Ink|AU|White and/or Yellow Enchanted Ink}, {@item Invisible Ink|AU}, and {@item Stardust Ink|AU}",
+									"No",
+									"Dependent"
+								],
+								[
+									"Hellish Branded Tattoo",
+									"Benefits from the Lower Planes: ",
+									"{@item Enchanted Ink|AU|Red Enchanted Ink}, {@item Invisible Ink|AU}, and both {@item Elemental Inks|AU}, {@item Elemental Ink, Fire|AU|Fire} amd {@item Elemental Ink, Magma|AU|Magma}",
+									"No",
+									"Dependent"
 								],
 								[
 									"{@item Icey Tattoo|AU|Icey}",
@@ -8676,6 +8704,13 @@
 									"No"
 								],
 								[
+									"{@item Moderately Armored Tattoo|AU|Moderately Armored}",
+									"Unarmored AC is 15 plus your DEX Mod (max 2), can use shield and keep benefit",
+									"{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
+									"No",
+									"Yes"
+								],
+								[
 									"{@item Molten Tattoo|AU|Molten}",
 									"Without Attunement, you choose between a related damage resistance (fire) or a movement speed benefit (ignore Difficult Terrain on the surface of molten rock). With Attunement, you gain both.",
 									"Only {@item Elemental Ink, Magma|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Fire|AU|Fire}",
@@ -8697,6 +8732,13 @@
 									"Optional"
 								],
 								[
+									"Orderly Branded Tattoo",
+									"Benefits from Mechanus: ",
+									"{@item Enchanted Ink|AU|Gray Enchanted Ink}, {@item Invisible Ink|AU}, {@item Dancing Ink|AU}, and {@item Metal-Lic Ink|AU}",
+									"No",
+									"Dependent"
+								],
+								[
 									"{@item Poison Absorbing Tattoo|AU|Poison Absorbing}",
 									"Poison Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
 									"{@item Enchanted Ink|AU|Olive Enchanted Ink} plus {@item Elemental Ink, Ash|AU} and {@item Glowing Ink|AU}",
@@ -8716,6 +8758,13 @@
 									"{@item Enchanted Ink|AU|White Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Metal-Lic Ink|AU|Gold Metal-Lic Ink}, and {@item Stardust Ink|AU}",
 									"No",
 									"Yes"
+								],
+								[
+									"Shadow Branded Tattoo",
+									"Benefits from Shadowfell: ",
+									"{@item Enchanted Ink|AU|Black Enchanted Ink}, {@item Invisible Ink|AU}, {@item Metal-Lic Ink|AU}, and {@item Prismatic Ink|AU}",
+									"No",
+									"Dependent"
 								],
 								[
 									"{@item Silvered Tattoo|AU|Silvered}",

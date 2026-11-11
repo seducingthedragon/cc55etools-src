@@ -4632,6 +4632,54 @@
 			]
 		},
 		{
+			"name": "Artificer Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not an Artificer",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Engineers of the Party and Community.",
+					"entries": [
+						"This tattoo is for Artificers. Their Attunement is optional and not required to gain full benefits. \"Artificer Appreciators\" and \"Artificer Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Head, Face, or Back of Hands",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and 1 additional Enchanted Ink type of your choice.",
+								"{@b Recommended Iconography:} Gears, Tools, Schematics",
+								"{@b Additional Resources:} 1 Magic Item Plan"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Replicate Magic Item",
+					"entries": [
+						"When you get this tattoo, you infuse the essence of a Magic Item Plan within it. This plan does not count towards your Plans Known total and you cannot replace the plan once the tattooing has begun. You can create the item once without expending a use dictated your Replicate Magic Item feature.",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+					]
+				}
+			]
+		},
+		{
 			"name": "Ascendant Dragon Vessel",
 			"source": "FTD",
 			"_copy": {
@@ -6679,6 +6727,102 @@
 					"entries": [
 						"You can transfer the banner's magic to a place by tracing the krig rune on the ground with your finger. The point where you trace it becomes the center of a spherical area of magic that has a 500-foot radius and that is fixed to the place. The transfer takes 8 hours of work that requires the banner to be within 5 feet of you and during which you choose creatures, creature types, or both that will benefit from the magic. At the end, the banner is destroyed, and the area gains the following property:",
 						"While in the 500-foot-radius sphere, the creatures you chose during the transfer process are immune to the {@condition frightened} condition and gain a +1 bonus to attack rolls and AC."
+					]
+				}
+			]
+		},
+		{
+			"name": "Barbarian Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not a Barbarian",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Wild Warrior of the Party and Community.",
+					"entries": [
+						"This tattoo is for Barbarians. Their Attunement is optional and not required to gain full benefits. \"Barbarian Appreciators\" and \"Barbarian Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Hands, Arms, Shoulders, Chest, Legs",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and 1 {@item Elemental Inks|AU|Elemental Ink} of your choice",
+								"{@b Recommended Iconography:} Greataxe, Greatsword, Mountains, Stone",
+								"{@b Additional Resources:} RESOURCEFORBENIES"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BENNIESNAME",
+					"entries": [
+						"BENEFITSINFORMATION",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bard Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not a Bard",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Inspirational Ones of the Party and Community.",
+					"entries": [
+						"This tattoo is for Bards. Their Attunement is optional and not required to gain full benefits. \"Bard Appreciators\" and \"Bard Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Anywhere relating to your Creative Style",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Glowing Ink|AU}, and at least 1 other Enchanted Ink Type of your choice",
+								"{@b Recommended Iconography:} Musical Instrument, Musical Notes, Quill, Dance Shoes, any image relating to your bardic style",
+								"{@b Additional Resources:} RESOURCEFORBENIES"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BENNIESNAME",
+					"entries": [
+						"BENEFITSINFORMATION",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
 					]
 				}
 			]
@@ -13425,6 +13569,92 @@
 			"value": 1
 		},
 		{
+			"name": "Chaotic Branded Tattoo",
+			"group": [
+				"Branded Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|Purple Enchanted Ink}, {@item Invisible Ink|AU}, {@item Dancing Ink|AU}, and {@item Prismatic Ink|AU}",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Branded Tattoo Attunement",
+					"entries": [
+						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
+						{
+							"type": "list",
+							"items": [
+								"You ancestral lineage has ties to this plane, such as a Githzerai or a Githyanki",
+								"Your Creature Type relates to this plane, such as an Aberration",
+								"You are getting branded while in the plane of Limbo",
+								"You are a Warlock and your pact is with a being from that plane (Great Old One Pact)"
+							]
+						},
+						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Branded Benefits",
+					"entries": [
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Limbo",
+									"entry": "Limbo"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium plus?"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Chariot",
 			"source": "PHB",
 			"page": 157,
@@ -14190,6 +14420,54 @@
 			"entries": [
 				"A cleansing stone is a sphere 1 foot in diameter, engraved with mystic sigils. When touching the stone, you can use an action to activate it and remove dirt and grime from your garments and your person.",
 				"Such stones are often embedded in pedestals in public squares in Aundair or in high-end Ghallanda inns."
+			]
+		},
+		{
+			"name": "Cleric Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not a Cleric",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Holy Ones of the Party and Community.",
+					"entries": [
+						"This tattoo is for Clerics. Their Attunement is optional and not required to gain full benefits. \"Cleric Appreciators\" and \"Cleric Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face, Chest, Hands",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Glowing Ink|AU}, and {@item Stardust Ink|AU}",
+								"{@b Recommended Iconography:} Symbol representing your Deity, Prayer Beads, Radiant Light",
+								"{@b Additional Resources:} RESOURCEFORBENIES"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BENNIESNAME",
+					"entries": [
+						"BENEFITSINFORMATION",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+					]
+				}
 			]
 		},
 		{
@@ -17447,7 +17725,7 @@
 			"source": "AU",
 			"page": 153,
 			"rarity": "uncommon",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Minimally",
 			"detail2": "can be seen moving within, even while on a flat non-moving surface.",
@@ -25491,7 +25769,7 @@
 			"source": "AU",
 			"page": 154,
 			"rarity": "uncommon",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Moderately",
 			"detail2": "air element and has a liquid pale-color smokey",
@@ -25518,7 +25796,7 @@
 			"source": "AU",
 			"page": 155,
 			"rarity": "uncommon",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Moderately",
 			"detail2": "ash para-element and has a dark smokey liquid with black soot-like speckled",
@@ -25545,7 +25823,7 @@
 			"source": "AU",
 			"page": 154,
 			"rarity": "uncommon",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Moderately",
 			"detail2": "earth element and has a \"textured mud\"",
@@ -25572,7 +25850,7 @@
 			"source": "AU",
 			"page": 154,
 			"rarity": "uncommon",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Moderately",
 			"detail2": "fire element and has a swirling liquid fire-like",
@@ -25599,7 +25877,7 @@
 			"source": "AU",
 			"page": 155,
 			"rarity": "uncommon",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Moderately",
 			"detail2": "ice para-element and has a pale-blue crystal-like textured",
@@ -25626,7 +25904,7 @@
 			"source": "AU",
 			"page": 155,
 			"rarity": "uncommon",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Moderately",
 			"detail2": "magma para-element and has a multi-color thick yet flowing.",
@@ -25653,7 +25931,7 @@
 			"source": "AU",
 			"page": 155,
 			"rarity": "uncommon",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Moderately",
 			"detail2": "ooze para-element and has a semi-transparent, bubbling, and viscious",
@@ -25680,7 +25958,7 @@
 			"source": "AU",
 			"page": 154,
 			"rarity": "uncommon",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Moderately",
 			"detail2": "water element and has a semi-transparent quality and low viscosity in.",
@@ -26094,7 +26372,7 @@
 			"source": "AU",
 			"page": 153,
 			"rarity": "common",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Minimally",
 			"detail2": "comes in various colors with a magically neutral aura.",
@@ -26102,7 +26380,7 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enchanted Ink|AU}",
-				"This is a basic magical ink, considered to be generic compared to other magical inks, which allows the tattooist to use it as part of all tattoo enhancements. It can even be used to replicate the base properties of other {@item Enchanted Inks|AU}, however, it does not give the full power as those specialized magical inks. It is the cheapest of all the magical inks, which is what makes this one so popular amongst those who provide magically enchanted tattoos."
+				"This is a basic magical ink, considered to be generic compared to other magical inks, which allows the tattooist to use it as part of all tattoo enhancements, most commonly used as a base for the tattoo. It is the cheapest of all the magical inks, which is what makes this one so popular amongst those who provide magically enchanted tattoos as it has the ability to replicate other Enchanted Inks to a lesser degree."
 			]
 		},
 		{
@@ -26113,7 +26391,7 @@
 			"source": "AU",
 			"page": 155,
 			"rarity": "common",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"wondrous": true,
 			"entries": [
@@ -27155,6 +27433,92 @@
 				},
 				"tinderbox|xphb",
 				"waterskin|xphb"
+			]
+		},
+		{
+			"name": "Environment Branded Tattoo",
+			"group": [
+				"Branded Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU}, {@item Invisible Ink|AU}, and each Primary {@item Elemental Inks|AU|Elemental Ink} ({@item Elemental Ink, Air|AU|Air}, {@item Elemental Ink, Earth|AU|Earth}, {@item Elemental Ink, Fire|AU|Fire}, and {@item Elemental Ink, Water|AU|Water})",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Branded Tattoo Attunement",
+					"entries": [
+						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
+						{
+							"type": "list",
+							"items": [
+								"You ancestral lineage has ties to this planar region, such as a Genasi",
+								"Your Creature Type relates to this planar region, such as an Elemental",
+								"You are getting branded while within that planar region, such as Air, Earth, Fire, or Water Planes",
+								"You are a Warlock and your pact is with a being from that planar region (Genie Pact)"
+							]
+						},
+						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Branded Benefits",
+					"entries": [
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Elemental Chaos",
+									"entry": "Elemental Chaos"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium plus?"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -28204,6 +28568,92 @@
 			]
 		},
 		{
+			"name": "Faerie Branded Tattoo",
+			"group": [
+				"Branded Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|Pink Enchanted Ink}, {@item Invisible Ink|AU}, and {@item Prismatic Ink|AU}",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Branded Tattoo Attunement",
+					"entries": [
+						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
+						{
+							"type": "list",
+							"items": [
+								"You ancestral lineage has ties to this plane, such as an Eladrin",
+								"Your Creature Type relates to this plane, such as a Fey",
+								"You are getting branded while in the Feywild",
+								"You are a Warlock and your pact is with a being from that plane (Archfey Pact)"
+							]
+						},
+						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Branded Benefits",
+					"entries": [
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Feywild",
+									"entry": "Feywild"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium plus?"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Faerie Dust",
 			"source": "SKT",
 			"page": 35,
@@ -29118,6 +29568,54 @@
 								]
 							]
 						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fighter Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not a Fighter",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Combatant of the Party and Community.",
+					"entries": [
+						"This tattoo is for Fighters. Their Attunement is optional and not required to gain full benefits. \"Fighter Appreciators\" and \"Fighter Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face, Chest, Arms, Hands",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Dancing Ink|AU}, and {@item Metal-Lic Ink|AU}",
+								"{@b Recommended Iconography:} Weaponry",
+								"{@b Additional Resources:} RESOURCEFORBENIES"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BENNIESNAME",
+					"entries": [
+						"BENEFITSINFORMATION",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
 					]
 				}
 			]
@@ -32009,7 +32507,7 @@
 			"source": "AU",
 			"page": 153,
 			"rarity": "uncommon",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Minimally",
 			"detail2": "appears like a standard vial of tattoo ink with a faint glowing aura.",
@@ -32103,7 +32601,7 @@
 			"rarity": "uncommon",
 			"weight": 0.25,
 			"type": "T|XPHB",
-			"typeAlt": "TT|AU",
+			"typeAlt": "T2T|AU",
 			"wondrous": true,
 			"entries": [
 				"A gnomish-designed contraption that speeds up the tattoo process by rapidly punching the needle into the skin and injecting the ink several times per second. With practice, this makes doing complex tattoos much faster and easier for most artists.",
@@ -34922,6 +35420,92 @@
 			]
 		},
 		{
+			"name": "Heavenly Branded Tattoo",
+			"group": [
+				"Branded Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|White and/or Yellow Enchanted Ink}, {@item Invisible Ink|AU}, and {@item Stardust Ink|AU}",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Branded Tattoo Attunement",
+					"entries": [
+						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
+						{
+							"type": "list",
+							"items": [
+								"You ancestral lineage has ties to this planar region, such as an Aasimar",
+								"Your Creature Type relates to this planar region, such as a Celestial",
+								"You are getting branded while within any of the Upper Planes, such as Arborea, Elysium, or Mount Celestia",
+								"You are a Warlock and your pact is with a being from that planar region (Celestial Pact)"
+							]
+						},
+						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Branded Benefits",
+					"entries": [
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Upper Planes",
+									"entry": "Upper Planes"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium plus?"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Heavily Armored Tattoo",
 			"group": [
 				"Armored Tattoos",
@@ -35037,6 +35621,92 @@
 			],
 			"attachedSpells": [
 				"polymorph"
+			]
+		},
+		{
+			"name": "Hellish Branded Tattoo",
+			"group": [
+				"Branded Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|Red Enchanted Ink}, {@item Invisible Ink|AU}, and both {@item Elemental Inks|AU}, {@item Elemental Ink, Fire|AU|Fire} amd {@item Elemental Ink, Magma|AU|Magma}",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Branded Tattoo Attunement",
+					"entries": [
+						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
+						{
+							"type": "list",
+							"items": [
+								"You ancestral lineage has ties to this planar region, such as a Tiefling",
+								"Your Creature Type relates to this planar region, such as a Fiend, regardless of type",
+								"You are getting branded while within any of the Lower Planes, such as the Abyss, Hades, or the Nine Hells",
+								"You are a Warlock and your pact is with a being from that planar region (Fiend Pact)"
+							]
+						},
+						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Branded Benefits",
+					"entries": [
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Lower Planes",
+									"entry": "Lower Planes"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium plus?"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -39257,7 +39927,7 @@
 			"source": "AU",
 			"page": 153,
 			"rarity": "very rare",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"reqAttune": "by those proficient in a Tattooist's Kit",
 			"wondrous": true,
@@ -46173,7 +46843,7 @@
 			"source": "AU",
 			"page": 153,
 			"rarity": "uncommon",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Moderately",
 			"detail2": "has colors with a metallic appearance.",
@@ -47316,6 +47986,54 @@
 								]
 							]
 						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Monk Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not a Monk",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Wise Fighter of the Party and Community.",
+					"entries": [
+						"This tattoo is for Monks. Their Attunement is optional and not required to gain full benefits. \"Monk Appreciators\" and \"Monk Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Arms, Hands, Legs, Feet",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Dancing Ink|AU}, and {@item Elemental Ink, Earth|AU}",
+								"{@b Recommended Iconography:} Fists, Monk Weapons, Meditation",
+								"{@b Additional Resources:} RESOURCEFORBENIES"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BENNIESNAME",
+					"entries": [
+						"BENEFITSINFORMATION",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
 					]
 				}
 			]
@@ -50819,6 +51537,91 @@
 			]
 		},
 		{
+			"name": "Orderly Branded Tattoo",
+			"group": [
+				"Branded Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|Gray Enchanted Ink}, {@item Invisible Ink|AU}, {@item Dancing Ink|AU}, and {@item Metal-Lic Ink|AU}",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Branded Tattoo Attunement",
+					"entries": [
+						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
+						{
+							"type": "list",
+							"items": [
+								"You ancestral lineage has ties to this plane, such as an Autognome or Warforge",
+								"Your Creature Type relates to this plane, such as a Construct",
+								"You are getting branded while in the plane of Mechanus"
+							]
+						},
+						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Branded Benefits",
+					"entries": [
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Mechanus",
+									"entry": "Mechanus"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium plus?"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Ornithopter of Flying",
 			"source": "WBtW",
 			"page": 212,
@@ -51309,6 +52112,54 @@
 			],
 			"miscTags": [
 				"CNS"
+			]
+		},
+		{
+			"name": "Paladin Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not a Paladin",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Convicted of the Party and Community.",
+					"entries": [
+						"This tattoo is for Paladins. Their Attunement is optional and not required to gain full benefits. \"Paladin Appreciators\" and \"Paladin Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Head, Face, Arms, Chest",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Glowing Ink|AU}, and {@item Metal-Lic Ink|AU}",
+								"{@b Recommended Iconography:} Shield, Holy Symbol, Icon Representing Oath",
+								"{@b Additional Resources:} RESOURCEFORBENIES"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BENNIESNAME",
+					"entries": [
+						"BENEFITSINFORMATION",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+					]
+				}
 			]
 		},
 		{
@@ -56556,7 +57407,7 @@
 			"source": "AU",
 			"page": 154,
 			"rarity": "uncommon",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Minimally",
 			"detail2": "has an iridescent tint to its various colors",
@@ -58554,6 +59405,54 @@
 				}
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Ranger Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not a Ranger",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Hunter of the Party and Community.",
+					"entries": [
+						"This tattoo is for Rangers. Their Attunement is optional and not required to gain full benefits. \"Ranger Appreciators\" and \"Ranger Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face, Chest, Arms, Hands, Feet",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and at least 1 additional Enchanted Ink of your choice",
+								"{@b Recommended Iconography:} Bow and Arrow, Quiver, Animal Companion, Paw Prints, Claw Marks, Crosshairs",
+								"{@b Additional Resources:} RESOURCEFORBENIES"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BENNIESNAME",
+					"entries": [
+						"BENEFITSINFORMATION",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+					]
+				}
+			]
 		},
 		{
 			"name": "Ranseur of Torture",
@@ -63240,6 +64139,54 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Rogue Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not a Rogue",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Spies of the Party and Community.",
+					"entries": [
+						"This tattoo is for Rogues. Their Attunement is optional and not required to gain full benefits. \"Rogue Appreciators\" and \"Rogue Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face, Hands",
+								"{@b Required Ink:} {@item Enchanted Ink|AU} and at least 2 different Enchanted Ink Types of your Choice",
+								"{@b Recommended Iconography:} Daggers, Mask, Lock Picks",
+								"{@b Additional Resources:} RESOURCEFORBENIES"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BENNIESNAME",
+					"entries": [
+						"BENEFITSINFORMATION",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+					]
+				}
+			]
+		},
+		{
 			"name": "Rogue's Mantle",
 			"source": "BMT",
 			"page": 37,
@@ -66348,6 +67295,92 @@
 			"value": 750000
 		},
 		{
+			"name": "Shadow Branded Tattoo",
+			"group": [
+				"Branded Tattoos",
+				"Majorly Enhanced Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "Majorly",
+			"detail2": "{@item Enchanted Ink|AU|Black Enchanted Ink}, {@item Invisible Ink|AU}, {@item Metal-Lic Ink|AU}, and {@item Prismatic Ink|AU}",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enhanced Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Branded Tattoo Attunement",
+					"entries": [
+						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
+						{
+							"type": "list",
+							"items": [
+								"You ancestral lineage has ties to this plane, such as a Dhampir, Hollow One, or Shadar-Kai",
+								"Your Creature Type relates to this plane, such as an Undead",
+								"You are getting branded while in the Shadowfell",
+								"You are a Warlock and your pact is with a being from that plane (Hexblade or Undead Pact)"
+							]
+						},
+						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Branded Benefits",
+					"entries": [
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Shadowfell",
+									"entry": "Shadowfell"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-9"
+							],
+							"rows": [
+								[
+									"Specified Placement Required",
+									"No"
+								],
+								[
+									"Minimal Size Required",
+									"Medium plus?"
+								],
+								[
+									"Visibility Required",
+									"No"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Shadow Ink",
 			"source": "XDMG",
 			"page": 305,
@@ -68919,6 +69952,54 @@
 			],
 			"miscTags": [
 				"CNS"
+			]
+		},
+		{
+			"name": "Sorcerer Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not a Sorcerer",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Magician of the Party and Community.",
+					"entries": [
+						"This tattoo is for Sorcerers. Their Attunement is optional and not required to gain full benefits. \"Sorcerer Appreciators\" and \"Sorcerer Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face, Hands",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Glowing Ink|AU}, and at least {@item Prismatic Ink|AU}",
+								"{@b Recommended Iconography:} Magical Aura, Imagery representing Magical Origins",
+								"{@b Additional Resources:} RESOURCEFORBENIES"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BENNIESNAME",
+					"entries": [
+						"BENEFITSINFORMATION",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+					]
+				}
 			]
 		},
 		{
@@ -74103,7 +75184,7 @@
 			"source": "AU",
 			"page": 154,
 			"rarity": "uncommon",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "Minimally",
 			"detail2": "appears like regular colors with white, silvery, and golden sparkles.",
@@ -76599,7 +77680,7 @@
 			"source": "AU",
 			"page": 152,
 			"rarity": "none",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"value": 50,
 			"weight": 1,
 			"entries": [
@@ -76617,7 +77698,7 @@
 			"source": "AU",
 			"page": 152,
 			"rarity": "none",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"value": 2000,
 			"weight": 1,
 			"entries": [
@@ -76635,7 +77716,7 @@
 			"source": "AU",
 			"page": 152,
 			"rarity": "none",
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"value": 500,
 			"weight": 1,
 			"entries": [
@@ -76655,7 +77736,7 @@
 			"rarity": "none",
 			"value": 200,
 			"weight": 0.5,
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"entries": [
 				"This palette includes colored inks for tattoos. It has black, white, gray, and the three primary colors plus a pack of disposable mini containers to mix the colors for a wider color variety."
 			]
@@ -76671,7 +77752,7 @@
 			"rarity": "none",
 			"value": 100,
 			"weight": 0.5,
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"entries": [
 				"This palette is a grayscale pack that typically has twice as many containers of black tattoo ink than white or gray, however, there are no other colored ink within this palette. There are mini containers to mix these to obtain various shades of gray."
 			]
@@ -76687,7 +77768,7 @@
 			"rarity": "none",
 			"value": 500,
 			"weight": 0.75,
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"entries": [
 				"This palette has the following colors: black, white, gray, red, orange, yellow, green, cyan, blue, indigo, purple, and magenta. It also comes with mini containers to mix these colors to get various shades of the available colors."
 			]
@@ -76703,7 +77784,7 @@
 			"rarity": "none",
 			"value": 1500,
 			"weight": 1,
-			"type": "TT|AU",
+			"type": "T2T|AU",
 			"entries": [
 				"This palette is a massive tattoo ink kit. It has all the colors from the {@item Tattoo Palette, Rainbow|AU|Rainbow} palette plus an additional 28 colors, for a total of 40 colors, which includes brown. This palette is commonly used by those who engage in hyper-realistic designs."
 			]
@@ -84576,6 +85657,54 @@
 			"speed": 60
 		},
 		{
+			"name": "Warlock Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not a Warlock",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Magical Borrowers of the Party and Community.",
+					"entries": [
+						"This tattoo is for Warlocks. Their Attunement is optional and not required to gain full benefits. \"Warlock Appreciators\" and \"Warlock Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face, Hands, Chest",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Invisible Ink|AU}, and 1 additional Enchanted Ink of your choice",
+								"{@b Recommended Iconography:} Icon representing your Patron, Contract, Symbol of your Bargain",
+								"{@b Additional Resources:} RESOURCEFORBENIES"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BENNIESNAME",
+					"entries": [
+						"BENEFITSINFORMATION",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+					]
+				}
+			]
+		},
+		{
 			"name": "Warm Fungal Clothing",
 			"source": "FRHoF",
 			"page": 132,
@@ -86597,6 +87726,54 @@
 			]
 		},
 		{
+			"name": "Wizard Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not a Wizard",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Academic of the Party and Community.",
+					"entries": [
+						"This tattoo is for Wizards. Their Attunement is optional and not required to gain full benefits. \"Wizard Appreciators\" and \"Wizard Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face, Hands",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Stardust Ink|AU}, and 1 additional Enchanted Ink Type of your choice",
+								"{@b Recommended Iconography:} Spellbook, Arcane Foci, Runes",
+								"{@b Additional Resources:} RESOURCEFORBENIES"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BENNIESNAME",
+					"entries": [
+						"BENEFITSINFORMATION",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+					]
+				}
+			]
+		},
+		{
 			"name": "Woodcutter's Axe",
 			"source": "WBtW",
 			"page": 214,
@@ -88230,7 +89407,16 @@
 			"type": "GV|XDMG",
 			"tattoo": true,
 			"entries": [
-				"These tattoos provide you with benefits relating to the specific plane you are branded with."
+				"These tattoos provide you with benefits relating to the specific plane or planar region that you are branded with."
+			],
+			"items": [
+				"Chaotic Branded Tattoo|AU",
+				"Environment Branded Tattoo|AU",
+				"Faerie Branded Tattoo|AU",
+				"Heavenly Branded Tattoo|AU",
+				"Hellish Branded Tattoo|AU",
+				"Orderly Branded Tattoo|AU",
+				"Shadow Branded Tattoo|AU"
 			]
 		},
 		{
@@ -88412,10 +89598,10 @@
 			"page": 155,
 			"type": "GV|XDMG",
 			"rarity": "uncommon",
-			"reqAttune": true,
+			"reqAttune": "optional",
 			"tattoo": true,
 			"entries": [
-				"Class Tattoos are moderate enhanced magical tattoos that are designed for each class that can be obtained as early as level 1. While these tattoos are listed as requiring {@variantrule Attunement|XPHB}, it is only required if the Class Tattoo you are getting is not your class. If you {@variantrule Multiclassing|XPHB|Multiclass}, you can have 1 Class Tattoo without attunement, however you must {@variantrule Attunement|XPHB|Attune} to any other Class Tattoos gained, even if you have 1 level in that class."
+				"Class Tattoos are Moderately Enhanced Tattoos that are designed for each class that can be obtained as early as level 1. You are required to attune to this tattoo if it is a Class not of your own. If you {@variantrule Multiclassing|XPHB|Multiclass}, you can have 1 Class Tattoo without attunement, however you must {@variantrule Attunement|XPHB|Attune} to any other Class Tattoos gained, even if you have 1 level in that class."
 			]
 		},
 		{
@@ -88732,6 +89918,54 @@
 			]
 		},
 		{
+			"name": "Druid Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not a Druid",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Primeval One of the Party and Community.",
+					"entries": [
+						"This tattoo is for Druids. Their Attunement is optional and not required to gain full benefits. \"Druid Appreciators\" and \"Druid Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Head, Face, Hands, Chest, Feet",
+								"{@b Required Ink:} {@item Enchanted Ink|AU} and any 2 {@item Elemental Inks|AU} of your choice",
+								"{@b Recommended Iconography:} Antlers, Totem, Flora and Fauna, Nature-Theme",
+								"{@b Additional Resources:} RESOURCEFORBENIES"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BENNIESNAME",
+					"entries": [
+						"BENEFITSINFORMATION",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+					]
+				}
+			]
+		},
+		{
 			"name": "Druidic Focus",
 			"source": "PHB",
 			"page": 151,
@@ -88837,7 +90071,7 @@
 			"page": 154,
 			"rarity": "varies",
 			"type": "GV|XDMG",
-			"typeAlt": "TT|AU",
+			"typeAlt": "T2T|AU",
 			"weight": 0.5,
 			"wondrous": true,
 			"hasRefs": true,
@@ -88898,7 +90132,7 @@
 			"source": "AU",
 			"page": 153,
 			"type": "GV|XDMG",
-			"typeAlt": "TT|AU",
+			"typeAlt": "T2T|AU",
 			"rarity": "varies",
 			"weight": 0.5,
 			"wondrous": true,
@@ -92823,7 +94057,7 @@
 			"source": "AU",
 			"page": 152,
 			"type": "GV|XDMG",
-			"typeAlt": "TT|AU",
+			"typeAlt": "T2T|AU",
 			"rarity": "none",
 			"reqAttune": true,
 			"wondrous": true,
@@ -92842,7 +94076,7 @@
 			],
 			"source": "AU",
 			"type": "GV|XDMG",
-			"typeAlt": "TT|AU",
+			"typeAlt": "T2T|AU",
 			"page": 152,
 			"rarity": "none",
 			"reqAttune": true,
@@ -92863,7 +94097,7 @@
 			],
 			"source": "AU",
 			"type": "GV|XDMG",
-			"typeAlt": "TT|AU",
+			"typeAlt": "T2T|AU",
 			"page": 153,
 			"rarity": "none",
 			"reqAttune": true,

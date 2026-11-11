@@ -9392,6 +9392,23 @@
 			]
 		},
 		{
+			"abbreviation": "CT2",
+			"source": "AU",
+			"page": 151,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Class Tattoo",
+					"entries": [
+						"These are magical tattoos often used to mark those of a particular station. While they are typically used to announce that role to others without verbal interactions, they do provide the individual with benefits relating to the specified class.",
+						"These tattoos do not require {@variantrule Attunement|XPHB} so long as it is your class. You can only have one without Attunement. You have gain benefits from a maximum of 3 Class Tattoos, with at least 2 of those being Attuned to. This is primarily for those who like to be {@variantrule Multiclassing|XPHB|Multi-Disciplinary}, although you will have to attune to any additional Class Tattoo, even if you have at least 1 level in those additional classes.",
+						"{@i All Magical Tattoos that you attune to must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "D",
 			"source": "XPHB",
 			"page": 214,
@@ -10794,7 +10811,7 @@
 		},
 		{
 			"name": "Tattoo Tools",
-			"abbreviation": "TT",
+			"abbreviation": "T2T",
 			"source": "AU",
 			"page": 151
 		},
