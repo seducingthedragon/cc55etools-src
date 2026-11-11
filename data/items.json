@@ -13556,55 +13556,37 @@
 		},
 		{
 			"name": "Charming Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
-			"detail1": "Minimally",
-			"detail2": "{@item Prismatic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Prismatic Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Improved Persuasion",
 					"entries": [
-						"You gain a +1 bonus to your Charisma ({@skill Persuasion|XPHB}) checks."
+						"You gain a +1 bonus to your Charisma ({@skill Persuasion|XPHB}) checks against targets who can see you and your tattoo."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"Yes"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face",
+								"{@b Recommended Iconography and/or Size:} Small to Medium",
+								"{@b Required Visibility:} Yes"
 							]
 						}
 					]
@@ -17824,19 +17806,19 @@
 		},
 		{
 			"name": "Darkvision Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "common",
-			"detail1": "Minimally",
-			"detail2": "{@item Stardust Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Stardust Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Darkvision",
@@ -17846,33 +17828,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face, Head",
+								"{@b Recommended Iconography and/or Size:} Eyes, Moon, or other imagedry relating to seeing in the dark, in a Tiny to Small size tattoo.",
+								"{@b Required Visibility:} No"
 							]
 						}
 					]
@@ -24969,8 +24933,7 @@
 		{
 			"name": "Elemental Aura Tattoo",
 			"group": [
-				"Elemental Tattoos",
-				"Minimally Enhanced Tattoo"
+				"Elemental Tattoos"
 			],
 			"source": "AU",
 			"page": 157,
@@ -26490,8 +26453,7 @@
 		{
 			"name": "Enspelled Tattoo (1st Level)",
 			"group": [
-				"Enspelled Tattoos",
-				"Minimally Enhanced Tattoo"
+				"Enspelled Tattoos"
 			],
 			"source": "AU",
 			"page": 157,
@@ -26805,8 +26767,7 @@
 		{
 			"name": "Enspelled Tattoo (Cantrip)",
 			"group": [
-				"Enspelled Tattoos",
-				"Minimally Enhanced Tattoo"
+				"Enspelled Tattoos"
 			],
 			"source": "AU",
 			"page": 157,
@@ -30000,14 +29961,14 @@
 		},
 		{
 			"name": "Flashlight Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
-			"detail1": "Minimally",
-			"detail2": "{@item Glowing Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Glowing Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"recharge": "restLong",
@@ -30015,55 +29976,31 @@
 			"charges": 1,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Light",
+					"name": "Light: Once per Dawn",
 					"entries": [
-						"You can cast the {@spell Light|XPHB} from your tattoo once per long rest. When you do so, you can use a 30-foot {@variantrule Cone [Area of Effect]|XPHB} of {@variantrule Bright Light|XPHB} instead of the 20-foot Sphere. Additionally, the Cone has {@variantrule Dim Light|XPHB} out to an additional 15 feet."
+						"As a {@action Magic|XPHB} action, you can cause {@variantrule Bright Light|XPHB} to emit from your tattoo in a 20-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} followed by {@variantrule Dim Light|XPHB} out to an additional 15 feet.",
+						"Once you use this benefit, you cannot do so again until the following dawn."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"Yes"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Hand, Wrist, Chest, Shoulder, Face",
+								"{@b Recommended Iconography and/or Size:} Light, Sun, and other Bright icons in a Small to Medium sized tattoo.",
+								"{@b Required Visibility:} Yes, if the tattoo is covered, the effect cannot be seen."
 							]
 						}
 					]
 				}
-			],
-			"additionalSpells": {
-				"daily": {
-					"1e": [
-						"light|xphb"
-					]
-				}
-			}
+			]
 		},
 		{
 			"name": "Flask",
@@ -33899,55 +33836,37 @@
 		},
 		{
 			"name": "Hands-Off Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
-			"detail1": "Minimally",
-			"detail2": "{@item Dancing Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Dancing Ink|AU}",
+			"detail2": "The {@item Stardust Ink|AU} or the {@item Metal-Lic Ink|AU} may be effective additions to this tattoo.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Pinch 'em",
 					"entries": [
-						"While this tattoo is visible, if someone you do not like touches you on or nearby the tattoo, the tattoo will pinch them. Not hard enough to deal any damage, but hopefully hard enough to get their hands off of you."
+						"While this tattoo is visible, if someone you do not like touches you on or nearby the tattoo, the tattoo will immediately \"pinch\" them. This will not be hard enough to deal any damage, but hopefully hard enough to get their hands off of you."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"Yes"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} In places you don't want to be touched.",
+								"{@b Recommended Iconography and/or Size:} Usually hands or a person in a Small to larger tattoo size.",
+								"{@b Required Visibility:} Yes, as the \"attack\" cannot be felt through a minimum of 2 layers of fabric."
 							]
 						}
 					]
@@ -39060,55 +38979,37 @@
 		},
 		{
 			"name": "Intuitive Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
-			"detail1": "Minimally",
-			"detail2": "{@item Stardust Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Stardust Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Insightful",
 					"entries": [
-						"You gain a +1 bonus on your Wisdom ({@skill Insight|XPHB}) checks."
+						"You gain a +1 bonus on your Wisdom ({@skill Insight|XPHB})."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"Yes"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Head, Face",
+								"{@b Recommended Iconography and/or Size:} Eyes or eye outlines in a Small to Medium size tattoo.",
+								"{@b Required Visibility:} Not required, but may be beneficial if it is."
 							]
 						}
 					]
@@ -44692,70 +44593,6 @@
 			]
 		},
 		{
-			"name": "Manipulate Icon Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
-			"source": "AU",
-			"page": 157,
-			"rarity": "uncommon",
-			"detail1": "Minimally",
-			"detail2": "{@item Prismatic Ink|AU}",
-			"tattoo": true,
-			"wondrous": true,
-			"hasRefs": true,
-			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Minor Illusion",
-					"entries": [
-						"Once per {@variantrule Long Rest|XPHB}, you can cast {@spell Minor Illusion|XPHB} on your tattoo, using both the sound and image effects. While your tattoo does not need to be visible for this to occur, it is presumed necessary for it to be effective."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"Necessary"
-								]
-							]
-						}
-					]
-				}
-			],
-			"additionalSpells": {
-				"daily": {
-					"1e": [
-						"minor illusion|xphb"
-					]
-				}
-			}
-		},
-		{
 			"name": "Mantle of Spell Resistance",
 			"source": "DMG",
 			"page": 180,
@@ -45388,65 +45225,42 @@
 		},
 		{
 			"name": "Masquerade Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "common",
-			"detail1": "Minimally",
-			"detail2": "{@item Dancing Ink|AU} and {@item Prismatic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Dancing Ink|AU}",
+			"detail2": "Additionally, this tattoo requires {@item Prismatic Ink|AU}.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Disguise Self",
 					"entries": [
-						"You can cast {@spell Disguise Self|XPHB} at will, however, you can only target and disguise your tattoo."
+						"As a {@action Magic|XPHB} action, you can alter your tattoo's shape, size, design, color, and more. This alteration will remain until you revert it or alter it again. At the end of a {@variantrule Long Rest|XPHB}, the tattoo will return to its original form."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"No, however it's a common face tattoo"
-								],
-								[
-									"Minimal Size Required",
-									"Purpose Dependent"
-								],
-								[
-									"Visibility Required",
-									"Necessary"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face for a Mask, others for other reasons",
+								"{@b Recommended Iconography and/or Size:} Basic Mask or whatever you prefer in a Small to Medium sized tattoo.",
+								"{@b Required Visibility:} Will alter if not seen, however it is not as effective without visibility"
 							]
 						}
 					]
 				}
-			],
-			"attachedSpells": {
-				"will": [
-					"disguise self|xphb"
-				]
-			}
+			]
 		},
 		{
 			"name": "Masquerade Tattoo",
@@ -48700,55 +48514,37 @@
 		},
 		{
 			"name": "Night Sky Reflection Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
-			"detail1": "Minimally",
-			"detail2": "{@item Stardust Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Stardust Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Star Mirror",
 					"entries": [
-						"As long as you are not underground, at nighttime, your tattoo will glitter and twinkle in a pattern that matches the stars above."
+						"As long as you are not underground, at night, your tattoo will glitter and twinkle in a pattern that matches the stars above."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"Necessary"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face, Arms, Chest, Back, etc.",
+								"{@b Recommended Iconography and/or Size:} Typically includes a sky scene in a Small or larger tattoo size.",
+								"{@b Required Visibility:} The effect will occur while covered but then no one will see it."
 							]
 						}
 					]
@@ -57600,56 +57396,38 @@
 			]
 		},
 		{
-			"name": "Quick Visitation Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
+			"name": "Quick Zap Tattoo",
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
-			"detail1": "Minimally",
-			"detail2": "{@item Dancing Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Dancing Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Moving Tattoo",
 					"entries": [
-						"While Dancing Ink is known to cause tattoos to move and grove to the beat, this is always done in place. With this enhancement, the tattoo can move to another part of your body for 1 minute, on your mental command. At the end of 1 minute, the tattoo will remain there for 1 hour before it can move again. At the end of a {@variantrule Long Rest|XPHB}, the tattoo will be back at its original location."
+						"While {@item Dancing Ink|AU} is known to cause tattoos to move and grove to the beat, this is always done in place. With this enhancement, the tattoo can move to another part of your body for 1 minute, on your mental command. At the end of 1 minute, the tattoo will remain there for 1 hour before it can move again. At the end of a {@variantrule Long Rest|XPHB}, the tattoo will be back at its original location."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Anywhere",
+								"{@b Recommended Iconography and/or Size:} Anything in a Tiny or larger tattoo size.",
+								"{@b Required Visibility:} Doesn't matter."
 							]
 						}
 					]
@@ -57705,19 +57483,19 @@
 		},
 		{
 			"name": "Quill Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "common",
-			"detail1": "Minimally",
-			"detail2": "{@item Enchanted Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Enchanted Ink|AU}",
+			"detail2": "Additionally, the {@item Dancing Ink|AU} can aid in this tattoo's enhancement.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Forever Quill",
@@ -57727,33 +57505,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: Back of hand ending no more than 1 knuckle away from finger tip."
-								],
-								[
-									"Minimal Size Required",
-									"Small"
-								],
-								[
-									"Visibility Required",
-									"Yes"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Requirements:} Back of Dominate Hand including a Finger",
+								"{@b Recommended Iconography and/or Size:} Typically a Quill in a Small-ish tattoo size.",
+								"{@b Required Visibility:} Yes, the effect won't work if you are wearing gloves. The back of your hand can be covered but not your finger tip."
 							]
 						}
 					]
@@ -63750,55 +63510,37 @@
 		},
 		{
 			"name": "S-O-S Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
-			"detail1": "Minimally",
-			"detail2": "{@item Glowing Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Glowing Ink|AU}",
+			"detail2": "Additionally, {@item Stardust Ink|AU} may help with enhancement.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "SOS Signaling",
 					"entries": [
-						"On your mental command, this tattoo will flash its glow in a coded pattern signalling for SOS {@i ie. morse code}. While the tattoo does not need to be visible for this effect to occur, no one will see it if it is covered."
+						"On your mental command, this tattoo will flash its glow in a coded pattern signalling for SOS {@i ie. morse code}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"Necessary"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Back, Arms, Hands, Chest, etc.",
+								"{@b Recommended Iconography and/or Size:} Lighthouse, beacon, etc., in a Small/Medium to larger tattoo size.",
+								"{@b Required Visibility:} It will flash while covered but depending on what's covering it, the light may not pass through."
 							]
 						}
 					]
@@ -65440,56 +65182,38 @@
 		},
 		{
 			"name": "Second Guessing Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
-			"detail1": "Minimally",
-			"detail2": "{@item Prismatic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Prismatic Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required however it is commonly paired with any Enchanted Ink.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Did you Really Use Magic?",
 					"entries": [
-						"When you use a spell or an effect that {@condition Charmed|XPHB|Charms} a target and that effect allows the target to know that they were being magically influenced onced the effect is over, you can choose to have the target repeat the previous {@variantrule Saving Throw|XPHB} related in order for the target to truly know if they were being magically influenced.",
+						"When a spell or an effect that {@condition Charmed|XPHB|Charms} a target allows the target to know that they were being magically influenced onced the effect is over, you can choose to have the target repeat the previous {@variantrule Saving Throw|XPHB} related in order for the target to truly know if they were being magically influenced. On a failed saving throw, the target does not know that they were {@condition Charmed|XPHB}.",
 						"Once a target fails this second {@variantrule Saving Throw|XPHB}, you can't use this benefit again until you finish a {@variantrule Long Rest|XPHB}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"Yes"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face (tattooed makeup)",
+								"{@b Recommended Iconography and/or Size:} Feature enhancements in a Small-ish tattoo size.",
+								"{@b Required Visibility:} Yes, the target must be able to see your tattoo."
 							]
 						}
 					]
@@ -74603,55 +74327,37 @@
 		},
 		{
 			"name": "Strobe Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
-			"detail1": "Minimally",
-			"detail2": "{@item Glowing Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Glowing Ink|AU}",
+			"detail2": "Additionally, utilizing either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU} may provide a shimmery or glittery effect to this tattoo's enhancement.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Party Lights",
 					"entries": [
-						"If you have multiple parts of your tattoo utilizing the {@item Glowing Ink|AU}, you can flash different parts of them to the pattern of the music you are listening to, providing a party-like strobe effect. While it does not have to be visible for this tattoo to do this, it's only fun if it is."
+						"If you have multiple parts of your tattoo utilizing the {@item Glowing Ink|AU}, you can flash different parts of them to the pattern of the music you are listening to, providing a party-like strobe effect. If you only have one instance of Glowing Ink utilized, the effect still works but from a single source instead."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"Necessary"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Anywhere",
+								"{@b Recommended Iconography and/or Size:} Any imagedry in a Small or larger tattoo size.",
+								"{@b Required Visibility:} Will strobe while covered but the light may not pass through."
 							]
 						}
 					]
@@ -85168,19 +84874,19 @@
 		},
 		{
 			"name": "Whistling Message Tattoo",
-			"group": [
-				"Minimally Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
-			"detail1": "Minimally",
-			"detail2": "{@item Dancing Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Dancing Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Cast Message",
@@ -85190,33 +84896,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"Yes"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face, Hand, Shoulders, Chest, etc.",
+								"{@b Recommended Iconography and/or Size:} Any icon, although sometimes a self-portrait, of any Small or larger tattoo size.",
+								"{@b Required Visibility:} Yes"
 							]
 						}
 					]
@@ -90476,68 +90164,6 @@
 				"Mind Crystal (Subtle)|PaBTSO"
 			],
 			"hasFluffImages": true
-		},
-		{
-			"name": "Minimally Enhanced Tattoo",
-			"source": "AU",
-			"page": 157,
-			"rarity": "varies",
-			"type": "GV|XDMG",
-			"tattoo": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Varies"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny"
-								],
-								[
-									"Visibility Required",
-									"Varies"
-								]
-							]
-						}
-					]
-				}
-			],
-			"items": [
-				"Charming Tattoo|AU",
-				"Darkvision Tattoo|AU",
-				"Elemental Aura Tattoo|AU",
-				"Enspelled Tattoo (1st Level)|AU",
-				"Enspelled Tattoo (Cantrip)|AU",
-				"Flashlight Tattoo|AU",
-				"Hands-Off Tattoo|AU",
-				"Intuitive Tattoo|AU",
-				"Manipulate Icon Tattoo|AU",
-				"Masquerade Tattoo|AU",
-				"Night Sky Reflection Tattoo|AU",
-				"Quick Visitation Tattoo|AU",
-				"Quill Tattoo|AU",
-				"S-O-S Tattoo|AU",
-				"Second Guessing Tattoo|AU",
-				"Strobe Tattoo|AU",
-				"Whistling Message Tattoo|AU"
-			]
 		},
 		{
 			"name": "Moderately Enhanced Tattoo",

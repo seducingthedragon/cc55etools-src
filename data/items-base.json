@@ -9340,7 +9340,7 @@
 					"entries": [
 						"This magical tattoo does not require Attunement, however, it is required to gain access to its added benefit.",
 						"Regardless of Attunement Status, you can have a maximum of 3 Absorbing Tattoos. If a 4th one is attempted, you will either lose access to the benefits of the oldest Absorbing Tattoo you have or gain no benefits from the newest one.",
-						"{@i All Magical Tattoos that you attune to must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
+						"{@i Attuning to a magical tattoo must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
 					]
 				}
 			]
@@ -9404,7 +9404,7 @@
 					"name": "Branded Tattoo",
 					"entries": [
 						"You can only have one Branded Tattoo. Any attempts to gain a second one will not provide any benefits without the destruction of the first one.",
-						"{@i All Magical Tattoos that you attune to must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
+						"{@i Attuning to a magical tattoo must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
 					]
 				}
 			]
@@ -9436,7 +9436,7 @@
 					"entries": [
 						"These are magical tattoos often used to mark those of a particular station. While they are typically used to announce that role to others without verbal interactions, they do provide the individual with benefits relating to the specified class.",
 						"These tattoos do not require {@variantrule Attunement|XPHB} so long as it is your class. You can only have one without Attunement, plus one additional Class tattoo with Attunement. Any additional Class Tattoos added will not provide any benefit, even if you were to attempt to attune to it.",
-						"{@i All Magical Tattoos that you attune to must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
+						"{@i Attuning to a magical tattoo must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
 					]
 				}
 			]
@@ -9504,7 +9504,7 @@
 								]
 							]
 						},
-						"{@i All Magical Tattoos that you attune to must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
+						"{@i Attuning to a magical tattoo must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
 					]
 				}
 			]
@@ -9521,7 +9521,24 @@
 					"entries": [
 						"This magical tattoo does not require Attunement, however, it is required if you want to increase your uses of its benefit and/or use your preferred Ability Modifier {@i (between Intelligence, Wisdom, and Charisma)} for its Spell Save DC and Spell Attack Bonus.",
 						"Regardless of Attunement Status, you can have a maximum of 3 Enspelled Tattoos. If a 4th one is attempted, you will either lose access to the benefits of the oldest Enspelled Tattoo you have or gain no benefits from the newest one.",
-						"{@i All Magical Tattoos that you attune to must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
+						"{@i Attuning to a magical tattoo must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "ET2",
+			"source": "AU",
+			"page": 151,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Enchanted Tattoo",
+					"entries": [
+						"This magical tattoo may not require Attunement. This magical tattoo is based purely on the enhancing the effects of the Enchanted Ink itself. If the Enhancement increases the rarity to Rare or higher, Attunement may be required.",
+						"There is no limit to the amount of Common Enchanted Tattoos one may have, due to there being no additional enhancements included. Regarding Uncommon and higher rarity Enchanted Tattoos, it is dependent on cost, resources, world, DM, and effects.",
+						"{@i Attuning to a magical tattoo must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
 					]
 				}
 			]
@@ -11231,6 +11248,13 @@
 			"entriesTemplate": [
 				"{@i Most Enchanted Inks do not require attunement, as attunement is based off of the specific enhancement type, for the tattoo itself. If the ink itself requires attunement, it will be noted and explained why.}",
 				"This specific type of {@item Enchanted Inks|AU|Enchanted Ink} is used for magical tattoos that are {{item.detail1}} Enhanced, at the bare minimum. It can be used for higher enhancements, often with other types of {@item Enchanted Inks|AU|Enchanted Ink}. {@item Enchanted Inks|AU} do not need a specific enhancement in order to be used. They can be used for their innate properties alone and can be mixed with others for a combined effect. Within the ink vial, this specific Enchanted Ink {{item.detail2}}"
+			]
+		},
+		{
+			"name": "Enchanted Tattoo",
+			"source": "AU",
+			"entriesTemplate": [
+				"This tattoo uses {{item.detail1}} as the base for its Enchantment. {{item.detail2}}"
 			]
 		},
 		{

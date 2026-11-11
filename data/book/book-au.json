@@ -8038,7 +8038,7 @@
 									],
 									"rows": [
 										[
-											"Minimally Enhanced",
+											"Common to Uncommon Enhanced Tattoos",
 											"+{@dice 1d4x10} GP",
 											"+{@dice 1d4} Hours",
 											"No"
@@ -8085,17 +8085,17 @@
 											],
 											"rows": [
 												[
-													"2-3 Minimal Enhancements",
+													"2-3 Common/Uncommon Enhancements",
 													"Moderately Enhanced Tattoo",
 													"{@chance 30}"
 												],
 												[
-													"3-4 Minimal Enhancements",
+													"3-4 Common/Uncommon Enhancements",
 													"Majorly Enhanced Tattoo",
 													"{@chance 65}"
 												],
 												[
-													"4-5 Minimal Enhancements",
+													"4-5 Common/Uncommon Enhancements",
 													"Massively Enhanced Tattoo",
 													"{@chance 100}"
 												],
@@ -8123,56 +8123,6 @@
 										},
 										"Additionally, you cannot combine two Massive Enhancements with each other for one tattoo, and combining any one enhancement (major or lower) with a Massive Enhancement will always end up a Massively Enhanced Tattoo."
 									]
-								},
-								{
-									"type": "entries",
-									"name": "Tattoo Types",
-									"page": 156,
-									"id": "707",
-									"entries": [
-										"Aside from the tattoos being classified as how enhanced it is, there are other ways that tattoos are grouped. Based off of these properties, the tattoos may have different guidelines or rules compared to other categories.",
-										{
-											"type": "table",
-											"caption": "Tattoo Properties",
-											"colLabels": [
-												"Property",
-												"Attunement Rules",
-												"Additional Guidelines"
-											],
-											"colStyles": [
-												"col-2",
-												"col-4",
-												"col-6"
-											],
-											"rows": [
-												[
-													"{@itemProperty AT2|AU|Absorbing Tattoo}",
-													"Resistance does not require Attunement, however extra benefit requires it",
-													"Cannot have more than 3 of these tattoos, regardless of attunement or not."
-												],
-												[
-													"{@itemProperty BT2|AU|Branded Tattoo",
-													"No Attunement if obtain by someone from that plane, have your lineage to that plane, or while in that plane. Otherwise, it requires attunement.",
-													"Can only have 1 Branded Tattoo, regardless of attunement."
-												],
-												[
-													"{@itemProperty CT2|AU|Class Tattoo}",
-													"No Attunement if its your Class, Required if not your class",
-													"Max of 3 Class Tattoos regardless of Attunement status. If you Multi-class, you only get 1 of your classes Class Tattoos without Attunement."
-												],
-												[
-													"{@itemProperty EMT2|AU|Elemental Tattoo}",
-													"Attunement based on Enhancement level",
-													"1 Primary Element's tattoos along with its related Para-Elements. Branded Tattoos have a higher priority, and may clash with these tattoos"
-												],
-												[
-													"{@itemProperty EsT2|AU|Enspelled Tattoo}",
-													"Not Required for 1 Free Casting per Dawn, with Attunement increases based on spell level, max 4 times per dawn",
-													"Regardless of attunement and regardless of level, cannot have more than 3"
-												]
-											]
-										}
-									]
 								}
 							]
 						},
@@ -8180,43 +8130,48 @@
 							"type": "entries",
 							"name": "How Many is Too Many?",
 							"page": 156,
-							"id": "708",
+							"id": "707",
 							"entries": [
-								"When it comes to the amount of tattoos a character can have, the answer varies due to a number of factors. The maximum number of tattoos is dependent on the character's size and the size of the tattoos as one has only so much surface area to decorate. With the removal of attunement from magical tattoos, that number does become a concern for DM's. While each world, character, storyteller, and timeline varies drastically, the DM has the final say, however, here are our recommended guidelines on the matter.",
+								"When it comes to the amount of tattoos a character can have, the answer varies due to a number of factors. The maximum number of tattoos is dependent on the character's size and the size of the tattoos as one has only so much surface area to decorate. With the removal of attunement from magical tattoos, that number does become a concern for DM's. While each world, character, storyteller, and timeline varies drastically, the DM has the final say, however, here are our recommended guidelines on the matter, based off of the Properties for a Magical Tattoo.",
 								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"items": [
-										{
-											"type": "item",
-											"nameDot": false,
-											"name": "Regarding Magical Tattoos with Enchanted Ink Only,",
-											"entry": "this number is dependent on a character's time, access to a tattooist with enchanted ink, and the depths of their pocketbook as the enchanted inks themselves do not grant any mechanical impacts."
-										},
-										{
-											"type": "item",
-											"nameDot": false,
-											"name": "Regarding Magical Tattoos with a Minor Enhancement,",
-											"entry": "pending"
-										},
-										{
-											"type": "item",
-											"nameDot": false,
-											"name": "Regarding Magical Tattoos with a Moderate Enhancement,",
-											"entry": "pending. Additionally, {@item Class Tattoos|AU} are Moderate Enhancement tattoos that require attunement if you are not part of that class. If you {@variantrule Multiclassing|XPHB|Multiclass}, you can have 1 Class Tattoo, however you must {@variantrule Attunement|XPHB|Attune} to any other Class Tattoos, even if you have a level in that class."
-										},
-										{
-											"type": "item",
-											"nameDot": false,
-											"name": "Regarding Magical Tattoos with a Major Enhancement,",
-											"entry": "the answer varies due to some of these enhancements require {@variantrule Attunement|XPHB}. The average is 3, due to this reason, however, depending on the enhancements gains, this may be as low as 1 to as high as 5."
-										},
-										{
-											"type": "item",
-											"nameDot": false,
-											"name": "Regarding Magical Tattoos with a Massive Enhancement,",
-											"entry": "the answer is 3 max, however, it should be noted that magical tattoos with a Massive Enhancement all require {@variantrule Attunement|XPHB}, therefore it will take up one of those slots."
-										}
+									"type": "table",
+									"caption": "Tattoo Properties",
+									"colLabels": [
+										"Property",
+										"Attunement Rules",
+										"Additional Guidelines"
+									],
+									"colStyles": [
+										"col-2",
+										"col-4",
+										"col-6"
+									],
+									"rows": [
+										[
+											"{@itemProperty AT2|AU|Absorbing Tattoo}",
+											"Resistance does not require Attunement, however extra benefit requires it",
+											"Cannot have more than 3 of these tattoos, regardless of attunement or not."
+										],
+										[
+											"{@itemProperty BT2|AU|Branded Tattoo}",
+											"No Attunement if obtain by someone from that plane, have your lineage to that plane, or while in that plane. Otherwise, it requires attunement.",
+											"Can only have 1 Branded Tattoo, regardless of attunement."
+										],
+										[
+											"{@itemProperty CT2|AU|Class Tattoo}",
+											"No Attunement if its your Class, Required if not your class",
+											"Max of 3 Class Tattoos regardless of Attunement status. If you Multi-class, you only get 1 of your classes Class Tattoos without Attunement."
+										],
+										[
+											"{@itemProperty EMT2|AU|Elemental Tattoo}",
+											"Attunement based on Enhancement level",
+											"1 Primary Element's tattoos along with its related Para-Elements. Branded Tattoos have a higher priority, and may clash with these tattoos"
+										],
+										[
+											"{@itemProperty EsT2|AU|Enspelled Tattoo}",
+											"Not Required for 1 Free Casting per Dawn, with Attunement increases based on spell level, max 4 times per dawn",
+											"Regardless of attunement and regardless of level, cannot have more than 3"
+										]
 									]
 								}
 							]
@@ -8230,7 +8185,7 @@
 					"id": "70a",
 					"entries": [
 						"What is a Minor Enhancement and how do they differ from others. Max Minor Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
-						"Below is a table with all of the tattoos that are considered to be a {@item Minimally Enhanced Tattoo|AU}, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",
+						"Lists of Common and Uncommon Magical Tattoos.",
 						{
 							"type": "table",
 							"caption": "Minimally Enhanced Magical Tattoos",
@@ -8296,12 +8251,6 @@
 									"Yes"
 								],
 								[
-									"{@item Manipulate Icon Tattoo|AU|Manipulate Icon}",
-									"1/LR Cast {@spell Minor Illusion|XPHB} with Sound and Image on Tattoo",
-									"{@item Prismatic Ink|AU}",
-									"Necessary"
-								],
-								[
 									"{@item Masquerade Tattoo|AU|Masquerade Icon}",
 									"Cast {@spell Disguise Self|XPHB} at will, targetting only the tattoo",
 									"{@item Dancing Ink|AU} and {@item Prismatic Ink|AU}",
@@ -8314,7 +8263,7 @@
 									"No"
 								],
 								[
-									"{@item Quick Visitation Tattoo|AU|Quick Visitation}",
+									"{@item Quick Zap Tattoo|AU|Quick Visitation}",
 									"Will move for 1 minute to another body part",
 									"{@item Dancing Ink|AU}",
 									"No"
