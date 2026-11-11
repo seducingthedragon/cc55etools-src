@@ -9435,7 +9435,7 @@
 					"name": "Class Tattoo",
 					"entries": [
 						"These are magical tattoos often used to mark those of a particular station. While they are typically used to announce that role to others without verbal interactions, they do provide the individual with benefits relating to the specified class.",
-						"These tattoos do not require {@variantrule Attunement|XPHB} so long as it is your class. You can only have one without Attunement. You have gain benefits from a maximum of 3 Class Tattoos, with at least 2 of those being Attuned to. This is primarily for those who like to be {@variantrule Multiclassing|XPHB|Multi-Disciplinary}, although you will have to attune to any additional Class Tattoo, even if you have at least 1 level in those additional classes.",
+						"These tattoos do not require {@variantrule Attunement|XPHB} so long as it is your class. You can only have one without Attunement, plus one additional Class tattoo with Attunement. Any additional Class Tattoos added will not provide any benefit, even if you were to attempt to attune to it.",
 						"{@i All Magical Tattoos that you attune to must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
 					]
 				}
@@ -11083,6 +11083,22 @@
 							]
 						}
 					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Anywhere on self",
+								"{@b Required Ink:} {{item.detail2}}",
+								"{@b Recommended Iconography and/or Size:} {{item.detail1}} of Medium and larger size",
+								"{@b Required Visibility:} No"
+							]
+						}
+					]
 				}
 			]
 		},
@@ -11137,37 +11153,16 @@
 				"If you have a lineage, a specific creature type, or a Warlock Patron with ties to {{item.detail1}} or obtain this specific branded tattoo while in {{item.detail1}}, {@variantrule Attunement|XPHB} is not required for you to gain access to the benefits of this tattoo.",
 				{
 					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium plus"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{{item.detail2}}"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Anywhere on self",
+								"{@b Required Ink:} {{item.detail2}}",
+								"{@b Recommended Iconography and/or Size:} Relating to Plane of Medium and larger size",
+								"{@b Required Visibility:} No"
 							]
 						}
 					]
@@ -11214,37 +11209,16 @@
 				"While this tattoo has benefits and aethetic-related ties to the {{item.detail1}}, you are not branded with that specific plane's power in the way that a {@itemProperty BT2|AU|Branded Tattoo} is. {@itemProperty BT2|AU|Branded Tattoos} with ties to an Elemental Plane takes priority. Regardless of your current attunement status or present Elemental Tattoo, once you have an Elemental Plane Branded Tattoo, you are bound to that specific primary element. You may still benefit from Elemental Tattoos that relate to that primarily element and its para-elements, however if you have any other primary Elemental Tattoo, its enchantment is destroyed, even if you were attuned to it. See the tattoo property below for a table providing information on the elemental groupings.",
 				{
 					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No Required, however it is commonly tattooed on ones Chest"
-								],
-								[
-									"Minimal Size?",
-									"Small for Common, increased size for increased rarity"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{{item.detail2}}"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Anywhere on self, although common for Chest",
+								"{@b Required Ink:} {{item.detail2}}",
+								"{@b Recommended Iconography and/or Size:} Relating to its Element. Small size for Common rarity, increasing size for increased rarity.",
+								"{@b Required Visibility:} No"
 							]
 						}
 					]

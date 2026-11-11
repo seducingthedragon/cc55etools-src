@@ -1908,6 +1908,8 @@
 			"property": [
 				"AT2|AU"
 			],
+			"detail1": "Typically Acidic Representation",
+			"detail2": "{@item Enchanted Ink|AU|Lime Enchanted Ink} plus {@item Elemental Ink, Ooze|AU} and {@item Glowing Ink|AU}",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -1915,44 +1917,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Absorbing Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium through Extra Large"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{@item Enchanted Ink|AU|Lime Enchanted Ink} plus {@item Elemental Ink, Ooze|AU} and {@item Glowing Ink|AU}"
-								]
-							]
-						}
-					]
-				}
+				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
 		{
@@ -9578,6 +9543,8 @@
 			"property": [
 				"AT2|AU"
 			],
+			"detail1": "Typically a Club, Fist, or Bludgeoning Damage Related",
+			"detail2": "{@item Enchanted Ink|AU|Brown Enchanted Ink} plus {@item Elemental Ink, Earth|AU} and {@item Metal-Lic Ink|AU|Bronze Metal-Lic Ink}",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -9585,44 +9552,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Absorbing Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium through Extra Large"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{@item Enchanted Ink|AU|Brown Enchanted Ink} plus {@item Elemental Ink, Earth|AU} and {@item Metal-Lic Ink|AU|Bronze Metal-Lic Ink}"
-								]
-							]
-						}
-					]
-				}
+				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
 		{
@@ -15239,6 +15169,8 @@
 			"property": [
 				"AT2|AU"
 			],
+			"detail1": "Typically representing Cold",
+			"detail2": "{@item Enchanted Ink|AU|Cyan Enchanted Ink} plus {@item Elemental Ink, Ice|AU} and {@item Stardust Ink|AU}",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -15246,44 +15178,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Absorbing Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium through Extra Large"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{@item Enchanted Ink|AU|Cyan Enchanted Ink} plus {@item Elemental Ink, Ice|AU} and {@item Stardust Ink|AU}"
-								]
-							]
-						}
-					]
-				}
+				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
 		{
@@ -29943,6 +29838,8 @@
 			"property": [
 				"AT2|AU"
 			],
+			"detail1": "Typically Fire-Related",
+			"detail2": "{@item Enchanted Ink|AU|Red Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Elemental Ink, Fire|AU}",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -29950,44 +29847,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Absorbing Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium through Extra Large"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{@item Enchanted Ink|AU|Red Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Elemental Ink, Fire|AU}"
-								]
-							]
-						}
-					]
-				}
+				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
 		{
@@ -30594,6 +30454,8 @@
 			"property": [
 				"AT2|AU"
 			],
+			"detail1": "Typically something Forceful",
+			"detail2": "{@item Enchanted Ink|AU|Magenta Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Invisible Ink|AU}, and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -30601,44 +30463,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Absorbing Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium through Extra Large"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{@item Enchanted Ink|AU|Magenta Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Invisible Ink|AU}, and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}"
-								]
-							]
-						}
-					]
-				}
+				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
 		{
@@ -43012,6 +42837,8 @@
 			"property": [
 				"AT2|AU"
 			],
+			"detail1": "Typically Clouds and Lightning",
+			"detail2": "{@item Enchanted Ink|AU|Yellow Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Stardust Ink|AU}",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -43019,44 +42846,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Absorbing Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium through Extra Large"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{@item Enchanted Ink|AU|Yellow Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Stardust Ink|AU}"
-								]
-							]
-						}
-					]
-				}
+				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
 		{
@@ -48693,6 +48483,8 @@
 			"property": [
 				"AT2|AU"
 			],
+			"detail1": "Typically Skulls and/or Death",
+			"detail2": "{@item Enchanted Ink|AU|Black Enchanted Ink} plus {@item Elemental Inks|AU} {@item Elemental Ink, Ash|AU|Ash} and {@item Elemental Ink, Ooze|AU|Ooze}, and {@item Metal-Lic Ink|AU}",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -48700,44 +48492,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Absorbing Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium through Extra Large"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{@item Enchanted Ink|AU|Black Enchanted Ink} plus {@item Elemental Inks|AU} {@item Elemental Ink, Ash|AU|Ash} and {@item Elemental Ink, Ooze|AU|Ooze}, and {@item Metal-Lic Ink|AU}"
-								]
-							]
-						}
-					]
-				}
+				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
 		{
@@ -52207,11 +51962,13 @@
 			"rarity": "uncommon",
 			"reqAttune": "optional",
 			"resist": [
-				"pierced"
+				"piercing"
 			],
 			"property": [
 				"AT2|AU"
 			],
+			"detail1": "Typically Arrows, Rapiers, and/or Pointed Icons",
+			"detail2": "{@item Enchanted Ink|AU|Dark Gray Enchanted Ink} plus {@item Metal-Lic Ink|AU|Brass Metal-Lic Ink} and {@item Stardust Ink|AU}",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -52219,44 +51976,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Absorbing Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium through Extra Large"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{@item Enchanted Ink|AU|Dark Gray Enchanted Ink} plus {@item Metal-Lic Ink|AU|Brass Metal-Lic Ink} and {@item Stardust Ink|AU}"
-								]
-							]
-						}
-					]
-				}
+				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
 		{
@@ -52924,6 +52644,8 @@
 			"property": [
 				"AT2|AU"
 			],
+			"detail1": "Typically Gas Bubbles and other Poisonous Images",
+			"detail2": "{@item Enchanted Ink|AU|Olive Enchanted Ink} plus {@item Elemental Ink, Ash|AU} and {@item Glowing Ink|AU}",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -52931,44 +52653,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Absorbing Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium through Extra Large"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{@item Enchanted Ink|AU|Olive Enchanted Ink} plus {@item Elemental Ink, Ash|AU} and {@item Glowing Ink|AU}"
-								]
-							]
-						}
-					]
-				}
+				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
 		{
@@ -56937,6 +56622,8 @@
 			"property": [
 				"AT2|AU"
 			],
+			"detail1": "Typically Hypnotic Spirals, a Brain, and other Psychic-Related Icons",
+			"detail2": "{@item Enchanted Ink|AU|Pink Enchanted Ink} plus {@item Dancing Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -56944,44 +56631,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Absorbing Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium through Extra Large"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{@item Enchanted Ink|AU|Pink Enchanted Ink} plus {@item Dancing Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}"
-								]
-							]
-						}
-					]
-				}
+				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
 		{
@@ -58320,6 +57970,8 @@
 			"property": [
 				"AT2|AU"
 			],
+			"detail1": "Typically Halos, Devas, and other Celestial icons",
+			"detail2": "{@item Enchanted Ink|AU|White Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Metal-Lic Ink|AU|Gold Metal-Lic Ink}, and {@item Stardust Ink|AU}",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -58327,44 +57979,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Absorbing Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium through Extra Large"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{@item Enchanted Ink|AU|White Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Metal-Lic Ink|AU|Gold Metal-Lic Ink}, and {@item Stardust Ink|AU}"
-								]
-							]
-						}
-					]
-				}
+				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
 		{
@@ -68390,6 +68005,8 @@
 			"property": [
 				"AT2|AU"
 			],
+			"detail1": "Typically Scimitars, Claws, and other things that Slash",
+			"detail2": "{@item Enchanted Ink|AU|Light Gray Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Metal-Lic Ink|AU|Silver Metal-Lic Ink}",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -68397,44 +68014,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Absorbing Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium through Extra Large"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{@item Enchanted Ink|AU|Light Gray Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Metal-Lic Ink|AU|Silver Metal-Lic Ink}"
-								]
-							]
-						}
-					]
-				}
+				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
 		{
@@ -78485,6 +78065,8 @@
 			"property": [
 				"AT2|AU"
 			],
+			"detail1": "Typically Stormclouds, sometimes Lightning, and Sound-related Icons",
+			"detail2": "{@item Enchanted Ink|AU|Indigo Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Prismatic Ink|AU}",
 			"recharge": "dawn",
 			"rechargeAmount": 1,
 			"charges": 1,
@@ -78492,44 +78074,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Absorbing Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Planning and Creating Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-4",
-								"col-8"
-							],
-							"rows": [
-								[
-									"Specified Placement?",
-									"No"
-								],
-								[
-									"Minimal Size?",
-									"Medium through Extra Large"
-								],
-								[
-									"Required Visibility",
-									"No"
-								],
-								[
-									"Required Inks?",
-									"{@item Enchanted Ink|AU|Indigo Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Prismatic Ink|AU}"
-								]
-							]
-						}
-					]
-				}
+				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
 		{
