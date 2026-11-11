@@ -13479,35 +13479,21 @@
 			"source": "AU",
 			"page": 159,
 			"rarity": "rare",
-			"reqAttune": "optional",
-			"detail1": "Majorly",
+			"reqAttune": "required for those who do not meet the exceptions",
+			"property": [
+				"BT2|AU"
+			],
+			"detail1": "the plane of Limbo",
 			"detail2": "{@item Enchanted Ink|AU|Purple Enchanted Ink}, {@item Invisible Ink|AU}, {@item Dancing Ink|AU}, and {@item Prismatic Ink|AU}",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Branded Tattoo Attunement",
+					"name": "Limbo Benefits",
 					"entries": [
-						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
-						{
-							"type": "list",
-							"items": [
-								"You ancestral lineage has ties to this plane, such as a Githzerai or a Githyanki",
-								"Your Creature Type relates to this plane, such as an Aberration",
-								"You are getting branded while in the plane of Limbo",
-								"You are a Warlock and your pact is with a being from that plane (Great Old One Pact)"
-							]
-						},
-						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Branded Benefits",
-					"entries": [
+						"Now that you are branded by Limbo's planar energy, you gain the following benefits.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -13521,35 +13507,18 @@
 						}
 					]
 				},
+				"{#itemEntry Branded Tattoo|AU}",
 				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"type": "inset",
+					"name": "Cosmological Reskinning",
 					"entries": [
-						"This tattoo has the following stats:",
+						"If you are using the {@book Cosmology|XDMG|6} that is different from that laid out in the {@book Dungeon Master's Guide|XDMG}, this tattoo can be reskinned to match the name of the plane that you have created, that aligns to the following description.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"No"
-								],
-								[
-									"Minimal Size Required",
-									"Medium plus?"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"A plane that is tied to the Chaotic Neutral alignment",
+								"A plane where most Aberrations are found",
+								"A plane where Psionics may be the primary source of magic"
 							]
 						}
 					]
@@ -27107,77 +27076,46 @@
 			"source": "AU",
 			"page": 159,
 			"rarity": "rare",
-			"reqAttune": "optional",
-			"detail1": "Majorly",
+			"reqAttune": "required for those who do not meet the exceptions",
+			"property": [
+				"BT2|AU"
+			],
+			"detail1": "any primary Elemental Plane within the Elemental Chaos",
 			"detail2": "{@item Enchanted Ink|AU}, {@item Invisible Ink|AU}, and each Primary {@item Elemental Inks|AU|Elemental Ink} ({@item Elemental Ink, Air|AU|Air}, {@item Elemental Ink, Earth|AU|Earth}, {@item Elemental Ink, Fire|AU|Fire}, and {@item Elemental Ink, Water|AU|Water})",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Branded Tattoo Attunement",
+					"name": "Elemental Chaos Benefits",
 					"entries": [
-						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
-						{
-							"type": "list",
-							"items": [
-								"You ancestral lineage has ties to this planar region, such as a Genasi",
-								"Your Creature Type relates to this planar region, such as an Elemental",
-								"You are getting branded while within that planar region, such as Air, Earth, Fire, or Water Planes",
-								"You are a Warlock and your pact is with a being from that planar region (Genie Pact)"
-							]
-						},
-						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Branded Benefits",
-					"entries": [
+						"Now that you are branded by the Elemental Chaos's planar energy, you gain the following benefits.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Elemental Chaos",
-									"entry": "Elemental Chaos"
+									"name": "Elements",
+									"entry": "Elements"
 								}
 							]
 						}
 					]
 				},
+				"{#itemEntry Branded Tattoo|AU}",
 				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"type": "inset",
+					"name": "Cosmological Reskinning",
 					"entries": [
-						"This tattoo has the following stats:",
+						"If you are using the {@book Cosmology|XDMG|6} that is different from that laid out in the {@book Dungeon Master's Guide|XDMG}, this tattoo can be reskinned to match the name of the planar region that you have created, that aligns to the following description.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"No"
-								],
-								[
-									"Minimal Size Required",
-									"Medium plus?"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"An Inner Planar region that surrounds the Prime Material",
+								"A plane/planar region where most Elementals are found",
+								"A plane/planar region tied to the natural Elements"
 							]
 						}
 					]
@@ -28239,35 +28177,21 @@
 			"source": "AU",
 			"page": 159,
 			"rarity": "rare",
-			"reqAttune": "optional",
-			"detail1": "Majorly",
+			"reqAttune": "required for those who do not meet the exceptions",
+			"property": [
+				"BT2|AU"
+			],
+			"detail1": "the Feywild",
 			"detail2": "{@item Enchanted Ink|AU|Pink Enchanted Ink}, {@item Invisible Ink|AU}, and {@item Prismatic Ink|AU}",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Branded Tattoo Attunement",
+					"name": "Feywild Benefits",
 					"entries": [
-						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
-						{
-							"type": "list",
-							"items": [
-								"You ancestral lineage has ties to this plane, such as an Eladrin",
-								"Your Creature Type relates to this plane, such as a Fey",
-								"You are getting branded while in the Feywild",
-								"You are a Warlock and your pact is with a being from that plane (Archfey Pact)"
-							]
-						},
-						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Branded Benefits",
-					"entries": [
+						"Now that you are branded by the Feywild's planar energy, you gain the following benefits.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -28281,35 +28205,18 @@
 						}
 					]
 				},
+				"{#itemEntry Branded Tattoo|AU}",
 				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"type": "inset",
+					"name": "Cosmological Reskinning",
 					"entries": [
-						"This tattoo has the following stats:",
+						"If you are using the {@book Cosmology|XDMG|6} that is different from that laid out in the {@book Dungeon Master's Guide|XDMG}, this tattoo can be reskinned to match the name of the plane that you have created, that aligns to the following description.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"No"
-								],
-								[
-									"Minimal Size Required",
-									"Medium plus?"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"A Mirror Plane to the Prime Material that is saturated in whimsy and life",
+								"A Mirror Plane where most Fey Creatures are found",
+								"A Mirror Plane where Nature Magic may be the primary source of magic"
 							]
 						}
 					]
@@ -34992,77 +34899,46 @@
 			"source": "AU",
 			"page": 159,
 			"rarity": "rare",
-			"reqAttune": "optional",
-			"detail1": "Majorly",
+			"reqAttune": "required for those who do not meet the exceptions",
+			"property": [
+				"BT2|AU"
+			],
+			"detail1": "any specific plane of the Upper Planar Region",
 			"detail2": "{@item Enchanted Ink|AU|White and/or Yellow Enchanted Ink}, {@item Invisible Ink|AU}, and {@item Stardust Ink|AU}",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Branded Tattoo Attunement",
+					"name": "The Upper Planes Benefits",
 					"entries": [
-						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
-						{
-							"type": "list",
-							"items": [
-								"You ancestral lineage has ties to this planar region, such as an Aasimar",
-								"Your Creature Type relates to this planar region, such as a Celestial",
-								"You are getting branded while within any of the Upper Planes, such as Arborea, Elysium, or Mount Celestia",
-								"You are a Warlock and your pact is with a being from that planar region (Celestial Pact)"
-							]
-						},
-						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Branded Benefits",
-					"entries": [
+						"Now that you are branded by a specific Upper Plane's energy, you gain the following benefits.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Upper Planes",
-									"entry": "Upper Planes"
+									"name": "Mount Celestia",
+									"entry": "Mount Celestia"
 								}
 							]
 						}
 					]
 				},
+				"{#itemEntry Branded Tattoo|AU}",
 				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"type": "inset",
+					"name": "Cosmological Reskinning",
 					"entries": [
-						"This tattoo has the following stats:",
+						"If you are using the {@book Cosmology|XDMG|6} that is different from that laid out in the {@book Dungeon Master's Guide|XDMG}, this tattoo can be reskinned to match the name of the planar region that you have created, that aligns to the following description.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"No"
-								],
-								[
-									"Minimal Size Required",
-									"Medium plus?"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"A planar region that is tied to the general Good alignment, varying from Lawful to Chaotic Good",
+								"A planar region where most Celestials are found",
+								"A planar region where Divine Magic may be the primary source of magic"
 							]
 						}
 					]
@@ -35196,77 +35072,46 @@
 			"source": "AU",
 			"page": 159,
 			"rarity": "rare",
-			"reqAttune": "optional",
-			"detail1": "Majorly",
+			"reqAttune": "required for those who do not meet the exceptions",
+			"property": [
+				"BT2|AU"
+			],
+			"detail1": "any specific plane within the Lower Planar Region",
 			"detail2": "{@item Enchanted Ink|AU|Red Enchanted Ink}, {@item Invisible Ink|AU}, and both {@item Elemental Inks|AU}, {@item Elemental Ink, Fire|AU|Fire} amd {@item Elemental Ink, Magma|AU|Magma}",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Branded Tattoo Attunement",
+					"name": "The Lower Planes Benefits",
 					"entries": [
-						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
-						{
-							"type": "list",
-							"items": [
-								"You ancestral lineage has ties to this planar region, such as a Tiefling",
-								"Your Creature Type relates to this planar region, such as a Fiend, regardless of type",
-								"You are getting branded while within any of the Lower Planes, such as the Abyss, Hades, or the Nine Hells",
-								"You are a Warlock and your pact is with a being from that planar region (Fiend Pact)"
-							]
-						},
-						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Branded Benefits",
-					"entries": [
+						"Now that you are branded by a specific Lower Plane's planar energy, you gain the following benefits.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Lower Planes",
-									"entry": "Lower Planes"
+									"name": "Nine Hells",
+									"entry": "Nine Hells"
 								}
 							]
 						}
 					]
 				},
+				"{#itemEntry Branded Tattoo|AU}",
 				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"type": "inset",
+					"name": "Cosmological Reskinning",
 					"entries": [
-						"This tattoo has the following stats:",
+						"If you are using the {@book Cosmology|XDMG|6} that is different from that laid out in the {@book Dungeon Master's Guide|XDMG}, this tattoo can be reskinned to match the name of the planar region that you have created, that aligns to the following description.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"No"
-								],
-								[
-									"Minimal Size Required",
-									"Medium plus?"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"A planar region that is tied to the general Evil alignment, varying from Lawful to Chaotic Evil",
+								"A planar region where most Fiends are found",
+								"A planar region where Pact Magic may be the primary source of magic"
 							]
 						}
 					]
@@ -50973,34 +50818,21 @@
 			"source": "AU",
 			"page": 159,
 			"rarity": "rare",
-			"reqAttune": "optional",
-			"detail1": "Majorly",
+			"reqAttune": "required for those who do not meet the exceptions",
+			"property": [
+				"BT2|AU"
+			],
+			"detail1": "the plane of Mechanus",
 			"detail2": "{@item Enchanted Ink|AU|Gray Enchanted Ink}, {@item Invisible Ink|AU}, {@item Dancing Ink|AU}, and {@item Metal-Lic Ink|AU}",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Branded Tattoo Attunement",
+					"name": "Mechanus Benefits",
 					"entries": [
-						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
-						{
-							"type": "list",
-							"items": [
-								"You ancestral lineage has ties to this plane, such as an Autognome or Warforge",
-								"Your Creature Type relates to this plane, such as a Construct",
-								"You are getting branded while in the plane of Mechanus"
-							]
-						},
-						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Branded Benefits",
-					"entries": [
+						"Now that you are branded by Mechanus's planar energy, you gain the following benefits.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -51014,35 +50846,18 @@
 						}
 					]
 				},
+				"{#itemEntry Branded Tattoo|AU}",
 				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"type": "inset",
+					"name": "Cosmological Reskinning",
 					"entries": [
-						"This tattoo has the following stats:",
+						"If you are using the {@book Cosmology|XDMG|6} that is different from that laid out in the {@book Dungeon Master's Guide|XDMG}, this tattoo can be reskinned to match the name of the plane that you have created, that aligns to the following description.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"No"
-								],
-								[
-									"Minimal Size Required",
-									"Medium plus?"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"A plane that is tied to the Lawful Neutral alignment",
+								"A plane where most Constructs are found",
+								"A plane where Engineering may be the primary source of magic"
 							]
 						}
 					]
@@ -66595,35 +66410,21 @@
 			"source": "AU",
 			"page": 159,
 			"rarity": "rare",
-			"reqAttune": "optional",
-			"detail1": "Majorly",
+			"reqAttune": "required for those who do not meet the exceptions",
+			"property": [
+				"BT2|AU"
+			],
+			"detail1": "the Shadowfell",
 			"detail2": "{@item Enchanted Ink|AU|Black Enchanted Ink}, {@item Invisible Ink|AU}, {@item Metal-Lic Ink|AU}, and {@item Prismatic Ink|AU}",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
 				{
 					"type": "entries",
-					"name": "Branded Tattoo Attunement",
+					"name": "Shadowfell Benefits",
 					"entries": [
-						"This tattoo requires {@variantrule Attunement|XPHB} unless you meet one of the following exceptions.",
-						{
-							"type": "list",
-							"items": [
-								"You ancestral lineage has ties to this plane, such as a Dhampir, Hollow One, or Shadar-Kai",
-								"Your Creature Type relates to this plane, such as an Undead",
-								"You are getting branded while in the Shadowfell",
-								"You are a Warlock and your pact is with a being from that plane (Hexblade or Undead Pact)"
-							]
-						},
-						"{@b {@i Only One.}} If you already have one {@item Branded Tattoos|AU|Branded Tattoo}, regardless of Attunement, any additional ones gained afterwards will not grant any benefits without the destruction of the first one."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Branded Benefits",
-					"entries": [
+						"Now that you are branded by the Shadowfell's planar energy, you gain the following benefits.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -66637,35 +66438,18 @@
 						}
 					]
 				},
+				"{#itemEntry Branded Tattoo|AU}",
 				{
-					"type": "entries",
-					"name": "Tattoo Stats",
+					"type": "inset",
+					"name": "Cosmological Reskinning",
 					"entries": [
-						"This tattoo has the following stats:",
+						"If you are using the {@book Cosmology|XDMG|6} that is different from that laid out in the {@book Dungeon Master's Guide|XDMG}, this tattoo can be reskinned to match the name of the plane that you have created, that aligns to the following description.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"No"
-								],
-								[
-									"Minimal Size Required",
-									"Medium plus?"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"A Mirror Plane to the Prime Material that is saturated in shadow and death",
+								"A Mirror Plane where most Undead Creatures are found",
+								"A Mirror Plane where Undead Magic may be the primary source of magic"
 							]
 						}
 					]

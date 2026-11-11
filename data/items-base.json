@@ -9339,7 +9339,8 @@
 					"name": "Absorbing Tattoo",
 					"entries": [
 						"This magical tattoo does not require Attunement, however, it is required to gain access to its added benefit.",
-						"Regardless of Attunement Status, you can have a maximum of 3 Absorbing Tattoos. If a 4th one is attempted, you will either lose access to the benefits of the oldest Absorbing Tattoo you have or gain no benefits from the newest one."
+						"Regardless of Attunement Status, you can have a maximum of 3 Absorbing Tattoos. If a 4th one is attempted, you will either lose access to the benefits of the oldest Absorbing Tattoo you have or gain no benefits from the newest one.",
+						"{@i All Magical Tattoos that you attune to must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
 					]
 				}
 			]
@@ -9388,6 +9389,22 @@
 					"name": "Burst Fire",
 					"entries": [
 						"As an action, you can expend 10 pieces of a Burst Fire weapon's ammunition to spray shots in a 10-foot {@variantrule Cube [Area of Effect]|XPHB|Cube} within the weapon's normal range. Each creature in that area must succeed on a {@dc 15} Dexterity saving throw or take damage. Roll the weapon's damage once, and apply it to each creature that failed the save."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BT2",
+			"source": "AU",
+			"page": 151,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Branded Tattoo",
+					"entries": [
+						"You can only have one Branded Tattoo. Any attempts to gain a second one will not provide any benefits without the destruction of the first one.",
+						"{@i All Magical Tattoos that you attune to must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
 					]
 				}
 			]
@@ -9486,7 +9503,8 @@
 									"{@item Elemental Ink, Ooze|AU|Ooze}"
 								]
 							]
-						}
+						},
+						"{@i All Magical Tattoos that you attune to must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
 					]
 				}
 			]
@@ -9502,7 +9520,8 @@
 					"name": "Enspelled Tattoo",
 					"entries": [
 						"This magical tattoo does not require Attunement, however, it is required if you want to increase your uses of its benefit and/or use your preferred Ability Modifier {@i (between Intelligence, Wisdom, and Charisma)} for its Spell Save DC and Spell Attack Bonus.",
-						"Regardless of Attunement Status, you can have a maximum of 3 Enspelled Tattoos. If a 4th one is attempted, you will either lose access to the benefits of the oldest Enspelled Tattoo you have or gain no benefits from the newest one."
+						"Regardless of Attunement Status, you can have a maximum of 3 Enspelled Tattoos. If a 4th one is attempted, you will either lose access to the benefits of the oldest Enspelled Tattoo you have or gain no benefits from the newest one.",
+						"{@i All Magical Tattoos that you attune to must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
 					]
 				}
 			]
@@ -11112,6 +11131,50 @@
 			]
 		},
 		{
+			"name": "Branded Tattoo",
+			"source": "AU",
+			"entriesTemplate": [
+				"If you have a lineage, a specific creature type, or a Warlock Patron with ties to {{item.detail1}} or obtain this specific branded tattoo while in {{item.detail1}}, {@variantrule Attunement|XPHB} is not required for you to gain access to the benefits of this tattoo.",
+				{
+					"type": "entries",
+					"name": "Planning and Creating Tattoo Stats",
+					"entries": [
+						"This tattoo has the following stats:",
+						{
+							"type": "table",
+							"caption": "Tattoo Stats",
+							"colLabels": [
+								"Category",
+								"Information"
+							],
+							"colStyles": [
+								"col-4",
+								"col-8"
+							],
+							"rows": [
+								[
+									"Specified Placement?",
+									"No"
+								],
+								[
+									"Minimal Size?",
+									"Medium plus"
+								],
+								[
+									"Required Visibility",
+									"No"
+								],
+								[
+									"Required Inks?",
+									"{{item.detail2}}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Chromatic Rose",
 			"source": "WBtW",
 			"entriesTemplate": [
@@ -11148,7 +11211,7 @@
 			"name": "Elemental Tattoo",
 			"source": "AU",
 			"entriesTemplate": [
-				"While this tattoo has benefits and aethetic-related ties to the {{item.detail1}}, you are not branded with that specific plane's power in the way that a Branded Tattoo is. {@itemProperty BT2|AU|Branded Tattoos} with ties to an Elemental Plane takes priority. Regardless of your current attunement status or present Elemental Tattoo, once you have an Elemental Plane Branded Tattoo, you are bound to that specific primary element. You may still benefit from Elemental Tattoos that relate to that primarily element and its para-elements, however if you have any other primary Elemental Tattoo, its enchantment is destroyed, even if you were attuned to it. See the tattoo property below for a table providing information on the elemental groupings.",
+				"While this tattoo has benefits and aethetic-related ties to the {{item.detail1}}, you are not branded with that specific plane's power in the way that a {@itemProperty BT2|AU|Branded Tattoo} is. {@itemProperty BT2|AU|Branded Tattoos} with ties to an Elemental Plane takes priority. Regardless of your current attunement status or present Elemental Tattoo, once you have an Elemental Plane Branded Tattoo, you are bound to that specific primary element. You may still benefit from Elemental Tattoos that relate to that primarily element and its para-elements, however if you have any other primary Elemental Tattoo, its enchantment is destroyed, even if you were attuned to it. See the tattoo property below for a table providing information on the elemental groupings.",
 				{
 					"type": "entries",
 					"name": "Planning and Creating Tattoo Stats",
