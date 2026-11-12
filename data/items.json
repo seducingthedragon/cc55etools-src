@@ -1945,27 +1945,19 @@
 		},
 		{
 			"name": "Adaman-Tot Tattoo",
-			"group": [
-				"Moderately Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
-			"detail1": "Moderately",
-			"detail2": "{@item Metal-Lic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Metal-Lic Ink|AU}",
+			"detail2": "No additional Enchanted Inks are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				{
-					"type": "insetReadaloud",
-					"name": "About Metal Tattoos",
-					"entries": [
-						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
-						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Adamantine, which is..."
-					]
-				},
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Gained Heft",
@@ -1975,35 +1967,25 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"No"
-								],
-								[
-									"Minimal Size Required",
-									"Small"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Chest, Arms, Legs, etc.",
+								"{@b Recommended Iconography and/or Size:} Icon of Strength in a Small or Larger tattoo size.",
+								"{@b Required Visibility:} No"
 							]
 						}
+					]
+				},
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Adamantine, which is..."
 					]
 				}
 			]
@@ -2019,27 +2001,19 @@
 		},
 		{
 			"name": "Adamantined Tattoo",
-			"group": [
-				"Majorly Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 159,
 			"rarity": "rare",
-			"detail1": "Majorly",
-			"detail2": "{@item Metal-Lic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Metal-Lic Ink|AU}",
+			"detail2": "No additional Enchanted Inks are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				{
-					"type": "insetReadaloud",
-					"name": "About Metal Tattoos",
-					"entries": [
-						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
-						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Adamantine, which is..."
-					]
-				},
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Big Heft",
@@ -2056,35 +2030,25 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"No"
-								],
-								[
-									"Minimal Size Required",
-									"Medium"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Anywhere",
+								"{@b Recommended Iconography and/or Size:} Of Anything in a Medium size tattoo or larger.",
+								"{@b Required Visibility:} No"
 							]
 						}
+					]
+				},
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Adamantine, which is..."
 					]
 				}
 			]
@@ -2937,15 +2901,15 @@
 		},
 		{
 			"name": "Alter Self Tattoo",
-			"group": [
-				"Moderately Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
 			"reqAttune": true,
-			"detail1": "Moderately",
-			"detail2": "{@item Prismatic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Prismatic Ink|AU}",
+			"detail2": "No additional Enchanted Inks are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"recharge": "dawn",
@@ -2953,7 +2917,7 @@
 			"charges": 1,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Cast Alter Self",
@@ -2963,33 +2927,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: List/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} ?",
+								"{@b Recommended Iconography and/or Size:} ?",
+								"{@b Required Visibility:} No"
 							]
 						}
 					]
@@ -8089,20 +8035,20 @@
 		},
 		{
 			"name": "Big Flashlight Tattoo",
-			"group": [
-				"Moderately Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
 			"reqAttune": "optional",
-			"detail1": "Moderately",
-			"detail2": "{@item Glowing Ink|AU} and {@item Stardust Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Glowing Ink|AU}",
+			"detail2": "Additionally, the {@item Stardust Ink|AU} is required with this tattoo.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Light Spell",
@@ -8123,33 +8069,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"Yes"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} ?",
+								"{@b Recommended Iconography and/or Size:} ?",
+								"{@b Required Visibility:} Dependent on covering material as some will still allow the light to shine through."
 							]
 						}
 					]
@@ -9268,15 +9196,15 @@
 		},
 		{
 			"name": "Blood Fury Tattoo",
-			"group": [
-				"Massively Enhanced Tattoos"
-			],
 			"source": "AU",
 			"page": 160,
 			"rarity": "legendary",
 			"reqAttune": true,
-			"detail1": "Massively",
-			"detail2": "{@item Elemental Ink, Ash|AU}, {@item Elemental Ink, Ooze|AU}, {@item Metal-Lic Ink|AU}, and your choice between {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Elemental Inks|AU} {@item Elemental Ink, Ash|AU|Ash} and {@item Elemental Ink, Ooze|AU|Ooze}",
+			"detail2": "Additionally, {@item Metal-Lic Ink|AU} plus your choice between {@item Prismatic Ink|AU} or {@item Stardust Ink|AU} are both added to this tattoo.",
 			"wondrous": true,
 			"tattoo": true,
 			"recharge": "dawn",
@@ -9284,7 +9212,7 @@
 			"charges": 10,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Bloodthirsty Strikes",
@@ -9301,33 +9229,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Maybe"
-								],
-								[
-									"Minimal Size Required",
-									"Extra Large"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Whatever large body part you can dedicate the entire tattoo to.",
+								"{@b Recommended Iconography and/or Size:} Design? A full body part such as your entire back, entire arm, etc.",
+								"{@b Required Visibility:} No"
 							]
 						}
 					]
@@ -13731,27 +13641,19 @@
 		},
 		{
 			"name": "Chilly Ironed Tattoo",
-			"group": [
-				"Moderately Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
-			"detail1": "Moderately",
-			"detail2": "{@item Metal-Lic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Metal-Lic Ink|AU}",
+			"detail2": "No additional Enchanted Inks are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				{
-					"type": "insetReadaloud",
-					"name": "About Metal Tattoos",
-					"entries": [
-						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
-						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Cold Iron, which is like iron in its gray tone, leaning closer to a metallic slate gray while lacking any shine or polish."
-					]
-				},
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Saving Throw Bonus",
@@ -13761,35 +13663,25 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} ?",
+								"{@b Recommended Iconography and/or Size:} ?",
+								"{@b Required Visibility:} ?"
 							]
 						}
+					]
+				},
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Cold Iron, which is like iron in its gray tone, leaning closer to a metallic slate gray while lacking any shine or polish."
 					]
 				}
 			]
@@ -14985,20 +14877,20 @@
 		},
 		{
 			"name": "Coiled Tattoo",
-			"group": [
-				"Moderately Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 158,
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"reqAttune": "optional",
-			"detail1": "Moderately",
-			"detail2": "{@item Dancing Ink|AU} and {@item Prismatic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Dancing Ink|AU}",
+			"detail2": "Additionally, {@item Prismatic Ink|AU} is added to this tattoo.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Unarmed Attack",
@@ -15009,33 +14901,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"No"
-								],
-								[
-									"Minimal Size Required",
-									"Medium"
-								],
-								[
-									"Visibility Required",
-									"Yes"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Anwhere",
+								"{@b Recommended Iconography and/or Size:} Tentacles, snakes, ropes, etc., in a Medium or larger size tattoo.",
+								"{@b Required Visibility:} Yes, the illusory limb cannot pass through objects."
 							]
 						}
 					]
@@ -15188,15 +15062,15 @@
 		},
 		{
 			"name": "Cold Ironed Tattoo",
-			"group": [
-				"Majorly Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": true,
-			"detail1": "Majorly",
-			"detail2": "{@item Metal-Lic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Metal-Lic Ink|AU}",
+			"detail2": "No additional Enchanted Inks are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"recharge": "restLong",
@@ -15204,15 +15078,7 @@
 			"charges": 1,
 			"hasRefs": true,
 			"entries": [
-				{
-					"type": "insetReadaloud",
-					"name": "About Metal Tattoos",
-					"entries": [
-						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
-						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Cold Iron, which is like iron in its gray tone, leaning closer to a metallic slate gray while lacking any shine or polish."
-					]
-				},
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Saving Throw Boon",
@@ -15222,35 +15088,25 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} ?",
+								"{@b Recommended Iconography and/or Size:} ?",
+								"{@b Required Visibility:} No"
 							]
 						}
+					]
+				},
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Cold Iron, which is like iron in its gray tone, leaning closer to a metallic slate gray while lacking any shine or polish."
 					]
 				}
 			]
@@ -31257,15 +31113,15 @@
 		},
 		{
 			"name": "Ghost Step Tattoo",
-			"group": [
-				"Massively Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 160,
 			"rarity": "very rare",
 			"reqAttune": true,
-			"detail1": "Massively",
-			"detail2": "{@item Invisible Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Stardust Ink|AU}",
+			"detail2": "Additionally, {@item Invisible Ink|AU} and {@item Prismatic Ink|AU} are required for this tattoo.",
 			"recharge": "dawn",
 			"rechargeAmount": 3,
 			"charges": 3,
@@ -31273,7 +31129,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Charges",
@@ -31291,33 +31147,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"No"
-								],
-								[
-									"Minimal Size Required",
-									"Extra Large"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} No",
+								"{@b Recommended Iconography and/or Size:} Extra large size, almost a full body part.",
+								"{@b Required Visibility:} No"
 							]
 						}
 					]
@@ -32367,20 +32205,20 @@
 		},
 		{
 			"name": "Goodnight Tattoo",
-			"group": [
-				"Moderately Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
 			"reqAttune": "optional",
-			"detail1": "Moderately",
-			"detail2": "{@item Stardust Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Stardust Ink|AU}",
+			"detail2": "No additional Enchanted Inks are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Good Night Sleep Tight",
@@ -32406,33 +32244,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"Yes"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face, Head, Hands. etc.",
+								"{@b Recommended Iconography and/or Size:} Design? Small to large size.",
+								"{@b Required Visibility:} Yes"
 							]
 						}
 					]
@@ -34612,20 +34432,22 @@
 		{
 			"name": "Heavily Armored Tattoo",
 			"group": [
-				"Armored Tattoos",
-				"Massively Enhanced Tattoo"
+				"Armored Tattoos"
 			],
 			"source": "AU",
 			"page": 160,
 			"rarity": "very rare",
 			"reqAttune": true,
-			"detail1": "Massively",
-			"detail2": "{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Metal-Lic Ink|AU}",
+			"detail2": "Additionally, {@item Enchanted Ink|AU} is used to strengthen the {@item Metal-Lic Ink|AU}.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Unarmored Protection",
@@ -34635,33 +34457,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: Chest, Chest and Stomach, Back, or Both Upperarms plus Shoulders"
-								],
-								[
-									"Minimal Size Required",
-									"Medium"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} ?",
+								"{@b Recommended Iconography and/or Size:} ? Medium.",
+								"{@b Required Visibility:} No"
 							]
 						}
 					]
@@ -35887,20 +35691,20 @@
 		},
 		{
 			"name": "Hidden Quill Tattoo",
-			"group": [
-				"Moderately Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
 			"reqAttune": "optional",
-			"detail1": "Moderately",
-			"detail2": "{@item Enchanted Ink|AU} and 1 of the following inks: {@item Stardust Ink|AU} or {@item Invisible Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Enchanted Ink|AU}",
+			"detail2": "Additionally, at least one of the following inks is required for this tattoo: {@item Stardust Ink|AU} or {@item Invisible Ink|AU}.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Forever Quill - {@item Quill Tattoo|AU}",
@@ -35913,33 +35717,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: Back of hand ending no more than 1 knuckle away from finger tip."
-								],
-								[
-									"Minimal Size Required",
-									"Small"
-								],
-								[
-									"Visibility Required",
-									"Yes"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Back of Dominate Hand and Finger",
+								"{@b Recommended Iconography and/or Size:} Typically a Quill, of a small-ish size.",
+								"{@b Required Visibility:} Yes, the ink cannot work through gloves, if the fingers are covered."
 							]
 						}
 					]
@@ -42431,15 +42217,15 @@
 		},
 		{
 			"name": "Lifewell Tattoo",
-			"group": [
-				"Massively Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 160,
 			"rarity": "very rare",
 			"reqAttune": true,
-			"detail1": "Massively",
-			"detail2": "{@item Dancing Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Dancing Ink|AU}",
+			"detail2": "Additionally, {@item Prismatic Ink|AU} and {@item Stardust Ink|AU} are required for this tattoo.",
 			"resist": [
 				"necrotic"
 			],
@@ -42450,7 +42236,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Resistance and Returning",
@@ -42461,33 +42247,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: Chest area"
-								],
-								[
-									"Minimal Size Required",
-									"Extra Large"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Chest Area",
+								"{@b Recommended Iconography and/or Size:} Extra Large",
+								"{@b Required Visibility:} No"
 							]
 						}
 					]
@@ -42577,20 +42345,22 @@
 		{
 			"name": "Lightly Armored Tattoo",
 			"group": [
-				"Armored Tattoos",
-				"Moderately Enhanced Tattoo"
+				"Armored Tattoos"
 			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "rare",
 			"reqAttune": "optional",
-			"detail1": "Moderately",
-			"detail2": "{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Metal-Lic Ink|AU}",
+			"detail2": "Additionally, {@item Enchanted Ink|AU} is used to maintain malluability to the {@item Metal-Lic Ink|AU}.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Unarmored Protection",
@@ -42616,33 +42386,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: Chest, Chest and Stomach, Back, or Both Upperarms plus Shoulders"
-								],
-								[
-									"Minimal Size Required",
-									"Medium"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Yes",
+								"{@b Recommended Iconography and/or Size:} Medium",
+								"{@b Required Visibility:} No"
 							]
 						}
 					]
@@ -44296,20 +44048,20 @@
 		},
 		{
 			"name": "Magical Strike Tattoo",
-			"group": [
-				"Moderately Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
 			"reqAttune": "optional",
-			"detail1": "Moderately",
-			"detail2": "{@item Enchanted Ink|AU} and {@item Stardust Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Stardust Ink|AU}",
+			"detail2": "Additionally, {@item Enchanted Ink|AU} is used to maintain focus when the effects are \"overcharged\"",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Magical Damage",
@@ -44329,33 +44081,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: Fists, Hands, and/or Fingers"
-								],
-								[
-									"Minimal Size Required",
-									"Medium"
-								],
-								[
-									"Visibility Required",
-									"Yes"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Fists",
+								"{@b Recommended Iconography and/or Size:} Medium",
+								"{@b Required Visibility:} Yes"
 							]
 						}
 					]
@@ -46283,27 +46017,19 @@
 		},
 		{
 			"name": "Mithra-Light Tattoo",
-			"group": [
-				"Moderately Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
-			"detail1": "Moderately",
-			"detail2": "{@item Metal-Lic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Metal-Lic Ink|AU}",
+			"detail2": "No additional Enchanted Inks are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				{
-					"type": "insetReadaloud",
-					"name": "About Metal Tattoos",
-					"entries": [
-						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
-						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Mithral, which is a nearly-white radiant silvery gray, close to that of starlight."
-					]
-				},
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Dexterity Bonuses",
@@ -46313,53 +46039,19 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} ?",
+								"{@b Recommended Iconography and/or Size:} ?",
+								"{@b Required Visibility:} ?"
 							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"name": "Mithralled Tattoo",
-			"group": [
-				"Majorly Enhanced Tattoo"
-			],
-			"source": "AU",
-			"page": 159,
-			"rarity": "rare",
-			"detail1": "Majorly",
-			"detail2": "{@item Metal-Lic Ink|AU}",
-			"tattoo": true,
-			"wondrous": true,
-			"hasRefs": true,
-			"entries": [
+				},
 				{
 					"type": "insetReadaloud",
 					"name": "About Metal Tattoos",
@@ -46367,8 +46059,24 @@
 						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
 						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Mithral, which is a nearly-white radiant silvery gray, close to that of starlight."
 					]
-				},
-				"{#itemEntry Enhanced Tattoo|AU}",
+				}
+			]
+		},
+		{
+			"name": "Mithralled Tattoo",
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Metal-Lic Ink|AU}",
+			"detail2": "No additional Enchanted Inks are required.",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Dexterity Boon",
@@ -46378,35 +46086,25 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} ?",
+								"{@b Recommended Iconography and/or Size:} ?",
+								"{@b Required Visibility:} ?"
 							]
 						}
+					]
+				},
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Mithral, which is a nearly-white radiant silvery gray, close to that of starlight."
 					]
 				}
 			]
@@ -46649,20 +46347,22 @@
 		{
 			"name": "Moderately Armored Tattoo",
 			"group": [
-				"Armored Tattoos",
-				"Majorly Enhanced Tattoo"
+				"Armored Tattoos"
 			],
 			"source": "AU",
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": true,
-			"detail1": "Majorly",
-			"detail2": "{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Metal-Lic Ink|AU}",
+			"detail2": "Additionally, {@item Enchanted Ink|AU} is used to strengthen the {@item Metal-Lic Ink|AU}.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Unarmored Protection",
@@ -46672,33 +46372,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: Chest, Chest and Stomach, Back, or Both Upperarms plus Shoulders"
-								],
-								[
-									"Minimal Size Required",
-									"Medium"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} ?",
+								"{@b Recommended Iconography and/or Size:} ?",
+								"{@b Required Visibility:} ?"
 							]
 						}
 					]
@@ -57178,20 +56860,20 @@
 		},
 		{
 			"name": "Quick Healing Tattoo",
-			"group": [
-				"Moderately Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
 			"reqAttune": true,
-			"detail1": "Moderately",
-			"detail2": "{@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and {@item Stardust Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Stardust Ink|AU}",
+			"detail2": "Additionally, {@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU} are used for this tattoo.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Bonus Healing",
@@ -57208,33 +56890,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} ?",
+								"{@b Recommended Iconography and/or Size:} ?",
+								"{@b Required Visibility:} ?"
 							]
 						}
 					]
@@ -57243,27 +56907,19 @@
 		},
 		{
 			"name": "Quick Silvered Tattoo",
-			"group": [
-				"Moderately Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
-			"detail1": "Moderately",
-			"detail2": "{@item Metal-Lic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Metal-Lic Ink|AU}",
+			"detail2": "No additional Enchanted Inks are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				{
-					"type": "insetReadaloud",
-					"name": "About Metal Tattoos",
-					"entries": [
-						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
-						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Silver, which is a light metallic gray."
-					]
-				},
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Saving Throw Buff",
@@ -57273,35 +56929,25 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} No",
+								"{@b Recommended Iconography and/or Size:} No",
+								"{@b Required Visibility:} No"
 							]
 						}
+					]
+				},
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Silver, which is a light metallic gray."
 					]
 				}
 			]
@@ -57690,19 +57336,19 @@
 		},
 		{
 			"name": "Rainbow Quill Tattoo",
-			"group": [
-				"Moderately Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
-			"detail1": "Moderately",
-			"detail2": "{@item Enchanted Ink|AU} and {@item Prismatic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Enchanted Ink|AU}",
+			"detail2": "Additionally, {@item Dancing Ink|AU} and {@item Prismatic Ink|AU} are required for this tattoo.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Forever Quill - {@item Quill Tattoo|AU}",
@@ -57713,33 +57359,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: Back of hand ending no more than 1 knuckle away from finger tip."
-								],
-								[
-									"Minimal Size Required",
-									"Small"
-								],
-								[
-									"Visibility Required",
-									"Yes"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Back of Hand",
+								"{@b Recommended Iconography and/or Size:} Quill. Smallish",
+								"{@b Required Visibility:} Yes"
 							]
 						}
 					]
@@ -67314,15 +66942,15 @@
 		},
 		{
 			"name": "Silvered Tattoo",
-			"group": [
-				"Majorly Enhanced Tattoo"
-			],
 			"source": "AU",
 			"page": 159,
 			"rarity": "rare",
 			"reqAttune": true,
-			"detail1": "Majorly",
-			"detail2": "{@item Metal-Lic Ink|AU}",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Metal-Lic Ink|AU}",
+			"detail2": "No additional Enchanted Inks are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"recharge": "restLong",
@@ -67330,15 +66958,7 @@
 			"charges": 1,
 			"hasRefs": true,
 			"entries": [
-				{
-					"type": "insetReadaloud",
-					"name": "About Metal Tattoos",
-					"entries": [
-						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
-						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Silver, which is a light metallic gray."
-					]
-				},
-				"{#itemEntry Enhanced Tattoo|AU}",
+				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
 					"name": "Saving Throw Boon",
@@ -67348,35 +66968,25 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tattoo Stats",
+					"name": "Planning and Creating this Tattoo",
 					"entries": [
-						"This tattoo has the following stats:",
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
 						{
-							"type": "table",
-							"caption": "Tattoo Stats PENDING",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: list places/No"
-								],
-								[
-									"Minimal Size Required",
-									"Tiny/Small/Medium/Large/Extra Large/Entire Body Part"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} ?",
+								"{@b Recommended Iconography and/or Size:} ?",
+								"{@b Required Visibility:} No"
 							]
 						}
+					]
+				},
+				{
+					"type": "insetReadaloud",
+					"name": "About Metal Tattoos",
+					"entries": [
+						"While this enhanced tattoo uses {@item Metal-Lic Ink|AU} and is based off of a specific metal and its magical properties, there is NO METAL within the ink of this tattoo. Its metallic appearance comes from being magically enchanted to have that visual presentation and the additional enhancement infuses the properties of its represented metal without injecting the metal itself.",
+						"Additionally, the Metal-Lic Ink color used for this enhancement will match, or be in lined with, the color of Silver, which is a light metallic gray."
 					]
 				}
 			]

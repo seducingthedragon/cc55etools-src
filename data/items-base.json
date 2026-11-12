@@ -11267,13 +11267,6 @@
 			]
 		},
 		{
-			"name": "Enhanced Tattoo",
-			"source": "AU",
-			"entriesTemplate": [
-				"This tattoo is a {{item.detail1}} Enhanced level. For this tattoo to work, the following {@item Enchanted Inks|AU} must be used: {{item.detail2}}."
-			]
-		},
-		{
 			"name": "Enspelled Tattoo",
 			"source": "AU",
 			"entriesTemplate": [

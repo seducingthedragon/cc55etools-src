@@ -8132,6 +8132,11 @@
 											"Cannot have more than 3 of these tattoos, regardless of attunement or not."
 										],
 										[
+											"Armored Tattoo",
+											"Attunement is Optional or Required, depending on the AC boost.",
+											"You cannot be wearing Armor to gain these benefits."
+										],
+										[
 											"{@itemProperty BT2|AU|Branded Tattoo}",
 											"No Attunement if obtain by someone from that plane, have your lineage to that plane, or while in that plane. Otherwise, it requires attunement.",
 											"Can only have 1 Branded Tattoo, regardless of attunement."
