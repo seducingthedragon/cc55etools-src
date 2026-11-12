@@ -8023,19 +8023,19 @@
 											"No"
 										],
 										[
-											"Moderately Enhanced",
+											"Uncommon to Rare Enhanced Tattoos",
 											"+{@dice 1d6x20} GP",
 											"+{@dice 1d4+2} Hours",
 											"Usually No"
 										],
 										[
-											"Majorly Enhanced",
+											"Rare to Very Rare Enhanced Tattoos",
 											"+{@dice 1d8x50} GP",
 											"+{@dice 1d6+4} Hours",
 											"Varies"
 										],
 										[
-											"Massively Enhanced",
+											"Very Rare to Legendary Enhanced Tattoos",
 											"+{@dice 1d10x100} GP",
 											"+{@dice 1d8+4} Hours",
 											"Yes"
@@ -8065,32 +8065,32 @@
 											"rows": [
 												[
 													"2-3 Common/Uncommon Enhancements",
-													"Moderately Enhanced Tattoo",
+													"Uncommon/Rare Enhanced Tattoo",
 													"{@chance 30}"
 												],
 												[
 													"3-4 Common/Uncommon Enhancements",
-													"Majorly Enhanced Tattoo",
+													"Rare/Very Rare Enhanced Tattoo",
 													"{@chance 65}"
 												],
 												[
 													"4-5 Common/Uncommon Enhancements",
-													"Massively Enhanced Tattoo",
+													"Very Rare/Legendary Enhanced Tattoo",
 													"{@chance 100}"
 												],
 												[
-													"2-3 Moderate Enhancements",
-													"Majorly Enhanced Tattoo",
+													"2-3 Uncommon/Rare Enhancements",
+													"Rare/Very Rare Enhanced Tattoo",
 													"{@chance 55}"
 												],
 												[
-													"3-4 Moderate Enhancements",
-													"Massively Enhanced Tattoo",
+													"3-4 Uncommon/Rare Enhancements",
+													"Very Rare/Legendary Enhanced Tattoo",
 													"{@chance 100}"
 												],
 												[
-													"2 Major Enhancements",
-													"Massively Enhanced Tattoo",
+													"2 Rare/Very Rare Enhancements",
+													"Very Rare/Legendary Enhanced Tattoo",
 													"{@chance 100}"
 												],
 												[
@@ -8293,7 +8293,7 @@
 					"id": "70b",
 					"entries": [
 						"What is a Moderate Enhancement and how do they differ from others. Max Moderate Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
-						"Below is a table with all of the tattoos that are considered to be a {@item Moderately Enhanced Tattoo|AU}, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",
+						"Lists of Uncommon and Rare Magical Tattoos.",
 						{
 							"type": "table",
 							"caption": "Moderately Enhanced Magical Tattoos",
@@ -8484,7 +8484,7 @@
 					"id": "70c",
 					"entries": [
 						"What is a Major Enhancement and how do they differ from others. Max Major Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
-						"Below is a table with all of the tattoos that are considered to be a {@item Majorly Enhanced Tattoo|AU}, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",
+						"Lists of Rare and Very Rare Magical Tattoos.",
 						{
 							"type": "table",
 							"caption": "Majorly Enhanced Magical Tattoos",
@@ -8731,7 +8731,7 @@
 					"id": "70d",
 					"entries": [
 						"What is a Massive Enhancement and how do they differ from others. Max Massive Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
-						"Below is a table with all of the tattoos that are considered to be a {@item Massively Enhanced Tattoo|AU}, listing their name, a brief description of the enhancement, what enhanced inks are required for this effect, and whether or not the tattoo needs to be visible, in order for the effect to work.",
+						"Lists of Very Rare and Legendary Magical Tattoos.",
 						{
 							"type": "table",
 							"caption": "Massively Enhanced Magical Tattoos",
