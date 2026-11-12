@@ -1951,7 +1951,7 @@
 				"ET2|AU"
 			],
 			"detail1": "{@item Metal-Lic Ink|AU}",
-			"detail2": "No additional Enchanted Inks are required.",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
@@ -2007,7 +2007,7 @@
 				"ET2|AU"
 			],
 			"detail1": "{@item Metal-Lic Ink|AU}",
-			"detail2": "No additional Enchanted Inks are required.",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
@@ -2907,7 +2907,7 @@
 				"ET2|AU"
 			],
 			"detail1": "{@item Prismatic Ink|AU}",
-			"detail2": "No additional Enchanted Inks are required.",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"recharge": "dawn",
@@ -13642,7 +13642,7 @@
 				"ET2|AU"
 			],
 			"detail1": "{@item Metal-Lic Ink|AU}",
-			"detail2": "No additional Enchanted Inks are required.",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
@@ -15063,7 +15063,7 @@
 				"ET2|AU"
 			],
 			"detail1": "{@item Metal-Lic Ink|AU}",
-			"detail2": "No additional Enchanted Inks are required.",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"recharge": "restLong",
@@ -17275,7 +17275,7 @@
 			"type": "T2T|AU",
 			"weight": 0.5,
 			"detail1": "bright heavily saturated colors",
-			"detail2": "can be seen moving within, even while on a flat non-moving surface.",
+			"detail2": "can be seen moving within, even while on a flat non-moving surface",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
@@ -17292,6 +17292,41 @@
 			"entries": [
 				"This rare magical fruit produces enough juice to fill a vial. Any humanoid that eats a dancing monkey fruit or drinks its juice must succeed on a {@dc 14} Constitution saving throw or begin a comic dance that lasts for 1 minute. Humanoids that can't be {@condition poisoned} are immune to this magical effect.",
 				"The dancer must use all its movement to dance without leaving its space and has disadvantage on attack rolls and Dexterity saving throws, and other creatures have advantage on attack rolls against it. Each time it takes damage, the dancer can repeat the saving throw, ending the effect on itself on a success. When the dancing effect ends, the humanoid suffers the {@condition poisoned} condition for 1 hour."
+			]
+		},
+		{
+			"name": "Dancing Tattoo",
+			"source": "AU",
+			"page": 157,
+			"rarity": "common",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Dancing Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "About this Tattoo",
+					"entries": [
+						"This tattoo does not have any additional enhancements. This is the most mundane-esque tattoo you can get with this specific Enchanted Ink. This is the tattoo you get when you only use Enchanted Ink in its basest of forms with nothing extra.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dancing Ink Tattoo",
+									"entry": "This tattoo will dance in time to present music without leaving its spot. If you are experiencing a positive feeling or sensation, the tattoo will also dance in place, to the rhythm of the present environment."
+								}
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -25386,6 +25421,46 @@
 			]
 		},
 		{
+			"name": "Elemental Tattoo",
+			"source": "AU",
+			"page": 157,
+			"rarity": "common",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "any one specific {@item Elemental Inks|AU|Elemental Ink}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "About this Tattoo",
+					"entries": [
+						"This tattoo does not have any additional enhancements. This is the most mundane-esque tattoo you can get with this specific Enchanted Ink. This is the tattoo you get when you only use Enchanted Ink in its basest of forms with nothing extra.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Elemental Ink Tattoo",
+									"entry": "Any part of your tattoo that utilizes this ink will appear to move in a way that matches the related element type, which can make a scene hyper realistic when using the proper Elemental Ink for the same element type in the image, such as a lake using {@item Elemental Ink, Water|AU|Water} or lit candle using {@item Elemental Ink, Fire|AU|Fire}."
+								},
+								{
+									"type": "item",
+									"name": "Not Technically an Elemental Tattoo",
+									"entry": "While this tattoo uses the Elemental Ink, since it does not have any additional enhancements, it is not considered an Elemental Tattoo and does not follow the rules or restrictions regarding such."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Elephant",
 			"source": "PHB",
 			"page": 157,
@@ -31521,6 +31596,41 @@
 			]
 		},
 		{
+			"name": "Glowing Tattoo",
+			"source": "AU",
+			"page": 157,
+			"rarity": "common",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Glowing Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "About this Tattoo",
+					"entries": [
+						"This tattoo does not have any additional enhancements. This is the most mundane-esque tattoo you can get with this specific Enchanted Ink. This is the tattoo you get when you only use Enchanted Ink in its basest of forms with nothing extra.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Glowing Ink Tattoo",
+									"entry": "Although it may be difficult to see in Bright Light, while in {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}, the tattoo emits a light Neon-like glow. The tattoo itself does not emit any light that can improve overall visibility, however, the tattoo is easier to see in the dark from certain distances, without making its surrounding visible."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Glowrune Pigment",
 			"source": "BGG",
 			"page": 112,
@@ -32194,7 +32304,7 @@
 				"ET2|AU"
 			],
 			"detail1": "{@item Stardust Ink|AU}",
-			"detail2": "No additional Enchanted Inks are required.",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
@@ -38736,6 +38846,41 @@
 					"name": "Unknown Tattoo",
 					"entries": [
 						"Sometimes, a creature may not even know they have a tattoo with this ink..."
+					]
+				}
+			]
+		},
+		{
+			"name": "Invisible Tattoo",
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Invisible Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "About this Tattoo",
+					"entries": [
+						"This tattoo does not have any additional enhancements. This is the most mundane-esque tattoo you can get with this specific Enchanted Ink. This is the tattoo you get when you only use Enchanted Ink in its basest of forms with nothing extra.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Invisible Ink Tattoo",
+									"entry": "While the tattoo is applied in saturated colors, by the end of its healing process, it will be nearly invisible. Upon close inspection, the area looks as if the area experienced some form of light scarring with an ever so subtle shimmer, often requiring a {@dc 20} Intelligence ({@skill Investigation|XPHB}) check to notice even that much. This tattoo does not require the tattooer to have attunement with the ink itself."
+								}
+							]
+						}
 					]
 				}
 			]
@@ -45389,6 +45534,41 @@
 			]
 		},
 		{
+			"name": "Metal-Lic Tattoo",
+			"source": "AU",
+			"page": 157,
+			"rarity": "common",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Metal-Lic Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "About this Tattoo",
+					"entries": [
+						"This tattoo does not have any additional enhancements. This is the most mundane-esque tattoo you can get with this specific Enchanted Ink. This is the tattoo you get when you only use Enchanted Ink in its basest of forms with nothing extra.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Metal-Lic Ink Tattoo",
+									"entry": "This tattoo appears as though various types of metal were melted and became part of your skin in an intricate design. Additionally, when used in only parts of a tattoo and for the purpose of a metal iconography, such as swords, it causes those parts to appear as though real and melded with you. This tattoo's primary purpose is for aesthetic reasons."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Midnight Tears",
 			"source": "DMG",
 			"page": 258,
@@ -45942,7 +46122,7 @@
 				"ET2|AU"
 			],
 			"detail1": "{@item Metal-Lic Ink|AU}",
-			"detail2": "No additional Enchanted Inks are required.",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
@@ -45989,7 +46169,7 @@
 				"ET2|AU"
 			],
 			"detail1": "{@item Metal-Lic Ink|AU}",
-			"detail2": "No additional Enchanted Inks are required.",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
@@ -55566,6 +55746,41 @@
 			]
 		},
 		{
+			"name": "Prismatic Tattoo",
+			"source": "AU",
+			"page": 157,
+			"rarity": "common",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Prismatic Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "About this Tattoo",
+					"entries": [
+						"This tattoo does not have any additional enhancements. This is the most mundane-esque tattoo you can get with this specific Enchanted Ink. This is the tattoo you get when you only use Enchanted Ink in its basest of forms with nothing extra.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Prismatic Ink Tattoo",
+									"entry": "This tattoo appears to shift colors dependent on how the light hits it. This tattoo is primarily for aesthetic purposes."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Prismatic Rune",
 			"source": "AU",
 			"page": 122,
@@ -56804,7 +57019,7 @@
 				"ET2|AU"
 			],
 			"detail1": "{@item Metal-Lic Ink|AU}",
-			"detail2": "No additional Enchanted Inks are required.",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
@@ -66837,7 +67052,7 @@
 				"ET2|AU"
 			],
 			"detail1": "{@item Metal-Lic Ink|AU}",
-			"detail2": "No additional Enchanted Inks are required.",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
 			"tattoo": true,
 			"wondrous": true,
 			"recharge": "restLong",
@@ -72936,6 +73151,41 @@
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enchanted Ink|AU}"
+			]
+		},
+		{
+			"name": "Stardust Tattoo",
+			"source": "AU",
+			"page": 157,
+			"rarity": "common",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Stardust Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "About this Tattoo",
+					"entries": [
+						"This tattoo does not have any additional enhancements. This is the most mundane-esque tattoo you can get with this specific Enchanted Ink. This is the tattoo you get when you only use Enchanted Ink in its basest of forms with nothing extra.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Stardust Ink Tattoo",
+									"entry": "This tattoo appears to glitter and twinkle like stars in the night sky. This tattoo is primarily for aesthetic purposes."
+								}
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -87569,6 +87819,9 @@
 			"type": "GV|XDMG",
 			"rarity": "varies",
 			"tattoo": true,
+			"entries": [
+				"{@note This generic variant has a similar name and the same source as the item {@item Elemental Tattoo|AU}, however, that item is not considered an Elemental Tattoo due to no additional enhancement added besides the ink itself.}"
+			],
 			"items": [
 				"Elemental Aura Tattoo|AU",
 				"Control Heat Tattoo|AU",
