@@ -11250,8 +11250,6 @@
 			"name": "Enchanted Ink",
 			"source": "AU",
 			"entriesTemplate": [
-				"{@i Most Enchanted Inks do not require attunement, as attunement is based off of the specific enhancement type, for the tattoo itself. If the ink itself requires attunement, it will be noted and explained why.}",
-				"This specific type of {@item Enchanted Inks|AU|Enchanted Ink} is used for magical tattoos that are {{item.detail1}} Enhanced, at the bare minimum. It can be used for higher enhancements, often with other types of {@item Enchanted Inks|AU|Enchanted Ink}. {@item Enchanted Inks|AU} do not need a specific enhancement in order to be used. They can be used for their innate properties alone and can be mixed with others for a combined effect. Within the ink vial, this specific Enchanted Ink {{item.detail2}}",
 				{
 					"type": "entries",
 					"name": "Enchanted Tattoo Ink",

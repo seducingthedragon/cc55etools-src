@@ -7804,13 +7804,6 @@
 								{
 									"type": "statblock",
 									"tag": "item",
-									"name": "Tattoo Needles",
-									"source": "AU",
-									"style": "narrow"
-								},
-								{
-									"type": "statblock",
-									"tag": "item",
 									"name": "Tattoo Needles, Bone",
 									"source": "AU",
 									"style": "narrow"
@@ -7874,7 +7867,7 @@
 								{
 									"type": "statblock",
 									"tag": "item",
-									"name": "Enchanted Inks",
+									"name": "Enchanted Ink",
 									"source": "AU",
 									"style": "narrow"
 								},
@@ -7882,13 +7875,6 @@
 									"type": "statblock",
 									"tag": "item",
 									"name": "Dancing Ink",
-									"source": "AU",
-									"style": "narrow"
-								},
-								{
-									"type": "statblock",
-									"tag": "item",
-									"name": "Enchanted Ink",
 									"source": "AU",
 									"style": "narrow"
 								},
@@ -7924,13 +7910,6 @@
 									"type": "statblock",
 									"tag": "item",
 									"name": "Stardust Ink",
-									"source": "AU",
-									"style": "narrow"
-								},
-								{
-									"type": "statblock",
-									"tag": "item",
-									"name": "Elemental Inks",
 									"source": "AU",
 									"style": "narrow"
 								},

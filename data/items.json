@@ -17426,20 +17426,12 @@
 			"rarity": "uncommon",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Minimally",
+			"detail1": "bright heavily saturated colors",
 			"detail2": "can be seen moving within, even while on a flat non-moving surface.",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enchanted Ink|AU}",
-				"Dancing Ink can be made in all standard tattoo ink colors. Additionally, the image tattooed with this ink will dance when music is present and will become more animated if the tattooed individual is also enjoying the music. Regardless of how it dances, it will not leave tatted spot.",
-				"The tattoo enhancements that require the use of this specific ink are:",
-				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
-					]
-				}
+				"{#itemEntry Enchanted Ink|AU}"
 			]
 		},
 		{
@@ -25944,13 +25936,13 @@
 			"rarity": "common",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Minimally",
-			"detail2": "comes in various colors with a magically neutral aura.",
+			"detail1": "standard primary colors and secondary colors",
+			"detail2": "a magically neutral aura surrounding the vial",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
 				"{#itemEntry Enchanted Ink|AU}",
-				"This is a basic magical ink, considered to be generic compared to other magical inks, which allows the tattooist to use it as part of all tattoo enhancements, most commonly used as a base for the tattoo. It is the cheapest of all the magical inks, which is what makes this one so popular amongst those who provide magically enchanted tattoos as it has the ability to replicate other Enchanted Inks to a lesser degree."
+				"This is a basic magical ink, considered to be generic compared to other magical inks, which allows the tattooist to use it as part of all tattoo enhancements, most commonly used as a base for the tattoo. Its main purpose is to be used as a vessel or carrier for other enchantmments."
 			]
 		},
 		{
@@ -31701,20 +31693,12 @@
 			"rarity": "uncommon",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Minimally",
-			"detail2": "appears like a standard vial of tattoo ink with a faint glowing aura.",
+			"detail1": "white, pastels, and very saturated colors",
+			"detail2": "appears like a standard vial of tattoo ink with a faint glowing aura",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enchanted Ink|AU}",
-				"While this ink can be found in all standard tattoo colors, white, pastels, and very saturated colors are most common for this. When a tattoo with this ink is in {@variantrule Bright Light|XPHB}, it appears as if it were a scar, dulled, or a basic tattoo, depending on the colors used. When you move to {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB} and the tattoo is exposed, it glows, either like neon or has a glowing boarder for the darker colors. This ink does not give off any actual light that would allow you or anyone nearby to improve their vision, however that tattoo can be seen at some great distances while in {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB} when exposed.",
-				"The tattoo enhancements that require the use of this specific ink are:",
-				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
-					]
-				}
+				"{#itemEntry Enchanted Ink|AU}"
 			]
 		},
 		{
@@ -38962,37 +38946,44 @@
 			"rarity": "very rare",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"reqAttune": "by those proficient in a Tattooist's Kit",
+			"reqAttune": "optional",
+			"reqAttuneAlt": "by those proficient in a Tattooist's Kit",
+			"detail1": "black",
+			"detail2": "slighly desaturated color like pen ink",
 			"wondrous": true,
+			"hasRefs": true,
 			"entries": [
-				"Compared to all other {@item Enchanted Inks|AU}, this one is the most unique. It is the only ink that requires the tattooer to be attuned to the ink in order to use it. This is because this ink has only one purpose, and that is validating the one true pact of the tattooed.",
+				"{#itemEntry Enchanted Ink|AU}",
 				{
 					"type": "entries",
-					"name": "Warlock Pacts",
+					"name": "Specialized",
 					"entries": [
-						"When a creature makes a deal with a powerful entity as a Warlock, they are often marked in one way or another as proof of this deal. Additionally, sometimes an entity will mark a creature for their own purposes, regardless of that creature's present deals. And sometimes, a creature will make deals with anyone and have them fight over their soul while they walk away free. This has led to this ink being used by extremely power and jealous entities who expect their deals to be honored above all else."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "This Ink's Properties",
-					"entries": [
-						"This ink comes in a deep rich black color, and can easily be confused for standard writing ink on first glance and this tattoo ink is meant to replicate that, due to the idea of signing a deal. This ink can come in different colors, however it is primarily up to the entity the deal is being made for, if they want a specialized color. The color is present for the tattooing process, in order for the tattooing deal maker to see what they are doing. As the area heals, the ink fades to near invisibility."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Who can See the Tattoo?",
-					"entries": [
-						"Creatures who can see through magical illusion, such as those with {@sense Truesight|XPHB} can see the tattoo clearly in its original color. Additionally, those who are attuned to one bottle of this type of ink can see the tattoo, and they can see it through clothing. This is important for them in order to know who should not be tattooed again by the ink.",
+						"Compared to all other {@item Enchanted Inks|AU}, this one is the most unique. It is the only ink that recommends that the tattooer be attuned to the ink in order to use it. Regardless of attunement, the ink is visible when applied and slowly fades to {@condition Invisible|XPHB|Invisibility} as it heals.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
-									"name": "Two+ Tattooed Deals",
-									"entry": "What would happen if a creature has more than one invisible tattooed deals? That's up to the DM."
+									"nameDot": false,
+									"name": "Without Attunement,",
+									"entries": [
+										"a tattooer can use this ink, however, they won't be able to aid in the healing process because they won't be able to truly see how the area healed."
+									]
+								},
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "With Attunement,",
+									"entries": [
+										"a tattooer can tattoo {@itemProperty BT2|AU|Branded Tattoos} and hidden markings for Warlock Pacts."
+									]
+								},
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "Truesight",
+									"entry": "and those attuned to this ink can see the design of hidden tattoos and designs that use this ink. A {@spell Detect Magic|XPHB} spell will reveal magical aura but not the design itself."
 								}
 							]
 						}
@@ -45737,20 +45728,12 @@
 			"rarity": "uncommon",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Moderately",
-			"detail2": "has colors with a metallic appearance.",
+			"detail1": "grays, slate, golden yellows, and browns",
+			"detail2": "liquid metal",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enchanted Ink|AU}",
-				"While this ink can be found in all standard tattoo colors, grays, slate, golden yellows, and browns are the most common colors for this. Metal-lic Ink, also known as Metallic Ink, are ink colors that are not only metallic in appearance, but are used for metal-related enchantments. Without any special enhancements, this ink is primarily used for aesthetic purposes.",
-				"The tattoo enhancements that require the use of this specific ink are:",
-				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
-					]
-				}
+				"{#itemEntry Enchanted Ink|AU}"
 			]
 		},
 		{
@@ -56001,20 +55984,12 @@
 			"rarity": "uncommon",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Minimally",
-			"detail2": "has an iridescent tint to its various colors",
+			"detail1": "whites, grays, and pastels",
+			"detail2": "shimmering and shifting highlighted colors",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enchanted Ink|AU}",
-				"While this ink can be found in all standard tattoo colors, whites, grays, and pastels are the most common colors for this. Prismatic Inks are often tied to specific transformation or alteration enchantments. Without any additional enhancements, this ink is primarily used for aesthetic purposes.",
-				"The tattoo enhancements that require the use of this specific ink are:",
-				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
-					]
-				}
+				"{#itemEntry Enchanted Ink|AU}"
 			]
 		},
 		{
@@ -73460,20 +73435,12 @@
 			"rarity": "uncommon",
 			"type": "T2T|AU",
 			"weight": 0.5,
-			"detail1": "Minimally",
-			"detail2": "appears like regular colors with white, silvery, and golden sparkles.",
+			"detail1": "black and dark colors",
+			"detail2": "basic color with white, silvery, and golden sparkles.",
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enchanted Ink|AU}",
-				"While this ink can be found in all standard tattoo colors, black and dark colors are the most common for this, in order to let the stardusk truly glitter. Without any additional enhancements, this ink is primarily used for aesthetic purposes.",
-				"The tattoo enhancements that require the use of this specific ink are:",
-				{
-					"type": "list",
-					"items": [
-						"pending enchantments"
-					]
-				}
+				"{#itemEntry Enchanted Ink|AU}"
 			]
 		},
 		{
@@ -88129,10 +88096,6 @@
 			"typeAlt": "T2T|AU",
 			"weight": 0.5,
 			"wondrous": true,
-			"hasRefs": true,
-			"entries": [
-				"Elemental Inks (a type of {@item Enchanted Inks|AU|Enchanted Ink}) are commonly found in 4 elemental-related types: air, earth, fire, and water. Additionally, rarer ones are related to the Para-Elemental Planes: ash, ice, magma, and ooze. They are primarily used for backgrounds within minor enchanted tattoos to give the scene a feeling of realism."
-			],
 			"items": [
 				"Elemental Ink, Air|AU",
 				"Elemental Ink, Ash|AU",
@@ -88189,8 +88152,7 @@
 			"weight": 0.5,
 			"wondrous": true,
 			"entries": [
-				"{@note This generic variant has similar name and the same source as the item {@item Enchanted Ink|AU}}.",
-				"These various magical inks are used for magical tattoos for a variety of enhancements. The general rule is the higher the enhancement, the rarer the ink."
+				"{@note This generic variant has similar name and the same source as the item {@item Enchanted Ink|AU}}."
 			],
 			"items": [
 				"Enchanted Ink|AU",
