@@ -8117,8 +8117,8 @@
 									"caption": "Tattoo Properties",
 									"colLabels": [
 										"Property",
-										"Attunement Rules",
-										"Additional Guidelines"
+										"Max Allowed",
+										"About Property"
 									],
 									"colStyles": [
 										"col-2",
@@ -8127,34 +8127,39 @@
 									],
 									"rows": [
 										[
-											"{@itemProperty AT2|AU|Absorbing Tattoo}",
-											"Resistance does not require Attunement, however extra benefit requires it",
-											"Cannot have more than 3 of these tattoos, regardless of attunement or not."
+											"{@itemProperty ET2|AU|Enchanted Tattoo}",
+											"Dependent on how much canvas, resources, funds, attunement, and other enchanted tattoos",
+											"General category for Magical Tattoos, used for those that do not fall under another category."
 										],
 										[
-											"Armored Tattoo",
-											"Attunement is Optional or Required, depending on the AC boost.",
-											"You cannot be wearing Armor to gain these benefits."
+											"{@itemProperty AT2|AU|Absorbing Tattoo}",
+											"Max 3, regardless of Attunement Status",
+											"Damage Resistance Tattoo with bonus 1/Dawn benefit if Attuned"
+										],
+										[
+											"{@itemProperty ACT2|AU|Armored Tattoo}",
+											"One Only",
+											"Increasing Flat Armor formula to Natural Armor."
 										],
 										[
 											"{@itemProperty BT2|AU|Branded Tattoo}",
-											"No Attunement if obtain by someone from that plane, have your lineage to that plane, or while in that plane. Otherwise, it requires attunement.",
-											"Can only have 1 Branded Tattoo, regardless of attunement."
+											"One Only",
+											"Branded by Planar Energy and experience"
 										],
 										[
 											"{@itemProperty CT2|AU|Class Tattoo}",
-											"No Attunement if its your Class, Required if not your class",
-											"Max of 3 Class Tattoos regardless of Attunement status. If you Multi-class, you only get 1 of your classes Class Tattoos without Attunement."
+											"Max 2, with only 1 allowed to not be Attuned to IF it is your own class",
+											"General marking of station with general class-related enhancements"
 										],
 										[
 											"{@itemProperty EMT2|AU|Elemental Tattoo}",
-											"Attunement based on Enhancement level",
-											"1 Primary Element's tattoos along with its related Para-Elements. Branded Tattoos have a higher priority, and may clash with these tattoos"
+											"Varies, primarily dependent on 1 Primary Element bond plus its two related Para-Elements",
+											"Elemental-related enhancements, benefits, etc."
 										],
 										[
 											"{@itemProperty EsT2|AU|Enspelled Tattoo}",
-											"Not Required for 1 Free Casting per Dawn, with Attunement increases based on spell level, max 4 times per dawn",
-											"Regardless of attunement and regardless of level, cannot have more than 3"
+											"Max 3, regardless of attunement and spell level",
+											"Not Consumed Spell Scroll with 1/Day spell casting"
 										]
 									]
 								}

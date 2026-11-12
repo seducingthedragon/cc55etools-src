@@ -34417,38 +34417,18 @@
 			"page": 160,
 			"rarity": "very rare",
 			"reqAttune": true,
+			"ac": 18,
+			"type": "HA|XPHB",
 			"property": [
-				"ET2|AU"
+				"ACT2|AU"
 			],
-			"detail1": "{@item Metal-Lic Ink|AU}",
-			"detail2": "Additionally, {@item Enchanted Ink|AU} is used to strengthen the {@item Metal-Lic Ink|AU}.",
+			"detail1": "18",
+			"detail2": "{@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and {@item Stardust Ink|AU}.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enchanted Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Unarmored Protection",
-					"entries": [
-						"When you are not wearing any armor, your {@variantrule Armor Class|XPHB} is 18. You can use a {@item Shield|XPHB} and still maintain this benefit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Planning and Creating this Tattoo",
-					"entries": [
-						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
-						{
-							"type": "list",
-							"items": [
-								"{@b Placement Recommendations:} ?",
-								"{@b Recommended Iconography and/or Size:} ? Medium.",
-								"{@b Required Visibility:} No"
-							]
-						}
-					]
-				}
+				"{#itemEntry Armored Tattoo|AU}"
 			]
 		},
 		{
@@ -42325,56 +42305,19 @@
 			],
 			"source": "AU",
 			"page": 158,
-			"rarity": "rare",
-			"reqAttune": "optional",
+			"rarity": "uncommon",
+			"ac": 13,
+			"type": "LA|XPHB",
 			"property": [
-				"ET2|AU"
+				"ACT2|AU"
 			],
-			"detail1": "{@item Metal-Lic Ink|AU}",
-			"detail2": "Additionally, {@item Enchanted Ink|AU} is used to maintain malluability to the {@item Metal-Lic Ink|AU}.",
+			"detail1": "13 plus your Dexterity Modifier",
+			"detail2": "{@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and {@item Dancing Ink|AU}.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enchanted Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Unarmored Protection",
-					"entries": [
-						"Your {@variantrule Armor Class|XPHB} while not wearing armor in increased, however the amount is dependent on whether or not you are attuned to this tattoo. The benefit lasts even with the use of a shield.",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Not Attuned AC",
-									"entry": "Without Attunement, your unarmored AC is a flat 13."
-								},
-								{
-									"type": "item",
-									"name": "Attuned AC",
-									"entry": "With Attunement, your unarmored AC is 12 plus your Dexterity Modifier."
-								}
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Planning and Creating this Tattoo",
-					"entries": [
-						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
-						{
-							"type": "list",
-							"items": [
-								"{@b Placement Recommendations:} Yes",
-								"{@b Recommended Iconography and/or Size:} Medium",
-								"{@b Required Visibility:} No"
-							]
-						}
-					]
-				}
+				"{#itemEntry Armored Tattoo|AU}"
 			]
 		},
 		{
@@ -46327,39 +46270,20 @@
 			"source": "AU",
 			"page": 159,
 			"rarity": "rare",
-			"reqAttune": true,
+			"reqAttune": "optional",
+			"ac": 15,
+			"type": "MA|XPHB",
+			"dexterityMax": 2,
 			"property": [
-				"ET2|AU"
+				"ACT2|AU"
 			],
-			"detail1": "{@item Metal-Lic Ink|AU}",
-			"detail2": "Additionally, {@item Enchanted Ink|AU} is used to strengthen the {@item Metal-Lic Ink|AU}.",
+			"detail1": "15 plus your Dexterity Modifier (max 2) without Attunement. With Attunement, your max Dexterity increases to 3.",
+			"detail2": "{@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and {@item Prismatic Ink|AU}.",
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
-				"{#itemEntry Enchanted Tattoo|AU}",
-				{
-					"type": "entries",
-					"name": "Unarmored Protection",
-					"entries": [
-						"Your {@variantrule Armor Class|XPHB} without wearing any armor is 15 plus your Dexterity Modifier (max 2). You can use a shield and stil maintain this benefit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Planning and Creating this Tattoo",
-					"entries": [
-						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
-						{
-							"type": "list",
-							"items": [
-								"{@b Placement Recommendations:} ?",
-								"{@b Recommended Iconography and/or Size:} ?",
-								"{@b Required Visibility:} ?"
-							]
-						}
-					]
-				}
+				"{#itemEntry Armored Tattoo|AU}"
 			]
 		},
 		{
@@ -86586,41 +86510,6 @@
 			"type": "GV|XDMG",
 			"rarity": "varies",
 			"tattoo": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Tattoo Stats",
-					"entries": [
-						"This tattoo has the following stats:",
-						{
-							"type": "table",
-							"caption": "Tattoo Stats",
-							"colLabels": [
-								"Category",
-								"Information"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-9"
-							],
-							"rows": [
-								[
-									"Specified Placement Required",
-									"Yes: Chest, Chest and Stomach, Back, or Both Upperarms plus Shoulders"
-								],
-								[
-									"Minimal Size Required",
-									"Medium"
-								],
-								[
-									"Visibility Required",
-									"No"
-								]
-							]
-						}
-					]
-				}
-			],
 			"items": [
 				"Lightly Armored Tattoo|AU",
 				"Moderately Armored Tattoo|AU",

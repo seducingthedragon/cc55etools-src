@@ -9280,6 +9280,23 @@
 			]
 		},
 		{
+			"abbreviation": "ACT2",
+			"source": "AU",
+			"page": 151,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Armored Tattoo",
+					"entries": [
+						"This tattoo grants you with an increased Natural Armor AC, however, you cannot wear any armor in order to benefit from this. You can only have one Armored Tattoo, however, you can add on to it, in order to increase its AC benefit to the next tier without having to get a whole new one.",
+						"This tattoo is considered a Light, Medium, or Heavy Armor, even though it is a tattoo. This is done to allow for the AC formula to be listed properly. You do not need {@variantrule Armor Training|XPHB} to get this tattoo. Additionally, the lack of Armor Training with this tattoo will not cause {@variantrule Disadvantage|XPHB} on spellcasting and other actions.",
+						"{@i Attuning to a magical tattoo must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "AF",
 			"source": "DMG",
 			"page": 267,
@@ -11161,6 +11178,51 @@
 			"source": "XDMG",
 			"entriesTemplate": [
 				"You have {@variantrule Resistance|XPHB} to {{getFullImmRes item.resist}} damage while you wear this armor."
+			]
+		},
+		{
+			"name": "Armored Tattoo",
+			"source": "AU",
+			"entriesTemplate": [
+				{
+					"type": "entries",
+					"name": "Unarmored Protection",
+					"entries": [
+						"When you are not wearing any armor, your {@variantrule Armor Class|XPHB} is {{item.detail1}}. You can use a {@item Shield|XPHB} and still maintain this benefit.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Innate Natural Armor",
+									"entry": "If you have a lineage-related feature that provides Natural Armor, you can choose whether to use the AC provided by this tattoo or your Natural Armor AC."
+								},
+								{
+									"type": "item",
+									"name": "Unarmored Defense from Class Feature or Elsewhere",
+									"entry": "If this Armored Tattoo AC Formula allows you the ability to add your Dexterity Modifier, you can add the second Ability Modifier provided by your Unarmored Defense to the AC formula provided by this tattoo. If Dexterity is not added to this tattoo's AC formula, then you cannot add anything else to it as well."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Chest, Stomach, Back, Both Upperarms plus Shoulders, maybe legs, overall wherever armor typically covers.",
+								"{@b Required Ink:} {{item.detail2}}",
+								"{@b Recommended Iconography and/or Size:} Armor, Chain, rock solid, etc., often representing the armor type that the tattoo is meant to represent, in a Medium or larger size tattoo.",
+								"{@b Required Visibility:} No, as long as not covered by actual armor."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
