@@ -13310,6 +13310,22 @@
 			"value": 1
 		},
 		{
+			"name": "Channeling Divinity Tattoo",
+			"source": "AU",
+			"page": 161,
+			"rarity": "unknown (magic)",
+			"property": [
+				"PHT2|AU"
+			],
+			"detail1": "Cleric's and Paladin's Channel Divinity feature",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Placeholder Tattoo|AU}"
+			]
+		},
+		{
 			"name": "Chaotic Branded Tattoo",
 			"group": [
 				"Branded Tattoos"
@@ -23382,6 +23398,22 @@
 			]
 		},
 		{
+			"name": "Dragonmark Tattoo",
+			"source": "AU",
+			"page": 161,
+			"rarity": "unknown (magic)",
+			"property": [
+				"PHT2|AU"
+			],
+			"detail1": "Eberron's Dragonmarks",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Placeholder Tattoo|AU}"
+			]
+		},
+		{
 			"name": "Dragonstaff of Ahghairon",
 			"source": "WDH",
 			"page": 191,
@@ -25935,6 +25967,22 @@
 			]
 		},
 		{
+			"name": "Engineering Tattoo",
+			"source": "AU",
+			"page": 161,
+			"rarity": "unknown (magic)",
+			"property": [
+				"PHT2|AU"
+			],
+			"detail1": "Magic Item Plan for Artificers",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Placeholder Tattoo|AU}"
+			]
+		},
+		{
 			"name": "Ensorcelled Missive",
 			"source": "AU",
 			"page": 119,
@@ -28269,6 +28317,22 @@
 			"type": "$A|DMG",
 			"rarity": "none",
 			"value": 250000
+		},
+		{
+			"name": "Feats Tattoo",
+			"source": "AU",
+			"page": 161,
+			"rarity": "unknown (magic)",
+			"property": [
+				"PHT2|AU"
+			],
+			"detail1": "Feat gained",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Placeholder Tattoo|AU}"
+			]
 		},
 		{
 			"name": "Feed (per day)",
@@ -38903,6 +38967,22 @@
 			]
 		},
 		{
+			"name": "Invocation Tattoo",
+			"source": "AU",
+			"page": 161,
+			"rarity": "unknown (magic)",
+			"property": [
+				"PHT2|AU"
+			],
+			"detail1": "Warlock Invocations",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Placeholder Tattoo|AU}"
+			]
+		},
+		{
 			"name": "Ioun Stone of Vitality",
 			"source": "IMR",
 			"page": 94,
@@ -45583,6 +45663,22 @@
 						}
 					]
 				}
+			]
+		},
+		{
+			"name": "Metamagic Tattoo",
+			"source": "AU",
+			"page": 161,
+			"rarity": "unknown (magic)",
+			"property": [
+				"PHT2|AU"
+			],
+			"detail1": "Sorcerer's Metamagic",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Placeholder Tattoo|AU}"
 			]
 		},
 		{
@@ -84761,6 +84857,22 @@
 			]
 		},
 		{
+			"name": "Wild Shape Tattoo",
+			"source": "AU",
+			"page": 161,
+			"rarity": "unknown (magic)",
+			"property": [
+				"PHT2|AU"
+			],
+			"detail1": "Druid's Wild Shape",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Placeholder Tattoo|AU}"
+			]
+		},
+		{
 			"name": "Wildroot",
 			"source": "ToA",
 			"page": 205,
@@ -89904,6 +90016,24 @@
 				"Orb of Shielding (Risian Shale)|ERLW",
 				"Orb of Shielding (Shavarran Chert)|ERLW",
 				"Orb of Shielding (Xorian Marble)|ERLW"
+			]
+		},
+		{
+			"name": "Placeholder Tattoos",
+			"source": "AU",
+			"page": 161,
+			"property": [
+				"PHT2|AU"
+			],
+			"rarity": "unknown (magic)",
+			"items": [
+				"Channeling Divinity Tattoo|AU",
+				"Dragonmark Tattoo|AU",
+				"Engineering Tattoo|AU",
+				"Feats Tattoo|AU",
+				"Invocation Tattoo|AU",
+				"Metamagic Tattoo|AU",
+				"Wild Shape Tattoo|AU"
 			]
 		},
 		{

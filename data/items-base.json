@@ -9796,6 +9796,21 @@
 			]
 		},
 		{
+			"abbreviation": "PHT2",
+			"source": "AU",
+			"page": 151,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Placeholder Tattoo",
+					"entries": [
+						"A Placeholder Tattoo is a narrative tool. It can be used as an actual magical tattoo with the use of any enchanted ink that makes sense or an arcane mark that just appears. This mark or tattoo represents a feature that you have gained access to as part of your class, feat, etc. Meaning, this item does not grant any benefits that you don't already have access to. Upon your DM's approval, this tattoo can be used as a narrative tool for the feature it is representing."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "R",
 			"source": "PHB",
 			"page": 147,
@@ -11479,6 +11494,13 @@
 			"entriesTemplate": [
 				"When you drink this potion, you have {@variantrule Resistance|XPHB} to {{getFullImmRes item.resist}} damage for 1 hour."
 			]
+		},
+		{
+			"name": "Placeholder Tattoo",
+			"source": "AU",
+			"entriesTemplate": [
+				"This tattoo is a placeholder for a {{item.detail1}}. This specific tattoo can only be used for the player/character who has access to the feature it's referencing."
+		]
 		},
 		{
 			"name": "Ring of Elemental Command",

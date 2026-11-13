@@ -7815,6 +7815,13 @@
 											"entry": "Want to see the Homebrew Sources I used for Inspiration and support? Click the following link: {@link 5eTools State File with Homebrew Tattoo Sources|https://drive.dakotaraine.xyz/file/#/2/file/5tDpPcNVuYKrUYyiJ7omsHlR/}, and download the json document. Please let me know if you are having any trouble this with part. Then go to {@link Our Main 5eTools|5etools.dakotaraine.xyz} page and click the {@b SETTINGS} tab. In its dropdown menu, click {@b Load State from File}, and upload the downloaded json file. It'll inport the Homebrew Sources I used plus set up the Items page with a Filter that focuses only on those sources. There are 6 books total, but not all of them had items, so feel free to check out the Books tab in order to review the source material itself."
 										}
 									]
+								},
+								{
+									"type": "variantSub",
+									"name": "A Final Note on the Magical Tattoo Items",
+									"entries": [
+										"There will be duplicate effects and uses. This is because I found at least two approaches for a similar effect that I liked and for this First Draft, I choose to include all in order to gain your input. The two most common ones I can think of as a Suggestion are the Armored Tattoos and the Thick Skin Tattoos. Both grant a bonus while Unarmored but in different ways."
+									]
 								}
 							]
 						},
@@ -7836,7 +7843,7 @@
 					"page": 151,
 					"id": "701",
 					"entries": [
-						"Tattoo magic is an incredibly old form of magic, and is a form of art utilized by many different cultures across the multiverse. The designs and function of these tattoos varies wildly between peoples, races, species, countries, continents, and planes. While not all tattoos are magical, it is a widespread practice with various styles, both in art and application.",
+						"Tattoo magic is an incredibly old form of magic, and is a form of art utilized by many different cultures across the multiverse. The designs and function of these tattoos varies wildly between peoples, races, species, countries, continents, and planes. While not all tattoos are magical, it is a widespread practice with various styles, both in art and application. Depending on the world you are playing in, this could include Marks, such as in Eberron, Scarification, permanent Henna, War Paint, etc.",
 						"With this update to magical tattoos, this chapter discusses tools, the new Artisan's Toolkit, costs, toolkit upgrades, and the tattoo effects themselves. The biggest change is the reduction of attunement. Magically tattoos will still require {@variantrule Attunement|XPHB}, but only for higher level enhancements and specific situations. Due to this, attuning to a magical tattoo works slightly different.",
 						{
 							"type": "statblock",
@@ -9174,6 +9181,38 @@
 							"name": "Blood Fury Tattoo",
 							"source": "AU",
 							"style": "inset"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Custom Creations for Magical Tattoos",
+					"page": 161,
+					"id": "710",
+					"entries": [
+						"There are many magical tattoos that can be created and one glimpse into the Homebrewing Community and you'll see all the creative ideas people have regarding the effects of magical tattoos. While many tattoos have already been provided in this book, this section is provided as a place for new ideas to take shape.",
+						{
+							"type": "entries",
+							"name": "Placeholder Tattoos",
+							"page": 161,
+							"id": "711",
+							"entries": [
+								"A {@itemProperty PHT2|AU|Placeholder Tattoo} is a magical tattoo property and group of items that is strictly narrative base. They can created by Enchanted Inks and applied by a professional Tattooist, or, a player can gain them as a magical mark that appears when their powers level up. Since they do not require the involvement of a Tattooist, they can appear as quickly as possible. They also do not grant powers the player does not already have access to. Listed below are some frequently accessible {@item Placeholder Tattoos|AU}, and this list can be expanded on upon your decision to do so.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"columns": 2,
+									"items": [
+										"{@item Channeling Divinity Tattoo|AU}",
+										"{@item Dragonmark Tattoo|AU}",
+										"{@item Engineering Tattoo|AU}",
+										"{@item Feats Tattoo|AU}",
+										"{@item Invocation Tattoo|AU}",
+										"{@item Metamagic Tattoo|AU}",
+										"{@item Wild Shape Tattoo|AU}"
+									]
+								}
+							]
 						}
 					]
 				}
