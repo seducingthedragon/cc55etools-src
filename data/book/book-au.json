@@ -8169,684 +8169,916 @@
 				},
 				{
 					"type": "section",
-					"name": "Minimally Enhanced Tattoos",
-					"page": 157,
-					"id": "70a",
+					"name": "Common Magical Tattoos",
+					"page": 156,
+					"id": "709",
 					"entries": [
-						"What is a Minor Enhancement and how do they differ from others. Max Minor Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
-						"Lists of Common and Uncommon Magical Tattoos.",
+						"Common Magical Tattoos are tattoos that use {@item Enchanted Inks|AU} that may or may not have additional enhancements added. These tattoos typically do not require any attunement, however, a very small handful of them provide Attunement as an option. These tattoos are easy to obtain, as long as the Enchanted Inks are present. The added Common Magical Tattoos are listed below.",
 						{
-							"type": "table",
-							"caption": "Minimally Enhanced Magical Tattoos",
-							"colLabels": [
-								"Tattoo",
-								"Brief Descript.",
-								"Req. Enhanced Ink Type",
-								"Visibility?"
-							],
-							"colStyles": [
-								"col-1-5 text-center",
-								"col-4-5",
-								"col-3",
-								"col-3 text-center"
-							],
-							"rows": [
-								[
-									"{@item Charming Tattoo|AU|Charming}",
-									"Bonus to {@skill Persuasion|XPHB} Checks (+1)",
-									"{@item Prismatic Ink|AU}",
-									"Yes"
-								],
-								[
-									"{@item Darkvision Tattoo|AU|Darkvision}",
-									"Gain {@sense Darkvision|XPHB} out to 30 feet, or gain an additional 15 feet of {@sense Darkvision|XPHB} if you already have it",
-									"{@item Stardust Ink|AU}",
-									"No"
-								],
-								[
-									"{@item Elemental Aura Tattoo|AU|Elemental Aura}",
-									"10-foot Emanation of an Aura related to the Elemental Ink choosen",
-									"Any 1 {@item Elemental Inks|AU|Elemental Ink} Type",
-									"No"
-								],
-								[
-									"{@item Enspelled Tattoo (1st Level)|AU|Enspelled (1st Level)}",
-									"Cast its spell with no material components once per day, bonus benefits if attuned (optional)",
-									"{@item Enchanted Ink|AU} and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
-									"Dependent"
-								],
-								[
-									"{@item Enspelled Tattoo (Cantrip)|AU|Enspelled (Cantrip)}",
-									"Cast its spell with no material components once per day, bonus benefits if attuned (optional)",
-									"{@item Enchanted Ink|AU} and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
-									"Dependent"
-								],
-								[
-									"{@item Flashlight Tattoo|AU|Flashlight}",
-									"Cast {@spell Light} once per {@variantrule Long Rest|XPHB} in a 30-foot {@variantrule Bright Light|XPHB} {@variantrule Cone [Area of Effect]|XPHB|Cone}",
-									"{@item Glowing Ink|AU}",
-									"Yes"
-								],
-								[
-									"{@item Hands-Off Tattoo|AU|Hands-Off}",
-									"Pinch an Unliked Individual when Touched",
-									"{@item Dancing Ink|AU}",
-									"Yes"
-								],
-								[
-									"{@item Intuitive Tattoo|AU|Intuitive}",
-									"Bonus to {@skill Insight|XPHB} Checks (+1)",
-									"{@item Stardust Ink|AU}",
-									"Yes"
-								],
-								[
-									"{@item Masquerade Tattoo|AU|Masquerade Icon}",
-									"Cast {@spell Disguise Self|XPHB} at will, targetting only the tattoo",
-									"{@item Dancing Ink|AU} and {@item Prismatic Ink|AU}",
-									"Necessary"
-								],
-								[
-									"{@item Night Sky Reflection Tattoo|AU|Night Sky Reflection}",
-									"While not underground, glittering pattern will match the present stars in the night sky",
-									"{@item Stardust Ink|AU}",
-									"No"
-								],
-								[
-									"{@item Quick Zap Tattoo|AU|Quick Visitation}",
-									"Will move for 1 minute to another body part",
-									"{@item Dancing Ink|AU}",
-									"No"
-								],
-								[
-									"{@item Quill Tattoo|AU|Quill}",
-									"Turns your index finger into a {@item Quill of Studiousness|XDMG}",
-									"{@item Enchanted Ink|AU}",
-									"Yes"
-								],
-								[
-									"{@item S-O-S Tattoo|AU|S-O-S}",
-									"Flash SOS in a visual light code {@i i.e. morse code}",
-									"{@item Glowing Ink|AU}",
-									"Necessary"
-								],
-								[
-									"{@item Second Guessing Tattoo|AU|Second Guessing}",
-									"Targets of any {@condition Charm|XPHB} related effect makes a second Wisdom {@variantrule Saving Throw|XPHB} to determine if Magically Influenced",
-									"{@item Prismatic Ink|AU}",
-									"Yes"
-								],
-								[
-									"{@item Strobe Tattoo|AU|Strobe}",
-									"If multicolored, will flash in random rotation to surrounding music",
-									"{@item Glowing Ink|AU}",
-									"Yes"
-								],
-								[
-									"{@item Whistling Message Tattoo|AU|Whistling Message}",
-									"Cast {@spell Message|XPHB} to target in range, but the message is a whistle only.",
-									"{@item Dancing Ink|AU}",
-									"Yes"
-								]
+							"type": "entries",
+							"name": "List of Common Magical Tattoos",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"columns": 3,
+									"items": [
+										"{@item Dancing Tattoo|AU|Dancing} {@i (ink only)}",
+										"{@item Darkvision Tattoo|AU|Darkvision}",
+										"{@item Elemental Aura Tattoo|AU|Elemental Aura} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Elemental Tattoo|AU|Elemental} {@i (ink only)}",
+										"{@item Enspelled Tattoo (Cantrip)|AU|Enspelled (Cantrip)} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
+										"{@item Enspelled Tattoo (1st Level)|AU|Enspelled (1st Level)} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
+										"{@item Glowing Tattoo|AU|Glowing} {@i (ink only)}",
+										"{@item Masquerade Tattoo|AU|Masquerade}",
+										"{@item Metal-Lic Tattoo|AU|Metal-Lic} {@i (ink only)}",
+										"{@item Prismatic Tattoo|AU|Prismatic} {@i (ink only)}",
+										"{@item Quill Tattoo|AU|Quill}",
+										"{@item Stardust Tattoo|AU|Stardust} {@i (ink only)}"
+									]
+								}
 							]
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Dancing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Darkvision Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Elemental Aura Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Elemental Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Enspelled Tattoo (Cantrip)",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Enspelled Tattoo (1st Level)",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Glowing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Masquerade Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Metal-Lic Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Prismatic Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Quill Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Stardust Tattoo",
+							"source": "AU",
+							"style": "inset"
 						}
 					]
 				},
 				{
 					"type": "section",
-					"name": "Moderately Enhanced Tattoos",
+					"name": "Uncommon Magical Tattoos",
+					"page": 156,
+					"id": "70a",
+					"entries": [
+						"Uncommon Magical Tattoos are tattoos that use {@item Enchanted Inks|AU} and additional resources for specific enhancements. These tattoos typically do not require any attunement, however, some have Attunement as an option, requirement, or based on certain guidelines. These tattoos are somewhat easy to obtain, as long as the Enchanted Inks are present plus additional resources for their enhancements. The added Uncommon Magical Tattoos are listed below.",
+						{
+							"type": "entries",
+							"name": "List of Uncommon Magical Tattoos",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"columns": 3,
+									"items": [
+										"{@item Adaman-Tot Tattoo|AU|Adaman-Tot}",
+										"{@item Alter Self Tattoo|AU|Alter Self}",
+										"{@item Bludgeoned Absorbing Tattoo|AU|Bludgeoned Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Charming Tattoo|AU|Charming}",
+										"{@item Chilly Ironed Tattoo|AU|Chilly Ironed}",
+										"All {@item Class Tattoos|AU}",
+										"{@item Control Heat Tattoo|AU|Control Heat} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Enspelled Tattoo (2nd Level)|AU|Enspelled (2nd Level)} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
+										"{@item Enspelled Tattoo (3rd Level)|AU|Enspelled (3rd Level)} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
+										"{@item Flashlight Tattoo|AU|Flashlight}",
+										"{@item Goodnight Tattoo|AU|Goodnight}",
+										"{@item Hands-Off Tattoo|AU|Hands-Off}",
+										"{@item Hidden Quill Tattoo|AU|Hidden Quill}",
+										"{@item Intuitive Tattoo|AU|Intuitive}",
+										"{@item Invisible Tattoo|AU|Invisible} {@i (ink only)}",
+										"{@item Lightly Armored Tattoo|AU|Lightly Armored} {@i ({@itemProperty ACT2|AU|Armored Type})}",
+										"{@item Magical Strike Tattoo|AU|Magical Strike}",
+										"{@item Mithra-Light Tattoo|AU|Mithra-Light}",
+										"{@item Mold Land Tattoo|AU|Mold Land} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Night Sky Reflection Tattoo|AU|Night Sky Reflection}",
+										"{@item Para-Elementalism Tattoo|AU|Para-Elementalism} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Pierced Absorbing Tattoo|AU|Pierced Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Quick Healing Tattoo|AU|Quick Healing}",
+										"{@item Quick Silvered Tattoo|AU|Quick Silvered}",
+										"{@item Quick Zap Tattoo|AU|Quick Zap}",
+										"{@item Rainbow Quill Tattoo|AU|Rainbow Quill}",
+										"{@item S-O-S Tattoo|AU|S-O-S}",
+										"{@item Sculpt Water Tattoo|AU|Sculpt Water} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Second Guessing Tattoo|AU|Second Guessing}",
+										"{@item Slashed Absorbing Tattoo|AU|Slashed Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Strobe Tattoo|AU|Strobe}",
+										"{@item Whistling Message Tattoo|AU|Whistling Message}",
+										"{@item Windry Tattoo|AU|Windy} {@i ({@itemProperty EMT2|AU|Elemental Type})}"
+									]
+								}
+							]
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Adaman-Tot Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Alter Self Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Artificer Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Barbarian Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Bard Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Bludgeoned Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Charming Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Chilly Ironed Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Cleric Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Control Heat Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Druid Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Enspelled Tattoo (2nd Level)",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Enspelled Tattoo (3rd Level)",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Fighter Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Flashlight Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Goodnight Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Hands-Off Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Hidden Quill Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Intuitive Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Invisible Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Lightly Armored Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Magical Strike Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Mithra-Light Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Mold Land Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Monk Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Night Sky Reflection Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Paladin Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Para-Elementalism Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Pierced Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Quick Healing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Quick Silvered Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Quick Zap Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Rainbow Quill Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Ranger Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Rogue Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "S-O-S Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Sculpt Water Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Second Guessing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Slashed Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Sorcerer Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Strobe Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Warlock Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Whistling Message Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Windy Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Wizard Tattoo",
+							"source": "AU",
+							"style": "inset"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Rare Magical Tattoos",
 					"page": 158,
 					"id": "70b",
 					"entries": [
-						"What is a Moderate Enhancement and how do they differ from others. Max Moderate Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
-						"Lists of Uncommon and Rare Magical Tattoos.",
+						"Rare Magical Tattoos are tattoos that use {@item Enchanted Inks|AU} and additional resources for specific enhancements. These tattoos vary on Attunement status. These tattoos are somewhat harder to obtain, due to the additional resources necessary for their enhancements. The added Rare Magical Tattoos are listed below.",
 						{
-							"type": "table",
-							"caption": "Moderately Enhanced Magical Tattoos",
-							"colLabels": [
-								"Tattoo",
-								"Brief Descript.",
-								"Req. Enhanced Ink Type",
-								"Visibility?",
-								"Attunement?"
-							],
-							"colStyles": [
-								"col-1-5 text-center",
-								"col-4-5",
-								"col-3",
-								"col-1-5 text-center",
-								"col-1-5 text-center"
-							],
-							"rows": [
-								[
-									"{@item Adaman-Tot Tattoo|AU|Adaman-Tot}",
-									"Gain +2 Bonus on Strength or Constitution {@variantrule Saving Throw|XPHB|Saving Throws} (choose when tattooed), and you are 5 pounds heavier",
-									"{@item Metal-Lic Ink|AU}",
-									"No",
-									"No"
-								],
-								[
-									"{@item Alter Self Tattoo|AU|Alter Self}",
-									"Cast {@spell Alter Self|XPHB} once per dawn using the Appearance Only option",
-									"{@item Prismatic Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Big Flashlight Tattoo|AU|Big Flashlight}",
-									"Know {@spell Light|XPHB} Cantrip, cast in sphere or a 45-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}",
-									"{@item Glowing Ink|AU} and {@item Stardust Ink|XPHB}",
-									"Yes",
-									"Dependent"
-								],
-								[
-									"{@item Bludgeoned Absorbing Tattoo|AU|Bludgeoned Absorbing}",
-									"Bludgeoning Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|Brown Enchanted Ink} plus {@item Elemental Ink, Earth|AU} and {@item Metal-Lic Ink|AU|Bronze Metal-Lic Ink}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Chilly Ironed Tattoo|AU|Chilly Ironed}",
-									"Gain +2 Bonus on {@variantrule Saving Throws|AU} against being {@condition Charmed|XPHB} by Fey creatures.",
-									"{@item Metal-Lic Ink|AU}",
-									"No",
-									"No"
-								],
-								[
-									"{@item Coiled Tattoo|AU|Coiled}",
-									"Becomes additional limb for an {@variantrule Unarmed Attack|XPHB} once per dawn or per rest, attunement dependent",
-									"{@item Dancing Ink|AU} and {@item Prismatic Ink|AU}",
-									"Yes",
-									"Optional"
-								],
-								[
-									"{@item Enspelled Tattoo (2nd Level)|AU|Enspelled (2nd Level)}",
-									"Cast its spell with no material components once per day, bonus benefits if attuned",
-									"{@item Enchanted Ink|AU} with {@item Prismatic Ink|AU} and/or {@item Stardust Ink|AU}",
-									"Dependent",
-									"Optional"
-								],
-								[
-									"{@item Enspelled Tattoo (3rd Level)|AU|Enspelled (3rd Level)}",
-									"Cast its spell with no material components once per day, bonus benefits if attuned",
-									"{@item Enchanted Ink|AU} with {@item Prismatic Ink|AU} and/or {@item Stardust Ink|AU}",
-									"Dependent",
-									"Optional"
-								],
-								[
-									"{@item Control Heat Tattoo|AU|Control Heat}",
-									"You know the {@spell Control Flames|XGE} Cantrip and gain additional usage based on what type of Elemental Ink used. Plus option for the ink's related Elemental Aura effect.",
-									"1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Fire|AU|Fire}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Magma|AU|Magma}",
-									"No",
-									"No"
-								],
-								[
-									"{@item Goodnight Tattoo|AU|Goodnight}",
-									"Cast {@spell Sleep|XPHB} against a target who can see your tattoo without {@status Concentration|XPHB}, frequency based on {@variantrule Attunement|XPHB} status",
-									"{@item Stardust Ink|AU}",
-									"Yes",
-									"Optional"
-								],
-								[
-									"{@item Hidden Quill Tattoo|AU|Hidden Quill}",
-									"Turns your index finger into a {@item Quill of Studiousness|XDMG} and grants ability to write 1 invisible note per day",
-									"{@item Enchanted Ink|AU} and either {@item Stardust Ink|AU} or {@item Invisible Ink|AU}",
-									"Yes",
-									"Optional"
-								],
-								[
-									"{@item Lightly Armored Tattoo|AU|Lightly Armored}",
-									"Unarmored AC is 13 without Attunement or 12 plus your DEX Mod with Attunement, can use shield and keep benefit",
-									"{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Magical Strike Tattoo|AU|Magical Strike}",
-									"Unarmed Strike Attacks are considered magical for the purposes of overcoming Resistances, with bonus benefit if Attuned",
-									"{@item Enchanted Ink|AU} and {@item Stardust Ink|XPHB}",
-									"Yes",
-									"Optional"
-								],
-								[
-									"{@item Mithra-Lite Tattoo|AU|Mithra-Lite}",
-									"Gain +1 Bonus on Dexterity ({@skill Acrobatics|XPHB}) checks and Dexterity {@variantrule Saving Throw|XPHB}, and you are two pounds lighter",
-									"{@item Metal-Lic Ink|AU}",
-									"No",
-									"No"
-								],
-								[
-									"{@item Mold Land Tattoo|AU|Mold Land}",
-									"You know the {@spell Mold Earth|XGE} Cantrip and gain additional usage based on what type of Elemental Ink used. Plus option for the ink's related Elemental Aura effect.",
-									"1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Earth|AU|Earth}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Ooze|AU|Ooze}",
-									"No",
-									"No"
-								],
-								[
-									"{@item Para-Elementalism Tattoo|AU|Para-Elementalism}",
-									"You know the {@spell Elementalism|XPHB} Cantrip, however you can only use the Sculpt Element Option.",
-									"1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Ash|AU|Ash}, {@item Elemental Ink, Ice|AU|Ice}, {@item Elemental Ink, Magma|AU|Magma}, or {@item Elemental Ink, Ooze|AU|Ooze}",
-									"No",
-									"No"
-								],
-								[
-									"{@item Pierced Absorbing Tattoo|AU|Pierced Absorbing}",
-									"Piercing Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|Dark Gray Enchanted Ink} plus {@item Metal-Lic Ink|AU|Brass Metal-Lic Ink} and {@item Stardust Ink|AU}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Quick Healer Tattoo|AU|Quick Healer}",
-									"Regaining {@variantrule Hit Points|XPHB} on a {@variantrule Short Rest|XPHB}, Bonus {@variantrule Hit Points|XPHB} through magical healing.",
-									"{@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and {@item Stardust Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Quick Silvered Tattoo|AU|Quick Silvered}",
-									"Gain +2 Bonus on {@variantrule Saving Throws|AU} against transformation effects from Shapechangers",
-									"{@item Metal-Lic Ink|AU}",
-									"No",
-									"No"
-								],
-								[
-									"{@item Rainbow Quill Tattoo|AU|Rainbow Quill}",
-									"Turns your index finger into a {@item Quill of Studiousness|XDMG}, allowing you to change the color of the ink written with on your mental command.",
-									"{@item Enchanted Ink|AU} and {@item Prismatic Ink|AU}",
-									"Yes",
-									"No"
-								],
-								[
-									"{@item Sculpt Water Tattoo|AU|Sculpt Water}",
-									"You know the {@spell Shape Water|XGE} Cantrip and gain additional usage based on what type of Elemental Ink used. Plus option for the ink's related Elemental Aura effect.",
-									"1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Water|AU|Water}, {@item Elemental Ink, Ice|AU|Ice}, or {@item Elemental Ink, Ooze|AU|Ooze}",
-									"No",
-									"No"
-								],
-								[
-									"{@item Slashed Absorbing Tattoo|AU|Slashed Absorbing}",
-									"Slashing Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|Light Gray Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Metal-Lic Ink|AU|Silver Metal-Lic Ink}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Windy Tattoo|AU|Windy}",
-									"You know the {@spell Gust|XGE} Cantrip and gain additional usage based on what type of Elemental Ink used. Plus option for the ink's related Elemental Aura effect.",
-									"1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Ice|AU|Ice}",
-									"No",
-									"No"
-								]
+							"type": "entries",
+							"name": "List of Rare Magical Tattoos",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"columns": 3,
+									"items": [
+										"{@item Acid Absorbing Tattoo|AU|Acid Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Adamantined Tattoo|AU|Adamantined}",
+										"{@item Airy Tattoo|AU|Airy} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Ashy Tattoo|AU|Ashy} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Big Flashlight Tattoo|AU|Big Flashlight}",
+										"All {@item Branded Tattoo|AU}",
+										"{@item Coiled Tattoo|AU|Coiled}",
+										"{@item Cold Absorbing Tattoo|AU|Cold Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Cold Ironed Tattoo|AU|Cold Ironed}",
+										"{@item Earthy Tattoo|AU|Earthy} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Enspelled Tattoo (4th Level)|AU|Enspelled (4th Level)} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
+										"{@item Enspelled Tattoo (5th Level)|AU|Enspelled (5th Level)} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
+										"{@item Fiery Tattoo|AU|Fiery} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Fire Absorbing Tattoo|AU|Fire Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Icey Tattoo|AU|Icey} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Lightning Absorbing Tattoo|AU|Lightning Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Mithralled Tattoo|AU|Mithralled}",
+										"{@item Moderately Armored Tattoo|AU|Moderately Armored} {@i ({@itemProperty ACT2|AU|Armored Type})}",
+										"{@item Molten Tattoo|AU|Molten} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Necrotic Absorbing Tattoo|AU|Necrotic Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Oozy Tattoo|AU|Oozy} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Poison Absorbing Tattoo|AU|Poison Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Psychic Absorbing Tattoo|AU|Psychic Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Radiant Absorbing Tattoo|AU|Radiant Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Silvered Tattoo|AU|Silvered}",
+										"{@item Thunder Absorbing Tattoo|AU|Thunder Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Watery Tattoo|AU|Watery} {@i ({@itemProperty EMT2|AU|Elemental Type})}"
+									]
+								}
 							]
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Acid Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Adamantined Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Airy Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Ashy Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Big Flashlight Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Chaotic Branded Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Coiled Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Cold Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Cold Ironed Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Earthy Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Enspelled Tattoo (4th Level)",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Enspelled Tattoo (5th Level)",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Environment Branded Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Faerie Branded Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Fiery Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Fire Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Heavenly Branded Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Hellish Branded Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Icey Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Lightning Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Mithralled Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Moderately Armored Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Molten Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Necrotic Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Oozy Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Orderly Branded Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Poison Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Psychic Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Radiant Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Shadow Branded Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Silvered Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Thunder Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Watery Tattoo",
+							"source": "AU",
+							"style": "inset"
 						}
 					]
 				},
 				{
 					"type": "section",
-					"name": "Majorly Enhanced Tattoos",
-					"page": 159,
+					"name": "Very Rare Magical Tattoos",
+					"page": 160,
 					"id": "70c",
 					"entries": [
-						"What is a Major Enhancement and how do they differ from others. Max Major Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
-						"Lists of Rare and Very Rare Magical Tattoos.",
+						"Very Rare Magical Tattoos are tattoos that use {@item Enchanted Inks|AU} and additional resources for specific enhancements. These tattoos almost always require Attunement. These tattoos are quite difficult to obtain, due to the additional resources necessary for their enhancements. The added Very Rare Magical Tattoos are listed below.",
 						{
-							"type": "table",
-							"caption": "Majorly Enhanced Magical Tattoos",
-							"colLabels": [
-								"Tattoo",
-								"Brief Descript.",
-								"Req. Enhanced Ink Type",
-								"Visibility?",
-								"Attunement?"
-							],
-							"colStyles": [
-								"col-1-5 text-center",
-								"col-4-5",
-								"col-3",
-								"col-1-5 text-center",
-								"col-1-5 text-center"
-							],
-							"rows": [
-								[
-									"{@item Acid Absorbing Tattoo|AU|Acid Absorbing}",
-									"Acid Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|Lime Enchanted Ink} plus {@item Elemental Ink, Ooze|AU} and {@item Glowing Ink|AU}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Adamantined Tattoo|AU|Adamantined}",
-									"Gain a Damage Threshold of 5, Gain +2 Bonus on Strength and Constitution {@variantrule Saving Throw|XPHB|Saving Throws}, and you are 10 pounds heavier",
-									"{@item Metal-Lic Ink|AU}",
-									"No",
-									"No"
-								],
-								[
-									"{@item Airy Tattoo|AU|Airy}",
-									"Without Attunement, you choose between a related damage type resistance (lightning) or a movement speed benefit (fly speed). With Attunement, you gain both.",
-									"{@item Elemental Ink, Air|AU}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Ashy Tattoo|AU|Ashy}",
-									"Without Attunement, you choose between a related damage resistance (poison) or a movement speed benefit (floating fall). With Attunement, you gain both.",
-									"Only {@item Elemental Ink, Ash|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Fire|AU|Fire}",
-									"No",
-									"Optional"
-								],
-								[
-									"Chaotic Branded Tattoo",
-									"Benefits from Limbo: ",
-									"{@item Enchanted Ink|AU|Purple Enchanted Ink}, {@item Invisible Ink|AU}, {@item Dancing Ink|AU}, and {@item Prismatic Ink|AU}",
-									"No",
-									"Dependent"
-								],
-								[
-									"{@item Cold Absorbing Tattoo|AU|Cold Absorbing}",
-									"Cold Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|Cyan Enchanted Ink} plus {@item Elemental Ink, Ice|AU} and {@item Stardust Ink|AU}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Cold Ironed Tattoo|AU|Cold Ironed}",
-									"{@variantrule Advantage|XPHB} on Saving Throws against being {@condition Charmed|XPHB} from Fey creatures, plus 1/Day {@variantrule Reaction|XPHB} to Auto-succeed Saving Throw when failed.",
-									"{@item Metal-Lic Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Earthy Tattoo|AU|Earthy}",
-									"Without Attunement, you choose between a related damage resistance (bludgeoning) or a movement speed benefit (ignoring nonmagical difficult terrain). With Attunement, you gain both.",
-									"{@item Elemental Ink, Earth|AU}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Enspelled Tattoo (4th Level)|AU|Enspelled (4th Level)}",
-									"Cast its spell with no material components once per day, bonus benefits if attuned",
-									"{@item Enchanted Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
-									"Dependent",
-									"Optional"
-								],
-								[
-									"{@item Enspelled Tattoo (5th Level)|AU|Enspelled (5th Level)}",
-									"Cast its spell with no material components once per day, bonus benefits if attuned",
-									"{@item Enchanted Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
-									"Dependent",
-									"Optional"
-								],
-								[
-									"Environment Branded Tattoo",
-									"Benefits from Elemental Chaos: ",
-									"{@item Enchanted Ink|AU}, {@item Invisible Ink|AU}, and each Primary {@item Elemental Inks|AU|Elemental Ink} ({@item Elemental Ink, Air|AU|Air}, {@item Elemental Ink, Earth|AU|Earth}, {@item Elemental Ink, Fire|AU|Fire}, and {@item Elemental Ink, Water|AU|Water})",
-									"No",
-									"Dependent"
-								],
-								[
-									"Faerie Branded Tattoo",
-									"Nenefits from Feywild: ",
-									"{@item Enchanted Ink|AU|Pink Enchanted Ink}, {@item Invisible Ink|AU}, and {@item Prismatic Ink|AU}",
-									"No",
-									"Dependent"
-								],
-								[
-									"{@item Fiery Tattoo|AU|Fiery}",
-									"Without Attunement, you choose between a related damage resistance (fire) or a movement speed benefit (increase speed by 5 feet). With Attunement, you gain both.",
-									"{@item Elemental Ink, Fire|AU}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Fire Absorbing Tattoo|AU|Fire Absorbing}",
-									"Fire Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|Red Enchanted Ink} plus {@item Dancing Ink|AU} and {@item Elemental Ink, Fire|AU}",
-									"No",
-									"Optional"
-								],
-								[
-									"Heavenly Branded Tattoo",
-									"Benefits from the Upper Planes: ",
-									"{@item Enchanted Ink|AU|White and/or Yellow Enchanted Ink}, {@item Invisible Ink|AU}, and {@item Stardust Ink|AU}",
-									"No",
-									"Dependent"
-								],
-								[
-									"Hellish Branded Tattoo",
-									"Benefits from the Lower Planes: ",
-									"{@item Enchanted Ink|AU|Red Enchanted Ink}, {@item Invisible Ink|AU}, and both {@item Elemental Inks|AU}, {@item Elemental Ink, Fire|AU|Fire} amd {@item Elemental Ink, Magma|AU|Magma}",
-									"No",
-									"Dependent"
-								],
-								[
-									"{@item Icey Tattoo|AU|Icey}",
-									"Without Attunement, you choose between a related damage resistance (cold) or a movement speed benefit (ignore Difficult Terrain with snow, ice, or other slippery surfaces). With Attunement, you gain both.",
-									"Only {@item Elemental Ink, Ice|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Water|AU|Water}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Lightning Absorbing Tattoo|AU|Lightning Absorbing}",
-									"Lightning Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|Yellow Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Stardust Ink|AU}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Mithralled Tattoo|AU|Mithralled}",
-									"Gain +2 Bonus on all Dexterity ({@skill Acrobatics|XPHB}) checks and Dexterity {@variantrule Saving Throw|XPHB}, and you are 5 pounds lighter",
-									"{@item Metal-Lic Ink|AU}",
-									"No",
-									"No"
-								],
-								[
-									"{@item Moderately Armored Tattoo|AU|Moderately Armored}",
-									"Unarmored AC is 15 plus your DEX Mod (max 2), can use shield and keep benefit",
-									"{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Molten Tattoo|AU|Molten}",
-									"Without Attunement, you choose between a related damage resistance (fire) or a movement speed benefit (ignore Difficult Terrain on the surface of molten rock). With Attunement, you gain both.",
-									"Only {@item Elemental Ink, Magma|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Fire|AU|Fire}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Necrotic Absorbing Tattoo|AU|Necrotic Absorbing}",
-									"Necrotic Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|Black Enchanted Ink} plus {@item Elemental Inks|AU} {@item Elemental Ink, Ash|AU|Ash} and {@item Elemental Ink, Ooze|AU|Ooze}, and {@item Metal-Lic Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Oozy Tattoo|AU|Oozy}",
-									"Without Attunement, you choose between a related damage resistance (acid) or a movement speed benefit (Water Walk). With Attunement, you gain both.",
-									"Only {@item Elemental Ink, Ooze|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Water|AU|Water}",
-									"No",
-									"Optional"
-								],
-								[
-									"Orderly Branded Tattoo",
-									"Benefits from Mechanus: ",
-									"{@item Enchanted Ink|AU|Gray Enchanted Ink}, {@item Invisible Ink|AU}, {@item Dancing Ink|AU}, and {@item Metal-Lic Ink|AU}",
-									"No",
-									"Dependent"
-								],
-								[
-									"{@item Poison Absorbing Tattoo|AU|Poison Absorbing}",
-									"Poison Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|Olive Enchanted Ink} plus {@item Elemental Ink, Ash|AU} and {@item Glowing Ink|AU}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Psychic Absorbing Tattoo|AU|Psychic Absorbing}",
-									"Psychic Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|Pink Enchanted Ink} plus {@item Dancing Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Radiant Absorbing Tattoo|AU|Radiant Absorbing}",
-									"Radiant Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|White Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Metal-Lic Ink|AU|Gold Metal-Lic Ink}, and {@item Stardust Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"Shadow Branded Tattoo",
-									"Benefits from Shadowfell: ",
-									"{@item Enchanted Ink|AU|Black Enchanted Ink}, {@item Invisible Ink|AU}, {@item Metal-Lic Ink|AU}, and {@item Prismatic Ink|AU}",
-									"No",
-									"Dependent"
-								],
-								[
-									"{@item Silvered Tattoo|AU|Silvered}",
-									"{@variantrule Advantage|XPHB} on Saving Throws against transformation effects from Shapechanger, plus 1/Day reaction to Auto-succeed Saving Throw when failed.",
-									"{@item Metal-Lic Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Thunder Absorbing Tattoo|AU|Thunder Absorbing}",
-									"Thunder Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|Indigo Enchanted Ink} plus {@item Elemental Ink, Air|AU} and {@item Prismatic Ink|AU}",
-									"No",
-									"Optional"
-								],
-								[
-									"{@item Watery Tattoo|AU|Watery}",
-									"Without Attunement, you choose between a related damage resistance (thunder) or a movement speed benefit (swim speed). With Attunement, you gain both.",
-									"{@item Elemental Ink, Water|AU}",
-									"No",
-									"Optional"
-								]
+							"type": "entries",
+							"name": "List of Rare Magical Tattoos",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"columns": 3,
+									"items": [
+										"{@item Avalanche Tattoo|AU|Avalanche} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Force Absorbing Tattoo|AU|Force Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Galewinds Tattoo|AU|Galewinds} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Ghost Step Tattoo|AU|Ghost Step}",
+										"{@item Grime Tattoo|AU|Grime} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Heavily Armored Tattoo|AU|Heavily Armored} {@i ({@itemProperty ACT2|AU|Armored Type})}",
+										"{@item Inferno Tattoo|AU|Inferno} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Lifewell Tattoo|AU|Lifewell}",
+										"{@item Smog Tattoo|AU|Smog} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Techtonic Tattoo|AU|Techtonic} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Volcanic Tattoo|AU|Volcanic} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Whirlpool Tattoo|AU|Whirlpool} {@i ({@itemProperty EMT2|AU|Elemental Type})}"
+									]
+								}
 							]
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Avalanche Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Force Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Galewinds Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Ghost Step Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Grime Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Heavily Armored Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Inferno Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Lifewell Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Smog Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Techtonic Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Volcanic Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Whirlpool Tattoo",
+							"source": "AU",
+							"style": "inset"
 						}
 					]
 				},
 				{
 					"type": "section",
-					"name": "Massively Enhanced Tattoos",
+					"name": "Legendary Magical Tattoos",
 					"page": 160,
 					"id": "70d",
 					"entries": [
-						"What is a Massive Enhancement and how do they differ from others. Max Massive Enhanced Magical Tattoo on one character? Table with list of Enhancements as linked Tattoo Items.",
-						"Lists of Very Rare and Legendary Magical Tattoos.",
+						"Legendary Magical Tattoos are tattoos that use {@item Enchanted Inks|AU} and additional resources for specific enhancements. These tattoos always require attunement, however, if an Adventurer earns these tattoos, the tattoo may Attune to the adventurer instead. These tattoos are extremely hard to obtain, as they are often tied to a full body part design only accessible in one or two locations. The added Legendary Magical Tattoos are listed below.",
 						{
-							"type": "table",
-							"caption": "Massively Enhanced Magical Tattoos",
-							"colLabels": [
-								"Tattoo",
-								"Brief Descript.",
-								"Req. Enhanced Ink Type",
-								"Visibility?",
-								"Attunement?"
-							],
-							"colStyles": [
-								"col-1-5 text-center",
-								"col-4-5",
-								"col-3",
-								"col-1-5 text-center",
-								"col-1-5 text-center"
-							],
-							"rows": [
-								[
-									"{@item Avalanche Tattoo|AU|Avalanche}",
-									"Resistant to Cold Damage, ignores difficult terrain while in snow, on ice or other slick surface, can Dash as a Bonus Action, and have Advantage against being Grappled, however, you are Vulnerable to Fire Damage.",
-									"Only {@item Elemental Ink, Ice|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Water|AU|Water}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Blood Fury Tattoo|AU|Blood Fury}",
-									"10 Daily Charges for extra Necrotic Damage and Advantage on Melee Atks.",
-									"{@item Elemental Ink, Ash|AU}, {@item Elemental Ink, Ooze|AU}, {@item Metal-Lic Ink|AU}, and your choice between {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Force Absorbing Tattoo|AU|Force Absorbing}",
-									"Force Damage Resistance plus 1/Dawn Benefit for Immunity with Attunement",
-									"{@item Enchanted Ink|AU|Magenta Enchanted Ink} plus {@item Glowing Ink|AU}, {@item Invisible Ink|AU}, and either {@item Prismatic Ink|AU} or {@item Stardust Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Galewinds Tattoo|AU|Galewinds}",
-									"Resistant to Lightning Damage, gain Fly Speed of 60 feet, can hold your breath up to 1 hour without triggering any suffocation hazard as long as you are not surprised, and cast {@spell Levitate|XPHB} without concentration targeting objects 5 times, regaining all uses on a long rest.",
-									"{@item Elemental Ink, Air|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Ghost Step Tattoo|AU|Ghost Step}",
-									"3 Charges per Dawn to become incorporal for 1 minute with benefits",
-									"{@item Invisible Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Grime Tattoo|AU|Grime}",
-									"Resistant to Acid Damage, advantage on Saving Throws against Diseases, are always under the effects of {@spell Water Walk|XPHB} for any non-solid surface with exceptions, and you have advantage against being Restrained, however, you spend all of your movement speed getting up from prone.",
-									"Only {@item Elemental Ink, Ooze|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Water|AU|Water}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Heavily Armored Tattoo|AU|Heavily Armored}",
-									"Unarmored AC is 18, can use shield and keep benefit",
-									"{@item Enchanted Ink|AU} and {@item Metal-Lic Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Inferno Tattoo|AU|Inferno}",
-									"Resistant to magical Fire damage, immune to nonmagical Fire, gain a bonus to your movement equal to 5 feet, and gain a climb speed equal to your movement speed.",
-									"{@item Elemental Ink, Fire|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Lifewell Tattoo|AU|Lifewell}",
-									"Necrotic Resistance and when drop to 0 HP without being outright dead, can React to drop to 1 HP instead, once per Short or Long Rest",
-									"{@item Dancing Ink|AU}, {@item Prismatic Ink|AU}, and {@item Stardust Ink|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Smog Tattoo|AU|Smog}",
-									"Resistant to Poison Damage, advantage against being Poisoned, can cast {@spell Feather Fall|XPHB} on yourself at will, and you can see clearly in a Lightly Obscured area and you treat a Heavily Obscured as if it were Lightly Obscured, however this excludes obscured areas due to Dim Light or Darkness, unless you have Darkvision.",
-									"Only {@item Elemental Ink, Ash|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Fire|AU|Fire}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Techtonic Tattoo|AU|Techtonic}",
-									"Resistant to Bludgeoning, Piercing, and Slashing Damage, gain a Burrow speed equal to movement speed and ignore nonmagical Difficult Terrain, and gain Advantage on Saving Throws to prevent being moved or prone against your will.",
-									"{@item Elemental Ink, Earth|AU}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Volcanic Tattoo|AU|Volcanic}",
-									"Resistant to Fire and Bludgeoning Damage, ignoring heat-related hazards, you can walk on the surface of molten lava as if it were solid, and you ignore Difficult Terrain, however your walking speed is reduced by 5 feet and you do not benefit from any effect that temporary increases your movement speed or grants the Dash Action as a Bonus Action.",
-									"Only {@item Elemental Ink, Magma|AU}, or {@item Elemental Inks|AU|Elemental Ink} Combo of {@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Fire|AU|Fire}",
-									"No",
-									"Yes"
-								],
-								[
-									"{@item Whirlpool Tattoo|AU|Whirlpool}",
-									"Resistant to Thunder Damage, gain a swim speed of 40 feet, can breath underwater, and can cast {@spell Water Walk|XPHB} on self at-will, moving across only water as if it were solid.",
-									"{@item Elemental Ink, Water|AU}",
-									"No",
-									"Yes"
-								]
+							"type": "entries",
+							"name": "List of Rare Magical Tattoos",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										"{@item Blood Fury Tattoo|AU|Blood Fury}"
+									]
+								}
 							]
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Blood Fury Tattoo",
+							"source": "AU",
+							"style": "inset"
 						}
 					]
 				}
