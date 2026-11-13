@@ -8288,7 +8288,7 @@
 				{
 					"type": "section",
 					"name": "Uncommon Magical Tattoos",
-					"page": 156,
+					"page": 157,
 					"id": "70a",
 					"entries": [
 						"Uncommon Magical Tattoos are tattoos that use {@item Enchanted Inks|AU} and additional resources for specific enhancements. These tattoos typically do not require any attunement, however, some have Attunement as an option, requirement, or based on certain guidelines. These tattoos are somewhat easy to obtain, as long as the Enchanted Inks are present plus additional resources for their enhancements. The added Uncommon Magical Tattoos are listed below.",
@@ -8658,7 +8658,7 @@
 				{
 					"type": "section",
 					"name": "Rare Magical Tattoos",
-					"page": 158,
+					"page": 159,
 					"id": "70b",
 					"entries": [
 						"Rare Magical Tattoos are tattoos that use {@item Enchanted Inks|AU} and additional resources for specific enhancements. These tattoos vary on Attunement status. These tattoos are somewhat harder to obtain, due to the additional resources necessary for their enhancements. The added Rare Magical Tattoos are listed below.",
@@ -8676,7 +8676,7 @@
 										"{@item Airy Tattoo|AU|Airy} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
 										"{@item Ashy Tattoo|AU|Ashy} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
 										"{@item Big Flashlight Tattoo|AU|Big Flashlight}",
-										"All {@item Branded Tattoo|AU}",
+										"All {@item Branded Tattoos|AU}",
 										"{@item Coiled Tattoo|AU|Coiled}",
 										"{@item Cold Absorbing Tattoo|AU|Cold Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
 										"{@item Cold Ironed Tattoo|AU|Cold Ironed}",

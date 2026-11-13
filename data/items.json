@@ -1945,7 +1945,7 @@
 		{
 			"name": "Adaman-Tot Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"property": [
 				"ET2|AU"
@@ -2900,7 +2900,7 @@
 		{
 			"name": "Alter Self Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"property": [
@@ -4509,7 +4509,7 @@
 		{
 			"name": "Artificer Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"property": [
 				"CT2|AU"
@@ -6562,7 +6562,7 @@
 		{
 			"name": "Barbarian Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"property": [
 				"CT2|AU"
@@ -6610,7 +6610,7 @@
 		{
 			"name": "Bard Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"property": [
 				"CT2|AU"
@@ -8032,7 +8032,7 @@
 		{
 			"name": "Big Flashlight Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 159,
 			"rarity": "rare",
 			"reqAttune": "optional",
 			"property": [
@@ -9439,7 +9439,7 @@
 				"Absorbing Tattoos"
 			],
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"reqAttune": "optional",
 			"resist": [
@@ -13636,7 +13636,7 @@
 		{
 			"name": "Chilly Ironed Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"property": [
 				"ET2|AU"
@@ -14094,7 +14094,7 @@
 		{
 			"name": "Cleric Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"property": [
 				"CT2|AU"
@@ -14872,7 +14872,7 @@
 		{
 			"name": "Coiled Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 159,
 			"rarity": "rare",
 			"reqAttune": "optional",
 			"property": [
@@ -15356,7 +15356,7 @@
 				"Elemental Tattoos"
 			],
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"detail1": "Elemental Plane of Fire",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Fire|AU|Fire}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Magma|AU|Magma}",
@@ -17297,7 +17297,7 @@
 		{
 			"name": "Dancing Tattoo",
 			"source": "AU",
-			"page": 157,
+			"page": 156,
 			"rarity": "common",
 			"property": [
 				"ET2|AU"
@@ -17682,7 +17682,7 @@
 		{
 			"name": "Darkvision Tattoo",
 			"source": "AU",
-			"page": 157,
+			"page": 156,
 			"rarity": "common",
 			"property": [
 				"ET2|AU"
@@ -24810,7 +24810,7 @@
 				"Elemental Tattoos"
 			],
 			"source": "AU",
-			"page": 157,
+			"page": 156,
 			"rarity": "common",
 			"detail1": "Inner Plane of Elemental Chaos",
 			"detail2": "any one of the {@item Elemental Inks|AU}",
@@ -25423,7 +25423,7 @@
 		{
 			"name": "Elemental Tattoo",
 			"source": "AU",
-			"page": 157,
+			"page": 156,
 			"rarity": "common",
 			"property": [
 				"ET2|AU"
@@ -28829,7 +28829,7 @@
 		{
 			"name": "Fighter Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"property": [
 				"CT2|AU"
@@ -31598,7 +31598,7 @@
 		{
 			"name": "Glowing Tattoo",
 			"source": "AU",
-			"page": 157,
+			"page": 156,
 			"rarity": "common",
 			"property": [
 				"ET2|AU"
@@ -32297,7 +32297,7 @@
 		{
 			"name": "Goodnight Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"reqAttune": "optional",
 			"property": [
@@ -35760,7 +35760,7 @@
 		{
 			"name": "Hidden Quill Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"reqAttune": "optional",
 			"property": [
@@ -42449,7 +42449,7 @@
 				"Armored Tattoos"
 			],
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"ac": 13,
 			"type": "LA|XPHB",
@@ -44112,7 +44112,7 @@
 		{
 			"name": "Magical Strike Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"reqAttune": "optional",
 			"property": [
@@ -44950,7 +44950,7 @@
 		{
 			"name": "Masquerade Tattoo",
 			"source": "AU",
-			"page": 157,
+			"page": 156,
 			"rarity": "common",
 			"property": [
 				"ET2|AU"
@@ -45536,7 +45536,7 @@
 		{
 			"name": "Metal-Lic Tattoo",
 			"source": "AU",
-			"page": 157,
+			"page": 156,
 			"rarity": "common",
 			"property": [
 				"ET2|AU"
@@ -46116,7 +46116,7 @@
 		{
 			"name": "Mithra-Light Tattoo",
 			"source": "AU",
-			"page": 158,
+			"page": 157,
 			"rarity": "uncommon",
 			"property": [
 				"ET2|AU"
@@ -48192,7 +48192,7 @@
 		{
 			"name": "Night Sky Reflection Tattoo",
 			"source": "AU",
-			"page": 157,
+			"page": 158,
 			"rarity": "uncommon",
 			"property": [
 				"ET2|AU"
@@ -55748,7 +55748,7 @@
 		{
 			"name": "Prismatic Tattoo",
 			"source": "AU",
-			"page": 157,
+			"page": 156,
 			"rarity": "common",
 			"property": [
 				"ET2|AU"
@@ -57060,7 +57060,7 @@
 		{
 			"name": "Quick Zap Tattoo",
 			"source": "AU",
-			"page": 157,
+			"page": 158,
 			"rarity": "uncommon",
 			"property": [
 				"ET2|AU"
@@ -63154,7 +63154,7 @@
 		{
 			"name": "S-O-S Tattoo",
 			"source": "AU",
-			"page": 157,
+			"page": 158,
 			"rarity": "uncommon",
 			"property": [
 				"ET2|AU"
@@ -64825,7 +64825,7 @@
 		{
 			"name": "Second Guessing Tattoo",
 			"source": "AU",
-			"page": 157,
+			"page": 158,
 			"rarity": "uncommon",
 			"property": [
 				"ET2|AU"
@@ -73976,7 +73976,7 @@
 		{
 			"name": "Strobe Tattoo",
 			"source": "AU",
-			"page": 157,
+			"page": 158,
 			"rarity": "uncommon",
 			"property": [
 				"ET2|AU"
@@ -86243,7 +86243,6 @@
 			"source": "AU",
 			"page": 156,
 			"rarity": "varies",
-			"reqAttune": "optional",
 			"type": "GV|XDMG",
 			"tattoo": true,
 			"items": [
@@ -87117,9 +87116,8 @@
 			"name": "Branded Tattoos",
 			"source": "AU",
 			"page": 156,
-			"rarity": "rare",
-			"reqAttune": "optional",
 			"type": "GV|XDMG",
+			"rarity": "rare",
 			"tattoo": true,
 			"entries": [
 				"These tattoos provide you with benefits relating to the specific plane or planar region that you are branded with."
@@ -87310,10 +87308,9 @@
 		{
 			"name": "Class Tattoos",
 			"source": "AU",
-			"page": 155,
+			"page": 156,
 			"type": "GV|XDMG",
 			"rarity": "uncommon",
-			"reqAttune": "optional",
 			"tattoo": true,
 			"items": [
 				"Artificer Tattoo|AU",
@@ -87955,9 +87952,8 @@
 			"name": "Enspelled Tattoos",
 			"source": "AU",
 			"page": 156,
-			"rarity": "varies",
 			"type": "GV|XDMG",
-			"reqAttune": "varies",
+			"rarity": "varies",
 			"tattoo": true,
 			"items": [
 				"Enspelled Tattoo (Cantrip)|AU",
