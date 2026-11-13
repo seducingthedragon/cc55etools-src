@@ -7741,6 +7741,96 @@
 			"id": "700",
 			"entries": [
 				{
+					"type": "insetReadaloud",
+					"name": "To My Dearest Family who are Interested in Helping Create this Chapter and Formalize Magical Tattoos",
+					"entries": [
+						"This section is NOT in the actual book source at all. This chapter is a creation by yours truly as it made more sense to add it here than in the {@book Dungeon Master's Guide|XDMG}. Plus I already made a lot of changes there, especially with the magic items table and did not have the strength to redo those all over again in order to include these tattoos. If you are interested in helping me strengthen this chapter and the new items, I would greatly appreciate the feedback as this is my first rough draft and it is a lot of work.",
+						"{@b PLEASE NOTE THAT EVERYTHING REGARDING MAGICAL TATTOOS ARE UP FOR DEBATE. THAT INCLUDES EVERYTHING WITHIN THIS CHAPTER AS WELL AS MAGICAL TATTOOS FOUND IN THE ITEMS TAB!}",
+						{
+							"type": "entries",
+							"name": "The TLDR of Important Information and Changes",
+							"entries": [
+								"Below is a list of important information, rule changes, items, etc., that I proposed throughout this chapter in order for you to understand the word vomit before you.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"columns": 2,
+									"items": [
+										{
+											"type": "item",
+											"name": "Attunement to Tattoos",
+											"entry": "If Attuning to a magical tattoo, it must happen during the tattooing process only. You cannot attune to a magical tattoo after the fact."
+										},
+										{
+											"type": "item",
+											"name": "New Tools and Artisan's Kit (Mundane)",
+											"entry": "Added a Tattooist's Kit as a new Artisan's Kit that will require proficiency with. Additionally, added supplementary needles (3 types) and ink palette variations."
+										},
+										{
+											"type": "item",
+											"name": "Related Magical Items",
+											"entry": "Fancy Sketchbook and Tattoo gun made by the fabulous Gnomish Artificers, because who else would make these."
+										},
+										{
+											"type": "item",
+											"name": "Enchanted Inks",
+											"entry": "Magical Tattoo Ink that makes the Magical Tattoos magical, but may require additional resources for improved enhancements outside of aethetics"
+										},
+										{
+											"type": "item",
+											"name": "Alternative Palettes and Enchanted Inks",
+											"entry": "A Placeholder item that is meant for specialized inks in order to \"tattoo\" someone who does not have skin. Primarily for Beastfolks, Reptillian-like Folks, Thri-Keens, Constructs, etc."
+										},
+										{
+											"type": "item",
+											"name": "Magical Tattoo Properties",
+											"entry": "Item properties that dictate primarily, the max number of tattoos within this property any one individual may have. Also referenced as Categories."
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Resources for Reviewing Items",
+							"entries": [
+								"If you are interested in reviewing and comparing the items directly, a recommended outline is provided below.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "General Items Review",
+											"entry": "Right Click this hyperlink and open it in a new tab. It'll take you to the Item's page with specified filters already in place. I removed the Reprinted restriction, in order to allow you to see the Tasha's Tattoos that are currently present and compare them with the reprinted ones I added to this source."
+										},
+										{
+											"type": "item",
+											"name": "Focused Items Review",
+											"entry": "If you want to just focus on the tools added, Click Here!. If you want to just focus on the tattoos themselves, Click Here! Both links will take you to the Item's page with the specified filters in place."
+										},
+										{
+											"type": "item",
+											"name": "Homebrew Inspiration",
+											"entry": "Want to see the Homebrew Sources I used for Inspiration and support? Click the following link: {@link 5eTools State File with Homebrew Tattoo Sources|https://drive.dakotaraine.xyz/file/#/2/file/5tDpPcNVuYKrUYyiJ7omsHlR/}, and download the json document. Please let me know if you are having any trouble this with part. Then go to {@link Our Main 5eTools|5etools.dakotaraine.xyz} page and click the {@b SETTINGS} tab. In its dropdown menu, click {@b Load State from File}, and upload the downloaded json file. It'll inport the Homebrew Sources I used plus set up the Items page with a Filter that focuses only on those sources. There are 6 books total, but not all of them had items, so feel free to check out the Books tab in order to review the source material itself."
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Goals, Plans, and My Deepest Appreciation",
+							"entries": [
+								"This portion of the update will take the longest of all. I plan for this chapter, and its added items, to be constantly reviewed and updated through this sites many versions.",
+								"{@b My Goals} for this section is for us to finalize this chapter and its items by time I am nearly completed with all major revisions, where any updates to this site focuses on new sources and information published by WotC is added and incorporated, aka the maintenance portion of this site.",
+								"{@b My Plans} involves each significant version update involves a chunk of standard information found on this site, plus some revisions within this topic, followed by a Foundry focus on making sure those are up to date with our changes, but not including the tattoos within the Foundry documents until the end. This would allow changes regarding this chapter and items to be done at a steady pace and segmented, in order to allow any updates to be finalized before revising again.",
+								"{@b Thank you all for your help and I cant wait for our characters to be inked the fuck up!}"
+							]
+						}
+					]
+				},
+				{
 					"type": "section",
 					"name": "About Magical Tattoos",
 					"page": 151,
