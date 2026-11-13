@@ -24711,6 +24711,57 @@
 						},
 						{
 							"type": "entries",
+							"name": "Magic Items and Attunement",
+							"page": 216,
+							"id": "470",
+							"entries": [
+								"Currently, players can attune to 3 times, with some being able to attune to 4. At this time, approximately more than half, closer to 60% of all magic items requires, or suggests, {@variantrule Attunement|XPHB}, If you want to explore the possibility of expanding this without giving too much to players, here's a variant rule on Attunement.",
+								{
+									"type": "entries",
+									"name": "Attuning to Players",
+									"page": 216,
+									"id": "471",
+									"entries": [
+										"In order to address the balance between the number of items players can attune to in comparison to the amount of magical items that requires attunement, an item can Attune to the Player instead.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "How Many Items can Attune to the Player?",
+													"entry": "It is recommended that only 1 item can attune to a player, without it using a player's attunement slot, with a maximum of 3, at your discretion."
+												},
+												{
+													"type": "item",
+													"name": "How many characters can an Item attune to?",
+													"entry": "Only 1. If you let an item attune to multiple characters, it should be based on shared environment, situations, etc. For example, the entire party or the immediate members of a family, etc. If this option is utilized, it should be noted that this would count for each individual character's One Item attuned to them."
+												},
+												{
+													"type": "item",
+													"name": "Which Items can Attune to Characters?",
+													"entries": [
+														"Items that can attune to characters should meet at least one of the following criterias. It can also be expanded on if you so choose.",
+														{
+															"type": "list",
+															"items": [
+																"The item is an {@filter Artifact|items|type=|rarity=artifact}.",
+																"The item has {@filter Sentience|items|type=|miscellaneous=sentient;!reprinted}.",
+																"It is an {@filter Evolving Item|items|type=|property=evolving item} that has reached its final form.",
+																"It is a {@filter Very Rare|items|type=|rarity=!none;!common;!uncommon;!rare;!artifact;!varies;!unknown;!unknown (magic);!other} or rarer magical item of significance that would benefit all party members, regardless of remaining attunement slots.",
+																"It is a magical item that you (via NPC) want to gift to a player for reasons of your choosing."
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
 							"name": "Magic Item Categories",
 							"page": 216,
 							"id": "417",

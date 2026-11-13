@@ -357,6 +357,48 @@
 			]
 		},
 		{
+			"name": "Attuning to Players",
+			"source": "XDMG",
+			"page": 216,
+			"ruleType": "V",
+			"entries": [
+				"In order to address the balance between the number of items players can attune to in comparison to the amount of magical items that requires attunement, an item can Attune to the Player instead.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "How Many Items can Attune to the Player?",
+							"entry": "It is recommended that only 1 item can attune to a player, without it using a player's attunement slot, with a maximum of 3, at your discretion."
+						},
+						{
+							"type": "item",
+							"name": "How many characters can an Item attune to?",
+							"entry": "Only 1. If you let an item attune to multiple characters, it should be based on shared environment, situations, etc. For example, the entire party or the immediate members of a family, etc. If this option is utilized, it should be noted that this would count for each individual character's One Item attuned to them."
+						},
+						{
+							"type": "item",
+							"name": "Which Items can Attune to Characters?",
+							"entries": [
+								"Items that can attune to characters should meet at least one of the following criterias. It can also be expanded on if you so choose.",
+								{
+									"type": "list",
+									"items": [
+										"The item is an {@filter Artifact|items|type=|rarity=artifact}.",
+										"The item has {@filter Sentience|items|type=|miscellaneous=sentient;!reprinted}.",
+										"It is an {@filter Evolving Item|items|type=|property=evolving item} that has reached its final form.",
+										"It is a {@filter Very Rare|items|type=|rarity=!none;!common;!uncommon;!rare;!artifact;!varies;!unknown;!unknown (magic);!other} or rarer magical item of significance that would benefit all party members, regardless of remaining attunement slots.",
+										"It is a magical item that you (via NPC) want to gift to a player for reasons of your choosing."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Automatic Success",
 			"source": "DMG",
 			"page": 239,
@@ -6942,6 +6984,48 @@
 					"name": "Curing Madness",
 					"entries": [
 						"A {@spell calm emotions} spell can suppress the effects of madness, while a {@spell lesser restoration} spell can rid a character of a short-term or long-term madness. Depending on the source of the madness, {@spell remove curse} or {@spell dispel evil and good||dispel evil} might also prove effective. A {@spell greater restoration} spell or more powerful magic is required to rid a character of indefinite madness."
+					]
+				}
+			]
+		},
+		{
+			"name": "Magic Items",
+			"source": "XDMG",
+			"page": 216,
+			"ruleType": "O",
+			"entries": [
+				"Rules for {@book identifying|XPHB|6|Identifying a Magic Item}, {@book attuning to|XPHB|6|Attunement}, and {@book using|XPHB|6|Wearing and Wielding Items} magic items appear in the {@book Player's Handbook|XPHB}. Additional rules are presented below.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Attunement Prerequisites",
+							"entries": [
+								"If a magic item has a class prerequisite, a creature must be a member of that class to attune to the item. If a creature must be a spellcaster to attune to an item, the creature qualifies if it can cast at least one spell using its traits or features, not by using a magic item or the like."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Items Made for Specific Creatures",
+							"entries": [
+								"Magic items that are meant to be worn tend to magically adjust themselves to the wearer. However, you can decide that a magic item doesn't adjust its size to fit any wearer. For example, a particular armorer might make items usable only by folk who are sized and shaped like dwarves."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Unusual Anatomy",
+							"entries": [
+								"Use your discretion to decide whether a creature can wear an item not made for its anatomy. A ring placed on a tentacle might work, but a yuan-ti with a snakelike tail instead of legs can't wear magic boots."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Paired Items",
+							"entries": [
+								"You can allow exceptions to the rule that paired items must both be worn. For example, a character with only one arm might be able to use a single {@item Gloves of Missile Snaring|XDMG|Glove of Missile Snaring} so long as the matching glove is on their person."
+							]
+						}
 					]
 				}
 			]
