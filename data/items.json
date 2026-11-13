@@ -2904,7 +2904,8 @@
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"property": [
-				"ET2|AU"
+				"ET2|AU",
+				"VT2|AU"
 			],
 			"detail1": "{@item Prismatic Ink|AU}",
 			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
@@ -2920,7 +2921,8 @@
 					"type": "entries",
 					"name": "Cast Alter Self",
 					"entries": [
-						"You gain the ability to cast {@spell Alter Self|XPHB} using the Appearance Only option without expending a spell slot and without {@status Concentration|XPHB}, once per dawn."
+						"You gain the ability to cast {@spell Alter Self|XPHB} using the Appearance Only option without expending a spell slot and without {@status Concentration|XPHB}, once per dawn.",
+						"When you cast this spell in this way, altering yourself again during its duration can use your {@variantrule Bonus Action|XPHB} instead of your {@action Magic|XPHB|Magic Action}."
 					]
 				},
 				{
@@ -4732,7 +4734,8 @@
 			"detail1": "Para-Elemental Plane of Ash",
 			"detail2": "either just {@item Elemental Ink, Ash|AU}, or 2 {@item Elemental Inks|AU} ({@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Fire|AU|Fire})",
 			"property": [
-				"EMT2|AU"
+				"EMT2|AU",
+				"VT2|AU"
 			],
 			"resist": [
 				"poison"
@@ -4752,7 +4755,7 @@
 							"style": "list-decimal",
 							"items": [
 								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Poison damage.",
-								"{@b Movement Related.} When you fall more than 10 feet, you can cast the {@spell Feather Fall|XPHB} spell, 3 times per day, regaining all expended uses on a Long Rest."
+								"{@b Movement Related.} When you fall more than 10 feet, you can cast the {@spell Feather Fall|XPHB} spell targeting yourself only. You can do so up to 3 times per day, regaining all expended uses on a Long Rest."
 							]
 						},
 						"{@b If you Attune to this tattoo,} you gain both benefits listed above."
@@ -8036,7 +8039,8 @@
 			"rarity": "rare",
 			"reqAttune": "optional",
 			"property": [
-				"ET2|AU"
+				"ET2|AU",
+				"VT2|AU"
 			],
 			"detail1": "{@item Glowing Ink|AU}",
 			"detail2": "Additionally, the {@item Stardust Ink|AU} is required with this tattoo.",
@@ -15361,7 +15365,8 @@
 			"detail1": "Elemental Plane of Fire",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Fire|AU|Fire}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Magma|AU|Magma}",
 			"property": [
-				"EMT2|AU"
+				"EMT2|AU",
+				"VT2|AU"
 			],
 			"tattoo": true,
 			"wondrous": true,
@@ -30636,7 +30641,8 @@
 			"detail1": "Elemental Plane of Air",
 			"detail2": "{@item Elemental Ink, Air|AU}",
 			"property": [
-				"EMT2|AU"
+				"EMT2|AU",
+				"VT2|AU"
 			],
 			"modifySpeed": {
 				"static": {
@@ -30646,6 +30652,9 @@
 			"resist": [
 				"lightning"
 			],
+			"recharge": "restLong",
+			"rechargeAmount": 5,
+			"charges": 5,
 			"tattoo": true,
 			"wondrous": true,
 			"hasRefs": true,
@@ -30662,7 +30671,13 @@
 								"{@b Damage Resistance.} You gain {@variantrule Resistance|XPHB} to Lightning damage.",
 								"{@b Movement Related.} You have a Fly Speed of 60 feet.",
 								"{@b Semi-Breathless.} You can hold your breath for up to 1 hour without gaining any Suffocation hazards, as long as you were prepared.",
-								"{@b Levitate.} You can cast {@spell Levitate|XPHB} on objects without {@status Concentration|XPHB} five times per {@variantrule Long Rest|XPHB}."
+								"{@b Levitate.} This tattoo has 5 Charges. You can expend 1 charge to cast {@spell Levitate|XPHB} on without {@status Concentration|XPHB}. Intelligence, Wisdom, or Charisma is the spellcasting ability for this spell (your choice).",
+								{
+									"type": "list",
+									"items": [
+										"{@b Target a Swarm.} For 3 charges, you can target 1 Medium Swarm of creatures with the {@spell Levitate|XPHB} spell."
+									]
+								}
 							]
 						}
 					]
@@ -30676,8 +30691,8 @@
 				}
 			],
 			"attachedSpells":{
-				"daily": {
-					"5e": [
+				"charges": {
+					"1": [
 						"levitate|xphb"
 					]
 				}
@@ -32301,7 +32316,8 @@
 			"rarity": "uncommon",
 			"reqAttune": "optional",
 			"property": [
-				"ET2|AU"
+				"ET2|AU",
+				"VT2|AU"
 			],
 			"detail1": "{@item Stardust Ink|AU}",
 			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
@@ -32314,7 +32330,7 @@
 					"type": "entries",
 					"name": "Good Night Sleep Tight",
 					"entries": [
-						"You know the {@spell Sleep|XPHB} spell and can cast it at one target, who can see your tattoo, without {@status Concentration|XPHB} or expending a spell slot.",
+						"You know the {@spell Sleep|XPHB} spell and can cast it at one target, who can see your tattoo, without {@status Concentration|XPHB} or expending a spell slot, lasting 5 minutes instead of 1.",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -32322,12 +32338,12 @@
 								{
 									"type": "item",
 									"name": "If Not Attuned",
-									"entry": "If you choose not to Attune to this tattoo, you can only cast {@spell Sleep|XPHB} in this way, once per {@variantrule Long Rest|XPHB}."
+									"entry": "If you choose not to Attune to this tattoo, you can only cast {@spell Sleep|XPHB} in this way, once per {@variantrule Long Rest|XPHB}. The Wisdom Saving Throw the target makes for this spell, must meet or beat a {@dc 13}."
 								},
 								{
 									"type": "item",
 									"name": "If Attuned",
-									"entry": "If you choose to Attune to this tattoo, you can cast {@spell Sleep|XPHB} in this way, a number of times equal to half of your {@variantrule Proficiency|XPHB|Proficiency Bonus} (round down) per {@variantrule Long Rest|XPHB}."
+									"entry": "If you choose to Attune to this tattoo, you can cast {@spell Sleep|XPHB} in this way, a number of times equal to half of your {@variantrule Proficiency|XPHB|Proficiency Bonus} (round down) per {@variantrule Long Rest|XPHB}. The Spell Save DC for this spell is based off of the ability modifier you choose, between your Intelligence, Wisdom, or Charisma."
 								}
 							]
 						}
@@ -32701,7 +32717,8 @@
 			"detail1": "Para-Elemental Plane of Ooze",
 			"detail2": "either just {@item Elemental Ink, Ooze|AU}, or 2 {@item Elemental Inks|AU} ({@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Water|AU|Water})",
 			"property": [
-				"EMT2|AU"
+				"EMT2|AU",
+				"VT2|AU"
 			],
 			"resist": [
 				"acid"
@@ -46477,7 +46494,8 @@
 			"detail1": "Elemental Plane of Earth",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Earth|AU|Earth}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Ooze|AU|Ooze}",
 			"property": [
-				"EMT2|AU"
+				"EMT2|AU",
+				"VT2|AU"
 			],
 			"tattoo": true,
 			"wondrous": true,
@@ -49127,7 +49145,8 @@
 			"detail1": "Para-Elemental Plane of Ooze",
 			"detail2": "either just {@item Elemental Ink, Ooze|AU}, or 2 {@item Elemental Inks|AU} ({@item Elemental Ink, Earth|AU|Earth} and {@item Elemental Ink, Water|AU|Water})",
 			"property": [
-				"EMT2|AU"
+				"EMT2|AU",
+				"VT2|AU"
 			],
 			"resist": [
 				"acid"
@@ -50694,7 +50713,8 @@
 			"detail1": "Inner Plane of Elemental Chaos",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Ash|AU|Ash}, {@item Elemental Ink, Ice|AU|Ice}, {@item Elemental Ink, Magma|AU|Magma}, or {@item Elemental Ink, Ooze|AU|Ooze}",
 			"property": [
-				"EMT2|AU"
+				"EMT2|AU",
+				"VT2|AU"
 			],
 			"tattoo": true,
 			"wondrous": true,
@@ -64746,7 +64766,8 @@
 			"detail1": "Elemental Plane of Water",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Water|AU|Water}, {@item Elemental Ink, Ice|AU|Ice}, or {@item Elemental Ink, Ooze|AU|Ooze}",
 			"property": [
-				"EMT2|AU"
+				"EMT2|AU",
+				"VT2|AU"
 			],
 			"tattoo": true,
 			"wondrous": true,
@@ -67687,7 +67708,8 @@
 			"detail1": "Para-Elemental Plane of Ash",
 			"detail2": "either just {@item Elemental Ink, Ash|AU}, or 2 {@item Elemental Inks|AU} ({@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Fire|AU|Fire})",
 			"property": [
-				"EMT2|AU"
+				"EMT2|AU",
+				"VT2|AU"
 			],
 			"resist": [
 				"poison"
@@ -84380,7 +84402,8 @@
 			"detail1": "Elemental Plane of Water",
 			"detail2": "{@item Elemental Ink, Water|AU}",
 			"property": [
-				"EMT2|AU"
+				"EMT2|AU",
+				"VT2|AU"
 			],
 			"modifySpeed": {
 				"static": {
@@ -84522,7 +84545,8 @@
 			"page": 157,
 			"rarity": "uncommon",
 			"property": [
-				"ET2|AU"
+				"ET2|AU",
+				"VT2|AU"
 			],
 			"detail1": "{@item Dancing Ink|AU}",
 			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
@@ -85104,7 +85128,8 @@
 			"detail1": "Elemental Plane of Air",
 			"detail2": "1 of the Following {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air}, {@item Elemental Ink, Ash|AU|Ash}, or {@item Elemental Ink, Ice|AU|Ice}",
 			"property": [
-				"EMT2|AU"
+				"EMT2|AU",
+				"VT2|AU"
 			],
 			"tattoo": true,
 			"wondrous": true,

@@ -10070,6 +10070,22 @@
 					]
 				}
 			]
+		},
+		{
+			"abbreviation": "VT2",
+			"source": "AU",
+			"page": 151,
+			"template": "{{prop_name}}",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Variant Spell Tattoo",
+					"entries": [
+						"This magical tattoo property is a secondary property, as it can apply to any magical tattoo, even if it already has a property type, excluding {@itemProperty EsT2|AU|Enspelled Tattoo}. This is because the purpose of this property is to notate the differences between these tattoos that grant some form of spellcasting and the {@itemProperty EsT2|AU|Enspelled Tattoos}, which also grants some form of spellcasting. The difference between the two is that {@itemProperty EsT2|AU|Enspelled Tattoos} do not change the use of the spell itself, operating closer to that of a Spell Scroll with daily charges instead of being consumed. These tattoos will either alter the spell itself or has a spell as a secondary part of its benefits, instead of its main purpose of the tattoo.",
+						"Regarding the max tattoo count for these spells, follow the guidelines for the other tattoo property attacted to this specific tattoo for those guidelines as those take priority."
+					]
+				}
+			]
 		}
 	],
 	"itemType": [

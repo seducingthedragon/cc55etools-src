@@ -8160,6 +8160,11 @@
 											"{@itemProperty EsT2|AU|Enspelled Tattoo}",
 											"Max 3, regardless of attunement and spell level",
 											"Not Consumed Spell Scroll with 1/Day spell casting"
+										],
+										[
+											"{@itemProperty VT2|AU|Variant Spell Tattoo}",
+											"Max is based off of the other property/type applied to the same tattoo",
+											"Secondary Property that will overlap with other types, excluding {@itemProperty EsT2|AU|Enspelled Tattoo} due to similarities. Property is meant to designate the differences between the two."
 										]
 									]
 								}
