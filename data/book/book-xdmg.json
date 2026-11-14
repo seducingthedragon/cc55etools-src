@@ -24751,7 +24751,8 @@
 																"It is a {@filter Very Rare|items|type=|rarity=!none;!common;!uncommon;!rare;!artifact;!varies;!unknown;!unknown (magic);!other} or rarer magical item of significance that would benefit all party members, regardless of remaining attunement slots.",
 																"It is a magical item that you (via NPC) want to gift to a player for reasons of your choosing."
 															]
-														}
+														},
+														"Additionally, if an item is gifted or granted to a player from a Divine Being or an extremely powerful one, such as one you would make a pact to, that item's attunement to it should not be necessary."
 													]
 												}
 											]
