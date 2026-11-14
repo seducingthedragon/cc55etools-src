@@ -2168,6 +2168,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted generic item of the {@item Acid Absorbing Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
@@ -9464,6 +9471,13 @@
 			"charges": 10,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Blood Fury Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
@@ -15156,6 +15170,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Coiling Grasp Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
@@ -15299,6 +15320,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Cold Absorbing Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
@@ -24010,6 +24038,54 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Druid Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"CT2|AU"
+			],
+			"reqAttune": "if not a Druid",
+			"recharge": "restLong",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "insetReadaloud",
+					"name": "For the Primeval One of the Party and Community.",
+					"entries": [
+						"This tattoo is for Druids. Their Attunement is optional and not required to gain full benefits. \"Druid Appreciators\" and \"Druid Dabblers\" are required to attune to this tattoo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Head, Face, Hands, Chest, Feet",
+								"{@b Required Ink:} {@item Enchanted Ink|AU} and any 2 {@item Elemental Inks|AU} of your choice",
+								"{@b Recommended Iconography:} Antlers, Totem, Flora and Fauna, Nature-Theme",
+								"{@b Additional Resources:} RESOURCEFORBENIES"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "BENNIESNAME",
+					"entries": [
+						"BENEFITSINFORMATION",
+						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+					]
+				}
+			]
+		},
+		{
 			"name": "Dungeoneer's Pack",
 			"source": "PHB",
 			"page": 151,
@@ -29971,6 +30047,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Fire Absorbing Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
@@ -30562,6 +30645,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Force Absorbing Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
@@ -31516,6 +31606,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Ghost Step Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
@@ -34871,6 +34968,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Barrier Tattoo (Large)|TCE}."
+					]
+				},
 				"{#itemEntry Armored Tattoo|AU}"
 			]
 		},
@@ -36105,6 +36209,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Illuminator's Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
@@ -42686,6 +42797,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Lifewell Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
@@ -42811,6 +42929,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Barrier Tattoo (Small)|TCE}."
+					]
+				},
 				"{#itemEntry Armored Tattoo|AU}"
 			]
 		},
@@ -42838,6 +42963,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Lightning Absorbing Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
@@ -44473,6 +44605,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Eldritch Claw Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
@@ -45310,6 +45449,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Masquerade Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Enchanted Tattoo|AU}",
 				{
 					"type": "entries",
@@ -46828,6 +46974,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Barrier Tattoo (Medium)|TCE}."
+					]
+				},
 				"{#itemEntry Armored Tattoo|AU}"
 			]
 		},
@@ -48349,6 +48502,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Necrotic Absorbing Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
@@ -52489,6 +52649,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Poison Absorbing Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
@@ -56493,6 +56660,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Psychic Absorbing Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
@@ -57768,6 +57942,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Radiant Absorbing Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
@@ -65769,6 +65950,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Shadowfell Branded Tattoo|TCE}."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Shadowfell Benefits",
@@ -77797,6 +77985,13 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted item of the {@item Thunder Absorbing Tattoo|TCE}."
+					]
+				},
 				"{#itemEntry Absorbing Tattoo|AU}"
 			]
 		},
@@ -86634,6 +86829,15 @@
 			"rarity": "varies",
 			"type": "GV|XDMG",
 			"tattoo": true,
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Reprinted From",
+					"entries": [
+						"This is a reprinted generic item of the {@item Absorbing Tattoo|TCE}."
+					]
+				}
+			],
 			"items": [
 				"Acid Absorbing Tattoo|AU",
 				"Bludgeoned Absorbing Tattoo|AU",
@@ -88028,54 +88232,6 @@
 				"Armaments - Uncommon|XDMG",
 				"Armaments - Rare|XDMG",
 				"Armaments - Very Rare|XDMG"
-			]
-		},
-		{
-			"name": "Druid Tattoo",
-			"source": "AU",
-			"page": 158,
-			"rarity": "uncommon",
-			"property": [
-				"CT2|AU"
-			],
-			"reqAttune": "if not a Druid",
-			"recharge": "restLong",
-			"rechargeAmount": 1,
-			"charges": 1,
-			"tattoo": true,
-			"wondrous": true,
-			"entries": [
-				{
-					"type": "insetReadaloud",
-					"name": "For the Primeval One of the Party and Community.",
-					"entries": [
-						"This tattoo is for Druids. Their Attunement is optional and not required to gain full benefits. \"Druid Appreciators\" and \"Druid Dabblers\" are required to attune to this tattoo."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Planning and Creating this Tattoo",
-					"entries": [
-						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
-						{
-							"type": "list",
-							"items": [
-								"{@b Placement Recommendations:} Head, Face, Hands, Chest, Feet",
-								"{@b Required Ink:} {@item Enchanted Ink|AU} and any 2 {@item Elemental Inks|AU} of your choice",
-								"{@b Recommended Iconography:} Antlers, Totem, Flora and Fauna, Nature-Theme",
-								"{@b Additional Resources:} RESOURCEFORBENIES"
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "BENNIESNAME",
-					"entries": [
-						"BENEFITSINFORMATION",
-						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
-					]
-				}
 			]
 		},
 		{
