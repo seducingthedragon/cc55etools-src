@@ -64550,6 +64550,494 @@
 			]
 		},
 		{
+			"name": "School of Magic Tattoo (1st Level)",
+			"group": [
+				"School of Magic Tattoos"
+			],
+			"source": "AU",
+			"page": 157,
+			"rarity": "common",
+			"reqAttune": "optional",
+			"detail1": "1",
+			"detail2": "the Ability Modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5",
+			"property": [
+				"EsT2|AU"
+			],
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"wondrous": true,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry School of Magic Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "About the Spells",
+					"entries": [
+						"This tattoo requires the use of {@item Enchanted Ink|AU}. The table below details the specific {@item Enchanted Ink|AU} color required plus the additional required inks as well as the recommended iconography for a specific School of Magic that you choose.",
+						{
+							"type": "table",
+							"caption": "School of Magic Specifications",
+							"colLabels": [
+								"School of Magic",
+								"{@item Enchanted Ink|AU} Color",
+								"Additional Req. Inks",
+								"Recommended Design"
+							],
+							"colStyles": [
+								"col-1-5",
+								"col-1-5",
+								"col-4-5",
+								"col-4-5"
+							],
+							"rows": [
+								[
+									"{@filter Abjuration|spells|level=0;1|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=a|range=self;touch;self (area)}",
+									"Cyan and White",
+									"{@item Metal-Lic Ink|AU|Metal-Lic} plus 1 of the following pairs of {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Earth|AU|Earth}, or {@item Elemental Ink, Fire|AU|Fire} and {@item Elemental Ink, Water|AU|Water}",
+									"Abjuration Rune, Shield, Forcefield, etc."
+								],
+								[
+									"{@filter Conjuration|spells|level=0;1|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=c|range=self;touch;self (area)}",
+									"Purple and Dark Gray",
+									"{@item Dancing Ink|AU|Dancing} and {@item Stardust Ink|AU|Stardust} Inks",
+									"Conjuration Rune, Objects or Energy from void, etc."
+								],
+								[
+									"{@filter Divination|spells|level=0;1|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=d|range=self;touch;self (area)}",
+									"Yellow and White",
+									"{@item Glowing Ink|AU|Glowing} and {@item Stardust Ink|AU|Stardust} Inks",
+									"Divination Rune, Orbs, Third Eye, etc."
+								],
+								[
+									"{@filter Enchantment|spells|level=0;1|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=e|range=self;touch;self (area)}",
+									"Pink and Light Gray",
+									"{@item Dancing Ink|AU|Dancing} and {@item Prismatic Ink|AU|Prismatic} Inks",
+									"Enchantment Rune, Hearts, Love, etc."
+								],
+								[
+									"{@filter Evocation|spells|level=0;1|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=v|range=self;touch;self (area)}",
+									"Green and Black",
+									"{@item Dancing Ink|AU|Dancing} and {@item Metal-Lic Ink|AU|Metal-Lic} Inks",
+									"Evocation Rune, Elements, Force, etc."
+								],
+								[
+									"{@filter Illusion|spells|level=0;1|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=i|range=self;touch;self (area)}",
+									"Blue and Light Gray",
+									"{@item Glowing Ink|AU|Glowing} and {@item Prismatic Ink|AU|Prismatic} Inks",
+									"Illusion Rune, Semi-Transparent Overlapping Images, etc."
+								],
+								[
+									"{@filter Necromancy|spells|level=0;1|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=n|range=self;touch;self (area)}",
+									"Red and Black",
+									"{@item Elemental Ink, Ash|AU|Ash} and {@item Elemental Ink, Ooze|AU|Ooze} Elemental Inks",
+									"Necromancy Rune, Skulls, Death, Blood, etc."
+								],
+								[
+									"{@filter Transmutation|spells|level=0;1|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=t|range=self;touch;self (area)}",
+									"Lime and Dark Gray",
+									"{@item Prismatic Ink|AU|Prismatic} and either {@item Dancing Ink|AU|Dancing} Inks or 3 Related {@item Elemental Inks|AU} (2 Primaries and their shared Para-Element)",
+									"Transmutation Rune, Face half Humanoid half Beast, Shifting Elements, etc."
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "School of Magic Tattoo (2nd Level)",
+			"group": [
+				"School of Magic Tattoos"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"reqAttune": "optional",
+			"detail1": "2",
+			"detail2": "the Ability Modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5",
+			"property": [
+				"EsT2|AU"
+			],
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"wondrous": true,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry School of Magic Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "About the Spells",
+					"entries": [
+						"This tattoo requires the use of {@item Enchanted Ink|AU}. The table below details the specific {@item Enchanted Ink|AU} color required plus the additional required inks as well as the recommended iconography for a specific School of Magic that you choose.",
+						{
+							"type": "table",
+							"caption": "School of Magic Specifications",
+							"colLabels": [
+								"School of Magic",
+								"{@item Enchanted Ink|AU} Color",
+								"Additional Req. Inks",
+								"Recommended Design"
+							],
+							"colStyles": [
+								"col-1-5",
+								"col-1-5",
+								"col-4-5",
+								"col-4-5"
+							],
+							"rows": [
+								[
+									"{@filter Abjuration|spells|level=0;2|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=a|range=self;touch;self (area)}",
+									"Cyan and White",
+									"{@item Metal-Lic Ink|AU|Metal-Lic} plus 1 of the following pairs of {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Earth|AU|Earth}, or {@item Elemental Ink, Fire|AU|Fire} and {@item Elemental Ink, Water|AU|Water}",
+									"Abjuration Rune, Shield, Forcefield, etc."
+								],
+								[
+									"{@filter Conjuration|spells|level=0;2|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=c|range=self;touch;self (area)}",
+									"Purple and Dark Gray",
+									"{@item Dancing Ink|AU|Dancing} and {@item Stardust Ink|AU|Stardust} Inks",
+									"Conjuration Rune, Objects or Energy from void, etc."
+								],
+								[
+									"{@filter Divination|spells|level=0;2|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=d|range=self;touch;self (area)}",
+									"Yellow and White",
+									"{@item Glowing Ink|AU|Glowing} and {@item Stardust Ink|AU|Stardust} Inks",
+									"Divination Rune, Orbs, Third Eye, etc."
+								],
+								[
+									"{@filter Enchantment|spells|level=0;2|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=e|range=self;touch;self (area)}",
+									"Pink and Light Gray",
+									"{@item Dancing Ink|AU|Dancing} and {@item Prismatic Ink|AU|Prismatic} Inks",
+									"Enchantment Rune, Hearts, Love, etc."
+								],
+								[
+									"{@filter Evocation|spells|level=0;2|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=v|range=self;touch;self (area)}",
+									"Green and Black",
+									"{@item Dancing Ink|AU|Dancing} and {@item Metal-Lic Ink|AU|Metal-Lic} Inks",
+									"Evocation Rune, Elements, Force, etc."
+								],
+								[
+									"{@filter Illusion|spells|level=0;2|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=i|range=self;touch;self (area)}",
+									"Blue and Light Gray",
+									"{@item Glowing Ink|AU|Glowing} and {@item Prismatic Ink|AU|Prismatic} Inks",
+									"Illusion Rune, Semi-Transparent Overlapping Images, etc."
+								],
+								[
+									"{@filter Necromancy|spells|level=0;2|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=n|range=self;touch;self (area)}",
+									"Red and Black",
+									"{@item Elemental Ink, Ash|AU|Ash} and {@item Elemental Ink, Ooze|AU|Ooze} Elemental Inks",
+									"Necromancy Rune, Skulls, Death, Blood, etc."
+								],
+								[
+									"{@filter Transmutation|spells|level=0;2|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=t|range=self;touch;self (area)}",
+									"Lime and Dark Gray",
+									"{@item Prismatic Ink|AU|Prismatic} and either {@item Dancing Ink|AU|Dancing} Inks or 3 Related {@item Elemental Inks|AU} (2 Primaries and their shared Para-Element)",
+									"Transmutation Rune, Face half Humanoid half Beast, Shifting Elements, etc."
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "School of Magic Tattoo (3rd Level)",
+			"group": [
+				"School of Magic Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "3",
+			"detail2": "the Ability Modifier for this spell is +4; the Save DC is 15 and the attack bonus is +7",
+			"property": [
+				"EsT2|AU"
+			],
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"wondrous": true,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{@kbd If you do not have a Spellcasting Feature or Pact Magic Feature, you are required to Attune to this tattoo.}",
+				"{#itemEntry School of Magic Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "About the Spells",
+					"entries": [
+						"This tattoo requires the use of {@item Enchanted Ink|AU}. The table below details the specific {@item Enchanted Ink|AU} color required plus the additional required inks as well as the recommended iconography for a specific School of Magic that you choose.",
+						{
+							"type": "table",
+							"caption": "School of Magic Specifications",
+							"colLabels": [
+								"School of Magic",
+								"{@item Enchanted Ink|AU} Color",
+								"Additional Req. Inks",
+								"Recommended Design"
+							],
+							"colStyles": [
+								"col-1-5",
+								"col-1-5",
+								"col-4-5",
+								"col-4-5"
+							],
+							"rows": [
+								[
+									"{@filter Abjuration|spells|level=0;3|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=a|range=self;touch;self (area)}",
+									"Cyan and White",
+									"{@item Metal-Lic Ink|AU|Metal-Lic} plus 1 of the following pairs of {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Earth|AU|Earth}, or {@item Elemental Ink, Fire|AU|Fire} and {@item Elemental Ink, Water|AU|Water}",
+									"Abjuration Rune, Shield, Forcefield, etc."
+								],
+								[
+									"{@filter Conjuration|spells|level=0;3|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=c|range=self;touch;self (area)}",
+									"Purple and Dark Gray",
+									"{@item Dancing Ink|AU|Dancing} and {@item Stardust Ink|AU|Stardust} Inks",
+									"Conjuration Rune, Objects or Energy from void, etc."
+								],
+								[
+									"{@filter Divination|spells|level=0;3|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=d|range=self;touch;self (area)}",
+									"Yellow and White",
+									"{@item Glowing Ink|AU|Glowing} and {@item Stardust Ink|AU|Stardust} Inks",
+									"Divination Rune, Orbs, Third Eye, etc."
+								],
+								[
+									"{@filter Enchantment|spells|level=0;3|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=e|range=self;touch;self (area)}",
+									"Pink and Light Gray",
+									"{@item Dancing Ink|AU|Dancing} and {@item Prismatic Ink|AU|Prismatic} Inks",
+									"Enchantment Rune, Hearts, Love, etc."
+								],
+								[
+									"{@filter Evocation|spells|level=0;3|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=v|range=self;touch;self (area)}",
+									"Green and Black",
+									"{@item Dancing Ink|AU|Dancing} and {@item Metal-Lic Ink|AU|Metal-Lic} Inks",
+									"Evocation Rune, Elements, Force, etc."
+								],
+								[
+									"{@filter Illusion|spells|level=0;3|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=i|range=self;touch;self (area)}",
+									"Blue and Light Gray",
+									"{@item Glowing Ink|AU|Glowing} and {@item Prismatic Ink|AU|Prismatic} Inks",
+									"Illusion Rune, Semi-Transparent Overlapping Images, etc."
+								],
+								[
+									"{@filter Necromancy|spells|level=0;3|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=n|range=self;touch;self (area)}",
+									"Red and Black",
+									"{@item Elemental Ink, Ash|AU|Ash} and {@item Elemental Ink, Ooze|AU|Ooze} Elemental Inks",
+									"Necromancy Rune, Skulls, Death, Blood, etc."
+								],
+								[
+									"{@filter Transmutation|spells|level=0;3|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=t|range=self;touch;self (area)}",
+									"Lime and Dark Gray",
+									"{@item Prismatic Ink|AU|Prismatic} and either {@item Dancing Ink|AU|Dancing} Inks or 3 Related {@item Elemental Inks|AU} (2 Primaries and their shared Para-Element)",
+									"Transmutation Rune, Face half Humanoid half Beast, Shifting Elements, etc."
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "School of Magic Tattoo (4th Level)",
+			"group": [
+				"School of Magic Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"reqAttune": "optional",
+			"detail1": "4",
+			"detail2": "the Ability Modifier for this spell is +4; the Save DC is 15 and the attack bonus is +7",
+			"property": [
+				"EsT2|AU"
+			],
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"wondrous": true,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{@kbd If you do not have a Spellcasting Feature or Pact Magic Feature, you are required to Attune to this tattoo.}",
+				"{#itemEntry School of Magic Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "About the Spells",
+					"entries": [
+						"This tattoo requires the use of {@item Enchanted Ink|AU}. The table below details the specific {@item Enchanted Ink|AU} color required plus the additional required inks as well as the recommended iconography for a specific School of Magic that you choose.",
+						{
+							"type": "table",
+							"caption": "School of Magic Specifications",
+							"colLabels": [
+								"School of Magic",
+								"{@item Enchanted Ink|AU} Color",
+								"Additional Req. Inks",
+								"Recommended Design"
+							],
+							"colStyles": [
+								"col-1-5",
+								"col-1-5",
+								"col-4-5",
+								"col-4-5"
+							],
+							"rows": [
+								[
+									"{@filter Abjuration|spells|level=0;4|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=a|range=self;touch;self (area)}",
+									"Cyan and White",
+									"{@item Metal-Lic Ink|AU|Metal-Lic} plus 1 of the following pairs of {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Earth|AU|Earth}, or {@item Elemental Ink, Fire|AU|Fire} and {@item Elemental Ink, Water|AU|Water}",
+									"Abjuration Rune, Shield, Forcefield, etc."
+								],
+								[
+									"{@filter Conjuration|spells|level=0;4|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=c|range=self;touch;self (area)}",
+									"Purple and Dark Gray",
+									"{@item Dancing Ink|AU|Dancing} and {@item Stardust Ink|AU|Stardust} Inks",
+									"Conjuration Rune, Objects or Energy from void, etc."
+								],
+								[
+									"{@filter Divination|spells|level=0;4|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=d|range=self;touch;self (area)}",
+									"Yellow and White",
+									"{@item Glowing Ink|AU|Glowing} and {@item Stardust Ink|AU|Stardust} Inks",
+									"Divination Rune, Orbs, Third Eye, etc."
+								],
+								[
+									"{@filter Enchantment|spells|level=0;4|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=e|range=self;touch;self (area)}",
+									"Pink and Light Gray",
+									"{@item Dancing Ink|AU|Dancing} and {@item Prismatic Ink|AU|Prismatic} Inks",
+									"Enchantment Rune, Hearts, Love, etc."
+								],
+								[
+									"{@filter Evocation|spells|level=0;4|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=v|range=self;touch;self (area)}",
+									"Green and Black",
+									"{@item Dancing Ink|AU|Dancing} and {@item Metal-Lic Ink|AU|Metal-Lic} Inks",
+									"Evocation Rune, Elements, Force, etc."
+								],
+								[
+									"{@filter Illusion|spells|level=0;4|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=i|range=self;touch;self (area)}",
+									"Blue and Light Gray",
+									"{@item Glowing Ink|AU|Glowing} and {@item Prismatic Ink|AU|Prismatic} Inks",
+									"Illusion Rune, Semi-Transparent Overlapping Images, etc."
+								],
+								[
+									"{@filter Necromancy|spells|level=0;4|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=n|range=self;touch;self (area)}",
+									"Red and Black",
+									"{@item Elemental Ink, Ash|AU|Ash} and {@item Elemental Ink, Ooze|AU|Ooze} Elemental Inks",
+									"Necromancy Rune, Skulls, Death, Blood, etc."
+								],
+								[
+									"{@filter Transmutation|spells|level=0;4|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=t|range=self;touch;self (area)}",
+									"Lime and Dark Gray",
+									"{@item Prismatic Ink|AU|Prismatic} and either {@item Dancing Ink|AU|Dancing} Inks or 3 Related {@item Elemental Inks|AU} (2 Primaries and their shared Para-Element)",
+									"Transmutation Rune, Face half Humanoid half Beast, Shifting Elements, etc."
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "School of Magic Tattoo (5th Level)",
+			"group": [
+				"School of Magic Tattoos"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"reqAttune": "optional",
+			"detail1": "5",
+			"detail2": "the Ability Modifier for this spell is +5; the Save DC is 17 and the attack bonus is +9",
+			"property": [
+				"EsT2|AU"
+			],
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"wondrous": true,
+			"tattoo": true,
+			"hasRefs": true,
+			"entries": [
+				"{@kbd If you do not have a Spellcasting Feature or Pact Magic Feature, you are required to Attune to this tattoo.}",
+				"{#itemEntry School of Magic Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "About the Spells",
+					"entries": [
+						"This tattoo requires the use of {@item Enchanted Ink|AU}. The table below details the specific {@item Enchanted Ink|AU} color required plus the additional required inks as well as the recommended iconography for a specific School of Magic that you choose.",
+						{
+							"type": "table",
+							"caption": "School of Magic Specifications",
+							"colLabels": [
+								"School of Magic",
+								"{@item Enchanted Ink|AU} Color",
+								"Additional Req. Inks",
+								"Recommended Design"
+							],
+							"colStyles": [
+								"col-1-5",
+								"col-1-5",
+								"col-4-5",
+								"col-4-5"
+							],
+							"rows": [
+								[
+									"{@filter Abjuration|spells|level=0;5|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=a|range=self;touch;self (area)}",
+									"Cyan and White",
+									"{@item Metal-Lic Ink|AU|Metal-Lic} plus 1 of the following pairs of {@item Elemental Inks|AU}: {@item Elemental Ink, Air|AU|Air} and {@item Elemental Ink, Earth|AU|Earth}, or {@item Elemental Ink, Fire|AU|Fire} and {@item Elemental Ink, Water|AU|Water}",
+									"Abjuration Rune, Shield, Forcefield, etc."
+								],
+								[
+									"{@filter Conjuration|spells|level=0;5|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=c|range=self;touch;self (area)}",
+									"Purple and Dark Gray",
+									"{@item Dancing Ink|AU|Dancing} and {@item Stardust Ink|AU|Stardust} Inks",
+									"Conjuration Rune, Objects or Energy from void, etc."
+								],
+								[
+									"{@filter Divination|spells|level=0;5|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=d|range=self;touch;self (area)}",
+									"Yellow and White",
+									"{@item Glowing Ink|AU|Glowing} and {@item Stardust Ink|AU|Stardust} Inks",
+									"Divination Rune, Orbs, Third Eye, etc."
+								],
+								[
+									"{@filter Enchantment|spells|level=0;5|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=e|range=self;touch;self (area)}",
+									"Pink and Light Gray",
+									"{@item Dancing Ink|AU|Dancing} and {@item Prismatic Ink|AU|Prismatic} Inks",
+									"Enchantment Rune, Hearts, Love, etc."
+								],
+								[
+									"{@filter Evocation|spells|level=0;5|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=v|range=self;touch;self (area)}",
+									"Green and Black",
+									"{@item Dancing Ink|AU|Dancing} and {@item Metal-Lic Ink|AU|Metal-Lic} Inks",
+									"Evocation Rune, Elements, Force, etc."
+								],
+								[
+									"{@filter Illusion|spells|level=0;5|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=i|range=self;touch;self (area)}",
+									"Blue and Light Gray",
+									"{@item Glowing Ink|AU|Glowing} and {@item Prismatic Ink|AU|Prismatic} Inks",
+									"Illusion Rune, Semi-Transparent Overlapping Images, etc."
+								],
+								[
+									"{@filter Necromancy|spells|level=0;5|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=n|range=self;touch;self (area)}",
+									"Red and Black",
+									"{@item Elemental Ink, Ash|AU|Ash} and {@item Elemental Ink, Ooze|AU|Ooze} Elemental Inks",
+									"Necromancy Rune, Skulls, Death, Blood, etc."
+								],
+								[
+									"{@filter Transmutation|spells|level=0;5|components & miscellaneous=!material with cost;!material is consumed;!reprinted|school=t|range=self;touch;self (area)}",
+									"Lime and Dark Gray",
+									"{@item Prismatic Ink|AU|Prismatic} and either {@item Dancing Ink|AU|Dancing} Inks or 3 Related {@item Elemental Inks|AU} (2 Primaries and their shared Para-Element)",
+									"Transmutation Rune, Face half Humanoid half Beast, Shifting Elements, etc."
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Scimitar of Speed",
 			"source": "DMG",
 			"page": 199,
@@ -91417,6 +91905,22 @@
 			]
 		},
 		{
+			"name": "School of Magic Tattoos",
+			"source": "AU",
+			"page": 156,
+			"type": "GV|XDMG",
+			"rarity": "varies",
+			"reqAttune": "optional",
+			"tattoo": true,
+			"items": [
+				"School of Magic Tattoo (1st Level)|AU",
+				"School of Magic Tattoo (2nd Level)|AU",
+				"School of Magic Tattoo (3rd Level)|AU",
+				"School of Magic Tattoo (4th Level)|AU",
+				"School of Magic Tattoo (5th Level)|AU"
+			]
+		},
+		{
 			"name": "Scroll of Protection",
 			"source": "DMG",
 			"page": 199,
@@ -91907,6 +92411,9 @@
 				"Enspelled Tattoos|AU"
 			],
 			"rarity": "varies",
+			"recharge": "restShort",
+			"rechargeAmount": 1,
+			"charges": 1,
 			"wondrous": true,
 			"tattoo": true,
 			"items": [
@@ -92173,7 +92680,15 @@
 			"type": "GV|XDMG",
 			"rarity": "varies",
 			"tattoo": true,
-			"items": []
+			"items": [
+				"+1 Thick Skin Tattoo|AU",
+				"+2 Thick Skin Tattoo|AU",
+				"+3 Thick Skin Tattoo|AU",
+				"+4 Thick Skin Tattoo|AU",
+				"+5 Thick Skin Tattoo|AU",
+				"+6 Thick Skin Tattoo|AU",
+				"+7 Thick Skin Tattoo|AU"
+			]
 		},
 		{
 			"name": "True-Ice Shards",

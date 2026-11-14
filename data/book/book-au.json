@@ -8267,8 +8267,13 @@
 											"Not Consumed Spell Scroll with 1/Day spell casting"
 										],
 										[
+											"{@item School of Magic Tattoos}",
+											"Follows the {@itemProperty EsT2|AU|Enspelled Tattoo}, however may limit it to 1 or 2.",
+											"Variation of the {@item Enspelled Tattoos|AU}, focusing on the school of magic and granting access to 2 spells instead of 1."
+										],
+										[
 											"{@item Thick Skin Tattoos}",
-											"Only One per the Armored Tattoo Property, however it will all count as one when stacked together",
+											"Only One per the {@itemProperty ACT2|AU|Armored Tattoo} Property, however it will all count as one when stacked together",
 											"AC Bonus to Flat AC that can be applied to Natural Armor or Unarmored Defense but NOT to any worn armor. Can wear Armor but only the one that provides the Highest AC will be used."
 										],
 										[
@@ -8309,6 +8314,7 @@
 										"{@item Metal-Lic Tattoo|AU|Metal-Lic} {@i (ink only)}",
 										"{@item Prismatic Tattoo|AU|Prismatic} {@i (ink only)}",
 										"{@item Quill Tattoo|AU|Quill}",
+										"{@item School of Magic Tattoo (1st Level)|AU} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
 										"{@item Stardust Tattoo|AU|Stardust} {@i (ink only)}"
 									]
 								}
@@ -8394,6 +8400,13 @@
 						{
 							"type": "statblock",
 							"tag": "item",
+							"name": "School of Magic Tattoo (1st Level)",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
 							"name": "Stardust Tattoo",
 							"source": "AU",
 							"style": "inset"
@@ -8443,10 +8456,13 @@
 										"{@item Quick Zap Tattoo|AU|Quick Zap}",
 										"{@item Rainbow Quill Tattoo|AU|Rainbow Quill}",
 										"{@item S-O-S Tattoo|AU|S-O-S}",
+										"{@item School of Magic Tattoo (2nd Level)|AU} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
 										"{@item Sculpt Water Tattoo|AU|Sculpt Water} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
 										"{@item Second Guessing Tattoo|AU|Second Guessing}",
 										"{@item Slashed Absorbing Tattoo|AU|Slashed Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
 										"{@item Strobe Tattoo|AU|Strobe}",
+										"{@item +1 Thick Skin Tattoo|AU|Thick Skin Tattoo, +1} {@i ({@itemProperty ACT2|AU|Armored Type})}",
+										"{@item +2 Thick Skin Tattoo|AU|Thick Skin Tattoo, +2} {@i ({@itemProperty ACT2|AU|Armored Type})}",
 										"{@item Whistling Message Tattoo|AU|Whistling Message}",
 										"{@item Windry Tattoo|AU|Windy} {@i ({@itemProperty EMT2|AU|Elemental Type})}"
 									]
@@ -8708,6 +8724,13 @@
 						{
 							"type": "statblock",
 							"tag": "item",
+							"name": "School of Magic Tattoo (2nd Level)",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
 							"name": "Sculpt Water Tattoo",
 							"source": "AU",
 							"style": "inset"
@@ -8737,6 +8760,20 @@
 							"type": "statblock",
 							"tag": "item",
 							"name": "Strobe Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "+1 Thick Skin Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "+2 Thick Skin Tattoo",
 							"source": "AU",
 							"style": "inset"
 						},
@@ -8810,7 +8847,11 @@
 										"{@item Poison Absorbing Tattoo|AU|Poison Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
 										"{@item Psychic Absorbing Tattoo|AU|Psychic Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
 										"{@item Radiant Absorbing Tattoo|AU|Radiant Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item School of Magic Tattoo (3rd Level)|AU} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
+										"{@item School of Magic Tattoo (4th Level)|AU} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
 										"{@item Silvered Tattoo|AU|Silvered}",
+										"{@item +3 Thick Skin Tattoo|AU|Thick Skin Tattoo, +3} {@i ({@itemProperty ACT2|AU|Armored Type})}",
+										"{@item +4 Thick Skin Tattoo|AU|Thick Skin Tattoo, +4} {@i ({@itemProperty ACT2|AU|Armored Type})}",
 										"{@item Thunder Absorbing Tattoo|AU|Thunder Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
 										"{@item Watery Tattoo|AU|Watery} {@i ({@itemProperty EMT2|AU|Elemental Type})}"
 									]
@@ -9023,6 +9064,20 @@
 						{
 							"type": "statblock",
 							"tag": "item",
+							"name": "School of Magic Tattoo (3rd Level)",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "School of Magic Tattoo (4th Level)",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
 							"name": "Shadow Branded Tattoo",
 							"source": "AU",
 							"style": "inset"
@@ -9031,6 +9086,20 @@
 							"type": "statblock",
 							"tag": "item",
 							"name": "Silvered Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "+3 Thick Skin Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "+4 Thick Skin Tattoo",
 							"source": "AU",
 							"style": "inset"
 						},
@@ -9074,8 +9143,11 @@
 										"{@item Heavily Armored Tattoo|AU|Heavily Armored} {@i ({@itemProperty ACT2|AU|Armored Type})}",
 										"{@item Inferno Tattoo|AU|Inferno} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
 										"{@item Lifewell Tattoo|AU|Lifewell}",
+										"{@item School of Magic Tattoo (5th Level)|AU} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
 										"{@item Smog Tattoo|AU|Smog} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
 										"{@item Techtonic Tattoo|AU|Techtonic} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item +5 Thick Skin Tattoo|AU|Thick Skin Tattoo, +5} {@i ({@itemProperty ACT2|AU|Armored Type})}",
+										"{@item +6 Thick Skin Tattoo|AU|Thick Skin Tattoo, +6} {@i ({@itemProperty ACT2|AU|Armored Type})}",
 										"{@item Volcanic Tattoo|AU|Volcanic} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
 										"{@item Whirlpool Tattoo|AU|Whirlpool} {@i ({@itemProperty EMT2|AU|Elemental Type})}"
 									]
@@ -9141,6 +9213,13 @@
 						{
 							"type": "statblock",
 							"tag": "item",
+							"name": "School of Magic Tattoo (5th Level)",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
 							"name": "Smog Tattoo",
 							"source": "AU",
 							"style": "inset"
@@ -9149,6 +9228,20 @@
 							"type": "statblock",
 							"tag": "item",
 							"name": "Techtonic Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "+5 Thick Skin Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "+6 Thick Skin Tattoo",
 							"source": "AU",
 							"style": "inset"
 						},
@@ -9183,7 +9276,8 @@
 									"type": "list",
 									"style": "list-hang-notitle",
 									"items": [
-										"{@item Blood Fury Tattoo|AU|Blood Fury}"
+										"{@item Blood Fury Tattoo|AU|Blood Fury}",
+										"{@item +7 Thick Skin Tattoo|AU|Thick Skin Tattoo, +7} {@i ({@itemProperty ACT2|AU|Armored Type})}"
 									]
 								}
 							]
@@ -9192,6 +9286,13 @@
 							"type": "statblock",
 							"tag": "item",
 							"name": "Blood Fury Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "+7 Thick Skin Tattoo",
 							"source": "AU",
 							"style": "inset"
 						}

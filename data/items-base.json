@@ -11544,6 +11544,23 @@
 			]
 		},
 		{
+			"name": "School of Magic Tattoo",
+			"source": "AU",
+			"entriesTemplate": [
+				"This magical tattoo is a unique {@itemProperty EsT2|AU|Enspelled Tattoo}. While it is still leveled base, it focuses primarily on a School of Magic. With this tattoo, you gain one Cantrip and one Level {{item.detail1}} spell of a choosen School of Magic. You can cast the Cantrip at will, while the attached leveled spell can only be cast once per {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. The only requirement for which spells are available for this tattoo is that it cannot have a Material Component that has a cost, cannot have a Material Component be consumed, and it can only have a range of yourself, centered on yourself, or touch.",
+				"This tattoo does not require Attunement. Without Attunement, {{item.detail2}}. With Attunement, your attached spells ability is Intelligence, Wisdom, or Charisma (your choice), which determines your Spell Save DC and Spell Attach Bonus.",
+				{
+					"type": "list",
+					"name": "Planning and Creating this Tattoo",
+					"items": [
+						"{@b Placement Recommendations:} Anywhere on self",
+						"{@b Recommended Size:} Small or Larger size.",
+						"{@b Required Visibility:} Recommended visibility, however it is Required if any attached spell has a Material Component, which is now this tattoo."
+					]
+				}
+			]
+		},
+		{
 			"name": "Scroll of Protection",
 			"source": "XDMG",
 			"entriesTemplate": [
