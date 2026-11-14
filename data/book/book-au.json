@@ -7825,7 +7825,7 @@
 									"type": "variantSub",
 									"name": "A Final Note on the Magical Tattoo Items",
 									"entries": [
-										"There will be duplicate effects and uses. This is because I found at least two approaches for a similar effect that I liked and for this First Draft, I choose to include all in order to gain your input. The two most common ones I can think of as an example are the {@item Armored Tattoos|AU} and the Thick Skin Tattoos. Both grant a bonus while Unarmored but in different ways."
+										"There will be duplicate effects and uses. This is because I found at least two approaches for a similar effect that I liked and for this First Draft, I choose to include all in order to gain your input. The two most common ones I can think of as an example are the {@item Armored Tattoos|AU} and the {@item Thick Skin Tattoos|AU}. Both grant a bonus while Unarmored but in different ways."
 									]
 								}
 							]
@@ -7836,9 +7836,12 @@
 							"entries": [
 								"This portion of the update will take the longest of all. I plan for this chapter, and its added items, to be constantly reviewed and updated through this sites many versions.",
 								"{@b My Goals} for this section is for us to finalize this chapter and its items by time I am nearly completed with all major revisions, where any updates to this site focuses on new sources and information published by WotC is added and incorporated, aka the maintenance portion of this site.",
-								"{@b My Plans} involves each significant version update involves a chunk of standard information found on this site, plus some revisions within this topic, followed by a Foundry focus on making sure those are up to date with our changes, but not including the tattoos within the Foundry documents until the end. This would allow changes regarding this chapter and items to be done at a steady pace and segmented, in order to allow any updates to be finalized before revising again.",
-								"{@b Thank you all for your help and I cant wait for our characters to be inked the fuck up!}"
+								"{@b My Plans} involves each significant version update involves a chunk of standard information found on this site, plus some revisions within this topic, followed by a Foundry focus on making sure those are up to date with our changes, but not including the tattoos within the Foundry documents until the end. This would allow changes regarding this chapter and items to be done at a steady pace and segmented, in order to allow any updates to be finalized before revising again."
 							]
+						},
+						{
+							"type": "abilityGeneric",
+							"text": "{@b Thank you all for your help and I cant wait for our characters to be inked the fuck up!}"
 						}
 					]
 				},
@@ -8241,7 +8244,7 @@
 										[
 											"{@itemProperty ACT2|AU|Armored Tattoo}",
 											"One Only",
-											"Increasing Flat Armor formula to Natural Armor."
+											"Granting increased Unarmored AC using armor-like formulas."
 										],
 										[
 											"{@itemProperty BT2|AU|Branded Tattoo}",
@@ -8262,6 +8265,11 @@
 											"{@itemProperty EsT2|AU|Enspelled Tattoo}",
 											"Max 3, regardless of attunement and spell level",
 											"Not Consumed Spell Scroll with 1/Day spell casting"
+										],
+										[
+											"{@item Thick Skin Tattoos}",
+											"Only One per the Armored Tattoo Property, however it will all count as one when stacked together",
+											"AC Bonus to Flat AC that can be applied to Natural Armor or Unarmored Defense but NOT to any worn armor. Can wear Armor but only the one that provides the Highest AC will be used."
 										],
 										[
 											"{@itemProperty VT2|AU|Variant Spell Tattoo}",

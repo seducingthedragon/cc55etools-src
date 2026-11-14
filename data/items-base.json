@@ -11227,17 +11227,18 @@
 						"When you are not wearing any armor, your {@variantrule Armor Class|XPHB} is {{item.detail1}}. You can use a {@item Shield|XPHB} and still maintain this benefit.",
 						{
 							"type": "list",
+							"name": "Complications",
 							"style": "list-hang-notitle",
 							"items": [
 								{
 									"type": "item",
 									"name": "Innate Natural Armor",
-									"entry": "If you have a lineage-related feature that provides Natural Armor, you can choose whether to use the AC provided by this tattoo or your Natural Armor AC."
+									"entry": "If you have a lineage-related feature that provides Natural Armor, you may not gain any benefits from this tattoo. In order to do so, you will need {@variantrule Armor Training|XPHB} in any one type of armor and follow the rules in your Natural Armor feature about its use with worn Armor."
 								},
 								{
 									"type": "item",
-									"name": "Unarmored Defense from Class Feature or Elsewhere",
-									"entry": "If this Armored Tattoo AC Formula allows you the ability to add your Dexterity Modifier, you can add the second Ability Modifier provided by your Unarmored Defense to the AC formula provided by this tattoo. If Dexterity is not added to this tattoo's AC formula, then you cannot add anything else to it as well."
+									"name": "Unarmored Defense",
+									"entry": "If you have an Unarmored Defense feature, you may not gain any benefits from this tattoo. In order to do so, you will need {@variantrule Armor Training|XPHB} in any one type of armor in order to gain this tattoos benefit without losing your Unarmored Defense. If this tattoo grants the ability to add your Dexterity Modifier, then you can use this tattoo by adding your second Ability Modifier from the feature to this tattoo's AC for your tatted {@variantrule Armor Class|XPHB}. If Dexterity is not added to this tattoo's AC formula, then you cannot add anything else to it as well."
 								}
 							]
 						}
@@ -11548,6 +11549,35 @@
 			"entriesTemplate": [
 				"Using a {@action Magic|XPHB} action to read the scroll creates a 5-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from you. For 5 minutes, {{item.detail2}} can't enter or affect anything in the area. However, if you move in such a way that an {{item.detail1}} would be inside the area, the effect ends.",
 				"As a {@action Magic|XPHB} action, a creature within 5 feet of the {@variantrule Emanation [Area of Effect]|XPHB|Emanation} can attempt to overcome it, which forces the creature to make a {@dc 15} Charisma saving throw. On a successful save, the creature ceases to be affected by the {@variantrule Emanation [Area of Effect]|XPHB|Emanation}."
+			]
+		},
+		{
+			"name": "Thick Skin Tattoo",
+			"source": "AU",
+			"entriesTemplate": [
+				{
+					"type": "entries",
+					"name": "Your Flat AC and Formula",
+					"entries": [
+						"This tattoo grants a bonus to your Flat {@variantrule Armor Class|XPHB}. This is your AC when you are not wearing any armor, which is typically 10 + your Dexterity Mod. If you have Natural Armor or Unarmored Defense, this bonus can be added to those formulas to determine your AC. For everyone else, with this tattoo, your new Flat AC formula becomes the following:",
+						{
+							"type": "abilityGeneric",
+							"name": "Flat Armor Class",
+							"text": "10 + {{item.detail1}} + your ",
+							"attributes": [
+								"dex"
+							]
+						},
+						"While this AC will always be active, you do not gain its benefit while wearing mundane armor. Magical Armor, however, may be used, however your AC will be determined by which one grants the highest level of protection. This bonus does not get applied to any worn AC formula. You can use a shield and maintain this benefit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stackable",
+					"entries": [
+						"These tattoos can be obtained repeatedly in order to stack benefits without necessarily increasing cost, time, or resources, depending on the shop's costs. This means if you get a +1 Thick Skin Tattoo, you can add on to it with a +2 Thick Skin Tattoo in order to increase your Flat AC by a +3, however your bonus cannot become higher than a +7, regardless of how much you choose to expand."
+					]
+				}
 			]
 		}
 	],

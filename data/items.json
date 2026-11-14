@@ -459,6 +459,42 @@
 			]
 		},
 		{
+			"name": "+1 Thick Skin Tattoo",
+			"group": [
+				"Thick Skin Tattoos"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"ACT2|AU"
+			],
+			"detail1": "1",
+			"bonusAC": "+1",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Thick Skin Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Anywhere",
+								"{@b Required Ink:} {@item Enchanted Ink|AU} with one of the following additions: {@item Elemental Ink, Earth|AU} or {@item Metal-Lic Ink|AU}",
+								"{@b Recommended Iconography and/or Size:} Textured thick skin, Shield, Armor Material, in a Small or Larger tattoo design",
+								"{@b Required Visibility:} Not Required"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "+1 Wand of the War Mage",
 			"source": "DMG",
 			"page": 212,
@@ -1049,6 +1085,42 @@
 			]
 		},
 		{
+			"name": "+2 Thick Skin Tattoo",
+			"group": [
+				"Thick Skin Tattoos"
+			],
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"ACT2|AU"
+			],
+			"detail1": "2",
+			"bonusAC": "+2",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Thick Skin Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Required:} Pick one: Upper Arms, Torso (Chest), or Thighs",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Elemental Ink, Earth|AU}, and {@item Metal-Lic Ink|AU}",
+								"{@b Recommended Iconography and/or Size:} Textured thick skin, Shield, Armor Material, in a Medium or larger size",
+								"{@b Required Visibility:} Not Required"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "+2 Wand of the War Mage",
 			"source": "DMG",
 			"page": 212,
@@ -1626,6 +1698,42 @@
 			]
 		},
 		{
+			"name": "+3 Thick Skin Tattoo",
+			"group": [
+				"Thick Skin Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"property": [
+				"ACT2|AU"
+			],
+			"detail1": "3",
+			"bonusAC": "+3",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Thick Skin Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Required:} Pick 1: Front Torso (Chest), Back, Upper Arms, Thighs",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Elemental Ink, Earth|AU}, and {@item Metal-Lic Ink|AU}",
+								"{@b Recommended Iconography and/or Size:} Textured thick skin, Shield, Armor Material, in a Large or larger size",
+								"{@b Required Visibility:} Not Required"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "+3 Wand of the War Mage",
 			"source": "DMG",
 			"page": 212,
@@ -1750,6 +1858,150 @@
 			"bonusWeapon": "+3",
 			"entries": [
 				"While you're wearing these cloth wraps, your unarmed strikes are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks and damage, and you gain a +3 bonus to the attack and damage rolls of your unarmed strikes."
+			]
+		},
+		{
+			"name": "+4 Thick Skin Tattoo",
+			"group": [
+				"Thick Skin Tattoos"
+			],
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"property": [
+				"ACT2|AU"
+			],
+			"detail1": "4",
+			"bonusAC": "+4",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Thick Skin Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Required:} Pick 1: Front Torso (Chest), Back, Upper Arms, Thighs",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Elemental Ink, Earth|AU}, and {@item Metal-Lic Ink|AU}",
+								"{@b Recommended Iconography and/or Size:} Textured thick skin, Shield, Armor Material, in a Large or larger size",
+								"{@b Required Visibility:} Not Required"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "+5 Thick Skin Tattoo",
+			"group": [
+				"Thick Skin Tattoos"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"property": [
+				"ACT2|AU"
+			],
+			"detail1": "5",
+			"bonusAC": "+5",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Thick Skin Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Required:} Pick 2: Front Torso (Chest), Back, Upper Arms, Thighs",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Elemental Ink, Earth|AU}, and {@item Metal-Lic Ink|AU}",
+								"{@b Recommended Iconography and/or Size:} Textured thick skin, Shield, Armor Material, in a Large or larger design",
+								"{@b Required Visibility:} Not Required"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "+6 Thick Skin Tattoo",
+			"group": [
+				"Thick Skin Tattoos"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "very rare",
+			"property": [
+				"ACT2|AU"
+			],
+			"detail1": "6",
+			"bonusAC": "+6",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Thick Skin Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Required:} Pick 2: Front Torso (Chest), Back, Upper Arms, Thighs",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Elemental Ink, Earth|AU}, and {@item Metal-Lic Ink|AU}",
+								"{@b Recommended Iconography and/or Size:} Textured thick skin, Shield, Armor Material, in an Extra Large size",
+								"{@b Required Visibility:} Not Required"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "+7 Thick Skin Tattoo",
+			"group": [
+				"Thick Skin Tattoos"
+			],
+			"source": "AU",
+			"page": 160,
+			"rarity": "legendary",
+			"property": [
+				"ACT2|AU"
+			],
+			"detail1": "7",
+			"bonusAC": "+7",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Thick Skin Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Required:} Full Torso, Back, Upper Arms, and Thighs",
+								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Elemental Ink, Earth|AU}, and {@item Metal-Lic Ink|AU}",
+								"{@b Recommended Iconography and/or Size:} Textured thick skin, Shield, Armor Material, in a full body part size",
+								"{@b Required Visibility:} Not Required"
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -91757,6 +92009,15 @@
 					]
 				}
 			}
+		},
+		{
+			"name": "Thick Skin Tattoos",
+			"source": "AU",
+			"page": 156,
+			"type": "GV|XDMG",
+			"rarity": "varies",
+			"tattoo": true,
+			"items": []
 		},
 		{
 			"name": "True-Ice Shards",
