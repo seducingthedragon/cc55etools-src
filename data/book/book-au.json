@@ -8314,7 +8314,7 @@
 										"{@item Metal-Lic Tattoo|AU|Metal-Lic} {@i (ink only)}",
 										"{@item Prismatic Tattoo|AU|Prismatic} {@i (ink only)}",
 										"{@item Quill Tattoo|AU|Quill}",
-										"{@item School of Magic Tattoo (1st Level)|AU} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
+										"{@item School of Magic Tattoo (1st Level)|AU|School of Magic (1st Level)} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
 										"{@item Stardust Tattoo|AU|Stardust} {@i (ink only)}"
 									]
 								}
@@ -8456,7 +8456,7 @@
 										"{@item Quick Zap Tattoo|AU|Quick Zap}",
 										"{@item Rainbow Quill Tattoo|AU|Rainbow Quill}",
 										"{@item S-O-S Tattoo|AU|S-O-S}",
-										"{@item School of Magic Tattoo (2nd Level)|AU} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
+										"{@item School of Magic Tattoo (2nd Level)|AU|School of Magic (2nd Level)} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
 										"{@item Sculpt Water Tattoo|AU|Sculpt Water} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
 										"{@item Second Guessing Tattoo|AU|Second Guessing}",
 										"{@item Slashed Absorbing Tattoo|AU|Slashed Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
@@ -8464,7 +8464,8 @@
 										"{@item +1 Thick Skin Tattoo|AU|Thick Skin Tattoo, +1} {@i ({@itemProperty ACT2|AU|Armored Type})}",
 										"{@item +2 Thick Skin Tattoo|AU|Thick Skin Tattoo, +2} {@i ({@itemProperty ACT2|AU|Armored Type})}",
 										"{@item Whistling Message Tattoo|AU|Whistling Message}",
-										"{@item Windry Tattoo|AU|Windy} {@i ({@itemProperty EMT2|AU|Elemental Type})}"
+										"{@item Windry Tattoo|AU|Windy} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Wings of Ink Tattoo|AU|Wings of Ink}"
 									]
 								}
 							]
@@ -8801,6 +8802,13 @@
 						{
 							"type": "statblock",
 							"tag": "item",
+							"name": "Wings of Ink Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
 							"name": "Wizard Tattoo",
 							"source": "AU",
 							"style": "inset"
@@ -8827,6 +8835,7 @@
 										"{@item Adamantined Tattoo|AU|Adamantined}",
 										"{@item Airy Tattoo|AU|Airy} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
 										"{@item Ashy Tattoo|AU|Ashy} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Audible Tattoo|AU|Audible}",
 										"{@item Big Flashlight Tattoo|AU|Big Flashlight}",
 										"All {@item Branded Tattoos|AU}",
 										"{@item Coiled Tattoo|AU|Coiled}",
@@ -8838,7 +8847,9 @@
 										"{@item Fiery Tattoo|AU|Fiery} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
 										"{@item Fire Absorbing Tattoo|AU|Fire Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
 										"{@item Icey Tattoo|AU|Icey} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
+										"{@item Librarian's Tattoo|AU|Librarian's}",
 										"{@item Lightning Absorbing Tattoo|AU|Lightning Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
+										"{@item Lucky Tattoo|AU|Lucky}",
 										"{@item Mithralled Tattoo|AU|Mithralled}",
 										"{@item Moderately Armored Tattoo|AU|Moderately Armored} {@i ({@itemProperty ACT2|AU|Armored Type})}",
 										"{@item Molten Tattoo|AU|Molten} {@i ({@itemProperty EMT2|AU|Elemental Type})}",
@@ -8847,8 +8858,8 @@
 										"{@item Poison Absorbing Tattoo|AU|Poison Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
 										"{@item Psychic Absorbing Tattoo|AU|Psychic Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
 										"{@item Radiant Absorbing Tattoo|AU|Radiant Absorbing} {@i ({@itemProperty AT2|AU|Absorbing Type})}",
-										"{@item School of Magic Tattoo (3rd Level)|AU} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
-										"{@item School of Magic Tattoo (4th Level)|AU} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
+										"{@item School of Magic Tattoo (3rd Level)|AU|School of Magic (3rd Level)} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
+										"{@item School of Magic Tattoo (4th Level)|AU|School of Magic (4th Level)} {@i ({@itemProperty EsT2|AU|Enspelled Type})}",
 										"{@item Silvered Tattoo|AU|Silvered}",
 										"{@item +3 Thick Skin Tattoo|AU|Thick Skin Tattoo, +3} {@i ({@itemProperty ACT2|AU|Armored Type})}",
 										"{@item +4 Thick Skin Tattoo|AU|Thick Skin Tattoo, +4} {@i ({@itemProperty ACT2|AU|Armored Type})}",
@@ -8883,6 +8894,13 @@
 							"type": "statblock",
 							"tag": "item",
 							"name": "Ashy Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Audible Tattoo",
 							"source": "AU",
 							"style": "inset"
 						},
@@ -8994,7 +9012,21 @@
 						{
 							"type": "statblock",
 							"tag": "item",
+							"name": "Librarian's Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
 							"name": "Lightning Absorbing Tattoo",
+							"source": "AU",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Lucky Tattoo",
 							"source": "AU",
 							"style": "inset"
 						},
@@ -9355,39 +9387,39 @@
 											],
 											"rows": [
 												[
-													"1",
+													"01",
 													"The tattoo glows faintly in the dark"
 												],
 												[
-													"2",
+													"02",
 													"The tattoo is animated, and moves in a semblance of life"
 												],
 												[
-													"3",
+													"03",
 													"The tattoo roams around the body at will"
 												],
 												[
-													"4",
+													"04",
 													"The tattoo changes depending on its owners mood"
 												],
 												[
-													"5",
+													"05",
 													"The tattoo is only visible under moonlight"
 												],
 												[
-													"6",
+													"06",
 													"The tattoo burns like a brand when touched by someone other than its owner"
 												],
 												[
-													"7",
+													"07",
 													"The tattoo only appears when a particular password is spoken"
 												],
 												[
-													"8",
+													"08",
 													"The tattoo refers to some future event, unknown to the tattoos owner"
 												],
 												[
-													"9",
+													"09",
 													"The tattoo becomes more detailed to an observer as they get to know its owner"
 												],
 												[
@@ -9460,47 +9492,47 @@
 											],
 											"rows": [
 												[
-													"1",
+													"01",
 													"Glowing",
 													"Twice a day, a touch can activate this tattoo. It illuminates as if the cantrip {@spell Light|XPHB} has been cast on it"
 												],
 												[
-													"2",
+													"02",
 													"Electrified",
 													"Once per day, if another creature touches this tattoo the owner can cast the cantrip {@spell Shocking Grasp|XPHB} against that creature. The owner makes a ranged spell attack against the creature, on a hit the creature takes {@dice 1d8} lightning damage"
 												],
 												[
-													"3",
+													"03",
 													"Fortified",
 													"The tattoo grants advantage on CON saving throws"
 												],
 												[
-													"4",
+													"04",
 													"Mighty",
 													"The tattoo grants advantage on STR saving throws"
 												],
 												[
-													"5",
+													"05",
 													"Delicate",
 													"The tattoo grants advantage on DEX saving throws"
 												],
 												[
-													"6",
+													"06",
 													"Intricate",
 													"The tattoo grants advantage on INT saving throws"
 												],
 												[
-													"7",
+													"07",
 													"Ancient",
 													"The tattoo grants advantage on WIS saving throws"
 												],
 												[
-													"8",
+													"08",
 													"Distinctive",
 													"The tattoo grants advantage on CHA saving throws"
 												],
 												[
-													"9",
+													"09",
 													"Threatening",
 													"The tattoo grants +2 to {@skill Intimidation|XPHB} checks against creatures that can see it"
 												],

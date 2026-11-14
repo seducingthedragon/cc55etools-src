@@ -5213,6 +5213,45 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Audible Tattoo",
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Prismatic Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Sharp Hearing",
+					"entries": [
+						"With this tattoo, you have {@variantrule Advantage|XPHB} on {@variantrule Saving Throws|XPHB} to avoid or end the {@condition Deafened|XPHB} condition. Additionally, when you enter a space that automatically causes the {@condition Deafened|XPHB} condition, such as a space impacted by the {@spell Silence|XPHB} spell, you can make a Constitution {@variantrule Saving Throw|XPHB} against the areas DC. On a save, you are not impacted by the condition as well as any other impairments it causes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Requirements:} Upper neck behind the Ear",
+								"{@b Recommended Iconography and/or Size:} Any Icon of a Tiny or larger size.",
+								"{@b Required Visibility:} No"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Avalanche Tattoo",
 			"group": [
 				"Elemental Tattoos"
@@ -42777,6 +42816,67 @@
 			]
 		},
 		{
+			"name": "Librarian's Tattoo",
+			"source": "AU",
+			"page": 157,
+			"rarity": "rare",
+			"property": [
+				"ET2|AU"
+			],
+			"reqAttune": "optional",
+			"detail1": "{@item Glowing Ink|AU}",
+			"detail2": "Additionally, {@item Invisible Ink|AU} and {@item Prismatic Ink|AU} are required.",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Cone of Silence",
+					"entries": [
+						"With this tattoo, you can use a {@action Magic|XPHB} action to release a 60-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} of silencing energy. Each creature within the area must make a Constitution {@variantrule Saving Throw|XPHB} or become {@condition Deafened|XPHB|Deaf} for 1 minute.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "Without Attunement,",
+									"entry": "the saving throw is against a {@dc 13} and once you use this action, you cannot do so again until the next dawn."
+								},
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "With Attunement,",
+									"entry": "you can set the DC using your Constitution, Intelligence, Wisdom, or Charisma ability and you can use this action once between {@variantrule Short Rest|XPHB|Short} and {@variantrule Long Rest|XPHB|Long Rests}."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Face (around eyes or mouth), Hands (by fingers)",
+								"{@b Recommended Iconography and/or Size:} Symbolic image in a Small or larger size.",
+								"{@b Required Visibility:} Not necessary"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Lifewell Tattoo",
 			"source": "AU",
 			"page": 160,
@@ -43868,6 +43968,49 @@
 			"wondrous": true,
 			"entries": [
 				"When you roll a 1 on a saving throw or ability check, you can use this preserved rabbit foot's magic to reroll the die. You must use the new roll, and the foot disintegrates."
+			]
+		},
+		{
+			"name": "Lucky Tattoo",
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Stardust Ink|AU}",
+			"detail2": "Additionally, this tattoo requires {@item Prismatic Ink|AU}.",
+			"recharge": "restShort",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Lucky Rolls: Once per Rest",
+					"entries": [
+						"When you make a {@variantrule D20 Test|XPHB|D20 Roll}, you can choose to do so with {@variantrule Advantage|XPHB} or reroll it, choosing either of the two rolls.",
+						"Once you make a roll with either of these options with this tattoo, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Back of Hands, Center of Chest",
+								"{@b Recommended Iconography and/or Size:} Symbol representing luck, such as a four-leaf clover or horseshoe, in a Small size or larger.",
+								"{@b Required Visibility:} Not necessary, although some say it is best if this tattoo is covered."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -86340,6 +86483,91 @@
 				"Arcana - Rare|XDMG"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Wings of Ink Tattoo",
+			"source": "AU",
+			"page": 158,
+			"rarity": "uncommon",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Enchanted Ink|AU}",
+			"detail2": "You need at least one additional {@item Enchanted Inks|AU|Enchanted Ink Type}.",
+			"recharge": "restShort",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{@kbd While this tattoo does not require Attunement, it only works for those who have a Fly Speed and physical wings.}",
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Transmutate Wings",
+					"entries": [
+						"This tattoo allows you to alter the form of your available wings to look different. As a {@action Magic|XPHB|Magic Action}, you transmutate your wings to take a different appearance, lasting 1 hour. Once you do so, you must take a {@variantrule Short|XPHB} or {@variantrule Long Rest|XPHB} before you can alter them again. If you use two or more additional types of {@item Enchanted Inks|AU}, when you take this action, you can choose which form it alters to, however all present wings change in the same way. How they look different is based on the additional Enchanted Ink you use for this tattoo, as described in the Table below.",
+						{
+							"type": "table",
+							"caption": "Transmutation by Ink",
+							"colLabels": [
+								"Type of Ink",
+								"Altered Appearance Details"
+							],
+							"colStyles": [
+								"col-3",
+								"col-9"
+							],
+							"rows": [
+								[
+									"{@item Dancing Ink|AU}",
+									"Maintains appearance but appears to wave and wobble even while still"
+								],
+								[
+									"any 1 {@item Elemental Inks|AU|Elemental Ink}",
+									"Appears to be made out of the Elemental type used"
+								],
+								[
+									"{@item Glowing Ink|AU}",
+									"Has a faint glowing aura"
+								],
+								[
+									"{@item Invisible Ink|AU}",
+									"Makes your wings appear approximately 50% transluscent"
+								],
+								[
+									"{@item Metal-Lic Ink|AU}",
+									"Appears to be made out of metal"
+								],
+								[
+									"{@item Prismatic Ink|AU}",
+									"Has a shifting color hue from different angles and light"
+								],
+								[
+									"{@item Stardust Ink|AU}",
+									"Glitters and Twinkles at random"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Required:} On your Back at the Base of your Wings",
+								"{@b Recommended Iconography and/or Size:} Any relating to how you want your wings to transmutate, of a Medium or larger size. It does need to go around the entire base of your wings.",
+								"{@b Required Visibility:} Not necessary, as long as your wings are accessible for flight."
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"name": "Wingwear",
