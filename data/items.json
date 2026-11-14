@@ -10079,6 +10079,140 @@
 			]
 		},
 		{
+			"name": "Bond of Commitment Tattoo",
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "{@item Ink|AU}",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
+			"recharge": "restShort",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "A Bonded Pair",
+					"entries": [
+						"This is a Marital Love tattoo. If a pair has the {@item Bond of Connection Tattoo|AU}, they can also have this tattoo, gaining both benefits. When two lovers get this tattoo done, they gain the following benefits.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Well-Being Awareness",
+									"entry": "While on the same plane, regardless of the distance, you are aware of the overall well-being of your friend. This is specific to general emotional state and health. While you both are within 1 mile of each other, you know the exact direction and distance the other person is from you. Beyond 1 mile, you have a general sense of their present environment but no exact details. If one person crosses into a different plane, they are unaware of the person's well-being but they are aware that the person is still alive."
+								},
+								{
+									"type": "item",
+									"name": "Protective",
+									"entry": "After a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, you grant your partner access to the {@spell Shield|XPHB} spell, which they can cast once until their next rest."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Attunement Not Required",
+					"entries": [
+						"Although attunement is not required for this tattoo, two people are required to have this tattoo and get it done together in the same spot, with the same design. If one people dies, the other person is aware of their passing and their tattoo no longer retains its magic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Anywhere but must be in the same spot between the two people",
+								"{@b Recommended Iconography and/or Size:} Any image and size but must be exactly the same between the two people",
+								"{@b Required Visibility:} No"
+							]
+						}
+					]
+				}
+			],
+			"additionalSpells": {
+				"rest": {
+					"1e": [
+						"shield|xphb"
+					]
+				}
+			}
+		},
+		{
+			"name": "Bond of Connection Tattoo",
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"property": [
+				"ET2|AU"
+			],
+			"detail1": "any one {@item Enchanted Inks|AU|Enchanted Ink} of the pairs choice",
+			"detail2": "No additional {@item Enchanted Inks|AU} are required.",
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "A Bonded Pair",
+					"entries": [
+						"This tattoo is a Friendship Tattoo. When two friends get this tattoo done, they gain the following benefits.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Well-Being Awareness",
+									"entry": "While on the same plane, regardless of the distance, you are aware of the overall well-being of your friend. This is specific to general emotional state and health. While you both are within 1 mile of each other, you know the exact direction and distance the other person is from you. Beyond 1 mile, you have a general sense of their present environment but no exact details."
+								},
+								{
+									"type": "item",
+									"name": "Protective",
+									"entry": "Within combat, if one person, with this tattoo, is attacked, the other person with this tattoo has {@variantrule Advantage|XPHB} on their next Attack roll against the previous person's attacker. On a hit, they also roll their damage with {@variantrule Advantage|XPHB}."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Attunement Not Required",
+					"entries": [
+						"Although attunement is not required for this tattoo, two people are required to have this tattoo and get it done together in the same spot, with the same design. If one people dies, the other person is aware of their passing and their tattoo no longer retains its magic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Anywhere but must be in the same spot between the two people",
+								"{@b Recommended Iconography and/or Size:} Any image and size but must be exactly the same between the two people",
+								"{@b Required Visibility:} No"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Bonecounter",
 			"source": "SDW",
 			"baseItem": "mace|phb",
@@ -28473,6 +28607,74 @@
 			"entries": [
 				"This steel helm is shaped like the head of a boar. Once you don the helm, it can't be removed until you die or until a {@spell remove curse} spell or similar magic is cast on it. If you wear the helm and are a humanoid, you gain the following flaw until the helm is removed: \"I'm exceedingly stubborn and think I'm right all the time.\" (This flaw supersedes any conflicting flaw.)"
 			]
+		},
+		{
+			"name": "Familiar Tattoo",
+			"source": "AU",
+			"page": 157,
+			"rarity": "uncommon",
+			"property": [
+				"ET2|AU"
+			],
+			"reqAttune": "optional",
+			"detail1": "{@item Prismatic Ink|AU}",
+			"detail2": "Additionally, {@item Dancing Ink|AU} is required.",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "Find Familiar",
+					"entries": [
+						"You know the {@spell Find Familiar|XPHB} spell. When you cast the spell, you can use the tattoo as the material components and cast it without any spell slots, once per dawn. Additionally, when you dismiss your familiar to its demiplane, it's actually located within your tattoo, causing your tattoo to alter to the shape of your familiar.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "Attunement is not required",
+									"entry": "if the spell is on your class spell list or you have an Animal Companion that is a Tiny CR 0 beast, whose essence can be included in the spell, turning you companion into a magical familiar."
+								},
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "Attunement is required",
+									"entry": "if you are not a caster, the spell is not in your class spell list, or you don't have a companion to bond with this tattoo."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Recommendations:} Anywhere",
+								"{@b Recommended Iconography and/or Size:} Image of a space holding a creature in a Medium size or larger ",
+								"{@b Required Visibility:} Yes"
+							]
+						}
+					]
+				}
+			],
+			"attachedSpell": {
+				"daily": {
+					"1e": [
+						"find familiar|xphb"
+					]
+				}
+			}
 		},
 		{
 			"name": "Fane-Eater",
@@ -81795,6 +81997,67 @@
 					]
 				}
 			}
+		},
+		{
+			"name": "Truesighted Tattoo",
+			"source": "AU",
+			"page": 159,
+			"rarity": "rare",
+			"property": [
+				"ET2|AU"
+			],
+			"reqAttune": "optional",
+			"detail1": "{@item Invisible Ink|AU}",
+			"detail2": "Additionally, either {@item Prismatic Ink|AU} or {@item Stardust Ink|XPHB} is required.",
+			"recharge": "dawn",
+			"rechargeAmount": 1,
+			"charges": 1,
+			"tattoo": true,
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Enchanted Tattoo|AU}",
+				{
+					"type": "entries",
+					"name": "To See with Truesight",
+					"entries": [
+						"You gain access to {@sense Truesight|XPHB}. How you use it is dependent on your attunement status.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "Without Attunement,",
+									"entry": "as a {@action Magic|XPHB} action, you gain {@sense Truesight|XPHB} out to a range of 60 feet for 10 minutes. Once you use this benefit, you cannot do so again until the following dawn."
+								},
+								{
+									"type": "item",
+									"nameDot": false,
+									"name": "With Attunement,",
+									"entry": "you have {@sense Truesight|XPHB} out to a range of 60 feet always. As a {@action Magic|XPHB} action, you can extend this range out to 120 feet for 10 minutes. Once you use this benefit, you cannot do so again until the following dawn."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Planning and Creating this Tattoo",
+					"entries": [
+						"Below is a list of Recommendations and Requirements for creating and planning this tattoo.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Placement Requirements:} Face, around the Eyes",
+								"{@b Recommended Iconography and/or Size:} Symbolic icons in a Small to larger size.",
+								"{@b Required Visibility:} No but may be difficult to conceal."
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"name": "Truth Serum",
