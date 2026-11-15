@@ -4769,6 +4769,9 @@
 		},
 		{
 			"name": "Artificer Tattoo",
+			"group": [
+				"Class Tattoos"
+			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
@@ -6862,6 +6865,9 @@
 		},
 		{
 			"name": "Barbarian Tattoo",
+			"group": [
+				"Class Tattoos"
+			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
@@ -6893,23 +6899,33 @@
 								"{@b Placement Recommendations:} Hands, Arms, Shoulders, Chest, Legs",
 								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and 1 {@item Elemental Inks|AU|Elemental Ink} of your choice",
 								"{@b Recommended Iconography:} Greataxe, Greatsword, Mountains, Stone",
-								"{@b Additional Resources:} RESOURCEFORBENIES"
+								"{@b Additional Resources:} Something representing your reason for your rage or what makes you rage"
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "BENNIESNAME",
+					"name": "Quick Rage",
 					"entries": [
-						"BENEFITSINFORMATION",
-						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+						"You can use this tattoo to enter into a {@classFeature Rage|Barbarian||1} without expending a use of this feature. When you do so, you follow its standard rules and benefits with the following changes regarding its duration.",
+						{
+							"type": "list",
+							"items": [
+								"This Rage lasts for 1 minute at max",
+								"Making an Attack Roll against an object counts towards maintaining your rage"
+							]
+						},
+						"Once you use this benefit, you must finish a {@variantrule Long Rest|XPHB} before you can do so again."
 					]
 				}
 			]
 		},
 		{
 			"name": "Bard Tattoo",
+			"group": [
+				"Class Tattoos"
+			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
@@ -6941,17 +6957,17 @@
 								"{@b Placement Recommendations:} Anywhere relating to your Creative Style",
 								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Glowing Ink|AU}, and at least 1 other Enchanted Ink Type of your choice",
 								"{@b Recommended Iconography:} Musical Instrument, Musical Notes, Quill, Dance Shoes, any image relating to your bardic style",
-								"{@b Additional Resources:} RESOURCEFORBENIES"
+								"{@b Additional Resources:} Something representative of the source of your Inspiration"
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "BENNIESNAME",
+					"name": "Grand Inspiration",
 					"entries": [
-						"BENEFITSINFORMATION",
-						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+						"On your turn, you can use your {@variantrule Action|XPHB|Full Action} to {@action Influence|XPHB} an enemy using the {@skill Performance|XPHB} skill. When you succeed a {@dc 15} check, regardless of its impact on the enemy, all allies who heard or saw your action are Inspired. Until the start of your next turn, each ally has {@variantrule Advantage|XPHB} on their {@variantrule D20 Test|XPHB|D20 Rolls}.",
+						"This benefit does not expend a use of your {@classFeature Bardic Inspiration|Bard||1}. Once you use this benefit, you must finish a {@variantrule Long Rest|XPHB} before you can use it again."
 					]
 				}
 			]
@@ -14552,6 +14568,9 @@
 		},
 		{
 			"name": "Cleric Tattoo",
+			"group": [
+				"Class Tattoos"
+			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
@@ -14583,17 +14602,17 @@
 								"{@b Placement Recommendations:} Face, Chest, Hands",
 								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Glowing Ink|AU}, and {@item Stardust Ink|AU}",
 								"{@b Recommended Iconography:} Symbol representing your Deity, Prayer Beads, Radiant Light",
-								"{@b Additional Resources:} RESOURCEFORBENIES"
+								"{@b Additional Resources:} Something representing your Deity or your Domain"
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "BENNIESNAME",
+					"name": "Channeling Radiance",
 					"entries": [
-						"BENEFITSINFORMATION",
-						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+						"As a {@variantrule Bonus Action|XPHB}, you can channel radiance into your attacks for 1 minute. For this duration, anytime to hit with an attack roll and deal damage, you deal additional Radiant damage equal to your Proficiency Bonus.",
+						"Once you use this benefit, you must finish a {@variantrule Long Rest|XPHB} before you can use it again."
 					]
 				}
 			]
@@ -24212,6 +24231,9 @@
 		},
 		{
 			"name": "Druid Tattoo",
+			"group": [
+				"Class Tattoos"
+			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
@@ -24243,20 +24265,24 @@
 								"{@b Placement Recommendations:} Head, Face, Hands, Chest, Feet",
 								"{@b Required Ink:} {@item Enchanted Ink|AU} and any 2 {@item Elemental Inks|AU} of your choice",
 								"{@b Recommended Iconography:} Antlers, Totem, Flora and Fauna, Nature-Theme",
-								"{@b Additional Resources:} RESOURCEFORBENIES"
+								"{@b Additional Resources:} A sprig of mistletoe, a totem, or a revearved piece of nature for you"
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "BENNIESNAME",
+					"name": "Wild Primeval Magic",
 					"entries": [
-						"BENEFITSINFORMATION",
-						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+						"When you {@classFeature Wild Shape|Druid||2}, you can ignore the No Spellcasting rule for {@spell Druidcraft|XPHB}. When you cast this cantrip while in Wild Shape, you can only use the Bloom or Sensory Effect options."
 					]
 				}
-			]
+			],
+			"attachedSpells": {
+				"will": [
+					"druidcraft|xphb"
+				]
+			}
 		},
 		{
 			"name": "Dungeoneer's Pack",
@@ -29466,6 +29492,9 @@
 		},
 		{
 			"name": "Fighter Tattoo",
+			"group": [
+				"Class Tattoos"
+			],
 			"source": "AU",
 			"page": 157,
 			"rarity": "uncommon",
@@ -47445,6 +47474,9 @@
 		},
 		{
 			"name": "Monk Tattoo",
+			"group": [
+				"Class Tattoos"
+			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
@@ -51457,6 +51489,9 @@
 		},
 		{
 			"name": "Paladin Tattoo",
+			"group": [
+				"Class Tattoos"
+			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
@@ -58457,6 +58492,9 @@
 		},
 		{
 			"name": "Ranger Tattoo",
+			"group": [
+				"Class Tattoos"
+			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
@@ -63189,6 +63227,9 @@
 		},
 		{
 			"name": "Rogue Tattoo",
+			"group": [
+				"Class Tattoos"
+			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
@@ -69306,6 +69347,9 @@
 		},
 		{
 			"name": "Sorcerer Tattoo",
+			"group": [
+				"Class Tattoos"
+			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
@@ -84983,6 +85027,9 @@
 		},
 		{
 			"name": "Warlock Tattoo",
+			"group": [
+				"Class Tattoos"
+			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",
@@ -87060,6 +87107,9 @@
 		},
 		{
 			"name": "Wizard Tattoo",
+			"group": [
+				"Class Tattoos"
+			],
 			"source": "AU",
 			"page": 158,
 			"rarity": "uncommon",

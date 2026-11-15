@@ -9457,7 +9457,7 @@
 					"name": "Class Tattoo",
 					"entries": [
 						"These are magical tattoos often used to mark those of a particular station. While they are typically used to announce that role to others without verbal interactions, they do provide the individual with benefits relating to the specified class.",
-						"These tattoos do not require {@variantrule Attunement|XPHB} so long as it is your class. You can only have one without Attunement, plus one additional Class tattoo with Attunement. Any additional Class Tattoos added will not provide any benefit, even if you were to attempt to attune to it.",
+						"These tattoos do not require {@variantrule Attunement|XPHB} so long as it is your class. You can only have one without Attunement, plus one additional Class Tattoo with Attunement. Any additional Class Tattoos added will not provide any benefit, even if you were to attempt to attune to it.",
 						"{@i Attuning to a magical tattoo must take place during the tattooing process. If you choose not to attune during that time, you will not be able to attune to it later.}"
 					]
 				}
