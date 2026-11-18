@@ -63336,10 +63336,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "BENNIESNAME",
+					"name": ": For Anyone with this Tattoo",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": "Rogues Only: BENNIESNAME",
 					"entries": [
 						"BENEFITSINFORMATION",
-						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+						"Once you use this benefit, you must finish a {@variantrule Long Rest|XPHB} before you can use it again."
 					]
 				}
 			]
@@ -69456,10 +69461,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "BENNIESNAME",
+					"name": ": For Anyone with this Tattoo",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": "Sorcerers Only: BENNIESNAME",
 					"entries": [
 						"BENEFITSINFORMATION",
-						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+						"Once you use this benefit, you must finish a {@variantrule Long Rest|XPHB} before you can use it again."
 					]
 				}
 			]
@@ -85136,10 +85146,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "BENNIESNAME",
+					"name": ": For Anyone with this Tattoo",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": "Warlocks Only: BENNIESNAME",
 					"entries": [
 						"BENEFITSINFORMATION",
-						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+						"Once you use this benefit, you must finish a {@variantrule Long Rest|XPHB} before you can use it again."
 					]
 				}
 			]
@@ -87216,10 +87231,15 @@
 				},
 				{
 					"type": "entries",
-					"name": "BENNIESNAME",
+					"name": ": For Anyone with this Tattoo",
+					"entries": []
+				},
+				{
+					"type": "entries",
+					"name": "Wizards Only: BENNIESNAME",
 					"entries": [
 						"BENEFITSINFORMATION",
-						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+						"Once you use this benefit, you must finish a {@variantrule Long Rest|XPHB} before you can use it again."
 					]
 				}
 			]
