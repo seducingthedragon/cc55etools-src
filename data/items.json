@@ -4789,7 +4789,7 @@
 					"type": "insetReadaloud",
 					"name": "For the Engineers of the Party and Community.",
 					"entries": [
-						"This tattoo is for Artificers. Their Attunement is optional and not required to gain full benefits. \"Artificer Appreciators\" and \"Artificer Dabblers\" are required to attune to this tattoo."
+						"This tattoo is for Artificers. Their Attunement is optional and not required to gain full benefits. If you are a {@variantrule Multiclassing|XPHB|Multi-Disciplinarian} and already have 1 Class Tattoo that you are not attuned to, then you are required to attune to this one. \"Artificer Appreciators\" and \"Artificer Dabblers\" are also required to attune to this tattoo."
 					]
 				},
 				{
@@ -6885,7 +6885,7 @@
 					"type": "insetReadaloud",
 					"name": "For the Wild Warrior of the Party and Community.",
 					"entries": [
-						"This tattoo is for Barbarians. Their Attunement is optional and not required to gain full benefits. \"Barbarian Appreciators\" and \"Barbarian Dabblers\" are required to attune to this tattoo."
+						"This tattoo is for Barbarians. Their Attunement is optional and not required to gain full benefits. If you are a {@variantrule Multiclassing|XPHB|Multi-Disciplinarian} and already have 1 Class Tattoo that you are not attuned to, then you are required to attune to this one. \"Barbarian Appreciators\" and \"Barbarian Dabblers\" are also required to attune to this tattoo."
 					]
 				},
 				{
@@ -6906,14 +6906,23 @@
 				},
 				{
 					"type": "entries",
-					"name": "Quick Rage",
+					"name": "Juggernaut: For Anyone with this Tattoo",
 					"entries": [
-						"You can use this tattoo to enter into a {@classFeature Rage|Barbarian||1} without expending a use of this feature. When you do so, you follow its standard rules and benefits with the following changes regarding its duration.",
+						"As a {@action Magic|XPHB}, you can make the tattoo expand outwards, shielding your entire body for 1 minute. During this time, you have {@variantrule Resistance|XPHB} to Bludgeoning, Piercing, and Slashing damage. If you take the {@action Dash|XPHB} action during this time, the damage you take from nonmagical weapons is also reduced by your {@variantrule Proficiency|XPHB|Proficiency Bonus} until the start of your next turn.",
+						"Once you use this benefit, it can't be used this way again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Barbarians ONLY: Quick Rage",
+					"entries": [
+						"You can use this tattoo to enter into a {@classFeature Rage|Barbarian|XPHB|1} without expending a use of that feature. When you do so, you follow its standard rules and benefits with the following changes.",
 						{
 							"type": "list",
 							"items": [
-								"This Rage lasts for 1 minute at max",
-								"Making an Attack Roll against an object counts towards maintaining your rage"
+								"This Rage lasts for 1 minute at max.",
+								"Making an Attack Roll against an object counts towards maintaining your Rage.",
+								"No Action or Bonus Action is required to maintain this Rage, even if you miss your targets on attacks."
 							]
 						},
 						"Once you use this benefit, you must finish a {@variantrule Long Rest|XPHB} before you can do so again."
@@ -6943,7 +6952,7 @@
 					"type": "insetReadaloud",
 					"name": "For the Inspirational Ones of the Party and Community.",
 					"entries": [
-						"This tattoo is for Bards. Their Attunement is optional and not required to gain full benefits. \"Bard Appreciators\" and \"Bard Dabblers\" are required to attune to this tattoo."
+						"This tattoo is for Bards. Their Attunement is optional and not required to gain full benefits. If you are a {@variantrule Multiclassing|XPHB|Multi-Disciplinarian} and already have 1 Class Tattoo that you are not attuned to, then you are required to attune to this one. \"Bard Appreciators\" and \"Bard Dabblers\" are also required to attune to this tattoo."
 					]
 				},
 				{
@@ -6964,9 +6973,17 @@
 				},
 				{
 					"type": "entries",
-					"name": "Grand Inspiration",
+					"name": "A One Person Show: For Anyone with this Tattoo",
 					"entries": [
-						"On your turn, you can use your {@variantrule Action|XPHB|Full Action} to {@action Influence|XPHB} an enemy using the {@skill Performance|XPHB} skill. When you succeed a {@dc 15} check, regardless of its impact on the enemy, all allies who heard or saw your action are Inspired. Until the start of your next turn, each ally has {@variantrule Advantage|XPHB} on their {@variantrule D20 Test|XPHB|D20 Rolls}.",
+						"While this tattoo is applied on your skin, whenever you sing or play a musical instrument, the tattoo morphs its design to resemble a random assortment of different instruments. The instruments accompany you as you perform, doubling the range within which creatures can hear your music, and granting you advantage on Charisma (Performance) checks for 1 minute.",
+						"Once you use this benefit, it can't be used this way again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bards Only: Grand Inspiration",
+					"entries": [
+						"On your turn, you can use your {@variantrule Action|XPHB|Full Action} to {@action Influence|XPHB} an enemy using the {@skill Performance|XPHB} skill. When you succeed a {@dc 15} check, regardless of its impact on the enemy, all allies who heard or saw your action are {@classFeature Bardic Inspiration|Bard|XPHB|1||Inspired}. Until the start of your next turn, each ally can add your Bardic Die to any of their {@variantrule D20 Test|XPHB|D20 Rolls}.",
 						"This benefit does not expend a use of your {@classFeature Bardic Inspiration|Bard||1}. Once you use this benefit, you must finish a {@variantrule Long Rest|XPHB} before you can use it again."
 					]
 				}
@@ -14588,7 +14605,7 @@
 					"type": "insetReadaloud",
 					"name": "For the Holy Ones of the Party and Community.",
 					"entries": [
-						"This tattoo is for Clerics. Their Attunement is optional and not required to gain full benefits. \"Cleric Appreciators\" and \"Cleric Dabblers\" are required to attune to this tattoo."
+						"This tattoo is for Clerics. Their Attunement is optional and not required to gain full benefits. If you are a {@variantrule Multiclassing|XPHB|Multi-Disciplinarian} and already have 1 Class Tattoo that you are not attuned to, then you are required to attune to this one. \"Cleric Appreciators\" and \"Cleric Dabblers\" are also required to attune to this tattoo."
 					]
 				},
 				{
@@ -14609,9 +14626,24 @@
 				},
 				{
 					"type": "entries",
-					"name": "Channeling Radiance",
+					"name": "Blind Reaction: For Anyone with this Tattoo",
 					"entries": [
-						"As a {@variantrule Bonus Action|XPHB}, you can channel radiance into your attacks for 1 minute. For this duration, anytime to hit with an attack roll and deal damage, you deal additional Radiant damage equal to your Proficiency Bonus.",
+						"As a {@variantrule Reaction|XPHB} when you are hit with a melee attack by a fiend or undead creature, the creature takes {@dice 1d6} radiant damage and the tattoo flashes {@variantrule Bright Light|XPHB} in a 10-foot radius and dim light for an additional 10 feet. Each creature within the {@variantrule Bright Light|XPHB} that can see must make a {@dc 15} Wisdom {@variantrule Saving Throw|XPHB} or become {@condition Stunned|XPHB} until the end of its next turn. A creature that succeeds on its saving throw is {@variantrule Immunity|XPHB|Immune} to the effects of the tattoo for the next 24 hours.",
+						"Once you use this benefit, it cannot be used this way again until the next dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Clerics Only: Quick Channeling",
+					"entries": [
+						"As a {@variantrule Bonus Action|XPHB}, you can use your {@classFeature Channel Divinity|Cleric|XPHB|2} without expending a use of it. You can only use the Divine Spark or Turn Undead option. When you use Channel Divinity in this way, the feature is altered in the following ways.",
+						{
+							"type": "list",
+							"items": [
+								"{@b For Divine Spark,} you only roll {@dice 1d8} without adding your Wisdom Modifier",
+								"{@b For Turn Undead,} if a creature fails the Saving Throw, they can make another Wisdom Saving Throw at the end of their turn, ending the effect on a success."
+							]
+						},
 						"Once you use this benefit, you must finish a {@variantrule Long Rest|XPHB} before you can use it again."
 					]
 				}
@@ -24241,9 +24273,6 @@
 				"CT2|AU"
 			],
 			"reqAttune": "if not a Druid",
-			"recharge": "restLong",
-			"rechargeAmount": 1,
-			"charges": 1,
 			"tattoo": true,
 			"wondrous": true,
 			"entries": [
@@ -24251,7 +24280,7 @@
 					"type": "insetReadaloud",
 					"name": "For the Primeval One of the Party and Community.",
 					"entries": [
-						"This tattoo is for Druids. Their Attunement is optional and not required to gain full benefits. \"Druid Appreciators\" and \"Druid Dabblers\" are required to attune to this tattoo."
+						"This tattoo is for Druids. Their Attunement is optional and not required to gain full benefits. If you are a {@variantrule Multiclassing|XPHB|Multi-Disciplinarian} and already have 1 Class Tattoo that you are not attuned to, then you are required to attune to this one. \"Druid Appreciators\" and \"Druid Dabblers\" are also required to attune to this tattoo."
 					]
 				},
 				{
@@ -24272,9 +24301,17 @@
 				},
 				{
 					"type": "entries",
-					"name": "Wild Primeval Magic",
+					"name": "Inky Vines: For Anyone with this Tattoo",
 					"entries": [
-						"When you {@classFeature Wild Shape|Druid||2}, you can ignore the No Spellcasting rule for {@spell Druidcraft|XPHB}. When you cast this cantrip while in Wild Shape, you can only use the Bloom or Sensory Effect options."
+						"You can use a {@action Magic|XPHB} action to activate this tattoo for 1 minute. For the duration, whenever a creature hits you with a melee attack, you can use a {@variantrule Reaction|XPHB} to cause the tattoo to extrude from your skin as long inky vines that wrap around the target. The creature must make a {@dc 15} Dexterity {@variantrule Saving Throw|XPHB} or become {@condition Restrained|XPHB} for 1 minute. A Huge or larger creature automatically succeeds on this {@variantrule Saving Throw|XPHB}. A creature can use an {@variantrule Action|XPHB} to make a {@dc 15} Strength check, breaking the inky vines and freeing the {@condition Restrained|XPHB} creature on a success.",
+						"Once this effect is used, it can't be used again until the following dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Druids Only: Wild Primeval Magic",
+					"entries": [
+						"When you {@classFeature Wild Shape|Druid|XPHB|2}, you can ignore the No Spellcasting rule for {@spell Druidcraft|XPHB}. When you cast this cantrip while in Wild Shape, you can only use the Bloom or Sensory Effect options."
 					]
 				}
 			],
@@ -29503,8 +29540,8 @@
 			],
 			"reqAttune": "if not a Fighter",
 			"recharge": "restLong",
-			"rechargeAmount": 1,
-			"charges": 1,
+			"rechargeAmount": "{@dice 1d3+1}",
+			"charges": 6,
 			"tattoo": true,
 			"wondrous": true,
 			"entries": [
@@ -29512,7 +29549,7 @@
 					"type": "insetReadaloud",
 					"name": "For the Combatant of the Party and Community.",
 					"entries": [
-						"This tattoo is for Fighters. Their Attunement is optional and not required to gain full benefits. \"Fighter Appreciators\" and \"Fighter Dabblers\" are required to attune to this tattoo."
+						"This tattoo is for Fighters. Their Attunement is optional and not required to gain full benefits. If you are a {@variantrule Multiclassing|XPHB|Multi-Disciplinarian} and already have 1 Class Tattoo that you are not attuned to, then you are required to attune to this one. \"Fighter Appreciators\" and \"Fighter Dabblers\" are also required to attune to this tattoo."
 					]
 				},
 				{
@@ -29526,17 +29563,32 @@
 								"{@b Placement Recommendations:} Face, Chest, Arms, Hands",
 								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Dancing Ink|AU}, and {@item Metal-Lic Ink|AU}",
 								"{@b Recommended Iconography:} Weaponry",
-								"{@b Additional Resources:} RESOURCEFORBENIES"
+								"{@b Additional Resources:} Blood, Sweat, Tears, your Fighting Essence"
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "BENNIESNAME",
+					"name": "Shield: For Anyone with this Tattoo",
 					"entries": [
-						"BENEFITSINFORMATION",
-						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+						"This tattoo has 6 charges. While this tattoo is applied on your skin, when an attack hits you, you can use your reaction to expend 1 or more charges to cause the tattoo to extrude from your skin and shield your body in response, reducing the damage by {@dice 1d8} per expended charge. The tattoo regains {@dice 1d3+1} expended charges daily at dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fighters Only: Special Second Wind",
+					"entries": [
+						"With this tattoo, you can use your {@classFeature Second Wind|Fighter|XPHB|1} feature, without expending a use of it. When you use this benefit, you can use it on a {@variantrule Bonus Action|XPHB} or a {@variantrule Reaction|XPHB} when you are hit with an attack or within an {@variantrule Area of Effect|XPHB}. Additionally, you can choose to alter your Second Wind in one of the following ways.",
+						{
+							"type": "list",
+							"items": [
+								"You can choose to regain only half of the amount of {@variantrule Hit Points|XPHB} and use the other half as bonus weapon damage on your next attack roll.",
+								"You can choose to not regain any {@variantrule Hit Points|XPHB} in exchange for {@variantrule Advantage|XPHB} on all attacks on your next turn.",
+								"You can choose to not regain any {@variantrule Hit Points|XPHB} in order to bolster your allies. Any number of allies of your choice that are within 30 feet of you regains health instead, distributing a portion to those choosen."
+							]
+						},
+						"Once you use this benefit, you must finish a {@variantrule Long Rest|XPHB} before you can use your {@classFeature Second Wind|Fighter|XPHB|1} in this way again."
 					]
 				}
 			]
@@ -47494,7 +47546,7 @@
 					"type": "insetReadaloud",
 					"name": "For the Wise Fighter of the Party and Community.",
 					"entries": [
-						"This tattoo is for Monks. Their Attunement is optional and not required to gain full benefits. \"Monk Appreciators\" and \"Monk Dabblers\" are required to attune to this tattoo."
+						"This tattoo is for Monks. Their Attunement is optional and not required to gain full benefits. If you are a {@variantrule Multiclassing|XPHB|Multi-Disciplinarian} and already have 1 Class Tattoo that you are not attuned to, then you are required to attune to this one. \"Monk Appreciators\" and \"Monk Dabblers\" are also required to attune to this tattoo."
 					]
 				},
 				{
@@ -47508,17 +47560,25 @@
 								"{@b Placement Recommendations:} Arms, Hands, Legs, Feet",
 								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Dancing Ink|AU}, and {@item Elemental Ink, Earth|AU}",
 								"{@b Recommended Iconography:} Fists, Monk Weapons, Meditation",
-								"{@b Additional Resources:} RESOURCEFORBENIES"
+								"{@b Additional Resources:} You meditating for 10 minutes while holding the inks before the tattooing process."
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "BENNIESNAME",
+					"name": "Come Closer: For Anyone with this Tattoo",
 					"entries": [
-						"BENEFITSINFORMATION",
-						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+						"As a {@action Magic|XPHB} action, you can speak the tattoo's command word, causing the ink to ripple towards your wrists. For the next minute, if your hands are empty, you can use a {@variantrule Bonus Action|XPHB} to extrude the tattoo towards a target you can see within 20 feet of you. If the target is an object that weighs 200 pounds or less, you can pull it up to 20 feet towards you. If the target is a creature of a size equal to or smaller than you, it must succeed on a Strength {@variantrule Saving Throw|XPHB} ({@dc 15}) or be pulled up to 20 feet towards you.",
+						"Once you use this feature, you cannot do so again until the following dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Monks Only: Focus Tattoo",
+					"entries": [
+						"Choose one feature that uses your {@classFeature Monk's Focus|Monk|XPHB|2||Focus Points} and tattoo its essense within this tattoo. You can use this tattoo to use that feature without expending Focus Points to use.",
+						"Once you do so, you must finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB} before you can use that feature without expending Focus Points."
 					]
 				}
 			]
@@ -51509,7 +51569,7 @@
 					"type": "insetReadaloud",
 					"name": "For the Convicted of the Party and Community.",
 					"entries": [
-						"This tattoo is for Paladins. Their Attunement is optional and not required to gain full benefits. \"Paladin Appreciators\" and \"Paladin Dabblers\" are required to attune to this tattoo."
+						"This tattoo is for Paladins. Their Attunement is optional and not required to gain full benefits. If you are a {@variantrule Multiclassing|XPHB|Multi-Disciplinarian} and already have 1 Class Tattoo that you are not attuned to, then you are required to attune to this one. \"Paladin Appreciators\" and \"Paladin Dabblers\" are also required to attune to this tattoo."
 					]
 				},
 				{
@@ -51530,10 +51590,10 @@
 				},
 				{
 					"type": "entries",
-					"name": "BENNIESNAME",
+					"name": "Paladins Only: Lay On Hands Reserves",
 					"entries": [
-						"BENEFITSINFORMATION",
-						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+						"When you expend all of your healing through {@classFeature Lay on Hands|Paladin|XPHB|1}, with this tattoo, you can use it one more time to heal up to 5 {@variantrule Hit Points|XPHB}.",
+						"Once you heal in this way, you must finish a {@variantrule Long Rest|XPHB} before you can do so again."
 					]
 				}
 			]
@@ -58512,7 +58572,7 @@
 					"type": "insetReadaloud",
 					"name": "For the Hunter of the Party and Community.",
 					"entries": [
-						"This tattoo is for Rangers. Their Attunement is optional and not required to gain full benefits. \"Ranger Appreciators\" and \"Ranger Dabblers\" are required to attune to this tattoo."
+						"This tattoo is for Rangers. Their Attunement is optional and not required to gain full benefits. If you are a {@variantrule Multiclassing|XPHB|Multi-Disciplinarian} and already have 1 Class Tattoo that you are not attuned to, then you are required to attune to this one. \"Ranger Appreciators\" and \"Ranger Dabblers\" are also required to attune to this tattoo."
 					]
 				},
 				{
@@ -58526,17 +58586,25 @@
 								"{@b Placement Recommendations:} Face, Chest, Arms, Hands, Feet",
 								"{@b Required Ink:} {@item Enchanted Ink|AU}, {@item Metal-Lic Ink|AU}, and at least 1 additional Enchanted Ink of your choice",
 								"{@b Recommended Iconography:} Bow and Arrow, Quiver, Animal Companion, Paw Prints, Claw Marks, Crosshairs",
-								"{@b Additional Resources:} RESOURCEFORBENIES"
+								"{@b Additional Resources:} Animal Companion Fur, Arrow Fletchling"
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "BENNIESNAME",
+					"name": "Venom: For Anyone with this Tattoo",
 					"entries": [
-						"BENEFITSINFORMATION",
-						"Once you create this item, you must finish a {@variantrule Long Rest|XPHB} before you craft it in this way again."
+						"As a {@action Magic|XPHB|Magic Action}, you can draw on the magic of the tattoo and spit onto the surface of a bladed weapon or on the bow sight of a bow, coating it with venonmous ink. The ink remains applied for 1 minute or until an attack using this weapon hits a creature. On a hit, the weapon does its normal weapon damage and the creature must succeed on a {@dc 15} Constitution {@variantrule Saving Throw|XPHB} or take {@damage 2d6} Poison damage and gain the {@condition Poisoned|XPHB} condition for 1 minute. A creature {@condition poisoned} in this way can repeat the saving throw at the end of each of its turns, ending the effect on it on a success.",
+						"Once this weapon hits a target or 1 minute has ended, this feature cannot be used again until the following dawn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rangers Only: Quarry Mark",
+					"entries": [
+						"When you hit a target with a weapon, as part of that attack, you can mark the target as your quarry. No concentration is used and the duration lasts for 1 minute. You have {@variantrule Advantage|XPHB} on attack rolls against your quarry and you deal an additional {@dice 1d6} in damage when you deal damage against your quarry. You also have {@variantrule Advantage|XPHB} regarding any skills check against the quarry and {@variantrule Saving Throws|XPHB} forced by the quarry.",
+						"Once you mark a quarry in this way, you must finish a {@variantrule Long Rest|XPHB} before you can mark another quarry in this way again."
 					]
 				}
 			]
@@ -63247,7 +63315,7 @@
 					"type": "insetReadaloud",
 					"name": "For the Spies of the Party and Community.",
 					"entries": [
-						"This tattoo is for Rogues. Their Attunement is optional and not required to gain full benefits. \"Rogue Appreciators\" and \"Rogue Dabblers\" are required to attune to this tattoo."
+						"This tattoo is for Rogues. Their Attunement is optional and not required to gain full benefits. If you are a {@variantrule Multiclassing|XPHB|Multi-Disciplinarian} and already have 1 Class Tattoo that you are not attuned to, then you are required to attune to this one. \"Rogue Appreciators\" and \"Rogue Dabblers\" are also required to attune to this tattoo."
 					]
 				},
 				{
@@ -69367,7 +69435,7 @@
 					"type": "insetReadaloud",
 					"name": "For the Magician of the Party and Community.",
 					"entries": [
-						"This tattoo is for Sorcerers. Their Attunement is optional and not required to gain full benefits. \"Sorcerer Appreciators\" and \"Sorcerer Dabblers\" are required to attune to this tattoo."
+						"This tattoo is for Sorcerers. Their Attunement is optional and not required to gain full benefits. If you are a {@variantrule Multiclassing|XPHB|Multi-Disciplinarian} and already have 1 Class Tattoo that you are not attuned to, then you are required to attune to this one. \"Sorcerer Appreciators\" and \"Sorcerer Dabblers\" are also required to attune to this tattoo."
 					]
 				},
 				{
@@ -85047,7 +85115,7 @@
 					"type": "insetReadaloud",
 					"name": "For the Magical Borrowers of the Party and Community.",
 					"entries": [
-						"This tattoo is for Warlocks. Their Attunement is optional and not required to gain full benefits. \"Warlock Appreciators\" and \"Warlock Dabblers\" are required to attune to this tattoo."
+						"This tattoo is for Warlocks. Their Attunement is optional and not required to gain full benefits. If you are a {@variantrule Multiclassing|XPHB|Multi-Disciplinarian} and already have 1 Class Tattoo that you are not attuned to, then you are required to attune to this one. \"Warlock Appreciators\" and \"Warlock Dabblers\" are also required to attune to this tattoo."
 					]
 				},
 				{
@@ -87127,7 +87195,7 @@
 					"type": "insetReadaloud",
 					"name": "For the Academic of the Party and Community.",
 					"entries": [
-						"This tattoo is for Wizards. Their Attunement is optional and not required to gain full benefits. \"Wizard Appreciators\" and \"Wizard Dabblers\" are required to attune to this tattoo."
+						"This tattoo is for Wizards. Their Attunement is optional and not required to gain full benefits. If you are a {@variantrule Multiclassing|XPHB|Multi-Disciplinarian} and already have 1 Class Tattoo that you are not attuned to, then you are required to attune to this one. \"Wizard Appreciators\" and \"Wizard Dabblers\" are also required to attune to this tattoo."
 					]
 				},
 				{
